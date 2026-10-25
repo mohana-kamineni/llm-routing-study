@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8b3d28928e144698bb428f1b3d657016",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe summary fails to cover several required key aspects. Specifically, it omits that the toy was purchased as a birthday gift (Key Aspect 1) and that the daughter carries it everywhere (Key Aspect 2). Additionally, it misses the detail about the friendly facial expression (Key Aspect 3) and the specific suggestion that larger alternatives exist for the same price (Key Aspect 4).",
+  "finish_reason": "stop",
+  "prompt_tokens": 419,
+  "completion_tokens": 85,
+  "total_tokens": 504,
+  "timestamp": "2026-09-19T17:07:37.201407+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c6f1c8fbd1c74b7687baf9dca659cf06",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies that the problem provides no information regarding lemons, leading to the correct conclusion that the number of lemons is zero (assuming none were present initially). The reasoning is sound and contains no substantive errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 206,
+  "completion_tokens": 51,
+  "total_tokens": 257,
+  "timestamp": "2026-09-28T07:58:53.041310+00:00"
+}

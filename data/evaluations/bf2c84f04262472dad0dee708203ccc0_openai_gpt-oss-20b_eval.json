@@ -1,0 +1,14 @@
+{
+  "prompt_id": "bf2c84f04262472dad0dee708203ccc0",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly translates the provided text into Tagalog. The translation is factually accurate, preserving all key details (name, nicknames, role as 17th president, and tenure as senator from 2010-2016) without introducing any false contradictions or errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 327,
+  "completion_tokens": 67,
+  "total_tokens": 394,
+  "timestamp": "2026-09-22T17:11:13.081243+00:00"
+}

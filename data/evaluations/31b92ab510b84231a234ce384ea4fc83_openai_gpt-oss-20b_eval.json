@@ -1,0 +1,14 @@
+{
+  "prompt_id": "31b92ab510b84231a234ce384ea4fc83",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the core argument of the provided text (that later school start times are beneficial) and synthesizes the scattered, repetitive points into a coherent, logical argument. It accurately reflects the evidence cited in the prompt (academic performance, health, safety) and addresses the counter-argument regarding morning routines found in the source text. There are no substantive reasoning errors; the logic flows correctly from the premises (sleep needs, study results) to the conclusion (later starts are better).",
+  "finish_reason": "stop",
+  "prompt_tokens": 672,
+  "completion_tokens": 107,
+  "total_tokens": 779,
+  "timestamp": "2026-09-19T17:12:13.168560+00:00"
+}

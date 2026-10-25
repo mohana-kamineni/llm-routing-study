@@ -1,0 +1,20 @@
+{
+  "prompt_id": "4121b01b1c194760adcd5989bdce72a5",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Perform the following actions: \n1 - Summarize the following text delimited by triple quotes with 1 sentence.\n2 - Translate the summary into French.\n3 - List each name in the French summary.\n4 - Output a json object that contains the following keys: french_summary, num_names.\n\nSeparate your answers with line breaks.\n\nText:\n\"\"\"\nIn a charming village, siblings Jack and Jill set out on a quest to fetch water from a hilltop well. As they climbed, singing joyfully, misfortune struck—Jack tripped on a stone and tumbled down the hill, with Jill following suit. Though slightly battered, the pair returned home to comforting embraces. Despite the mishap, their adventurous spirits remained undimmed, and they continued exploring with delight.\n\"\"\"",
+  "response_text": "In a charming village, siblings Jack and Jill set out on a quest to fetch water from a hilltop well, but they fell, were slightly injured, returned home, were comforted, and continued exploring with delight.  \nJack et Jill ont entrepris une quête pour puiser de l'eau d'un puits en haut de la colline, mais ils sont tombés, se sont légèrement blessés, sont rentrés chez eux, se sont réconfortés, et ont continué à explorer avec joie.  \nJack, Jill  \n{\"french_summary\":\"Jack et Jill ont entrepris une quête pour puiser de l'eau d'un puits en haut de la colline, mais ils sont tombés, se sont légèrement blessés, sont rentrés chez eux, se sont réconfortés, et ont continué à explorer avec joie.\",\"num_names\":2}",
+  "finish_reason": "stop",
+  "prompt_tokens": 227,
+  "completion_tokens": 1120,
+  "total_tokens": 1347,
+  "latency_ms": 1420,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:03:24.521867+00:00"
+}

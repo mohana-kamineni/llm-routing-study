@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c6a11042b84f4e1fb699df3e2eab0db4",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a factually accurate explanation of black holes and Hawking radiation, tailored to the requested \"explain like I'm five\" level. It correctly identifies the key concepts:\n1.  **Black Hole:** Described as a region with gravity so strong that nothing, not even light, can escape. It correctly mentions the event horizon as the point of no return.\n2.  **Hawking Radiation:** Correctly attributes the concept to Stephen Hawking and explains the mechanism via quantum effects (particle-antiparticle pairs) at the event horizon, where one particle escapes and the other falls in, causing the black hole to lose mass/energy over time.\n3.  **Terminology:** It correctly uses the term \"Hawking radiation\" while acknowledging the user's uncertainty about \"emission,\" noting that radiation is the standard term.\n\nThere are no false contradictions or significant scientific inaccuracies in the simplified explanation. The analogies (vacuum cleaner, leaking) are appropriate for the target audience and do not introduce factual errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 810,
+  "completion_tokens": 222,
+  "total_tokens": 1032,
+  "timestamp": "2026-09-24T12:57:24.320404+00:00"
+}

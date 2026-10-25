@@ -1,0 +1,20 @@
+{
+  "prompt_id": "0f1d412ef14e47f9ae37d5c9e84035e2",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who was the first president of Brazil?",
+  "response_text": "The first president of Brazil was **Manuel Deodoro da Fonseca**. He became president after the proclamation of the Republic on November 15 1889 and served as head of state from 1889 until his resignation in November 1891. (He had previously been a marshal in the Brazilian army and played a key role in the military coup that ended the imperial monarchy.)",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 142,
+  "total_tokens": 221,
+  "latency_ms": 355,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:22:46.300413+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "26d32e7d8fa747a1bc97eaed74449040",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies Henry Ford as the person who introduced the modern moving assembly line in 1913, which is the standard historical answer to this question. It accurately provides context regarding the reduction in assembly time and correctly distinguishes Ford's contribution from earlier innovations by Ransom E. Olds (stationary assembly), Frederick Winslow Taylor (scientific management), and Eli Whitney/Samuel Colt (interchangeable parts). There are no factual contradictions or errors in the provided information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 454,
+  "completion_tokens": 105,
+  "total_tokens": 559,
+  "timestamp": "2026-09-24T12:37:00.625767+00:00"
+}

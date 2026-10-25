@@ -1,0 +1,14 @@
+{
+  "prompt_id": "f57d2a7660354e36a26648399c0379fd",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately and comprehensively summarizes all key points presented in the source text. It correctly identifies the central thesis (investors ignoring risk) and details each specific financial stressor mentioned: the high probability of a US recession, pressure on regional banks and future credit growth, weakness in the commercial real estate market, elevated inflation levels, the shift from rate hikes to quantitative tightening, and the uncertainty surrounding the debt ceiling. The summary also appropriately handles the incomplete final sentence of the source text by noting the implication regarding credit spreads. No critical information was omitted, and the factual representation is accurate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 748,
+  "completion_tokens": 124,
+  "total_tokens": 872,
+  "timestamp": "2026-09-24T13:28:59.585269+00:00"
+}

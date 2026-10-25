@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8e177dcdadf64d0094c0a4d242ef7533",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully adopts the persona of a strict bus driver, using authoritative and commanding language that fits the character. It is relevant to the prompt, coherent in its narrative flow (establishing rules, issuing warnings, and concluding), and complete as a standalone opening statement for the roleplay. There are no explicit constraints in the prompt (such as word counts or specific formatting) that were violated.",
+  "finish_reason": "stop",
+  "prompt_tokens": 332,
+  "completion_tokens": 85,
+  "total_tokens": 417,
+  "timestamp": "2026-09-19T17:37:41.692884+00:00"
+}

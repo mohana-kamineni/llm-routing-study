@@ -1,0 +1,14 @@
+{
+  "prompt_id": "35e87fcfeddb4e368d1855de45b03f68",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the total number of balls (5) and the number of favorable outcomes (3 blue balls). It applies the correct probability formula (favorable outcomes / total outcomes) to arrive at the correct final answer of 3/5 (or 60%). There are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 314,
+  "completion_tokens": 68,
+  "total_tokens": 382,
+  "timestamp": "2026-09-28T07:38:35.172817+00:00"
+}

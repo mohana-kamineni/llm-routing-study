@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a87d4fefe3284c6592d1288a80f818ca",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a scientifically accurate and widely cited fact regarding the density of neutron stars. The calculation is correct: neutron star matter has a density of approximately $10^{17}$ to $10^{18}$ kg/m³. A teaspoon (approx. 5 mL or $5 \\times 10^{-6}$ m³) of such material would indeed have a mass in the range of $5 \\times 10^{11}$ to $5 \\times 10^{12}$ kg. While the response states \"about a billion tons\" ($10^9$ tons = $10^{12}$ kg), this aligns with the upper end of standard estimates and is a commonly accepted approximation in popular science contexts. The description of the physical properties (nuclear density, formation via supernova, size) is factually correct, and there are no false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 364,
+  "completion_tokens": 193,
+  "total_tokens": 557,
+  "timestamp": "2026-09-28T07:43:38.565548+00:00"
+}

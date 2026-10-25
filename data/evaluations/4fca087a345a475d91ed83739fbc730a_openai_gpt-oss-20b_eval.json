@@ -1,0 +1,14 @@
+{
+  "prompt_id": "4fca087a345a475d91ed83739fbc730a",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains significant factual errors regarding the timeline of Java Virtual Threads. Specifically, it incorrectly states that the first public preview was in \"Java 19\" (released in 2021) and that the feature became stable in \"Java 20\" (released in 2022). In reality, the first preview of Virtual Threads was in **Java 19** (released in **September 2022**), and the feature was finalized and released in **Java 21** (released in **September 2023**). Java 20 was a short-term release that did not include the final Virtual Threads feature. Additionally, the response claims the term was used in \"Java 19 preview (released in 2021),\" which is chronologically impossible as Java 19 was released in 2022. These date and version mismatches make the answer factually incorrect.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1149,
+  "completion_tokens": 203,
+  "total_tokens": 1352,
+  "timestamp": "2026-09-19T17:25:02.300371+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "cdc0a3326fd647d9a5c0d2f4a9e037ab",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the answer as an alarm (or alarm clock). The reasoning provided for each line of the riddle is logical and consistent with the common interpretation of this riddle. There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 312,
+  "completion_tokens": 54,
+  "total_tokens": 366,
+  "timestamp": "2026-09-22T16:50:08.104166+00:00"
+}

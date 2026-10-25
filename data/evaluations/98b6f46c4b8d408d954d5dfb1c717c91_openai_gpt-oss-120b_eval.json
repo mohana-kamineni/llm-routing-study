@@ -1,0 +1,14 @@
+{
+  "prompt_id": "98b6f46c4b8d408d954d5dfb1c717c91",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains numerous severe factual hallucinations. \n1. **Richard M. Karp**: The response incorrectly states he is a co-author of the textbook *\"Algorithm Design\"* with Steven Levitin (the actual authors are Steven Skiena and Steven S. Skiena, or potentially confusing it with other texts; Levitin wrote *Introduction to the Design and Analysis of Algorithms*). It also attributes the \"Karp–Miller–Rosenberg algorithm\" to him, which is a non-existent or confused reference (Karp is associated with the Karp-Sipser algorithm, but not that specific network flow algorithm name).\n2. **Fictional Characters**: The response invents fictional characters named \"Dr. Karp\" in *The Simpsons*, *The Walking Dead*, *The Big Bang Theory*, and *Star Trek: Voyager*. There are no such prominent or even minor characters with that name in those specific works/episodes as described.\n3. **Other Real-World Dr. Karps**: The individuals listed (Miriam Karp, David Karp, Ellen Karp) with the specific affiliations and fields (Harvard Oncology, Chicago Neuroscience, MIT Environmental Engineering) appear to be fabricated or significantly misrepresented. While there are researchers with the surname Karp, the specific details provided are not factually accurate representations of well-known figures.\n\nBecause the response relies on fabricated facts and hallucinated entities to answer a general question, it fails the criterion of providing the correct factual answer without false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1183,
+  "completion_tokens": 316,
+  "total_tokens": 1499,
+  "timestamp": "2026-09-24T21:20:21.296305+00:00"
+}

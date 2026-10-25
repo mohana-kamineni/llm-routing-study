@@ -1,0 +1,20 @@
+{
+  "prompt_id": "6af914c39efc4d7dacd01a208a1bf8c1",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "24x+5=53, solve for x",
+  "response_text": "\\(24x + 5 = 53\\)\n\nSubtract 5 from both sides:\n\\[\n24x = 48\n\\]\n\nDivide by 24:\n\\[\nx = \\frac{48}{24} = 2\n\\]\n\n**Solution:** \\(x = 2\\)",
+  "finish_reason": "stop",
+  "prompt_tokens": 81,
+  "completion_tokens": 114,
+  "total_tokens": 195,
+  "latency_ms": 14454,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:26:21.765008+00:00"
+}

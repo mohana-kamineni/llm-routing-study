@@ -1,0 +1,20 @@
+{
+  "prompt_id": "84fa843318c04856a7e562a9fa6b01ba",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who was the original creator of My Little Pony: Friendship is Magic?",
+  "response_text": "The television series **_My Little Pony: Friendship Is Magic_** was originally created and developed by **Lauren Faust**.  \n\n- **Lauren Faust** is an American animator, writer, and director who had previously worked on shows such as *The Powerpuff Girls* and *Foster’s Home for Imaginary Friends*.  \n- In 2010, she was hired by Hasbro to revitalize the My Little Pony brand, and she designed the new characters, world, and tone that became *Friendship Is Magic*.  \n- While Hasbro owns the overall My Little Pony franchise, Faust is credited as the series’ original creator and showrunner for its first season (and as an executive producer for the early seasons).  \n\nSo, the original creative mind behind *My Little Pony: Friendship Is Magic* is **Lauren Faust**.",
+  "finish_reason": "stop",
+  "prompt_tokens": 85,
+  "completion_tokens": 266,
+  "total_tokens": 351,
+  "latency_ms": 816,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:29:06.219813+00:00"
+}

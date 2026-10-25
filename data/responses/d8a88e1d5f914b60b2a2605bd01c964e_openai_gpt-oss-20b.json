@@ -1,0 +1,20 @@
+{
+  "prompt_id": "d8a88e1d5f914b60b2a2605bd01c964e",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Summarize this to me: \"- SG meeting dates for the next period\n\t- 06.06. 18-19h\n\t- 04.07. 18-19h\n\t- 05.09 18h\n- SG meeting\n\t- Dirk: template format (email to be sent on behalf of Martin F)\n\t\t1. structure of the WG\n\t\t2. composition of the expert panel\n\t\t3. remaining questions from the WG\n\t- Martin: discussion\n\t\t- to be important to have us (me) present a few slides\n\t\t- \"would be good to have in the beginning an introduction of everyone\"\n\t\t\t- acknowledgement of the partner societies\n- EnvEndo\n\t- involve ESE and ESPE leadership people + Josef and Anna-Maria introduce EDC stuff\n\t- Martin: who would take this position on both societies?\n\t- Martin suggested someone to ahve as the envendo leader: __\n- Early career\n\t- EYES\n\t\t- intruduction to the project by us\n\t- address all people as MF\n\"",
+  "response_text": "**Summary of Key Points**\n\n| Topic | Details |\n|-------|---------|\n| **SG Meeting Dates** | • 06 Jun 18‑19 h<br>• 04 Jul 18‑19 h<br>• 05 Sep 18 h |\n| **SG Meeting Agenda** | • **Dirk** – Draft email (on Martin’s behalf) covering:<br> 1. WG structure<br> 2. Expert panel composition<br> 3. Outstanding WG questions<br>• **Martin** – Discussion points:<br> - Present a few slides<br> - Start with introductions and acknowledge partner societies |\n| **EnvEndo** | • Include ESE & ESPE leaders, plus Josef & Anna‑Maria to introduce EDC topics.<br>• Martin asks who will represent both societies.<br>• Martin proposes a candidate for the EnvEndo leadership role (name TBD). |\n| **Early Career – EYES** | • Introduce the project to the group. |\n| **General Note** | • Address all participants as “MF”. |\n\nThis captures the meeting schedule, agenda items, leadership considerations, and early‑career project introduction.",
+  "finish_reason": "stop",
+  "prompt_tokens": 307,
+  "completion_tokens": 274,
+  "total_tokens": 581,
+  "latency_ms": 2299,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:39:21.044455+00:00"
+}

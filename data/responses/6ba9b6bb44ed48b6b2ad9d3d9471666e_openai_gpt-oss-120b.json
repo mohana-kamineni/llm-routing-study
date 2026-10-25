@@ -1,0 +1,20 @@
+{
+  "prompt_id": "6ba9b6bb44ed48b6b2ad9d3d9471666e",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the ultimate answer of the universe?",
+  "response_text": "The classic answer, courtesy of Douglas Adams’s *The Hitchhiker’s Guide to the Galaxy*, is **42**. In the story, a super‑intelligent computer named Deep Thought calculates that “the Answer to the Ultimate Question of Life, the Universe, and Everything” is 42—though the actual question itself remains a mystery!",
+  "finish_reason": "stop",
+  "prompt_tokens": 80,
+  "completion_tokens": 132,
+  "total_tokens": 212,
+  "latency_ms": 359,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:31:06.218201+00:00"
+}

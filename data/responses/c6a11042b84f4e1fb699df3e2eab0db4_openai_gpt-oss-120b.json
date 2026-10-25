@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c6a11042b84f4e1fb699df3e2eab0db4",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Explain to me like I'm five, what is a black hole, what is Hawkins radiation (or emission, I don't know what is the correct one)",
+  "response_text": "**A Black Hole – think of it like a super‑strong space vacuum**\n\nImagine you have a super‑big, super‑strong vacuum cleaner. If you put a ball near it, the vacuum pulls the ball in and never lets it out. A black hole is a bit like that, but instead of a vacuum cleaner it’s a place in space where gravity (the “pull” that keeps us on the ground) is so strong that *nothing*—not even light—can escape once it gets too close.\n\n- **How does it get so strong?**  \n  A lot of stuff (like a huge star) gets squeezed into a tiny space. All that mass in such a small spot makes the gravity super powerful, just like squeezing a lot of weight onto a tiny point makes it feel heavier.\n\n- **The “point of no return”**  \n  Around the black hole there’s an invisible line called the *event horizon*. If something crosses that line, it’s like stepping over the edge of a very deep well—once you’re in, you can’t climb back out.\n\n---\n\n**Hawking Radiation – the tiny “leak” from the black‑hole vacuum**\n\nEven though a black hole is a great trap, a clever scientist named Stephen Hawking realized that, because of the weird rules of tiny particles (quantum physics), a black hole isn’t *perfectly* closed. Here’s a simple picture:\n\n1. **Pairs of tiny particles pop into existence**  \n   In empty space, tiny “particle‑and‑anti‑particle” pairs can briefly appear, then disappear again—like little bubbles that pop and vanish.\n\n2. **One falls in, one escapes**  \n   If this pair shows up right at the edge of the black hole, one of them can get pulled inside while the other slips away and runs off into space.\n\n3. **The escaping particle is the “radiation”**  \n   The particle that gets away carries away a tiny bit of energy. To the outside world, it looks like the black hole is slowly **leaking** little bits of energy—this is called *Hawking radiation* (or Hawking emission).\n\n4. **What does it mean for the black hole?**  \n   Because it’s losing a tiny bit of energy each time, the black hole gets a little lighter. If you waited an *extremely* long time (much longer than the age of the universe), a black hole could eventually shrink away completely.\n\n---\n\n### Quick recap (in kid‑speak)\n\n- **Black hole:** A super‑strong space vacuum that pulls everything in and doesn’t let light get out.\n- **Event horizon:** The invisible “no‑go‑back” line around it.\n- **Hawking radiation:** A tiny leak where little particle pairs appear, one falls in and the other escapes, making the black hole slowly lose a bit of its “stuff” over a super‑duper long time.\n\nSo even the strongest vacuum can have a teeny‑tiny drip! 🌌✨",
+  "finish_reason": "stop",
+  "prompt_tokens": 101,
+  "completion_tokens": 721,
+  "total_tokens": 822,
+  "latency_ms": 1788,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:31:55.267690+00:00"
+}

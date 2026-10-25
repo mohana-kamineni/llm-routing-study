@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3962faf9d0c7466a9a7c3776f0e858a1",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the key aspects of the review: the product (panda plush), its positive attributes (soft, cute, loved by daughter), the negative aspect (small for the price), and the delivery detail (arrived early). It is concise, well under the 30-word limit, and captures the essential factual information without omission or inaccuracy.",
+  "finish_reason": "stop",
+  "prompt_tokens": 297,
+  "completion_tokens": 80,
+  "total_tokens": 377,
+  "timestamp": "2026-09-19T17:07:10.679087+00:00"
+}

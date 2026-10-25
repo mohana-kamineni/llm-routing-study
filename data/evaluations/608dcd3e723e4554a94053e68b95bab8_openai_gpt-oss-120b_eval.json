@@ -1,0 +1,14 @@
+{
+  "prompt_id": "608dcd3e723e4554a94053e68b95bab8",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately covers all four required key aspects:\n1. It correctly identifies the open-source release of Stable Diffusion and its impact on AI-generated art, noting the author's belief that it will revolutionize the field.\n2. It details the opposition from traditional artists, including protests on ArtStation and the arguments regarding theft and the definition of art.\n3. It clearly states the author's dual perspective as a machine learning engineer and a landscape photographer, explaining why they support AI art.\n4. It includes the historical parallel with photography, specifically citing the 1826 date of the first photograph and the 1924 recognition by an American museum.\n\nThe summary is factually accurate based on the provided source text and omits no critical information required by the criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1028,
+  "completion_tokens": 168,
+  "total_tokens": 1196,
+  "timestamp": "2026-09-24T15:32:51.232920+00:00"
+}

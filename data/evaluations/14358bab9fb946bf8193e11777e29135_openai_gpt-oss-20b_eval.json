@@ -1,0 +1,14 @@
+{
+  "prompt_id": "14358bab9fb946bf8193e11777e29135",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe summary contains a significant factual error regarding Key Aspect 2. The source text states that the \"former two\" (Kuro and Mimi) discovered that \"the latter's\" (Rin's) mute state was the result of trauma. The response incorrectly attributes the silence and trauma to Mimi (\"she learned that Mimi’s silence stemmed from trauma\"), whereas the source explicitly identifies Rin as the mute character who emerged from her stupor. This misattribution of a core character trait and plot point renders the summary inaccurate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 848,
+  "completion_tokens": 114,
+  "total_tokens": 962,
+  "timestamp": "2026-09-22T16:57:43.136460+00:00"
+}

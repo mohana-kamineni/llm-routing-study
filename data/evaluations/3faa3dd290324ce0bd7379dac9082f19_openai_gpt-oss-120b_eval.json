@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3faa3dd290324ce0bd7379dac9082f19",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies Brazil as the country with the largest renewable freshwater resources. The specific figures provided (approx. 8,600 km³/year) and the ranking of other countries (Russia, Canada, Indonesia, China) align with standard data from the FAO AQUASTAT database and World Bank indicators. The response accurately distinguishes between total renewable resources and per capita availability, which is the standard interpretation of \"leading in natural water resource\" in a global context. There are no factual contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 469,
+  "completion_tokens": 109,
+  "total_tokens": 578,
+  "timestamp": "2026-09-22T23:00:05.158030+00:00"
+}

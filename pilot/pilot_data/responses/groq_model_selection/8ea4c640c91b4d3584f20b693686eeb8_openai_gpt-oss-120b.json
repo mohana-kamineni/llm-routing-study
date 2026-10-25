@@ -1,0 +1,21 @@
+{
+  "prompt_id": "8ea4c640c91b4d3584f20b693686eeb8",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "provider": "groq",
+  "model_returned": "openai/gpt-oss-120b",
+  "raw_response": "Let the right triangle be \\( \\triangle ABC\\) with right angle at \\(C\\) and hypotenuse \\(AB\\).\nDrop the altitude from \\(C\\) to the hypotenuse; let it meet \\(AB\\) at \\(D\\).\n\n---\n\n### 1.  Express the hypotenuse segments\n\nWe are told that the altitude divides the hypotenuse in the ratio  \n\n\\[\nAD : DB = 1 : 2 .\n\\]\n\nSet  \n\n\\[\nAD = x,\\qquad DB = 2x .\n\\]\n\nHence the whole hypotenuse is  \n\n\\[\nAB = AD + DB = x + 2x = 3x .\n\\]\n\n---\n\n### 2.  Use the altitude–hypotenuse segment relation\n\nIn any right triangle, the altitude to the hypotenuse satisfies  \n\n\\[\nCD^{2}=AD\\cdot DB .\n\\]\n\n(Proof: the two smaller right triangles are similar to the original one.)\n\nGiven the altitude length \\(CD = 6\\) cm, we have  \n\n\\[\n6^{2}=AD\\cdot DB = x\\,(2x)=2x^{2}.\n\\]\n\nThus  \n\n\\[\n36 = 2x^{2}\\quad\\Longrightarrow\\quad x^{2}=18\\quad\\Longrightarrow\\quad x = \\sqrt{18}=3\\sqrt{2}\\ \\text{cm}.\n\\]\n\n---\n\n### 3.  Find the hypotenuse\n\n\\[\nAB = 3x = 3\\bigl(3\\sqrt{2}\\bigr)=9\\sqrt{2}\\ \\text{cm}.\n\\]\n\n---\n\n\\[\n\\boxed{\\,AB = 9\\sqrt{2}\\ \\text{cm}\\,}\\approx 12.73\\text{ cm}.\n\\]",
+  "response_text": "Let the right triangle be \\( \\triangle ABC\\) with right angle at \\(C\\) and hypotenuse \\(AB\\).\nDrop the altitude from \\(C\\) to the hypotenuse; let it meet \\(AB\\) at \\(D\\).\n\n---\n\n### 1.  Express the hypotenuse segments\n\nWe are told that the altitude divides the hypotenuse in the ratio  \n\n\\[\nAD : DB = 1 : 2 .\n\\]\n\nSet  \n\n\\[\nAD = x,\\qquad DB = 2x .\n\\]\n\nHence the whole hypotenuse is  \n\n\\[\nAB = AD + DB = x + 2x = 3x .\n\\]\n\n---\n\n### 2.  Use the altitude–hypotenuse segment relation\n\nIn any right triangle, the altitude to the hypotenuse satisfies  \n\n\\[\nCD^{2}=AD\\cdot DB .\n\\]\n\n(Proof: the two smaller right triangles are similar to the original one.)\n\nGiven the altitude length \\(CD = 6\\) cm, we have  \n\n\\[\n6^{2}=AD\\cdot DB = x\\,(2x)=2x^{2}.\n\\]\n\nThus  \n\n\\[\n36 = 2x^{2}\\quad\\Longrightarrow\\quad x^{2}=18\\quad\\Longrightarrow\\quad x = \\sqrt{18}=3\\sqrt{2}\\ \\text{cm}.\n\\]\n\n---\n\n### 3.  Find the hypotenuse\n\n\\[\nAB = 3x = 3\\bigl(3\\sqrt{2}\\bigr)=9\\sqrt{2}\\ \\text{cm}.\n\\]\n\n---\n\n\\[\n\\boxed{\\,AB = 9\\sqrt{2}\\ \\text{cm}\\,}\\approx 12.73\\text{ cm}.\n\\]",
+  "reasoning_text": "We need to solve geometry problem. Right triangle with altitude from right angle to hypotenuse. Let triangle ABC right at C, hypotenuse AB. Altitude from C to AB meets at D. Given AD:DB = 1:2. Altitude CD = 6. Find AB length.\n\nProperties: In right triangle, altitude to hypotenuse creates two smaller right triangles similar to original. Let AD = x, DB = 2x, so AB = 3x.\n\nAltitude length h = CD = sqrt(AD * DB) ? Actually property: altitude to hypotenuse length h = sqrt(p * q) where p and q are segments of hypotenuse. Yes, h^2 = AD * DB. So h^2 = x * 2x = 2x^2. Given h = 6, so 36 = 2x^2 => x^2 = 18 => x = sqrt(18) = 3*sqrt(2). Positive.\n\nThus AB = 3x = 9*sqrt(2). So hypotenuse length = 9√2 cm.\n\nCheck: altitude = sqrt(AD*DB) = sqrt( (3√2)*(6√2) )? Wait compute AD = x = 3√2, DB = 2x = 6√2. Multiply: (3√2)*(6√2) = 18*2 = 36. sqrt = 6. Good.\n\nThus answer: 9√2 cm ≈ 12.73 cm.\n\nProvide solution steps.",
+  "input_tokens": 119,
+  "output_tokens": 710,
+  "total_tokens": 829,
+  "reasoning_tokens": 326,
+  "latency_seconds": 1.77,
+  "timestamp": "2026-09-13T16:54:36.415761+00:00",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "retries": 0,
+  "error": null,
+  "prompt_text": "The altitude to the hypotenuse of a right triangle divides the hypotenuse into two segments with lengths in the ratio 1 : 2. The length of the altitude is 6 cm. How long is the hypotenuse?"
+}

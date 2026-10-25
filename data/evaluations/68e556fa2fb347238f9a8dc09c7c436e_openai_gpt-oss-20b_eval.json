@@ -1,0 +1,14 @@
+{
+  "prompt_id": "68e556fa2fb347238f9a8dc09c7c436e",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes all key aspects of the source text. It correctly identifies the failed pre-screening attempts by agents LB and JM, the specific dishwasher issue (non-draining) and diagnosis (pump/hose), the relevant part numbers, the timeline of parts delivery and service completion, and the final customer follow-up interaction. The summary is concise, factually accurate, and omits no critical information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 756,
+  "completion_tokens": 89,
+  "total_tokens": 845,
+  "timestamp": "2026-09-19T17:21:32.478582+00:00"
+}

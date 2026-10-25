@@ -1,0 +1,14 @@
+{
+  "prompt_id": "09716d1c1e3c458ab4d5218e0cef6ab3",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the NCVS as the National Crime Victimization Survey, accurately describes its purpose (measuring unreported and reported crime), and correctly explains its relationship to the U.S. Census Bureau (the Census Bureau conducts the survey on behalf of the Bureau of Justice Statistics). The details provided regarding the survey's methodology, scope, and significance are factually accurate and do not contain false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1055,
+  "completion_tokens": 88,
+  "total_tokens": 1143,
+  "timestamp": "2026-09-24T04:00:12.334859+00:00"
+}

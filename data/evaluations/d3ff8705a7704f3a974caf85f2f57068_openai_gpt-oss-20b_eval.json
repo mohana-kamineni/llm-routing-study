@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d3ff8705a7704f3a974caf85f2f57068",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the story for the target audience and covers all five required key aspects:\n1. It explicitly lists the labor involved (harvesting, threshing, grinding) in the context of the hen's decision to bake.\n2. It correctly attributes the specific reasons for refusal to each animal (cat: sleeping/woken up, dog: wants ready dish, pig: dislikes mess).\n3. It confirms the hen performed all steps alone, from harvesting to baking.\n4. It describes the animals' sudden eagerness to eat the cake once it was ready.\n5. It concludes with the hen denying them the cake and sharing it only with her chicks due to their lack of help.\n\nThe summary is factually consistent with the source text and appropriately simplified for a 12-year-old.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1031,
+  "completion_tokens": 173,
+  "total_tokens": 1204,
+  "timestamp": "2026-09-22T17:06:18.878039+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "prompt_id": "900d3e49905645569396f9c3f458cdc2",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "candidate_degeneracy_audit",
+  "terminal_type": "CANDIDATE_DEGENERATE",
+  "terminal_description": "Candidate repeated the exact sentence 'She saw a line that was going up, going up, going up.' 157 consecutive times until 4,096-token completion limit.",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails on multiple dimensions. First, it is severely truncated, ending mid-sentence in a repetitive loop, meaning the story is incomplete and the task is not fully executed. Second, the narrative structure collapses into a glitch-like repetition of the phrase \"She saw a line that was going up, going up, going up\" for dozens of lines, rendering the latter half of the text incoherent and nonsensical. Third, the story fails to address the core premise of the prompt: Lois Lane is never actually infected, nor does she swell up, and Superman does not find a cure for her. The prompt specifically requested a story about her infection and transformation, which is entirely absent from the provided text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 4067,
+  "completion_tokens": 151,
+  "total_tokens": 4218,
+  "timestamp": "2026-09-22T16:47:08.545036+00:00"
+}

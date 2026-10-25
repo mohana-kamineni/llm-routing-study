@@ -1,0 +1,14 @@
+{
+  "prompt_id": "2079531f479348fbb3072d65a2251ac5",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly analyzes the provided text, accurately extracting all key details including the release version, supported platforms (Windows 10/11 64-bit Intel/AMD), installation steps, and specific bug fixes (removal of internet check, addition of ETW manifest, new signing certificate). The reasoning provided for why these changes matter (e.g., ETW for diagnostics, certificate for signature validation) is technically sound and consistent with the context of Windows driver development. There are no factual errors or logical fallacies in the analysis.",
+  "finish_reason": "stop",
+  "prompt_tokens": 910,
+  "completion_tokens": 118,
+  "total_tokens": 1028,
+  "timestamp": "2026-09-22T19:02:46.045757+00:00"
+}

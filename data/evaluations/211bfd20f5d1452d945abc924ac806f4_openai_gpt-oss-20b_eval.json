@@ -1,0 +1,14 @@
+{
+  "prompt_id": "211bfd20f5d1452d945abc924ac806f4",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly defines the Landauer limit as the minimum energy dissipated when erasing one bit of information, providing the correct formula ($k_B T \\ln 2$) and accurate numerical values. It accurately distinguishes between reversible and irreversible operations and provides a correct intuitive derivation based on the Second Law of Thermodynamics. While the comparison in Section 2 regarding the photon energy contains a minor arithmetic inconsistency (stating the limit is 70 times smaller than the photon energy, whereas the calculated values suggest it is roughly 70 times *larger*), this does not contradict the core factual definition or the primary answer to the question. The main scientific facts regarding the limit itself are accurate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1412,
+  "completion_tokens": 150,
+  "total_tokens": 1562,
+  "timestamp": "2026-09-22T16:59:09.607539+00:00"
+}

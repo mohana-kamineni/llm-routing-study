@@ -1,0 +1,21 @@
+{
+  "prompt_id": "78590d2f2dbf4fa793dc4f51b5e4500a",
+  "category": "reasoning_math",
+  "prompt_text": "An urn contains 15 blue marbles, 15 red marbles, and 10 green marbles. If I pull marbles from the urn one at a time, without replacing them, how many times will I have to pull (on average) before I see 3 green marbles?",
+  "model": "openai/gpt-oss-20b",
+  "provider": "groq",
+  "model_returned": "openai/gpt-oss-20b",
+  "raw_response": "The number of draws needed to obtain a fixed number of “successes” (here green marbles) from a finite population without replacement follows a **negative hypergeometric distribution**.\n\nFor a population of size \\(N\\) that contains \\(K\\) successes, the expected number of draws required to obtain \\(r\\) successes is  \n\n\\[\nE[X] \\;=\\; r\\,\\frac{N+1}{K+1}.\n\\]\n\n---\n\n### Apply to the urn\n\n- Total marbles: \\(N = 15 + 15 + 10 = 40\\).\n- Green marbles (successes): \\(K = 10\\).\n- We want the 3rd green: \\(r = 3\\).\n\n\\[\nE[X] = 3 \\times \\frac{40+1}{10+1}\n      = 3 \\times \\frac{41}{11}\n      = \\frac{123}{11}\n      \\approx 11.18.\n\\]\n\n---\n\n\\[\n\\boxed{\\text{On average, about } 11.2 \\text{ pulls are needed to see 3 green marbles.}}\n\\]",
+  "response_text": "The number of draws needed to obtain a fixed number of “successes” (here green marbles) from a finite population without replacement follows a **negative hypergeometric distribution**.\n\nFor a population of size \\(N\\) that contains \\(K\\) successes, the expected number of draws required to obtain \\(r\\) successes is  \n\n\\[\nE[X] \\;=\\; r\\,\\frac{N+1}{K+1}.\n\\]\n\n---\n\n### Apply to the urn\n\n- Total marbles: \\(N = 15 + 15 + 10 = 40\\).\n- Green marbles (successes): \\(K = 10\\).\n- We want the 3rd green: \\(r = 3\\).\n\n\\[\nE[X] = 3 \\times \\frac{40+1}{10+1}\n      = 3 \\times \\frac{41}{11}\n      = \\frac{123}{11}\n      \\approx 11.18.\n\\]\n\n---\n\n\\[\n\\boxed{\\text{On average, about } 11.2 \\text{ pulls are needed to see 3 green marbles.}}\n\\]",
+  "reasoning_text": "We need expected number of draws until 3 green marbles are drawn without replacement from urn with 15 blue, 15 red, 10 green. Total 40 marbles. We want expected draw count to get 3 green. Equivalent to negative hypergeometric distribution: number of draws needed to get r successes (greens) from population of size N with K successes (greens). Negative hypergeometric: probability that the r-th success occurs on the x-th draw: P(X=x) = C(x-1, r-1) * C(N-x, K-r) / C(N, K). The expected value E[X] = r*(N+1)/(K+1). Wait formula: For negative hypergeometric, expected number of draws to get r successes is r*(N+1)/(K+1). Let's verify: For sampling without replacement, expected number of draws to get r successes is r*(N+1)/(K+1). Yes. Here N=40, K=10, r=3. So E[X] = 3*(40+1)/(10+1) = 3*41/11 = 123/11 = 11.1818... So about 11.18 draws. But we need integer? The average number of pulls is 123/11 ≈ 11.18. So answer: 123/11 ≈ 11.18 pulls. Let's double-check formula: For negative hypergeometric, mean = r*(N+1)/(K+1). Example: Suppose N=10, K=5, r=1. Then mean = 1*(11)/(6)=11/6≈1.833. That seems plausible: expected draw to get first success from 5 successes among 10. Another check: r=K, mean = K*(N+1)/(K+1) = K*(N+1)/(K+1). For K=5, N=10, r=5, mean = 5*11/6=55/6≈9.167. That is expected draws to get all 5 successes. That seems plausible. So formula is correct.\n\nThus answer: 123/11 ≈ 11.18 pulls.\n\nWe can also derive by linearity of expectation: expected number of draws to get 3 green = sum over draws of probability that draw is needed. But easier to use negative hypergeometric.\n\nThus answer: about 11.18 pulls.\n\nWe can also express as 123/11.\n\nThus final.",
+  "input_tokens": 131,
+  "output_tokens": 771,
+  "total_tokens": 902,
+  "reasoning_tokens": 523,
+  "latency_seconds": 6.206,
+  "timestamp": "2026-09-13T11:40:49.645613+00:00",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "retries": 0,
+  "error": null
+}

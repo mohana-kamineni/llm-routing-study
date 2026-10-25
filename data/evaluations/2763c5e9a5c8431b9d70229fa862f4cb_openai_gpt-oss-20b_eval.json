@@ -1,0 +1,14 @@
+{
+  "prompt_id": "2763c5e9a5c8431b9d70229fa862f4cb",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly provides a Dart/Flutter function to generate a random integer between 33 and 60 (inclusive). The logic `Random().nextInt(max - min + 1) + min` is mathematically correct for inclusive ranges. Specifically, for the range 33-60, the count is $60 - 33 + 1 = 28$. The code uses `Random().nextInt(28) + 33`, which generates values from $33 + 0$ to $33 + 27$, i.e., 33 to 60. The provided Flutter widget example is syntactically correct and functional. There are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1015,
+  "completion_tokens": 153,
+  "total_tokens": 1168,
+  "timestamp": "2026-09-22T16:56:38.067464+00:00"
+}

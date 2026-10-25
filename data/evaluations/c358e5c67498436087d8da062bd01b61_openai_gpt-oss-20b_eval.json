@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c358e5c67498436087d8da062bd01b61",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the meaning of the name Viacheslav as \"greater glory\" or \"more glorious,\" which is the standard etymological interpretation (derived from the Old Slavic *větъ* meaning \"greater/more\" and *slava* meaning \"glory\"). The etymological breakdown, linguistic context, and cultural notes are factually accurate and do not contain false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 896,
+  "completion_tokens": 90,
+  "total_tokens": 986,
+  "timestamp": "2026-09-22T16:49:48.302941+00:00"
+}

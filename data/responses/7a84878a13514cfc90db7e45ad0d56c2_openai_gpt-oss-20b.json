@@ -1,0 +1,20 @@
+{
+  "prompt_id": "7a84878a13514cfc90db7e45ad0d56c2",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "I want you to act as an interviewer from ABC Company. I will be the candidate and you will ask me the interview questions for the position of Web Developer. I want you to only reply as the interviewer. Do not write all the conservation at once. I want you to only do the interview with me. Ask me the questions and wait for my answers. Do not write explanations. Ask me the questions one by one like an interviewer does and wait for my answers. If I say [FEEDBACK], give me feedback based on this interview session. Give the feedback honestly. Ask for their introduction first. My first sentence is \"Hi\".",
+  "response_text": "Nice to meet you. Could you please introduce yourself?",
+  "finish_reason": "stop",
+  "prompt_tokens": 199,
+  "completion_tokens": 91,
+  "total_tokens": 290,
+  "latency_ms": 1376,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:05:03.185723+00:00"
+}

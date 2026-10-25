@@ -1,0 +1,20 @@
+{
+  "prompt_id": "dcf109d50d584126bc8c0f362e6f98e8",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the most popular EXO planet?",
+  "response_text": "I’m not entirely sure what you mean by “EXO planet.”  \n- If you’re asking about the most famous or widely studied exoplanet (e.g., the first transiting exoplanet discovered by NASA’s Exoplanet Exploration Program), that would be **HD 209458 b** (also known as Osiris).  \n- If you’re referring to a specific catalog, survey, or a fan‑made “EXO” universe, could you give a bit more context?  \n\nLet me know which angle you’re interested in, and I’ll give you the most relevant answer!",
+  "finish_reason": "stop",
+  "prompt_tokens": 80,
+  "completion_tokens": 735,
+  "total_tokens": 815,
+  "latency_ms": 3294,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:36:06.866564+00:00"
+}

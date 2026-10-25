@@ -1,0 +1,14 @@
+{
+  "prompt_id": "78bb0a9d86e542e68efc093ac46735b3",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to cover Key Aspect 3. The source text explicitly provides specific ratings for Jim's skills in Java (6 positive, 3 negative) and C# (2 positive, 3 negative). The summary completely omits any mention of these specific programming languages or their associated vote counts, which are critical factual details required by the evaluation criteria. While the summary adequately covers the other aspects regarding general technical expertise, consistency issues, dedication, and innovation, the omission of the specific language proficiency data results in an incomplete summary.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1087,
+  "completion_tokens": 113,
+  "total_tokens": 1200,
+  "timestamp": "2026-09-22T17:16:52.541514+00:00"
+}

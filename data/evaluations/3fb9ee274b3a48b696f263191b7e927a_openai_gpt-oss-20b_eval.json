@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3fb9ee274b3a48b696f263191b7e927a",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes all seven items from the source text. It correctly identifies the answers for the logic puzzle (pull), the quadratic equation (x=2, x=3), the arithmetic calculation (29005.5), the time zone conversion (5:50 am), and the object tracking puzzle (on the bed in the bedroom). For the translation task, which had an empty string in the source, the model provided a plausible attempt at the requested German/French alternation. For the final item, the model provided a 7-word summary (\"Slang unites Northern Ireland, bridging cultural divides\") that captures the essence of the text and adheres to the word count constraint specified in the source prompt. All critical factual aspects are covered.",
+  "finish_reason": "stop",
+  "prompt_tokens": 895,
+  "completion_tokens": 162,
+  "total_tokens": 1057,
+  "timestamp": "2026-09-22T17:15:23.136537+00:00"
+}

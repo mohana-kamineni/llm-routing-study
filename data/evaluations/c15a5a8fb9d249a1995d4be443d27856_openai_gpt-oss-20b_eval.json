@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c15a5a8fb9d249a1995d4be443d27856",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the solution to grouping by a key within a JSON column in SQLite using the `json_extract` function. The provided SQL syntax (`SELECT json_extract(json_col, '$.adv_bundle') ... GROUP BY ...`) is valid and standard for SQLite versions 3.9.0 and later. The explanation of how `json_extract` works, the example table creation and insertion, and the tips regarding indexing and handling NULLs are all accurate and helpful. There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1413,
+  "completion_tokens": 108,
+  "total_tokens": 1521,
+  "timestamp": "2026-09-22T17:10:09.893852+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "prompt_id": "59caa41ea2d0442ba027576fbe4092ff",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "candidate_degeneracy_audit",
+  "terminal_type": "CANDIDATE_DEGENERATE",
+  "terminal_description": "Candidate generated 3 initial Finnish Kalevala poetic lines, then repeated those 3 identical lines sequentially 10-12 times in a tail loop until stop token at 3,422 tokens.",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response fails primarily on the dimensions of Coherence and Completeness. While it attempts to use Finnish and references Kalevala elements (Sampo, Kaleva), the poem consists almost entirely of repetitive, nonsensical lines (e.g., repeating \"Sampo sanojen, sävelen\" 10 times and \"Kaleva kääntää...\" 12 times). It lacks any narrative structure, logical progression, or meaningful content regarding large language models. The repetition renders the text incoherent and does not constitute a complete or satisfactory execution of the creative task.",
+  "finish_reason": "stop",
+  "prompt_tokens": 744,
+  "completion_tokens": 128,
+  "total_tokens": 872,
+  "timestamp": "2026-09-22T16:47:08.531582+00:00"
+}

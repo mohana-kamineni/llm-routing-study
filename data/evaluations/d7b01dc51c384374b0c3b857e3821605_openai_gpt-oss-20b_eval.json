@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d7b01dc51c384374b0c3b857e3821605",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully addresses the prompt by writing a poem specifically about the process of making pizza. It demonstrates strong coherence and logical structure, moving chronologically from dough preparation to topping, baking, and finally serving. The poem is complete, not truncated, and contains no violations of explicit constraints, as the prompt did not specify word limits or formatting restrictions beyond the topic. The imagery is vivid and relevant to the subject matter.",
+  "finish_reason": "stop",
+  "prompt_tokens": 428,
+  "completion_tokens": 90,
+  "total_tokens": 518,
+  "timestamp": "2026-09-19T17:12:38.667733+00:00"
+}

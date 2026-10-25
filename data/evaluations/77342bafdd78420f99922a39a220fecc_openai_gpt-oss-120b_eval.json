@@ -1,0 +1,14 @@
+{
+  "prompt_id": "77342bafdd78420f99922a39a220fecc",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to adequately summarize the source text because it omits a critical key aspect required by the evaluation criteria. Specifically, it does not mention **Specialized Pro-resolving Mediators (SPMs)**, which are explicitly identified in the source text as a distinct mechanism alongside resolvins for resolving inflammation. Additionally, the third sentence of the summary attributes the mechanism of neuronal membrane synthesis and neurotransmitter release to the speaker's answer, whereas the source text presents this as a question from the interviewer (\"Is it through the synthesis of membrane on neurons...?\") which the expert does not explicitly confirm or elaborate on in the provided transcript. The expert's response focuses on inflammation and platelets. Therefore, the summary includes unsupported information and misses a required factual detail.",
+  "finish_reason": "stop",
+  "prompt_tokens": 704,
+  "completion_tokens": 157,
+  "total_tokens": 861,
+  "timestamp": "2026-09-24T12:21:19.641864+00:00"
+}

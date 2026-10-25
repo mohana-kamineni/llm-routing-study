@@ -1,0 +1,21 @@
+{
+  "prompt_id": "cca2156e0b184b2988722aefb783531c",
+  "category": "factual_qa",
+  "prompt_text": "Who was the president of the US in 2008? Keep it short. I want only a name.",
+  "model": "openai/gpt-oss-20b",
+  "provider": "groq",
+  "model_returned": "openai/gpt-oss-20b",
+  "raw_response": "George W. Bush",
+  "response_text": "George W. Bush",
+  "reasoning_text": "User wants only a name. 2008 US president was George W. Bush. Provide only name.",
+  "input_tokens": 93,
+  "output_tokens": 35,
+  "total_tokens": 128,
+  "reasoning_tokens": 22,
+  "latency_seconds": 0.343,
+  "timestamp": "2026-09-13T11:39:08.573063+00:00",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "retries": 0,
+  "error": null
+}

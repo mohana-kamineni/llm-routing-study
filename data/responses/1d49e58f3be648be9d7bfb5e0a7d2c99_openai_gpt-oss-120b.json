@@ -1,0 +1,20 @@
+{
+  "prompt_id": "1d49e58f3be648be9d7bfb5e0a7d2c99",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Embeddings\nAn embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers. In the context of neural networks, embeddings are low-dimensional, learned continuous vector representations of discrete variables. Neural network embeddings are useful because they can reduce the dimensionality of categorical variables and meaningfully represent categories in the transformed space.\n\nNeural network embeddings have 3 primary purposes:\n\nFinding nearest neighbors in the embedding space. These can be used to make recommendations based on user interests or cluster categories.\nAs input to a machine learning model for a supervised task.\nFor visualization of concepts and relations between categories.\nThis means in terms of the book project, using neural network embeddings, we can take all 37,000 book articles on Wikipedia and represent each one using only 50 numbers in a vector. Moreover, because embeddings are learned, books that are more similar in the context of our learning problem are closer to one another in the embedding space.\n\nNeural network embeddings overcome the two limitations of a common method for representing categorical variables: one-hot encoding.\n\nBuild me a list of 5 main points from the text above.",
+  "response_text": "**Five main points**\n\n1. **Definition** – An embedding maps a discrete (categorical) variable to a low‑dimensional continuous vector, learned by a neural network.  \n2. **Purpose #1: Nearest‑neighbor search** – Embeddings enable similarity queries, recommendation, and clustering by locating close points in the embedding space.  \n3. **Purpose #2: Model input** – They serve as compact, informative features for supervised machine‑learning tasks.  \n4. **Purpose #3: Visualization** – The learned vectors can be visualized to reveal relationships and concepts among categories.  \n5. **Application to the book project** – The 37 000 Wikipedia book articles can each be represented by a 50‑dimensional vector, overcoming the sparsity and high dimensionality of one‑hot encoding while placing similar books near each other in the learned space.",
+  "finish_reason": "stop",
+  "prompt_tokens": 295,
+  "completion_tokens": 212,
+  "total_tokens": 507,
+  "latency_ms": 708,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:20:09.800019+00:00"
+}

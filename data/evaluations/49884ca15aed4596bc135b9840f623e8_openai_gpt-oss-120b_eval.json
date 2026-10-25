@@ -1,0 +1,14 @@
+{
+  "prompt_id": "49884ca15aed4596bc135b9840f623e8",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the SNOMED CT International code for the anatomical structure \"Spleen\" as 1815001. This is the standard concept ID for \"Spleen (body structure)\" in the SNOMED CT terminology. The additional details provided (fully specified name and concept type) are also accurate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 258,
+  "completion_tokens": 80,
+  "total_tokens": 338,
+  "timestamp": "2026-09-24T12:38:26.019016+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "f4c2ea916d4943b58a06178d87c29a68",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately covers all five required key aspects:\n1. It mentions the video posted on Twitter after his sudden exit (implying the first statement).\n2. It states he left without explanation on Monday.\n3. It attributes the firing to Rupert Murdoch's personal order.\n4. It cites the use of vulgar language toward a female executive as the reason.\n5. It identifies him as a former star known for xenophobic and racist remarks.\n\nThe summary is concise, accurate, and omits no critical information from the source text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 468,
+  "completion_tokens": 120,
+  "total_tokens": 588,
+  "timestamp": "2026-09-19T17:05:22.441530+00:00"
+}

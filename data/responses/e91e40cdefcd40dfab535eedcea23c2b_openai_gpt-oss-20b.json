@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e91e40cdefcd40dfab535eedcea23c2b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the point of bees?",
+  "response_text": "Bees are nature’s most efficient and indispensable pollinators. Their “point”—or, more accurately, their purpose—spans ecological, economic, and even cultural realms:\n\n| Why Bees Matter | What They Do | Why It Matters |\n|-----------------|--------------|----------------|\n| **Pollination of wild plants** | Bees transfer pollen from flower to flower, enabling seed and fruit set. | Maintains plant diversity, which in turn supports entire ecosystems—forests, grasslands, wetlands, and the animals that depend on them. |\n| **Pollination of crops** | About 75 % of the world’s food crops rely on animal pollination, with bees responsible for ~90 % of that. | Without bees, staple foods (e.g., apples, almonds, tomatoes, berries, melons, and many leafy greens) would shrink dramatically, raising food prices and reducing nutrition. |\n| **Honey, wax, and propolis** | Bees produce honey (food), wax (building material), and propolis (antimicrobial sealant). | These products have culinary, medicinal, and industrial uses. Honey is a natural sweetener and has antimicrobial properties; wax is used in candles, cosmetics, and pharmaceuticals. |\n| **Ecosystem services** | Bees help maintain the structure of ecosystems, ensuring that plants can reproduce and that the food web remains balanced. | Healthy ecosystems provide clean air, water, and soil, and they buffer climate change. |\n| **Cultural and symbolic value** | Bees have long symbolized cooperation, diligence, and community. | Their presence inspires art, literature, and environmental ethics. |\n\n### The Bigger Picture\n\n- **Food security**: A 20 % drop in pollinator populations could reduce global crop yields by up to 30 %, threatening food security for billions.\n- **Biodiversity**: Many wildflowers and trees depend on bees; their decline can trigger cascading losses in other species.\n- **Economic impact**: The global pollination service is valued at roughly $200–$400 billion annually. Losses would ripple through agriculture, food processing, and retail.\n\n### Why We Need to Protect Bees\n\n- **Habitat loss**: Urbanization, monoculture farming, and pesticide use reduce nesting sites and forage.\n- **Climate change**: Shifts in flowering times can desynchronize bee activity and plant availability.\n- **Pathogens and parasites**: Varroa mites, Nosema, and other diseases weaken colonies.\n\n### What You Can Do\n\n1. **Plant bee-friendly flowers**: Native, nectar-rich species provide year‑long forage.\n2. **Avoid pesticides**: Use integrated pest management or organic practices.\n3. **Support local beekeepers**: Buy local honey and other bee products.\n4. **Create nesting habitats**: Leave patches of bare soil, install bee hotels, or keep hedgerows.\n5. **Advocate**: Support policies that protect pollinators and promote sustainable agriculture.\n\nIn short, bees are the unsung heroes that keep our food systems, ecosystems, and even our economies humming. Their survival is essential for a healthy planet—and for us.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 763,
+  "total_tokens": 841,
+  "latency_ms": 1041,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:39:55.109001+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c7d6d5c560d24beaa76d1c3a3c94c987",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the most relevant advertising platforms for the specified target audience (women 16-35 interested in anime, kawaii, and Harajuku style). It prioritizes TikTok and Instagram, which are the dominant social media channels for this demographic and aesthetic, and appropriately includes secondary channels like Pinterest, YouTube, and community-focused platforms like Discord and Reddit. The reasoning provided for each platform selection is sound, aligning with current digital marketing best practices for Gen Z and Millennial audiences. There are no substantive reasoning errors; the advice is practical, well-structured, and directly addresses the user's business context.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2298,
+  "completion_tokens": 135,
+  "total_tokens": 2433,
+  "timestamp": "2026-09-19T17:35:06.460469+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "f87d0c28b21343878c8554a91b1d9c45",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails primarily due to **Coherence and narrative/logical structure**. While it addresses the topic and includes the requested jokes about hit registration and the Steam market, the poem is riddled with nonsensical lines and forced rhymes that destroy logical flow. Examples include \"an AK-47 can cost a M4 in spoons,\" \"Buy a M4A1 for a M4A1,\" and \"the server says, 'You're a hitreg pun.'\" These lines are incoherent and do not constitute meaningful humor or narrative. Additionally, the poem relies heavily on repetitive, low-quality rhyming couplets that lack poetic merit, making the overall execution poor.",
+  "finish_reason": "stop",
+  "prompt_tokens": 763,
+  "completion_tokens": 146,
+  "total_tokens": 909,
+  "timestamp": "2026-09-22T17:00:40.784984+00:00"
+}

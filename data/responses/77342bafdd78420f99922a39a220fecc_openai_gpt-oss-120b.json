@@ -1,0 +1,20 @@
+{
+  "prompt_id": "77342bafdd78420f99922a39a220fecc",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "The following text is the text transcript of a chapter of a longer video. Generate an extractive summary of the main details in 3 sentences.\n\nhow is omega-3 and some of\\nthese other related lipids, how are they having\\nthese positive effects? In my mind, and this is\\nincredibly elementary, but my understanding\\nis that, at some level, they're making platelets more slippery. Is that true or not? I'm happy to be wrong. How is it possibly impacting my mood? Is it through the synthesis\\nof membrane on neurons that allows neurons to\\nrelease more transmitter, like serotonin and dopamine? What are some of the purported, reported, and known mechanisms? - I think some of the\\nmost well-known mechanisms do have to do with the omega-3 fatty acids being very powerful regulators\\nof the inflammatory process in some way, shape, or form, whether that has to do with\\nresolvins that are produced from the metabolites of DHA, for example. Resolvins play a role in\\nresolving inflammation. You want your inflammatory\\nresponse to be activated when it's supposed to be, but you want to resolve that inflammation and the inflammatory response\\nin a timely manner, right? And resolvins help do that. And so resolvins are one, and then there's these specialized\\npro-mediating molecules, the SPMs, that also help\\nresolve the inflammation. There's, like you mentioned, the leukotrienes and prostaglandins, and these things are\\nbeing affected by EPA, and they do affect platelets\\nand platelet aggregation, and they do affect that\\nwhole pathway",
+  "response_text": "- “Omega‑3 fatty acids are very powerful regulators of the inflammatory process… through metabolites such as DHA‑derived resolvins, which help resolve inflammation and ensure the response is turned off in a timely manner.”  \n- “EPA influences leukotrienes and prostaglandins, which affect platelet aggregation, making platelets “more slippery” and altering clotting pathways.”  \n- “These lipids also contribute to neuronal membrane synthesis, potentially enhancing the release of neurotransmitters such as serotonin and dopamine and thereby influencing mood.”",
+  "finish_reason": "stop",
+  "prompt_tokens": 406,
+  "completion_tokens": 191,
+  "total_tokens": 597,
+  "latency_ms": 868,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:36:09.188457+00:00"
+}

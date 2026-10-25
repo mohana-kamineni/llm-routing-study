@@ -1,0 +1,14 @@
+{
+  "prompt_id": "5f71f0abdc3f450b9448441a2a61d55b",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly calculates the sum of 1+1 as 2 and presents it in the requested JSON format. There are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 169,
+  "completion_tokens": 36,
+  "total_tokens": 205,
+  "timestamp": "2026-09-19T17:37:52.548323+00:00"
+}

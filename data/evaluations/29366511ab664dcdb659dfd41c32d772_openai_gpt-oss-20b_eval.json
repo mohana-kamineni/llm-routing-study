@@ -1,0 +1,14 @@
+{
+  "prompt_id": "29366511ab664dcdb659dfd41c32d772",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately captures all essential factual aspects of the source text. It correctly identifies the speaker's admission of being wrong regarding market perception, the personal update about flying and Instagram, the specific details of the extended flash sale (69% off wealth-building programs), and the historical context of the January 2022 market conditions (good news equating to bad news due to inflation fears). The summary is concise, accurate, and omits no critical information from the provided passage.",
+  "finish_reason": "stop",
+  "prompt_tokens": 637,
+  "completion_tokens": 104,
+  "total_tokens": 741,
+  "timestamp": "2026-09-22T17:01:13.123603+00:00"
+}

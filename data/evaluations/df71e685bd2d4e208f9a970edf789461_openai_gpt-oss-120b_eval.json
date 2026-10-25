@@ -1,0 +1,14 @@
+{
+  "prompt_id": "df71e685bd2d4e208f9a970edf789461",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately covers all five required key aspects. It correctly identifies the non-renewal of the TPE contract, the transition to an \"operator of last resort\" status on 28 May with maintained services, the reasons for the decision (disruption and loss of confidence), the temporary nature of the measure with an intent to return to the private sector, and the positive reactions from regional leaders Andy Burnham and Tracy Brabin. The summary is factually consistent with the source text and omits no critical information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 871,
+  "completion_tokens": 112,
+  "total_tokens": 983,
+  "timestamp": "2026-09-24T13:09:15.118838+00:00"
+}

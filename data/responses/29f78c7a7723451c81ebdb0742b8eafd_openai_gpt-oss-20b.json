@@ -1,0 +1,20 @@
+{
+  "prompt_id": "29f78c7a7723451c81ebdb0742b8eafd",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "From this text: \"mon nouveau sac prada\", extract me the main keywords, then summarize it in maximum 10 words, then tell me if the sentiment of the text is positive, neutral or negative. If you cannot find the sentiment say \"Neutral\". Then search for any brand mentions, if you cannot find a brand say \"No brand\". Finally, in one word tell me if the texte speaks about Travel, Beauty, Food, Brands, Medicine, Books, Something else.",
+  "response_text": "**Keywords:** sac, nouveau, Prada  \n**Summary (≤10 words):** New Prada bag  \n**Sentiment:** Positive  \n**Brand Mention:** Prada  \n**Category (one word):** Brands",
+  "finish_reason": "stop",
+  "prompt_tokens": 168,
+  "completion_tokens": 273,
+  "total_tokens": 441,
+  "latency_ms": 726,
+  "retries": 3,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:45:46.239572+00:00"
+}

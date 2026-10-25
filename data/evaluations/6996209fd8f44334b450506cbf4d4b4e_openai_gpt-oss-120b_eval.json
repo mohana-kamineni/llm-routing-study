@@ -1,0 +1,14 @@
+{
+  "prompt_id": "6996209fd8f44334b450506cbf4d4b4e",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately and concisely summarizes all key aspects of the source text. It correctly identifies the core difference between classical bits and quantum qubits, explains the specific properties of superposition and entanglement, lists the potential applications (cryptography, optimization, drug discovery, material science), and acknowledges the current limitations and challenges in the field. No critical information is omitted, and the factual details are preserved.",
+  "finish_reason": "stop",
+  "prompt_tokens": 591,
+  "completion_tokens": 89,
+  "total_tokens": 680,
+  "timestamp": "2026-09-24T17:13:28.056132+00:00"
+}

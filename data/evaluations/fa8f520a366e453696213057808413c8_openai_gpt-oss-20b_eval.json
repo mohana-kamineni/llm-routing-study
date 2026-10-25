@@ -1,0 +1,14 @@
+{
+  "prompt_id": "fa8f520a366e453696213057808413c8",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly solves the linear equation $2X - 3 = 5$. It accurately adds 3 to both sides to get $2X = 8$, then divides by 2 to find $X = 4$. The final answer is correct, and there are no reasoning errors in the steps provided.",
+  "finish_reason": "stop",
+  "prompt_tokens": 222,
+  "completion_tokens": 71,
+  "total_tokens": 293,
+  "timestamp": "2026-09-22T17:15:30.721074+00:00"
+}

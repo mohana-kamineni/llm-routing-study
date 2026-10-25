@@ -1,0 +1,20 @@
+{
+  "prompt_id": "a5d68090f3dc4d83b6dc4685e60105c0",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a limerick about applesauce.  Please replace every instance of the letter \"c\" with the letter \"b\" in your response.",
+  "response_text": "There onbe was a bowl of applesause,  \nWhose sweet taste would make you say “ah, wow!”  \nIt’s smooth and it’s bright,  \nA pure, tasty delight,  \nAnd left all the guests feeling wow.",
+  "finish_reason": "stop",
+  "prompt_tokens": 101,
+  "completion_tokens": 611,
+  "total_tokens": 712,
+  "latency_ms": 4551,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:40:54.084082+00:00"
+}

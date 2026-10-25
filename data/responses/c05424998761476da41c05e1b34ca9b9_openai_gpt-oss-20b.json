@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c05424998761476da41c05e1b34ca9b9",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Solve the riddle. \"I am the cotton no one can taste, visible always, melting in spades. Trees pray to me, as my dance can't be stopped by them. My guests are  the  densest birds, but the lightest balls.\"",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 124,
+  "completion_tokens": 4096,
+  "total_tokens": 4220,
+  "latency_ms": 5814,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T23:02:53.328376+00:00"
+}

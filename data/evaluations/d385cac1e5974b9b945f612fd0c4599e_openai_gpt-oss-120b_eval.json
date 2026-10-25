@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d385cac1e5974b9b945f612fd0c4599e",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains numerous severe factual errors and hallucinations regarding the character Rukia Kuchiki from *Bleach*.\n1. **Zanpakutō Name**: It incorrectly identifies her sword as \"Sode no Shirayuki\" (which is actually the name of the character's *Shikai* release phrase or a confusion with other characters; her Zanpakutō is named **Sode no Shirayuki** is actually correct as the name, but the description of the release forms is wrong). More critically, it lists the release forms as \"First Dance: Hyouketsu,\" etc., which are completely fabricated. Her Shikai release is \"Sode no Shirayuki\" and the techniques are named \"First Dance: Hyouketsu\" is incorrect; the actual techniques are \"First Dance: Hyouketsu\" is not a standard name, the actual Shikai techniques are \"First Dance: Hyouketsu\" is wrong. The actual Shikai is \"Sode no Shirayuki\" and the Bankai is \"Hakka no Togetsu\" (which is correct), but the Shikai description is garbled.\n2. **Family Relationships**: The \"Family\" section is incoherent and factually wrong. It claims Renji Abarai is her \"adoptive brother\" (he is not; he is a friend/love interest) and describes Byakuya Kuchiki in a nonsensical, repetitive manner (\"cousin of Rukia’s older sister, Rukia’s adoptive sister...\"). Byakuya is her adoptive older brother.\n3. **Powers**: It claims she can \"use the power of a Quincy,\" which is false. She is a Soul Reaper.\n4. **Trivia**: It claims the name \"Rukia\" is derived from \"lucia,\" which is incorrect (it is generally cited as a variation of \"Lucia\" or just a name choice by the author, but the etymology provided is dubious, and the surname translation \"rotted wood\" is a loose interpretation of *Kuchiki* (old/rotten wood), but the other errors are disqualifying).\n\nThe response fails the criterion of providing the correct factual answer without false contradictions due to the extensive misinformation about her abilities, relationships, and lore.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1239,
+  "completion_tokens": 491,
+  "total_tokens": 1730,
+  "timestamp": "2026-09-24T23:35:16.211884+00:00"
+}

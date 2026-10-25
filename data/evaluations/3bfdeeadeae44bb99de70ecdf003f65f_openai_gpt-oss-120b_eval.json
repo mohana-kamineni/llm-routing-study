@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3bfdeeadeae44bb99de70ecdf003f65f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to adequately summarize the source text because it omits two of the four required key aspects. Specifically, it does not mention that the personas are designed to channel different aspects of the user's own personality (Key Aspect 2) or that the user intends to share stories, encounters, and life lessons regarding self-discovery and feelings (Key Aspect 4). The response focuses primarily on the character definitions and the immediate plan to interact in Japan, treating the input as a setup for a role-play session rather than a summary of the user's stated intentions and personal motivations.",
+  "finish_reason": "stop",
+  "prompt_tokens": 791,
+  "completion_tokens": 123,
+  "total_tokens": 914,
+  "timestamp": "2026-09-23T18:52:05.273780+00:00"
+}

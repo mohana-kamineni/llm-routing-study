@@ -1,0 +1,20 @@
+{
+  "prompt_id": "fa8f520a366e453696213057808413c8",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "2X - 3  = 5\nSolve for X.",
+  "response_text": "To solve the equation  \n\n\\[\n2X - 3 = 5\n\\]\n\nfollow these steps:\n\n1. **Add 3 to both sides** to isolate the term with \\(X\\):\n   \\[\n   2X - 3 + 3 = 5 + 3 \\quad\\Longrightarrow\\quad 2X = 8\n   \\]\n\n2. **Divide both sides by 2** to solve for \\(X\\):\n   \\[\n   \\frac{2X}{2} = \\frac{8}{2} \\quad\\Longrightarrow\\quad X = 4\n   \\]\n\n\\[\n\\boxed{X = 4}\n\\]",
+  "finish_reason": "stop",
+  "prompt_tokens": 85,
+  "completion_tokens": 185,
+  "total_tokens": 270,
+  "latency_ms": 7924,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:15:21.684281+00:00"
+}

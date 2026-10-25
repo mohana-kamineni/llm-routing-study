@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c1528f302c2d4061b0766415f82ca238",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a valid, executable Linux shell script (Bash) that correctly calculates and prints prime numbers up to a specified limit. \n\n1.  **Correctness**: The `is_prime` function correctly implements trial division. It handles edge cases (numbers < 2, 2, 3, even numbers) and checks odd divisors up to $\\sqrt{n}$ using the condition `i * i <= n`. This is a mathematically sound method for primality testing.\n2.  **Functionality**: The main loop iterates from 2 to the limit and prints the primes. The formatting logic (handling the first element to avoid leading spaces) is correct.\n3.  **No Substantive Errors**: The code is syntactically correct Bash. The logic for determining primality is accurate. The explanation provided matches the code's behavior.\n\nTherefore, the response correctly solves the problem.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1129,
+  "completion_tokens": 194,
+  "total_tokens": 1323,
+  "timestamp": "2026-09-22T22:58:30.349213+00:00"
+}

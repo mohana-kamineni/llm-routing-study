@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1efb020ee8ca45bdbcfe540b122864e9",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the meaning of the lyrics by identifying the central metaphor of the \"herd\" (conformity) versus the \"lion\" (disruptive power/rebellion). It accurately captures the key thematic elements: the call to \"kneel and wait\" (conformity), the threat of the lion's roar (dispersal/crumbling), and the counter-narrative of those who \"bow to none\" (rebellion/agency). The summary correctly interprets the tension between the masses and the singular force, as well as the choice to resist or submit. The subsequent landscape description is creative and directly derived from the summary's themes, fulfilling the prompt's second requirement.",
+  "finish_reason": "stop",
+  "prompt_tokens": 921,
+  "completion_tokens": 150,
+  "total_tokens": 1071,
+  "timestamp": "2026-09-19T17:23:35.026869+00:00"
+}

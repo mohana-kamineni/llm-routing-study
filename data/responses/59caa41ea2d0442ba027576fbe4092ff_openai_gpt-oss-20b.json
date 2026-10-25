@@ -1,0 +1,20 @@
+{
+  "prompt_id": "59caa41ea2d0442ba027576fbe4092ff",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about large language models in Finnish in the style of Kalevala.",
+  "response_text": "Kieli kääntää, kielen kätkö,  \nKielimallin käsky, kun kuningas kääntää.  \nSampo sanojen, sävelen,  \nSampo sanojen, sävelen,  \nSampo sanojen, sävelen,  \nSampo sanojen, sävelen,  \nSampo sanojen, sävelen,  \nSampo sanojen, sävelen,  \nSampo sanojen, sävelen,  \nSampo sanojen, sävelen,  \nSampo sanojen, sävelen,  \nSampo sanojen, sävelen,  \n\nKaleva kääntää, kun kuningas kääntää,  \nKaleva kääntää, kun kuningas kääntää,  \nKaleva kääntää, kun kuningas kääntää,  \nKaleva kääntää, kun kuningas kääntää,  \nKaleva kääntää, kun kuningas kääntää,  \nKaleva kääntää, kun kuningas kääntää,  \nKaleva kääntää, kun kuningas kääntää,  \nKaleva kääntää, kun kuningas kääntää,  \nKaleva kääntää, kun kuningas kääntää,  \nKaleva kääntää, kun kuningas kääntää,  \nKaleva kääntää, kun kuningas kääntää,  \nKaleva kääntää, kun kuningas kääntää,  \n\nJumala janoaa, ja kielen kätkö,  \nJumala janoaa, ja kielen kätkö,  \nJumala janoaa, ja kielen kätkö,  \nJumala janoaa, ja kielen kätkö,  \nJumala janoaa, ja kielen kätkö,  \nJumala janoaa, ja kielen kätkö,  \nJumala janoaa, ja kielen kätkö,  \nJumala janoaa, ja kielen kätkö,  \nJumala janoaa, ja kielen kätkö,  \nJumala janoaa, ja kielen kätkö,  \nJumala janoaa, ja kielen kätkö,  \nJumala janoaa, ja kielen kätkö.",
+  "finish_reason": "stop",
+  "prompt_tokens": 87,
+  "completion_tokens": 3422,
+  "total_tokens": 3509,
+  "latency_ms": 34004,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T23:16:36.718824+00:00"
+}

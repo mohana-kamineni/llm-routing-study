@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3f0f845db83a4f9886a46cdefe2e3608",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly calculates the product of 1.1111 and 3.3333. The exact multiplication is $11111 \\times 33333 = 370,363,263$. Since there are 4 decimal places in each number, the total decimal places in the result is 8, yielding $3.70363263$. The response provides the correct exact value and a correctly rounded approximation.",
+  "finish_reason": "stop",
+  "prompt_tokens": 321,
+  "completion_tokens": 113,
+  "total_tokens": 434,
+  "timestamp": "2026-09-19T17:28:38.669756+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "0f4bc55b24344589b3f74fbe3a778f0f",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response is logically and factually correct. If A is the father of B, and B is the father of C, then A is the paternal grandfather of C. Stating that A is the grandfather of C is a true statement that accurately describes the relationship without any false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 171,
+  "completion_tokens": 64,
+  "total_tokens": 235,
+  "timestamp": "2026-09-22T18:34:43.550549+00:00"
+}

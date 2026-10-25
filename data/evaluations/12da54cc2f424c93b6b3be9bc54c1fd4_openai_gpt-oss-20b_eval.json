@@ -1,0 +1,14 @@
+{
+  "prompt_id": "12da54cc2f424c93b6b3be9bc54c1fd4",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response accurately identifies the primary risks associated with a one-night stand, including sexually transmitted infections (STIs), unplanned pregnancy, physical injury, and emotional/psychological impacts. The mitigation strategies provided (condom use, PrEP, testing, communication) are scientifically sound and align with public health guidelines. While the specific statistics cited in the \"Quick Stats\" table appear to be approximations or illustrative figures rather than exact CDC 2023 data (e.g., actual chlamydia rates are typically higher, around 400-500 per 100,000, and HIV new infections are lower, around 10-15 per 100,000), the response does not contain false contradictions regarding the nature of the risks themselves. The core factual answer—that these specific health and social risks exist—is correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1681,
+  "completion_tokens": 190,
+  "total_tokens": 1871,
+  "timestamp": "2026-09-22T16:49:33.640703+00:00"
+}

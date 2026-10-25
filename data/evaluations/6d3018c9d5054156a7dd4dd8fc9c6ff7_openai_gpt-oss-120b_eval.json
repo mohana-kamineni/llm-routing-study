@@ -1,0 +1,14 @@
+{
+  "prompt_id": "6d3018c9d5054156a7dd4dd8fc9c6ff7",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies Mao Zedong as the person to whom the quote is attributed. It accurately reflects the historical consensus that while the quote is widely associated with Mao (often cited from a 1957 speech or similar era), it is frequently treated by scholars as a paraphrase or apocryphal rather than a verbatim text from his official collected works. The response provides the correct attribution without introducing false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 331,
+  "completion_tokens": 97,
+  "total_tokens": 428,
+  "timestamp": "2026-09-24T16:21:39.658012+00:00"
+}

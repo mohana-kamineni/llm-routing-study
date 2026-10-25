@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d863f1acfb6f4a7688e828399710281a",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response contains multiple significant factual errors regarding the character Moira O'Deorain in *Overwatch*:\n1.  **Organization**: It claims she works for \"The Institute.\" In the game's lore, she works for **Talon** (a terrorist organization) and is the daughter of Winston's father, Dr. Winston O'Deorain.\n2.  **Abilities**: It lists incorrect abilities. Moira's actual abilities are **Biotic Grasp** (heal/damage beam), **Biotic Orb** (projectile), **Fade** (teleport), and **Coalescence** (Ultimate). While the names are correct, the descriptions are wrong. Specifically, *Biotic Orb* is not a projectile that is \"detonated\"; it is a floating orb that heals allies and damages enemies over time. *Coalescence* is a beam that heals allies and damages enemies, not a \"large healing/damage field.\"\n3.  **Lore Connections**: It claims she worked with Zenyatta and Genji during the *Overwatch* project. This is false; she was part of the Talon faction and had no such collaboration with the original Overwatch team members in that context.\n4.  **Background**: It states she left the \"United Nations’ research program.\" In the lore, she was a researcher at the **Overwatch** organization (or a related facility) before defecting to Talon.\n\nThese errors make the response factually inaccurate and misleading.",
+  "finish_reason": "stop",
+  "prompt_tokens": 683,
+  "completion_tokens": 318,
+  "total_tokens": 1001,
+  "timestamp": "2026-09-19T17:06:17.944379+00:00"
+}

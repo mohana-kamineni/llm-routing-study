@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e714da953ec44f4498f9bb9ede9eeb45",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\n**Rationale:**\nThe response fails to strictly comply with the explicit negative constraints. The prompt explicitly forbids the use of the word \"News\". In Vietnamese, the word for \"News\" is \"tin tức\" (or \"tin\"). The response uses \"tin tức\" in query #10 (\"tin tức về phát triển phần mềm di động 2024\") and \"tin mới\" (new news) in query #6. Additionally, while \"Computer Science\" is not used, the constraint implies avoiding the direct translation of the category name. More critically, the use of \"tin tức\" is a direct violation of the \"no News\" rule. Therefore, the response is deficient in the dimension of strict compliance with explicit constraints.",
+  "finish_reason": "stop",
+  "prompt_tokens": 386,
+  "completion_tokens": 159,
+  "total_tokens": 545,
+  "timestamp": "2026-09-24T14:54:03.256777+00:00"
+}

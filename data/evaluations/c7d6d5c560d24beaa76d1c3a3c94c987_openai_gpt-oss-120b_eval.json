@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c7d6d5c560d24beaa76d1c3a3c94c987",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the most relevant platforms for the specified target audience (women 16-35 interested in anime, kawaii, and Harajuku style). It accurately prioritizes visual and short-form video platforms (Instagram, TikTok, Pinterest, YouTube) which are the primary hubs for this demographic. It also appropriately includes niche community platforms (Discord, Reddit) and regional options (LINE) where relevant. The reasoning provided for each platform selection is sound, aligning with current digital marketing trends and audience behavior. There are no substantive reasoning errors; the advice is practical, detailed, and logically structured.",
+  "finish_reason": "stop",
+  "prompt_tokens": 4128,
+  "completion_tokens": 133,
+  "total_tokens": 4261,
+  "timestamp": "2026-09-23T22:23:42.754622+00:00"
+}

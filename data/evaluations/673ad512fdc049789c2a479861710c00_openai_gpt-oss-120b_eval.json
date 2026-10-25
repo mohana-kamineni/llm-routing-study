@@ -1,0 +1,14 @@
+{
+  "prompt_id": "673ad512fdc049789c2a479861710c00",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response accurately identifies Ray as an open-source distributed execution framework for scaling Python applications. It correctly attributes its origin to the RISE Lab at UC Berkeley (2017) and its current status as a top-level project under the Linux Foundation (specifically the Ray Project, which is a Linux Foundation project). The technical details regarding its core components (Tasks, Actors, Object Store, Scheduler) and its ecosystem (Tune, RLlib, Serve, Train, Data) are factually correct. The code examples and descriptions of its capabilities (fault tolerance, elastic scaling, Python-first API) align with the actual functionality of the Ray framework. There are no false contradictions or significant factual errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1827,
+  "completion_tokens": 150,
+  "total_tokens": 1977,
+  "timestamp": "2026-09-23T22:50:33.503454+00:00"
+}

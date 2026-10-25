@@ -1,0 +1,14 @@
+{
+  "prompt_id": "da51556a731641bbac211be1c0293bca",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains a significant factual error in Section 1 (\"How `<EOS>` is introduced during training\"). It claims that \"If the text ends with a period, newline, or any other natural end, the tokenizer appends `<EOS>` to the token list.\" This is incorrect for standard language model training (e.g., GPT, LLaMA, T5). In these models, `<EOS>` is typically appended only to the very end of a complete document or context window, not after every sentence or natural pause. If `<EOS>` were appended after every sentence, the model would learn to stop generating after every single sentence, which contradicts the goal of generating coherent, multi-sentence paragraphs. The model learns to predict `<EOS>` based on the end of the *training sequence*, not necessarily the end of every grammatical sentence within that sequence.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1945,
+  "completion_tokens": 183,
+  "total_tokens": 2128,
+  "timestamp": "2026-09-22T17:18:27.008987+00:00"
+}

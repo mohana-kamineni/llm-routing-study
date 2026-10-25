@@ -1,0 +1,14 @@
+{
+  "prompt_id": "f17c06ddbf63476793267db5b7d1ecf8",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the key points of the provided source text. It correctly identifies the impact of Stable Diffusion, the mixed reactions from the art community (protests vs. acceptance), the author's dual identity (ML engineer and photographer) and stance, and the historical parallel drawn between photography and AI art. The summary is factually consistent with the source material and covers all essential aspects presented in the excerpt.",
+  "finish_reason": "stop",
+  "prompt_tokens": 654,
+  "completion_tokens": 89,
+  "total_tokens": 743,
+  "timestamp": "2026-09-22T16:56:35.138275+00:00"
+}

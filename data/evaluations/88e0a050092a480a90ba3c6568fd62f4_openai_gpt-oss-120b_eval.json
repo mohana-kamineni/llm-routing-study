@@ -1,0 +1,14 @@
+{
+  "prompt_id": "88e0a050092a480a90ba3c6568fd62f4",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response is logically and factually correct. By definition, if a person is married to a woman (referred to as \"my wife\"), that person is the husband of that woman. Therefore, the husband of \"my wife\" is the speaker (\"you\"). The response correctly identifies this logical relationship without any false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 165,
+  "completion_tokens": 72,
+  "total_tokens": 237,
+  "timestamp": "2026-09-24T03:51:27.342688+00:00"
+}

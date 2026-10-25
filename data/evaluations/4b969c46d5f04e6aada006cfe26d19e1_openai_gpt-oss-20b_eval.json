@@ -1,0 +1,14 @@
+{
+  "prompt_id": "4b969c46d5f04e6aada006cfe26d19e1",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly solves the equation $2x^2 + 4 = 12$. It properly isolates the variable term by subtracting 4 from both sides to get $2x^2 = 8$, divides by 2 to get $x^2 = 4$, and correctly takes the square root to find both solutions $x = 2$ and $x = -2$. There are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 350,
+  "completion_tokens": 95,
+  "total_tokens": 445,
+  "timestamp": "2026-09-22T17:07:40.330204+00:00"
+}

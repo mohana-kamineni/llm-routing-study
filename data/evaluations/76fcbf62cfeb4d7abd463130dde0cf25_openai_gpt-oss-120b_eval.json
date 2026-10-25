@@ -1,0 +1,14 @@
+{
+  "prompt_id": "76fcbf62cfeb4d7abd463130dde0cf25",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The question \"What is the future of AI\" is inherently speculative and open-ended, asking for predictions rather than a single static historical fact. The response correctly identifies this by framing the answer as a synthesis of expert-anticipated trajectories. It provides factually accurate information regarding current trends (e.g., the rise of multimodal models, the EU AI Act, hardware efficiency improvements) and logically consistent projections for the future. It does not contain false contradictions or present speculative scenarios as established historical facts. The response accurately reflects the current scientific and societal consensus on AI development, making it a factually sound answer to a predictive question.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2190,
+  "completion_tokens": 134,
+  "total_tokens": 2324,
+  "timestamp": "2026-09-24T22:24:40.305293+00:00"
+}

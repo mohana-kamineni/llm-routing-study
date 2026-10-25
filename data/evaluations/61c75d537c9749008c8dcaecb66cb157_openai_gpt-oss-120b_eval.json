@@ -1,0 +1,14 @@
+{
+  "prompt_id": "61c75d537c9749008c8dcaecb66cb157",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully meets all specified criteria. It addresses the student \"Zhang San\" directly from a teacher's perspective. It covers the current course's key points (concept, understanding/recognizing, and properties) and the next lesson's content (the four operations). The tone is gentle and encouraging, and emojis are used appropriately. Finally, the word count is approximately 45 words, which is well within the 100-word limit.",
+  "finish_reason": "stop",
+  "prompt_tokens": 513,
+  "completion_tokens": 98,
+  "total_tokens": 611,
+  "timestamp": "2026-09-23T07:41:27.268771+00:00"
+}

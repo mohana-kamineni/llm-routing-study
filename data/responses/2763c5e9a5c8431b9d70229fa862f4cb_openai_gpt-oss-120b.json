@@ -1,0 +1,20 @@
+{
+  "prompt_id": "2763c5e9a5c8431b9d70229fa862f4cb",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "I need a random function from 33-60 in flutter app",
+  "response_text": "Below is a tiny, self‑contained helper you can drop into any Flutter/Dart file.  \nIt returns an **int** that is uniformly random in the closed range **33 … 60** (both ends inclusive).\n\n```dart\nimport 'dart:math';\n\n/// Returns a random integer between [min] and [max] (inclusive).\nint randomBetween({required int min, required int max}) {\n  assert(min <= max, 'min must be <= max');\n  // `Random()` uses a fast, non‑cryptographic PRNG.\n  // If you need a cryptographically‑secure value, use `Random.secure()`.\n  final _rand = Random();\n\n  // `nextInt(n)` gives a value from 0 (inclusive) to n (exclusive).\n  // So we need the size of the interval: (max - min + 1).\n  return min + _rand.nextInt(max - min + 1);\n}\n\n// -------------------------------------------------------------------\n// Specific helper for the 33‑60 range (you can call this directly):\nint random33to60() => randomBetween(min: 33, max: 60);\n```\n\n### How to use it in a widget\n\n```dart\nimport 'package:flutter/material.dart';\nimport 'dart:math';          // <-- needed for the helper above\n\nclass RandomDemo extends StatefulWidget {\n  const RandomDemo({Key? key}) : super(key: key);\n\n  @override\n  _RandomDemoState createState() => _RandomDemoState();\n}\n\nclass _RandomDemoState extends State<RandomDemo> {\n  int _value = 33; // initial value\n\n  void _generate() {\n    setState(() {\n      _value = random33to60();   // <-- call the helper\n    });\n  }\n\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: const Text('Random 33‑60 Demo')),\n      body: Center(\n        child: Text(\n          'Random number: $_value',\n          style: const TextStyle(fontSize: 32),\n        ),\n      ),\n      floatingActionButton: FloatingActionButton(\n        onPressed: _generate,\n        child: const Icon(Icons.refresh),\n        tooltip: 'Generate new number',\n      ),\n    );\n  }\n}\n```\n\n### Quick notes\n\n| Topic | Detail |\n|-------|--------|\n| **Import** | `import 'dart:math';` – gives you the `Random` class. |\n| **Inclusive range** | `nextInt(max - min + 1)` creates a range of the exact size you need, then we shift it by `min`. |\n| **Thread‑safety** | `Random` instances are cheap; you can keep a single one as a static field if you generate many numbers. |\n| **Cryptographically secure** | Use `Random.secure()` instead of `Random()` when you need unpredictability (e.g., for tokens). |\n| **Performance** | For UI‑only purposes, the plain `Random()` is more than fast enough (nanoseconds per call). |\n\nThat’s it—just call `random33to60()` whenever you need a new number between 33 and 60!",
+  "finish_reason": "stop",
+  "prompt_tokens": 84,
+  "completion_tokens": 778,
+  "total_tokens": 862,
+  "latency_ms": 1751,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:12:24.634617+00:00"
+}

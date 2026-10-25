@@ -1,0 +1,20 @@
+{
+  "prompt_id": "0ba71a41d7ad4e1986569e63a7070a42",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the nearest ski resort to Berkeley",
+  "response_text": "**Nearest ski resort to Berkeley, CA**\n\n| Resort | Approx. distance from Berkeley | Approx. drive time | Notes |\n|--------|------------------------------|--------------------|-------|\n| **Sierra-at-Tahoe** (South Lake Tahoe) | ~140 mi (225 km) | 2 h 30 min – 3 h | The most popular choice for Berkeley‑area skiers.  It’s a large resort with a wide variety of runs, night skiing, and a lively village. |\n| **Bear Valley** (Bear Valley, CA) | ~140 mi (225 km) | 2 h 30 min – 3 h | A smaller, family‑friendly resort with a good mix of beginner and intermediate terrain. |\n| **Heavenly** (South Lake Tahoe) | ~140 mi (225 km) | 2 h 30 min – 3 h | Known for its expansive terrain and panoramic lake views.  It’s a bit farther east of Sierra‑at‑Tahoe. |\n| **Northstar** (Lake Tahoe) | ~140 mi (225 km) | 2 h 30 min – 3 h | A resort with a ski‑and‑shop village, good for families and beginners. |\n| **Squaw Valley/Alpine Meadows** (Olympic Valley) | ~150 mi (240 km) | 3 h | A bit farther but offers world‑class terrain and the 1960 Olympic legacy. |\n\n### Quick recommendation\n- **If you want the biggest selection of runs and amenities**: *Sierra-at-Tahoe* is the closest and most popular.\n- **If you prefer a quieter, family‑friendly resort**: *Bear Valley* is a great alternative.\n\n### How to get there\n- **By car**: Take I‑80 E out of Berkeley, then I‑680 S to I‑80 E toward Sacramento. From there, take the CA‑89 S exit toward South Lake Tahoe. Follow signs to the resort of your choice.\n- **By shuttle**: Several companies (e.g., Tahoe Express, Tahoe Valley Express) offer direct shuttles from the Berkeley area to the Tahoe resorts. Check schedules and book in advance, especially during peak season.\n\nEnjoy your ski trip! If you need more details (lift tickets, lodging, or weather forecasts), just let me know.",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 3410,
+  "total_tokens": 3489,
+  "latency_ms": 4029,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:19:37.457380+00:00"
+}

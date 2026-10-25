@@ -1,0 +1,20 @@
+{
+  "prompt_id": "8c297cd8127543a2a37e1c4755174a06",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Please summarize the following video captions into an interesting short paragraph. Be as truthfully as possible when you response.\n\nTime, Caption\n03:42, an image of a hallway with a dog on the floor\n05:17, a dog is sitting on a dog bed in the living room\n05:25, a woman is walking on the floor of a room\n05:27, a small dog is standing in front of a mirror\n05:37, an image of a woman standing in front of a door\n05:41, a small dog is standing in front of a door\n08:15, a small white dog standing in front of a door\n09:59, a dog is sitting on the floor in front of a door\n10:01, a dog laying on the floor in front of a door\n10:02, a teddy bear is sitting on the floor in front of a door\n10:03, a small dog is playing with a toy on the floor\n22:04, a dog is sitting on the floor in front of a mirror\n22:57, a small dog is sitting on the floor in front of a door\n23:04, a dog is walking on the floor in front of a mirror\n23:05, a dog is sitting on the floor in front of a mirror",
+  "response_text": "In a quiet, domestic setting, a small white dog wanders through hallways, living rooms, and front doors, pausing to stare at its reflection in a mirror or play with a toy. A woman walks through the same spaces, sometimes standing before a door, while a teddy bear briefly appears on the floor. The footage captures the dog’s playful curiosity and the gentle rhythm of everyday life in the home.",
+  "finish_reason": "stop",
+  "prompt_tokens": 341,
+  "completion_tokens": 263,
+  "total_tokens": 604,
+  "latency_ms": 9719,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:40:49.250120+00:00"
+}

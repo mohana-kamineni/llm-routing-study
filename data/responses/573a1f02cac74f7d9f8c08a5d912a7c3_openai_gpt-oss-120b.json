@@ -1,0 +1,20 @@
+{
+  "prompt_id": "573a1f02cac74f7d9f8c08a5d912a7c3",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Anne likes cats. Jack likes math. Write a poem about Anne and Jack.",
+  "response_text": "**Anne & Jack**\n\nIn a sun‑lit room where whiskers twitch,  \nAnne cradles a purring tide—  \nsoft fur, amber eyes that stitch  \nthe world in gentle, silent pride.  \n\nAcross the table, numbers dance,  \nJack’s mind a lattice of bright lines,  \nequations swirl in quiet trance,  \neach proof a pulse that softly shines.  \n\nAnne laughs as a tabby leaps,  \nits tail a comet, swift and sleek,  \nwhile Jack, with chalk, theorems keeps,  \nturning chaos into a perfect peak.  \n\nTogether they compose a song—  \nher cats, his calculus, entwined,  \na harmony where both belong,  \nthe art of love, both heart and mind.  \n\nSo let the cats curl round the sum,  \nand let the sums give cats a rhyme—  \nAnne and Jack, a duo hum,  \nwhere curiosity beats in time.",
+  "finish_reason": "stop",
+  "prompt_tokens": 87,
+  "completion_tokens": 230,
+  "total_tokens": 317,
+  "latency_ms": 709,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:47:01.518708+00:00"
+}

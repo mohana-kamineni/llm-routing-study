@@ -1,0 +1,21 @@
+{
+  "prompt_id": "a35d9cd594b24fbfaa2f8d0559bb9af8",
+  "category": "summarization",
+  "prompt_text": "summarize the following conversation in two sentences: \"agent: hello all right \nagent: so this is a test of real time transcription and in the top left corner of my screen you're going to see studio connecting to an ai to transcribe the call real time to the best of its ability.\n agent: so i am speaking with rana and he is using a cell phone right now rana can you tell me what you did this past weekend. \nvisitor: yeah of course. \nvisitor: i hung out with a couple of friends to peed mom park for the dogwood festival which is an arts and food festival and then also play it's viable and spike ball out in old fourth ward walk down the belt line and had some dinner with friends. \nagent: looks like it's doing a good job transcribing it's just a few seconds behind i'm seeing it for you maybe it it's like three four seconds behind but for me maybe a little.\n agent: a bit less than that seems rather consistent what's your plan transfer this weekend. \nvisitor: oh this weekend i don't really have any plans yeah probably. \nvisitor: again hang out with friends.\n visitor: saturday night. \nagent: this looks really good i appreciate you speaking with me leveraging a cell phone thank you very much i'm going to stop the recording now all right.\n\"",
+  "model": "openai/gpt-oss-20b",
+  "provider": "groq",
+  "model_returned": "openai/gpt-oss-20b",
+  "raw_response": "The agent explains a real‑time transcription test and asks the visitor, Rana, about his weekend activities, which Rana describes spending time with friends at a festival and walking the Belt Line. After noting the transcription lag is minimal, the agent inquires about upcoming plans, to which Rana says he has none, and the agent thanks him and ends the recording.",
+  "response_text": "The agent explains a real‑time transcription test and asks the visitor, Rana, about his weekend activities, which Rana describes spending time with friends at a festival and walking the Belt Line. After noting the transcription lag is minimal, the agent inquires about upcoming plans, to which Rana says he has none, and the agent thanks him and ends the recording.",
+  "reasoning_text": "We need to summarize the conversation in two sentences. The conversation: agent greeting, explaining real-time transcription, asking visitor about weekend, visitor describes weekend, agent comments on transcription lag, asks about plans, visitor says no plans, agent thanks and stops recording. Summarize in two sentences. Let's produce concise summary.",
+  "input_tokens": 337,
+  "output_tokens": 144,
+  "total_tokens": 481,
+  "reasoning_tokens": 64,
+  "latency_seconds": 0.436,
+  "timestamp": "2026-09-13T11:39:52.368336+00:00",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "retries": 0,
+  "error": null
+}

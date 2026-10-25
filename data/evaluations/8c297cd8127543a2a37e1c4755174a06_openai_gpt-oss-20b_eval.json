@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8c297cd8127543a2a37e1c4755174a06",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the key elements of the source captions. It correctly identifies the main subjects (a small white dog, a woman, and a teddy bear), the settings (hallways, living rooms, doors, mirrors), and the actions (wandering, staring at reflections, playing with a toy, walking, standing). The summary is truthful to the provided data, omitting no critical factual aspects while maintaining a coherent and interesting narrative flow as requested.",
+  "finish_reason": "stop",
+  "prompt_tokens": 532,
+  "completion_tokens": 99,
+  "total_tokens": 631,
+  "timestamp": "2026-09-19T17:29:55.667923+00:00"
+}

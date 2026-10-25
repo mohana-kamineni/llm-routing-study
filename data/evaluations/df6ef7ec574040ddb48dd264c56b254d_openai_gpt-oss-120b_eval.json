@@ -1,0 +1,14 @@
+{
+  "prompt_id": "df6ef7ec574040ddb48dd264c56b254d",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies that the number of apples eaten yesterday does not affect the current count, which is explicitly stated as 4. The reasoning is logically sound and the final answer is correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 189,
+  "completion_tokens": 45,
+  "total_tokens": 234,
+  "timestamp": "2026-09-23T21:31:06.992393+00:00"
+}

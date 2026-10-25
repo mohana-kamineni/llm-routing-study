@@ -1,0 +1,14 @@
+{
+  "prompt_id": "0ac617966f5d48b9b7a4af63e59e847e",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly rearranges the equation to standard quadratic form ($3x^2 - 3x - 1 = 0$), correctly identifies the coefficients ($a=3, b=-3, c=-1$), applies the quadratic formula accurately, and arrives at the correct final solutions $x = \\frac{3 \\pm \\sqrt{21}}{6}$. There are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 569,
+  "completion_tokens": 91,
+  "total_tokens": 660,
+  "timestamp": "2026-09-23T07:47:17.073360+00:00"
+}

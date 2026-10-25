@@ -1,0 +1,14 @@
+{
+  "prompt_id": "87a9e10d4cca4efcba6cee46d98e2bdf",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to accurately summarize the source text because it introduces a factual error in the fourth key point. The source text states that the teenager was \"never... sent to school\" and that the mother was charged with neglect and causing harm. It does **not** state that the mother claimed to be \"homeschooling\" the child or that she violated specific homeschooling regulations. The source mentions homeschooling laws only as general context regarding the illegality of the situation, but the summary incorrectly attributes a specific claim of \"homeschooling\" to the mother and frames the legal violation as a breach of homeschooling rules rather than the neglect and harm charges explicitly mentioned in the text. Additionally, the summary omits the defense's argument that the child was \"over-loved\" and from a wealthy background, which is a significant part of the narrative provided in the source.",
+  "finish_reason": "stop",
+  "prompt_tokens": 714,
+  "completion_tokens": 181,
+  "total_tokens": 895,
+  "timestamp": "2026-09-28T07:31:00.115322+00:00"
+}

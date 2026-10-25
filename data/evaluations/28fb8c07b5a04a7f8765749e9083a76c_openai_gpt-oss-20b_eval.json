@@ -1,0 +1,12 @@
+{
+  "prompt_id": "28fb8c07b5a04a7f8765749e9083a76c",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "auto_terminal_failure",
+  "terminal_type": "empty_text_generation",
+  "terminal_description": "Observed empty-response generation condition: status=success, finish_reason=length, completion_tokens=4096, response_text empty. No usable candidate content for evaluation.",
+  "verdict": "FAIL",
+  "raw_output": null,
+  "timestamp": "2026-09-18T09:23:19.623267+00:00"
+}

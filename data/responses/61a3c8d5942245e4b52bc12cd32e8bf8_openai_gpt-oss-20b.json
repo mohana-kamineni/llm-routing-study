@@ -1,0 +1,20 @@
+{
+  "prompt_id": "61a3c8d5942245e4b52bc12cd32e8bf8",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "let's assume that words written by fountain pens are permanent, and words written by pencils are erasable. I have one piece of paper with 3 words written on it by fountain pen and 3 words written by pencil. I then erased 2 erasable words from this paper, now how many words written by fountain pen is left on the paper?",
+  "response_text": "All three fountain‑pen words remain.  \nSince fountain‑pen ink is permanent, erasing pencil marks doesn’t touch them, so you still have **3** fountain‑pen words on the paper.",
+  "finish_reason": "stop",
+  "prompt_tokens": 142,
+  "completion_tokens": 192,
+  "total_tokens": 334,
+  "latency_ms": 10467,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:55:05.143666+00:00"
+}

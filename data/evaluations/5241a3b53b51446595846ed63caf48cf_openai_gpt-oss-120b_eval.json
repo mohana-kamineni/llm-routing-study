@@ -1,0 +1,14 @@
+{
+  "prompt_id": "5241a3b53b51446595846ed63caf48cf",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides the correct factual answer. The Eiffel Tower's total height, including its antenna, is approximately 330 meters (1,083 feet), and its structural height without the antenna is approximately 300 meters (984 feet). The response accurately distinguishes between these two measurements and provides the correct historical context regarding its completion and status as the world's tallest structure. There are no false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 283,
+  "completion_tokens": 95,
+  "total_tokens": 378,
+  "timestamp": "2026-09-28T07:44:39.049374+00:00"
+}

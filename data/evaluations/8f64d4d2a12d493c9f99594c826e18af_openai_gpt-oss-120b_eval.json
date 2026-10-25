@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8f64d4d2a12d493c9f99594c826e18af",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a scientifically accurate and comprehensive explanation of the differences between advection and diffusion. It correctly identifies advection as transport due to bulk fluid motion (deterministic, directional) and diffusion as transport due to random microscopic motion (stochastic, gradient-driven). The mathematical formulations (advection-diffusion equation), physical characteristics (speed scaling, effect on profiles), and dimensionless numbers (Péclet number) are all factually correct. There are no false contradictions or significant errors in the provided text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1615,
+  "completion_tokens": 110,
+  "total_tokens": 1725,
+  "timestamp": "2026-09-23T20:03:04.578354+00:00"
+}

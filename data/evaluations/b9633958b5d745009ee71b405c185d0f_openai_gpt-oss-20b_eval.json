@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b9633958b5d745009ee71b405c185d0f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the source text according to the requested format. It correctly identifies the accused's actions (misappropriation of $893.75 while serving in the Singapore Police Force), the specific offence (Criminal breach of trust under s 409 of the Penal Code), and the final sentence imposed (six months' imprisonment, noting the original six weeks). All critical factual aspects are covered without omission or inaccuracy.",
+  "finish_reason": "stop",
+  "prompt_tokens": 453,
+  "completion_tokens": 96,
+  "total_tokens": 549,
+  "timestamp": "2026-09-19T17:19:11.170060+00:00"
+}

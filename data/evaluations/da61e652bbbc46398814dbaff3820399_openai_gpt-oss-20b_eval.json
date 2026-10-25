@@ -1,0 +1,14 @@
+{
+  "prompt_id": "da61e652bbbc46398814dbaff3820399",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response accurately defines the distinction between Strong AI (Artificial General Intelligence/AGI) and Weak AI (Narrow AI) based on standard academic and industry definitions. It correctly identifies that Weak AI is task-specific and currently deployed, while Strong AI involves general-purpose intelligence, consciousness, or genuine understanding, which has not yet been achieved. The examples provided (e.g., Siri/Alexa for Weak AI, hypothetical AGI for Strong AI) are factually appropriate. The response contains no false contradictions regarding the core factual differences between the two concepts.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1166,
+  "completion_tokens": 121,
+  "total_tokens": 1287,
+  "timestamp": "2026-09-19T17:37:55.210788+00:00"
+}

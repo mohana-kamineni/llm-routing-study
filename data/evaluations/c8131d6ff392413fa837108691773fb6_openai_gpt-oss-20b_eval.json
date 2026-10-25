@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c8131d6ff392413fa837108691773fb6",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly models the problem using a 2D coordinate system, accurately assigns coordinates to the red and blue balls relative to the black ball, and applies the distance formula (Pythagorean theorem) to calculate the correct distance of 5 meters. There are no factual errors or contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 361,
+  "completion_tokens": 65,
+  "total_tokens": 426,
+  "timestamp": "2026-09-22T17:02:01.205035+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e92b39c6f12d4a079eb3f6fc0b411b8e",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a story about Jane Austen in 2020",
+  "response_text": "It was a bright, crisp morning in the year 2020, and Jane Austen found herself in a small, windowless room that smelled faintly of coffee and the faint scent of a thousand books. She was not, as she had expected, in the familiar drawing‑room of the Bennet family, but in a place that seemed to have been built for a single person and a single purpose. The walls were lined with shelves that stretched to the ceiling, each one crammed with volumes of every kind, from the classics to the latest best‑seller. A single lamp, a modern contraption of glass and metal, cast a soft glow over a desk that was cluttered with a laptop, a stack of paper, and a half‑eaten croissant.\n\nJane stared at the laptop, her eyes widening as she saw the screen flicker to life. A small, rectangular device that seemed to hold the world in its glassy surface. She pressed a button, and a voice, smooth and unhurried, greeted her. “Good morning, Jane. How may I assist you today?”\n\nShe blinked. “I am… I am Jane Austen. I am… I am not sure what this is.”\n\nThe voice chuckled. “You’re in 2020, Miss Austen. Welcome to the future.”\n\nThe room seemed to tilt. Jane’s mind, trained on the social mores of the early nineteenth century, struggled to make sense of the new world. She had been a writer of novels, not of gadgets. She had known only the clatter of horse‑hooves and the rustle of paper. Now she was surrounded by a device that could summon a thousand voices with a single touch.\n\nShe rose from the chair, her dress slipping over the floor. The croissant was still warm, and she took a bite, savoring the buttery crumb. “I am a writer,” she said, “and I have always found the world to be a stage upon which people perform their roles. But this… this is a stage of a different kind.”\n\nShe walked to the window, which was a glass pane that showed a view of a city that was a maze of glass towers and electric lights. She saw people walking, some with devices in their hands, others with their eyes fixed on the ground. She saw a woman in a bright red coat, her hair in a messy bun, scrolling through a screen. She saw a man in a suit, his face illuminated by the glow of a phone.\n\nJane turned to the woman in the red coat. “Good day,” she said, her voice polite and curious. “I am Jane Austen. I have… I have been transported to this… this place. I am",
+  "finish_reason": "length",
+  "prompt_tokens": 81,
+  "completion_tokens": 4096,
+  "total_tokens": 4177,
+  "latency_ms": 4957,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:51:11.921234+00:00"
+}

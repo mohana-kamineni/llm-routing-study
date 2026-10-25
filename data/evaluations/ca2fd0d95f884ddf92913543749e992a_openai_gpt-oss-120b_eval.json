@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ca2fd0d95f884ddf92913543749e992a",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to cover several required key aspects. Specifically, it omits the specific date and time (May 15, 2023, 09:47 PM) and the observation of the new home with a cat (Key Aspect 4). Additionally, it does not explicitly mention Tommie's age (25) or the innate trait of being anxious (Key Aspects 1 and 2). While it captures the interest in design, hunger, tiredness, noise sensitivity, and the memory of Bruno, the omission of the specific temporal context and other distinct traits makes the summary inadequate according to the strict criteria provided.",
+  "finish_reason": "stop",
+  "prompt_tokens": 681,
+  "completion_tokens": 139,
+  "total_tokens": 820,
+  "timestamp": "2026-09-23T07:46:22.411541+00:00"
+}

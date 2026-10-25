@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d581cd56a0d94d24ab395feb92f8dd1b",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the equation, performs the necessary algebraic steps (subtracting 5 from both sides to get 24x = 48, then dividing by 24), and arrives at the correct final answer of x = 2. There are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 228,
+  "completion_tokens": 65,
+  "total_tokens": 293,
+  "timestamp": "2026-09-19T17:29:06.517795+00:00"
+}

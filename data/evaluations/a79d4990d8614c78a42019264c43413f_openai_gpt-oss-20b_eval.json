@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a79d4990d8614c78a42019264c43413f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the source text by covering all five required key aspects:\n1. It mentions the excitement of finally starting the game after a long wait.\n2. It notes the game's numerous awards and popularity.\n3. It includes the shout-out to the friend (Jodie Briggs) who encouraged them.\n4. It correctly identifies the debate between *Disco Elysium* and *The World Ends with You*.\n5. It cites the beautiful art and narrative depth as reasons for their choice.\n\nWhile the summary generalizes the specific name \"Inspector Clark Jodie Briggs\" to \"a friend,\" it captures the essential factual aspect of the shout-out and the influence it had, satisfying the criteria for an adequate summary.",
+  "finish_reason": "stop",
+  "prompt_tokens": 789,
+  "completion_tokens": 158,
+  "total_tokens": 947,
+  "timestamp": "2026-09-22T17:04:23.378490+00:00"
+}

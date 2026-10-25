@@ -1,0 +1,13 @@
+{
+  "prompt_id": "8ea4c640c91b4d3584f20b693686eeb8",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "To evaluate the response, we will verify the mathematical steps and the final answer.\n\n**1. Problem Analysis:**\n*   **Given:** A right triangle with an altitude to the hypotenuse.\n*   **Condition 1:** The altitude divides the hypotenuse into segments with a ratio of $1:2$.\n*   **Condition 2:** The length of the altitude is $6$ cm.\n*   **Goal:** Find the length of the hypotenuse.\n\n**2. Mathematical Verification:**\n*   Let the segments of the hypotenuse be $p$ and $q$.\n*   Let the altitude be $h$.\n*   The geometric mean theorem (altitude rule) states that $h^2 = p \\cdot q$.\n*   From the ratio $1:2$, let $p = x$ and $q = 2x$.\n*   Substitute the known values into the formula:\n    $$6^2 = x \\cdot (2x)$$\n    $$36 = 2x^2$$\n    $$x^2 = 18$$\n    $$x = \\sqrt{18} = 3\\sqrt{2}$$\n*   The length of the hypotenuse $c$ is the sum of the segments:\n    $$c = p + q = x + 2x = 3x$$\n*   Substitute $x$:\n    $$c = 3(3\\sqrt{2}) = 9\\sqrt{2}$$\n\n**3. Evaluation of the Response:**\n*   **Setup:** The response correctly defines the segments as $x$ and $2x$ based on the $1:2$ ratio.\n*   **Formula Application:** It correctly applies the property $CD^2 = AD \\cdot DB$ (altitude squared equals the product of the hypotenuse segments).\n*   **Calculation:**\n    *   $36 = 2x^2 \\rightarrow x^2 = 18 \\rightarrow x = 3\\sqrt{2}$. This is correct.\n    *   Hypotenuse $AB = 3x = 3(3\\sqrt{2}) = 9\\sqrt{2}$. This is correct.\n*   **Final Answer:** The response concludes with $9\\sqrt{2}$ cm.\n\nThe reasoning is sound, the calculations are accurate, and the final answer is correct.\n\nVERDICT: PASS",
+  "prompt_tokens": 481,
+  "completion_tokens": 524,
+  "total_tokens": 1005,
+  "timestamp": "2026-09-19T10:40:59.289293+00:00"
+}

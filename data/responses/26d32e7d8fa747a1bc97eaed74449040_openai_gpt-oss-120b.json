@@ -1,0 +1,20 @@
+{
+  "prompt_id": "26d32e7d8fa747a1bc97eaed74449040",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "who invented the assembly line",
+  "response_text": "The modern moving assembly line is most famously associated with **Henry Ford**, who introduced it at the Ford Motor Company’s Highland Park plant in **1913**. Ford’s system dramatically reduced the time it took to build a car (the Model T went from about 12 hours to roughly 1½ hours per vehicle) and set the standard for mass‑production techniques worldwide.\n\nHowever, Ford didn’t invent the idea of breaking work into a sequence of specialized tasks. Earlier pioneers laid the groundwork:\n\n| Pioneer | Contribution | Year |\n|---------|--------------|------|\n| **Ransom E. Olds** | Used a stationary “assembly line” for the Oldsmobile, moving the car to workers rather than the workers to the car. | 1901 |\n| **Frederick Winslow Taylor** | Developed scientific management principles (time‑and‑motion studies) that showed how to standardize tasks for efficiency. | Early 1900s |\n| **Eli Whitney** (and later **Samuel Colt**) | Employed early forms of interchangeable parts and division of labor in firearms manufacturing, concepts that underpin assembly‑line thinking. | Late 18th–early 19th century |\n\nSo, while **Henry Ford** is credited with perfecting and popularizing the **moving assembly line** that transformed industry, the underlying ideas evolved over several decades thanks to multiple innovators.",
+  "finish_reason": "stop",
+  "prompt_tokens": 76,
+  "completion_tokens": 345,
+  "total_tokens": 421,
+  "latency_ms": 979,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:31:30.287772+00:00"
+}

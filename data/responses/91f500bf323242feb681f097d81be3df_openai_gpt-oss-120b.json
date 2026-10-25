@@ -1,0 +1,20 @@
+{
+  "prompt_id": "91f500bf323242feb681f097d81be3df",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a poem about microservices where each letter starts with an M",
+  "response_text": "**Microservice Marvels Manifest, Modular, Mutable, Measurable**  \n**Message‑Mesh Mediates, Multiplexing, Maintaining, Monitoring, Metrics**  \n**Microservice Monoliths Melt, Making Modern, Manageable, Mutable Machinery**  \n**Mature Managers Master, Mitigate, Monitor, Maximize Momentum**  \n**Momentum Mounts, Markets Marvel, Microservice Mastery Manifests**",
+  "finish_reason": "stop",
+  "prompt_tokens": 84,
+  "completion_tokens": 655,
+  "total_tokens": 739,
+  "latency_ms": 1740,
+  "retries": 1,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:46:04.541856+00:00"
+}

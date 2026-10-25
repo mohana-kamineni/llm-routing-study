@@ -1,0 +1,20 @@
+{
+  "prompt_id": "09716d1c1e3c458ab4d5218e0cef6ab3",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the NCVS, when it comes to the US Census?",
+  "response_text": "**NCVS = National Crime Victimization Survey**\n\nThe National Crime Victimization Survey (NCVS) is **not** a part of the U.S. Census.  \nIt is a separate, nationally representative survey conducted by the **Bureau of Justice Statistics (BJS)**, a division of the U.S. Department of Justice.\n\n### What the NCVS Does\n\n| Feature | Description |\n|---------|-------------|\n| **Purpose** | To estimate the frequency, characteristics, and consequences of non‑fatal violent and non‑violent crime victimization in the United States. |\n| **Methodology** | Randomly selected households are interviewed (usually twice a year) about any victimization experiences in the past 12 months. |\n| **Scope** | Covers a wide range of crimes: violent (e.g., assault, robbery), property (e.g., burglary, theft), and other offenses (e.g., fraud, motor‑vehicle theft). |\n| **Data Use** | Provides the primary source for crime‑rate estimates used by law‑enforcement agencies, researchers, and policymakers. |\n| **Frequency** | Conducted continuously (bi‑annual waves) and compiled into annual reports. |\n\n### How It Differs From the Census\n\n| Census | NCVS |\n|--------|------|\n| **Agency** | U.S. Census Bureau |\n| **Goal** | Count every person in the U.S. and collect demographic, housing, and economic data. |\n| **Frequency** | Decennial (every 10 years) + annual surveys (e.g., American Community Survey). |\n| **Data Type** | Population counts, demographic characteristics, housing, economic indicators. |\n| **Method** | Household enumeration and self‑administered questionnaires. |\n| **Scope** | Entire U.S. population. |\n\n### Key Take‑aways\n\n1. **Separate Programs** – The NCVS is a crime‑victimization survey run by the Department of Justice, not the Census Bureau.\n2. **Complementary Data** – While the Census provides the demographic backdrop (population size, age, race, etc.), the NCVS supplies the crime‑victimization data that can be linked to those demographics for analysis.\n3. **Not a Census** – The NCVS does not count people; it asks people about their experiences with crime.\n\nIf you’re looking for crime statistics that are tied to census data, researchers often combine NCVS data with Census demographic information to produce crime‑rate estimates by region, age group, or other characteristics. However, the NCVS itself is a distinct survey instrument, not a census.",
+  "finish_reason": "stop",
+  "prompt_tokens": 85,
+  "completion_tokens": 814,
+  "total_tokens": 899,
+  "latency_ms": 10287,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:28:51.454775+00:00"
+}

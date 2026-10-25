@@ -1,0 +1,20 @@
+{
+  "prompt_id": "0ac617966f5d48b9b7a4af63e59e847e",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "solve this equation -3x²+5x-4=2x-5",
+  "response_text": "To solve  \n\n\\[\n-3x^{2}+5x-4 = 2x-5,\n\\]\n\nfollow these steps:\n\n1. **Bring all terms to one side**  \n\n   \\[\n   -3x^{2}+5x-4-(2x-5)=0\n   \\]\n\n   Simplify the left‑hand side:\n\n   \\[\n   -3x^{2}+5x-4-2x+5 = -3x^{2}+3x+1 = 0.\n   \\]\n\n2. **Make the leading coefficient positive** (multiply by \\(-1\\))  \n\n   \\[\n   3x^{2}-3x-1 = 0.\n   \\]\n\n3. **Use the quadratic formula**  \n\n   For a quadratic \\(ax^{2}+bx+c=0\\),\n\n   \\[\n   x = \\frac{-b\\pm\\sqrt{b^{2}-4ac}}{2a}.\n   \\]\n\n   Here \\(a=3,\\; b=-3,\\; c=-1\\).\n\n   \\[\n   \\begin{aligned}\n   x &= \\frac{-(-3)\\pm\\sqrt{(-3)^{2}-4\\cdot3\\cdot(-1)}}{2\\cdot3} \\\\\n     &= \\frac{3\\pm\\sqrt{9+12}}{6} \\\\\n     &= \\frac{3\\pm\\sqrt{21}}{6}.\n   \\end{aligned}\n   \\]\n\n4. **Write the two solutions**\n\n   \\[\n   \\boxed{\\,x = \\dfrac{3+\\sqrt{21}}{6}\\quad\\text{or}\\quad x = \\dfrac{3-\\sqrt{21}}{6}\\,}\n   \\]\n\nBoth values satisfy the original equation.",
+  "finish_reason": "stop",
+  "prompt_tokens": 88,
+  "completion_tokens": 517,
+  "total_tokens": 605,
+  "latency_ms": 11554,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:04:23.597089+00:00"
+}

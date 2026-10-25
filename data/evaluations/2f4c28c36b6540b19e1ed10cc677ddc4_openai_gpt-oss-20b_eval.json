@@ -1,0 +1,14 @@
+{
+  "prompt_id": "2f4c28c36b6540b19e1ed10cc677ddc4",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies Nutanix's corporate headquarters as being in San Jose, California, USA. This is factually accurate, and the additional context regarding their global presence does not contradict the primary answer.",
+  "finish_reason": "stop",
+  "prompt_tokens": 199,
+  "completion_tokens": 51,
+  "total_tokens": 250,
+  "timestamp": "2026-09-19T17:11:46.237705+00:00"
+}

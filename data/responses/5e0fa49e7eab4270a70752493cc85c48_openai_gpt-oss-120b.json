@@ -1,0 +1,20 @@
+{
+  "prompt_id": "5e0fa49e7eab4270a70752493cc85c48",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about love",
+  "response_text": "**Love, the Quiet Fire**\n\nIn the hush between two heartbeats,\na whisper threads the morning light,\nsoft as silk, as sudden as rain,\nit gathers in the space between breaths.\n\nIt is the echo of a smile\nthat lingers long after the grin has faded,\nthe tender ache of longing,\nthe gentle pull of unseen tides.\n\nLove is the patient gardener,\nplanting roses in cracked soil,\nwatering them with patience,\nwatching thorns turn to fragrant bloom.\n\nIt is the quiet fire that does not blaze,\nyet warms the marrow of our days,\na compass that points not north,\nbut toward the soul of another.\n\nWhen night drapes its velvet veil,\nlove is the candle that refuses to dim,\nits flame a promise—steady, unhurried,\nthat even in darkness, we are seen.\n\nSo let us hold this quiet fire,\nlet it flicker, let it grow,\nfor in its glow we find the map\nthat leads us home, again and again.",
+  "finish_reason": "stop",
+  "prompt_tokens": 76,
+  "completion_tokens": 242,
+  "total_tokens": 318,
+  "latency_ms": 2653,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:43:15.653355+00:00"
+}

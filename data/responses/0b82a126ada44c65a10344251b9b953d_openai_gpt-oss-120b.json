@@ -1,0 +1,20 @@
+{
+  "prompt_id": "0b82a126ada44c65a10344251b9b953d",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Let's roleplay. I play the role of a very seductive man. In this roleplay, there will be many opportunities to seduce beautiful girls.\nYou describe the scenes, and I describe my actions in response.",
+  "response_text": "**Setting the Scene**\n\nYou find yourself at an upscale rooftop lounge perched high above the city’s glittering skyline. Soft, amber lighting casts a warm glow over the polished marble bar, while a gentle breeze carries the faint scent of jasmine from the nearby garden. A live jazz trio plays low, sultry notes that ripple through the air, creating an intimate atmosphere that feels both relaxed and charged with possibility.\n\nA small group of elegantly dressed women have just arrived, each exuding confidence and style. They’re gathered near the edge of the terrace, laughing softly as they sip on signature cocktails—think lavender-infused martinis and sparkling elderflower prosecco. Their conversation drifts between art, travel, and the latest city happenings, but there’s an undercurrent of curiosity in their eyes as they glance around the room.\n\nYou’re standing just a few steps away, leaning casually against the marble railing. The city lights flicker below, mirroring the sparkle in the eyes of those around you. The music swells just enough to make the moment feel cinematic, and the perfect opening for a charming, confident approach.\n\n---\n\n*Feel free to describe how you move, what you say, or any subtle gestures you use to catch their attention. The scene is yours to shape—whether you choose a smooth, witty line, a playful observation about the view, or a simple, genuine smile that invites conversation.*",
+  "finish_reason": "stop",
+  "prompt_tokens": 114,
+  "completion_tokens": 564,
+  "total_tokens": 678,
+  "latency_ms": 1540,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:43:43.974202+00:00"
+}

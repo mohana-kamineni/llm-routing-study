@@ -1,0 +1,20 @@
+{
+  "prompt_id": "a3cfecd42f5d430aa9a360e18ae647e0",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a poem about lemons",
+  "response_text": "**Lemon‑Laced Light**\n\nIn the orchard’s hush a yellow sun  \nSits heavy on a branch, a bright‑golded grin.  \nIts skin, a paper‑thin, bright‑blue‑tinted shell,  \nHolds a secret: a citrus heart that sings.\n\nThe wind whispers through leaves, a gentle sigh,  \nAnd the lemon shivers, “I’m ready to fly.”  \nA drop of dew, a kiss of morning air,  \nTurns the fruit into a bright, tart flare.\n\nBeneath the rind, a citrus sun glows,  \nA citrus sun that in the kitchen glows.  \nIt’s the spark that turns a plain day’s brew  \nInto a tangy, zesty, sparkling hue.\n\nA slice, a twist, a zest in the air,  \nThe scent of sunshine, a bright, sharp flare.  \nIt dances on tongues, a playful bite,  \nA burst of sunshine, a fleeting light.\n\nLemons, oh lemons, you’re more than a fruit,  \nYou’re a burst of hope, a bright‑golden root.  \nFrom tea to cake, from soup to song,  \nYou turn the ordinary into something strong.\n\nSo here’s to the lemon, the bright‑golded star,  \nA citrus jewel that’s never too far.  \nMay your zest forever lift the day,  \nAnd keep the world bright in a citrus way.",
+  "finish_reason": "stop",
+  "prompt_tokens": 76,
+  "completion_tokens": 325,
+  "total_tokens": 401,
+  "latency_ms": 602,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:18:53.465011+00:00"
+}

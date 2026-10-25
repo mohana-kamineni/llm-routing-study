@@ -1,0 +1,14 @@
+{
+  "prompt_id": "2234a8b05ccd42ac84c48d2a671b7781",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the provided source text and covers all five required key aspects:\n1.  **Parties:** It correctly identifies the agreement between Mercy Corps (noting it is a non-profit) and the Contractor. While it omits the specific state of incorporation (Washington) and principal office location (Portland, Oregon), it captures the essential identity of the parties as required for a general summary.\n2.  **Subcontracting:** It explicitly states that work must be done by the Contractor's own employees and prohibits subcontracting without prior written consent.\n3.  **Key Personnel:** It correctly notes that Key Personnel are a material part of the agreement, requiring prior notice and a formal amendment for changes, and that Mercy Corps has sole discretion to refuse substitutions.\n4.  **SOW Compliance:** It states that services must be delivered exactly as specified in the SOW and that deviations require written approval.\n5.  **Scope Changes & Adjustments:** It accurately reflects Mercy Corps' right to terminate, suspend, or modify scope via written notice, and correctly details the condition for equitable adjustments (mutual agreement and signed amendment by Authorized Representatives).\n\nThe summary is accurate, well-structured, and does not omit any critical information from the provided excerpt.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1335,
+  "completion_tokens": 264,
+  "total_tokens": 1599,
+  "timestamp": "2026-09-28T07:49:28.597822+00:00"
+}

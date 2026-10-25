@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a07d585cfa484c8b860d0f112557a0c5",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response provides factually accurate ratings for the film *Interstellar* (2014). The IMDb rating of approximately 8.6/10 and the Rotten Tomatoes scores (Tomatometer ~72-74%, Audience Score ~86-87%) are consistent with the actual historical data for the film. The response correctly identifies the sources and provides the correct numerical values without any false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 589,
+  "completion_tokens": 97,
+  "total_tokens": 686,
+  "timestamp": "2026-09-24T14:11:20.945866+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c55523411da54896b2f61ee2b75b8cee",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies Lionel Richie as Sofia Richie's father. Although the response contains a factual error regarding the mother (stating Nicole Miller instead of Diane Alexander), the specific question asked was only about the father. Since the response provides the correct answer to the specific question asked without contradicting that fact, it meets the evaluation criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 220,
+  "completion_tokens": 73,
+  "total_tokens": 293,
+  "timestamp": "2026-09-24T03:58:42.273708+00:00"
+}

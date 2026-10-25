@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c6481eb7cad241958d24bd113c683f3a",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "summarize this text: Serbia's president has pledged \"an almost complete disarming\" of the country, after the second mass shooting there in 48 hours.\n\nAleksandar Vucic announced a host of new strict weapons control measures, including more frequent background checks on gun owners.\n\nOn Friday, a man was arrested after opening fire from a moving car - killing eight and injuring 14.\n\nThat shooting came soon after a boy killed nine people at a school.\n\nWednesday's attack, where the thirteen-year-old shot dead eight fellow pupils at his school in Belgrade, as well as a security guard, was Serbia's worst shooting in years.\n\nThe second incident occurred in the early hours of Friday near the town of Mladenovac, 60km (37 miles) south of Belgrade, when the shooter opened fire from a moving car.\n\nReports on local media say the suspect - who the interior ministry said was born in 2002 - started firing at people with an automatic weapon after having an argument with a police officer in a park on Thursday evening.\n\nHe was arrested on Friday morning after \"an extensive search\", which reportedly involved 600 police officers, the interior ministry said.",
+  "response_text": "Serbia’s president, Aleksandar Vučić, vowed an “almost complete disarming” of the country after two mass shootings within 48 hours. Vučić announced stricter gun‑control measures, including more frequent background checks. The first attack was a 13‑year‑old who killed eight students and a security guard at a Belgrade school. The second, a 20‑year‑old who opened fire from a moving car near Mladenovac, killed eight and injured 14; he was arrested after a large police operation.",
+  "finish_reason": "stop",
+  "prompt_tokens": 310,
+  "completion_tokens": 134,
+  "total_tokens": 444,
+  "latency_ms": 5620,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:40:29.287366+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "prompt_id": "97ec5b5740b24a758692253107de2b86",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "ERROR",
+  "error": "Error code: 413 - {'error': {'message': 'Request too large for model `qwen/qwen3.8-27b` in organization `org_01m2d4ch8wercrzv70tyk18hn8` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Requested 7812, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+  "timestamp": "2026-09-19T17:13:28.889032+00:00"
+}

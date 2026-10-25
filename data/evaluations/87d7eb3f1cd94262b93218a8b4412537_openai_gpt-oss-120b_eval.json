@@ -1,0 +1,14 @@
+{
+  "prompt_id": "87d7eb3f1cd94262b93218a8b4412537",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe summary fails to cover Key Aspect 5. The source text concludes by repeating the imperative to \"kneel and wait\" and \"join the herd,\" which emphasizes the dominance or cyclical nature of the call for passivity. The provided summary, however, ends with a call to action to \"break free from the crowd\" and \"let your own roar be heard,\" completely omitting the final return to the theme of submission and the structural emphasis on the herd's passivity that defines the song's conclusion.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1225,
+  "completion_tokens": 111,
+  "total_tokens": 1336,
+  "timestamp": "2026-09-23T13:08:26.949354+00:00"
+}

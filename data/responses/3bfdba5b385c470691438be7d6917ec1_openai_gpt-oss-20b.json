@@ -1,0 +1,20 @@
+{
+  "prompt_id": "3bfdba5b385c470691438be7d6917ec1",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Given the next document and narrative, create a dialogue grounded in the passage, don't add any additional information that is not in the document. The dialogue is between an information-seeking User and a helping AI Agent. Make the AI Agent response short and precise. Make the dialogue at least 3-4 User:Agent turns. Don't repeat yourself. Speak only English.\ndocument: IBM offers a competitive vacation plan to all regular full-time employees and regular IBM employees who work alternative work schedules. All regular full-time IBM employees receive a minimum of 15 days paid vacation each year.  Your vacation time is based on years of service and type of employment. Full time employees: Full-time employees with 0-9 years of service are entitled to a maximum of 15 days of vacation per year. Full-time employees with 10-20 years of service are entitled to a maximum of 20 days of vacation per year. Full-time employees with more than 20 years of service are entitled to a maximum of 25 days days of vacation per year. Full-time employees are eligible for 20 days of vacation in the year of your 10th anniversary with IBM. For example, if your first date of full-time IBM employment was September 1, 1999, you would be eligible for 20 days of vacation beginning in 2009. You may take your full amount of vacation at any time during this year, but your full amount (that is, 20 days), is not earned until the end of the year.",
+  "response_text": "**User:** If I’ve been with IBM for 12 years, how many vacation days do I get?  \n**Agent:** 20 days per year.  \n\n**User:** When do I actually earn those 20 days?  \n**Agent:** They’re earned at the end of the year.  \n\n**User:** Can I take the vacation before I’ve earned it?  \n**Agent:** Yes, you may take your full amount at any time during the year, but the full amount isn’t earned until year‑end.  \n\n**User:** What if I’ve worked more than 20 years?  \n**Agent:** You’re entitled to a maximum of 25 days per year.",
+  "finish_reason": "stop",
+  "prompt_tokens": 378,
+  "completion_tokens": 557,
+  "total_tokens": 935,
+  "latency_ms": 994,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:55:11.118765+00:00"
+}

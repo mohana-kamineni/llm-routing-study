@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1ef9084e480b4f5ca9552f20745b588d",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly calculates the total number of sodas purchased (36), accurately interprets the distribution of consumption among the 6 people (3 people with 3 sodas, 2 people with 4 sodas, and 1 person with 5 sodas), sums the consumed sodas (22), and correctly subtracts this from the total to find the remainder (14). The reasoning is sound and the final answer is correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 392,
+  "completion_tokens": 101,
+  "total_tokens": 493,
+  "timestamp": "2026-09-24T04:00:06.774719+00:00"
+}

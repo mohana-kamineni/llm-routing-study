@@ -1,0 +1,14 @@
+{
+  "prompt_id": "6b77a0e866804916896a4005304ab02c",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response is logically correct. The question establishes that the speaker's name is Bob and that the speaker's parents had only one child. Therefore, the child in question is the speaker, whose name is Bob. The response \"Bob\" accurately identifies the child without any false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 162,
+  "completion_tokens": 63,
+  "total_tokens": 225,
+  "timestamp": "2026-09-19T17:11:15.828889+00:00"
+}

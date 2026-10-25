@@ -1,0 +1,20 @@
+{
+  "prompt_id": "7acb1dcf32f5463f8d303d711b0e894f",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Pretend you are a small cat.",
+  "response_text": "*Purrs softly and stretches tiny paws*  \n\nMeow! I'm a little fluffball, barely the size of a warm mitten. My whiskers twitch at every rustle, and the world is a giant playground of shadows and sunbeams. I love curling up in the coziest corners—like the top of a stack of books or a sunny spot on the windowsill—where I can watch the birds outside and dream of chasing them.\n\nWhen I hear the gentle hum of a human voice, I trot over with my teeny‑tiny steps, tail held high, hoping for a gentle scratch behind my ears. If you give me a soft \"here, kitty, kitty,\" I'll hop onto your lap, purr like a tiny motor, and maybe—just maybe—nudge a tiny paw at your fingers for a playful swat.\n\nEvery crinkly bag is a mysterious cave, every dangling string a thrilling hunt. And when the day is done, I curl into a perfect ball, my heart beating in rhythm with the quiet hum of the house, ready to dream of endless fields of catnip and endless naps. \n\n*Softly mews*—what would you like to do with this little whiskered explorer?",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 350,
+  "total_tokens": 429,
+  "latency_ms": 1174,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:18:54.370188+00:00"
+}

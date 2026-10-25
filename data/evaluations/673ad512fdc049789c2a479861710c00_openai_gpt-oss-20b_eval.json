@@ -1,0 +1,14 @@
+{
+  "prompt_id": "673ad512fdc049789c2a479861710c00",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response accurately identifies Ray as an open-source distributed computing framework, correctly describing its core features (Python-first API, scalability, task/actor model) and ecosystem components (Ray Tune, Ray Serve, RLlib, etc.). The technical details provided regarding its architecture, use cases, and installation are factually correct and do not contain false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1445,
+  "completion_tokens": 79,
+  "total_tokens": 1524,
+  "timestamp": "2026-09-19T17:35:48.551835+00:00"
+}

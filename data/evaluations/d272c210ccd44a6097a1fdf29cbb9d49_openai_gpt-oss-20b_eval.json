@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d272c210ccd44a6097a1fdf29cbb9d49",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to cover several critical key aspects required by the evaluation criteria. Specifically, it omits:\n1. The specific detail that the game mechanics enforce accountability by rejecting the disposal of the mug (Key Aspect 3).\n2. The specific description of the mug as a broken antique with a racist depiction of a \"yellow man\" in saffron (Key Aspect 2 is only partially covered by \"racist mug\").\n3. The concept that actions constitute \"content\" even in a single-player context without an audience (Key Aspect 4).\n4. The speaker's specific defensive argument that they did not kill or hurt anyone (Key Aspect 5).\n\nThe summary is too generalized and misses the specific narrative beats and thematic points identified in the key aspects.",
+  "finish_reason": "stop",
+  "prompt_tokens": 761,
+  "completion_tokens": 165,
+  "total_tokens": 926,
+  "timestamp": "2026-09-22T17:07:29.638920+00:00"
+}

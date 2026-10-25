@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3f303651b0cc44a9977ce6d415551791",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to provide the correct factual answer. The question asks for the identity of the incumbent President of the USA, which is a specific factual query. By stating \"I don’t have that information,\" the model refuses to answer or admits a lack of knowledge, thereby failing to state the true fact (that Joe Biden is the incumbent president) as required by the evaluation criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 158,
+  "completion_tokens": 83,
+  "total_tokens": 241,
+  "timestamp": "2026-09-19T17:26:21.459772+00:00"
+}

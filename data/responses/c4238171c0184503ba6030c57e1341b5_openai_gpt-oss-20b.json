@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c4238171c0184503ba6030c57e1341b5",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "KAD PENGENALAN\\n'\n'MALAYSIA\\n'\n'IDENTITY CARD\\n'\n'71225-10-2339'\n'WARGANEGARA\\nISLAM LELAKI'\n'MOHD NAZ\"I BIN\\n'\n'TAKUAN\\n'\n'NO 6B JALAN KIAI ABD MOID\\n'\n'KG SG TENGI KANAN DARAT\\n'\n'45500 TANJONG KARANG\\n'\n'SELANGOR'\nabove are text lines recognized by OCR from a ID card, where '\\n' represent new line symbol. Please extract all the fields including name, ID, gender, citizenship, religion, address.",
+  "response_text": "**Extracted Information**\n\n| Field        | Value                                                                 |\n|--------------|-----------------------------------------------------------------------|\n| **Name**     | MOHD NAZ'I BIN TAKUAN                                                |\n| **ID**       | 71225‑10‑2339                                                         |\n| **Gender**   | LELAKI (Male)                                                         |\n| **Citizenship** | WARGANEGARA (Citizen)                                               |\n| **Religion** | ISLAM                                                                 |\n| **Address**  | NO 6B JALAN KIAI ABD MOID KG SG TENGI KANAN DARAT 45500 TANJONG KARANG SELANGOR |\n\n**Notes**\n\n- The OCR text contains the line “MOHD NAZ\\\"I BIN” – the back‑slash is an OCR artifact; the intended name is “MOHD NAZ'I BIN TAKUAN”.\n- The address is assembled from the consecutive lines following the name until the end of the OCR output.",
+  "finish_reason": "stop",
+  "prompt_tokens": 213,
+  "completion_tokens": 525,
+  "total_tokens": 738,
+  "latency_ms": 3019,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:55:03.100105+00:00"
+}

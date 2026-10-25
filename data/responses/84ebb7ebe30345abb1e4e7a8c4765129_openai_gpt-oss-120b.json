@@ -1,0 +1,20 @@
+{
+  "prompt_id": "84ebb7ebe30345abb1e4e7a8c4765129",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the name of that city that is famous for its canals?",
+  "response_text": "The city most famously associated with canals is **Venice, Italy**—often called “the City of Water.”  \n\n(If you were thinking of another canal‑rich city, Amsterdam in the Netherlands is also world‑renowned for its extensive canal network.)",
+  "finish_reason": "stop",
+  "prompt_tokens": 85,
+  "completion_tokens": 130,
+  "total_tokens": 215,
+  "latency_ms": 464,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:38:13.535630+00:00"
+}

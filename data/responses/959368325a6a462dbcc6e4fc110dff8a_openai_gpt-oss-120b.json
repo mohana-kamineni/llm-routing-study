@@ -1,0 +1,20 @@
+{
+  "prompt_id": "959368325a6a462dbcc6e4fc110dff8a",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Where is Nuremberg located?",
+  "response_text": "Nuremberg (German: **Nürnberg**) is a city in the **state of Bavaria** in southern **Germany**.  \n\n- **Region:** It lies in the Franconian part of Bavaria, often called **Middle Franconia**.  \n- **Geography:** The city is situated on the **River Pegnitz** (which joins the Rhine‑Maas Canal) and is surrounded by the **Franconian Jura** hills.  \n- **Location relative to major cities:**  \n  - About **170 km (≈ 105 mi) north of Munich**  \n  - Roughly **300 km (≈ 186 mi) east of Frankfurt**  \n  - Approximately **400 km (≈ 250 mi) south‑west of Berlin**  \n- **Coordinates:** **49.4521° N, 11.0767° E**  \n\nSo, Nuremberg is a historic city in northern Bavaria, Germany, in central Europe.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 286,
+  "total_tokens": 364,
+  "latency_ms": 970,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:30:35.083472+00:00"
+}

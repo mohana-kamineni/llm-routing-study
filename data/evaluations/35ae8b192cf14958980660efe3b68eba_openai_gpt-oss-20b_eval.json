@@ -1,0 +1,14 @@
+{
+  "prompt_id": "35ae8b192cf14958980660efe3b68eba",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response provides a logically sound and factually accurate answer to the question. It correctly identifies the question categories that are widely recognized in the industry as having the highest business value for chatbots (such as transactional, FAQ, and technical support). The reasoning provided for why these categories are valuable (e.g., revenue generation, cost reduction, improved customer experience) aligns with standard business and customer service principles. There are no false contradictions or factual errors in the response.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1384,
+  "completion_tokens": 104,
+  "total_tokens": 1488,
+  "timestamp": "2026-09-22T17:19:37.361451+00:00"
+}

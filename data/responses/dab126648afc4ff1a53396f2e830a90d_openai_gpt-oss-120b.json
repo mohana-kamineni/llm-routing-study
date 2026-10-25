@@ -1,0 +1,20 @@
+{
+  "prompt_id": "dab126648afc4ff1a53396f2e830a90d",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "A 24-year-old man is brought to the emergency department after his head was hit with a bat during a baseball game. His teammates state that he was unresponsive after the incident but regained consciousness after 15 minutes. The patient initially refused to go to the hospital and sat on the bench for the remainder of the game. He initially appeared fine but became increasingly confused. He appears lethargic but opens his eyes to loud verbal commands. He is oriented to person and place. His temperature is 37.1 (98.8\\u00b0F), pulse is 78/min, respiratory rate is 16/min, and blood pressure is 148/87 mm Hg. Examination shows an area of soft-tissue swelling over the left temporal region. A complete blood count and serum concentrations of electrolytes, urea nitrogen, and creatinine are within the reference range. A CT scan of the head is shown. After returning from the CT scan, the patient only opens his eyes to painful stimuli and responds to questions with incomprehensible sounds. He withdraws from painful stimuli. On repeat examination, the left pupil is 6 mm in diameter and reacts minimally to light. The right pupil is 3 mm in diameter and reacts normally to light. His respiratory rate is 10/min and he is intubated in the emergency department. Which of the following is the most appropriate next step in management? option a: Adminster hypotonic saline; option b: Administer dexamethasone; option c: Perform craniotomy; option d: Perform brain MRI",
+  "response_text": "The picture described is classic for an **epidural (extradural) hematoma**:\n\n* **Mechanism** – blunt trauma to the temporal region → rupture of the middle meningeal artery.  \n* **Clinical course** – brief loss of consciousness, a lucid interval, then rapid neurologic decline.  \n* **Findings** – worsening mental status, a dilated, poorly reactive left pupil (compression of the oculomotor nerve from uncal herniation), and a CT scan that would show a biconvex, hyperdense collection adjacent to the skull.\n\nAn expanding epidural hematoma is a neurosurgical emergency. The definitive and time‑critical treatment is **rapid surgical evacuation** (usually a craniotomy or burr‑hole drainage) to relieve the mass effect and prevent herniation.\n\nThe other options are not appropriate:\n\n* **Hypotonic saline** – would worsen cerebral edema.  \n* **Dexamethasone** – useful for vasogenic edema from tumors or abscesses, not for acute hemorrhagic mass lesions.  \n* **Brain MRI** – would delay definitive care and is not needed when CT already shows the lesion.\n\n**Therefore, the most appropriate next step is emergent surgical evacuation of the hematoma (craniotomy).**  \n\n**Answer: C – Perform craniotomy.**",
+  "finish_reason": "stop",
+  "prompt_tokens": 388,
+  "completion_tokens": 404,
+  "total_tokens": 792,
+  "latency_ms": 5285,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:13:54.864390+00:00"
+}

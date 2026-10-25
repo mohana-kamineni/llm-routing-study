@@ -1,0 +1,14 @@
+{
+  "prompt_id": "69500d304aca404188630bae2da9f8c7",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly solves the equation $2x + 4 = 8$. It properly isolates the variable term by subtracting 4 from both sides to get $2x = 4$, and then divides by 2 to find $x = 2$. The final answer is correct, and the reasoning steps are mathematically sound with no errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 307,
+  "completion_tokens": 80,
+  "total_tokens": 387,
+  "timestamp": "2026-09-23T07:41:50.411498+00:00"
+}

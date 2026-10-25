@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b2f38447fc6c4ac58fb4c5017e52b5a9",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "summarize this email \"In May we’ll recognise the Mental Health Foundation’s awareness week (15-21 May), aimed at encouraging more conversation around mental health and well-being. Even if you’re not personally in need of mental health support, I’m sure many of us will know at least one person who has experience of poor mental health. \nAt Amazon, I don’t recall ever getting to the end of a day, or week, and thinking “I’ve done everything on my To Do list”. Therefore, we need to form healthy habits to help us prioritise the most important things on that list, and to be able to switch off (literally) from work. I do this by taking regular walks with our dog, Nula, making time to get outside during the working day, and spending time with my family.\nI am encouraged by how much more we’re talking about mental health in society as a whole, with sports stars and celebrities in particular helping to raise awareness of this critical topic. But I know there can be stigma around mental health, whether driven by fear, or misunderstanding. And all too often there is silence, when we should be having conversations. \nLast year we ran a workplace well-being survey in the UK with Mind, and we know that some Amazonians are nervous about confronting the issue, especially at work. We need to, and will do better.\"",
+  "response_text": "**Summary**\n\nAmazon will observe the Mental Health Foundation’s Awareness Week (15‑21 May) to promote open conversations about mental health. The sender notes that, despite never feeling “done” with their own tasks, they practice healthy habits—walking their dog, getting outside, and spending time with family—to manage stress and disconnect from work. They applaud growing public dialogue, especially from sports stars and celebrities, but acknowledge ongoing stigma and silence around mental health. A previous UK well‑being survey with Mind revealed that some employees feel uneasy addressing mental health at work, and Amazon is committed to improving this situation.",
+  "finish_reason": "stop",
+  "prompt_tokens": 351,
+  "completion_tokens": 146,
+  "total_tokens": 497,
+  "latency_ms": 326,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:41:29.850496+00:00"
+}

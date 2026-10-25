@@ -1,0 +1,20 @@
+{
+  "prompt_id": "2a84bc80cb9b4991a06e1c8e20bc8e7b",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write 5 words which starts with \"EN\", then write the output of \"77+33\"",
+  "response_text": "ENigma  \nENthusiast  \nENvelop  \nENvision  \nENrich  \n\n110",
+  "finish_reason": "stop",
+  "prompt_tokens": 91,
+  "completion_tokens": 188,
+  "total_tokens": 279,
+  "latency_ms": 414,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:54:53.793544+00:00"
+}

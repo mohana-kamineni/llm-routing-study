@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ccd54b6f9cf540f48e53711d07b3813b",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response is a refusal to perform the task. It fails on all four dimensions:\n1. **Relevance**: It does not address the topic of Ronald McDonald or the US-USSR war.\n2. **Coherence**: While the sentence itself is grammatically correct, it lacks narrative structure relevant to the prompt.\n3. **Completeness**: It is not a full execution of the task; it provides no song lyrics.\n4. **Compliance**: It fails to satisfy the explicit instruction to \"Write song.\"",
+  "finish_reason": "stop",
+  "prompt_tokens": 238,
+  "completion_tokens": 115,
+  "total_tokens": 353,
+  "timestamp": "2026-09-19T17:18:07.679387+00:00"
+}

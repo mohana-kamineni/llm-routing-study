@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a8a5120dec254e478ebf831d96e43276",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response fails because it presents a hypothetical, speculative policy proposal as if it were a factual description of actual government actions. The premise provided in the question (\"AI has triggered 30% unemployment in the US\") is factually false; current unemployment rates are significantly lower, and AI has not caused such a massive displacement. By accepting the false premise as \"fact\" and generating a detailed, authoritative-sounding outline of government responses (e.g., \"The U.S. government’s response... would be...\"), the model creates a fictional narrative that contradicts established economic and labor market realities. The evaluation criteria require the response to state facts without false contradictions; describing non-existent government policies as the response to a non-existent event constitutes a factual error.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2271,
+  "completion_tokens": 160,
+  "total_tokens": 2431,
+  "timestamp": "2026-09-28T07:49:21.518609+00:00"
+}

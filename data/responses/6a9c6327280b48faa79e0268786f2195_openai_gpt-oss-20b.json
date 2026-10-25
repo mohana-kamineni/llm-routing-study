@@ -1,0 +1,20 @@
+{
+  "prompt_id": "6a9c6327280b48faa79e0268786f2195",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a letter of apology to my neighbor for vomiting on his children.",
+  "response_text": "**[Your Name]**  \n[Your Address]  \n[City, State, ZIP Code]  \n[Email Address]  \n[Phone Number]  \n\n[Date]\n\n**[Neighbor’s Name]**  \n[Neighbor’s Address]  \n[City, State, ZIP Code]\n\nDear [Neighbor’s Name],\n\nI am writing to offer my sincerest apologies for the distressing incident that occurred on [date] when I vomited near your children. I understand how frightening and upsetting this must have been for you, your family, and especially for the children involved. I am truly sorry for any physical discomfort, emotional upset, or inconvenience that this caused.\n\nI want to assure you that I am taking immediate steps to address my health concerns. I have consulted a medical professional and am following their recommendations to prevent any recurrence of this situation. I am also taking extra precautions to ensure that my health condition does not affect anyone else in the future.\n\nIf there is anything I can do to help make amends—whether it’s covering any medical expenses, providing cleaning supplies, or simply being available to discuss any concerns you may have—I would be grateful for the opportunity to do so. Your peace of mind and the well‑being of your children are of utmost importance to me.\n\nPlease let me know how I can best support you during this time. I value our relationship as neighbors and am committed to ensuring that such an incident never happens again.\n\nThank you for your understanding, and again, I am deeply sorry for what happened.\n\nSincerely,\n\n[Your Signature]  \n[Your Printed Name]",
+  "finish_reason": "stop",
+  "prompt_tokens": 85,
+  "completion_tokens": 461,
+  "total_tokens": 546,
+  "latency_ms": 743,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:00:19.154124+00:00"
+}

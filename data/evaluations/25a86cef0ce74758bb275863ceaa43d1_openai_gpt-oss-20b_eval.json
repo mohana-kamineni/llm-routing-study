@@ -1,0 +1,14 @@
+{
+  "prompt_id": "25a86cef0ce74758bb275863ceaa43d1",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response is not a summary of the source text; it is the very first step of the interactive process described in the prompt. The source text outlines a comprehensive set of instructions for an assistant, including specific data points to collect (general info, per-child details like routines, meals, and allergies), the requirement to provide a summary in a notecard format, and the final step of saving to \"Everplan.\" The response only asks the first question (\"How many children...\") and completely omits all other required aspects of the source material, such as the specific information to be gathered, the format of the final output, and the saving mechanism. Therefore, it fails to cover the essential factual aspects of the source.",
+  "finish_reason": "stop",
+  "prompt_tokens": 579,
+  "completion_tokens": 152,
+  "total_tokens": 731,
+  "timestamp": "2026-09-22T17:08:16.205877+00:00"
+}

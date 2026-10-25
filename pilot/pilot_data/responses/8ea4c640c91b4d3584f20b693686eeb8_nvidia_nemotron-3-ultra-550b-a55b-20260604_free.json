@@ -1,0 +1,21 @@
+{
+  "prompt_id": "8ea4c640c91b4d3584f20b693686eeb8",
+  "category": "reasoning_math",
+  "prompt_text": "The altitude to the hypotenuse of a right triangle divides the hypotenuse into two segments with lengths in the ratio 1 : 2. The length of the altitude is 6 cm. How long is the hypotenuse?",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b-20260604:free",
+  "provider": "openrouter",
+  "model_returned": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw_response": "The altitude to the hypotenuse of a right triangle is the geometric mean of the two segments it creates on the hypotenuse. Let the segments be \\(x\\) and \\(2x\\) (ratio 1:2). Then:\n\n\\[\n\\text{altitude}^2 = x \\cdot 2x = 2x^2\n\\]\n\nGiven the altitude is 6 cm:\n\n\\[\n6^2 = 2x^2 \\implies 36 = 2x^2 \\implies x^2 = 18 \\implies x = 3\\sqrt{2}\n\\]\n\nThe hypotenuse is the sum of the segments:\n\n\\[\n\\text{hypotenuse} = x + 2x = 3x = 3 \\cdot 3\\sqrt{2} = 9\\sqrt{2} \\text{ cm}\n\\]\n\n\\boxed{9\\sqrt{2} \\text{ cm}}",
+  "response_text": "The altitude to the hypotenuse of a right triangle is the geometric mean of the two segments it creates on the hypotenuse. Let the segments be \\(x\\) and \\(2x\\) (ratio 1:2). Then:\n\n\\[\n\\text{altitude}^2 = x \\cdot 2x = 2x^2\n\\]\n\nGiven the altitude is 6 cm:\n\n\\[\n6^2 = 2x^2 \\implies 36 = 2x^2 \\implies x^2 = 18 \\implies x = 3\\sqrt{2}\n\\]\n\nThe hypotenuse is the sum of the segments:\n\n\\[\n\\text{hypotenuse} = x + 2x = 3x = 3 \\cdot 3\\sqrt{2} = 9\\sqrt{2} \\text{ cm}\n\\]\n\n\\boxed{9\\sqrt{2} \\text{ cm}}",
+  "reasoning_text": "We are given a right triangle. The altitude to the hypotenuse divides the hypotenuse into two segments with lengths in the ratio 1:2. The altitude length is 6 cm. We need to find the length of the hypotenuse.\n\nLet the right triangle be ABC, with right angle at C. The hypotenuse is AB. The altitude from C to AB meets AB at point D. So CD is the altitude, length = 6 cm. AD and DB are the segments of the hypotenuse. Their ratio is 1:2. Let AD = x, DB = 2x (or vice versa; the ratio is 1:2, so one segment is half the other). The hypotenuse length = AD + DB = 3x.\n\nWe know a property: In a right triangle, the altitude to the hypotenuse is the geometric mean of the segments of the hypotenuse. That is, CD^2 = AD * DB.\n\nSo, 6^2 = x * 2x = 2x^2.\n36 = 2x^2 => x^2 = 18 => x = sqrt(18) = 3√2 (positive length).\n\nThen hypotenuse = 3x = 3 * 3√2 = 9√2 cm.\n\nBut wait: Is that the only possibility? The ratio is 1:2, but we don't know which segment is which. However, the product AD * DB is the same regardless of order. So it's fine.\n\nThus the hypotenuse length is 9√2 cm.\n\nWe can double-check: If AD = 3√2, DB = 6√2, then altitude = sqrt(3√2 * 6√2) = sqrt(18 * 2) = sqrt(36) = 6. Correct.\n\nSo answer: 9√2 cm.",
+  "input_tokens": 64,
+  "output_tokens": 599,
+  "total_tokens": 663,
+  "reasoning_tokens": 312,
+  "latency_seconds": 69.889,
+  "timestamp": "2026-09-13T12:19:12.312102+00:00",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "retries": 0,
+  "error": null
+}

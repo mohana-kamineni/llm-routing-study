@@ -1,0 +1,14 @@
+{
+  "prompt_id": "336c01ef7bc14b5f9ba6993e0c87c240",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully extracts the main keywords, identifies the correct sentiment (Positive), brand (The Ordinary), and category (Beauty). The summary provided (\"Underrated The Ordinary product hydrates and repairs skin barrier daily.\") is 9 words long, adhering to the 10-word limit. It accurately covers the essential aspects: it identifies the product (The Ordinary), its functions (hydrates, repairs skin barrier), and the recommendation for daily use. While it omits the specific \"Amino Acids + B5\" name in the summary to fit the word count, it captures the core factual meaning and all required key aspects listed in the criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 465,
+  "completion_tokens": 138,
+  "total_tokens": 603,
+  "timestamp": "2026-09-19T17:09:18.319182+00:00"
+}

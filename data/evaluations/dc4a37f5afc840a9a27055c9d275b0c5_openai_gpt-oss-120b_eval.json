@@ -1,0 +1,14 @@
+{
+  "prompt_id": "dc4a37f5afc840a9a27055c9d275b0c5",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the relationship between Signal-to-Noise Ratio (SNR) in decibels and the linear power ratio. It accurately converts the given SNR of 21 dB into a linear factor ($10^{2.1} \\approx 125.89$). It then correctly uses the minimum detectable signal power ($6.3 \\times 10^{-17}$ W) to calculate the background noise power by dividing the signal power by the linear SNR factor. The final calculation yields approximately $5.0 \\times 10^{-19}$ W, which is the correct answer. The reasoning is clear, the formulas are correct, and the arithmetic is accurate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1279,
+  "completion_tokens": 153,
+  "total_tokens": 1432,
+  "timestamp": "2026-09-24T12:37:48.287633+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d4066a286c724e43a73a6b251dae1951",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the standard capacity of a 3.5\" floppy disk (1.44 MB) and uses a reasonable estimate for the size of a Windows 10 ISO (approx. 4.5 GB). The conversion from GB to MB (using 1000 MB/GB, which is standard for storage marketing and close enough for this estimation) and the subsequent division (4500 / 1.44 = 3125) are mathematically correct. The final conclusion aligns with the calculated value. While the actual ISO size can vary slightly (often closer to 5-6 GB for newer builds), the order of magnitude and the specific calculation based on the stated premise are sound and free of substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 597,
+  "completion_tokens": 168,
+  "total_tokens": 765,
+  "timestamp": "2026-09-19T17:31:35.210044+00:00"
+}

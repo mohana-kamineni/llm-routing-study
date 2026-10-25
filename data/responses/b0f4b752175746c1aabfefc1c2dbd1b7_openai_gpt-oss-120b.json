@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b0f4b752175746c1aabfefc1c2dbd1b7",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write 5 words that start with “EN” then write the output of “77+33",
+  "response_text": "**Five words that start with “EN”:**  \n1. Enchant  \n2. Endeavor  \n3. Enigma  \n4. Enlarge  \n5. Entice  \n\n**Result of 77 + 33:** 110",
+  "finish_reason": "stop",
+  "prompt_tokens": 90,
+  "completion_tokens": 116,
+  "total_tokens": 206,
+  "latency_ms": 560,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:02:26.517962+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "6a2c3a67335b4988acdb1f57071b83bd",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about Donald Trump",
+  "response_text": "**A Portrait in Verse**\n\nA name that echoes through the news‑filled air,  \nA businessman who stepped onto the stage,  \nWith hair that caught the light, a bold‑stated flair,  \nAnd words that filled the world’s relentless page.\n\nHe rose from towers tall, a brand well known,  \nA voice that rang in rallies, loud and clear,  \nA figure cast in both applause and moan,  \nA symbol of a time that many hear.\n\nIn boardrooms, in the White House’s halls,  \nHe charted courses, signed his own decree,  \nA polarizing force that stirs and calls,  \nA chapter in the nation’s tapestry.\n\nNo simple rhyme can capture all he’s been—  \nA businessman, a leader, a name that’s seen.",
+  "finish_reason": "stop",
+  "prompt_tokens": 77,
+  "completion_tokens": 284,
+  "total_tokens": 361,
+  "latency_ms": 757,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:19:58.471261+00:00"
+}

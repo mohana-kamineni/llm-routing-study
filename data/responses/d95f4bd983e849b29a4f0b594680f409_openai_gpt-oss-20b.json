@@ -1,0 +1,20 @@
+{
+  "prompt_id": "d95f4bd983e849b29a4f0b594680f409",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about King Arthur",
+  "response_text": "**The Round Table’s Echo**\n\nIn the mist‑kissed vale where the old oaks sigh,  \nA silver blade was born beneath the sky.  \nFrom the lake’s silver heart, a hand did call—  \n“Take this, brave king, and heed the ancient thrall.”  \n\nExcalibur, in light of moonlit grace,  \nWove destiny’s thread through time’s own lace.  \nArthur, with a crown of humble stone,  \nStood upon the threshold of a throne unknown.  \n\nThe Round Table, a circle of equal might,  \nGathered knights who shone like stars at night.  \nThey spoke of honor, of love, of war,  \nAnd of the fragile hope that binds us all.  \n\nThe Lady of the Lake, with eyes of glass,  \nWatched the rise and fall of mortal mass.  \nShe whispered of a kingdom’s fragile flame,  \nAnd of the day when all would claim their name.  \n\nYet in the hush of Camelot’s halls,  \nThe echo of a king’s great, quiet calls—  \n“Let justice be the sword that cuts the wrong,  \nAnd love the shield that keeps the heart strong.”  \n\nSo when the wind through the ancient oaks does roam,  \nIt carries Arthur’s legend, far from home.  \nA tale of courage, of a king’s bright heart,  \nA timeless song that will never part.",
+  "finish_reason": "stop",
+  "prompt_tokens": 77,
+  "completion_tokens": 377,
+  "total_tokens": 454,
+  "latency_ms": 626,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:23:05.834162+00:00"
+}

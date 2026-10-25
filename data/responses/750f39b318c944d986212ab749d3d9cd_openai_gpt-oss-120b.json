@@ -1,0 +1,20 @@
+{
+  "prompt_id": "750f39b318c944d986212ab749d3d9cd",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Hello! Can you summarize the following text for me?\n\n                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n\n  The licenses for most software and other practical works are designed\nto take away your freedom to share and change the works.  By contrast,\nthe GNU General Public License is intended to guarantee your freedom to\nshare and change all versions of a program--to make sure it remains free\nsoftware for all its users.  We, the Free Software Foundation, use the\nGNU General Public License for most of our software; it applies also to\nany other work released this way by its authors.  You can apply it to\nyour programs, too.\n\n  When we speak of free software, we are referring to freedom, not\nprice.  Our General Public Licenses are designed to make sure that you\nhave the freedom to distribute copies of free software (and charge for\nthem if you wish), that you receive source code or can get it if you\nwant it, that you can change the software or use pieces of it in new\nfree programs, and that you know you can do these things.\n\n  To protect your rights, we need to prevent others from denying you\nthese rights or asking you to surrender the rights.  Therefo",
+  "response_text": "**Summary of the GNU GPL‑v3 Preamble**\n\n- The GNU General Public License (GPL) is a *free* (as in liberty) and *copyleft* license for software and other works.  \n- Unlike most licenses that restrict sharing and modification, the GPL guarantees users the freedom to **run, copy, distribute, study, modify, and combine** the covered work, ensuring it stays free for everyone.  \n- The Free Software Foundation (FSF) uses the GPL for its own software and encourages others to apply it to their projects.  \n- “Free” refers to freedom, not price: you may charge for distributing copies, but you must also provide the source code or a way to obtain it, and you must allow downstream recipients the same freedoms.  \n- The license’s purpose is to protect these freedoms by preventing anyone from revoking them or imposing additional restrictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 402,
+  "completion_tokens": 224,
+  "total_tokens": 626,
+  "latency_ms": 662,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:52:55.370695+00:00"
+}

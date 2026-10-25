@@ -1,0 +1,14 @@
+{
+  "prompt_id": "2234a8b05ccd42ac84c48d2a671b7781",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the source text and covers all five required key aspects:\n1. It correctly identifies the parties (Mercy Corps and the Contractor) and the nature of the agreement.\n2. It explicitly states the prohibition on subcontracting/delegation without written consent and the requirement to use own employees.\n3. It details the materiality of Key Personnel, the requirement for notice/amendment for changes, and Mercy Corps' sole discretion to withhold consent.\n4. It confirms that services must strictly follow the SOW and that deviations require prior written consent.\n5. It notes Mercy Corps' right to unilaterally modify/terminate scope via written notice and the provision for equitable adjustments to costs/timelines via signed amendment.\n\nThe summary is accurate, concise, and omits no critical information from the provided excerpt.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1172,
+  "completion_tokens": 175,
+  "total_tokens": 1347,
+  "timestamp": "2026-09-22T17:17:40.618853+00:00"
+}

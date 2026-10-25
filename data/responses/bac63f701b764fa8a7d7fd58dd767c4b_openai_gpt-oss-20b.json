@@ -1,0 +1,20 @@
+{
+  "prompt_id": "bac63f701b764fa8a7d7fd58dd767c4b",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a poem about a man who experiences unrequited love from a nymph. write that poem in the style of mary oliver",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 98,
+  "completion_tokens": 4096,
+  "total_tokens": 4194,
+  "latency_ms": 4943,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:17:24.377321+00:00"
+}

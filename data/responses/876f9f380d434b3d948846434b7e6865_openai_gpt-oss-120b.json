@@ -1,0 +1,20 @@
+{
+  "prompt_id": "876f9f380d434b3d948846434b7e6865",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "summarize this data table into text : street\tcity\tzip\tstate\tbeds\tbaths\tsq__ft\ttype\tsale_date\n3526 HIGH ST\tSACRAMENTO\t95838\tCA\t2\t1\t836\tResidential\tWed May 21 00:00:00 EDT 2008\n51 OMAHA CT\tSACRAMENTO\t95823\tCA\t3\t1\t1167\tResidential\tWed May 21 00:00:00 EDT 2008\n2796 BRANCH ST\tSACRAMENTO\t95815\tCA\t2\t1\t796\tResidential\tWed May 21 00:00:00 EDT 2008\n2805 JANETTE WAY\tSACRAMENTO\t95815\tCA\t2\t1\t852\tResidential\tWed May 21 00:00:00 EDT 2008\n6001 MCMAHON DR\tSACRAMENTO\t95824\tCA\t2\t1\t797\tResidential\tWed May 21 00:00:00 EDT 2008\n5828 PEPPERMILL CT\tSACRAMENTO\t95841\tCA\t3\t1\t1122\tCondo\tWed May 21 00:00:00 EDT 2008\n6048 OGDEN NASH WAY\tSACRAMENTO\t95842\tCA\t3\t2\t1104\tResidential\tWed May 21 00:00:00 EDT 2008\n2561 19TH AVE\tSACRAMENTO\t95820\tCA\t3\t1\t1177\tResidential\tWed May 21 00:00:00 EDT 2008\n11150 TRINITY RIVER DR Unit 114\tRANCHO CORDOVA\t95670\tCA\t2\t2\t941\tCondo\tWed May 21 00:00:00 EDT 2008",
+  "response_text": "**Summary of the nine properties listed for sale on May 21 2008**\n\n| Category | Details |\n|----------|---------|\n| **Total listings** | 9 |\n| **Cities** | Sacramento (8 listings) – zip codes 95815, 95820, 95823, 95824, 95838, 95841, 95842; Rancho Cordova (1 listing) – zip 95670 |\n| **Property type** | Residential: 7 (≈ 78 %)<br>Condo: 2 (≈ 22 %) |\n| **Bedrooms** | 2 – 3 per unit<br>**Average** ≈ 2.4 beds |\n| **Bathrooms** | 1 – 2 per unit<br>**Average** ≈ 1.2 baths |\n| **Living area** | 796 – 1,177 sq ft per unit<br>**Average** ≈ 976 sq ft |\n| **Sale date** | All properties recorded as sold on **Wednesday, May 21, 2008** (EDT) |\n\n### Highlights\n- The majority of the homes are **single‑family residences** (7 out of 9), with the remaining two being **condominiums**.\n- Most properties are modest‑sized, hovering just under **1,000 sq ft** on average.\n- Bedrooms cluster around **2–3**, while bathrooms are predominantly **single‑bath** units, with only two listings offering a second bathroom.\n- All listings are located in **California**, concentrated in the Sacramento metropolitan area, with a single entry in neighboring Rancho Cordova.",
+  "finish_reason": "stop",
+  "prompt_tokens": 462,
+  "completion_tokens": 777,
+  "total_tokens": 1239,
+  "latency_ms": 1996,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:07:44.025816+00:00"
+}

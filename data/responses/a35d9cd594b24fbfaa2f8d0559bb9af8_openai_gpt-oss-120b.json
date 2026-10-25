@@ -1,0 +1,20 @@
+{
+  "prompt_id": "a35d9cd594b24fbfaa2f8d0559bb9af8",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "summarize the following conversation in two sentences: \"agent: hello all right \nagent: so this is a test of real time transcription and in the top left corner of my screen you're going to see studio connecting to an ai to transcribe the call real time to the best of its ability.\n agent: so i am speaking with rana and he is using a cell phone right now rana can you tell me what you did this past weekend. \nvisitor: yeah of course. \nvisitor: i hung out with a couple of friends to peed mom park for the dogwood festival which is an arts and food festival and then also play it's viable and spike ball out in old fourth ward walk down the belt line and had some dinner with friends. \nagent: looks like it's doing a good job transcribing it's just a few seconds behind i'm seeing it for you maybe it it's like three four seconds behind but for me maybe a little.\n agent: a bit less than that seems rather consistent what's your plan transfer this weekend. \nvisitor: oh this weekend i don't really have any plans yeah probably. \nvisitor: again hang out with friends.\n visitor: saturday night. \nagent: this looks really good i appreciate you speaking with me leveraging a cell phone thank you very much i'm going to stop the recording now all right.\n\"",
+  "response_text": "The agent tests a real‑time transcription system while speaking with Rana, who shares that he spent his weekend at the Dogwood Festival, played spikeball, and had dinner with friends. When asked about upcoming plans, Rana says he has no specific plans and will likely just hang out with friends again on Saturday night.",
+  "finish_reason": "stop",
+  "prompt_tokens": 337,
+  "completion_tokens": 87,
+  "total_tokens": 424,
+  "latency_ms": 377,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:32:18.787468+00:00"
+}

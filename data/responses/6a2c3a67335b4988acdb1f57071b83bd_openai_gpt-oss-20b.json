@@ -1,0 +1,20 @@
+{
+  "prompt_id": "6a2c3a67335b4988acdb1f57071b83bd",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about Donald Trump",
+  "response_text": "**A Tower of Words**\n\nIn the heart of a city that never sleeps,  \nA tower of glass rises, a gleaming sweep.  \nIts windows catch the sun’s bright glare,  \nAnd in its shadow, a name hangs in the air.\n\nDonald, they call him, a man of bold claim,  \nA businessman turned president, a name in the game.  \nHe spoke of walls, of deals, of power’s roar,  \nAnd the nation listened, some cheering, some sore.\n\nHe walked the halls of power with a swagger, a grin,  \nA voice that echoed through the chambers within.  \nSome saw a leader, a champion of the free,  \nOthers saw a storm, a tempest on the sea.\n\nThe press, the cameras, the endless glare,  \nCaptured every moment, every stare.  \nFrom rallies to debates, from tweets to the night,  \nHis story unfolded in the flicker of light.\n\nNow the tower stands, a monument of glass,  \nA symbol of ambition, of a moment that passed.  \nWhether seen as triumph or a cautionary tale,  \nIt reminds us all that history will prevail.\n\nSo here’s a poem, a brief, fleeting rhyme,  \nOf a man who stood tall, in the span of time.  \nMay we learn from the echoes, the cheers, the cries,  \nAnd write our own stories beneath the same skies.",
+  "finish_reason": "stop",
+  "prompt_tokens": 77,
+  "completion_tokens": 412,
+  "total_tokens": 489,
+  "latency_ms": 2551,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:17:58.310559+00:00"
+}

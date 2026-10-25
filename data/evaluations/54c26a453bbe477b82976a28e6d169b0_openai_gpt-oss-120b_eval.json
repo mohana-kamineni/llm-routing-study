@@ -1,0 +1,14 @@
+{
+  "prompt_id": "54c26a453bbe477b82976a28e6d169b0",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies \"Star Wars: Episode I – The Phantom Menace\" as the chronologically first Star Wars movie in terms of story timeline. It accurately notes that the film is set approximately 32 years before \"A New Hope\" (Episode IV) and correctly distinguishes it from other media like animated films or series, adhering to the specific constraint of \"movie\" (feature film). There are no factual contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 369,
+  "completion_tokens": 94,
+  "total_tokens": 463,
+  "timestamp": "2026-09-28T07:41:00.057905+00:00"
+}

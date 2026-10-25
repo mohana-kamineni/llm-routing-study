@@ -1,0 +1,16 @@
+{
+  "prompt_id": "6e1355391d374f9da7144e4e9e97157d",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "candidate_degeneracy_audit",
+  "terminal_type": "CANDIDATE_DEGENERATE",
+  "terminal_description": "Candidate repeated the exact sentence 'The city was safe.' 146 consecutive times until 4,096-token completion limit.",
+  "verdict": "FAIL",
+  "raw_output": null,
+  "finish_reason": null,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "total_tokens": 0,
+  "timestamp": "2026-09-22T16:47:08.548102+00:00"
+}

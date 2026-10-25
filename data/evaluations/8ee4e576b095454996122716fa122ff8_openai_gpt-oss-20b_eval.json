@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8ee4e576b095454996122716fa122ff8",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the sequence as perfect squares ($1^2, 2^2, 3^2, 4^2, 5^2$) and logically deduces that the next term is $6^2 = 36$. The answer is factually and logically accurate with no contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 249,
+  "completion_tokens": 72,
+  "total_tokens": 321,
+  "timestamp": "2026-09-19T17:36:31.551359+00:00"
+}

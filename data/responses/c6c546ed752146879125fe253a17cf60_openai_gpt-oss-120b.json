@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c6c546ed752146879125fe253a17cf60",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Hello, can you recommend me 5 sci-fi movies not from USA, made between 1970-2020, with an IMDB score of at least 6.8",
+  "response_text": "Here are five highly‑rated sci‑fi films that **aren’t from the United States**, were released **between 1970 and 2020**, and have an **IMDb rating of 6.8 or higher**.\n\n| # | Title (Year) | Country of Origin | IMDb Rating* | Director | One‑sentence synopsis |\n|---|--------------|-------------------|--------------|----------|-----------------------|\n| 1 | **Solaris** (1972) | Soviet Union (Russia) | 8.1 | Andrei Tarkovsky | A psychologist is sent to a space‑station orbiting the mysterious planet Solaris, where the crew’s repressed memories manifest as physical apparitions. |\n| 2 | **Stalker** (1979) | Soviet Union (Russia) | 8.1 | Andrei Tarkovsky | Three men trek through a forbidden “Zone” that supposedly fulfills a person’s deepest wishes, confronting existential and metaphysical questions. |\n| 3 | **Akira** (1988) | Japan | 8.0 | Katsuhiro Otomo | In a post‑apocalyptic Neo‑Tokyo, a teenage biker gang member gains terrifying psychic powers that could ignite another catastrophe. |\n| 4 | **District 9** (2009) | South Africa (co‑production with New Zealand) | 7.9 | Neill Blomkamp | An extraterrestrial refugee camp in Johannesburg becomes the backdrop for a government agent’s transformation after exposure to alien biotechnology. |\n| 5 | **Timecrimes (Los Cronocrímenes)** (2007) | Spain | 7.1 | Nacho Vigalondo | A man accidentally travels back in time and must prevent a deadly loop of events that threatens his own existence. |\n\n\\*Ratings are taken from IMDb (as of 2024) and meet the ≥ 6.8 threshold.\n\nAll of these titles are celebrated for their imaginative storytelling, strong visual style, and thought‑provoking themes, making them great picks for a non‑American sci‑fi marathon. Enjoy!",
+  "finish_reason": "stop",
+  "prompt_tokens": 107,
+  "completion_tokens": 1288,
+  "total_tokens": 1395,
+  "latency_ms": 3761,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:05:19.189188+00:00"
+}

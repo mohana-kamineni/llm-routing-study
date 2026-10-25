@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e15757508b3745d88cb7e952e4c40fda",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is the founder of the United State?",
+  "response_text": "The United States wasn’t founded by a single individual; it emerged from the collective actions of a group of leaders often called the **Founding Fathers**. Some of the most prominent figures include:\n\n| Role | Key Person(s) | Why They’re Important |\n|------|----------------|-----------------------|\n| **Principal author of the Declaration of Independence (1776)** | **Thomas Jefferson** | Wrote the document that formally announced the colonies’ break from Britain and articulated the ideals of liberty and equality. |\n| **Primary architect of the Constitution (1787)** | **James Madison** | Known as the “Father of the Constitution,” he helped draft the document and authored many of the Federalist Papers defending it. |\n| **First President of the United States (1789‑1797)** | **George Washington** | Served as the nation’s first chief executive and set many precedents for the office; his leadership helped unify the new republic. |\n| **Key diplomatic and political figures** | **John Adams, Benjamin Franklin, Alexander Hamilton, John Jay, Thomas Paine, etc.** | Played crucial roles in securing foreign support, shaping early policy, and establishing the new government’s institutions. |\n\n### How the Founding Process Unfolded\n1. **American Revolution (1775‑1783)** – Colonists fought for independence from Britain.\n2. **Declaration of Independence (1776)** – Adopted by the Continental Congress, proclaiming the colonies as free and independent states.\n3. **Articles of Confederation (1781)** – First governing document, later found inadequate.\n4. **Constitutional Convention (1787)** – Delegates drafted the U.S. Constitution, creating a stronger federal government.\n5. **Ratification (1788‑1790)** – The Constitution was ratified by the states, and the new government began operating in 1789.\n\n### In Short\nWhile **George Washington** is often the most recognizable face of the nation’s early leadership, the United States was truly founded by a collaborative effort of many leaders—most notably **Thomas Jefferson**, **James Madison**, **John Adams**, **Benjamin Franklin**, **Alexander Hamilton**, and others—who together established the country’s founding documents and institutions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 80,
+  "completion_tokens": 557,
+  "total_tokens": 637,
+  "latency_ms": 1257,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:31:36.707993+00:00"
+}

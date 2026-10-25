@@ -1,0 +1,14 @@
+{
+  "prompt_id": "bff4c9dbdc744f3080c8dc6bb5e0f30c",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately extracts the main keywords, identifies the correct brand (The Ordinary), and correctly classifies the sentiment as positive and the category as Beauty. The summary is 9 words long, adhering to the \"maximum 10 words\" constraint, and effectively captures the core message of the source text regarding the product's function (hydration and barrier repair) and usage (daily). All required aspects of the prompt are addressed correctly.",
+  "finish_reason": "stop",
+  "prompt_tokens": 381,
+  "completion_tokens": 94,
+  "total_tokens": 475,
+  "timestamp": "2026-09-23T07:39:43.611068+00:00"
+}

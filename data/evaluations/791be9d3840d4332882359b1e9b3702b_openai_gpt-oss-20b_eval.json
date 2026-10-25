@@ -1,0 +1,14 @@
+{
+  "prompt_id": "791be9d3840d4332882359b1e9b3702b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a factually accurate and well-structured overview of the benefits of bitter melon (*Momordica charantia*). It correctly identifies the most scientifically supported benefit (blood sugar regulation) while appropriately qualifying other claims (antioxidant, antimicrobial, anti-cancer) with their current evidence status (mostly in vitro or animal studies). The response avoids false contradictions by clearly distinguishing between proven effects and traditional or preliminary claims. It also includes necessary safety cautions (hypoglycemia, pregnancy risks), which are consistent with medical literature. The information is logically sound and historically accurate regarding its use in traditional medicine.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1659,
+  "completion_tokens": 133,
+  "total_tokens": 1792,
+  "timestamp": "2026-09-19T17:41:32.607082+00:00"
+}

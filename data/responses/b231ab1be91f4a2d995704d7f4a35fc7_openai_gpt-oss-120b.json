@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b231ab1be91f4a2d995704d7f4a35fc7",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about oranges",
+  "response_text": "**Ode to the Orange**\n\nIn sunrise’s palm I find you, round and bright,  \nA sun‑kissed globe that rolls from branch to hand,  \nYour skin—a speckled map of amber light—  \nA fragrant promise from a distant land.  \n\nI peel away the dimpled, citrus veil,  \nAnd vapor curls like laughter in the air,  \nEach segment holds a burst, a tiny tale,  \nOf summer’s heat distilled in sweet‑sour flare.  \n\nThe juice, a liquid sunrise on my tongue,  \nA tang that dances, sharp yet soft, and clear,  \nIt paints the world in zest, in songs unsung,  \nAnd leaves a lingering glow that lingers near.  \n\nOh orange, humble orb of glowing hue,  \nYou turn the ordinary into gold—  \nA simple fruit, yet every bite feels new,  \nA sun‑lit whisper, bright and bold.",
+  "finish_reason": "stop",
+  "prompt_tokens": 76,
+  "completion_tokens": 224,
+  "total_tokens": 300,
+  "latency_ms": 901,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:38:06.753494+00:00"
+}

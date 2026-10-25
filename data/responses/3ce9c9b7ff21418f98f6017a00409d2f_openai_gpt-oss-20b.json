@@ -1,0 +1,20 @@
+{
+  "prompt_id": "3ce9c9b7ff21418f98f6017a00409d2f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Perform the following actions: \n1 - Summarize the following text delimited by triple quotes with 1 sentence.\n2 - Translate the summary into French.\n3 - List each name in the French summary.\n4 - Output a json object that contains the following keys: french_summary, num_names.\n\nSeparate your answers with line breaks.\n\nText:\n\"\"\"\nIn a charming village, siblings Jack and Jill set out on a quest to fetch water from a hilltop well. As they climbed, singing joyfully, misfortune struck—Jack tripped on a stone and tumbled down the hill, with Jill following suit. Though slightly battered, the pair returned home to comforting embraces. Despite the mishap, their adventurous spirits remained undimmed, and they continued exploring with delight.\n\"\"\"",
+  "response_text": "Jack and Jill, while fetching water from a hilltop well, both fell down the hill but returned home unharmed and continued exploring.  \nJack et Jill, en allant chercher de l'eau d'un puits sur la colline, sont tous deux tombés, mais sont rentrés chez eux indemnes et ont continué à explorer.  \nJack  \nJill  \n{\"french_summary\":\"Jack et Jill, en allant chercher de l'eau d'un puits sur la colline, sont tous deux tombés, mais sont rentrés chez eux indemnes et ont continué à explorer.\",\"num_names\":2}",
+  "finish_reason": "stop",
+  "prompt_tokens": 227,
+  "completion_tokens": 656,
+  "total_tokens": 883,
+  "latency_ms": 5332,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:38:55.197901+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "f62b50a096124da2b31cd78275c875e5",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the highest mountain ignoring sealevel",
+  "response_text": "**Short answer:**  \n- If you *ignore sea‑level* as a reference point (i.e., measure from the mountain’s base on the ocean floor to its summit), the tallest mountain on Earth is **Mauna Kea** in Hawaii, with a total height of about **10,210 m (33,500 ft)**.  \n- If you’re asking for the highest peak *above sea level*, that’s **Mount Everest** in the Himalayas, standing at **8,848 m (29,029 ft)**.\n\n---\n\n### Why the difference?\n\n| Reference point | Mountain | Height |\n|-----------------|----------|--------|\n| **Base on ocean floor** | Mauna Kea | ~10,210 m |\n| **Sea level** | Mount Everest | 8,848 m |\n\n- **Mauna Kea** rises from the ocean floor to its summit, so its full vertical extent is greater than any other mountain.  \n- **Mount Everest** is the highest point you can reach without going below sea level, which is why it’s the “highest mountain” in most common contexts.\n\n---\n\n### Quick facts\n\n| Mountain | Location | Height above sea level | Height from base (ignoring sea level) |\n|----------|----------|------------------------|---------------------------------------|\n| **Mount Everest** | Nepal/Tibet border | 8,848 m | – |\n| **K2** | Pakistan/China border | 8,611 m | – |\n| **Kangchenjunga** | Nepal/India border | 8,586 m | – |\n| **Mauna Kea** | Hawaii, USA | 4,207 m | 10,210 m |\n\n---\n\n### Bottom line\n\n- **Highest above sea level:** Mount Everest (8,848 m).  \n- **Tallest from base to summit (ignoring sea level):** Mauna Kea (≈10,210 m).  \n\nLet me know if you’d like more details on any of these peaks!",
+  "finish_reason": "stop",
+  "prompt_tokens": 80,
+  "completion_tokens": 861,
+  "total_tokens": 941,
+  "latency_ms": 2096,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:20:09.828281+00:00"
+}

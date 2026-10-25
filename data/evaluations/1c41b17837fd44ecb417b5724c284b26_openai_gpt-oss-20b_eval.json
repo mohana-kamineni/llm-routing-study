@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1c41b17837fd44ecb417b5724c284b26",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully addresses the prompt by writing a poem specifically about perfectionism. It demonstrates strong coherence through consistent metaphors (sculpting, mirrors, staircases) and a logical narrative arc that moves from the definition of the struggle to a resolution finding value in imperfection. The poem is complete, not truncated, and contains no violations of explicit constraints, as the prompt did not specify word limits or formatting restrictions beyond the genre.",
+  "finish_reason": "stop",
+  "prompt_tokens": 494,
+  "completion_tokens": 93,
+  "total_tokens": 587,
+  "timestamp": "2026-09-22T18:08:21.312435+00:00"
+}

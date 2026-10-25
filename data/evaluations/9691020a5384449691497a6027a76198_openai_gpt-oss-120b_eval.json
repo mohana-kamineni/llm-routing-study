@@ -1,0 +1,14 @@
+{
+  "prompt_id": "9691020a5384449691497a6027a76198",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly calculates the rent as 30% of $3,778 ($1,133.40) and accurately subtracts this amount from the total budget to find the remaining funds ($2,644.60). The arithmetic is correct, and the final answer matches the logical solution to the problem.",
+  "finish_reason": "stop",
+  "prompt_tokens": 305,
+  "completion_tokens": 77,
+  "total_tokens": 382,
+  "timestamp": "2026-09-28T07:41:31.049617+00:00"
+}

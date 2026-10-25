@@ -1,0 +1,14 @@
+{
+  "prompt_id": "23f41a397f8147088e246846bea6bd5e",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately identifies and describes the well-documented psychological challenges associated with childhood enmeshment with a narcissistic parent. The listed challenges—such as identity diffusion, people-pleasing, boundary issues, emotional dysregulation, chronic shame, and re-enactment of dysfunctional relationship patterns—are consistent with established psychological literature regarding narcissistic family dynamics and their long-term effects on adult functioning. The response does not contain factual contradictions or misinformation.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2760,
+  "completion_tokens": 95,
+  "total_tokens": 2855,
+  "timestamp": "2026-09-23T19:29:52.414628+00:00"
+}

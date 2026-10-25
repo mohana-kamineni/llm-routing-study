@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d280e27e41654c589ad6781a248d5fc4",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies Project Euler Problem 1, provides two valid solution methods (brute force and mathematical formula), and arrives at the correct final answer of 233168. The reasoning in both approaches is sound, with no substantive errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 671,
+  "completion_tokens": 59,
+  "total_tokens": 730,
+  "timestamp": "2026-09-22T16:52:38.771020+00:00"
+}

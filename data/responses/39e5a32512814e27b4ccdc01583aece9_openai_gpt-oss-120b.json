@@ -1,0 +1,20 @@
+{
+  "prompt_id": "39e5a32512814e27b4ccdc01583aece9",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is the president of the Moon?",
+  "response_text": "There isn’t a “president of the Moon.” The Moon isn’t a country or a political entity, so it doesn’t have a government, leaders, or a president.  \n\nUnder the 1967 **Outer Space Treaty**—which the United States, Russia, China, the European Union and many other nations have signed—outer space, including the Moon and other celestial bodies, is considered the **province of all humankind**. The treaty explicitly states that no nation may claim sovereignty over the Moon, and it prohibits the establishment of any national jurisdiction there.\n\nBecause the Moon has no recognized sovereign authority, there’s no official head of state or president. Any future settlements or activities on the Moon would be governed by international agreements and the laws of the nations or private entities involved, rather than by a Moon‑specific government.",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 263,
+  "total_tokens": 342,
+  "latency_ms": 969,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:36:22.936156+00:00"
+}

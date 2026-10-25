@@ -1,0 +1,14 @@
+{
+  "prompt_id": "9a3b2e420605480d9d74ee392f370521",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the agents (John and Mary) and tracks the state changes for each action accurately.\n1. **John**: Starts with 10, gives away 5 (remaining 5), buys 2 (total 7). Correct.\n2. **Mary**: Starts with 0, receives 5 (total 5), eats 2 (remaining 3). Correct.\n3. **Total**: 7 (John) + 3 (Mary) = 10. Correct.\n\nThe transition table is logically sound, the arithmetic is correct, and the final conclusion matches the correct answer to the problem. There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 591,
+  "completion_tokens": 144,
+  "total_tokens": 735,
+  "timestamp": "2026-09-22T17:09:27.376692+00:00"
+}

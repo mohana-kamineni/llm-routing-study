@@ -1,0 +1,20 @@
+{
+  "prompt_id": "6b77a0e866804916896a4005304ab02c",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "If my name is Bob and my parents only had one child, what is the name of their child?",
+  "response_text": "Bob.",
+  "finish_reason": "stop",
+  "prompt_tokens": 92,
+  "completion_tokens": 89,
+  "total_tokens": 181,
+  "latency_ms": 354,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:20:39.013251+00:00"
+}

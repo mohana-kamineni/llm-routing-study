@@ -1,0 +1,14 @@
+{
+  "prompt_id": "58210e39b3fd4441a2bd4a518bb44c2d",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response provides a comprehensive, accurate, and well-structured comparison between OpenCL and CUDA. It correctly identifies the fundamental differences: OpenCL is an open standard managed by the Khronos Group supporting multiple hardware vendors (AMD, Intel, NVIDIA, etc.), while CUDA is a proprietary API owned by NVIDIA that targets only NVIDIA GPUs. The response accurately details the differences in language (OpenCL C vs. CUDA C/C++), portability, performance characteristics, ecosystem libraries (clBLAS vs. cuBLAS/cuDNN), and tooling. The code examples provided are syntactically correct and illustrative of the respective APIs. There are no factual contradictions or significant errors in the provided text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 4241,
+  "completion_tokens": 151,
+  "total_tokens": 4392,
+  "timestamp": "2026-09-22T22:59:21.860871+00:00"
+}

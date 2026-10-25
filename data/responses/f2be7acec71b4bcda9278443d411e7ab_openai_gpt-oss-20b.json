@@ -1,0 +1,20 @@
+{
+  "prompt_id": "f2be7acec71b4bcda9278443d411e7ab",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Read the table below regarding \"Nihalgarh\" to answer the given question.\n\nParticulars | Total | Male | Female\nTotal No. of Houses | 92 | - | -\nPopulation | 479 | 250 | 229\nChild (0-6) | 49 | 23 | 26\nSchedule Caste | 228 | 117 | 111\nSchedule Tribe | 0 | 0 | 0\nLiteracy | 78.14 % | 87.67 % | 67.49 %\nTotal Workers | 144 | 130 | 14\nMain Worker | 138 | 0 | 0\nMarginal Worker | 6 | 4 | 2\n\nQuestion: What is the literacy rate in Nihalgarh?",
+  "response_text": "The overall literacy rate in Nihalgarh is **78.14 %**.",
+  "finish_reason": "stop",
+  "prompt_tokens": 231,
+  "completion_tokens": 80,
+  "total_tokens": 311,
+  "latency_ms": 1393,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:12:18.794587+00:00"
+}

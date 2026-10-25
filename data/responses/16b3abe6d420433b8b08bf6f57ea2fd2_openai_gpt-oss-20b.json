@@ -1,0 +1,20 @@
+{
+  "prompt_id": "16b3abe6d420433b8b08bf6f57ea2fd2",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "who was the last monarch of uk",
+  "response_text": "The most recent—and still reigning—monarch of the United Kingdom is **King Charles III**.  \nHe ascended the throne on **8 September 2022** following the death of his mother, Queen Elizabeth II. The UK remains a constitutional monarchy, so Charles III is the current sovereign.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 227,
+  "total_tokens": 305,
+  "latency_ms": 654,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:18:59.787652+00:00"
+}

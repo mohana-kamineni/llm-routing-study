@@ -1,0 +1,20 @@
+{
+  "prompt_id": "f42ee601b4b648a79907c167a434b9cd",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a story from a viewpoint of a young girl that is asleep in bed and is woken up to find someone stand next to her",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 98,
+  "completion_tokens": 4096,
+  "total_tokens": 4194,
+  "latency_ms": 4521,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:08:09.897683+00:00"
+}

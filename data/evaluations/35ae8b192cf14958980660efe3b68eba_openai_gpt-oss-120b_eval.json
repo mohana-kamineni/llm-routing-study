@@ -1,0 +1,14 @@
+{
+  "prompt_id": "35ae8b192cf14958980660efe3b68eba",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a comprehensive, logically sound, and factually accurate framework for identifying valuable question categories for chatbots. It correctly categorizes high-value interactions (such as transactional support, account management, and troubleshooting) based on standard industry practices regarding revenue generation, cost reduction, and customer satisfaction. The advice on prioritization (using volume and business impact) aligns with established customer service and AI implementation best practices. There are no factual errors or contradictions in the provided information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2548,
+  "completion_tokens": 102,
+  "total_tokens": 2650,
+  "timestamp": "2026-09-28T07:51:42.209415+00:00"
+}

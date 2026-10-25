@@ -1,0 +1,20 @@
+{
+  "prompt_id": "f4c2ea916d4943b58a06178d87c29a68",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "summarize \"Tucker Carlson has broken his silence for the first time since his abrupt departure from Fox News, posting a video to Twitter that did not directly address his reported firing.\n\nCarlson was one of the network’s biggest stars, and gained a large following while spouting xenophobic and racist rhetoric on his show, Tucker Carlson Tonight. He left Fox News without explanation on Monday. News outlets have reported that Carlson was fired on the personal order of Fox owner Rupert Murdoch for, among other things, using vulgar language to describe a female executive.\"",
+  "response_text": "Tucker Carlson, a former top Fox News host known for his controversial, xenophobic commentary, broke his silence after abruptly leaving the network by posting a video on Twitter that didn’t directly discuss his reported dismissal. Media reports suggest he was fired on Rupert Murdoch’s personal order, partly due to Carlson’s use of vulgar language toward a female executive.",
+  "finish_reason": "stop",
+  "prompt_tokens": 182,
+  "completion_tokens": 104,
+  "total_tokens": 286,
+  "latency_ms": 557,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:46:04.057202+00:00"
+}

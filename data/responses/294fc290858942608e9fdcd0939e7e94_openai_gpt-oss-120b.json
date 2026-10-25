@@ -1,0 +1,20 @@
+{
+  "prompt_id": "294fc290858942608e9fdcd0939e7e94",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about bricks",
+  "response_text": "**Ode to the Brick**\n\nIn rows they stand, a quiet choir,  \nRed‑clad soldiers of earth and fire,  \nMolded by hands that shape the day,  \nSet to hold the night’s soft sway.\n\nEach one a story, dense and plain,  \nA whisper of clay, a sigh of rain,  \nSun‑baked, kiln‑kissed, a stubborn grain,  \nYet yielding to the mason’s strain.\n\nThey form the walls that guard our dreams,  \nThe arches where the sunrise leans,  \nThe hearth that cradles ember’s glow,  \nThe pathways where our footsteps go.\n\nThrough centuries they’ve borne the weight  \nOf kingdoms, markets, love, and fate;  \nSilent witnesses to laughter, tears,  \nTo whispered vows and passing years.\n\nAnd when the world feels cracked, askew,  \nWe lay another brick anew—  \nA simple block, a promise kept,  \nA sturdy hope where futures are swept.",
+  "finish_reason": "stop",
+  "prompt_tokens": 76,
+  "completion_tokens": 229,
+  "total_tokens": 305,
+  "latency_ms": 3586,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:20:10.704471+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "8d5c074dadb741a0a99d6085b5d28d36",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem where every letter starts with 'c'.",
+  "response_text": "**Crimson cascade, celestial chorus**  \n**Candlelit corridors, crystaline caverns**  \n**Cobalt clouds cling, cooling currents**  \n**Cicada’s call, comforting cadence**  \n**Cursive constellations charting calm**  \n**Crowned crowns, concluding chorus**",
+  "finish_reason": "stop",
+  "prompt_tokens": 82,
+  "completion_tokens": 1024,
+  "total_tokens": 1106,
+  "latency_ms": 2183,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:21:32.918231+00:00"
+}

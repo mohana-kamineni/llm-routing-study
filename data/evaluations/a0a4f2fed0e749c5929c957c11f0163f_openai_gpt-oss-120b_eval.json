@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a0a4f2fed0e749c5929c957c11f0163f",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly calculates the sum of 45 and 45 as 90. There are no reasoning errors, and the final answer is accurate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 169,
+  "completion_tokens": 39,
+  "total_tokens": 208,
+  "timestamp": "2026-09-22T23:00:23.213990+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "bf11bb9c82ab4e2892814c4fea730b50",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Can you summarize the following text for me?\nText: \nProcessor design is a subfield of computer engineering and electronics engineering (fabrication) that deals with creating a processor, a key component of computer hardware.\n\nThe design process involves choosing an instruction set and a certain execution paradigm (e.g. VLIW or RISC) and results in a microarchitecture, which might be described in e.g. VHDL or Verilog. For microprocessor design, this description is then manufactured employing some of the various semiconductor device fabrication processes, resulting in a die which is bonded onto a chip carrier. This chip carrier is then soldered onto, or inserted into a socket on, a printed circuit board (PCB).\n\nThe mode of operation of any processor is the execution of lists of instructions. Instructions typically include those to compute or manipulate data values using registers, change or retrieve values in read/write memory, perform relational tests between data values and to control program flow.\n\nProcessor designs are often tested and validated on one or several FPGAs before sending the design of the processor to a foundry for semiconductor fabrication.[1]\nWhat would a fitting title of 3 words be?",
+  "response_text": "**Summary**\n\nProcessor design is a specialized area of computer and electronics engineering focused on creating the core component of computer hardware. The process begins by selecting an instruction set and an execution paradigm (e.g., VLIW or RISC), which defines the microarchitecture. This microarchitecture is described in hardware description languages such as VHDL or Verilog, then fabricated into a silicon die using semiconductor processes. The die is mounted on a chip carrier, soldered or socketed onto a PCB, and the processor ultimately executes instruction streams that perform data manipulation, memory access, comparisons, and control flow. Before committing to mass production, designs are typically validated on FPGAs.\n\n**Three‑word title**\n\n**Processor Design Process**",
+  "finish_reason": "stop",
+  "prompt_tokens": 305,
+  "completion_tokens": 380,
+  "total_tokens": 685,
+  "latency_ms": 1702,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:40:15.203851+00:00"
+}

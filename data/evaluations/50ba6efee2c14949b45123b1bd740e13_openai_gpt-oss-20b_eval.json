@@ -1,0 +1,14 @@
+{
+  "prompt_id": "50ba6efee2c14949b45123b1bd740e13",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately captures the core narrative of the source text: the realization that the Battle Pass model limited content variety, the strategic shift to allocate resources toward speculative updates, and the successful launch of \"New Frontiers\" (patch 7.33) as the first result. It correctly identifies the key argument that most players do not purchase the Battle Pass, making the shift toward universal content (map, items, UI) beneficial for the broader community. While the source uses relative time markers (\"last year,\" \"earlier this year\") and the summary specifies \"2024,\" this is a reasonable inference based on the context of patch 7.33 and does not constitute a factual error or omission of critical information. All essential aspects are covered.",
+  "finish_reason": "stop",
+  "prompt_tokens": 573,
+  "completion_tokens": 160,
+  "total_tokens": 733,
+  "timestamp": "2026-09-22T16:59:56.928355+00:00"
+}

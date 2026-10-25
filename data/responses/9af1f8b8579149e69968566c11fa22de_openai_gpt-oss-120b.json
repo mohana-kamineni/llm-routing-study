@@ -1,0 +1,20 @@
+{
+  "prompt_id": "9af1f8b8579149e69968566c11fa22de",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the airspeed velocity of an unladen swallow?",
+  "response_text": "The classic line from *Monty Python and the Holy Grail* goes:\n\n> **“What… is the air‑speed velocity of an unladen swallow?”**  \n> **“What do you mean? An African or a European swallow?”**\n\nIf we set the joke aside and look at the real‑world data, a European (barn) swallow (*Hirundo rustica*) in level flight typically cruises at about **11 m/s (≈ 24 mph or 39 km/h)**. The exact speed can vary with wind, temperature, and whether the bird is gliding or flapping, but that figure is a good ballpark for an “unladen” (i.e., not carrying any extra weight) swallow. \n\nSo the answer depends on the species, but for the common European swallow the answer is roughly **24 mph**.",
+  "finish_reason": "stop",
+  "prompt_tokens": 83,
+  "completion_tokens": 258,
+  "total_tokens": 341,
+  "latency_ms": 898,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:21:03.628991+00:00"
+}

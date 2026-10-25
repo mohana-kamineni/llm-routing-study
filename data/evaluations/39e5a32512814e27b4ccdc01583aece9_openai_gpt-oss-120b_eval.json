@@ -1,0 +1,14 @@
+{
+  "prompt_id": "39e5a32512814e27b4ccdc01583aece9",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies that there is no president of the Moon because the Moon is not a sovereign state or political entity. It accurately cites the 1967 Outer Space Treaty, which prohibits national sovereignty over celestial bodies, thereby confirming that no such office exists. The answer is factually accurate and contains no contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 317,
+  "completion_tokens": 71,
+  "total_tokens": 388,
+  "timestamp": "2026-09-28T07:40:06.138940+00:00"
+}

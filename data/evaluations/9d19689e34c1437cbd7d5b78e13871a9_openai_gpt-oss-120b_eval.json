@@ -1,0 +1,14 @@
+{
+  "prompt_id": "9d19689e34c1437cbd7d5b78e13871a9",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies that there are 0 stars within 1 light-year of the Sun (excluding the Sun itself), as the nearest star, Proxima Centauri, is approximately 4.24 light-years away. The reasoning provided is sound: it cites the correct distance to the nearest star and uses the local stellar density to demonstrate that the expected number of stars in a 1 ly sphere is much less than 1. The calculation of the sphere's volume and the subsequent multiplication by the density are mathematically correct and support the conclusion. There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 748,
+  "completion_tokens": 129,
+  "total_tokens": 877,
+  "timestamp": "2026-09-24T03:51:32.906545+00:00"
+}

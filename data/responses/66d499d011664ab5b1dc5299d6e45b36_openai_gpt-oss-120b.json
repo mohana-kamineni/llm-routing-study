@@ -1,0 +1,20 @@
+{
+  "prompt_id": "66d499d011664ab5b1dc5299d6e45b36",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "TLDR means “Too Long; Didn’t Read.” It is used to introduce or request a summary of a lengthy text1\n\nHere is a TLDR of the current web page context:\n\nLangChain is a framework for developing applications powered by language models. It allows language models to interact with their environment, call other utilities, and have memory and data. This page is the Python documentation for LangChain. It contains guides, tutorials, concepts, and references for using LangChain modules, integrations, and use cases. It also provides links to additional resources such as LangChainHub, Gallery, Deployments, Tracing, Model Laboratory, Discord, YouTube, and Production Support.",
+  "response_text": "**TL;DR – LangChain Python Docs**\n\nLangChain is a Python framework that makes it easy to build applications powered by large language models (LLMs). It lets LLMs:\n\n* **Interact with external tools** (APIs, databases, file systems, etc.)  \n* **Maintain memory** across calls (so they can remember past interactions)  \n* **Chain together multiple components** (prompt templates, agents, retrievers, etc.)  \n\nThe documentation is organized into:\n\n| Section | What you’ll find |\n|---------|------------------|\n| **Guides & Tutorials** | Step‑by‑step walkthroughs (e.g., building a chatbot, using retrieval‑augmented generation). |\n| **Concepts** | Core ideas like **Chains**, **Agents**, **Memory**, **Prompt Templates**, and **Callbacks**. |\n| **Reference** | API reference for all modules (`langchain.llms`, `langchain.prompts`, `langchain.vectorstores`, etc.). |\n| **Integrations** | Connectors for popular services (OpenAI, Azure, Cohere, Pinecone, Weaviate, etc.). |\n| **Use Cases** | Ready‑made patterns (question answering, summarization, code generation, data extraction). |\n| **Resources** | Links to LangChainHub (shareable components), Gallery (example apps), Deployments, Tracing, Model Laboratory, Discord, YouTube, and Production Support. |\n\nIn short, the docs give you everything you need to **design, prototype, and ship** LLM‑driven apps—from simple prompts to complex, stateful agents that can call external tools. Let me know if you’d like a deeper dive into any specific part!",
+  "finish_reason": "stop",
+  "prompt_tokens": 207,
+  "completion_tokens": 459,
+  "total_tokens": 666,
+  "latency_ms": 1172,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:48:08.986053+00:00"
+}

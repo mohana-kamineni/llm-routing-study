@@ -1,0 +1,13 @@
+{
+  "prompt_id": "ec2e7c6e72434090ad4ce66f0a0539e6",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "The question asks for the \"145th most popular language.\" This is a factual query that depends on the specific metric (native speakers, total speakers, programming usage, etc.) and the source of the data (Ethnologue, TIOBE, Stack Overflow, etc.).\n\n1.  **Natural Languages**: The response claims the 145th most spoken language (by native speakers) is **Sranan Tongo**.\n    *   According to Ethnologue (a standard reference for language statistics), the ranking of languages by number of native speakers fluctuates slightly year to year.\n    *   In recent editions (e.g., 2023/2024), Sranan Tongo has approximately 500,000 to 600,000 native speakers.\n    *   Let's check the approximate rank. Languages with ~500k-600k native speakers are typically in the range of 100-150. For instance, in Ethnologue 27 (2024), Sranan Tongo is listed around rank 140-150 depending on the exact cutoff and inclusion of dialects. Specifically, looking at data from Ethnologue 26/27, Sranan Tongo is often cited in the 140s range for native speakers. This claim is plausible and likely accurate within the margin of error for such rankings.\n\n2.  **Programming Languages**: The response claims the 145th most popular language in the 2024 TIOBE Index is **Bash**.\n    *   The TIOBE Index typically lists the top 20-30 languages prominently, but it does have a full list.\n    *   However, Bash is generally not ranked as high as 145th in terms of \"popularity\" or market share in the TIOBE index. In recent TIOBE indices, Bash usually ranks in the top 20-30 (often around 15-25).\n    *   If the user meant \"145th\" in a list of *all* known programming languages, Bash would be much higher up.\n    *   If the user meant a different index, the claim is still suspect. For example, in the Stack Overflow Developer Survey, Bash is often in the top 10-20.\n    *   Therefore, stating that Bash is the 145th most popular programming language is factually incorrect. It is significantly more popular than that.\n\nBecause the response provides a specific, verifiable fact about programming languages that is demonstrably false (Bash is a top-tier scripting language, not ranked 145th in popularity), the response contains a false contradiction to established data.\n\nVERDICT: FAIL",
+  "prompt_tokens": 239,
+  "completion_tokens": 601,
+  "total_tokens": 840,
+  "timestamp": "2026-09-19T10:41:36.971400+00:00"
+}

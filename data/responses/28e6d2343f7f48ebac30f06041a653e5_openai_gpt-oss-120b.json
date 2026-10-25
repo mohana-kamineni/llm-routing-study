@@ -1,0 +1,20 @@
+{
+  "prompt_id": "28e6d2343f7f48ebac30f06041a653e5",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Adam has 10 apples. He gives 4 of these to Bob who in turn gives half of his apples to Charlie. Charlie eats two of his apples and then gives half of his apples to Adam. Now Adam has 10 apples again. How many apples does everybody have now?",
+  "response_text": "**Answer**\n\n- Adam ends up with **10 apples**  \n- Bob ends up with **10 apples**  \n- Charlie ends up with **4 apples**\n\n---\n\n### How we get there  \n\nLet’s follow the apples step‑by‑step, allowing Bob (and possibly Charlie) to start with some apples of his own.\n\n| Step | Adam | Bob | Charlie | What happens |\n|------|------|-----|----------|--------------|\n| 0 (initial) | 10 | **B₀** | **C₀** | – |\n| 1 | 10 – 4 = **6** | B₀ + 4 | C₀ | Adam gives 4 apples to Bob |\n| 2 | 6 | **½·(B₀ + 4)** | C₀ + ½·(B₀ + 4) | Bob gives half of his apples to Charlie |\n| 3 | 6 | ½·(B₀ + 4) | **C₀ + ½·(B₀ + 4) – 2** | Charlie eats 2 apples |\n| 4 | **6 + ½·[C₀ + ½·(B₀ + 4) – 2]** | ½·(B₀ + 4) | **½·[C₀ + ½·(B₀ + 4) – 2]** | Charlie gives half of what he now has to Adam |\n\nThe problem tells us that after the last step Adam has **10 apples** again:\n\n\\[\n6+\\frac{1}{2}\\Bigl(C₀+\\frac{B₀+4}{2}-2\\Bigr)=10\n\\]\n\nSolve for the unknowns:\n\n\\[\n\\frac{1}{2}\\Bigl(C₀+\\frac{B₀+4}{2}-2\\Bigr)=4\n\\quad\\Longrightarrow\\quad\nC₀+\\frac{B₀+4}{2}=10\n\\]\n\nMultiply by 2:\n\n\\[\n2C₀ + B₀ + 4 = 20 \\;\\Longrightarrow\\; B₀ + 2C₀ = 16\n\\]\n\nThe simplest non‑negative integer solution is  \n\n\\[\n\\boxed{B₀ = 16,\\qquad C₀ = 0}\n\\]\n\n(Any other pair \\((B₀, C₀)\\) satisfying \\(B₀+2C₀=16\\) would also work, but the problem statement does not give any extra information, so we take the most natural one: Charlie starts with none.)\n\nNow compute the final numbers:\n\n* **Bob’s apples after step 2**  \n  \\[\n  \\frac{B₀+4}{2}= \\frac{16+4}{2}=10\n  \\]\n\n* **Charlie’s apples after step 3** (before he gives any away)  \n  \\[\n  C₀+\\frac{B₀+4}{2}=0+10=10\n  \\]\n\n  He eats 2 → 8, then gives half (4) to Adam, leaving him with **4**.\n\n* **Adam’s apples**  \n  \\[\n  6 + \\frac{8}{2}=6+4=10\n  \\]\n\nThus the final distribution is:\n\n- Adam: **10** apples  \n- Bob: **10** apples  \n- Charlie: **4** apples  \n\nAll the conditions of the story are satisfied.",
+  "finish_reason": "stop",
+  "prompt_tokens": 128,
+  "completion_tokens": 2278,
+  "total_tokens": 2406,
+  "latency_ms": 5161,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:04:46.322635+00:00"
+}

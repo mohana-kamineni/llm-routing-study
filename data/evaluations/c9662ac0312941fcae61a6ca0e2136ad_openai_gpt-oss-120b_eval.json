@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c9662ac0312941fcae61a6ca0e2136ad",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately covers all four required key aspects:\n1. It correctly identifies the expert as the CTO of CircleUp, reporting to the CEO, and the sole decision maker for Pinecone adoption.\n2. It notes the ~3-year customer relationship and the high familiarity rating (6) compared to other tools like Elasticsearch and Milvus.\n3. It explicitly states that the February spend decline was not due to down-selling or churn but was a strategic optimization.\n4. It details the specific cause of the cost reduction: tuning the index away from a high-write-throughput configuration used for backlog data inserts.\n\nThe summary is factually accurate based on the source text and omits no critical information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1251,
+  "completion_tokens": 151,
+  "total_tokens": 1402,
+  "timestamp": "2026-09-28T07:54:53.208428+00:00"
+}

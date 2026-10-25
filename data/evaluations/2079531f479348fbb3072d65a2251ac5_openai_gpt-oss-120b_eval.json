@@ -1,0 +1,14 @@
+{
+  "prompt_id": "2079531f479348fbb3072d65a2251ac5",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly analyzes the provided text regarding HidHide Drivers v1.2.122. It accurately extracts all key facts:\n1.  **Version and Release Info:** Correctly identifies v1.2.122, released by nefarius 17 hours ago.\n2.  **Compatibility:** Correctly notes support for Windows 10/11 64-bit Intel/AMD only.\n3.  **Bugfixes:**\n    *   Correctly identifies the removal of the startup Internet connectivity check and its impact on AtlasOS.\n    *   Correctly identifies the addition of the missing ETW manifest for diagnostics.\n    *   Correctly identifies the re-signing of binaries with a new certificate to fix signature validation issues.\n4.  **Installation:** Correctly describes the process (download, run, reboot).\n\nThe response adds reasonable technical context (e.g., explaining what ETW is, the implications of kernel-mode drivers) which enhances the analysis without introducing factual errors or contradicting the source text. The conclusions drawn are logical and supported by the provided information. There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2363,
+  "completion_tokens": 243,
+  "total_tokens": 2606,
+  "timestamp": "2026-09-28T07:55:27.468602+00:00"
+}

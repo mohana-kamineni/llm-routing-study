@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e7d4788ae59141e9b7ff0dd76c64e471",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Give me a summary of this: \"I'm going to start by the rbbion tying; How many people does it take? I have a q for you Vicki, about Sherwin extending; He said he's happy to do it, he's got so me new people in the pipeline so that's good; SO onyl for ExCo purposes, or for the full another year?; I'd go one year; Okay.; So, speaking of Sherwin - nurse committee approved\"",
+  "response_text": "**Summary**\n\nThe speaker is initiating a discussion about a project or event (referred to as “rbbion tying”) and asks how many people are required. They bring up a question for Vicki regarding Sherwin’s willingness to extend his involvement. Sherwin confirms he’s happy to extend and notes that he has new people in the pipeline, which is positive. The conversation then turns to whether the extension should be limited to ExCo purposes or cover a full additional year; the speaker prefers a one‑year extension. Finally, they note that Sherwin’s nurse committee has approved the extension.",
+  "finish_reason": "stop",
+  "prompt_tokens": 166,
+  "completion_tokens": 499,
+  "total_tokens": 665,
+  "latency_ms": 673,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:38:02.241805+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "ffea599a700f411280aad786066ee6bd",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Sam has 8 chairs. Sally has 4 chairs. Sam takes 2 chairs from Sally and Sally gives an additional 2 to Sam. How many chairs do each of them have?",
+  "response_text": "Sam starts with 8 chairs and Sally with 4.\n\n1. **Sam takes 2 chairs from Sally**  \n   - Sam: 8 + 2 = 10 chairs  \n   - Sally: 4 – 2 = 2 chairs\n\n2. **Sally gives an additional 2 chairs to Sam**  \n   - Sam: 10 + 2 = 12 chairs  \n   - Sally: 2 – 2 = 0 chairs\n\nSo after the exchanges:\n\n- **Sam has 12 chairs.**  \n- **Sally has 0 chairs.**",
+  "finish_reason": "stop",
+  "prompt_tokens": 109,
+  "completion_tokens": 337,
+  "total_tokens": 446,
+  "latency_ms": 24860,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:08:36.966279+00:00"
+}

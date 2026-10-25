@@ -1,0 +1,20 @@
+{
+  "prompt_id": "3f383d8b707a4bc9973a5f2c7537ff0b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "question: what is the temporal relation (before/after/equal/vague) between <event>predicted</event> and <event>tried</event>? context: People have <event>predicted</event> his demise so many times , and the US has <event>tried</event> to hasten it on several occasions .",
+  "response_text": "**Temporal relation:** **before** (the predictions occurred earlier than the attempts to hasten it).",
+  "finish_reason": "stop",
+  "prompt_tokens": 143,
+  "completion_tokens": 186,
+  "total_tokens": 329,
+  "latency_ms": 7548,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:32:57.860117+00:00"
+}

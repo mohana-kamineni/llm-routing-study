@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c4dc3e3004a84c76b37c64acfaf14229",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Welcome to Kennections, a weekly quiz created by Jeopardy! champion/co-host Ken Jennings. Here's how to play: All five answers to the questions below have something in common. Can you figure it out? (Note: We've given you a hint by showing you how many letters are contained within the answer, but this quiz is not interactive.)\n\n1.  What substance, easiest to find in the underground Nether, is the longest burning fuel source in the game Minecraft?   \n\n— — — —\n2.  After pepperoni, what’s America’s most liked pizza topping, with a 56% approval rating?\n\n— — — — — — —\n3.  Which of the noble gases was named in 1889 by its discoverer’s young son, from the Greek word for “new”?\n\n— — — —\n4.  What does the “T” stand for in the U.S. Navy’s PT boats, for the weapon they were designed to fire? \n\n— — — — — — —\n5.  What invention of ancient Egypt was originally made with crushed eggshells, not the sodium fluoride that’s the active ingredient today? \n\n— — — — — — — — — —\nANSWERS ----->",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 318,
+  "completion_tokens": 4096,
+  "total_tokens": 4414,
+  "latency_ms": 15924,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:53:08.030921+00:00"
+}

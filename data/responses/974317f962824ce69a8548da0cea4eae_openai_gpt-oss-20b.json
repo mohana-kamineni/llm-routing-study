@@ -1,0 +1,20 @@
+{
+  "prompt_id": "974317f962824ce69a8548da0cea4eae",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Make a summary of te following text:\nThe history of geometric algebra is one of the more unusual tales in the development\nof mathematical physics. William Kingdon Clifford introduced his\ngeometric algebra in the 1870s, building on the earlier work of Hamilton and\nGrassmann. It is clear from his writing that Clifford intended his algebra to\ndescribe the geometric properties of vectors, planes and higher-dimensional objects.\nBut most physicists first encounter the algebra in the guise of the Pauli\nand Dirac matrix algebras of quantum theory. Few then contemplate using these\nunwieldy matrices for practical geometric computing. Indeed, some physicists\ncome away from a study of Dirac theory with the view that Clifford’s algebra\nis inherently quantum-mechanical. In this book we aim to dispel this belief by\ngiving a straightforward introduction to this new and fundamentally different\napproach to vectors and vector multiplication. In this language much of the\nstandard subject matter taught to physicists can be formulated in an elegant\nand highly condensed fashion. And the portability of the techniques we discuss\nenables us to reach a range of advanced topics with little extra work.",
+  "response_text": "**Summary**\n\nGeometric algebra, introduced by William Kingdon Clifford in the 1870s and built on Hamilton’s and Grassmann’s earlier work, was originally intended to describe the geometry of vectors, planes, and higher‑dimensional objects. Despite its origins, most physicists first encounter it through the Pauli and Dirac matrix algebras in quantum theory and often view it as a purely quantum‑mechanical tool. The book aims to challenge this perception by presenting a clear, straightforward introduction to Clifford’s algebra, showing how it offers an elegant, compact framework for many standard topics in physics and can be applied to advanced subjects with minimal additional effort.",
+  "finish_reason": "stop",
+  "prompt_tokens": 307,
+  "completion_tokens": 185,
+  "total_tokens": 492,
+  "latency_ms": 5565,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:40:07.185091+00:00"
+}

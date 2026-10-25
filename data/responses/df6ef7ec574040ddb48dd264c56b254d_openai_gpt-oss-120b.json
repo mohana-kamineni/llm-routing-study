@@ -1,0 +1,20 @@
+{
+  "prompt_id": "df6ef7ec574040ddb48dd264c56b254d",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "I have 4 apples today. I ate 3 apples yesterday. How many apples do I have left today?",
+  "response_text": "You have **4 apples** left today. The apples you ate yesterday don’t affect the number you have right now.",
+  "finish_reason": "stop",
+  "prompt_tokens": 94,
+  "completion_tokens": 114,
+  "total_tokens": 208,
+  "latency_ms": 594,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:07:04.822930+00:00"
+}

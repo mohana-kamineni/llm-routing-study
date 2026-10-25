@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c8131d6ff392413fa837108691773fb6",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "a red ball is 3 meters to the left of a black ball, a blue ball is 4 meters above the same black ball, what is the distance between the red and blue balls?",
+  "response_text": "Assume the black ball is at the origin \\((0,0)\\).\n\n- Red ball: 3 m to the left → \\((-3,\\,0)\\)  \n- Blue ball: 4 m above → \\((0,\\,4)\\)\n\nThe distance \\(d\\) between the red and blue balls is the straight‑line (Euclidean) distance:\n\n\\[\n\\begin{aligned}\nd &= \\sqrt{(\\Delta x)^2 + (\\Delta y)^2} \\\\\n  &= \\sqrt{(-3-0)^2 + (0-4)^2} \\\\\n  &= \\sqrt{(-3)^2 + (-4)^2} \\\\\n  &= \\sqrt{9 + 16} \\\\\n  &= \\sqrt{25} \\\\\n  &= 5\\ \\text{meters}.\n\\end{aligned}\n\\]\n\n**Answer:** The red and blue balls are **5 meters** apart.",
+  "finish_reason": "stop",
+  "prompt_tokens": 110,
+  "completion_tokens": 338,
+  "total_tokens": 448,
+  "latency_ms": 949,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:34:14.609222+00:00"
+}

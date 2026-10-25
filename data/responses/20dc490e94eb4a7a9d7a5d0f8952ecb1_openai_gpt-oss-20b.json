@@ -1,0 +1,20 @@
+{
+  "prompt_id": "20dc490e94eb4a7a9d7a5d0f8952ecb1",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "what are the daily caloric needs of a lightly active, 50kg female that is 32 years old and 156cm tall?",
+  "response_text": "**Estimated Daily Caloric Need**\n\n| Step | Calculation | Result |\n|------|-------------|--------|\n| 1. **Basal Metabolic Rate (BMR)** – Mifflin‑St Jeor formula for women | \\(10 \\times 50 + 6.25 \\times 156 - 5 \\times 32 - 161\\) | \\(500 + 975 - 160 - 161 = 1,154\\) kcal/day |\n| 2. **Activity Adjustment** – “Lightly active” (≈1.375× BMR) | \\(1,154 \\times 1.375\\) | **≈ 1,587 kcal/day** |\n\n**Rounded estimate:** **≈ 1,600 kcal per day**\n\n---\n\n### How the numbers were derived\n\n1. **BMR (Basal Metabolic Rate)**  \n   - The Mifflin‑St Jeor equation is widely used for estimating resting energy expenditure.  \n   - For a 32‑year‑old, 50 kg, 156 cm woman:  \n     \\[\n     \\text{BMR} = 10W + 6.25H - 5A - 161\n     \\]\n     where \\(W\\) = weight (kg), \\(H\\) = height (cm), \\(A\\) = age (years).\n\n2. **Activity Factor**  \n   - “Lightly active” typically means light daily activity (e.g., walking, light chores) but not regular exercise.  \n   - The standard multiplier is **1.375** (range 1.35–1.40).  \n   - Multiplying BMR by this factor gives the total daily energy expenditure (TDEE).\n\n---\n\n### Things to keep in mind\n\n| Factor | Why it matters | How it could change the estimate |\n|--------|----------------|----------------------------------|\n| **Body composition** | Muscle burns more calories than fat at rest. | A higher muscle mass would increase BMR. |\n| **Metabolic variations** | Genetics, thyroid function, medications, etc. | Can shift BMR up or down by 5–10 %. |\n| **Activity level** | “Lightly active” is a broad category. | If you’re more active (e.g., brisk walking, light exercise), use 1.55; if less, use 1.2. |\n| **Goal (maintenance vs. change)** | Weight loss or gain requires a calorie deficit or surplus. | Adjust by ±200–500 kcal/day depending on desired rate of change. |\n\n---\n\n### Quick reference\n\n| Goal | Suggested Daily Calories (approx.) |\n|------|------------------------------------|\n| **Maintain weight** | ~1,600 kcal/day |\n| **Lose weight (0.5 kg/week)** | ~1,300–1,400 kcal/day |\n| **Gain weight (0.5 kg/week)** | ~1,900–2,000 kcal/day |\n\n> **Tip:** Track your intake and weight for a couple of weeks. If you’re not seeing the expected changes, adjust by 100–200 kcal and re‑evaluate.  \n\nFeel free to let me know if you’d like a more personalized plan or help setting up a tracking routine!",
+  "finish_reason": "stop",
+  "prompt_tokens": 99,
+  "completion_tokens": 959,
+  "total_tokens": 1058,
+  "latency_ms": 1380,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:36:26.520916+00:00"
+}

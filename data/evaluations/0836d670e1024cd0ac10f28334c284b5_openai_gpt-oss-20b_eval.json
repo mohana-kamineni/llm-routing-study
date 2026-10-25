@@ -1,0 +1,14 @@
+{
+  "prompt_id": "0836d670e1024cd0ac10f28334c284b5",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the content by accurately capturing all essential factual aspects of the source text. It correctly identifies the key entities (Goldman Sachs, Elon Musk/Twitter), the specific financial metrics (612% jump to $840mn vs. industry 30% to $12bn), the timeframe (Q1 2023), and the underlying cause (refusal to pay rent on office buildings linked to the post-pandemic work-from-home shift). The summary is concise, accurate, and omits no critical information from the provided passage.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1325,
+  "completion_tokens": 124,
+  "total_tokens": 1449,
+  "timestamp": "2026-09-22T17:04:08.630658+00:00"
+}

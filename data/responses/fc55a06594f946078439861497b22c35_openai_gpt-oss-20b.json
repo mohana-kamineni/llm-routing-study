@@ -1,0 +1,20 @@
+{
+  "prompt_id": "fc55a06594f946078439861497b22c35",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Please help me to summarize the following: \n'There is nothing better than sitting on the couch after a long day. Before that,though, one of the first thoughts running through a person’s head probably is, “I wonder what I should eat for supper?” After working for roughly eight hours or longer, no one wants to do is stand over a hot stove for an hour when he or she could be spending that time getting caught up on their favorite Netflix show. Instead of firing up the grill, she pushes a few buttons on a microwave, and voilà! A delicious plate of frozen food, be it pizza bites or a corndog, and cooked to perfection in seconds. Although this is what happens on a regular night in most households, it is a tradition that needs to be put to a stop before it is too late. It’s time for people to face the hard and unwelcome facts. Frozen food causes obesity, not just in American, but around the globe.\nIt is not common knowledge who came up with the modern way of freezing foods. Many individuals developed the quick-freeze method that is currently used by most frozen food companies, but Clarence Birdseye receives most of the credit. Birdseye wanted to create a way of freezing food to keep it fresh all year long for his family. On a trip to Alaska, he watched the local Inuits freeze the fish they caught in seawater. He tried some of the fish after it was later thawed out and cooked and noticed that it tasted the same as it would if it had not been frozen at all.\nBirdseye worked on two different techniques, one in which the f",
+  "response_text": "The passage contrasts the modern convenience of frozen meals—quickly prepared in a microwave after a long day—with the health risks they pose, notably contributing to obesity worldwide. It then traces the origins of today’s freezing technology to Clarence Birdseye, who, inspired by Inuit practices in Alaska, developed rapid‑freezing methods that preserve flavor and freshness, earning him credit for the modern frozen food industry.",
+  "finish_reason": "stop",
+  "prompt_tokens": 405,
+  "completion_tokens": 233,
+  "total_tokens": 638,
+  "latency_ms": 631,
+  "retries": 3,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T20:05:18.038783+00:00"
+}

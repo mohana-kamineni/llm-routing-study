@@ -1,0 +1,16 @@
+{
+  "prompt_id": "5f3ce4c243b24f8b94fb94cc3d191937",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "candidate_degeneracy_audit",
+  "terminal_type": "CANDIDATE_DEGENERATE",
+  "terminal_description": "Candidate generated a 5-sentence Batman action paragraph repeated verbatim 15-16 times across 16,890 characters until 4,096-token completion limit.",
+  "verdict": "FAIL",
+  "raw_output": "The response begins with a strong, atmospheric introduction that is relevant to the prompt. It establishes the setting (Gotham), the character (Batman), and a conflict (The Maskmaker). The initial narrative structure is coherent and engaging.\n\nHowever, the response suffers from a catastrophic failure in the latter half. Starting from the line \"He leapt forward, his cape unfurling like a dark wing...\" (which appears multiple times), the text enters an infinite loop. The same paragraph block is repeated verbatim approximately 15-20 times. This repetition renders the narrative incoherent, as the action never progresses, and the story never reaches a conclusion. Furthermore, the text cuts off abruptly in the middle of a sentence at the very end (\"...and he had the power\"), indicating that the response is truncated and incomplete.\n\nDue to the severe repetition (looping) and the incomplete/truncated ending, the response fails the dimensions of Coherence and Completeness.\n\nVERDICT: FAIL",
+  "finish_reason": null,
+  "prompt_tokens": 4259,
+  "completion_tokens": 205,
+  "total_tokens": 4464,
+  "timestamp": "2026-09-22T16:47:08.516224+00:00"
+}

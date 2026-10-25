@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b0ec1c3a7f084913be1d77d6659cc259",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the final mass of an ssto with 360 average ISP, 1000t initial mass and 9100 m/s delta-v target? Use the rocket equation with the given parameters to calculate the final mass. Show each step.",
+  "response_text": "**Step‑by‑step calculation**\n\n| Symbol | Meaning | Value |\n|--------|---------|-------|\n| \\(m_0\\) | Initial (wet) mass | \\(1000\\;\\text{t}\\) |\n| \\(m_f\\) | Final (dry) mass | ? |\n| \\(\\Delta v\\) | Required Δv | \\(9100\\;\\text{m/s}\\) |\n| \\(I_{sp}\\) | Average specific impulse | \\(360\\;\\text{s}\\) |\n| \\(g_0\\) | Standard gravity | \\(9.80665\\;\\text{m/s}^2\\) |\n\nThe Tsiolkovsky rocket equation (in SI units) is  \n\n\\[\n\\Delta v = I_{sp}\\,g_0 \\,\\ln\\!\\left(\\frac{m_0}{m_f}\\right)\n\\]\n\nWe solve for the final mass \\(m_f\\):\n\n\\[\n\\ln\\!\\left(\\frac{m_0}{m_f}\\right) = \\frac{\\Delta v}{I_{sp}\\,g_0}\n\\]\n\n\\[\n\\frac{m_0}{m_f} = \\exp\\!\\left(\\frac{\\Delta v}{I_{sp}\\,g_0}\\right)\n\\]\n\n\\[\nm_f = \\frac{m_0}{\\exp\\!\\left(\\frac{\\Delta v}{I_{sp}\\,g_0}\\right)}\n\\]\n\n---\n\n### 1. Compute the “effective exhaust velocity”\n\n\\[\nI_{sp}\\,g_0 = 360\\;\\text{s} \\times 9.80665\\;\\text{m/s}^2\n              = 3530.394\\;\\text{m/s}\n\\]\n\n---\n\n### 2. Compute the exponent\n\n\\[\n\\frac{\\Delta v}{I_{sp}\\,g_0}\n= \\frac{9100\\;\\text{m/s}}{3530.394\\;\\text{m/s}}\n= 2.5775\n\\]\n\n---\n\n### 3. Compute the mass ratio\n\n\\[\n\\frac{m_0}{m_f} = e^{2.5775}\n\\]\n\nUsing a calculator (or a table of \\(e^x\\)):\n\n\\[\ne^{2.5775} \\approx 13.16\n\\]\n\n---\n\n### 4. Solve for the final mass\n\n\\[\nm_f = \\frac{m_0}{13.16}\n     = \\frac{1000\\;\\text{t}}{13.16}\n     \\approx 75.97\\;\\text{t}\n\\]\n\n---\n\n## Result\n\n\\[\n\\boxed{m_f \\;\\approx\\; 76\\;\\text{t}}\n\\]\n\nSo, with a 360‑second average ISP, a 1000‑tonne initial mass, and a Δv requirement of 9100 m/s, the vehicle would need to end up with roughly **76 tons** of dry mass (fuel, structure, payload, etc.) after all propellant has been expended. This is a very high dry‑mass fraction (~7.6 %) and illustrates why a single‑stage‑to‑orbit vehicle with these parameters would be extremely challenging to build.",
+  "finish_reason": "stop",
+  "prompt_tokens": 120,
+  "completion_tokens": 1033,
+  "total_tokens": 1153,
+  "latency_ms": 9415,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:07:50.651569+00:00"
+}

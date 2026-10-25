@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b2bb0ea04f6744529b29d76eca7c69cc",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "I have a stone in my hand. I flip it over, where is the stone now?",
+  "response_text": "The stone is still **in your hand** – you’ve just turned it over (or “flipped” it), but you haven’t let it go. The act of flipping changes its orientation, not its location.",
+  "finish_reason": "stop",
+  "prompt_tokens": 90,
+  "completion_tokens": 182,
+  "total_tokens": 272,
+  "latency_ms": 560,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:20:52.528698+00:00"
+}

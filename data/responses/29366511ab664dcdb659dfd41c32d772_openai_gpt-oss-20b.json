@@ -1,0 +1,20 @@
+{
+  "prompt_id": "29366511ab664dcdb659dfd41c32d772",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Summarize the following:\n\n I was wrong. Two quick notes I'm going to be in the air flying today so you could follow me on Instagram to see what I'm up to. I'll be at a special place and you're going to see a lot of cool stuff so follow me on Instagram. And we did extend the flash sale to the end of the week for those of you who emailed us and for anyone else. 69% off largest percentage of basis sale for the programs I'm building your wealth. Link down below. I was wrong about individuals perception and market responses to what would happen with market data and I'm really surprised because I think there's a shift happening and I want you to think about the shift with me for a moment and I want you to see if you're seeing this same shift. Okay ready for this? This is really fascinating in my opinion. All right so first remember when all of this crisis started in January of 2022. One of the crazy things about Jan of 2022 was that basically every bit of news in January of 2022 which is one of the reasons I sold out of almost all I actually sold out of everything went to 100% cash and then started buying into what I thought would be more recession resilient stocks later. But anyway the problem you had in January of 2022 was that good news was equal to bad news. So in other words strong earnings, strong PP earnings, EPS growth, all of that equaled bad news. Good economic news equaled bad and the reason for that was everybody was worried about the boogeyman of inflation. How bad was inflation going to get right? That'",
+  "response_text": "**Summary**\n\nThe speaker admits they were mistaken about how people and the market would react to data. They’re excited to be flying today and invite followers to watch their Instagram for a special event. A flash sale has been extended through the week, offering 69% off on their wealth‑building programs. They reflect on the market turmoil that began in January 2022, when they moved all holdings to cash and then to recession‑resistant stocks. At that time, positive news (strong earnings, growth, etc.) was treated as bad because investors feared inflation. The speaker now believes a shift is occurring and encourages listeners to consider whether they see the same change.",
+  "finish_reason": "stop",
+  "prompt_tokens": 403,
+  "completion_tokens": 232,
+  "total_tokens": 635,
+  "latency_ms": 557,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:45:55.695209+00:00"
+}

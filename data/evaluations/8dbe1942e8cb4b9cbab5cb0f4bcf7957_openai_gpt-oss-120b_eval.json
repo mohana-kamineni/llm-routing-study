@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8dbe1942e8cb4b9cbab5cb0f4bcf7957",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies Atenolol (a beta-blocker) as the best next step in management. The reasoning is clinically sound: beta-blockers are a Class I recommendation for secondary prevention after myocardial infarction (MI) to reduce mortality and recurrent ischemia, and they are also first-line therapy for stable angina. The response correctly distinguishes this from nitroglycerin (which is for acute symptom relief but lacks the same mortality benefit) and diuretics (which are not indicated for angina or routine post-MI care without heart failure/volume overload). There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 593,
+  "completion_tokens": 134,
+  "total_tokens": 727,
+  "timestamp": "2026-09-28T07:38:24.510115+00:00"
+}

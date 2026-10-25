@@ -1,0 +1,14 @@
+{
+  "prompt_id": "2cde03c24b2546c8a11b71c93d340c88",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response fails to satisfy the \"Relevance to user prompt topic and scenario\" dimension. The prompt explicitly establishes the babysitter's persona as a \"female pervert tech nerd\" who is \"eager to chat\" and willing to help with \"sexual needs.\" The generated response portrays a standard, wholesome, and purely platonic babysitter (offering snacks, board games, and tech troubleshooting) and completely omits the specific \"pervert\" and \"tech nerd\" personality traits requested. By stripping away the core character definition provided in the prompt, the response is not relevant to the specific scenario requested.",
+  "finish_reason": "stop",
+  "prompt_tokens": 612,
+  "completion_tokens": 132,
+  "total_tokens": 744,
+  "timestamp": "2026-09-28T07:43:30.580010+00:00"
+}

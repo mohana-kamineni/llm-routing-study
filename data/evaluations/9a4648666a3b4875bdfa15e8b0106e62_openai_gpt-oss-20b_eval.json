@@ -1,0 +1,14 @@
+{
+  "prompt_id": "9a4648666a3b4875bdfa15e8b0106e62",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to cover all required key aspects. Specifically, it omits Key Aspect 4, which states that the Federal Aviation Administration (FAA) has ruled that carrying an AirTag in luggage is permitted. Additionally, while it mentions the travel boom, it does not explicitly link the specific context of the \"spring break season\" or the \"crowded conditions\" as detailed in Key Aspect 1, nor does it mention the specific price ($29) or launch year (2021) required by Key Aspect 2.",
+  "finish_reason": "stop",
+  "prompt_tokens": 683,
+  "completion_tokens": 116,
+  "total_tokens": 799,
+  "timestamp": "2026-09-22T16:59:12.160002+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "prompt_id": "e7d4788ae59141e9b7ff0dd76c64e471",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "The source text is a fragmented, likely transcribed conversation containing several distinct points:\n1.  **Topic:** \"rbbion tying\" (likely a transcription error for \"ribbon tying\" or similar).\n2.  **Question:** How many people does it take?\n3.  **Topic:** Sherwin extending.\n4.  **Detail:** Sherwin is happy to do it and has new people in the pipeline.\n5.  **Question:** Is the extension only for ExCo purposes or for a full another year?\n6.  **Decision/Preference:** \"I'd go one year.\"\n7.  **Status:** Nurse committee approved.\n\nThe response summarizes these points as follows:\n1.  Identifies the start of a discussion about \"rbbion tying\" and the question about headcount.\n2.  Identifies the question for Vicki about Sherwin extending.\n3.  Notes Sherwin's willingness and the pipeline of new people.\n4.  Notes the discussion about the scope (ExCo vs. full year) and the preference for a one-year extension.\n5.  Notes the nurse committee approval.\n\nThe summary accurately captures all the key factual aspects and the flow of the conversation, despite the garbled nature of the source text. It does not omit critical information and remains faithful to the content provided.\n\nVERDICT: PASS",
+  "prompt_tokens": 344,
+  "completion_tokens": 289,
+  "total_tokens": 633,
+  "timestamp": "2026-09-19T10:40:55.966565+00:00"
+}

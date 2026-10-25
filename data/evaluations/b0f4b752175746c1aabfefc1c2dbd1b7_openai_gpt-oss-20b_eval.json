@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b0f4b752175746c1aabfefc1c2dbd1b7",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies 5 words starting with \"EN\" (Enlighten, Enchant, Enigma, Environment, Entire) and correctly calculates the sum of 77 + 33 as 110. There are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 183,
+  "completion_tokens": 59,
+  "total_tokens": 242,
+  "timestamp": "2026-09-19T17:11:28.220237+00:00"
+}

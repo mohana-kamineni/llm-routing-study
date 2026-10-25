@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ff68ee8c5c7a4b1f837b62b350bc8f38",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the provided source text by covering all key aspects:\n1.  **Context**: It correctly identifies the impact of Stable Diffusion and the specific example of the landscape photo.\n2.  **Conflict**: It accurately captures the controversy, including the accusations of theft and the argument that AI art is not \"art\" due to the lack of a human creator, as well as the protests on ArtStation.\n3.  **Author's Stance**: It correctly notes the author's dual identity as a machine learning engineer and landscape photographer, and their support for AI artists.\n4.  **Historical Analogy**: It accurately summarizes the comparison to photography's history (1826 first photo, 1924 museum recognition) and the initial fears of replacement.\n\nWhile the \"Broader implications\" section includes some extrapolation (e.g., specific mentions of \"attribution standards\" and \"ethical guidelines\" which are not explicitly in the truncated text), the core factual summary of the provided text is accurate and complete. The summary does not omit any critical information present in the source passage.",
+  "finish_reason": "stop",
+  "prompt_tokens": 870,
+  "completion_tokens": 235,
+  "total_tokens": 1105,
+  "timestamp": "2026-09-24T16:05:58.640817+00:00"
+}

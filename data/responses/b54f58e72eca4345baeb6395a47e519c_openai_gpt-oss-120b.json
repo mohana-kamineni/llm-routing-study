@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b54f58e72eca4345baeb6395a47e519c",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who was the president of the US in 2008? Keep it short. I want only a name.",
+  "response_text": "George W. Bush",
+  "finish_reason": "stop",
+  "prompt_tokens": 93,
+  "completion_tokens": 74,
+  "total_tokens": 167,
+  "latency_ms": 249,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:22:30.730025+00:00"
+}

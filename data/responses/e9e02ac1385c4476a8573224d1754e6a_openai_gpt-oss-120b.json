@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e9e02ac1385c4476a8573224d1754e6a",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Summarize the below text as a tweet,\n\nOne AI platform, every ML tool you need\nChoose a model that fits your needs\n\nJumpstart your ML project with Model Garden, a single place to access a wide variety of APIs, foundation models, and open source models. Kick off a variety of workflows including using models directly, tuning models in Generative AI Studio, or deploying models to a data science notebook. \nEnd-to-end MLOps\n\nVertex AI provides purpose built tools for data scientists and ML engineers to efficiently and responsibly automate, standardize, and manage ML projects throughout the entire development life cycle. Using Vertex AI you can easily train, test, monitor, deploy, and govern ML models at scale, reducing the work needed to maintain model performance in production and enabling data scientists and ML engineers to focus on innovation code. \nData and AI integration\n\nThrough Vertex AI Workbench, Vertex AI is natively integrated with BigQuery, Dataproc, and Spark. You can use BigQuery ML to create and execute machine learning models in BigQuery using standard SQL queries on existing business intelligence tools and spreadsheets, or you can export datasets from BigQuery directly into Vertex AI Workbench and run your models from there. Use Vertex Data Labeling to generate highly accurate labels for your data collection.\nLow-code and no-code tooling\n\nVertex AI provides low-code tooling and up-training capabilities so practitioners with a wide variety of expertise can leverage machine learning workloads. With Generative AI Studio, developers can tune and deploy foundation models for their use cases via a simple UI. And, with our off the shelf APIs, developers can easily call upon pre-trained models to quickly solve real-world problems. \nOpen and flexible AI infrastructure\n\nVertex makes it easy to deploy ML models to make predictions (also known as inference) at the best price-performance for any use case. It provides a broad selection of ML infrastructure and model deployment options to help meet all your ML inference needs. It is a fully managed service and integrates with MLOps tools, so you can scale your model deployment, reduce inference costs, manage models more effectively in production, and reduce operational burden.",
+  "response_text": "🚀 One AI platform, every ML tool you need!  \n🔹 Model Garden: access APIs, foundation & open‑source models, tune in Generative AI Studio, deploy to notebooks.  \n🔹 Vertex AI: end‑to‑end MLOps, native BigQuery/Dataproc integration, low‑code/no‑code UI.  \n🔹 Flexible, cost‑effective inference & managed deployment. #AI #MLOps #VertexAI",
+  "finish_reason": "stop",
+  "prompt_tokens": 502,
+  "completion_tokens": 156,
+  "total_tokens": 658,
+  "latency_ms": 7674,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:59:39.870169+00:00"
+}

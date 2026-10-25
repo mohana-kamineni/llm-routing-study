@@ -1,0 +1,14 @@
+{
+  "prompt_id": "61c75d537c9749008c8dcaecb66cb157",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully meets all specified criteria. It addresses the student \"Zhang San\" directly, covering the current course's key points (concept, understanding, and properties of rational numbers) and the next lesson's content (the four operations). The tone is gentle and encouraging, appropriate emojis are used, and the word count is approximately 45 words, well within the 100-word limit.",
+  "finish_reason": "stop",
+  "prompt_tokens": 515,
+  "completion_tokens": 88,
+  "total_tokens": 603,
+  "timestamp": "2026-09-19T17:10:48.982187+00:00"
+}

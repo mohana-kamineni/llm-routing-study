@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c10505c898084955ad8da533824d00ad",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the logical constraint: if Alexis has three sisters and each sister has exactly one brother, then Alexis must be the only male sibling in the family. Consequently, Alexis has 0 brothers. The reasoning is sound and the final answer is correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 299,
+  "completion_tokens": 62,
+  "total_tokens": 361,
+  "timestamp": "2026-09-24T03:50:22.690390+00:00"
+}

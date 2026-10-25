@@ -1,0 +1,14 @@
+{
+  "prompt_id": "0ac617966f5d48b9b7a4af63e59e847e",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly rearranges the equation to standard quadratic form ($3x^2 - 3x - 1 = 0$), correctly identifies the coefficients ($a=3, b=-3, c=-1$), and applies the quadratic formula accurately. The calculation of the discriminant ($9+12=21$) and the final simplified solutions ($\\frac{3 \\pm \\sqrt{21}}{6}$) are correct. The numerical approximations provided are also accurate. There are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 499,
+  "completion_tokens": 116,
+  "total_tokens": 615,
+  "timestamp": "2026-09-19T17:15:58.968882+00:00"
+}

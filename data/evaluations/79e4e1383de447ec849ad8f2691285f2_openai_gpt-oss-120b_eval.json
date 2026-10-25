@@ -1,0 +1,14 @@
+{
+  "prompt_id": "79e4e1383de447ec849ad8f2691285f2",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly extracts the main keywords, identifies the brand (ELITE), and accurately classifies the sentiment as positive and the category as Food. The summary \"ELITE gives 10 % off Turkish halal food in Bron\" is exactly 9 words (within the 10-word limit) and captures the essential factual aspects: the brand, the offer (discount), the cuisine type, and the location. It accurately reflects the core content of the source text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 434,
+  "completion_tokens": 101,
+  "total_tokens": 535,
+  "timestamp": "2026-09-23T07:42:30.357858+00:00"
+}

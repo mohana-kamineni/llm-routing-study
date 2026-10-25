@@ -1,0 +1,14 @@
+{
+  "prompt_id": "87a9e10d4cca4efcba6cee46d98e2bdf",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the source text into four distinct key points as requested. It correctly captures the essential factual aspects:\n1.  **Background:** It includes the birthplace, upbringing locations, and the lack of registration/schooling.\n2.  **Legal Consequences:** It accurately states the charges against the mother and the maximum potential sentence.\n3.  **Defense Argument:** It correctly represents the lawyer's counter-narrative regarding the \"over-loving\" nature of the care and the denial of mistreatment.\n4.  **Context & Health:** It includes the specific health metrics (weight, learning difficulties) that triggered the investigation and the legal context regarding homeschooling in France.\n\nThe summary is concise, accurate, and omits no critical information from the source passage.",
+  "finish_reason": "stop",
+  "prompt_tokens": 708,
+  "completion_tokens": 167,
+  "total_tokens": 875,
+  "timestamp": "2026-09-22T17:05:22.551458+00:00"
+}

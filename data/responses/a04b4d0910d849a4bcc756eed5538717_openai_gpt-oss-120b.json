@@ -1,0 +1,20 @@
+{
+  "prompt_id": "a04b4d0910d849a4bcc756eed5538717",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "what is the price of tea in china?",
+  "response_text": "I’m not able to look up real‑time market data, so I can’t give you the current price of tea in China. Tea prices can vary widely depending on the type of tea (green, black, oolong, pu‑erh, etc.), the grade or quality, the region where it’s grown, and whether you’re buying wholesale, retail, or online.\n\n**What you can do to find up‑to‑date pricing**\n\n| Source | How to use it | What you’ll find |\n|--------|---------------|------------------|\n| **Chinese e‑commerce platforms** (e.g., Taobao, JD.com, Tmall) | Search for the specific tea you’re interested in (e.g., “西湖龙井” or “普洱茶”) and filter by “销量” (sales volume) or “价格” (price). | Retail prices per 100 g, 500 g, or 1 kg, often with user reviews. |\n| **Wholesale marketplaces** (e.g., Alibaba, 1688.com) | Look for “茶叶批发” (tea wholesale) listings; you may need to create an account or contact the seller for quotes. | Bulk pricing, usually quoted per kilogram or per “斤” (500 g). |\n| **Industry reports** (e.g., China Tea Marketing Association, Euromonitor, Statista) | Search for recent “茶叶价格报告” or “茶叶行业分析”. Some reports are free; others require a subscription. | Average market prices, trends, and regional breakdowns. |\n| **Local market price indexes** (e.g., China National Bureau of Statistics) | Check the “农产品价格指数” (Agricultural Product Price Index) for tea. | Official average price data, often released monthly. |\n| **Specialty tea shops & forums** (e.g., TeaTalk, Chinese tea blogs) | Browse recent posts or ask members for current retail prices. | Anecdotal but often very current, especially for premium or rare teas. |\n\n**Typical price ranges (as of the last few years, for reference only)**  \n\n| Tea type | Common grade | Approx. price range (CNY) |\n|----------|--------------|---------------------------|\n| **Longjing (Dragon Well) – West Lake** | Grade 1 (premium) | ¥300–¥600 per 100 g |\n| | Grade 2 (standard) | ¥150–¥300 per 100 g |\n| **Biluochun** | Premium | ¥200–¥400 per 100 g |\n| **Tieguanyin (Iron Goddess) – Anxi** | Premium | ¥250–¥500 per 100 g |\n| **Pu‑erh (raw/sheng)** | Young raw (1–3 yr) | ¥80–¥150 per 100 g |\n| | Aged raw (10+ yr) | ¥300–¥1,200+ per 100 g |\n| **Yunnan Black (Dianhong)** | Standard | ¥50–¥120 per 100 g |\n| **Green tea blends (generic)** | Bulk/retail | ¥30–¥80 per 100 g |\n\n*These figures are only illustrative; actual prices can be higher for limited‑edition or single‑origin teas, and lower for mass‑produced bulk tea.*\n\n**Tips for getting the most accurate, up‑to‑date price**\n\n1. **Specify the exact tea** you need (name, region, harvest year, grade). “Tea” is a broad category.\n2. **Check multiple sources**—prices on a wholesale site may differ from retail platforms.\n3. **Watch for seasonal fluctuations**; new harvests (春茶) often cause a temporary price dip, while older leaves or aged pu‑erh can rise.\n4. **Consider shipping and taxes** if you’re ordering from abroad; they can add 10–30 % to the landed cost.\n5. **Use a currency converter** if you need the price in another currency; exchange rates can shift daily.\n\nIf you have a particular variety or grade in mind, let me know and I can give more targeted guidance on where to look for that specific tea’s current market price.",
+  "finish_reason": "stop",
+  "prompt_tokens": 80,
+  "completion_tokens": 986,
+  "total_tokens": 1066,
+  "latency_ms": 2339,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:42:47.487915+00:00"
+}

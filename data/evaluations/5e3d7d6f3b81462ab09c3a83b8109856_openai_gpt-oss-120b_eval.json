@@ -1,0 +1,14 @@
+{
+  "prompt_id": "5e3d7d6f3b81462ab09c3a83b8109856",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the individual rates of the hoses ($1/6$ and $1/8$ pools per hour), sums them to find the combined rate ($7/24$ pools per hour), and correctly calculates the time required as the reciprocal of the combined rate ($24/7$ hours). The conversion to mixed numbers and minutes is also accurate. There are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 495,
+  "completion_tokens": 87,
+  "total_tokens": 582,
+  "timestamp": "2026-09-22T23:00:54.902693+00:00"
+}

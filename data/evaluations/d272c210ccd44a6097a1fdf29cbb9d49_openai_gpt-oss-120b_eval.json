@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d272c210ccd44a6097a1fdf29cbb9d49",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to adequately summarize the source text because it omits several critical key aspects required by the evaluation criteria. Specifically, it misses:\n1.  **Key Aspect 3**: It does not mention the specific game mechanic where the game rejects the speaker's attempt to discard the mug in the trash (insisting it \"didn't belong in the trash\").\n2.  **Key Aspect 4**: It completely fails to address the concept that actions constitute \"content\" even in a single-player context, which is a central thematic point of the passage.\n3.  **Key Aspect 5**: It does not capture the speaker's specific defensive arguments (e.g., \"I didn't kill anyone,\" \"I didn't hurt anyone\") or their frustration regarding the severity of the game's reaction.\n4.  **Key Aspect 2**: While it mentions \"racist imagery,\" it lacks the specific descriptive details provided in the source (broken antique mug, \"yellow man\" frolicking in saffron) which are part of the required key aspect.\n\nThe summary is too vague and misses the specific narrative beats and thematic arguments present in the source text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 763,
+  "completion_tokens": 245,
+  "total_tokens": 1008,
+  "timestamp": "2026-09-28T07:39:44.515943+00:00"
+}

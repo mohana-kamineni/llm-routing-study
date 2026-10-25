@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1cf9dc61645d4cd49558b3960e418673",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the primary reason for calculating pregnancy length from the Last Menstrual Period (LMP): it is the most reliable, observable, and standardizable reference point available to clinicians, whereas the exact date of fertilization is rarely known. The response accurately explains the physiological basis (the ~2-week gap between LMP and ovulation/fertilization), the clinical utility (standardization of gestational age, Naegele's rule, scheduling care), and the limitations (irregular cycles, recall bias) along with the role of ultrasound in correction. There are no substantive reasoning errors; the medical facts and logical flow are accurate and comprehensive.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2269,
+  "completion_tokens": 142,
+  "total_tokens": 2411,
+  "timestamp": "2026-09-23T07:43:51.882650+00:00"
+}

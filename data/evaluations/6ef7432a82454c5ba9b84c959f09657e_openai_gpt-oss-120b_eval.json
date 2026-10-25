@@ -1,0 +1,14 @@
+{
+  "prompt_id": "6ef7432a82454c5ba9b84c959f09657e",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\n**Rationale:**\nThe response fails to correctly solve the problem because it contains a fundamental statistical reasoning error regarding the definition of \"probability that the difference is non-zero.\"\n\n1.  **Statistical Error**: The script calculates `P(On ≠ Off)` as `P(On > Off) + P(On < Off)`. For continuous distributions (like the Beta posterior), the probability of the two variables being exactly equal is zero. Therefore, `P(On ≠ Off)` is mathematically always **1.0** (or 100%), regardless of the data.\n2.  **Misinterpretation of Goal**: In Bayesian A/B testing, the \"probability that the difference is non-zero\" (or more commonly, the probability of a *meaningful* difference) is typically estimated by checking if the posterior distribution of the *difference* (`p_on - p_off`) excludes zero (e.g., `P(p_on - p_off > 0)` or `P(p_on - p_off < 0)`). The script's output explicitly states `P(On ≠ Off) ≈ 1.0000`, which is a tautology and provides no useful information about whether the groups are actually different.\n3.  **Substantive Reasoning Error**: The explanation section explicitly acknowledges this flaw (\"For continuous distributions the equality event has probability 0, so the sum is essentially 1\") but presents it as the solution to the user's request. A correct solution would either:\n    *   Calculate the probability that the difference is *positive* (On is better) or *negative* (Off is better), which are the meaningful metrics.\n    *   Or, if strictly adhering to \"non-zero,\" it should acknowledge that for continuous variables this is always 1, and instead provide the probability of a *practically significant* difference (e.g., `P(|p_on - p_off| > epsilon)`).\n    *   By reporting `1.0000` as the primary answer to \"probability that the difference is non-zero,\" the script fails to provide a useful statistical evaluation.\n\nWhile the code is syntactically correct and the Monte Carlo method for `P(On > Off)` is valid, the final conclusion/answer provided for the specific metric requested is statistically meaningless and incorrect in context.",
+  "finish_reason": "stop",
+  "prompt_tokens": 3903,
+  "completion_tokens": 494,
+  "total_tokens": 4397,
+  "timestamp": "2026-09-28T07:51:03.912004+00:00"
+}

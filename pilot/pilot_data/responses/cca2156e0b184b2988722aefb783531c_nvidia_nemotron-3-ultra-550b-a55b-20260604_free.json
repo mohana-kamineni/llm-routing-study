@@ -1,0 +1,21 @@
+{
+  "prompt_id": "cca2156e0b184b2988722aefb783531c",
+  "category": "factual_qa",
+  "prompt_text": "Who was the president of the US in 2008? Keep it short. I want only a name.",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b-20260604:free",
+  "provider": "openrouter",
+  "model_returned": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw_response": "George W. Bush",
+  "response_text": "George W. Bush",
+  "reasoning_text": "The user is asking for the US president in 2008.\nGeorge W. Bush was president until January 20, 2009.\nBarack Obama was elected in November 2008 but took office in 2009.\nSo the president *in* 2008 was George W. Bush.",
+  "input_tokens": 40,
+  "output_tokens": 78,
+  "total_tokens": 118,
+  "reasoning_tokens": 55,
+  "latency_seconds": 71.25,
+  "timestamp": "2026-09-13T11:50:45.915371+00:00",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "retries": 2,
+  "error": null
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "4121b01b1c194760adcd5989bdce72a5",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully executes all four required steps: it provides a one-sentence summary, translates it into French, lists the names found in the French summary, and outputs the correct JSON object. Regarding the specific evaluation criteria, the summary covers all four key aspects:\n1. It mentions Jack and Jill fetching water from a hilltop well.\n2. It mentions they fell (covering the trip/tumble).\n3. It mentions they were slightly injured and returned home to be comforted.\n4. It mentions they continued exploring with delight.\n\nAlthough the summary is a single sentence as requested, it accurately captures the essential factual narrative of the source text without omitting critical information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 605,
+  "completion_tokens": 145,
+  "total_tokens": 750,
+  "timestamp": "2026-09-19T17:12:43.887804+00:00"
+}

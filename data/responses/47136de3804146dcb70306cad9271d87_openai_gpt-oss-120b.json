@@ -1,0 +1,20 @@
+{
+  "prompt_id": "47136de3804146dcb70306cad9271d87",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Turn my question into a multiple choice question suitable for Plickers in a high school classroom. My question is \"what is the function of the kidney?\"",
+  "response_text": "**Multiple‑Choice Question (Plickers‑Ready)**  \n\n**Stem:**  \nWhat is the primary function of the kidneys in the human body?\n\n**Options:**  \nA. Produce insulin to regulate blood sugar  \nB. Filter waste products and excess fluids from the blood to form urine  \nC. Store oxygen for use during exercise  \nD. Generate red blood cells in the bone marrow  \n\n**Correct Answer:** **B**  \n\n*(You can copy the stem and options onto a Plickers card set, assigning the letters A‑D to the cards. When students hold up their cards, the teacher can quickly scan the responses and see how many chose the correct answer.)*",
+  "finish_reason": "stop",
+  "prompt_tokens": 102,
+  "completion_tokens": 251,
+  "total_tokens": 353,
+  "latency_ms": 765,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:26:09.766099+00:00"
+}

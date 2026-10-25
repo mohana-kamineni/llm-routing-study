@@ -1,0 +1,20 @@
+{
+  "prompt_id": "f9cbccc6ac854269976a04fc9e4659a1",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "when did India's capital shift to Mumbai?",
+  "response_text": "India’s national capital has **never been Mumbai**.  \n\nHere’s a brief timeline of the country’s capital cities:\n\n| Period | Capital (of British India / independent India) | Notes |\n|--------|-----------------------------------------------|-------|\n| 1858 – 1911 | **Calcutta (now Kolkata)** | After the British Crown took over from the East India Company, Calcutta served as the seat of the Viceroy and the central administration. |\n| 1911 – 1931 | **New Delhi** (construction period) | In December 1911, during the Delhi Durbar, King‑George V announced that the capital would move from Calcutta to Delhi. The new city of New Delhi was designed by architects Edwin Lutyens and Herbert Baker. |\n| 1931 – present | **New Delhi** | The capital officially shifted to New Delhi on **13 February 1931**, when the Viceroy’s House (now Rashtrapati Bhavan) was inaugurated. After India gained independence in 1947, New Delhi continued as the capital of the Republic of India. |\n\n### What about Mumbai?\n- **Bombay (now Mumbai)** was an important commercial hub and the capital of the **Bombay Presidency**, a large administrative region of British India that included parts of present‑day Maharashtra, Gujarat, and Karnataka.  \n- It never served as the capital of the whole of British India or of independent India.\n\nSo, there was no shift of India’s national capital to Mumbai; the only capital relocation in modern Indian history was the move from Calcutta to New Delhi, completed in 1931.",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 476,
+  "total_tokens": 555,
+  "latency_ms": 1067,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:32:03.571463+00:00"
+}

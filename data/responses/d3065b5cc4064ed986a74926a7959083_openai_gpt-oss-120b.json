@@ -1,0 +1,20 @@
+{
+  "prompt_id": "d3065b5cc4064ed986a74926a7959083",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who was the king in France in 2020?",
+  "response_text": "France has been a republic since the abolition of the monarchy in the late 19th century, and it has no king today. In 2020 the head of state was President **Emmanuel Macron**, who was serving his first term after being elected in 2017. The country’s government operates under a semi‑presidential system, with the president as the chief executive and a prime minister (Édouard Philippe in 2020) heading the government. So, there was no king of France in 2020.",
+  "finish_reason": "stop",
+  "prompt_tokens": 82,
+  "completion_tokens": 161,
+  "total_tokens": 243,
+  "latency_ms": 661,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:20:05.527417+00:00"
+}

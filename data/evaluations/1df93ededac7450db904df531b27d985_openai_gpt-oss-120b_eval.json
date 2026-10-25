@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1df93ededac7450db904df531b27d985",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale:\n1.  **Initial State**: John has 10 apples.\n2.  **Action 1**: John gives 5 to Mary.\n    *   John: $10 - 5 = 5$ apples.\n    *   Mary: $0 + 5 = 5$ apples.\n3.  **Action 2**: Mary eats 2.\n    *   Mary: $5 - 2 = 3$ apples.\n    *   John: 5 apples (unchanged).\n4.  **Action 3**: John buys 2 more.\n    *   John: $5 + 2 = 7$ apples.\n    *   Mary: 3 apples (unchanged).\n5.  **Final Count**:\n    *   John has 7 apples.\n    *   Mary has 3 apples.\n    *   Total: $7 + 3 = 10$ apples.\n\nThe response correctly identifies the individual counts (John: 7, Mary: 3) and the total count (10). There are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 212,
+  "completion_tokens": 244,
+  "total_tokens": 456,
+  "timestamp": "2026-09-28T07:40:37.299867+00:00"
+}

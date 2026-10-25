@@ -1,0 +1,20 @@
+{
+  "prompt_id": "9a4648666a3b4875bdfa15e8b0106e62",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "**Summarize a long document into a single sentence and conduct question answering related to the document, with multiple rounds**\n\nLast year, the travel industry saw a big rebound in demand — and that demand is showing no signs of slowing down this spring break travel season. Planes and hotels will be full, travelers will likely face long queues, cancellations, massive crowds and plenty of other travel nightmares. But perhaps the most frustrating thing you’ll have to prepare for this spring break is if your luggage goes missing. You’ve got to somehow track down your belongings that were in the airline’s care and then wait to be reunited — all while trying to enjoy the start of your long-awaited vacation. As far as travel nightmares go, lost luggage is up there as one of the worst.\n\nTo be honest up front, I am great at strategically losing things — or rather, losing stuff with style. (I hope you appreciate the “Toy Story” reference.) So when a product comes along that’s a perfect way to keep track of my belongings — especially when traveling — I’m adding it to my travel bag.\n\nI’ve been a big fan of Apple’s $29 item tracker, dubbed AirTag. The long-rumored AirTag product finally launched in 2021, and while it’s not the first item tracker to exist, it has two key features that set it apart from the rest to make it the ultimate travel companion: access to the Find My network and Precision Finding technology.\n\nThe Federal Aviation Administration has even ruled that having an AirTag in your luggage is permitted and,",
+  "response_text": "**One‑sentence summary:**  \nThe article explains how the travel boom is driving a surge in lost‑luggage incidents, and it praises Apple’s AirTag for its Find My network and Precision Finding features that help travelers keep track of their belongings.\n\nDo you have any questions about the article? I’m ready for a multi‑round Q&A.",
+  "finish_reason": "stop",
+  "prompt_tokens": 386,
+  "completion_tokens": 267,
+  "total_tokens": 653,
+  "latency_ms": 17034,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:45:49.969397+00:00"
+}

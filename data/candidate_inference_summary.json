@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-09-17T23:13:45.176982+00:00",
+  "total_prompts": 500,
+  "prompts_sha256": "a9214823cb8fdc0586f5fb2fb88ac29eeebbdf7d7b70da318be495eae8b8ce03",
+  "elapsed_seconds": 1442.9,
+  "models": {
+    "openai/gpt-oss-20b": {
+      "successful_responses": 460,
+      "terminal_empty_text": 38,
+      "terminal_tool_use_400": 2,
+      "invalid_incomplete_responses": 0,
+      "error_429_responses": 0,
+      "error_other_responses": 0,
+      "missing_responses": 0,
+      "remaining_tasks": 0,
+      "skipped_from_cache": 350,
+      "terminal_skipped_this_run": 23,
+      "quota_exhausted": false,
+      "quota_exhausted_at_prompt_idx": null,
+      "retry_after_seconds": null,
+      "tokens": {
+        "prompt": 94912,
+        "completion": 506462,
+        "total": 601374
+      },
+      "published_accounting_cost_usd": 0.159057,
+      "actual_marginal_expenditure_usd": 0.0
+    },
+    "openai/gpt-oss-120b": {
+      "successful_responses": 500,
+      "terminal_empty_text": 0,
+      "terminal_tool_use_400": 0,
+      "invalid_incomplete_responses": 0,
+      "error_429_responses": 0,
+      "error_other_responses": 0,
+      "missing_responses": 0,
+      "remaining_tasks": 0,
+      "skipped_from_cache": 500,
+      "terminal_skipped_this_run": 0,
+      "quota_exhausted": false,
+      "quota_exhausted_at_prompt_idx": null,
+      "retry_after_seconds": null,
+      "tokens": {
+        "prompt": 98046,
+        "completion": 420507,
+        "total": 518553
+      },
+      "published_accounting_cost_usd": 0.267011,
+      "actual_marginal_expenditure_usd": 0.0
+    }
+  },
+  "total_published_accounting_cost_usd": 0.426068,
+  "total_actual_marginal_expenditure_usd": 0.0
+}

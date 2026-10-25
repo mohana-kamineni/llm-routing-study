@@ -1,0 +1,20 @@
+{
+  "prompt_id": "55e0a6c6b5014d3d99d340cb3db08d69",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Given a news headline, transform it in 1 line with no explanations with these instructions: 1) If it contains company names, replace it with its industry name. For example Walmart will be become \"supermarket giant\" 2) Replace all country names with its nominal GDP in US dollars rank in 2006. 3) Replace all names of people with their social standing. For example, Bill Clinton was the US president. 4) Replace all city or location names to reference a country's city. For example, Seoul will be South Korea's capital city. 5) All product names that occured after 2006 must be replaced with a short 5 word maximum summary of what it is. For example, the Iphone was a handheld touchscreen phone. With these instructions, 2 examples include: A) \"Apple opens a huge Iphone factory in Delhi India\" becomes \"Phone giant openes large phone factory in the world's 14th largest economy.\" B) \"Tesla slashes prices of it's Model Y in China\" becomes \"Large car manufacturer slashes prices of it's car in the world's 2nd largest economy\". Now, apply these instructions to the headline: Apple opens a huge Iphone factory in Delhi India",
+  "response_text": "Phone giant opens large handheld touchscreen phone factory in India's capital city, the world's 14th largest economy.",
+  "finish_reason": "stop",
+  "prompt_tokens": 317,
+  "completion_tokens": 926,
+  "total_tokens": 1243,
+  "latency_ms": 2198,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:17:43.473018+00:00"
+}

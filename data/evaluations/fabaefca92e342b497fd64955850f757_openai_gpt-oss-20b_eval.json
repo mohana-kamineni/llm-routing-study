@@ -1,0 +1,13 @@
+{
+  "prompt_id": "fabaefca92e342b497fd64955850f757",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "The problem asks for the total number of tails for 4 cats.\n1.  **Fact Check**: A standard cat has 1 tail.\n2.  **Calculation**: 4 cats $\\times$ 1 tail/cat = 4 tails.\n3.  **Response Analysis**: The response states \"Four cats have four tails—one tail per cat.\"\n    *   The final answer is 4.\n    *   The reasoning (\"one tail per cat\") is correct.\n\nThe response correctly solves the problem with no substantive errors.\n\nVERDICT: PASS",
+  "prompt_tokens": 136,
+  "completion_tokens": 120,
+  "total_tokens": 256,
+  "timestamp": "2026-09-19T10:42:31.772864+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e714da953ec44f4498f9bb9ede9eeb45",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "I imagine you are a user from Vietnam,  using your native language write 10 queries that would make a search engine to return pages from category: News / Computer Science . You are not allowed to use words Vietnam, News, Computer Science.",
+  "response_text": "1. cập nhật công nghệ mới nhất 2024  \n2. đánh giá phần mềm quản lý dự án mới nhất  \n3. đánh giá phần cứng GPU mới nhất  \n4. đánh giá công nghệ AI mới nhất  \n5. đánh giá công nghệ blockchain mới nhất  \n6. đánh giá phần mềm bảo mật mới nhất  \n7. đánh giá công nghệ 5G mới nhất  \n8. đánh giá phần cứng máy tính mới nhất  \n9. đánh giá phần mềm học máy mới nhất  \n10. đánh giá công nghệ điện toán đám mây mới nhất",
+  "finish_reason": "stop",
+  "prompt_tokens": 120,
+  "completion_tokens": 1948,
+  "total_tokens": 2068,
+  "latency_ms": 2288,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:55:25.453656+00:00"
+}

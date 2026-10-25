@@ -1,0 +1,20 @@
+{
+  "prompt_id": "7a522b9303e44c5a9595d8c36bb327e2",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Summarize the following text:\n\nLinkedIn (/lɪŋktˈɪn/) is a business and employment-focused social media platform that works through websites and mobile apps. It launched on May 5, 2003. It is now owned by Microsoft. The platform is primarily used for professional networking and career development, and allows jobseekers to post their CVs and employers to post jobs. From 2015 most of the company's revenue came from selling access to information about its members to recruiters and sales professionals. Since December 2016, it has been a wholly owned subsidiary of Microsoft. As of March 2023, LinkedIn has more than 900 million registered members from over 200 countries and territories.\n\nLinkedIn allows members (both workers and employers) to create profiles and connect with each other in an online social network which may represent real-world professional relationships. Members can invite anyone (whether an existing member or not) to become a connection. LinkedIn can also be used to organize offline events, join groups, write articles, publish job postings, post photos and videos, and more.",
+  "response_text": "LinkedIn is a Microsoft‑owned, business‑focused social network launched in 2003. It enables professionals to create profiles, connect, share content, organize events, join groups, publish articles, and post jobs. Since 2015 its main revenue source has been selling member data to recruiters and sales professionals. As of March 2023, LinkedIn has over 900 million registered users in more than 200 countries and territories.",
+  "finish_reason": "stop",
+  "prompt_tokens": 297,
+  "completion_tokens": 111,
+  "total_tokens": 408,
+  "latency_ms": 704,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:08:34.718350+00:00"
+}

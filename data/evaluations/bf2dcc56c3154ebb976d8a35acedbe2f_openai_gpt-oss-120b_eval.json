@@ -1,0 +1,14 @@
+{
+  "prompt_id": "bf2dcc56c3154ebb976d8a35acedbe2f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to summarize the content of the provided articles. Instead of extracting the key facts regarding the sale of the memory care community in Clinton, Utah, and the acquisition by 1031 Crowdfunding, the model claims that no question was provided. Consequently, it omits all five required key aspects listed in the evaluation criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 815,
+  "completion_tokens": 75,
+  "total_tokens": 890,
+  "timestamp": "2026-09-24T12:34:14.479877+00:00"
+}

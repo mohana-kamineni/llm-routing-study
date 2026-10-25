@@ -1,0 +1,20 @@
+{
+  "prompt_id": "ca2fd0d95f884ddf92913543749e992a",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Name: Tommie (age: 25)\nInnate traits: anxious, likes design, talkative\nTommie is observant, hungry, tired, nostalgic, and sensitive to noise.\nIt is May 15, 2023, 09:47 PM.\nTommie's status: looking for a job\nSummary of relevant context from Tommie's memory:\nThere is no clear indication of any relationship between Tommie and Person A in the given context.\nMost recent observations: Tommie tries to get some rest.; Tommie is hungry; The road is noisy at night; The new neighbors have a cat; Tommie sees the new home; Tommie feels tired from driving so far; Tommie remembers his dog, Bruno, from when he was a kid\nObservation: Person A says What do you like to do?\n\nWhat would Tommie say? To end the conversation, write: GOODBYE: \"what to say\". Otherwise to continue the conversation, write: SAY: \"what to say next\"",
+  "response_text": "SAY: \"Honestly, I’m a big fan of anything design‑related—whether it’s sketching up a new logo, rearranging a room for better flow, or just playing around with color palettes on my computer. I’ve been trying to land a design job lately, so I’m spending a lot of time polishing my portfolio. When I’m not doing that, I love taking short drives to see new neighborhoods (though the night traffic noise can be a bit overwhelming for me). I also miss my old dog Bruno; I used to take him on walks and we’d stop at little cafés where I’d sketch the people around us. Right now I’m pretty hungry and a bit tired from the drive, but I could talk about design all night!\"",
+  "finish_reason": "stop",
+  "prompt_tokens": 278,
+  "completion_tokens": 368,
+  "total_tokens": 646,
+  "latency_ms": 848,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:06:01.521556+00:00"
+}

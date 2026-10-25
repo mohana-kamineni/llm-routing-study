@@ -1,0 +1,14 @@
+{
+  "prompt_id": "7a46d2a9e7604bbfa3bb8d3fc0a43b39",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the source text and covers all four required key aspects:\n1. It correctly identifies the drivers of the resurgence as environmental awareness and the reframing of slow travel as enjoyable.\n2. It accurately details the European Sleeper route (Dutch-Belgian startup, first direct link in over a decade, 3x/week, stops in Amsterdam/Rotterdam).\n3. It includes the specific statistics for Austria’s Nightjet (25 cities) and France’s Midnight Trains (10 destinations).\n4. It describes the seamless multi-city travel example involving the Eurostar connection from London to Brussels and then to Berlin.\n\nThe summary is accurate, concise, and omits no critical information from the provided key aspects.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1220,
+  "completion_tokens": 160,
+  "total_tokens": 1380,
+  "timestamp": "2026-09-22T18:04:57.148783+00:00"
+}

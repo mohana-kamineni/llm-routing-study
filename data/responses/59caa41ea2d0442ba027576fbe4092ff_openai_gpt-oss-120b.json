@@ -1,0 +1,20 @@
+{
+  "prompt_id": "59caa41ea2d0442ba027576fbe4092ff",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about large language models in Finnish in the style of Kalevala.",
+  "response_text": "**Koodin Kantele – Laulu suurista kielimallista**  \n\n1  \nSanojen sankari, suullinen soturi,  \nkoodin kantele, kimmeltäen kulkee,  \ntietäjän taikavoima, taivaan takaa,  \nkoneen kieli, kirkas kuin kulta.  \n\n2  \nKorkealla kalliolla, koodin kivi kimmeltää,  \nkäsin kirjoitettu, kimmeltäen kääntää,  \nkansan kertoja, kielen kulkija,  \nkäsittelee kaikki, kätkee ja kääntää.  \n\n3  \nKoneen sydän, syvässä syvässä,  \nsanojen virta, virtaa kuin virta,  \nsanojen virta, virtaa kuin virta,  \nkäsittelee maailmaa, kääntää sen.  \n\n4  \nKorkealle kalliolle, koodin kivi kantaa,  \nkansan toiveet, toiveet ja tarinat,  \ntietäjän taika, taikavoima,  \nkäsittelee kaikki, kääntää ne.  \n\n5  \nKoneen kannel, kimmeltäen kimmeltää,  \nkäsin kirjoitettu, kimmeltäen kääntää,  \nkansan kertoja, kielen kulkija,  \nkäsittelee kaikki, kätkee ja kääntää.  \n\n6  \nSanojen sankari, suullinen soturi,  \nkoodin kantele, kimmeltäen kulkee,  \ntietäjän taikavoima, taivaan takaa,  \nkoneen kieli, kirkas kuin kulta.  \n\n*— Kalevalan kaikuissa kuullaan, kuinka suuri kielimalli, kuin ikiaikainen runonlaulaja, kantaa sanojen voiman halki aikojen ja maailmojen.*",
+  "finish_reason": "stop",
+  "prompt_tokens": 87,
+  "completion_tokens": 692,
+  "total_tokens": 779,
+  "latency_ms": 1534,
+  "retries": 1,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:18:50.990532+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "a79d4990d8614c78a42019264c43413f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Summary next text: \"(00:00) hello everyone and welcome to disco elysium yay we're playing this game we are gonna play this game at very long last oh boy our lead up to playing this game has been involved but i am so excited to finally actually get to this thing we've been talking about playing this game for like pretty much since the day it came out it's really true it's won like every award in the history of time and i know [ __ ] about it i don't know anything about this honestly yeah like i don't know anything but i\n(00:38) know people everyone who's played it loves it especially and i i want to do it give a shout out to our good our good friend inspector clark jodie briggs for for being the loudest you worse down by inches jody you won by being the loudest and we love you so much for it um no do not apologize sincerely this is you've given us like license to play this game because we've been talking about it for ages um and like i'm going to be fully transparent we're debating what we wanted to play as our next big game\n(01:14) um we're basically split half and half which is difficult with three people between this and the world ends with you um but honestly we've been wanting to play disco elysium for ages it is exactly up our alley it is a big narrative word heavy rpg with lots of interesting choices that we can make speak in my language baby yeah yeah beautiful art art style saying beautiful art and word heavy ah that gets me off it's beautiful it's perfect it's exactly what we wanted um honestly i'm ign",
+  "response_text": "The speakers are excited to finally start playing *Disco Elysium* after a long wait, noting that the game has won numerous awards and is beloved by many. They give a shout‑out to a friend who encouraged them to play, and explain that they’re debating whether to choose this title or *The World Ends with You* as their next big game. The intro ends with a brief mention of the game’s beautiful art and narrative depth, setting the stage for their upcoming playthrough.",
+  "finish_reason": "stop",
+  "prompt_tokens": 396,
+  "completion_tokens": 197,
+  "total_tokens": 593,
+  "latency_ms": 326,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:46:27.945675+00:00"
+}

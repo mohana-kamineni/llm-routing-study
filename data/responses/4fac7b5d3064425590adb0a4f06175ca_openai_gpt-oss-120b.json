@@ -1,0 +1,20 @@
+{
+  "prompt_id": "4fac7b5d3064425590adb0a4f06175ca",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the next number in the sequence 1, 4, 9, 16, 25, __?",
+  "response_text": "The pattern is the sequence of perfect squares (1², 2², 3², 4², 5²).  \nThe next term is \\(6^2 = 36\\).  \n\n**Answer: 36**",
+  "finish_reason": "stop",
+  "prompt_tokens": 96,
+  "completion_tokens": 118,
+  "total_tokens": 214,
+  "latency_ms": 557,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:27:07.416219+00:00"
+}

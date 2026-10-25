@@ -1,0 +1,14 @@
+{
+  "prompt_id": "00a5c289a96c4f9ab408b0ee3e5bcff9",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains significant factual errors regarding Russell M. Nelson's personal life and publications. Specifically, it incorrectly states that his wife, Dantzel Nelson, \"passed away in 2022\" (she is alive as of 2024) and lists a non-existent book titled *The Correct Name of the Church* (2022). Additionally, it incorrectly claims he has five children (he has four). These false contradictions violate the evaluation criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 723,
+  "completion_tokens": 106,
+  "total_tokens": 829,
+  "timestamp": "2026-09-23T14:11:13.280114+00:00"
+}

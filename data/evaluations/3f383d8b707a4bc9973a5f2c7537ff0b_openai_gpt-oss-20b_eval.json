@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3f383d8b707a4bc9973a5f2c7537ff0b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response incorrectly asserts a definitive \"before\" temporal relation. The sentence structure \"People have predicted... and the US has tried...\" uses the present perfect tense for both verbs, indicating that these are cumulative actions that have occurred over a period of time, likely overlapping or occurring in an unspecified order relative to each other. There is no textual evidence to establish that the predictions strictly occurred before the attempts; they could be simultaneous, alternating, or the attempts could have preceded some predictions. Therefore, the correct temporal relation is \"vague\" (or unknown), not \"before\".",
+  "finish_reason": "stop",
+  "prompt_tokens": 230,
+  "completion_tokens": 124,
+  "total_tokens": 354,
+  "timestamp": "2026-09-22T16:57:50.861243+00:00"
+}

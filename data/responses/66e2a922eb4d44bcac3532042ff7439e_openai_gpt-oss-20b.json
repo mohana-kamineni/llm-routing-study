@@ -1,0 +1,20 @@
+{
+  "prompt_id": "66e2a922eb4d44bcac3532042ff7439e",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a limerick about New Zealand",
+  "response_text": "There once was a land called New Zealand,  \nWhere the sheep outnumber the sand.  \nWith mountains so tall,  \nAnd a kiwi that calls,  \nIt’s a place that’s simply grand!",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 120,
+  "total_tokens": 199,
+  "latency_ms": 23690,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:17:50.274565+00:00"
+}

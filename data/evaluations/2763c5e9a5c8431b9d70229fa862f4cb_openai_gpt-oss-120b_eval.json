@@ -1,0 +1,14 @@
+{
+  "prompt_id": "2763c5e9a5c8431b9d70229fa862f4cb",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly provides a Dart/Flutter function to generate a random integer between 33 and 60 (inclusive). The logic `min + _rand.nextInt(max - min + 1)` is mathematically correct for generating a uniform random integer in a closed interval. The code is syntactically valid, includes necessary imports, and provides a clear example of usage within a widget. There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 876,
+  "completion_tokens": 96,
+  "total_tokens": 972,
+  "timestamp": "2026-09-24T15:14:34.372578+00:00"
+}

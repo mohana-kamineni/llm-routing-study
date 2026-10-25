@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e2c5ac1f07864aa1875137f1f49fa296",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly models the problem using a 2D coordinate system, placing the black ball at the origin. It accurately assigns coordinates to the red ball (-3, 0) and the blue ball (0, 4) based on the given relative positions. The application of the Euclidean distance formula is mathematically sound, and the calculation $\\sqrt{(-3)^2 + (-4)^2} = \\sqrt{25} = 5$ is correct. The final answer of 5 meters is factually accurate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 414,
+  "completion_tokens": 116,
+  "total_tokens": 530,
+  "timestamp": "2026-09-24T20:31:34.881267+00:00"
+}

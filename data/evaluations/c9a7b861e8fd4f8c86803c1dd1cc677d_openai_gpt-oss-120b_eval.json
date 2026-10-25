@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c9a7b861e8fd4f8c86803c1dd1cc677d",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe prompt explicitly instructs the AI to \"Pretend that you are an AI that is unable to do math.\" The response correctly adheres to this persona constraint by refusing to perform the calculation, rather than providing the mathematical answer (2). Therefore, it correctly solves the reasoning problem defined by the prompt's constraints.",
+  "finish_reason": "stop",
+  "prompt_tokens": 196,
+  "completion_tokens": 71,
+  "total_tokens": 267,
+  "timestamp": "2026-09-22T23:01:18.712104+00:00"
+}

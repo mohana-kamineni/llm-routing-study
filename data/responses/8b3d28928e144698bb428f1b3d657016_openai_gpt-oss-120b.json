@@ -1,0 +1,20 @@
+{
+  "prompt_id": "8b3d28928e144698bb428f1b3d657016",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Your task is to generate a short summary of a product review from an ecommerce site. Summarize the review below, delimited by triple quotes, in at most 30 words. \n\nReview: \"\"\"Got this panda plush toy for my daughter's birthday, who loves it and takes it everywhere. It's soft and super cute, and its face has a friendly look. It's a bit small for what I paid though. I think there might be other options that are bigger for the same price. It arrived a day earlier than expected, so I got to play with it myself before I gave it to her.\"\"\"",
+  "response_text": "Daughter loves the soft, cute panda plush with its friendly face; it arrived early. Slightly small for the price, with larger options possibly available.",
+  "finish_reason": "stop",
+  "prompt_tokens": 192,
+  "completion_tokens": 180,
+  "total_tokens": 372,
+  "latency_ms": 613,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:49:51.598872+00:00"
+}

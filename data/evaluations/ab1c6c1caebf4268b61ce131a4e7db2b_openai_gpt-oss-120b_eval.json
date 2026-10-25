@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ab1c6c1caebf4268b61ce131a4e7db2b",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the source text, maintaining all critical factual information while improving clarity. It correctly identifies Sputnik 1 as the first artificial satellite, its launch location (Baikonur Cosmodrome in Kazakhstan/Soviet Union), the meaning of the name, the historical context (Tsiolkovsky's 1885 work), its role in the International Geophysical Year, and the specific technical specifications (dimensions, antennas, frequency, and scientific goals). Although the source text cuts off mid-sentence regarding telemetry, the summary logically concludes that telemetry reported temperatures, which is consistent with the visible text (\"data on temperatures inside and on the...\"). The addition of the specific launch date (4 October 1957) is a minor external detail not present in the source snippet, but it does not contradict the source and enhances the summary's utility without omitting any required key aspects from the provided text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 797,
+  "completion_tokens": 191,
+  "total_tokens": 988,
+  "timestamp": "2026-09-24T12:38:28.734552+00:00"
+}

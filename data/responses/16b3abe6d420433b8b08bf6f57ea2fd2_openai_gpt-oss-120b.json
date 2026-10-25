@@ -1,0 +1,20 @@
+{
+  "prompt_id": "16b3abe6d420433b8b08bf6f57ea2fd2",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "who was the last monarch of uk",
+  "response_text": "The United Kingdom’s **most recent monarch** is **King Charles III**. He became king on 8 September 2022 after the death of his mother, **Queen Elizabeth II**, who had reigned for 70 years (1952‑2022).\n\n- **Queen Elizabeth II** – the longest‑serving British monarch (1952‑2022).  \n- **King Charles III** – the current monarch (2022‑present).\n\nIf you meant “the last monarch before the present one,” that would be Queen Elizabeth II. If you meant “the current (i.e., most recent) monarch,” it is King Charles III. The British monarchy continues, so there isn’t a “final” monarch yet.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 351,
+  "total_tokens": 429,
+  "latency_ms": 827,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:19:02.819940+00:00"
+}

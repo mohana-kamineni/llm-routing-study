@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3fb9ee274b3a48b696f263191b7e927a",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to accurately summarize the source text because it fabricates an answer for the fourth item. In the source text, the expected answer for the \"alternating words in German and French\" translation task is an empty string (`\"\"`), indicating that no answer was provided or the task was left blank. The response, however, generates a full, detailed translation. Additionally, for the seventh item, the source text specifies the constraint \"Make sure the answer has exactly 7 words\" but does not provide a specific pre-defined answer string (unlike the other items which have specific values like \"pull\" or \"x=2, x=3\"). The response invents a specific 7-word sentence (\"Irish slang unites, reflects culture, sparks curiosity\") which is not present in the source data. A faithful summary of the provided data structure should reflect the empty value for item 4 and the constraint-only nature of item 7, rather than generating new content.",
+  "finish_reason": "stop",
+  "prompt_tokens": 907,
+  "completion_tokens": 204,
+  "total_tokens": 1111,
+  "timestamp": "2026-09-28T07:46:50.059637+00:00"
+}

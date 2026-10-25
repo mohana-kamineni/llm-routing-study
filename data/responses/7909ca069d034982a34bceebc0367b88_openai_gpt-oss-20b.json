@@ -1,0 +1,20 @@
+{
+  "prompt_id": "7909ca069d034982a34bceebc0367b88",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Can you explain what are the activities of the french company CORYS",
+  "response_text": "**CORYS – Overview of Activities**\n\nCORYS is a French technology and consulting firm that specializes in digital transformation for the energy sector, particularly oil & gas, but also for other industrial and infrastructure sectors. Its core activities can be grouped into the following areas:\n\n| Activity | What it involves | Typical Deliverables |\n|----------|------------------|----------------------|\n| **Digital Strategy & Consulting** | Advising clients on how to use digital tools to improve operations, reduce costs, and meet regulatory requirements. | Roadmaps, feasibility studies, change‑management plans. |\n| **Data Integration & Management** | Consolidating data from disparate sources (SCADA, ERP, field instruments) into a unified platform. | Data warehouses, data lakes, ETL pipelines. |\n| **Advanced Analytics & AI** | Applying machine learning, predictive analytics, and statistical models to operational data. | Forecasting models, anomaly detection dashboards, optimization algorithms. |\n| **Digital Twins & Simulation** | Building virtual replicas of physical assets or processes to test scenarios and predict performance. | 3‑D models, simulation tools, real‑time monitoring interfaces. |\n| **Software Development & Platforms** | Designing and deploying custom software solutions (web apps, mobile apps, APIs). | Custom dashboards, mobile field‑service apps, integration APIs. |\n| **Cybersecurity & Compliance** | Ensuring data protection, secure communication, and adherence to industry regulations. | Security audits, compliance frameworks, incident‑response plans. |\n| **Training & Knowledge Transfer** | Upskilling client teams on new technologies and best practices. | Workshops, e‑learning modules, certification programs. |\n\n### Typical Projects\n\n- **Asset Performance Management**: Using sensor data and analytics to predict equipment failures and schedule maintenance.\n- **Production Optimization**: Applying AI to optimize drilling, production, and logistics.\n- **Digital Asset Management**: Creating a single source of truth for all asset data, improving decision‑making.\n- **Regulatory Reporting**: Automating data collection and reporting to meet environmental and safety regulations.\n\n### Industries Served\n\n- Oil & Gas (upstream, midstream, downstream)\n- Energy & Utilities\n- Manufacturing & Industrial Automation\n- Infrastructure & Smart Cities\n\n### Value Proposition\n\nCORYS positions itself as a bridge between traditional industrial operations and modern digital capabilities. By combining domain expertise with cutting‑edge technology, it helps clients:\n\n- Reduce operational costs\n- Increase asset uptime\n- Accelerate time‑to‑market for new services\n- Enhance safety and regulatory compliance\n\n---\n\n**Bottom line:** CORYS is a French company that delivers end‑to‑end digital solutions—consulting, data integration, analytics, and software development—to help energy and industrial clients modernize their operations and unlock new value from their data.",
+  "finish_reason": "stop",
+  "prompt_tokens": 85,
+  "completion_tokens": 752,
+  "total_tokens": 837,
+  "latency_ms": 1171,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:20:30.626398+00:00"
+}

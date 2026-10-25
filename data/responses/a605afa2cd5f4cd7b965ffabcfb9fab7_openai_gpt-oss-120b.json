@@ -1,0 +1,20 @@
+{
+  "prompt_id": "a605afa2cd5f4cd7b965ffabcfb9fab7",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about Obama using the term terrible twos",
+  "response_text": "**The Terrible Twos of a President**\n\nIn the quiet of the West Wing’s night,  \nA gentle echo drifts through marble halls—  \nNot the roar of policy, but a softer call,  \nA whisper of the “terrible twos” in sight.\n\nHe’s no child, yet in moments he recalls  \nThe stubborn stubbornness of youthful years,  \nWhen every promise felt like a frontier,  \nAnd patience wore thin on stubborn walls.\n\nThe world expected steady, measured grace,  \nA leader calm, a voice that never sways;  \nBut even Obama felt the growing phase,  \nWhen doubts would knock and stubbornness would blaze.\n\nHe’d stare at bills that seemed to multiply,  \nA toddler’s tantrum in a grown‑up’s mind—  \n“Why must this budget stretch and bind?”  \nAnd yet he’d smile, and let the storm pass by.\n\nIn those “terrible twos,” a lesson grew:  \nThat power, like a child, can test and bend,  \nBut love of country, steady to the end,  \nTurns tantrums into purpose, bright and true.\n\nSo here’s a toast to Obama’s quiet fight,  \nTo the moments when the world seemed too much—  \nA president who learned, with gentle touch,  \nThat even leaders have their “terrible twos” night.",
+  "finish_reason": "stop",
+  "prompt_tokens": 82,
+  "completion_tokens": 361,
+  "total_tokens": 443,
+  "latency_ms": 7260,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:39:13.494290+00:00"
+}

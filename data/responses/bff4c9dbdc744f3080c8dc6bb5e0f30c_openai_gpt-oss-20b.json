@@ -1,0 +1,20 @@
+{
+  "prompt_id": "bff4c9dbdc744f3080c8dc6bb5e0f30c",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "From this text: \"The Ordinary Amino Acids + B5 is one of the most underrated skincare products to add additional hydration and to repair the skin barrier! Use it daily for optimal results👌🏻 #theordinary #theordinaryskincare #skincarethatworks #skintips #underratedskincare #dryskintips\", extract me the main keywords, then summarize it in maximum 10 words, then tell me if the sentiment of the text is positive, neutral or negative. If you cannot find the sentiment say \"Neutral\". Then search for any brand mentions, if you cannot find a brand say \"No brand\". Finally, in one word tell me if the texte speaks about Travel, Beauty, Food, Brands, Medicine, Books, Something else.",
+  "response_text": "**Keywords:** The Ordinary, Amino Acids, B5, underrated, skincare, hydration, repair, skin barrier, daily use, optimal results  \n\n**Summary (≤10 words):** Underrated The Ordinary product hydrates and repairs skin barrier daily.  \n\n**Sentiment:** Positive  \n\n**Brand Mention:** The Ordinary  \n\n**Category:** Beauty",
+  "finish_reason": "stop",
+  "prompt_tokens": 227,
+  "completion_tokens": 394,
+  "total_tokens": 621,
+  "latency_ms": 2811,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:38:20.015835+00:00"
+}

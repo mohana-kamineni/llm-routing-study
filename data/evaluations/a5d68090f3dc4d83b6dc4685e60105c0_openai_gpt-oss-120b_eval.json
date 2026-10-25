@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a5d68090f3dc4d83b6dc4685e60105c0",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to strictly comply with the explicit constraint to replace every instance of the letter \"c\" with the letter \"b\". Specifically, the word \"bright\" in the third line contains the letter \"c\" (bri**c**ht), which should have been replaced with \"b\" (bribht). Additionally, the word \"applesauce\" in the first line contains a \"c\" (applesau**c**e) which was not replaced, resulting in \"applesause\" (which is also a misspelling, but the primary failure is the constraint violation).",
+  "finish_reason": "stop",
+  "prompt_tokens": 292,
+  "completion_tokens": 129,
+  "total_tokens": 421,
+  "timestamp": "2026-09-24T15:15:35.260482+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "84a830c3b2834966a0a5aae29384088a",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a poem about donald trump",
+  "response_text": "**A Figure in the Spotlight**\n\nA name that rides the headlines’ tide,  \nA businessman turned stage‑hand,  \nA voice that fills the crowded air,  \nA brand that many understand.\n\nHe steps upon the public floor,  \nWith gestures bold and speeches loud,  \nA symbol of a restless age,  \nBoth cheered and questioned by the crowd.\n\nFrom towers tall to campaign trails,  \nHis story threads through news and lore,  \nA portrait painted by the press,  \nA mirror held to what we store.\n\nIn rallies, in the quiet rooms,  \nIn tweets that flash across the night,  \nHe moves the needle of the discourse,  \nA catalyst for thought and fight.\n\nNo single line can hold him whole—  \nHe’s a chapter in a larger book,  \nA figure shaped by hope and doubt,  \nA moment’s echo, if you look.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 315,
+  "total_tokens": 393,
+  "latency_ms": 877,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T23:18:02.410885+00:00"
+}

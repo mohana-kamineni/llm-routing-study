@@ -1,0 +1,14 @@
+{
+  "prompt_id": "151795c47e334adf84598e7a7df13257",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response adequately covers all five required key aspects from the source text, although it does so by framing the information as a structured plan and a set of clarifying questions rather than a passive narrative summary.\n\n1.  **Pipeline Stages:** The response explicitly lists all the specific sequential stages mentioned in the source (Exploratory, Design/Scoping, Implementation, Prototyping, Pilot Data Study, CDUT, Protocol Development, Running Clinical Study, FDA Data Review, Marketing & Framing, Polish & Design) in Section 2.\n2.  **Roles:** It addresses the core roles (CPM, IPM, PI, DS, SE, RA) by asking for confirmation of these specific acronyms in Section 1 and providing a detailed role matrix in Section 2, acknowledging that some roles may be TBD or need mapping.\n3.  **6 Sigma Swim Lanes:** It explicitly mentions the intent to create \"6-sigma style\" swim-lane flowcharts in Section 7 (Next Steps) and the introduction.\n4.  **Governance/Decision Making:** It dedicates Section 3 to the specific governance questions raised, including who gives final go/no-go approval and who decides on R&D SD ticket prioritization.\n5.  **Discovery/Design Documentation:** It addresses the discovery phase documentation requirements (problem history, users, previous work) in Section 6 and the design phase's need for questions/planning in the introduction and Section 2.\n\nThe response accurately reflects the content and intent of the source notes without omitting critical information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2044,
+  "completion_tokens": 333,
+  "total_tokens": 2377,
+  "timestamp": "2026-09-19T17:29:16.036149+00:00"
+}

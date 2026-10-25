@@ -1,0 +1,14 @@
+{
+  "prompt_id": "fc38932bb28042ab82ccbcc400afa011",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains a substantive reasoning error. The problem states that \"half of them\" (referring to the 10 strawberries bought in the opaque sachet) were black. The response incorrectly interprets \"half of them\" as half of the total strawberries (30), leading to the conclusion that 15 are black and 15 are red. \n\nCorrect reasoning:\n1. Start with 20 red strawberries.\n2. Buy 10 more. Half of these 10 are black, so 5 are black and 5 are red.\n3. Total red strawberries = 20 (original) + 5 (new) = 25.\n\nThe correct answer is 25, not 15.",
+  "finish_reason": "stop",
+  "prompt_tokens": 344,
+  "completion_tokens": 165,
+  "total_tokens": 509,
+  "timestamp": "2026-09-23T14:03:38.467641+00:00"
+}

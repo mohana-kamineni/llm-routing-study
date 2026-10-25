@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b629d4247c6a49e4977954a04b9c00ec",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "If I bought 20 apples from the market, ate 2 and bought another 5 oranges, how many apples do I have left?",
+  "response_text": "You’d have **18 apples left**. (The oranges don’t affect the apple count.)",
+  "finish_reason": "stop",
+  "prompt_tokens": 99,
+  "completion_tokens": 84,
+  "total_tokens": 183,
+  "latency_ms": 295,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:50:30.401819+00:00"
+}

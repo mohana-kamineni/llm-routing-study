@@ -1,0 +1,14 @@
+{
+  "prompt_id": "9169dac428964e81825d4cb9214f5b12",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to accurately summarize the content because it incorrectly identifies the participants for the third topic. The source text shows that at 14:04:20, **JDC** sends a message (\"@**Max**\"), but the response lists the participants for that time segment (13:58:31 - 14:04:20) as \"Max, Samantha\". JDC is a distinct participant who is omitted from the table entirely, and Max did not send a message during that specific interval (his last message was at 11:49:07). Additionally, the fourth topic's start time (14:04:20) overlaps with the end time of the third topic, violating the constraint that start and end times should not overlap (typically implying distinct, non-overlapping intervals where the end of one is not the start of the next, or at least that the content is correctly attributed). The misattribution of JDC's message to Max/Samantha is a critical factual error.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1001,
+  "completion_tokens": 223,
+  "total_tokens": 1224,
+  "timestamp": "2026-09-22T16:52:26.133348+00:00"
+}

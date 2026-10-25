@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a04b4d0910d849a4bcc756eed5538717",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to provide the factual answer requested. The question \"What is the price of tea in China?\" is a well-known idiom (originating from the 19th century) used to ask about the state of affairs in a distant or difficult-to-access place, or simply as a polite conversation starter. It is not a literal question with a single, static factual price. A correct response would either explain the idiomatic nature of the phrase or provide current market data for tea in China. By refusing to answer, the response does not state the relevant fact (the idiom's meaning or current market prices) and thus fails the criterion of providing the correct factual answer.",
+  "finish_reason": "stop",
+  "prompt_tokens": 160,
+  "completion_tokens": 144,
+  "total_tokens": 304,
+  "timestamp": "2026-09-22T18:54:29.379138+00:00"
+}

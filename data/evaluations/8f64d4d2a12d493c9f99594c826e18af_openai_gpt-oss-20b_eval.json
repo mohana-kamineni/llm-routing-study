@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8f64d4d2a12d493c9f99594c826e18af",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a scientifically accurate and comprehensive explanation of the differences between advection and diffusion. It correctly identifies advection as transport by bulk fluid motion (deterministic, along velocity field) and diffusion as transport driven by gradients (stochastic, from high to low concentration). The mathematical formulations (advective term $\\mathbf{u}\\cdot\\nabla\\phi$ and diffusive term $D\\nabla^2\\phi$), physical intuitions, and the use of the Peclet number to compare their relative importance are all factually correct. There are no false contradictions or significant errors in the provided text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1667,
+  "completion_tokens": 133,
+  "total_tokens": 1800,
+  "timestamp": "2026-09-19T17:33:00.510223+00:00"
+}

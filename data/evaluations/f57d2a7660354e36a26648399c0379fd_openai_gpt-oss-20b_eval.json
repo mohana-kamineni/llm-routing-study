@@ -1,0 +1,14 @@
+{
+  "prompt_id": "f57d2a7660354e36a26648399c0379fd",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately and comprehensively summarizes all the key points presented in the source text. It correctly identifies the central thesis (investors' unwillingness to price risk) and systematically covers each specific financial issue mentioned: the high probability of a US recession, the pressure on regional banks and impending regulation, the weakness in the commercial real estate market, the dynamics of inflation and demand, the status of monetary policy (rate hike pause vs. quantitative tightening), and the political/economic tensions surrounding the debt ceiling. The summary also appropriately notes that the source text cuts off regarding credit spreads, handling the incomplete sentence correctly without hallucinating information. The format is clear, and the content is faithful to the original material.",
+  "finish_reason": "stop",
+  "prompt_tokens": 775,
+  "completion_tokens": 147,
+  "total_tokens": 922,
+  "timestamp": "2026-09-22T16:54:47.989113+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "64c67be666bf4cdf87b9cd74bb220a50",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to strictly comply with the explicit constraints of a haiku. A standard haiku requires a 5-7-5 syllable structure. The provided poem has the following syllable counts:\n1. \"Tiny hands grasp the hour\" (6 syllables: Ti-ny hands grasp the hour)\n2. \"Soft breaths echo through days and silently\" (10 syllables: Soft breaths e-cho through days and si-lent-ly)\n3. \"Time cradles their soft dreams\" (6 syllables: Time cra-dles their soft dreams)\n\nSince the syllable count is 6-10-6 rather than 5-7-5, it does not meet the formal definition of a haiku.",
+  "finish_reason": "stop",
+  "prompt_tokens": 245,
+  "completion_tokens": 165,
+  "total_tokens": 410,
+  "timestamp": "2026-09-19T17:21:27.458868+00:00"
+}

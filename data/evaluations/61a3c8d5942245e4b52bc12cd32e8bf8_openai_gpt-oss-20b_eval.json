@@ -1,0 +1,14 @@
+{
+  "prompt_id": "61a3c8d5942245e4b52bc12cd32e8bf8",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies that fountain pen ink is permanent and therefore unaffected by the erasure of pencil marks. It accurately concludes that all 3 fountain pen words remain, which is the correct answer. The reasoning is sound and contains no errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 256,
+  "completion_tokens": 55,
+  "total_tokens": 311,
+  "timestamp": "2026-09-22T16:55:21.347945+00:00"
+}

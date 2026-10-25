@@ -1,0 +1,20 @@
+{
+  "prompt_id": "2763c5e9a5c8431b9d70229fa862f4cb",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "I need a random function from 33-60 in flutter app",
+  "response_text": "Below is a quick, ready‑to‑paste example that shows how to generate a **random integer between 33 and 60 (inclusive)** in a Flutter/Dart app.\n\n```dart\nimport 'dart:math';          // <-- import the math library\n\n/// Returns a random integer in the inclusive range [min, max].\nint randomInRange(int min, int max) {\n  assert(min <= max);                     // sanity check\n  final rng = Random();                    // create a Random instance\n  return rng.nextInt(max - min + 1) + min; // nextInt(n) gives 0..n-1\n}\n```\n\n### How it works\n\n- `Random().nextInt(n)` returns a value from **0 up to n‑1**.\n- To shift that range to `[min, max]` we:\n  1. Compute the size of the desired range: `max - min + 1`.\n  2. Generate a number in `0 .. size-1`.\n  3. Add `min` to shift the range.\n\nFor your specific case (`min = 33`, `max = 60`):\n\n```dart\nint randomNumber = randomInRange(33, 60);\nprint(randomNumber); // e.g., 47\n```\n\n### Using it in a Flutter widget\n\nHere’s a minimal example that shows a button that, when pressed, displays a new random number between 33 and 60.\n\n```dart\nimport 'dart:math';\nimport 'package:flutter/material.dart';\n\nvoid main() => runApp(const RandomDemoApp());\n\nclass RandomDemoApp extends StatelessWidget {\n  const RandomDemoApp({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return MaterialApp(\n      title: 'Random 33‑60 Demo',\n      home: const RandomDemoPage(),\n    );\n  }\n}\n\nclass RandomDemoPage extends StatefulWidget {\n  const RandomDemoPage({super.key});\n\n  @override\n  State<RandomDemoPage> createState() => _RandomDemoPageState();\n}\n\nclass _RandomDemoPageState extends State<RandomDemoPage> {\n  int _currentNumber = 33; // start at the lower bound\n\n  int _generateRandom() => Random().nextInt(28) + 33; // 60-33+1 = 28\n\n  @override\n  Widget build(BuildContext context) {\n    return Scaffold(\n      appBar: AppBar(title: const Text('Random 33‑60 Demo')),\n      body: Center(\n        child: Text(\n          '$_currentNumber',\n          style: const TextStyle(fontSize: 48),\n        ),\n      ),\n      floatingActionButton: FloatingActionButton(\n        onPressed: () {\n          setState(() {\n            _currentNumber = _generateRandom();\n          });\n        },\n        child: const Icon(Icons.refresh),\n      ),\n    );\n  }\n}\n```\n\n### Things to keep in mind\n\n| Topic | Note |\n|-------|------|\n| **Seed** | `Random()` uses a time‑based seed. If you need reproducible results (e.g., for testing), pass a fixed seed: `Random(12345)` |\n| **Security** | For cryptographic‑grade randomness (e.g., passwords), use `Random.secure()` instead of `Random()`. |\n| **Range size** | `nextInt(n)` throws if `n <= 0`. Make sure `max >= min`. |\n| **Performance** | Creating a new `Random` each time is fine for most UI interactions. If you generate many numbers in a tight loop, keep a single instance. |\n\nThat’s all you need! Drop the `randomInRange` function into your codebase, or use the inline `Random().nextInt(28) + 33` expression wherever you need a random number between 33 and 60. Happy coding!",
+  "finish_reason": "stop",
+  "prompt_tokens": 84,
+  "completion_tokens": 2286,
+  "total_tokens": 2370,
+  "latency_ms": 12779,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:55:40.439608+00:00"
+}

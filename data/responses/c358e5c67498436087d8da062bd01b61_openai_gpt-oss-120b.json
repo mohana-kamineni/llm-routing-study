@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c358e5c67498436087d8da062bd01b61",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the meaning of name Viacheslav?",
+  "response_text": "**Viacheslav** (also spelled **Vyacheslav**, **Viatcheslav**, **Viacheslav**, etc.) is a Slavic masculine given name.  \n\n### Etymology\n- **Root words:** The name is a compound of two Old Slavic elements:\n  1. **“vy” / “vi”** – meaning “great,” “very,” or “exceedingly.”\n  2. **“slav”** – meaning “glory,” “fame,” or “renown.”  \n\n- **Literal meaning:** “Great glory” or “very famous.” It conveys the idea of someone who is destined for notable achievements or who brings honor.\n\n### Historical and Cultural Context\n- **Origins:** The name appears in early East Slavic chronicles (10th–12th centuries) and was popular among the ruling and noble classes of Kievan Rus’.\n- **Variants:**  \n  - **Vyacheslav** – the most common transliteration from Russian and Ukrainian.  \n  - **Wenceslaus** – the Latinized/Western European form (e.g., Saint Wenceslaus of Bohemia).  \n  - **Václav** – Czech version.  \n  - **Wacław** – Polish version.  \n\n- **Name day:** In many Slavic countries, the name day for Vyacheslav is celebrated on **June 23** (the feast of Saint Vyacheslav, a martyr in the Russian Orthodox calendar) and sometimes on **January 23** (linked to Saint Wenceslaus).\n\n### Notable People Named Viacheslav / Vyacheslav\n| Field | Person | Brief Note |\n|-------|--------|------------|\n| **Politics** | **Vyacheslav Molotov** (1890‑1986) | Soviet politician, foreign minister, known for the Molotov–Ribbentrop Pact. |\n| **Science** | **Vyacheslav Ivanov** (1866‑1949) | Russian linguist and mythologist, founder of the Russian Symbolist movement. |\n| **Sports** | **Vyacheslav \"Slava\" Kozlov** (b. 1972) | Russian ice‑hockey forward, played in the NHL. |\n| **Arts** | **Vyacheslav Klykov** (1939‑2006) | Renowned Russian sculptor and painter. |\n| **Music** | **Vyacheslav Butusov** (b. 1961) | Influential Russian rock musician, frontman of the band Nautilus Pompilius. |\n\n### Usage Today\n- The name remains fairly common in Russia, Ukraine, Belarus, and other Slavic‑speaking regions.\n- It is often shortened to nicknames such as **Slava**, **Vasya**, **Vichka**, or **Vich**.\n\n### Summary\n**Viacheslav** means “great glory” or “very famous,” reflecting a wish for the bearer to achieve distinction and honor. Its deep roots in Slavic tradition and its presence across various cultures (as Wenceslaus, Václav, etc.) make it a name with both historic gravitas and contemporary relevance.",
+  "finish_reason": "stop",
+  "prompt_tokens": 81,
+  "completion_tokens": 700,
+  "total_tokens": 781,
+  "latency_ms": 1808,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:29:56.478943+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a04b4d0910d849a4bcc756eed5538717",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies that \"the price of tea in China\" is not a single fixed value but varies significantly based on type, grade, region, and market channel. It accurately explains these variables and provides reasonable, illustrative price ranges for common tea types (e.g., Longjing, Pu-erh) that align with general market knowledge. By avoiding a false specific claim and instead providing context and methods to find current data, the response remains factually accurate and logically sound without contradiction.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1128,
+  "completion_tokens": 109,
+  "total_tokens": 1237,
+  "timestamp": "2026-09-28T07:55:00.968027+00:00"
+}

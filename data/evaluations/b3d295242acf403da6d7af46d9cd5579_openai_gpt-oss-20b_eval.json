@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b3d295242acf403da6d7af46d9cd5579",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly solves the problem by providing a single EF Core query that combines the date filtering and the sub-query logic for the file names. It accurately translates the user's intent (and the provided SQL example) into LINQ using the `Any` method, which EF Core translates into an `EXISTS` sub-query (functionally equivalent to the `IN` clause in the user's SQL for this context). The response also correctly addresses the specific constraints mentioned in the problem text, such as avoiding `StringComparison.OrdinalIgnoreCase` and noting that `Contains` relies on database collation for case sensitivity. The generated SQL explanation is accurate, and the code is syntactically correct and logically sound.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1369,
+  "completion_tokens": 146,
+  "total_tokens": 1515,
+  "timestamp": "2026-09-22T16:52:06.582931+00:00"
+}

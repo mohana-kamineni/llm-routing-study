@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-09-28T07:58:55.641709+00:00",
+  "evaluator": "qwen/qwen3.8-27b",
+  "temperature": 0.0,
+  "total_prompts": 500,
+  "elapsed_seconds": 4.2,
+  "qwen_calls_this_run": 1,
+  "auto_fail_empty": 0,
+  "auto_fail_tool_use": 0,
+  "skipped_from_cache": 499,
+  "errors": 0,
+  "quota_exhausted": false,
+  "tokens": {
+    "prompt": 206,
+    "completion": 51,
+    "total": 257
+  },
+  "models": {
+    "openai_gpt-oss-20b": {
+      "PASS": 330,
+      "FAIL": 170,
+      "ERROR": 0,
+      "EVALUATOR_ERROR": 0,
+      "EVALUATOR_UNPARSEABLE": 0,
+      "UNPARSEABLE": 0,
+      "auto_fail_empty": 38,
+      "auto_fail_tool_use": 2,
+      "candidate_degenerate": 8,
+      "missing": 0
+    },
+    "openai_gpt-oss-120b": {
+      "PASS": 379,
+      "FAIL": 121,
+      "ERROR": 0,
+      "EVALUATOR_ERROR": 0,
+      "EVALUATOR_UNPARSEABLE": 0,
+      "UNPARSEABLE": 0,
+      "auto_fail_empty": 0,
+      "auto_fail_tool_use": 0,
+      "candidate_degenerate": 1,
+      "missing": 0
+    }
+  }
+}

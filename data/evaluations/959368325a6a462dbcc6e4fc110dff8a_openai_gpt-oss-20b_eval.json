@@ -1,0 +1,14 @@
+{
+  "prompt_id": "959368325a6a462dbcc6e4fc110dff8a",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies Nuremberg as a city in Germany, specifically in the state of Bavaria. It accurately describes its location in the southeastern part of the country and the north-central part of Bavaria, situated on the Main River. All provided geographic details (coordinates, distance from Munich, administrative region) are factually correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 652,
+  "completion_tokens": 78,
+  "total_tokens": 730,
+  "timestamp": "2026-09-22T16:50:32.515101+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "d3a62ba55b0a499aa20be5741336653f",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a haiku about an AI language model",
+  "response_text": "Silent code humming  \nWords bloom from electric thoughts  \nEchoes learn to speak",
+  "finish_reason": "stop",
+  "prompt_tokens": 80,
+  "completion_tokens": 219,
+  "total_tokens": 299,
+  "latency_ms": 771,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:19:55.509694+00:00"
+}

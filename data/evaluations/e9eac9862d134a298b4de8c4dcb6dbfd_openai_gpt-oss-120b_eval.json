@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e9eac9862d134a298b4de8c4dcb6dbfd",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully provides summaries at the requested word counts (5, 25, and 125 words) and accurately captures the essential factual aspects of the source text. The 125-word summary, which is the most detailed, correctly identifies the key themes: the immune system's constant, silent elimination of cancer cells, the definition of cancer as uncontrolled multiplication of corrupted cells, the variety of cancer types, and the evolutionary context of cellular cooperation versus the \"rogue\" behavior of cancer cells. The shorter summaries also align with the core message of the text. There are no significant omissions of critical information or factual inaccuracies.",
+  "finish_reason": "stop",
+  "prompt_tokens": 705,
+  "completion_tokens": 138,
+  "total_tokens": 843,
+  "timestamp": "2026-09-24T03:58:44.926608+00:00"
+}

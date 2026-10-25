@@ -1,0 +1,14 @@
+{
+  "prompt_id": "56903547bb004808b23834cda0d6a6bb",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies Mount Fuji as the highest mountain in Japan and provides the accurate elevation (3,776 meters / 12,389 feet). There are no factual errors or contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 189,
+  "completion_tokens": 49,
+  "total_tokens": 238,
+  "timestamp": "2026-09-19T17:12:16.760268+00:00"
+}

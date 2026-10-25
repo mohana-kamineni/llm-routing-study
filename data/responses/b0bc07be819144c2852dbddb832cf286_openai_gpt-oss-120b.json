@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b0bc07be819144c2852dbddb832cf286",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "where is Montpellier?",
+  "response_text": "Montpellier is a city in the south of **France**.  \n\n- **Region:** Occitanie (formerly Languedoc‑Roussillon)  \n- **Department:** Hérault (department number 34)  \n- **Geographic setting:** It sits on the **Hérault River**, only about 10 km (6 mi) inland from the Mediterranean Sea.  \n- **Nearby cities:**  \n  * ~30 km (19 mi) west‑southwest of **Nîmes**  \n  * ~150 km (93 mi) east of **Toulouse**  \n  * ~250 km (155 mi) south‑west of **Marseille**  \n- **Coordinates:** roughly **43.61° N latitude, 3.88° E longitude**.  \n\nMontpellier is a major university town and a cultural hub, known for its historic medieval quarter (l’Écusson), modern architecture, and a vibrant Mediterranean lifestyle. It’s well‑connected by high‑speed TGV rail, a regional airport (Montpellier‑Méditerranée), and major highways (A9 and A75).",
+  "finish_reason": "stop",
+  "prompt_tokens": 75,
+  "completion_tokens": 306,
+  "total_tokens": 381,
+  "latency_ms": 1073,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:32:16.255472+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "5b42913fc01940a9b00c7d04b5b668ea",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the content by addressing all six required aspects with relevant keyword tuples. It accurately extracts key factual details from the source text, including specific technical specifications (350 kW motor, 100 kW fuel cell, 35 kg hydrogen, 500 km range), the specific solution (Safra H2-PACK kit), the application domain (intercity coaches, Occitanie Region), and the implementation context (UITP Summit, retrofitting 15 coaches). While some keywords in the \"Problem Analysis\" and \"Implementation Activities\" sections infer broader industry contexts (e.g., \"EU regulations,\" \"safety testing\") not explicitly detailed in the short text, they are reasonable inferences based on the described technology and do not contradict the source. The summary covers the essential factual aspects without omitting critical information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1402,
+  "completion_tokens": 179,
+  "total_tokens": 1581,
+  "timestamp": "2026-09-22T17:18:29.741009+00:00"
+}

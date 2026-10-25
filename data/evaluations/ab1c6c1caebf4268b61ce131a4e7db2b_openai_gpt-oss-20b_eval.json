@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ab1c6c1caebf4268b61ce131a4e7db2b",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the source text while maintaining clarity and ease of reading. It successfully captures all key factual aspects, including the launch details (location, context), the etymology of the name, the historical inspiration (Tsiolkovsky), the program context (International Geophysical Year, number of satellites), the physical design (dimensions, antennas), and the technical specifications (frequency, telemetry data). Although the source text cuts off mid-sentence regarding the telemetry data, the summary correctly interprets the available information (\"temperatures inside and on the...\") as internal and external temperatures, which is a logical and accurate completion of the thought based on the context provided. The use of bullet points enhances readability without sacrificing essential information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 779,
+  "completion_tokens": 152,
+  "total_tokens": 931,
+  "timestamp": "2026-09-22T16:54:08.067424+00:00"
+}

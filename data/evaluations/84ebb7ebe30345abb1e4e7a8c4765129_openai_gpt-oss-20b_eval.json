@@ -1,0 +1,14 @@
+{
+  "prompt_id": "84ebb7ebe30345abb1e4e7a8c4765129",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies Venice, Italy, as the city famous for its canals. This is a widely accepted factual answer to the question, and the supporting details provided (winding waterways, bridges, gondolas) are accurate and do not contain any false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 195,
+  "completion_tokens": 61,
+  "total_tokens": 256,
+  "timestamp": "2026-09-22T17:15:18.119518+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "6d3018c9d5054156a7dd4dd8fc9c6ff7",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is attributed as the author of the quote \"To be an enemy of the US is dangerous, but to be a friend is fatal\"?",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 99,
+  "completion_tokens": 4096,
+  "total_tokens": 4195,
+  "latency_ms": 29013,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:36:21.119869+00:00"
+}

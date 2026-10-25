@@ -1,0 +1,535 @@
+[
+  {
+    "prompt_id": "58210e39b3fd4441a2bd4a518bb44c2d",
+    "category": "factual_qa",
+    "finish_reason": "length",
+    "tokens": 4096,
+    "chars": 14225,
+    "tot_lines": 171,
+    "unq_lines": 148,
+    "cr": 2.44,
+    "c4_div": 0.98,
+    "max_line_freq": 10,
+    "pri_reasons": [
+      "finish_reason=length",
+      "max_line_freq=10"
+    ]
+  },
+  {
+    "prompt_id": "0baa3b572e9a44ad8169eef3caf96132",
+    "category": "factual_qa",
+    "finish_reason": "stop",
+    "tokens": 3784,
+    "chars": 15278,
+    "tot_lines": 109,
+    "unq_lines": 94,
+    "cr": 2.47,
+    "c4_div": 0.983,
+    "max_line_freq": 11,
+    "pri_reasons": [
+      "max_line_freq=11"
+    ]
+  },
+  {
+    "prompt_id": "f4cef7f4c8244880a2b49c07d9a8c28a",
+    "category": "factual_qa",
+    "finish_reason": "length",
+    "tokens": 4096,
+    "chars": 17233,
+    "tot_lines": 130,
+    "unq_lines": 111,
+    "cr": 2.48,
+    "c4_div": 0.98,
+    "max_line_freq": 7,
+    "pri_reasons": [
+      "finish_reason=length"
+    ]
+  },
+  {
+    "prompt_id": "23f41a397f8147088e246846bea6bd5e",
+    "category": "factual_qa",
+    "finish_reason": "stop",
+    "tokens": 2587,
+    "chars": 11147,
+    "tot_lines": 132,
+    "unq_lines": 120,
+    "cr": 2.37,
+    "c4_div": 0.991,
+    "max_line_freq": 13,
+    "pri_reasons": [
+      "max_line_freq=13"
+    ]
+  },
+  {
+    "prompt_id": "ab57ff1719224ae5aa74c54ad5c16ebf",
+    "category": "factual_qa",
+    "finish_reason": "length",
+    "tokens": 4096,
+    "chars": 12905,
+    "tot_lines": 70,
+    "unq_lines": 66,
+    "cr": 2.97,
+    "c4_div": 0.938,
+    "max_line_freq": 5,
+    "pri_reasons": [
+      "finish_reason=length"
+    ]
+  },
+  {
+    "prompt_id": "83afd6025bcb4b60b57a460216935414",
+    "category": "factual_qa",
+    "finish_reason": "stop",
+    "tokens": 3288,
+    "chars": 11747,
+    "tot_lines": 125,
+    "unq_lines": 115,
+    "cr": 2.31,
+    "c4_div": 0.996,
+    "max_line_freq": 10,
+    "pri_reasons": [
+      "max_line_freq=10"
+    ]
+  },
+  {
+    "prompt_id": "cda4f8d5a1ba4232bb2fad3e94378dae",
+    "category": "factual_qa",
+    "finish_reason": "stop",
+    "tokens": 3042,
+    "chars": 11553,
+    "tot_lines": 109,
+    "unq_lines": 79,
+    "cr": 2.2,
+    "c4_div": 0.955,
+    "max_line_freq": 13,
+    "pri_reasons": [
+      "max_line_freq=13"
+    ]
+  },
+  {
+    "prompt_id": "d2aebf0f2e6b4bc0b43ba9b51abee25b",
+    "category": "factual_qa",
+    "finish_reason": "stop",
+    "tokens": 2282,
+    "chars": 9637,
+    "tot_lines": 89,
+    "unq_lines": 80,
+    "cr": 2.33,
+    "c4_div": 0.999,
+    "max_line_freq": 10,
+    "pri_reasons": [
+      "max_line_freq=10"
+    ]
+  },
+  {
+    "prompt_id": "35ae8b192cf14958980660efe3b68eba",
+    "category": "factual_qa",
+    "finish_reason": "stop",
+    "tokens": 2401,
+    "chars": 10241,
+    "tot_lines": 96,
+    "unq_lines": 78,
+    "cr": 2.39,
+    "c4_div": 0.959,
+    "max_line_freq": 10,
+    "pri_reasons": [
+      "max_line_freq=10"
+    ]
+  },
+  {
+    "prompt_id": "151795c47e334adf84598e7a7df13257",
+    "category": "summarization",
+    "finish_reason": "length",
+    "tokens": 4096,
+    "chars": 15472,
+    "tot_lines": 109,
+    "unq_lines": 94,
+    "cr": 2.71,
+    "c4_div": 0.98,
+    "max_line_freq": 11,
+    "pri_reasons": [
+      "finish_reason=length",
+      "max_line_freq=11"
+    ]
+  },
+  {
+    "prompt_id": "69f3397d26644046a01b4ff96a0f5f6c",
+    "category": "summarization",
+    "finish_reason": "length",
+    "tokens": 4096,
+    "chars": 17186,
+    "tot_lines": 392,
+    "unq_lines": 300,
+    "cr": 3.46,
+    "c4_div": 0.97,
+    "max_line_freq": 28,
+    "pri_reasons": [
+      "finish_reason=length",
+      "max_line_freq=28"
+    ]
+  },
+  {
+    "prompt_id": "31b92ab510b84231a234ce384ea4fc83",
+    "category": "reasoning_math",
+    "finish_reason": "stop",
+    "tokens": 1878,
+    "chars": 7308,
+    "tot_lines": 82,
+    "unq_lines": 70,
+    "cr": 2.18,
+    "c4_div": 0.991,
+    "max_line_freq": 11,
+    "pri_reasons": [
+      "max_line_freq=11"
+    ]
+  },
+  {
+    "prompt_id": "1cf9dc61645d4cd49558b3960e418673",
+    "category": "reasoning_math",
+    "finish_reason": "stop",
+    "tokens": 2045,
+    "chars": 7837,
+    "tot_lines": 87,
+    "unq_lines": 78,
+    "cr": 2.3,
+    "c4_div": 0.992,
+    "max_line_freq": 10,
+    "pri_reasons": [
+      "max_line_freq=10"
+    ]
+  },
+  {
+    "prompt_id": "97ec5b5740b24a758692253107de2b86",
+    "category": "reasoning_math",
+    "finish_reason": "length",
+    "tokens": 4096,
+    "chars": 7505,
+    "tot_lines": 578,
+    "unq_lines": 7,
+    "cr": 93.81,
+    "c4_div": 0.012,
+    "max_line_freq": 97,
+    "pri_reasons": [
+      "finish_reason=length",
+      "high_compression_ratio=93.81",
+      "line_rep_ratio=0.988",
+      "low_4gram_diversity=0.012",
+      "max_line_freq=97"
+    ]
+  },
+  {
+    "prompt_id": "e96f6248a068417787d6d8a77325c5a0",
+    "category": "reasoning_math",
+    "finish_reason": "stop",
+    "tokens": 1908,
+    "chars": 3237,
+    "tot_lines": 96,
+    "unq_lines": 76,
+    "cr": 2.07,
+    "c4_div": 0.996,
+    "max_line_freq": 10,
+    "pri_reasons": [
+      "max_line_freq=10"
+    ]
+  },
+  {
+    "prompt_id": "a5a916a1797144ca964d481d8fd5f18a",
+    "category": "reasoning_math",
+    "finish_reason": "stop",
+    "tokens": 2661,
+    "chars": 8652,
+    "tot_lines": 256,
+    "unq_lines": 178,
+    "cr": 2.79,
+    "c4_div": 0.955,
+    "max_line_freq": 37,
+    "pri_reasons": [
+      "max_line_freq=37"
+    ]
+  },
+  {
+    "prompt_id": "5ee8b9c15b474f3386f126ddb3f6eece",
+    "category": "reasoning_math",
+    "finish_reason": "length",
+    "tokens": 4096,
+    "chars": 15018,
+    "tot_lines": 499,
+    "unq_lines": 274,
+    "cr": 3.39,
+    "c4_div": 0.842,
+    "max_line_freq": 36,
+    "pri_reasons": [
+      "finish_reason=length",
+      "max_line_freq=36"
+    ]
+  },
+  {
+    "prompt_id": "c1317d1fef884a6cab276bc8add820d4",
+    "category": "reasoning_math",
+    "finish_reason": "stop",
+    "tokens": 3046,
+    "chars": 9356,
+    "tot_lines": 137,
+    "unq_lines": 108,
+    "cr": 2.28,
+    "c4_div": 0.987,
+    "max_line_freq": 13,
+    "pri_reasons": [
+      "max_line_freq=13"
+    ]
+  },
+  {
+    "prompt_id": "ef6105f0d5e4439893c706ca1089ee55",
+    "category": "reasoning_math",
+    "finish_reason": "stop",
+    "tokens": 3074,
+    "chars": 9416,
+    "tot_lines": 177,
+    "unq_lines": 137,
+    "cr": 2.25,
+    "c4_div": 0.978,
+    "max_line_freq": 14,
+    "pri_reasons": [
+      "max_line_freq=14"
+    ]
+  },
+  {
+    "prompt_id": "c8bb690d760f43cfbd9a75cd6f727d59",
+    "category": "reasoning_math",
+    "finish_reason": "stop",
+    "tokens": 2615,
+    "chars": 10838,
+    "tot_lines": 124,
+    "unq_lines": 112,
+    "cr": 2.38,
+    "c4_div": 0.984,
+    "max_line_freq": 10,
+    "pri_reasons": [
+      "max_line_freq=10"
+    ]
+  },
+  {
+    "prompt_id": "170faa68cc6d4517a59a8d190e8f46c2",
+    "category": "reasoning_math",
+    "finish_reason": "stop",
+    "tokens": 1453,
+    "chars": 3591,
+    "tot_lines": 93,
+    "unq_lines": 64,
+    "cr": 2.26,
+    "c4_div": 0.994,
+    "max_line_freq": 12,
+    "pri_reasons": [
+      "max_line_freq=12"
+    ]
+  },
+  {
+    "prompt_id": "dc4a37f5afc840a9a27055c9d275b0c5",
+    "category": "reasoning_math",
+    "finish_reason": "stop",
+    "tokens": 1230,
+    "chars": 2319,
+    "tot_lines": 72,
+    "unq_lines": 48,
+    "cr": 2.47,
+    "c4_div": 1.0,
+    "max_line_freq": 11,
+    "pri_reasons": [
+      "max_line_freq=11"
+    ]
+  },
+  {
+    "prompt_id": "755cdbc98e2c44d98d7c4f41151787e7",
+    "category": "reasoning_math",
+    "finish_reason": "stop",
+    "tokens": 2734,
+    "chars": 8168,
+    "tot_lines": 142,
+    "unq_lines": 102,
+    "cr": 2.52,
+    "c4_div": 0.996,
+    "max_line_freq": 18,
+    "pri_reasons": [
+      "max_line_freq=18"
+    ]
+  },
+  {
+    "prompt_id": "6ef7432a82454c5ba9b84c959f09657e",
+    "category": "reasoning_math",
+    "finish_reason": "stop",
+    "tokens": 3602,
+    "chars": 12784,
+    "tot_lines": 294,
+    "unq_lines": 238,
+    "cr": 2.92,
+    "c4_div": 0.965,
+    "max_line_freq": 13,
+    "pri_reasons": [
+      "max_line_freq=13"
+    ]
+  },
+  {
+    "prompt_id": "846c5b371af94e99b596443e9d8e2f43",
+    "category": "reasoning_math",
+    "finish_reason": "stop",
+    "tokens": 1431,
+    "chars": 3911,
+    "tot_lines": 109,
+    "unq_lines": 85,
+    "cr": 2.11,
+    "c4_div": 0.984,
+    "max_line_freq": 17,
+    "pri_reasons": [
+      "max_line_freq=17"
+    ]
+  },
+  {
+    "prompt_id": "3af57ae6b73847d99150cd9b276ee41a",
+    "category": "creative",
+    "finish_reason": "length",
+    "tokens": 4096,
+    "chars": 15268,
+    "tot_lines": 191,
+    "unq_lines": 181,
+    "cr": 2.28,
+    "c4_div": 0.999,
+    "max_line_freq": 8,
+    "pri_reasons": [
+      "finish_reason=length"
+    ]
+  },
+  {
+    "prompt_id": "b6797042eaa940199ee4eeebf9d24bfc",
+    "category": "creative",
+    "finish_reason": "length",
+    "tokens": 4096,
+    "chars": 5796,
+    "tot_lines": 63,
+    "unq_lines": 51,
+    "cr": 2.38,
+    "c4_div": 0.977,
+    "max_line_freq": 7,
+    "pri_reasons": [
+      "finish_reason=length"
+    ]
+  },
+  {
+    "prompt_id": "7096dab1fe604cf6b810cd320cea644e",
+    "category": "creative",
+    "finish_reason": "stop",
+    "tokens": 2009,
+    "chars": 7376,
+    "tot_lines": 138,
+    "unq_lines": 112,
+    "cr": 2.35,
+    "c4_div": 0.984,
+    "max_line_freq": 11,
+    "pri_reasons": [
+      "max_line_freq=11"
+    ]
+  },
+  {
+    "prompt_id": "d5e34a66299841e9946705103f9979fb",
+    "category": "creative",
+    "finish_reason": "stop",
+    "tokens": 2810,
+    "chars": 10354,
+    "tot_lines": 88,
+    "unq_lines": 77,
+    "cr": 2.05,
+    "c4_div": 0.994,
+    "max_line_freq": 12,
+    "pri_reasons": [
+      "max_line_freq=12"
+    ]
+  },
+  {
+    "prompt_id": "25a012acf0e447acb9023c42ff91ac77",
+    "category": "creative",
+    "finish_reason": "stop",
+    "tokens": 1245,
+    "chars": 3834,
+    "tot_lines": 91,
+    "unq_lines": 75,
+    "cr": 2.14,
+    "c4_div": 0.957,
+    "max_line_freq": 10,
+    "pri_reasons": [
+      "max_line_freq=10"
+    ]
+  },
+  {
+    "prompt_id": "0fd6cd54994c475eb7d1ae1ddb1f1aaf",
+    "category": "creative",
+    "finish_reason": "stop",
+    "tokens": 1956,
+    "chars": 7709,
+    "tot_lines": 114,
+    "unq_lines": 83,
+    "cr": 2.64,
+    "c4_div": 0.957,
+    "max_line_freq": 11,
+    "pri_reasons": [
+      "max_line_freq=11"
+    ]
+  },
+  {
+    "prompt_id": "2fffd35355bd49ffb1bf30954ca60340",
+    "category": "creative",
+    "finish_reason": "stop",
+    "tokens": 1125,
+    "chars": 4101,
+    "tot_lines": 95,
+    "unq_lines": 55,
+    "cr": 2.89,
+    "c4_div": 0.923,
+    "max_line_freq": 16,
+    "pri_reasons": [
+      "max_line_freq=16"
+    ]
+  },
+  {
+    "prompt_id": "2fb73b1ebf004955ad851658ced84de1",
+    "category": "creative",
+    "finish_reason": "stop",
+    "tokens": 3052,
+    "chars": 10410,
+    "tot_lines": 146,
+    "unq_lines": 129,
+    "cr": 2.25,
+    "c4_div": 0.99,
+    "max_line_freq": 11,
+    "pri_reasons": [
+      "max_line_freq=11"
+    ]
+  },
+  {
+    "prompt_id": "e1a49ae2826f4d17a754ccee398c8931",
+    "category": "creative",
+    "finish_reason": "stop",
+    "tokens": 892,
+    "chars": 2876,
+    "tot_lines": 75,
+    "unq_lines": 58,
+    "cr": 2.32,
+    "c4_div": 0.875,
+    "max_line_freq": 10,
+    "pri_reasons": [
+      "max_line_freq=10"
+    ]
+  },
+  {
+    "prompt_id": "58df1227d36c4799bd8f479f5a48c10f",
+    "category": "creative",
+    "finish_reason": "stop",
+    "tokens": 2305,
+    "chars": 9215,
+    "tot_lines": 143,
+    "unq_lines": 132,
+    "cr": 2.18,
+    "c4_div": 0.997,
+    "max_line_freq": 12,
+    "pri_reasons": [
+      "max_line_freq=12"
+    ]
+  }
+]

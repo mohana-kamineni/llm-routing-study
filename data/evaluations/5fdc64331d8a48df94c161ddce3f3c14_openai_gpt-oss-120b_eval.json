@@ -1,0 +1,14 @@
+{
+  "prompt_id": "5fdc64331d8a48df94c161ddce3f3c14",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides an accurate and coherent summary of the source text, which appears to be a transcription of a video game commentary (likely regarding *Hobo Cop* or a similar indie game). The summary correctly identifies the key narrative beats:\n1.  The speaker's initial expectation of the \"hobo cop\" role versus the reality of having to embody it.\n2.  The specific incident involving the \"broken mug\" with a racist depiction.\n3.  The speaker's defensive reaction, framing the mug as \"just a joke\" or \"content\" and questioning the controversy surrounding it.\n\nThe summary effectively filters out the incoherent speech-to-text artifacts (e.g., \"digital cup style four extra contents,\" \"saffron\") while preserving the essential factual and thematic content of the monologue. It accurately captures the speaker's tone of humor mixed with defensiveness regarding the offensive item.",
+  "finish_reason": "stop",
+  "prompt_tokens": 699,
+  "completion_tokens": 190,
+  "total_tokens": 889,
+  "timestamp": "2026-09-28T07:38:32.700779+00:00"
+}

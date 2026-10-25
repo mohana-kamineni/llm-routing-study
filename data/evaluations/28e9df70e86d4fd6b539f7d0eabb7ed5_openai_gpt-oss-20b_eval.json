@@ -1,0 +1,14 @@
+{
+  "prompt_id": "28e9df70e86d4fd6b539f7d0eabb7ed5",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response fails to cover several critical key aspects of the source text. Specifically, it omits Key Aspect 4 (the user's intention to share stories, encounters, and life lessons regarding self-discovery) and Key Aspect 5 (the explicit statement that the user has not yet traveled to Japan and therefore has no stories to share yet). The response treats the prompt as a request for planning advice without acknowledging the user's current status (pre-trip) or their future intent to share reflective narratives, which are central to the context provided in the source.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2176,
+  "completion_tokens": 122,
+  "total_tokens": 2298,
+  "timestamp": "2026-09-19T17:38:02.113549+00:00"
+}

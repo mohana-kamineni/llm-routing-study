@@ -1,0 +1,14 @@
+{
+  "prompt_id": "84ebb7ebe30345abb1e4e7a8c4765129",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies Venice, Italy, as the city most famously associated with canals, which is the standard factual answer to this question. It also accurately mentions Amsterdam as another notable example, providing additional context without introducing any false information or contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 207,
+  "completion_tokens": 56,
+  "total_tokens": 263,
+  "timestamp": "2026-09-28T07:46:47.190278+00:00"
+}

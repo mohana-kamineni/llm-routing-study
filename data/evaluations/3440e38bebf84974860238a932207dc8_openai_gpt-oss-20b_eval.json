@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3440e38bebf84974860238a932207dc8",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly calculates the numerator (1 + 1 = 2) and then divides by the denominator (2 / 2 = 1). The final answer is 1, which is correct, and the reasoning steps are mathematically sound with no errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 180,
+  "completion_tokens": 61,
+  "total_tokens": 241,
+  "timestamp": "2026-09-19T17:21:05.340667+00:00"
+}

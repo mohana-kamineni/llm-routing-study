@@ -1,0 +1,14 @@
+{
+  "prompt_id": "da4ed648ff784df1a6238a9e5a8fe0b4",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the answer as \"None\" (0 birds). This is a classic lateral thinking riddle where the sound of the gunshot startles the remaining birds, causing them to fly away. The reasoning provided (\"the shot bird would have startled the other two\") is logically sound within the context of this specific riddle, and the final conclusion is correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 186,
+  "completion_tokens": 80,
+  "total_tokens": 266,
+  "timestamp": "2026-09-19T17:13:37.546509+00:00"
+}

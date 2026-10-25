@@ -1,0 +1,20 @@
+{
+  "prompt_id": "fc44949d9e1c420bafa20f03f6d25917",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "if 1+1=3，the 2+2=？",
+  "response_text": "If we’re playing the “funny‑math” game where 1 + 1 = 3, then the next step in that pattern is:\n\n**2 + 2 = 5**\n\nIt’s a classic joke: “If 1 + 1 = 3, then 2 + 2 = 5.” Of course, in ordinary arithmetic 2 + 2 is 4, but in the whimsical world where 1 + 1 is already off the mark, the next “off‑track” answer is 5.",
+  "finish_reason": "stop",
+  "prompt_tokens": 86,
+  "completion_tokens": 1747,
+  "total_tokens": 1833,
+  "latency_ms": 26422,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:07:05.234022+00:00"
+}

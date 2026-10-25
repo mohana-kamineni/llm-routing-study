@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c9ca337d47c94dd3bcdbfbd8717dd005",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is Elliot Grainge?",
+  "response_text": "**Elliot Grainge** is an American music executive and entrepreneur best known as the founder and CEO of the independent record label **10K Projects**.\n\n- **Background**  \n  - Son of Lucian Grainge, the longtime chairman and CEO of Universal Music Group.  \n  - Grew up immersed in the music industry, which gave him early exposure to artist development and label operations.\n\n- **10K Projects**  \n  - Launched in 2016 when Grainge was just 22 years old.  \n  - The label quickly gained a reputation for spotting and nurturing breakout talent, especially in the hip‑hop, pop, and alternative scenes.  \n  - Notable signings and releases include artists such as **Trippie Redd**, **Iann Dior**, **Sheck Wes**, **Juice WRLD** (through a partnership), **Lil Tecca**, **Megan Thee Stallion** (early collaborations), and **The Kid LAROI**.  \n  - 10K Projects has partnered with major distributors like **Capitol Music Group** (a division of Universal Music Group) to amplify its reach while maintaining an independent‑label ethos.\n\n- **Industry Impact**  \n  - Grainge is recognized for his data‑driven A&R approach, leveraging streaming analytics and social media trends to identify emerging artists.  \n  - He has been featured in industry publications (Billboard, Variety, Rolling Stone) as a “next‑gen” label executive reshaping how independent labels operate in the streaming era.  \n  - His success has sparked interest in how younger executives can build influential labels without the traditional, large‑scale infrastructure of legacy majors.\n\n- **Personal Notes**  \n  - Born in 1994 (approx.) and raised in Los Angeles.  \n  - Holds a degree in business/entrepreneurship (though he left college early to focus on the label).  \n  - Frequently speaks at music conferences and panels about entrepreneurship, artist development, and the evolving music business landscape.\n\nIn short, Elliot Grainge is a young, influential music‑industry entrepreneur who, through 10K Projects, has helped launch several high‑profile artists and demonstrated how an independent label can thrive in the streaming‑dominant market.",
+  "finish_reason": "stop",
+  "prompt_tokens": 77,
+  "completion_tokens": 574,
+  "total_tokens": 651,
+  "latency_ms": 1282,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:27:48.997925+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "02fc0f1088664e20938240a045f9f0cf",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Summarise this text: (2964) Your Body Killed Cancer 5 Minutes Ago - YouTube\nhttps://www.youtube.com/watch?v=zFhYJRqz_xk\n\nTranscript:\n(00:01) Somewhere in your body, your immune system  just quietly killed one of your own cells,   stopping it from becoming cancer, and  saving your life. It does that all the time.   The vast majority of cancer cells you  develop will be killed without you ever   noticing.\n(00:22) Which is an incredibly hard  job because of what cancer cells are:   parts of yourself that start to behave  as individuals even if it hurts you.   What is cancer and how does  your body kill it all the time? INTRO Cancer is when corrupted  cells multiply uncontrollably. It can emerge from basically  every type of cell in your body,   so there is not just a single  type of cancer but hundreds.  \n(00:49) Some grow slowly, others are aggressive, some  can be treated effectively, others are deadly. In a sense, a cell that becomes cancer turns  into something ancient and something new. Over   billions of years, evolution has molded cells  to survive and thrive in a hostile environment,   fighting for space and resources.\n(01:12) Until a new  and exciting way of life emerged: Cooperation,   a division of labour that allowed cells to  specialize and become more successful together.   But cooperation requires sacrifices. For  a multicellular being to stay healthy,   the wellbeing of the collective has to matter  more than the survival of the individual cell. Cancer cells stop being part of the  collective and b",
+  "response_text": "**Summary**\n\nThe video explains that our immune system is constantly surveilling and destroying rogue cells before they can develop into cancer—most of these events go unnoticed. Cancer arises when a cell’s DNA becomes corrupted and the cell begins to proliferate uncontrollably, ignoring the cooperative rules that keep a multicellular organism healthy. Because every tissue type can give rise to cancer, there are hundreds of distinct cancers that vary in growth rate, aggressiveness, and treatability.\n\nThe narrative frames cancer as a breakdown of the evolutionary shift from solitary, competitive cells to cooperative, specialized cells that make up multicellular organisms. In a healthy body, the collective’s welfare outweighs the interests of any single cell; cancer cells reject this collective responsibility, reverting to a selfish, “self‑ish” mode that threatens the organism. The immune system’s continual “clean‑up” work is what prevents most potential cancers from ever becoming disease.",
+  "finish_reason": "stop",
+  "prompt_tokens": 420,
+  "completion_tokens": 233,
+  "total_tokens": 653,
+  "latency_ms": 594,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:48:41.234794+00:00"
+}

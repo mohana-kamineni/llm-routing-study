@@ -1,0 +1,20 @@
+{
+  "prompt_id": "87a9e10d4cca4efcba6cee46d98e2bdf",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "please summarize in 4 key point:\n\n The teenager was born in the Philippines to a French mother, but brought up in Paris before moving to the city of Rennes without ever being registered with authorities or sent to school.\n\nHis mother, 48, was charged on Monday with neglecting her legal obligations and causing harm to a child, as well as causing harm by depriving a child of healthcare or food, which carries a maximum seven-year jail term, the local prosecutor's office said.\n\nThe mother's lawyer, Emmanuel Ludot, told AFP it was wrong to see it as a case of \"mistreatment\", adding that his client was from a wealthy background.\n\n\"It's what is unusual in this case: he is over-loved. The mother is suffocating and allows him to do what he wants. He eats what he wants, and studies what he wants,\" he added.   \n\nAuthorities began investigating when the teenager was admitted to hospital in Rennes last July weighing only 25 kilograms, around half the norm for his age, and showing severe learning difficulties, the Ouest France newspaper reported.\n\nLudot said he weighed 33 kilograms when he was taken into state care.\n\n\"We were happy. Now we're both unhappy,\" the woman told the BFM news channel in an interview.\n\n\"I've been doing the best for my son from the beginning. Both by opening the world to him according to his age and protecting him.\"\n\nHis mother denied he had \"ever gone to bed hungry\" and said she allowed him to leave the home for cultural activities such as going to the library.\n\nHomeschooling is only allowed in specific circumstances in France.\n\nParents can ask for permission to homeschool - for example for health reasons or a disability - but must agree to regular inspections from local education authorities.",
+  "response_text": "**Key points**\n\n1. **Unregistered upbringing** – The teenager, born in the Philippines to a French mother, was raised in Paris and later moved to Rennes without ever being registered with French authorities or enrolled in school.  \n\n2. **Mother’s criminal charges** – The 48‑year‑old mother was charged with neglect, causing harm to a child, and depriving the child of health care or food – offenses punishable by up to seven years in prison.  \n\n3. **Health and development concerns** – The teen was hospitalized in July weighing only 25 kg (about half the normal weight for his age) and exhibited severe learning difficulties, prompting a state‑care investigation.  \n\n4. **Legal context of homeschooling** – In France, homeschooling is permitted only under strict conditions (e.g., health or disability) and requires regular inspections; the mother’s claim that she “homeschools” the child without official approval violates these regulations.",
+  "finish_reason": "stop",
+  "prompt_tokens": 424,
+  "completion_tokens": 219,
+  "total_tokens": 643,
+  "latency_ms": 704,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:57:59.294501+00:00"
+}

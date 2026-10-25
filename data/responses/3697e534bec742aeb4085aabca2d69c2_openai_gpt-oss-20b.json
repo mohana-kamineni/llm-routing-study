@@ -1,0 +1,20 @@
+{
+  "prompt_id": "3697e534bec742aeb4085aabca2d69c2",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Hello, can you recommend me 5 sci-fi movies from 1970-2020, with an IMDB score of at least 6.8 and not from USA",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 106,
+  "completion_tokens": 4096,
+  "total_tokens": 4202,
+  "latency_ms": 5202,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:23:13.244526+00:00"
+}

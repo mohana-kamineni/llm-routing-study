@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a41e938fea7947a0a80d806764b8ed21",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly interprets the problem as a capacity calculation. It accurately calculates the number of trips required (1,000,000 / 4,000 = 250 trips). It then correctly multiplies the number of trips by the time range (7-12 hours) to determine the total time for the forward journey (1,750 - 3,000 hours). The response also helpfully provides the round-trip scenario, which is a logical extension given the ambiguity of whether the train needs to return. The arithmetic is correct, and the reasoning is sound.",
+  "finish_reason": "stop",
+  "prompt_tokens": 954,
+  "completion_tokens": 137,
+  "total_tokens": 1091,
+  "timestamp": "2026-09-28T07:44:26.598961+00:00"
+}

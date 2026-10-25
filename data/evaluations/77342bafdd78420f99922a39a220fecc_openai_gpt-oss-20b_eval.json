@@ -1,0 +1,14 @@
+{
+  "prompt_id": "77342bafdd78420f99922a39a220fecc",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to adequately cover the required key aspects. Specifically, it omits the mention of \"specialized pro-resolving mediators (SPMs)\" and the concept of resolving inflammation in a \"timely manner\" (Key Aspect 2). Additionally, it inaccurately attributes leukotrienes and prostaglandins as \"EPA-derived molecules,\" whereas the source text states that these molecules are *affected* by EPA (Key Aspect 3).",
+  "finish_reason": "stop",
+  "prompt_tokens": 685,
+  "completion_tokens": 99,
+  "total_tokens": 784,
+  "timestamp": "2026-09-19T17:38:37.706246+00:00"
+}

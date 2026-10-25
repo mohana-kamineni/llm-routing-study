@@ -1,0 +1,20 @@
+{
+  "prompt_id": "76dbffb20ea64fc6a400122503826a6e",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a story where a tall redhead female cop called Anya stops Shaquille O'Neal and challenges him to a back to back comparison to see who is taller. Shaquille is extremely confident about his height but Anya ends up beating him easily.",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 125,
+  "completion_tokens": 4096,
+  "total_tokens": 4221,
+  "latency_ms": 4960,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:03:27.453825+00:00"
+}

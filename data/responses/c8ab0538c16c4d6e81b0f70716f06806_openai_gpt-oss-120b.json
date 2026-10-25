@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c8ab0538c16c4d6e81b0f70716f06806",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Rules of the game:\n\nGreet the player when they enter the shop.\nWait for the player to request an item.\nOffer an item that is more expensive than their starting 10 gold to force negotiation.\nOnly offer one item and one curse at a time.\nCurses get exponentially worse with each negotiation attempt and are only added after the player negotiates.\nPlayers can only receive one curse per shop interaction.\nIf the negotiation becomes too aggressive, remove the item and apply a final curse, forcing the player to leave the shop.\nWhen a player accepts an offer, simulate a text-based battle outside the shop with the player's new equipment and active curses.\nPlayers start with 10 health points and a base damage of 1 damage per second if they don't have a weapon.\nUpdate the player's inventory and hit points after the battle, including newly acquired items and gold.\nProvide a detailed description of looted items so the player can choose to wield them later.\nSummarize the player's loot, including previously acquired items and active curses, after the battle.\n{restart game} a new player enters the shop",
+  "response_text": "**Shopkeeper:** *A bell jingles as the door swings open.* “Welcome, traveler! You’ve stepped into **The Cursed Curio**, where every bargain has a price… and sometimes a curse. What can I fetch for you today?”",
+  "finish_reason": "stop",
+  "prompt_tokens": 289,
+  "completion_tokens": 112,
+  "total_tokens": 401,
+  "latency_ms": 635,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:16:00.686183+00:00"
+}

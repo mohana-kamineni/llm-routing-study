@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e15757508b3745d88cb7e952e4c40fda",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is the founder of the United State?",
+  "response_text": "The United States was not founded by a single individual but by a group of leaders who came together to declare independence from Britain and establish a new nation. These “Founding Fathers” include:\n\n| Key figure | Role in founding |\n|------------|------------------|\n| **George Washington** | Leader of the Continental Army, first President (1789–1797) |\n| **Thomas Jefferson** | Principal author of the Declaration of Independence (1776) |\n| **John Adams** | Diplomat, second President (1797–1801) |\n| **Benjamin Franklin** | Diplomat, key political thinker |\n| **James Madison** | “Father of the Constitution,” later fourth President |\n| **Alexander Hamilton** | First Secretary of the Treasury, key in shaping the financial system |\n| **John Jay** | First Chief Justice of the Supreme Court |\n\nThe Declaration of Independence was adopted on **July 4, 1776**, and the Constitution was ratified in **1788**, formally establishing the United States. So, while George Washington is often highlighted as the first President and a symbolic founder, the nation’s founding is a collective achievement of many leaders.",
+  "finish_reason": "stop",
+  "prompt_tokens": 80,
+  "completion_tokens": 424,
+  "total_tokens": 504,
+  "latency_ms": 752,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:31:33.246623+00:00"
+}

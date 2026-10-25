@@ -1,0 +1,14 @@
+{
+  "prompt_id": "40cdffd5c60147b381245b7c6dd9a617",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the core problem Docker solves: environment inconsistency (\"works on my machine\") and the inefficiency of traditional virtualization. It accurately explains the mechanism (packaging applications with dependencies into portable, isolated containers) and provides a comprehensive breakdown of pain points (dependency hell, onboarding, resource efficiency, portability) and solutions. The technical details regarding images, containers, registries, and orchestration are accurate, and the distinction between what Docker does and does not solve (e.g., stateful data, complex networking) is correct. There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1830,
+  "completion_tokens": 127,
+  "total_tokens": 1957,
+  "timestamp": "2026-09-28T07:52:07.088193+00:00"
+}

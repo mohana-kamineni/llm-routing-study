@@ -1,0 +1,14 @@
+{
+  "prompt_id": "f1d601746b5b423ba3c0e65ccc3e1aa7",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the sequence as the Fibonacci sequence and accurately calculates the next term by adding the two preceding numbers (8 + 13 = 21). The answer is factually correct and contains no contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 221,
+  "completion_tokens": 51,
+  "total_tokens": 272,
+  "timestamp": "2026-09-22T22:58:35.358757+00:00"
+}

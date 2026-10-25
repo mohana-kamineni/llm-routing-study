@@ -1,0 +1,20 @@
+{
+  "prompt_id": "a07d585cfa484c8b860d0f112557a0c5",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "what is the actual IMDB and rotten tomatoes rating of Interstellar",
+  "response_text": "I’m not able to pull live data, so I can’t give you the exact numbers that are showing on IMDb or Rotten Tomatoes right this second (the current date is 2026‑09‑13).  \n\nHowever, based on the most recent information that was publicly available up through mid‑2024, the film **_Interstellar_ (2014)** was generally rated as follows:\n\n| Source | Rating (as of mid‑2024) | How the rating is expressed |\n|--------|------------------------|-----------------------------|\n| **IMDb** | **≈ 8.6 / 10** (≈ 86 %) | User‑generated average score from millions of votes |\n| **Rotten Tomatoes – Tomatometer (Critics)** | **≈ 72 %** | Percentage of approved critics who gave the film a “fresh” review |\n| **Rotten Tomatoes – Audience Score** | **≈ 86 %** | Percentage of audience members who rated the film 3.5 stars or higher |\n\nThese figures have been fairly stable for several years, but they can drift a little over time as more users rate the movie or as new critical reviews are added.\n\n**What to do if you need the absolute latest numbers**\n\n1. **IMDb** – Go to https://www.imdb.com/title/tt0816692/ and look at the rating displayed near the top of the page.  \n2. **Rotten Tomatoes** – Visit https://www.rottentomatoes.com/m/interstellar and check both the “Tomatometer” (critics) and “Audience Score” sections.\n\nBoth sites update their scores in real time, so those pages will give you the most current percentages. If you need a snapshot for a report, you can also copy the numbers directly from the pages (or use a screenshot) and cite the date you accessed them.",
+  "finish_reason": "stop",
+  "prompt_tokens": 84,
+  "completion_tokens": 559,
+  "total_tokens": 643,
+  "latency_ms": 1467,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:32:10.403656+00:00"
+}

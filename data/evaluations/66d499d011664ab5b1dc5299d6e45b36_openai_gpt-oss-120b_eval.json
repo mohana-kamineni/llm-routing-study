@@ -1,0 +1,14 @@
+{
+  "prompt_id": "66d499d011664ab5b1dc5299d6e45b36",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to cover Key Aspect 1. The source text explicitly defines \"TLDR\" as an acronym for \"Too Long; Didn’t Read\" and explains its usage. The response uses the term in the header but does not define the acronym or explain its meaning, thereby omitting a required factual aspect of the source material.",
+  "finish_reason": "stop",
+  "prompt_tokens": 800,
+  "completion_tokens": 74,
+  "total_tokens": 874,
+  "timestamp": "2026-09-22T23:36:22.894276+00:00"
+}

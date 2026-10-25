@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3bfdba5b385c470691438be7d6917ec1",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly adheres to all constraints. It creates a dialogue between a User and an AI Agent with 4 turns (exceeding the minimum of 3-4). The AI Agent's responses are short and precise. All information provided in the dialogue is strictly grounded in the provided document:\n1. 12 years of service falls into the 10-20 year bracket, entitling the employee to 20 days (Correct).\n2. The document states the full amount is not earned until the end of the year (Correct).\n3. The document states one may take the full amount at any time during the year (Correct).\n4. More than 20 years of service entitles the employee to a maximum of 25 days (Correct).\nThere are no hallucinations or substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 608,
+  "completion_tokens": 183,
+  "total_tokens": 791,
+  "timestamp": "2026-09-19T17:10:24.939964+00:00"
+}

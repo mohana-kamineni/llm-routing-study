@@ -1,0 +1,21 @@
+{
+  "prompt_id": "8bbbb6267dd84c979ab8f44dfc1bd428",
+  "category": "reasoning_math",
+  "prompt_text": "Write 5 words which starts with \"EN\", then write output of \"77+33\"",
+  "model": "openai/gpt-oss-20b",
+  "provider": "groq",
+  "model_returned": "openai/gpt-oss-20b",
+  "raw_response": "Enigma  \nEnrich  \nEnvision  \nEnlist  \nEnclose  \n\n110",
+  "response_text": "Enigma  \nEnrich  \nEnvision  \nEnlist  \nEnclose  \n\n110",
+  "reasoning_text": "The user wants: \"Write 5 words which starts with 'EN', then write output of '77+33'\". So we need to output 5 words starting with EN. Then write the output of 77+33. Likely they want the sum: 110. So we can list 5 words: \"Enigma\", \"Enrich\", \"Envision\", \"Enlist\", \"Enclose\". Then output 110. Format? Probably just list words separated by commas or new lines, then the number. Let's do:\n\nEnigma\nEnrich\nEnvision\nEnlist\nEnclose\n\n110\n\nOr maybe \"Enigma, Enrich, Envision, Enlist, Enclose\" then \"110\". I'll produce a clear answer.",
+  "input_tokens": 90,
+  "output_tokens": 181,
+  "total_tokens": 271,
+  "reasoning_tokens": 156,
+  "latency_seconds": 0.434,
+  "timestamp": "2026-09-13T11:40:26.786654+00:00",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "retries": 0,
+  "error": null
+}

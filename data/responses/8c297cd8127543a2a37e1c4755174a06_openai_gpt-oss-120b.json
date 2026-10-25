@@ -1,0 +1,20 @@
+{
+  "prompt_id": "8c297cd8127543a2a37e1c4755174a06",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Please summarize the following video captions into an interesting short paragraph. Be as truthfully as possible when you response.\n\nTime, Caption\n03:42, an image of a hallway with a dog on the floor\n05:17, a dog is sitting on a dog bed in the living room\n05:25, a woman is walking on the floor of a room\n05:27, a small dog is standing in front of a mirror\n05:37, an image of a woman standing in front of a door\n05:41, a small dog is standing in front of a door\n08:15, a small white dog standing in front of a door\n09:59, a dog is sitting on the floor in front of a door\n10:01, a dog laying on the floor in front of a door\n10:02, a teddy bear is sitting on the floor in front of a door\n10:03, a small dog is playing with a toy on the floor\n22:04, a dog is sitting on the floor in front of a mirror\n22:57, a small dog is sitting on the floor in front of a door\n23:04, a dog is walking on the floor in front of a mirror\n23:05, a dog is sitting on the floor in front of a mirror",
+  "response_text": "The video follows a tiny, energetic dog as it explores a home‑like setting, drifting from room to room and pausing at familiar landmarks. It begins in a hallway where the pup lies on the floor, then hops onto a dog bed in the living room. A woman briefly walks past, while the dog repeatedly stops in front of doors and mirrors—sometimes striking a pose, other times sniffing or playing with a toy. A white‑coated companion joins the scene, and even a teddy bear is left on the floor beside the curious canine. Throughout the clip the dog’s simple, repetitive actions—sitting, lying, and investigating reflections—create a charming, almost meditative portrait of a pet’s everyday wanderings inside a house.",
+  "finish_reason": "stop",
+  "prompt_tokens": 341,
+  "completion_tokens": 281,
+  "total_tokens": 622,
+  "latency_ms": 923,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:22:35.313831+00:00"
+}

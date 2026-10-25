@@ -1,0 +1,14 @@
+{
+  "prompt_id": "5271957f29ae49819bbe3794e4a7a932",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response provides the correct numerical answer (21), but it contains a substantive reasoning error in its explanation. It claims that 9 and 10 were \"too shy to add up to 19.\" This is mathematically incorrect; 9 + 10 equals 19. The humor relies on the false premise that the correct sum is 19, which contradicts the actual arithmetic result of 21. Therefore, the reasoning process contains a factual error.",
+  "finish_reason": "stop",
+  "prompt_tokens": 211,
+  "completion_tokens": 106,
+  "total_tokens": 317,
+  "timestamp": "2026-09-19T17:35:55.952874+00:00"
+}

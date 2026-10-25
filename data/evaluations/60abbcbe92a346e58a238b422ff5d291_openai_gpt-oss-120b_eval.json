@@ -1,0 +1,14 @@
+{
+  "prompt_id": "60abbcbe92a346e58a238b422ff5d291",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The question \"What is the meaning of life?\" is a philosophical inquiry rather than a question with a single, objectively verifiable factual answer (like \"What is the capital of France?\"). Therefore, the response correctly identifies that there is no single consensus answer and accurately summarizes the major historical, philosophical, and scientific perspectives (Religious, Existentialist, Scientific/Evolutionary, Aristotelian, Absurdist, etc.) without introducing false contradictions or misinformation. The descriptions of these schools of thought are factually accurate representations of their core tenets.",
+  "finish_reason": "stop",
+  "prompt_tokens": 780,
+  "completion_tokens": 121,
+  "total_tokens": 901,
+  "timestamp": "2026-09-28T07:36:18.507250+00:00"
+}

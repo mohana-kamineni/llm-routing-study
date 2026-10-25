@@ -1,0 +1,20 @@
+{
+  "prompt_id": "02fc0f1088664e20938240a045f9f0cf",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Summarise this text: (2964) Your Body Killed Cancer 5 Minutes Ago - YouTube\nhttps://www.youtube.com/watch?v=zFhYJRqz_xk\n\nTranscript:\n(00:01) Somewhere in your body, your immune system  just quietly killed one of your own cells,   stopping it from becoming cancer, and  saving your life. It does that all the time.   The vast majority of cancer cells you  develop will be killed without you ever   noticing.\n(00:22) Which is an incredibly hard  job because of what cancer cells are:   parts of yourself that start to behave  as individuals even if it hurts you.   What is cancer and how does  your body kill it all the time? INTRO Cancer is when corrupted  cells multiply uncontrollably. It can emerge from basically  every type of cell in your body,   so there is not just a single  type of cancer but hundreds.  \n(00:49) Some grow slowly, others are aggressive, some  can be treated effectively, others are deadly. In a sense, a cell that becomes cancer turns  into something ancient and something new. Over   billions of years, evolution has molded cells  to survive and thrive in a hostile environment,   fighting for space and resources.\n(01:12) Until a new  and exciting way of life emerged: Cooperation,   a division of labour that allowed cells to  specialize and become more successful together.   But cooperation requires sacrifices. For  a multicellular being to stay healthy,   the wellbeing of the collective has to matter  more than the survival of the individual cell. Cancer cells stop being part of the  collective and b",
+  "response_text": "**Summary**\n\nThe video explains how the human immune system constantly patrols and eliminates cells that begin to behave like cancer, often before we even notice. It defines cancer as the uncontrolled proliferation of corrupted cells that can arise from any cell type, leading to a wide variety of cancers with differing growth rates and treatment responses. The narrator contrasts the ancient, competitive nature of cells—evolved to survive in hostile environments—with the cooperative, multicellular organization that allows organisms to thrive. In a healthy body, the collective well‑being of the organism takes precedence over the survival of any single cell; when a cell breaks this rule and starts to act independently, it becomes a cancer cell. The immune system acts as the body’s internal surveillance, recognizing and destroying these rogue cells to maintain overall health.",
+  "finish_reason": "stop",
+  "prompt_tokens": 420,
+  "completion_tokens": 236,
+  "total_tokens": 656,
+  "latency_ms": 9557,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:44:39.803623+00:00"
+}

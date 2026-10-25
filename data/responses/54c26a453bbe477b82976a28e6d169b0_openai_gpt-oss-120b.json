@@ -1,0 +1,20 @@
+{
+  "prompt_id": "54c26a453bbe477b82976a28e6d169b0",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the storywise chronologically first star wars movie?",
+  "response_text": "The very first story‑wise entry in the **Star Wars film saga** is **“Star Wars: Episode I – The Phantom Menace.”**  \n\n- **Release year:** 1999 (the first of the prequel trilogy)  \n- **In‑universe placement:** Set about **32 years before the events of “A New Hope” (Episode IV)**, it introduces the Galactic Republic, the rise of the Sith, the discovery of Anakin Skywalker, and the early machinations of Palpatine.  \n\nAll subsequent movies (Episodes II–IX, the standalone “Rogue One,” “Solo,” etc.) take place later in the timeline.  \n\n*Note:* While there are other Star Wars media (e.g., the animated film **“Star Wars: The Clone Wars”** and upcoming series like **“The Acolyte”**) that explore periods before or between the episodes, the earliest **feature‑film** in chronological story order remains **Episode I – The Phantom Menace**.",
+  "finish_reason": "stop",
+  "prompt_tokens": 83,
+  "completion_tokens": 401,
+  "total_tokens": 484,
+  "latency_ms": 1174,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:36:41.572234+00:00"
+}

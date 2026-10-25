@@ -1,0 +1,20 @@
+{
+  "prompt_id": "3faa3dd290324ce0bd7379dac9082f19",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "what is the current country leading in natural water resource?",
+  "response_text": "**Brazil** is generally considered the country with the largest amount of renewable freshwater resources in the world.  \n\n- **Renewable internal freshwater resources:** ≈ 8,600 km³ per year (about 12 % of the global total).  \n- **Key contributors:** The Amazon River basin, which alone accounts for roughly 20 % of the world’s river discharge, plus numerous other large rivers (Paraná, São Francisco, etc.) and extensive groundwater aquifers.  \n\nOther countries that rank very high in total renewable water resources are:\n\n| Rank | Country | Renewable freshwater (km³ / yr) |\n|------|---------|---------------------------------|\n| 1 | **Brazil** | ~8,600 |\n| 2 | **Russia** | ~4,500 |\n| 3 | **Canada** | ~2,900 |\n| 4 | **Indonesia** | ~2,500 |\n| 5 | **China** | ~2,400 |\n\nThese figures come from the United Nations Food and Agriculture Organization (FAO) “AQUASTAT” database and the World Bank’s World Development Indicators, which compile national water‑resource assessments based on river discharge, precipitation, and groundwater recharge.  \n\nSo, as of the most recent global assessments (2023‑2024), Brazil leads the world in natural (renewable) water resources.",
+  "finish_reason": "stop",
+  "prompt_tokens": 82,
+  "completion_tokens": 360,
+  "total_tokens": 442,
+  "latency_ms": 1072,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:18:56.927563+00:00"
+}

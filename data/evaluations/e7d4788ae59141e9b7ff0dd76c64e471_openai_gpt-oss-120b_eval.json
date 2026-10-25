@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e7d4788ae59141e9b7ff0dd76c64e471",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately captures all key factual aspects of the source text. It correctly identifies the initial topic (\"rbbion tying\" and the headcount question), the discussion regarding Sherwin's extension (his willingness, the pipeline status, the scope of the extension, and the decision to extend for one year), and the final note about the nurse committee's approval. The summary is faithful to the source material without omitting critical information or introducing inaccuracies.",
+  "finish_reason": "stop",
+  "prompt_tokens": 392,
+  "completion_tokens": 97,
+  "total_tokens": 489,
+  "timestamp": "2026-09-22T22:59:24.389286+00:00"
+}

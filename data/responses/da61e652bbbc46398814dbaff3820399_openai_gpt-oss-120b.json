@@ -1,0 +1,20 @@
+{
+  "prompt_id": "da61e652bbbc46398814dbaff3820399",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the difference between Strong AI and Weak AI?",
+  "response_text": "**Strong AI vs. Weak AI**\n\n| Aspect | Strong AI (Artificial General Intelligence – AGI) | Weak AI (Artificial Narrow Intelligence – ANI) |\n|--------|---------------------------------------------------|-----------------------------------------------|\n| **Goal / Scope** | Build a machine that can understand, learn, and reason about *any* intellectual task that a human can. It would possess consciousness, self‑awareness, and genuine understanding. | Build systems that are good at *specific* tasks (e.g., image classification, language translation, playing chess). They do not aim for general reasoning or consciousness. |\n| **Breadth of Ability** | **General** – one system can transfer knowledge across domains, improvise, and handle novel problems without re‑engineering. | **Narrow** – each system is limited to the domain it was trained for; it cannot apply its skills outside that narrow scope. |\n| **Understanding vs. Simulation** | Supposed to *truly* understand concepts, have mental states, and possibly experience qualia. | Simulates intelligent behavior; any “understanding” is an illusion created by sophisticated pattern matching. |\n| **Typical Examples** | – No real-world example yet; the concept is still theoretical. <br>– In fiction: the android Data (Star Trek), the robot Ava (Ex Machina), or the AI “Samantha” in *Her*. | – Voice assistants (Siri, Alexa). <br>– Recommendation engines (Netflix, Amazon). <br>– Image‑recognition models (Google Photos). <br>– Game‑playing AIs (AlphaGo, OpenAI Five). |\n| **Evaluation** | Measured by *general* intelligence tests (e.g., passing a full Turing Test, solving arbitrary problems, exhibiting consciousness). | Measured by task‑specific metrics: accuracy, F1‑score, win‑rate, latency, etc. |\n| **Philosophical / Ethical Implications** | Raises questions about personhood, rights, moral responsibility, and existential risk. | Concerns are more practical: bias, privacy, job displacement, safety in specific contexts. |\n| **Current Status (2024‑2026)** | Still a research vision; no consensus on whether it’s achievable or what architecture would be required. | Widely deployed across industry, research, and consumer products. |\n\n---\n\n### In a nutshell\n\n- **Weak AI** = *“Smart tools.”* They excel at a single, well‑defined job but have no awareness beyond that job.\n- **Strong AI** = *“A mind in a machine.”* It would think, reason, and feel like a human across any domain, not just the one it was programmed for.\n\nThe distinction is similar to the difference between a **calculator** (excellent at arithmetic, nothing else) and a **human mathematician** (who can invent new mathematics, understand concepts, and apply them in completely new contexts). Strong AI aspires to be the latter; weak AI is the former, albeit far more sophisticated than a simple calculator.",
+  "finish_reason": "stop",
+  "prompt_tokens": 82,
+  "completion_tokens": 679,
+  "total_tokens": 761,
+  "latency_ms": 1570,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:27:38.657041+00:00"
+}

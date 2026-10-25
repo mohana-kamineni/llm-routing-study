@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c4238171c0184503ba6030c57e1341b5",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly extracts all requested fields from the OCR text.\n1. **ID**: Correctly identified as `71225-10-2339`.\n2. **Citizenship**: Correctly identified as `WARGANEGARA` (Citizen).\n3. **Religion**: Correctly identified as `ISLAM`.\n4. **Gender**: Correctly identified as `LELAKI` (Male).\n5. **Name**: The OCR text contains a typo/OCR error `MOHD NAZ\"I BIN`. The model correctly interprets this as `MOHD NAZI BIN TAKUAN` (or similar valid name structure), which is a reasonable and correct extraction given the context of Malaysian names.\n6. **Address**: Correctly parses the address lines into structured components (Street, Village, Postcode, City, State).\n\nThe reasoning is sound, and the final output is accurate and well-structured.",
+  "finish_reason": "stop",
+  "prompt_tokens": 649,
+  "completion_tokens": 205,
+  "total_tokens": 854,
+  "timestamp": "2026-09-23T07:39:46.490686+00:00"
+}

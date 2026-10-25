@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1eeb59327a894bbb838964482046629b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response is factually accurate. It correctly identifies the two distinct historical entities known as the Slovak Republic: the First Slovak Republic (proclaimed March 14, 1939) and the current independent Slovak Republic (established January 1, 1993). By providing both dates with appropriate historical context, the response avoids ambiguity and contains no false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 382,
+  "completion_tokens": 84,
+  "total_tokens": 466,
+  "timestamp": "2026-09-24T12:34:22.994941+00:00"
+}

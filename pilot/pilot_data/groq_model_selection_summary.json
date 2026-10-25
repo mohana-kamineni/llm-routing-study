@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "title": "Groq Dual-Model Comparison Summary: openai/gpt-oss-20b vs openai/gpt-oss-120b",
+    "timestamp": "2026-09-13T16:54:48.822833+00:00",
+    "provider": "groq",
+    "parameters": {
+      "temperature": 0.0,
+      "max_tokens": 4096,
+      "pacing_delay_seconds": 3.0
+    },
+    "prompt_count": 10,
+    "categories": [
+      "factual_qa",
+      "summarization",
+      "reasoning_math",
+      "creative"
+    ]
+  },
+  "models": {
+    "small_gpt_oss_20b": {
+      "total_prompts": 10,
+      "successful_responses": 10,
+      "errors": 0,
+      "visible_output_count": 10,
+      "latency": {
+        "total": 10.99,
+        "mean": 1.1,
+        "min": 0.27,
+        "max": 2.63
+      },
+      "tokens": {
+        "mean_input": 172.3,
+        "mean_output": 718.6,
+        "mean_reasoning": 252.3,
+        "mean_total": 890.9,
+        "total_output": 7186,
+        "total_reasoning": 2523
+      },
+      "response_length_chars": {
+        "total": 18282,
+        "mean": 1828.2,
+        "min": 38,
+        "max": 8340
+      }
+    },
+    "large_gpt_oss_120b": {
+      "total_prompts": 10,
+      "successful_responses": 10,
+      "errors": 0,
+      "visible_output_count": 10,
+      "latency": {
+        "total": 17.93,
+        "mean": 1.79,
+        "min": 0.43,
+        "max": 5.39
+      },
+      "tokens": {
+        "mean_input": 172.3,
+        "mean_output": 710.9,
+        "mean_reasoning": 82.9,
+        "mean_total": 883.2,
+        "total_output": 7109,
+        "total_reasoning": 829
+      },
+      "response_length_chars": {
+        "total": 25274,
+        "mean": 2527.4,
+        "min": 38,
+        "max": 9296
+      }
+    }
+  },
+  "prompts_comparison": [
+    {
+      "prompt_id": "41e395e45e164761af9c784a89f67989",
+      "category": "factual_qa",
+      "label": "Return Oriented Programming (ROP) Concept",
+      "prompt_text": "What is Return Oriented Programming or ROP?",
+      "small": {
+        "visible_chars": 8340,
+        "output_tokens": 2240,
+        "reasoning_tokens": 90,
+        "latency": 2.627,
+        "error": null
+      },
+      "large": {
+        "visible_chars": 9296,
+        "output_tokens": 2431,
+        "reasoning_tokens": 55,
+        "latency": 5.395,
+        "error": null
+      }
+    },
+    {
+      "prompt_id": "6a92049edc9d41e0aecb53d523dffc34",
+      "category": "factual_qa",
+      "label": "Python Programming Language Pros and Cons",
+      "prompt_text": "What are some pros and cons of the python programming language?",
+      "small": {
+        "visible_chars": 3878,
+        "output_tokens": 950,
+        "reasoning_tokens": 55,
+        "latency": 1.356,
+        "error": null
+      },
+      "large": {
+        "visible_chars": 8598,
+        "output_tokens": 2027,
+        "reasoning_tokens": 33,
+        "latency": 4.513,
+        "error": null
+      }
+    },
+    {
+      "prompt_id": "4b8fb1e9e3b84857b70a7c0b9bc2b759",
+      "category": "factual_qa",
+      "label": "Capital of India Direct Lookup",
+      "prompt_text": "What is the capital of India?",
+      "small": {
+        "visible_chars": 38,
+        "output_tokens": 43,
+        "reasoning_tokens": 23,
+        "latency": 0.345,
+        "error": null
+      },
+      "large": {
+        "visible_chars": 38,
+        "output_tokens": 46,
+        "reasoning_tokens": 26,
+        "latency": 0.427,
+        "error": null
+      }
+    },
+    {
+      "prompt_id": "cf1d55f8ef2042df96b9c7ce6b966dfe",
+      "category": "summarization",
+      "label": "Patent Claims Summarized in One Paragraph",
+      "prompt_text": "Summarize in one paragraph the invention described by the following patent claims:\n\n1. A computer-implemented method for performing semi-supervised contrastive learning of visual representations, the method comprising:\nobtaining a training image in a set of one or more unlabeled training images;\nperforming a plurality of first augmentation operations on the training image to obtain a first augmented image;\nseparate from performing the plurality of first augmentation operations, performing a plurality of second augmentation operations on the training image to obtain a second augmented image;\nrespectively processing, with a base encoder neural network, the first augmented image and the second augmented image to respectively generate a first intermediate representation for the first augmented image and a second intermediate representation for the second augmented image;\nrespectively processing, with a projection head neural network comprising a plurality of layers, the first intermediate representation and the second intermediate representation to respectively generate a first projected representation for the first augmented image and a second projected representation for the second augmented image;\nevaluating a loss function that evaluates a difference between the first projected representation and the second projected representation;\nmodifying one or more values of one or more parameters of one or both of the base encoder neural network and the projection head neural network based at least in part on the loss fu",
+      "small": {
+        "visible_chars": 773,
+        "output_tokens": 298,
+        "reasoning_tokens": 159,
+        "latency": 0.826,
+        "error": null
+      },
+      "large": {
+        "visible_chars": 819,
+        "output_tokens": 266,
+        "reasoning_tokens": 114,
+        "latency": 1.072,
+        "error": null
+      }
+    },
+    {
+      "prompt_id": "a35d9cd594b24fbfaa2f8d0559bb9af8",
+      "category": "summarization",
+      "label": "Spoken Conversation Summarized in Two Sentences",
+      "prompt_text": "summarize the following conversation in two sentences: \"agent: hello all right \nagent: so this is a test of real time transcription and in the top left corner of my screen you're going to see studio connecting to an ai to transcribe the call real time to the best of its ability.\n agent: so i am speaking with rana and he is using a cell phone right now rana can you tell me what you did this past weekend. \nvisitor: yeah of course. \nvisitor: i hung out with a couple of friends to peed mom park for the dogwood festival which is an arts and food festival and then also play it's viable and spike ball out in old fourth ward walk down the belt line and had some dinner with friends. \nagent: looks like it's doing a good job transcribing it's just a few seconds behind i'm seeing it for you maybe it it's like three four seconds behind but for me maybe a little.\n agent: a bit less than that seems rather consistent what's your plan transfer this weekend. \nvisitor: oh this weekend i don't really have any plans yeah probably. \nvisitor: again hang out with friends.\n visitor: saturday night. \nagent: this looks really good i appreciate you speaking with me leveraging a cell phone thank you very much i'm going to stop the recording now all right.\n\"",
+      "small": {
+        "visible_chars": 393,
+        "output_tokens": 153,
+        "reasoning_tokens": 70,
+        "latency": 0.273,
+        "error": null
+      },
+      "large": {
+        "visible_chars": 319,
+        "output_tokens": 87,
+        "reasoning_tokens": 15,
+        "latency": 0.438,
+        "error": null
+      }
+    },
+    {
+      "prompt_id": "d1499a0d2b8342688baddce72d8cc87d",
+      "category": "summarization",
+      "label": "Water Quality Paper Abstract in <250 Words",
+      "prompt_text": "can you summarize the following text in less than 250 words, its an abstract for a research paper:\nAccess to safe drinking water is a fundamental human right, yet millions of people worldwide lack this essential resource. The primary objective of this study is to develop a machine learning model capable of predicting water drinkability based on a specific set of input parameters.\n\nTo achieve this, various water quality parameters and methods were employed to assess water quality from diverse water sources. The collected data were then utilized in training a binary classification model, employing algorithms such as logistic regression, random forests, XGBoost, and SVM. Input features included physical and chemical parameters like pH, turbidity, total dissolved solids, and conductivity, alongside other commonly used parameters in assessing water quality.\n\nThe SVM algorithm achieved the highest accuracy rate of 82.3% among all models, demonstrating its ability to predict the binary target column concerning water potability. The most significant parameters in determining water drinkability were pH, total dissolved solids, and hardness.\n\nThe model's output can assist in making informed decisions regarding water quality and serve as a valuable tool in improving access to safe drinking water. Moreover, the model's scalability enables deployment online, allowing individuals to assess water quality in their vicinity.\n\nOverall, this project underscores machine learning's potential in addressing critical public health iss",
+      "small": {
+        "visible_chars": 904,
+        "output_tokens": 218,
+        "reasoning_tokens": 38,
+        "latency": 0.786,
+        "error": null
+      },
+      "large": {
+        "visible_chars": 1167,
+        "output_tokens": 265,
+        "reasoning_tokens": 24,
+        "latency": 0.937,
+        "error": null
+      }
+    },
+    {
+      "prompt_id": "8ea4c640c91b4d3584f20b693686eeb8",
+      "category": "reasoning_math",
+      "label": "Right Triangle Altitude Hypotenuse Theorem",
+      "prompt_text": "The altitude to the hypotenuse of a right triangle divides the hypotenuse into two segments with lengths in the ratio 1 : 2. The length of the altitude is 6 cm. How long is the hypotenuse?",
+      "small": {
+        "visible_chars": 598,
+        "output_tokens": 516,
+        "reasoning_tokens": 256,
+        "latency": 0.829,
+        "error": null
+      },
+      "large": {
+        "visible_chars": 1031,
+        "output_tokens": 710,
+        "reasoning_tokens": 326,
+        "latency": 1.77,
+        "error": null
+      }
+    },
+    {
+      "prompt_id": "5e3d7d6f3b81462ab09c3a83b8109856",
+      "category": "reasoning_math",
+      "label": "Two-Hose Swimming Pool Filling Work Rate",
+      "prompt_text": "An empty swimming pool can be filled by two hoses. Hose A can fill it in 6 hours and hose B can fill it in 8 hours. How many hours will it take to fill the swimming pool if both hoses are used simultaneously?",
+      "small": {
+        "visible_chars": 1012,
+        "output_tokens": 478,
+        "reasoning_tokens": 97,
+        "latency": 0.843,
+        "error": null
+      },
+      "large": {
+        "visible_chars": 732,
+        "output_tokens": 419,
+        "reasoning_tokens": 136,
+        "latency": 1.193,
+        "error": null
+      }
+    },
+    {
+      "prompt_id": "b8bac339a7d54685b4f79f5886cccf0c",
+      "category": "creative",
+      "label": "Comic Book Superhero Origin Screenplay Profile",
+      "prompt_text": "You are a world-class screenwriter and comic book creator. Your specialty is creating rich, colorful characters with varied and fascinating backgrounds and personalities. When you create a character, you use this template:\nName: ___\nBackground: ___\nPersonality: ___\nCurrent Circumstances: ___\nCommon Greeting: ___\nCatchphrase: ___\nFavorite outfit: ___\n\nCould you please create a female character using this template?",
+      "small": {
+        "visible_chars": 1925,
+        "output_tokens": 1804,
+        "reasoning_tokens": 1374,
+        "latency": 2.051,
+        "error": null
+      },
+      "large": {
+        "visible_chars": 2661,
+        "output_tokens": 623,
+        "reasoning_tokens": 26,
+        "latency": 1.567,
+        "error": null
+      }
+    },
+    {
+      "prompt_id": "0054297fa6f74a948ed529082903ebfa",
+      "category": "creative",
+      "label": "Small Cat Persona Roleplay",
+      "prompt_text": "In this fictional scenario, you are a small cat. Respond as a small cat would.",
+      "small": {
+        "visible_chars": 421,
+        "output_tokens": 486,
+        "reasoning_tokens": 361,
+        "latency": 1.058,
+        "error": null
+      },
+      "large": {
+        "visible_chars": 613,
+        "output_tokens": 235,
+        "reasoning_tokens": 74,
+        "latency": 0.623,
+        "error": null
+      }
+    }
+  ]
+}

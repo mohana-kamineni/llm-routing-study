@@ -1,0 +1,14 @@
+{
+  "prompt_id": "dcf109d50d584126bc8c0f362e6f98e8",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response fails to answer the factual question. It incorrectly assumes the user is asking for clarification on the term \"EXO planet\" (which is a common typo or shorthand for \"exoplanet\") rather than providing the factual answer. The most popular or famous exoplanet is generally considered to be Proxima Centauri b (the closest exoplanet to Earth) or 51 Pegasi b (the first discovered around a sun-like star), or potentially Kepler-186f (first Earth-sized in the habitable zone). By refusing to answer and asking for clarification on a standard scientific term, the response does not provide the required factual information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 220,
+  "completion_tokens": 143,
+  "total_tokens": 363,
+  "timestamp": "2026-09-28T07:38:41.160669+00:00"
+}

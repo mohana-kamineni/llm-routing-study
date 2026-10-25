@@ -1,0 +1,14 @@
+{
+  "prompt_id": "4121b01b1c194760adcd5989bdce72a5",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully executes all four required steps: it provides a one-sentence summary, translates it into French, lists the names found in the French summary, and outputs the correct JSON object. Regarding the evaluation criteria, the summary accurately captures the essential factual aspects of the source text. It identifies the characters (Jack and Jill), the action (tumbling down the hill while fetching water), the outcome (returning home unharmed/safely), and the thematic conclusion (maintaining their adventurous spirit). While it condenses specific details like \"slightly battered\" into \"unharmed\" and omits the specific cause of the fall (tripping on a stone), these omissions do not alter the core narrative facts or the overall meaning of the story, thus satisfying the requirement to cover the key aspects.",
+  "finish_reason": "stop",
+  "prompt_tokens": 533,
+  "completion_tokens": 170,
+  "total_tokens": 703,
+  "timestamp": "2026-09-23T07:44:05.274641+00:00"
+}

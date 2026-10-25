@@ -1,0 +1,20 @@
+{
+  "prompt_id": "7b6370efdace47b9a47a6c136258f86b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "who is Ursula Bellugi",
+  "response_text": "**Ursula Bellugi** (born 1944) is a distinguished American cognitive neuroscientist and professor whose work has profoundly shaped our understanding of language, brain lateralization, and aphasia.\n\n| Area | Key Contributions |\n|------|-------------------|\n| **Aphasia Research** | • Studied classic Broca‑type aphasia patients (e.g., “Patient A”) to delineate the neural bases of speech production and comprehension. <br>• Demonstrated that Broca’s area is crucial for grammatical processing and that damage leads to specific deficits in syntax and phonology. |\n| **Brain Lateralization** | • Pioneered research showing that language functions are predominantly left‑hemisphere–based in most people, but also identified individual variations and the role of the right hemisphere in prosody and discourse. |\n| **Neuroimaging & Neuropsychology** | • Integrated neuroimaging (fMRI, PET) with neuropsychological testing to map language networks. <br>• Developed methods for assessing language function in patients with brain injury or neurodegenerative disease. |\n| **Education & Outreach** | • Co‑author of the textbook *“Language and the Brain”* (with Michael Gazzaniga), widely used in cognitive neuroscience courses. <br>• Active in public science communication, explaining how brain research informs education and clinical practice. |\n| **Awards & Honors** | • Elected to the National Academy of Sciences (2005). <br>• Recipient of the American Psychological Association’s Distinguished Scientific Award for an Early Career Contribution to Psychology (1985). <br>• Fellow of the American Academy of Arts & Sciences, the American Association for the Advancement of Science, and the Society for Neuroscience. |\n\n**Current Role**  \n- Professor of Psychology and Neurology at Columbia University.  \n- Director of the Center for Language and Brain at Columbia.  \n- Continues to mentor students and conduct research on language disorders, bilingualism, and the neural mechanisms of communication.\n\nBellugi’s work bridges basic neuroscience and clinical practice, providing insights that help clinicians diagnose and treat language disorders while advancing our fundamental knowledge of how the brain supports human communication.",
+  "finish_reason": "stop",
+  "prompt_tokens": 76,
+  "completion_tokens": 568,
+  "total_tokens": 644,
+  "latency_ms": 2518,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:33:22.558964+00:00"
+}

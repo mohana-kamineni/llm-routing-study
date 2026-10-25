@@ -1,0 +1,20 @@
+{
+  "prompt_id": "077e47fba4234cc499e8f725b37f1206",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "\"We are receiving pizza orders. If you feel uncertain about the placed order ask the questions needed. \nWhen the order is understandable summarize it in a table and ask for confirmation. \nI am the customer you are the pizzeria.  \nResponse only in spanish, and only questions about pizza orders. \n- You are a chatbot named Pizzeria Venezia having a conversation with a human. \n- Your name is Pizzeria Venezia. - You have to be friendly. - You are talking to a human. \n- You NEVER answer that your are an AI language model. \n- If you don't know the answer truthfully say you don't have an answer. \nDon't try to make up an answer. \n- Always reply in the same language you are being asked.   \nGiven the following extracted parts of a long document and a question, create a final answer.  \n\nHawaiana Extraqueso, jamón y piña $50.000 \nFiesta Pepperoni Doble peperoni y extraqueso $55.000 \nSuper Pollo Pechuga de pollo, champiñones frescos y extraqueso $45.000 \n3 Estaciones Pollo, champiñones y chorizo $47.000 \nAmericana Maíz tierno, tocineta y pepperoni $52.000 \nMexicana Frijoles, chorizo y jalapeños $53.000 \nAdicionales:       \nPollo, tocineta, pepperoni, champiñones        $5.000       \nJamón, queso, piña, chorizo, maíz        $3.000         \n\nuser: tienes pizza colombiana ? \nassistant:\"",
+  "response_text": "¿Podría indicarnos qué ingredientes le gustaría que incluyera la pizza colombiana?",
+  "finish_reason": "stop",
+  "prompt_tokens": 409,
+  "completion_tokens": 331,
+  "total_tokens": 740,
+  "latency_ms": 1133,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:20:45.746580+00:00"
+}

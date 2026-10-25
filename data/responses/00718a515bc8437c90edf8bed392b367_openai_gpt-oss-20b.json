@@ -1,0 +1,20 @@
+{
+  "prompt_id": "00718a515bc8437c90edf8bed392b367",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a song to the tune of we are the champions, make the song about how great it is to lose",
+  "response_text": "**(Parody of “We Are the Champions” – “We Are the Losers”)**\n\n*(Verse 1)*  \nI’ve been down, I’ve been out,  \nI’ve been beaten, I’ve been left in doubt.  \nI’ve been the one who fell,  \nI’ve been the one who’s left to dwell.  \n\n*(Pre‑chorus)*  \nBut I’ve learned to laugh, I’ve learned to grin,  \nI’ve learned to let the loss begin.  \n\n*(Chorus)*  \nWe’re the losers, we’re the losers,  \nWe’re the losers, we’re the losers!  \n\n*(Verse 2)*  \nI’ve been the one who missed the mark,  \nI’ve been the one who left it dark.  \nI’ve been the one who lost the fight,  \nI’ve been the one who’s stuck in night.  \n\n*(Pre‑chorus)*  \nBut I’ve found the joy in every fail,  \nI’ve found the strength to set the sail.  \n\n*(Chorus)*  \nWe’re the losers, we’re the losers,  \nWe’re the losers, we’re the losers!  \n\n*(Bridge)*  \nWe’ve got the courage to admit we’re wrong,  \nWe’ve got the heart to keep on strong.  \nWe’ve got the pride to say it’s fine,  \nWe’ve got the soul to shine in time.  \n\n*(Chorus)*  \nWe’re the losers, we’re the losers,  \nWe’re the losers, we’re the losers!  \n\n*(Outro)*  \nWe’re the losers, we’re the losers,  \nWe’re the losers, we’re the losers!  \n\nFeel free to sing it to the same beat and rhythm as the original, but with these new, triumphant‑in‑defeat lyrics!",
+  "finish_reason": "stop",
+  "prompt_tokens": 93,
+  "completion_tokens": 670,
+  "total_tokens": 763,
+  "latency_ms": 792,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:53:11.027790+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "24208b95576248b89aea9a5b4b9f4dbc",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately extracts the keywords, provides a summary within the 10-word limit that captures the core meaning, correctly identifies the positive sentiment, identifies the brand \"Prada,\" and categorizes the text as \"Brands.\" All constraints and requirements from the source prompt are met.",
+  "finish_reason": "stop",
+  "prompt_tokens": 288,
+  "completion_tokens": 64,
+  "total_tokens": 352,
+  "timestamp": "2026-09-22T23:00:12.696251+00:00"
+}

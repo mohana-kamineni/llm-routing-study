@@ -1,0 +1,20 @@
+{
+  "prompt_id": "51897677932b4fc39cadafdbf687940d",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Summarize the following: New York (CNN)When Liana Barrientos was 23 years old, she got married in Westchester County, New York.\nA year later, she got married again in Westchester County, but to a different man and without divorcing her first husband.\nOnly 18 days after that marriage, she got hitched yet again. Then, Barrientos declared \"I do\" five more times, sometimes only within two weeks of each other.\nIn 2010, she married once more, this time in the Bronx. In an application for a marriage license, she stated it was her \"first and only\" marriage.\nBarrientos, now 39, is facing two criminal counts of \"offering a false instrument for filing in the first degree,\" referring to her false statements on the\n2010 marriage license application, according to court documents.\nProsecutors said the marriages were part of an immigration scam.\nOn Friday, she pleaded not guilty at State Supreme Court in the Bronx, according to her attorney, Christopher Wright, who declined to comment further.\nAfter leaving court, Barrientos was arrested and charged with theft of service and criminal trespass for allegedly sneaking into the New York subway through an emergency exit, said Detective\nAnnette Markowski, a police spokeswoman. In total, Barrientos has been married 10 times, with nine of her marriages occurring between 1999 and 2002.\nAll occurred either in Westchester County, Long Island, New Jersey or the Bronx. She is believed to still be married to four men, and at one time, she was married to eight men at once, prosecutors say.\nP",
+  "response_text": "**Summary**\n\nLiana Barrientos, now 39, has been married 10 times, nine of those between 1999‑2002, mostly in Westchester County, Long Island, New Jersey, and the Bronx. She has been accused of marrying multiple men without divorcing previous spouses, sometimes marrying again within days or weeks of a prior wedding. In 2010 she applied for a marriage license in the Bronx, claiming it was her “first and only” marriage, but prosecutors say it was part of an immigration scam. She faces two criminal counts of offering a false instrument for filing in the first degree. After pleading not guilty, she was arrested for theft of service and criminal trespass after allegedly entering the subway through an emergency exit. Prosecutors say she may still be married to four men and once was married to eight simultaneously.",
+  "finish_reason": "stop",
+  "prompt_tokens": 407,
+  "completion_tokens": 194,
+  "total_tokens": 601,
+  "latency_ms": 2692,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:45:12.652384+00:00"
+}

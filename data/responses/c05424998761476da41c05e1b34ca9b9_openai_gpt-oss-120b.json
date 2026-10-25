@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c05424998761476da41c05e1b34ca9b9",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Solve the riddle. \"I am the cotton no one can taste, visible always, melting in spades. Trees pray to me, as my dance can't be stopped by them. My guests are  the  densest birds, but the lightest balls.\"",
+  "response_text": "**Answer: Snow (or a snowfall)**  \n\n**How the clues fit**\n\n| Riddle line | Why it points to snow |\n|-------------|----------------------|\n| *“I am the cotton no one can taste”* | Snow looks soft and fluffy like a tuft of cotton, but it isn’t something you can actually eat or “taste” in the way cotton candy is. |\n| *“visible always, melting in spades”* | When it falls you can see it everywhere; when the temperature rises it melts in large amounts (“in spades”). |\n| *“Trees pray to me, as my dance can't be stopped by them.”* | Trees “pray” for snow in the sense that they wait for the winter‑time blanket that protects them, yet the swirling, drifting motion of snowflakes (their “dance”) is not halted by the branches – the flakes keep falling around and over the trees. |\n| *“My guests are the densest birds, but the lightest balls.”* | The “densest birds” are **penguins**, which live in snowy, icy regions. The “lightest balls” are **snowballs**, the playful, airy spheres made from the same snow. Both are natural “guests” of a snowfall. |\n\nAll together the description matches a snowfall of **snow**.",
+  "finish_reason": "stop",
+  "prompt_tokens": 124,
+  "completion_tokens": 1596,
+  "total_tokens": 1720,
+  "latency_ms": 3605,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:09:47.007650+00:00"
+}

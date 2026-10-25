@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ce25fef315d54af7acfa143b668ccd91",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the two intents present in the user's query \"play tera mera at volume 5\". It accurately maps \"play tera mera\" to the `Play` intent with the slot value \"tera mera\" and \"volume 5\" to the `Volume` intent with the slot value \"5\". The format follows the instructions (IntentName(SlotValue), no slot names, separated by new lines). There are no factual errors or contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 250,
+  "completion_tokens": 101,
+  "total_tokens": 351,
+  "timestamp": "2026-09-24T12:28:04.340792+00:00"
+}

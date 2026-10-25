@@ -1,0 +1,14 @@
+{
+  "prompt_id": "50278e00248b4d78bcc19706fc081717",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a comprehensive and accurate one-paragraph summary that covers all five required key aspects. It correctly identifies the date and time of withdrawal (Key Aspect 1), the referendum details including the date, vote percentage, and regional breakdown (Key Aspect 2), the political context involving Cameron, UKIP, and Eurosceptics (Key Aspect 3), the political consequences including Cameron's resignation, May's succession, and the completion of negotiations under Johnson (Key Aspect 4), and the legal implications regarding the primacy of EU law and the Withdrawal Act 2018 (Key Aspect 5). No critical information was omitted, and the facts presented are consistent with the source text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1073,
+  "completion_tokens": 148,
+  "total_tokens": 1221,
+  "timestamp": "2026-09-28T07:43:12.768422+00:00"
+}

@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "title": "Project 2 - 40-Prompt Model-Selection Pilot Run Summary",
+    "timestamp": "2026-09-13T12:54:48.883858+00:00",
+    "deterministic_settings": {
+      "temperature": 0.0,
+      "max_tokens": 1024
+    },
+    "rate_limits": {
+      "groq_delay_seconds": 2.5,
+      "openrouter_delay_seconds": 2.0
+    },
+    "prompt_count": 40,
+    "categories": [
+      "factual_qa",
+      "summarization",
+      "reasoning_math",
+      "creative"
+    ],
+    "verification_status": "All 40 prompt IDs verified identical across both models"
+  },
+  "models": {
+    "small": {
+      "model": "openai/gpt-oss-20b",
+      "provider": "groq",
+      "total_prompts": 40,
+      "successful_responses": 39,
+      "failed_responses": 1,
+      "total_retries": 3,
+      "errors": [
+        {
+          "prompt_id": "851f17192d1f48c4b9ae6a510907e44d",
+          "error": "Error code: 400 - {'error': {'message': 'Tool choice is none, but model called a tool', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '{\"name\": \"python\", \"arguments\": 258 * 5987}'}}"
+        }
+      ],
+      "tokens": {
+        "input": {
+          "total": 6682,
+          "min": 76,
+          "median": 98,
+          "mean": 171.33,
+          "max": 538
+        },
+        "output": {
+          "total": 27294,
+          "min": 35,
+          "median": 876,
+          "mean": 699.85,
+          "max": 1024
+        },
+        "total": {
+          "total": 33976,
+          "min": 121,
+          "median": 988,
+          "mean": 871.18,
+          "max": 1562
+        },
+        "reasoning": {
+          "total": 15719,
+          "min": 22,
+          "median": 256,
+          "mean": 403.05,
+          "max": 1022
+        }
+      },
+      "latency_seconds": {
+        "total": 99.17,
+        "min": 0.32,
+        "median": 1.38,
+        "mean": 2.54,
+        "max": 7.74
+      },
+      "response_length_chars": {
+        "min": 0,
+        "median": 719,
+        "mean": 1170.72,
+        "max": 4318
+      },
+      "category_breakdown": {
+        "factual_qa": {
+          "count": 10,
+          "avg_latency": 0.93,
+          "avg_output_tokens": 510.7,
+          "avg_chars": 818.8
+        },
+        "summarization": {
+          "count": 10,
+          "avg_latency": 1.02,
+          "avg_output_tokens": 680.9,
+          "avg_chars": 1284.0
+        },
+        "reasoning_math": {
+          "count": 9,
+          "avg_latency": 3.11,
+          "avg_output_tokens": 686.4,
+          "avg_chars": 885.9
+        },
+        "creative": {
+          "count": 10,
+          "avg_latency": 5.17,
+          "avg_output_tokens": 920.0,
+          "avg_chars": 1665.7
+        }
+      },
+      "anomalies": [
+        "Model returned by API: openai/gpt-oss-20b",
+        "Empty responses returned on prompt IDs: ['58210e39b3fd4441a2bd4a518bb44c2d', 'c284f2bf6c7243b5aad2b5539fec9866', '119b348113a84b44a1fed88ac181fdc2', '61320a80c6e149559d74b4de88b6233a', 'b0c343364ffb458083fed7b573bfce0f', '4e6446c00a2447d0ad09c58ce942e2c5', '859c561d217746fb865dc5328152abb5']",
+        "Model generates reasoning tokens (total: 15719, avg: 403.1)"
+      ]
+    },
+    "large": {
+      "model": "nvidia/nemotron-3-ultra-550b-a55b-20260604:free",
+      "provider": "openrouter",
+      "total_prompts": 40,
+      "successful_responses": 40,
+      "failed_responses": 0,
+      "total_retries": 10,
+      "errors": [],
+      "tokens": {
+        "input": {
+          "total": 5044,
+          "min": 21,
+          "median": 43.5,
+          "mean": 126.1,
+          "max": 560
+        },
+        "output": {
+          "total": 28205,
+          "min": 21,
+          "median": 960.5,
+          "mean": 705.12,
+          "max": 1024
+        },
+        "total": {
+          "total": 33249,
+          "min": 44,
+          "median": 1014.0,
+          "mean": 831.23,
+          "max": 1584
+        },
+        "reasoning": {
+          "total": 6315,
+          "min": 11,
+          "median": 86.0,
+          "mean": 157.88,
+          "max": 872
+        }
+      },
+      "latency_seconds": {
+        "total": 3578.97,
+        "min": 53.09,
+        "median": 75.26,
+        "mean": 89.47,
+        "max": 246.37
+      },
+      "response_length_chars": {
+        "min": 12,
+        "median": 2802.5,
+        "mean": 2249.0,
+        "max": 4367
+      },
+      "category_breakdown": {
+        "factual_qa": {
+          "count": 10,
+          "avg_latency": 68.01,
+          "avg_output_tokens": 579.5,
+          "avg_chars": 1999.3
+        },
+        "summarization": {
+          "count": 10,
+          "avg_latency": 106.8,
+          "avg_output_tokens": 673.7,
+          "avg_chars": 2143.4
+        },
+        "reasoning_math": {
+          "count": 10,
+          "avg_latency": 90.65,
+          "avg_output_tokens": 650.7,
+          "avg_chars": 1518.3
+        },
+        "creative": {
+          "count": 10,
+          "avg_latency": 92.44,
+          "avg_output_tokens": 916.6,
+          "avg_chars": 3335.0
+        }
+      },
+      "anomalies": [
+        "Model returned by API: nvidia/nemotron-3-ultra-550b-a55b:free",
+        "Model generates reasoning tokens (total: 6315, avg: 157.9)"
+      ]
+    }
+  }
+}

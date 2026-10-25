@@ -1,0 +1,14 @@
+{
+  "prompt_id": "cce7a2ef6b1740029e24651f4a1d3246",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to satisfy the explicit constraint that \"every line Rhymes.\" While the poem uses a consistent rhyme scheme (AABB or AAAA depending on stanza interpretation), it relies heavily on the word \"bug\" and the phrase \"suck—a bug\" to force rhymes. More critically, the rhymes are often nonsensical or grammatically incorrect (e.g., rhyming \"hitreg\" with \"suck\" is not a valid rhyme; rhyming \"bug\" with \"suck\" is not a valid rhyme). The prompt requires lines to rhyme, implying a valid phonetic match at the end of lines. The response uses repetition and forced, non-rhyming words to create a false sense of structure, violating the core creative constraint. Additionally, the content is repetitive and lacks the specific variety of jokes requested (e.g., it mentions hitreg and market, but the execution is poor due to the broken rhyme scheme).",
+  "finish_reason": "stop",
+  "prompt_tokens": 447,
+  "completion_tokens": 201,
+  "total_tokens": 648,
+  "timestamp": "2026-09-22T17:04:51.440442+00:00"
+}

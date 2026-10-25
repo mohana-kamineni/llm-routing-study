@@ -1,0 +1,14 @@
+{
+  "prompt_id": "afa69f88459c43d2b93a02a06337801f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately captures the central argument of the source text, which contrasts the author's view of \"antiblack necropower\" as corporeal and nomadic with Mbembe's spatial framing. It correctly identifies the key biological components (endocrine, organ, neural, cellular) mentioned in the text and explains how this perspective challenges the assumption that socioeconomic mobility alone can resolve racial health disparities, particularly regarding reproductive health for black women. The summary is concise, factually accurate, and covers all essential aspects of the provided excerpt without omitting critical information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 830,
+  "completion_tokens": 118,
+  "total_tokens": 948,
+  "timestamp": "2026-09-22T17:16:21.287461+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "50ba6efee2c14949b45123b1bd740e13",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "please summarize:\n\nLast year, we started to ask ourselves whether Dota was well-served by having this single focal point around which all content delivery was designed. Each step we had taken made sense when considered independently: any single piece of content would be more valuable when bundled as part of the Battle Pass, so we bundled more and more. This led to a momentous content drop every year, but it also greatly limited our ability to do things that were exciting and valuable for players but didn't fit into the Battle Pass reward line.\n\nWhen we recognized this, we made a deliberate choice earlier this year to run an experiment: to take some of the resources that would normally produce Battle Pass content and instead put them towards more speculative updates, including features and content that couldn't fit into a Battle Pass. While work is still in progress on future updates, the first of these has shipped: New Frontiers and patch 7.33 couldn't have shipped as they did if we were focusing all our efforts on producing Battle Pass content.\n\nMost Dota players never buy a Battle Pass and never get any rewards from it. Every Dota player has gotten to explore the new map, play with the new items, and accidentally die to a Tormentor; every Dota player benefits from UI improvements and new client features. Community response to New Frontiers has helped us build confidence that working less on cosmetic content for the Battle Pass and more on a variety of exciting updates is the right long-term path for Dota as both a game and a community.",
+  "response_text": "**Summary**\n\nLast year the Dota team questioned whether centering all content around the Battle Pass was optimal. While bundling content into the Pass made each piece seem more valuable, it also constrained the ability to deliver updates that didn’t fit the Pass format. To test a new approach, the team redirected some Battle Pass resources toward experimental features and non‑Pass content. The first result of this shift was the “New Frontiers” update and patch 7.33, which could not have been released if all effort had remained focused on the Battle Pass. Since most players never purchase a Pass, the broader benefits—new maps, items, UI improvements, and other client features—reach the entire community. Positive player feedback to New Frontiers has reinforced the belief that allocating fewer resources to cosmetic Battle Pass content and more to diverse, exciting updates is the better long‑term strategy for Dota and its community.",
+  "finish_reason": "stop",
+  "prompt_tokens": 376,
+  "completion_tokens": 205,
+  "total_tokens": 581,
+  "latency_ms": 552,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:57:25.767889+00:00"
+}

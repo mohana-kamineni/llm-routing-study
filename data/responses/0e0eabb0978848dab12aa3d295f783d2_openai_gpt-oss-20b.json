@@ -1,0 +1,20 @@
+{
+  "prompt_id": "0e0eabb0978848dab12aa3d295f783d2",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a letter to the editor",
+  "response_text": "Sure! Could you let me know what topic or issue you’d like the letter to address? That way I can tailor it to your needs.",
+  "finish_reason": "stop",
+  "prompt_tokens": 77,
+  "completion_tokens": 162,
+  "total_tokens": 239,
+  "latency_ms": 4354,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:27:12.354870+00:00"
+}

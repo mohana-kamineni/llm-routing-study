@@ -1,0 +1,20 @@
+{
+  "prompt_id": "fe3fd5ec6c924824ad86d716a9b3fb45",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "(3064) RACISM! | Disco Elysium Out of Context - YouTube\nhttps://www.youtube.com/watch?v=QUcfAeB79Io\n\nSummary next text: \"\n(00:01) [Music] there's only one way to do this digital cup style four extra contents you know when i picked hopeful cup i didn't quite think that the fullest implication of hobokop would in fact like i didn't expect to be tested [Laughter] oh you thought i thought i would just be able to say i'm a hobo cop without actually being a humble crowd you gotta live it you gotta be it you gotta breathe i just wanna come back no i just wanted to be a poser you know i just wanted to put your little toe in the hobo cup pool yeah just and just be\n(00:44) like haha imma push you in that pool hobo cop and then like when the garbage shows up you're like um i'm good tell me how the waters are huh there must be something all you see is a broken mug with a racist depiction of the yellow man frolicking in saffron wow an antique take the mug well here let's just do this it's just a racist mug it's quite a lot to read into here actually look at all that content i love that it calls it content it's like you know you know you [ __ ] you get it you know but even in a single\n(01:25) player context where you're not playing and no one else is watching what you're doing it's still content yeah oh boy here we go all right let's go all right the game wants to know more about you what's up with that the mug didn't belong in the trash it was just a funny mug can anyone laugh anymore [Laughter] it's just a joke why are you",
+  "response_text": "**Summary of the transcript (0:01 – 1:25)**  \n\n- The speaker jokes about “digital cup style” content and references picking the “hopeful cup” (a “hobo cop” role‑play option) in *Disco Elysium*.  \n- He admits he didn’t anticipate how deeply the game would test that choice, expecting only to claim the “hobo cop” label without actually embodying it.  \n- The humor shifts to a meta‑commentary: the speaker pretends to “push” someone into the “hobo cop” mindset, then reacts to a garbage‑related scene where a broken mug with a racist caricature of an Asian (“yellow man”) appears.  \n- He treats the mug as “just a racist mug,” noting how the game calls even such a prop “content.” He jokes about the absurdity of analyzing it, while also acknowledging that, even in a single‑player experience with no audience, the mug is still “content” the game wants the player to engage with.  \n- The monologue ends with a self‑aware laugh about the mug being “just a joke,” questioning whether anyone can still find humor in it.  \n\nOverall, the clip satirically critiques how *Disco Elysium* forces players to confront uncomfortable, potentially offensive in‑game items (like the racist mug) and how the game frames every element—no matter how trivial or problematic—as meaningful “content” that the player must process. The speaker oscillates between mocking the seriousness of the game’s moral probing and acknowledging the discomfort such content can generate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 430,
+  "completion_tokens": 393,
+  "total_tokens": 823,
+  "latency_ms": 1060,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:58:02.560470+00:00"
+}

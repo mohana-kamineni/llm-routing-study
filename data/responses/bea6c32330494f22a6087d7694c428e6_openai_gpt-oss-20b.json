@@ -1,0 +1,20 @@
+{
+  "prompt_id": "bea6c32330494f22a6087d7694c428e6",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is Jacques Cousteau?",
+  "response_text": "**Jacques Cousteau** (1910 – 1997) was a French marine explorer, oceanographer, filmmaker, and environmental advocate who helped bring the wonders of the underwater world to the public.  \n\n- **Early life & career**: Born in Saint-Jean-Cap-Ferrat, France, he joined the French Navy in 1930 and served in the Pacific during World II.  \n- **Aqua‑Lung**: In 1943, he co‑invented the first practical open‑water scuba set (the Aqua‑Lung), revolutionizing underwater diving.  \n- **Documentaries**: Cousteau produced and narrated dozens of popular TV series and films—most famously *The Undersea World of Jacques Cousteau* (1968–1976) and *The Silent World* (1956, with Louis Malle). These works introduced millions to marine life and the fragility of ocean ecosystems.  \n- **Scientific contributions**: He pioneered deep‑sea research, mapping the ocean floor, studying marine biology, and developing techniques for underwater photography and filmmaking.  \n- **Environmental activism**: Cousteau was an early advocate for marine conservation, warning about pollution, overfishing, and the need to protect coral reefs and other habitats.  \n- **Legacy**: His work inspired generations of marine scientists, divers, and environmentalists. The Cousteau Society, founded in 1973, continues his mission of ocean stewardship.  \n\nCousteau’s blend of scientific rigor, cinematic storytelling, and passionate advocacy made him a global icon for ocean exploration and conservation.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 415,
+  "total_tokens": 493,
+  "latency_ms": 813,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:36:12.645620+00:00"
+}

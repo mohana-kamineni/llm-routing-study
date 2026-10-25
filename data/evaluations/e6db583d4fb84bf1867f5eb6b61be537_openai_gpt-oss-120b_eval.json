@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e6db583d4fb84bf1867f5eb6b61be537",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response fully satisfies all evaluation dimensions. It addresses the prompt's request for a city, region, and kingdom in a dark fantasy setting with high creativity and specificity, avoiding generic tropes (e.g., the city is built on a leviathan's ribcage, the region is a canyon of sentient glass, and the kingdom is ruled by a triad including a living statue). The narrative structure is coherent, with clear logical connections between the three layers (e.g., the city's resources fuel the kingdom's economy, and the region acts as a borderland). The response is complete, covering all requested elements without truncation. There are no explicit constraints in the prompt regarding word count or formatting that were violated; the use of headers and bullet points enhances readability.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2011,
+  "completion_tokens": 162,
+  "total_tokens": 2173,
+  "timestamp": "2026-09-28T07:45:01.612736+00:00"
+}

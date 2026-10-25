@@ -1,0 +1,14 @@
+{
+  "prompt_id": "61320a80c6e149559d74b4de88b6233a",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\n**Rationale:**\nThe response contains a significant factual error in the `from_person_name` field. \n1. **OCR Analysis**: Frame 1 lists the sender as \"nnicks uk ltd Torty Shona\". Frame 2 lists the sender as \"Renniks uk ltd Torty Shona\". The name \"Torty Shona\" appears consistently in both frames (despite potential OCR noise, it is the only candidate for the sender's name).\n2. **Response Error**: The response sets `from_person_name` to \"Andrew Forsyth\". \"Andrew Forsyth\" is clearly the **recipient** (`to_person_name`), as indicated by the \"Ti:\" (To) section in Frame 1 and \"Te:\" (To) section in Frame 2, as well as the \"Contact andrew forsyth\" line which typically refers to the consignee in this context or is a duplicate of the recipient name. The sender's name is distinct (\"Torty Shona\").\n3. **Other Errors**: The response also fails to correctly identify the `from_company_name` via majority voting if \"nnicks\" vs \"Renniks\" is ambiguous, but more critically, it hallucinates the sender's name by copying the recipient's name. Additionally, the `from_address` includes \"WAT 155\" which is likely an OCR error for a postcode (e.g., WA15 5...), but the primary failure is the incorrect person name.\n\nTherefore, the response does not correctly solve the problem.",
+  "finish_reason": "stop",
+  "prompt_tokens": 922,
+  "completion_tokens": 327,
+  "total_tokens": 1249,
+  "timestamp": "2026-09-23T00:50:03.697594+00:00"
+}

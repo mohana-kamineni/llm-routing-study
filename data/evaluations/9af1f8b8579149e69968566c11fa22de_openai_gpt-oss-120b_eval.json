@@ -1,0 +1,14 @@
+{
+  "prompt_id": "9af1f8b8579149e69968566c11fa22de",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the question as a reference to the famous *Monty Python* sketch, which is the primary cultural context for this query. It accurately notes that the \"correct\" answer in the joke is that one must specify the species (African vs. European). Furthermore, the response provides a scientifically plausible estimate for the airspeed of a European swallow (approx. 24 mph / 11 m/s), which aligns with general ornithological data for the species. There are no false contradictions or factual errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 339,
+  "completion_tokens": 115,
+  "total_tokens": 454,
+  "timestamp": "2026-09-23T07:44:02.507858+00:00"
+}

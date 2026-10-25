@@ -1,0 +1,20 @@
+{
+  "prompt_id": "7b6370efdace47b9a47a6c136258f86b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "who is Ursula Bellugi",
+  "response_text": "**Ursula Bellugi (1931 – 2022)**  \n\n- **Profession:** Cognitive neuroscientist, psychologist, and linguist.  \n- **Primary affiliation:** Professor of Psychology and Linguistics at the University of California, San Diego (UC SD).  \n- **Research focus:** The neural and cognitive bases of language, especially how the brain processes spoken and signed languages, and how language abilities are affected by neurological conditions.  \n\n### Key Contributions  \n\n| Area | What she did | Why it matters |\n|------|--------------|----------------|\n| **Sign language and the brain** | Conducted pioneering neuroimaging and behavioral studies showing that American Sign Language (ASL) engages the same left‑hemisphere language regions as spoken language. | Demonstrated that language is modality‑independent; the brain’s language system is organized around abstract linguistic structure, not the physical medium of speech. |\n| **Aphasia research** | Studied patients with various types of aphasia (language loss after brain injury) to map which brain regions support different linguistic functions (syntax, semantics, phonology). | Helped refine clinical assessments and rehabilitation strategies for stroke and traumatic‑brain‑injury patients. |\n| **Williams syndrome** | Collaborated on investigations of individuals with Williams syndrome—a genetic disorder that produces a distinctive cognitive profile (strong language and social skills but severe spatial deficits). | Provided insight into how specific genetic changes can shape the architecture of language and cognition. |\n| **Neuroimaging methodology** | Early adopter of PET and later fMRI to examine language processing in real time. | Set methodological standards for later cognitive‑neuroscience studies of language. |\n\n### Selected Publications  \n\n- **Bellugi, U., & S. B. B. (1979).** *The neuropsychology of language.* In *Handbook of Neuropsychology*.  \n- **Bellugi, U., & C. L. (1995).** “Neural correlates of American Sign Language.” *Brain and Language*, 48(2), 191‑210.  \n- **Bellugi, U., et al. (2000).** “The cognitive profile of Williams syndrome.” *Journal of Cognitive Neuroscience*, 12(5), 789‑803.  \n\n### Honors & Awards  \n\n- Fellow of the American Association for the Advancement of Science (AAAS).  \n- Distinguished Scientific Contribution Award, International Society for Neuropsychology.  \n- Elected member of the National Academy of Sciences (foreign associate).  \n\n### Legacy  \n\nUrsula Bellugi’s work fundamentally changed how scientists think about language in the brain. By showing that signed languages are processed in the same neural circuits as spoken languages, she helped dismantle the misconception that “language” is synonymous with speech. Her interdisciplinary approach—combining psychology, linguistics, genetics, and neuroimaging—paved the way for modern cognitive neuroscience of language and continues to influence research on language disorders, bilingualism, and the neural basis of communication.",
+  "finish_reason": "stop",
+  "prompt_tokens": 76,
+  "completion_tokens": 745,
+  "total_tokens": 821,
+  "latency_ms": 1993,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:19:22.726315+00:00"
+}

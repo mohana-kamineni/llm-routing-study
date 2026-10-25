@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b0bc07be819144c2852dbddb832cf286",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains a significant factual contradiction. It states that Montpellier is \"situated on the Mediterranean coast\" but simultaneously claims it is \"about 30 km (18 mi) inland from the coast.\" Montpellier is an inland city located approximately 30 km from the Mediterranean Sea; it is not situated on the coast itself. While the distance provided is accurate, the description of the city being \"on the coast\" is factually incorrect and contradicts the \"inland\" statement within the same sentence.",
+  "finish_reason": "stop",
+  "prompt_tokens": 244,
+  "completion_tokens": 113,
+  "total_tokens": 357,
+  "timestamp": "2026-09-22T16:55:27.822104+00:00"
+}

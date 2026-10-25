@@ -1,0 +1,20 @@
+{
+  "prompt_id": "5e0fa49e7eab4270a70752493cc85c48",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about love",
+  "response_text": "**Love, a Quiet Fire**\n\nIn the hush between two breaths  \nthere is a spark that refuses to dim,  \na quiet fire that lingers  \nin the corners of our eyes.\n\nIt is not the thunder of a storm,  \nnor the blaze of a summer noon—  \nit is the steady glow of a candle  \nlit in the dark, steady and sure.\n\nIt is the way a hand finds another’s,  \nthe unspoken promise in a touch,  \nthe rhythm of two hearts beating  \nin sync, even when the world turns slow.\n\nLove is the soft echo of laughter,  \nthe shared silence after a storm,  \nthe memory of a song that lingers  \nlong after the last note fades.\n\nIt is the courage to be seen,  \nto lay bare the scars and the dreams,  \nto walk together through the unknown,  \nhand in hand, heart to heart.\n\nIn the quiet moments, love whispers,  \n“Here, in this space, we are enough.”  \nAnd in that whisper, we find the truth:  \nLove is not a fleeting flame,  \nbut a steady, enduring light—  \na quiet fire that keeps us warm,  \nno matter how cold the night.",
+  "finish_reason": "stop",
+  "prompt_tokens": 76,
+  "completion_tokens": 289,
+  "total_tokens": 365,
+  "latency_ms": 676,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:00:11.372110+00:00"
+}

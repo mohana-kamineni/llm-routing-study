@@ -1,0 +1,20 @@
+{
+  "prompt_id": "8dbe1942e8cb4b9cbab5cb0f4bcf7957",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "A 60-year-old woman presents to her primary care physician for a wellness checkup. She has a past medical history of hypertension and was discharged from the hospital yesterday after management of a myocardial infarction. She states that sometimes she experiences exertional angina. Her temperature is 99.5\\u00b0F (37.5\\u00b0C), blood pressure is 147/98 mmHg, pulse is 90/min, respirations are 17/min, and oxygen saturation is 98% on room air. Physical exam is within normal limits. Which of the following is the best next step in management? option a: Atenolol, option b: Furosemide, option c: Hydrochlorothiazide, option d: Nitroglycerin",
+  "response_text": "**Answer: a. Atenolol**\n\n**Rationale**\n\n- The patient has just been discharged after an acute myocardial infarction (MI) and continues to have exertional angina.  \n- Beta‑blockers are a cornerstone of therapy after MI because they:\n  - Reduce myocardial oxygen demand by lowering heart rate, contractility, and blood pressure.  \n  - Decrease the risk of recurrent ischemia, arrhythmias, and mortality.  \n  - Provide symptomatic relief of angina.  \n\n- Among the options, atenolol (a cardio‑selective β₁‑blocker) directly addresses both her hypertension and post‑MI angina, making it the most appropriate next step.\n\n- **Furosemide** and **hydrochlorothiazide** are antihypertensive diuretics but do not treat angina and are not first‑line after MI unless there is volume overload or resistant hypertension.  \n- **Nitroglycerin** can relieve acute angina episodes, but it does not provide the long‑term mortality benefit and secondary‑prevention effects that beta‑blockers do. It would be used for acute symptom relief, not as the primary next step in chronic management.\n\nThus, initiating a beta‑blocker such as atenolol is the best next step in management for this patient.",
+  "finish_reason": "stop",
+  "prompt_tokens": 229,
+  "completion_tokens": 384,
+  "total_tokens": 613,
+  "latency_ms": 969,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:13:37.442207+00:00"
+}

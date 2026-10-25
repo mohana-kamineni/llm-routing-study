@@ -1,0 +1,20 @@
+{
+  "prompt_id": "66d499d011664ab5b1dc5299d6e45b36",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "TLDR means “Too Long; Didn’t Read.” It is used to introduce or request a summary of a lengthy text1\n\nHere is a TLDR of the current web page context:\n\nLangChain is a framework for developing applications powered by language models. It allows language models to interact with their environment, call other utilities, and have memory and data. This page is the Python documentation for LangChain. It contains guides, tutorials, concepts, and references for using LangChain modules, integrations, and use cases. It also provides links to additional resources such as LangChainHub, Gallery, Deployments, Tracing, Model Laboratory, Discord, YouTube, and Production Support.",
+  "response_text": "Got it! If you need a quick recap or a deeper dive into any part of the LangChain docs, just let me know.",
+  "finish_reason": "stop",
+  "prompt_tokens": 207,
+  "completion_tokens": 2761,
+  "total_tokens": 2968,
+  "latency_ms": 58532,
+  "retries": 4,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:48:05.609291+00:00"
+}

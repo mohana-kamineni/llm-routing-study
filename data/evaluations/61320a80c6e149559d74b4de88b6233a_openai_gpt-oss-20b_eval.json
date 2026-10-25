@@ -1,0 +1,14 @@
+{
+  "prompt_id": "61320a80c6e149559d74b4de88b6233a",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response contains multiple substantive errors in the extracted data, failing to correctly apply the \"majority voting\" logic or correct OCR errors where the correct information was available in the frames:\n\n1.  **From Person Name**: The response lists \"Andrew Forsyth\". However, the \"From\" section in both frames lists \"Torty Shona\" (Frame 1) and \"Torty Shona\" (Frame 2, implied by context/OCR similarity, though Frame 2 cuts off, Frame 1 is clear). \"Andrew Forsyth\" is the *Contact* person and the *To* person. The model incorrectly assigned the To person's name to the From person field.\n2.  **To Person Name**: The response lists \"Julie Rivers\". The text in both frames clearly states \"andre forsyth\" (Frame 1) and \"andrew forsth\" (Frame 2). \"Julie Rivers\" is part of the street address (\"Julie Rivers Drive\"). The model incorrectly extracted the street name as the person's name.\n3.  **From Company Name**: The response lists \"Renniks UK Ltd\". Frame 1 says \"nnicks uk ltd\" and Frame 2 says \"Renniks uk ltd\". While \"Renniks\" is a plausible correction for \"nnicks\", the model failed to correct the \"From Person\" which is a more obvious error. More critically, the error in the To Person name is a definitive failure.\n4.  **Tracking/Waybill Numbers**: The response lists \"1845253740\" for both. Frame 1 shows \"WAYBILL 18 4525 3340\" and a separate number \"1845253740\". Frame 2 is cut off. The model likely guessed or conflated the numbers. The Waybill number in Frame 1 is explicitly \"18 4525 3340\" (or 1845253340), not 1845253740.\n\nDue to the incorrect extraction of the \"To Person Name\" (using the street name) and \"From Person Name\" (using the contact/to name), the response is incorrect.",
+  "finish_reason": "stop",
+  "prompt_tokens": 922,
+  "completion_tokens": 485,
+  "total_tokens": 1407,
+  "timestamp": "2026-09-19T17:08:15.589261+00:00"
+}

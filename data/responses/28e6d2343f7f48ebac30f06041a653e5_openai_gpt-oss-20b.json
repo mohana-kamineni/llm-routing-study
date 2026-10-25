@@ -1,0 +1,20 @@
+{
+  "prompt_id": "28e6d2343f7f48ebac30f06041a653e5",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Adam has 10 apples. He gives 4 of these to Bob who in turn gives half of his apples to Charlie. Charlie eats two of his apples and then gives half of his apples to Adam. Now Adam has 10 apples again. How many apples does everybody have now?",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 128,
+  "completion_tokens": 4096,
+  "total_tokens": 4224,
+  "latency_ms": 34084,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:20:59.715457+00:00"
+}

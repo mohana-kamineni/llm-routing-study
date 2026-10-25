@@ -1,0 +1,20 @@
+{
+  "prompt_id": "cfa7013d4dca4451a0a8098aa0d5f29d",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "27+x=56. Solve for x",
+  "response_text": "To find \\(x\\):\n\n\\[\n27 + x = 56 \\quad\\Longrightarrow\\quad x = 56 - 27 = 29\n\\]\n\nSo, \\(x = \\boxed{29}\\).",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 84,
+  "total_tokens": 163,
+  "latency_ms": 233,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:07:02.023982+00:00"
+}

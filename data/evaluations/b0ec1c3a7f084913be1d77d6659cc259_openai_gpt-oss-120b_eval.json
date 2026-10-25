@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b0ec1c3a7f084913be1d77d6659cc259",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly applies the Tsiolkovsky rocket equation. It accurately calculates the effective exhaust velocity ($v_e = I_{sp} \\cdot g_0 \\approx 3530.4$ m/s), correctly determines the mass ratio ($e^{\\Delta v / v_e} \\approx 13.18$), and solves for the final mass ($m_f \\approx 75,900$ kg or 75.9 t). All steps are logically sound and the arithmetic is correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1048,
+  "completion_tokens": 119,
+  "total_tokens": 1167,
+  "timestamp": "2026-09-28T07:46:23.848875+00:00"
+}

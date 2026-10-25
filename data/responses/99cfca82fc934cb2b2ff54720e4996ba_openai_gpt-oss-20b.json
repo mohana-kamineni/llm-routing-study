@@ -1,0 +1,20 @@
+{
+  "prompt_id": "99cfca82fc934cb2b2ff54720e4996ba",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is donald trump?",
+  "response_text": "Donald Trump (born June 14, 1946) is an American businessman, television personality, and politician who served as the 45th President of the United States from January 20, 2017, to January 20, 2021. He is best known for:\n\n- **Business career**: He took over his family’s real‑estate business in the 1970s, expanding it into a large portfolio of office buildings, hotels, casinos, and golf courses, and became a prominent figure in New York real‑estate and branding.\n- **Television**: He hosted the reality‑TV show *The Apprentice* (2004–2015), which helped raise his public profile.\n- **Political career**: Trump announced his candidacy for president in 2015 as a Republican, won the 2016 election against Democratic nominee Hillary Clinton, and served one term. His presidency was marked by a focus on immigration restrictions, tax cuts, deregulation, a “America First” foreign‑policy stance, and a highly polarized media environment.\n- **Post‑presidency**: After leaving office, he remained active in politics, endorsing candidates, and has been involved in various legal and business matters. He announced a second presidential run in 2023 and won the Republican nomination for the 2024 election.\n\nTrump’s public life has been highly controversial, with supporters praising his business acumen and outsider stance, while critics point to his rhetoric, policy decisions, and conduct as divisive and damaging to democratic norms.",
+  "finish_reason": "stop",
+  "prompt_tokens": 77,
+  "completion_tokens": 385,
+  "total_tokens": 462,
+  "latency_ms": 866,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:32:19.325417+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "750f39b318c944d986212ab749d3d9cd",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to cover Key Aspect 5, which requires mentioning that the GNU General Public License Version 3 was released on June 29, 2007, by the Free Software Foundation, Inc. While the summary correctly identifies the FSF and the nature of the license, it omits the specific version number (v3) and the release date, which are explicitly listed as required key aspects in the evaluation criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 813,
+  "completion_tokens": 95,
+  "total_tokens": 908,
+  "timestamp": "2026-09-22T16:55:09.731306+00:00"
+}

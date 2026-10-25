@@ -1,0 +1,14 @@
+{
+  "prompt_id": "39e5a32512814e27b4ccdc01583aece9",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response is factually accurate. The Moon is a natural satellite and not a sovereign state, so it does not have a president or any form of government. The explanation provided correctly identifies the Moon's status and the entities (space agencies, international agreements) that govern activities there, without introducing any false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 242,
+  "completion_tokens": 69,
+  "total_tokens": 311,
+  "timestamp": "2026-09-22T17:08:46.542554+00:00"
+}

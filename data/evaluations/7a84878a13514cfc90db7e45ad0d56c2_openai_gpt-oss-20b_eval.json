@@ -1,0 +1,14 @@
+{
+  "prompt_id": "7a84878a13514cfc90db7e45ad0d56c2",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response strictly adheres to all explicit constraints and requirements of the prompt:\n1.  **Role Adherence**: It acts as the interviewer from ABC Company.\n2.  **Constraint Compliance**: It does not write the entire conversation at once; it asks only one question. It does not provide explanations.\n3.  **Specific Instruction**: It correctly asks for the candidate's introduction first, as explicitly requested (\"Ask for their introduction first\").\n4.  **Flow**: It acknowledges the user's \"Hi\" and waits for the answer, maintaining the interactive interview format.\n\nThe response is relevant, coherent, complete for the current turn, and fully compliant with the negative constraints (no explanations, no multi-turn generation).",
+  "finish_reason": "stop",
+  "prompt_tokens": 355,
+  "completion_tokens": 155,
+  "total_tokens": 510,
+  "timestamp": "2026-09-22T17:11:06.520766+00:00"
+}

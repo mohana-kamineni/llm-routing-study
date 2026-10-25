@@ -1,0 +1,20 @@
+{
+  "prompt_id": "a3cfecd42f5d430aa9a360e18ae647e0",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a poem about lemons",
+  "response_text": "**Lemon Sonnets**\n\nIn sunrise’s glass the golden orb appears,  \nA tiny sun that fell to earth’s own skin,  \nIts rind a citrine armor, bright with cheers,  \nIts scent—a promise of the zest within.  \n\nA bite, a spark—sharp laughter on the tongue,  \nA tartness that awakens sleepy dreams,  \nIt turns the mundane into songs unsung,  \nAnd paints the world in citrus‑colored beams.  \n\nFrom blossom white to blossom yellow bright,  \nThe lemon climbs the branch with humble grace,  \nA humble fruit that turns the day to light,  \nAnd seasons sorrow with a fragrant face.  \n\nSo raise a glass of lemonade, my friend—  \nTo lemons, nature’s bright, electric blend.",
+  "finish_reason": "stop",
+  "prompt_tokens": 76,
+  "completion_tokens": 190,
+  "total_tokens": 266,
+  "latency_ms": 453,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:20:23.565927+00:00"
+}

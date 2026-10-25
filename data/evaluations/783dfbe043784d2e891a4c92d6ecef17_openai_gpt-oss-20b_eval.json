@@ -1,0 +1,14 @@
+{
+  "prompt_id": "783dfbe043784d2e891a4c92d6ecef17",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to adequately summarize the content for several reasons:\n1.  **Incorrect Diagnosis**: The response concludes the equipment is \"abnormal\" because the flow rate (0.0) is below the minimum range (0.004). However, the source text explicitly states that if \"whether_to_provide_heat\" is off, a flow rate of 0 is expected and considered **normal** (as confirmed by the Little Helper's analysis in the source). The diagnostic rules provided in the prompt do not flag a zero flow rate as abnormal when heating is off; they only flag it if heating is *on* or if the flow is *much greater* than the range. Therefore, the correct diagnosis is \"normal\".\n2.  **Omission of Key Aspects**: The response omits the specific operational parameters (Aspect 1), the detailed diagnostic logic regarding heat status and time ranges (Aspect 2), and the Little Helper's preliminary analysis (Aspect 4). It only addresses a misinterpretation of Aspect 3.\n3.  **Format Error**: The response uses the key `\"why\"` (lowercase) instead of the required key `\"Why\"` (capitalized) as specified in Aspect 5 and the example template.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1035,
+  "completion_tokens": 263,
+  "total_tokens": 1298,
+  "timestamp": "2026-09-22T17:14:23.029552+00:00"
+}

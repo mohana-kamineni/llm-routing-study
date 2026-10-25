@@ -1,0 +1,20 @@
+{
+  "prompt_id": "0ac617966f5d48b9b7a4af63e59e847e",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "solve this equation -3x²+5x-4=2x-5",
+  "response_text": "To solve  \n\n\\[\n-3x^{2}+5x-4=2x-5\n\\]\n\nbring all terms to one side:\n\n\\[\n-3x^{2}+5x-4-2x+5=0 \\;\\Longrightarrow\\; -3x^{2}+3x+1=0.\n\\]\n\nMultiply by \\(-1\\) to make the leading coefficient positive:\n\n\\[\n3x^{2}-3x-1=0.\n\\]\n\nUse the quadratic formula \\(x=\\dfrac{-b\\pm\\sqrt{b^{2}-4ac}}{2a}\\) with  \n\\(a=3,\\; b=-3,\\; c=-1\\):\n\n\\[\nx=\\frac{-(-3)\\pm\\sqrt{(-3)^{2}-4(3)(-1)}}{2(3)}\n   =\\frac{3\\pm\\sqrt{9+12}}{6}\n   =\\frac{3\\pm\\sqrt{21}}{6}.\n\\]\n\nSo the solutions are\n\n\\[\n\\boxed{\\,x=\\dfrac{3+\\sqrt{21}}{6}\\quad\\text{or}\\quad x=\\dfrac{3-\\sqrt{21}}{6}\\,}\n\\]\n\n(Equivalently, \\(x=\\tfrac12 \\pm \\tfrac{\\sqrt{21}}{6}\\).)\n\nNumerically,  \n\\(x \\approx 1.264\\) or \\(x \\approx -0.264\\).",
+  "finish_reason": "stop",
+  "prompt_tokens": 88,
+  "completion_tokens": 578,
+  "total_tokens": 666,
+  "latency_ms": 1007,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:56:44.759997+00:00"
+}

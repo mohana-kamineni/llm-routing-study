@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e55e8fb501bf417c840c15a8c0ec5f03",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a poem about quantum physics but make it for a 5 year old",
+  "response_text": "**Tiny Twinkly Quantum Fun**\n\nIn a world so teeny‑tiny, where the atoms play,  \nLittle particles dance in a most curious way.  \nThey hop like hopping bunnies, then hide in a box,  \nAnd sometimes they’re in two places—what a paradox!\n\nThey’re shy little sprinkles that love to surprise,  \nYou can’t see them clearly, but they sparkle in eyes.  \nWhen you look, they giggle and say, “Peek‑a‑boo!”  \nThen they’re somewhere else, as quick as a shoe.\n\nSo think of a magic playground, where rules bend and bend,  \nWhere tiny friends whisper, “We’re everywhere, my friend!”  \nQuantum is a word for this wondrous, wiggly show—  \nA secret dance of the smallest things we know.",
+  "finish_reason": "stop",
+  "prompt_tokens": 86,
+  "completion_tokens": 287,
+  "total_tokens": 373,
+  "latency_ms": 832,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:37:07.463785+00:00"
+}

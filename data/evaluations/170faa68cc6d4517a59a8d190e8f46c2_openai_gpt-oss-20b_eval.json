@@ -1,0 +1,14 @@
+{
+  "prompt_id": "170faa68cc6d4517a59a8d190e8f46c2",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly proves that $1+1=2$ using the Peano axioms and the standard recursive definition of addition. The definitions of the numerals ($1=S(0)$, $2=S(S(0))$) are correct. The application of the recursive step for addition ($a+S(b) = S(a+b)$) and the base case ($a+0=a$) is logically sound and leads to the correct conclusion. There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1146,
+  "completion_tokens": 105,
+  "total_tokens": 1251,
+  "timestamp": "2026-09-22T16:53:11.500688+00:00"
+}

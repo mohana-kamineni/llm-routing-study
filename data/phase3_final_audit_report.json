@@ -1,0 +1,81 @@
+{
+  "status": "PASSED",
+  "benchmark_integrity": true,
+  "models": {
+    "openai_gpt-oss-20b": {
+      "total": 500,
+      "verdicts": {
+        "PASS": 330,
+        "FAIL": 170
+      },
+      "terminal_types": {
+        "empty_text_generation": 38,
+        "tool_use_api_rejection": 2,
+        "CANDIDATE_DEGENERATE": 8
+      },
+      "category_verdicts": {
+        "summarization": {
+          "PASS": 83,
+          "FAIL": 42
+        },
+        "creative": {
+          "FAIL": 63,
+          "PASS": 62
+        },
+        "factual_qa": {
+          "FAIL": 37,
+          "PASS": 88
+        },
+        "reasoning_math": {
+          "PASS": 97,
+          "FAIL": 28
+        }
+      },
+      "tokens": {
+        "prompt": 366773,
+        "completion": 76868,
+        "total": 443641
+      }
+    },
+    "openai_gpt-oss-120b": {
+      "total": 500,
+      "verdicts": {
+        "PASS": 379,
+        "FAIL": 121
+      },
+      "terminal_types": {
+        "CANDIDATE_DEGENERATE": 1
+      },
+      "category_verdicts": {
+        "summarization": {
+          "PASS": 87,
+          "FAIL": 38
+        },
+        "creative": {
+          "PASS": 89,
+          "FAIL": 36
+        },
+        "factual_qa": {
+          "FAIL": 28,
+          "PASS": 97
+        },
+        "reasoning_math": {
+          "PASS": 106,
+          "FAIL": 19
+        }
+      },
+      "tokens": {
+        "prompt": 500160,
+        "completion": 89060,
+        "total": 589220
+      }
+    }
+  },
+  "study_wide": {
+    "total_evaluations": 1000,
+    "total_pass": 709,
+    "total_fail": 291,
+    "unresolved_errors": 0,
+    "unparseable": 0
+  }
+}

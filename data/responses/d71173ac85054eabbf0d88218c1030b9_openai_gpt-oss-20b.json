@@ -1,0 +1,20 @@
+{
+  "prompt_id": "d71173ac85054eabbf0d88218c1030b9",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about a guy who falls in love with a girl who is a god of health",
+  "response_text": "In the hush of a ward where the night‑shade of illness lingers,  \nhe first saw her—an ember of light in the sterile gloom.  \nHer hair, a cascade of silver, caught the fluorescent glow,  \nand her hands, though mortal, moved with the grace of a prayer.\n\nShe was the goddess of health, the quiet keeper of balance,  \nthe one who turns fever into calm, who turns broken bones into whole.  \nHer smile was a sunrise over a patient’s weary heart,  \nher voice a lullaby that soothed the ache of a thousand bodies.\n\nHe, a man of flesh and blood, felt his pulse quicken,  \nnot from the fever that had once plagued him, but from the sight of her.  \nHe watched her tend to the wounded, her touch a balm,  \nand in that moment, love—pure, unbidden—wove itself into his veins.\n\nHe imagined her as a deity, a goddess of healing,  \nyet she was also a woman, breathing, laughing, living.  \nHe fell for the way she carried hope like a lantern,  \nfor the way her eyes held the promise of recovery.\n\nIn the quiet after the storm of illness, he whispered his name into the night,  \nhoping the wind would carry it to her, to the realm of the divine.  \nShe answered not with words, but with a gentle nod,  \nas if she had always known the ache of a mortal heart.\n\nLove, he realized, was the ultimate cure—  \na medicine that no prescription could match.  \nAnd though she was a god of health, she was also a lover,  \nand in his longing, he found a new kind of healing: the healing of the soul.",
+  "finish_reason": "stop",
+  "prompt_tokens": 90,
+  "completion_tokens": 814,
+  "total_tokens": 904,
+  "latency_ms": 1070,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:12:22.072910+00:00"
+}

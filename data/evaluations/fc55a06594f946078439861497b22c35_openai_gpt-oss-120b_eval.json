@@ -1,0 +1,14 @@
+{
+  "prompt_id": "fc55a06594f946078439861497b22c35",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe summary fails to cover Key Aspect 3. While it mentions that the fish retained its fresh taste, it completely omits Clarence Birdseye's specific motivation, which was to create a method to keep food fresh year-round for his family. Additionally, while it mentions the convenience of microwaving, it lacks the specific details regarding the trade-off for leisure activities (watching TV) and specific food examples (pizza bites/corndogs) emphasized in Key Aspect 4, though the omission of the motivation in Aspect 3 is the most critical failure.",
+  "finish_reason": "stop",
+  "prompt_tokens": 755,
+  "completion_tokens": 120,
+  "total_tokens": 875,
+  "timestamp": "2026-09-24T19:59:11.277239+00:00"
+}

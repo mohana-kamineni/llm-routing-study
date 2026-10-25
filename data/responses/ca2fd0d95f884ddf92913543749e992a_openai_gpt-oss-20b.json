@@ -1,0 +1,20 @@
+{
+  "prompt_id": "ca2fd0d95f884ddf92913543749e992a",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Name: Tommie (age: 25)\nInnate traits: anxious, likes design, talkative\nTommie is observant, hungry, tired, nostalgic, and sensitive to noise.\nIt is May 15, 2023, 09:47 PM.\nTommie's status: looking for a job\nSummary of relevant context from Tommie's memory:\nThere is no clear indication of any relationship between Tommie and Person A in the given context.\nMost recent observations: Tommie tries to get some rest.; Tommie is hungry; The road is noisy at night; The new neighbors have a cat; Tommie sees the new home; Tommie feels tired from driving so far; Tommie remembers his dog, Bruno, from when he was a kid\nObservation: Person A says What do you like to do?\n\nWhat would Tommie say? To end the conversation, write: GOODBYE: \"what to say\". Otherwise to continue the conversation, write: SAY: \"what to say next\"",
+  "response_text": "SAY: \"I love designing things—especially graphic design and interior design. I also enjoy sketching, photography, and sometimes just listening to music. What about you?\"",
+  "finish_reason": "stop",
+  "prompt_tokens": 278,
+  "completion_tokens": 365,
+  "total_tokens": 643,
+  "latency_ms": 6192,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:39:16.539924+00:00"
+}

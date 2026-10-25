@@ -1,0 +1,20 @@
+{
+  "prompt_id": "df71e685bd2d4e208f9a970edf789461",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Summarise the following article:\n\n\"\n\nTPE’s contract will not be renewed or extended at the end of the month, meaning the company will work on an “operator of last resort” basis from 28 May.\n\nTransport secretary Mark Harper made the announcement this morning.\n\nThe Department for Transport said that the decision follows “months of significant disruption and regular cancellations across Transpennine Express’s network, which has resulted in a considerable decline in confidence for passengers who rely on the trains to get to work, visit family and friends and go about their daily lives”.\n\nUnder Operator of Last Resort, services will run as normal with no changes to tickets, timetables or planned services with the Department committed to ensuring a seamless transition for passengers.\n\nThe DfT stressed that the decision is temporary and it is the government’s full intention that the service’s operation will return to the private sector.\n\nGreater Manchester Mayor Andy Burnham welcomed the news. In a social media post this morning, he said: “As Mayors, we have spoken up consistently for long-suffering rail passengers in the North. I am glad the government has listened.\n\n“We will now work with them to restore trust in train services and build a railway people can rely on.”\n\nMayor of West Yorkshire Tracy Brabin also took to Twitter. She said: “It’s absolutely right that this is the end of the line for Transpennine Express. We’ve urged government to act for almost a year, as delays and cancellations damaged our economy and",
+  "response_text": "**Summary**\n\n- The Department for Transport (DfT) announced that Transpennine Express’s (TPE) operating contract will not be renewed after 28 May, ending its private‑sector franchise.\n- From that date TPE will be run as an “operator of last resort” – a publicly owned arrangement that will keep services, tickets, timetables and planned journeys unchanged while the DfT works on a seamless hand‑over.\n- The move follows months of widespread disruption, cancellations and a loss of passenger confidence on the Transpennine network.\n- The DfT says the public‑ownership period is temporary and the service is intended to return to private operation once stability is restored.\n- Regional leaders welcomed the decision: Greater Manchester Mayor Andy Burnham praised the government for listening to north‑region rail users, and West Yorkshire Mayor Tracy Brabin called it “the end of the line” for the failing franchise, noting the economic damage caused by the service’s poor performance.",
+  "finish_reason": "stop",
+  "prompt_tokens": 372,
+  "completion_tokens": 225,
+  "total_tokens": 597,
+  "latency_ms": 715,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:51:13.586658+00:00"
+}

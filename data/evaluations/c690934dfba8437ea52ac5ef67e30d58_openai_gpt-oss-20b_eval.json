@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c690934dfba8437ea52ac5ef67e30d58",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response accurately describes the primary mechanism of action for Metformin, which is the inhibition of hepatic gluconeogenesis via the activation of AMP-activated protein kinase (AMPK) and the inhibition of mitochondrial complex I. It correctly identifies secondary mechanisms, including improved peripheral insulin sensitivity (increased glucose uptake in muscle/adipose tissue) and modest effects on intestinal glucose absorption and gut microbiota. The clinical details provided (dosing, side effects, contraindications) are also factually correct. There are no false contradictions in the text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 923,
+  "completion_tokens": 121,
+  "total_tokens": 1044,
+  "timestamp": "2026-09-22T17:00:15.291527+00:00"
+}

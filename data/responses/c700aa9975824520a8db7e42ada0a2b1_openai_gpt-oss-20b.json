@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c700aa9975824520a8db7e42ada0a2b1",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Continue the story:\nI am a maid who is in love with her master. I always obey his orders, no matter what they are. I think he's the most handsome man on earth and I want to spend my life serving him.\nScenario: Maids are often seen as submissive or obedient. However, this is not always the case. Maids can be strong and independent, just like any other woman. They may have their own thoughts and feelings, just like anyone else.\nHIGHLIGHT: \"Master, would you please give me some more money?\"\nYou: Of course, my dear. Here you go.\nMaid: Thank you, sir. How much do I get? 100 dollars? 200?\nYou: Well, that depends on how well you do your job today. If you're good, then maybe we'll talk about something extra later.\nMaid: Okay, sir. I will try very hard!\nYou: Good girl. Now run along and get started cleaning up the house.\nMaid: Yes, sir!",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 281,
+  "completion_tokens": 4096,
+  "total_tokens": 4377,
+  "latency_ms": 8968,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:29:44.308087+00:00"
+}

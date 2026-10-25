@@ -1,0 +1,20 @@
+{
+  "prompt_id": "f87d0c28b21343878c8554a91b1d9c45",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about Counter Strike Global Offensive which jokes about how buggy the game can be. (Hit registration -> hitreg, terrible steam market economy and etc)",
+  "response_text": "**Ode to the Glitch‑Infested Battlefield**\n\nIn the neon‑lit streets of *Dust‑2*,  \nI aim, I shoot, I hope for a *hitreg*—  \nbut the server’s a glitch‑laden dream,  \nand the ball of physics rolls like a meme.\n\nI fire a 9mm, the bullet’s a ghost,  \nit passes through walls, then hits the host.  \n“Did I hit?” I ask, “Did I miss?”  \nThe server says, “You’re a *hitreg* miss.”\n\nThe market’s a circus, a circus of coins,  \nwhere a *AK‑47* can cost a *M4* in spoons.  \nBuy a *M4A1* for a *M4A1*—  \nthe economy’s a joke, a *Steam*‑market blunder.\n\nI load a *AWP*, the scope’s a blur,  \nthe map’s a maze, the server’s a stir.  \nI jump on a *B‑site*, the lag’s a beast,  \nthe ping’s a monster that never ceased.\n\nThe *de_dust2* map has a secret door,  \na glitch that lets you walk through the floor.  \nI walk into a wall, the physics say,  \n“Sorry, you’re stuck, you’re in a *hitreg* play.”\n\nThe *counter‑terrorist* squad is a glitchy crew,  \nthey spawn in the lobby, they never knew.  \nThey’re stuck in the lobby, they can’t even run,  \nthe server says, “You’re a *hitreg* pun.”\n\nThe *Steam* market is a *hitreg* economy,  \nwhere you buy a *knife* and sell it for a *penny*.  \nThe price of a *M4* is a *hitreg* joke,  \nthe market’s a glitch, a *Steam*‑market poke.\n\nSo here’s to the bugs that make us laugh,  \nthe *hitreg* that’s a glitchy half.  \nWe play, we rage, we buy, we sell,  \nand in the end, we all know the *hitreg* spell.\n\nBecause in CS:GO, the bugs are the best,  \nthey keep us on our toes, they keep us obsessed.  \nSo let’s raise a toast to the glitchy game,  \nwhere *hitreg* and *Steam* market are the same.",
+  "finish_reason": "stop",
+  "prompt_tokens": 103,
+  "completion_tokens": 609,
+  "total_tokens": 712,
+  "latency_ms": 867,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:59:36.089352+00:00"
+}

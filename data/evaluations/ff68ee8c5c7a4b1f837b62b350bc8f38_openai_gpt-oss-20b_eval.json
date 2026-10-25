@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ff68ee8c5c7a4b1f837b62b350bc8f38",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the key points of the provided source text. It correctly identifies the impact of Stable Diffusion, the author's dual role (ML engineer and photographer) and stance, the specific controversies regarding AI art (theft accusations and the \"human creator\" argument), and the historical parallel drawn with photography (dates 1826 and 1924, and the initial fear of replacement). Although the source text cuts off mid-sentence, the summary correctly infers the conclusion of that thought (that photography was eventually accepted) based on the context provided in the fragment, which is a reasonable and accurate interpretation of the available information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 658,
+  "completion_tokens": 138,
+  "total_tokens": 796,
+  "timestamp": "2026-09-22T16:57:35.443635+00:00"
+}

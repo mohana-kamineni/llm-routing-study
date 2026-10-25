@@ -1,0 +1,14 @@
+{
+  "prompt_id": "23895da7322a4372adecb19f981437d4",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains significant factual hallucinations. It fabricates specific details about multiple individuals, including a fictional Colombian journalist who won a 2018 Ortega y Gasset award for Amazon mining reports, a fictional Argentine folk-rock singer with specific album titles, and a fictional Chilean professor with a specific textbook. Additionally, the description of the Spanish footballer (born 1992, Real Zaragoza youth, moved to Philippines) does not correspond to a verifiable prominent figure with that exact profile. By presenting these invented biographies as fact, the response fails the criterion of stating true facts without false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1096,
+  "completion_tokens": 133,
+  "total_tokens": 1229,
+  "timestamp": "2026-09-24T03:51:38.182549+00:00"
+}

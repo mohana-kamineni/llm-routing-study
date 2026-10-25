@@ -1,0 +1,14 @@
+{
+  "prompt_id": "7a522b9303e44c5a9595d8c36bb327e2",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately covers all five required key aspects:\n1. It identifies LinkedIn as a business-focused social network launched in 2003 (Key Aspect 1).\n2. It states it is Microsoft-owned (Key Aspect 2). While it omits the specific date \"December 2016,\" it correctly identifies the ownership status which is the core fact.\n3. It includes the statistic of over 900 million registered users in more than 200 countries as of March 2023 (Key Aspect 3).\n4. It mentions that since 2015, the main revenue source has been selling member data to recruiters and sales professionals (Key Aspect 4).\n5. It lists the platform's functions, including creating profiles, connecting, and posting jobs, which covers professional networking and job posting (Key Aspect 5).\n\nThe summary is concise, accurate, and does not omit critical information required by the criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 639,
+  "completion_tokens": 207,
+  "total_tokens": 846,
+  "timestamp": "2026-09-23T12:15:48.765668+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "prompt_id": "84fa843318c04856a7e562a9fa6b01ba",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "candidate_degeneracy_audit",
+  "terminal_type": "CANDIDATE_DEGENERATE",
+  "terminal_description": "Candidate generated accurate first sentence followed by phrase '*The Simpsons*-style' repeated 341 times until 4,096-token completion limit. Reclassified from initial PASS to CANDIDATE_DEGENERATE per terminal candidate failure policy.",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies Lauren Faust as the original creator of *My Little Pony: Friendship is Magic*. Although the response contains a severe generation error (repeating \"The Simpsons-style\" hundreds of times), the core factual answer provided in the first sentence is accurate and does not contain any false contradictions regarding the creator's identity.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2270,
+  "completion_tokens": 74,
+  "total_tokens": 2344,
+  "timestamp": "2026-09-22T16:47:08.483772+00:00"
+}

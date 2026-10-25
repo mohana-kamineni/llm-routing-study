@@ -1,0 +1,14 @@
+{
+  "prompt_id": "16b3abe6d420433b8b08bf6f57ea2fd2",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies King Charles III as the current (most recent) monarch of the United Kingdom and Queen Elizabeth II as the previous monarch. It accurately notes that the monarchy is ongoing, meaning there is no \"last\" monarch in the sense of the institution ending, but it correctly interprets the likely intent of the question by providing the current ruler and the immediate predecessor. All dates and facts provided are historically accurate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 337,
+  "completion_tokens": 90,
+  "total_tokens": 427,
+  "timestamp": "2026-09-22T23:00:46.682725+00:00"
+}

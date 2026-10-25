@@ -1,0 +1,20 @@
+{
+  "prompt_id": "fa8f520a366e453696213057808413c8",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "2X - 3  = 5\nSolve for X.",
+  "response_text": "\\(2X - 3 = 5\\)\n\nAdd 3 to both sides:\n\\[\n2X = 8\n\\]\n\nDivide by 2:\n\\[\nX = \\frac{8}{2} = 4\n\\]\n\n**Answer:** \\(X = 4\\)",
+  "finish_reason": "stop",
+  "prompt_tokens": 85,
+  "completion_tokens": 109,
+  "total_tokens": 194,
+  "latency_ms": 1281,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:08:03.169876+00:00"
+}

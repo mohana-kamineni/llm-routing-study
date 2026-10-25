@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b9633958b5d745009ee71b405c185d0f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Summarise the text in quotation marks in the following format:\n\"1. What the accused did.\n2. The offence committed.\n3. The sentence imposed.\n\"1       This was an appeal by the Public Prosecutor against the sentence of six weeks’ imprisonment imposed on Amir Hamzah bin Mohammad (“the Respondent”) by the District Judge (“DJ”) for an offence under s 409 of the Penal Code (Cap 224, 2008 Rev Ed) (“the PC”) committed by him when he was serving national service in the Singapore Police Force. He was found guilty after an 18-day trial for committing criminal breach of trust in respect of cash amounting to $893.75 in his custody as a public servant (see Public Prosecutor v Amir Hamzah Bin Mohammad [2012] SGDC 52 (“the GD”)). The Respondent had finished serving his sentence prior to the hearing of the appeal.\n\n2       At the conclusion of the hearing of the appeal, I allowed the Public Prosecutor’s appeal and sentenced the Respondent to six months’ imprisonment. I now set out the reasons for my decision.\"",
+  "response_text": "1. Amir Hamzah bin Mohammad misappropriated $893.75 from his custody while serving in the Singapore Police Force.  \n2. Criminal breach of trust under section 409 of the Penal Code.  \n3. Six months’ imprisonment (after the appeal; originally six weeks).",
+  "finish_reason": "stop",
+  "prompt_tokens": 299,
+  "completion_tokens": 577,
+  "total_tokens": 876,
+  "latency_ms": 2372,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:39:35.288994+00:00"
+}

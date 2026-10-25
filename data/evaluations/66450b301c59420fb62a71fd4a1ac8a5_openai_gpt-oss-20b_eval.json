@@ -1,0 +1,14 @@
+{
+  "prompt_id": "66450b301c59420fb62a71fd4a1ac8a5",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response contains multiple significant factual errors and hallucinations that violate the criterion of stating facts without false contradiction.\n\n1.  **Hallucinated Statistics:** The response invents a metric called \"Clutch Performance (10‑point+ in last 5 minutes)\" with specific decimal values (0.45 vs 0.38). This is not a standard or recognized statistical category in NBA analytics, and the numbers appear fabricated.\n2.  **Factual Error in Career Span:** The response lists Michael Jordan's career span as \"1984–1998, 2001–2003 (15 seasons).\" Jordan played 15 seasons total (10 with the Bulls, 3 with the Wizards, 2 with the Bulls). The dates provided are misleading (he played in 2001-02 and 2002-03, not just up to 2003 in a way that implies a different count), and more importantly, the breakdown is confusing.\n3.  **Factual Error in Team Affiliations:** In Section 5, the response lists LeBron James's teams as \"Cavaliers, Heat, Lakers, Kings.\" LeBron James has never played for the Sacramento Kings. This is a clear factual error.\n4.  **Inaccurate Statistical Data:**\n    *   **Win Shares:** The response lists Jordan's Win Shares as 140.5 and LeBron's as 140.0. According to Basketball-Reference, Jordan has approximately 210+ Win Shares, and LeBron has approximately 250+. The numbers provided are drastically incorrect (likely confusing them with something else or using a non-standard/incorrect dataset).\n    *   **All-NBA First-Team:** The response states Jordan has 10 All-NBA First-Team selections. Jordan has 11 (1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998).\n    *   **All-Defensive First-Team:** The response states LeBron has 5 All-Defensive First-Team selections. LeBron has 12 (2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017). This is a major factual error.\n    *   **MVPs:** The response states LeBron has 4 MVPs. LeBron has 4 regular season MVPs, but the context of \"Longevity & Durability\" section lists \"5 All-Nights\" (likely a typo for All-NBA or similar) and \"4 MVPs\". While the MVP count is correct, the surrounding context is riddled with errors.\n\nDue to the inclusion of fabricated statistics, incorrect team history (Kings), and significantly wrong career accolade counts (All-Defensive, Win Shares), the response fails the factual accuracy criterion.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1602,
+  "completion_tokens": 702,
+  "total_tokens": 2304,
+  "timestamp": "2026-09-19T17:17:01.120971+00:00"
+}

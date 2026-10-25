@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3b8355f4360240648f964b1e1a1b0554",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully extracts the main keywords, provides a summary within the 10-word limit that captures the core offer (discount, location, cuisine), correctly identifies the positive sentiment, identifies \"ELITE\" as the brand, and categorizes the text as \"Food\". While the summary is concise and does not explicitly mention the \"show video\" condition or the specific dates in the 10-word constraint (which is a reasonable trade-off for brevity), it covers the essential factual aspects of the source material required for a high-level summary. The response adheres to all specific formatting and content constraints provided in the prompt.",
+  "finish_reason": "stop",
+  "prompt_tokens": 609,
+  "completion_tokens": 132,
+  "total_tokens": 741,
+  "timestamp": "2026-09-19T17:12:03.450604+00:00"
+}

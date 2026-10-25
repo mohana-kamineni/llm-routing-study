@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3aab1d2cbb004fdf968028a2f406cabd",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully adheres to all specified structural and content requirements. It includes the four required sections (Achievements, Risks, Escalations, and Summary) with the correct formatting (keywords in double curly braces followed by a colon). The content is written in full sentences without bullet points. The Summary section correctly identifies the project status as \"red\" and highlights the key issues (low user research momentum, limited resources, lack of funding). While the \"Escalations\" section infers that these issues were escalated to senior management (which is not explicitly stated in the raw input, but is a logical interpretation of the \"Escalations\" section requirement given the red status and critical risks), it accurately reflects the critical aspects provided in the source text regarding the project's status and challenges.",
+  "finish_reason": "stop",
+  "prompt_tokens": 810,
+  "completion_tokens": 166,
+  "total_tokens": 976,
+  "timestamp": "2026-09-19T17:22:29.930340+00:00"
+}

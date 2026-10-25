@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ba72b095c92744599255aad6c158ec4c",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies $H(f)$ as the frequency response (specifically the amplitude/magnitude response in this context) of the filter. It accurately explains the concept of aliasing in the context of sampling, correctly identifying that the aliasing level at frequency $f$ is determined by the filter's attenuation at the mirror frequency $f_s - f$. The explanation is logically sound, uses standard signal processing terminology, and provides a clear, correct method for determining the aliasing level as requested. There are no factual contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1231,
+  "completion_tokens": 115,
+  "total_tokens": 1346,
+  "timestamp": "2026-09-19T17:13:32.329871+00:00"
+}

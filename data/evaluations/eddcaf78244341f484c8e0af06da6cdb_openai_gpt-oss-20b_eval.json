@@ -1,0 +1,14 @@
+{
+  "prompt_id": "eddcaf78244341f484c8e0af06da6cdb",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to cover Key Aspect 4 completely. Specifically, it omits the critical characterization of the conflict as \"the biggest war in Europe since 1945,\" which is explicitly stated in the source text and required by the evaluation criteria. While the summary correctly identifies the 2014 war and the 14,000 deaths, the absence of the \"biggest war in Europe since 1945\" context constitutes a failure to cover all required key aspects.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1392,
+  "completion_tokens": 109,
+  "total_tokens": 1501,
+  "timestamp": "2026-09-22T16:52:01.741912+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "8938d945856d47b3b363040652ad3efc",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the distance between the Earth and the Sun, and how many times around the Earth's equator would that distance be equivalent to? Please calculate and tell me only the result.",
+  "response_text": "≈149.6 million km ≈ 3 733 times around Earth’s equator.",
+  "finish_reason": "stop",
+  "prompt_tokens": 107,
+  "completion_tokens": 478,
+  "total_tokens": 585,
+  "latency_ms": 1345,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:10:01.072028+00:00"
+}

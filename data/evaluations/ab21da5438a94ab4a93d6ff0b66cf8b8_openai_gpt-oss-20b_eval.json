@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ab21da5438a94ab4a93d6ff0b66cf8b8",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately extracts all required fields (organization, job_title, time_period, summary) for both organizations listed in the source text. The summaries are concise, factually accurate, and capture the key details of the work performed (e.g., specific technologies used, team size, research topics) without omitting critical information or introducing errors. The JSON format is valid and matches the requested structure.",
+  "finish_reason": "stop",
+  "prompt_tokens": 710,
+  "completion_tokens": 86,
+  "total_tokens": 796,
+  "timestamp": "2026-09-19T17:34:50.310217+00:00"
+}

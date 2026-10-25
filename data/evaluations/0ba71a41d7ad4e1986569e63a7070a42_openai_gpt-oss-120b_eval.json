@@ -1,0 +1,14 @@
+{
+  "prompt_id": "0ba71a41d7ad4e1986569e63a7070a42",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains significant factual errors regarding the geography and driving directions.\n1. **Geographical Error**: The response states that Boreal Mountain Resort is \"just south of the Donner Pass.\" This is incorrect. Boreal is located in the Carson Range, near Carson City, NV, which is approximately 40-50 miles east of the Donner Pass (located in the Sierra Nevada near Truckee, CA).\n2. **Driving Directions Error**: The step-by-step directions are factually wrong. It instructs the driver to take \"CA-89 South\" toward \"Soda Springs\" to reach Boreal. CA-89 South leads to Reno, NV, not Boreal. Boreal is accessed via US-50 East from Carson City or via CA-88 from the south. Following the provided directions would lead the driver to the wrong location entirely.\n3. **Distance/Time Inaccuracy**: While the distance (~150 miles) is roughly correct, the drive time of \"2 - 2.5 hours\" is optimistic for a trip involving mountain roads, and the route description is fundamentally flawed.\n\nBecause the response provides incorrect geographical facts and impossible driving directions, it fails the criterion of stating the fact without false contradiction.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2431,
+  "completion_tokens": 267,
+  "total_tokens": 2698,
+  "timestamp": "2026-09-23T00:06:10.724365+00:00"
+}

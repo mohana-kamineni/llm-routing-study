@@ -1,0 +1,20 @@
+{
+  "prompt_id": "2d6c4c29cc7f45ffbd545e756dcac007",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a poem with a a b c b c",
+  "response_text": "Beneath the silvered sky, I wander, feeling alone,  \nThe wind hums a lullaby, and I wander, feeling alone.  \n\nStars flicker like distant fireflies, painting the night,  \nMy thoughts drift like a feather, chasing a quiet dream.  \nIn the hush of the dark, I hear the world’s soft night,  \nAnd I close my eyes, letting the world slip into dream.",
+  "finish_reason": "stop",
+  "prompt_tokens": 81,
+  "completion_tokens": 773,
+  "total_tokens": 854,
+  "latency_ms": 1222,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:02:22.895655+00:00"
+}

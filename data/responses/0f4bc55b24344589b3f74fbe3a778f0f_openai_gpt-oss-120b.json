@@ -1,0 +1,20 @@
+{
+  "prompt_id": "0f4bc55b24344589b3f74fbe3a778f0f",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "A is the father of B. B is the father of C. What is the relationship between A and C?",
+  "response_text": "A is C’s grandfather (specifically, C’s paternal grandfather).",
+  "finish_reason": "stop",
+  "prompt_tokens": 94,
+  "completion_tokens": 71,
+  "total_tokens": 165,
+  "latency_ms": 461,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:41:54.815587+00:00"
+}

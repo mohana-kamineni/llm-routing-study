@@ -1,0 +1,21 @@
+{
+  "prompt_id": "8ea4c640c91b4d3584f20b693686eeb8",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "provider": "groq",
+  "model_returned": "openai/gpt-oss-20b",
+  "raw_response": "Let the right triangle be \\(ABC\\) with \\(\\angle C = 90^\\circ\\).  \nDrop the altitude from \\(C\\) to the hypotenuse \\(AB\\) and let it meet \\(AB\\) at \\(D\\).\n\n\\[\nAD : DB = 1 : 2 \\quad\\Longrightarrow\\quad AD = x,\\; DB = 2x,\\; AB = 3x\n\\]\n\nFor a right triangle, the altitude to the hypotenuse satisfies\n\n\\[\nCD^2 = AD \\cdot DB .\n\\]\n\nGiven \\(CD = 6\\) cm,\n\n\\[\n6^2 = x \\cdot 2x \\;\\Longrightarrow\\; 36 = 2x^2 \\;\\Longrightarrow\\; x^2 = 18 \\;\\Longrightarrow\\; x = \\sqrt{18}=3\\sqrt{2}\\;\\text{cm}.\n\\]\n\nHence the hypotenuse is\n\n\\[\nAB = 3x = 3(3\\sqrt{2}) = 9\\sqrt{2}\\;\\text{cm}.\n\\]\n\n\\[\n\\boxed{9\\sqrt{2}\\ \\text{cm}}\n\\]",
+  "response_text": "Let the right triangle be \\(ABC\\) with \\(\\angle C = 90^\\circ\\).  \nDrop the altitude from \\(C\\) to the hypotenuse \\(AB\\) and let it meet \\(AB\\) at \\(D\\).\n\n\\[\nAD : DB = 1 : 2 \\quad\\Longrightarrow\\quad AD = x,\\; DB = 2x,\\; AB = 3x\n\\]\n\nFor a right triangle, the altitude to the hypotenuse satisfies\n\n\\[\nCD^2 = AD \\cdot DB .\n\\]\n\nGiven \\(CD = 6\\) cm,\n\n\\[\n6^2 = x \\cdot 2x \\;\\Longrightarrow\\; 36 = 2x^2 \\;\\Longrightarrow\\; x^2 = 18 \\;\\Longrightarrow\\; x = \\sqrt{18}=3\\sqrt{2}\\;\\text{cm}.\n\\]\n\nHence the hypotenuse is\n\n\\[\nAB = 3x = 3(3\\sqrt{2}) = 9\\sqrt{2}\\;\\text{cm}.\n\\]\n\n\\[\n\\boxed{9\\sqrt{2}\\ \\text{cm}}\n\\]",
+  "reasoning_text": "We need to solve geometry problem: altitude from right angle to hypotenuse divides hypotenuse into segments with ratio 1:2. Altitude length is 6 cm. Find hypotenuse length.\n\nLet right triangle ABC with right angle at C. Hypotenuse AB. Altitude from C to AB meets at D. Let AD = x, DB = 2x (ratio 1:2). So AB = 3x.\n\nAltitude CD = 6.\n\nWe know property: In right triangle, altitude to hypotenuse satisfies: CD^2 = AD * DB = x * 2x = 2x^2. So 6^2 = 2x^2 => 36 = 2x^2 => x^2 = 18 => x = sqrt(18) = 3*sqrt(2). So AB = 3x = 9*sqrt(2). So hypotenuse length = 9√2 cm.\n\nCheck: altitude formula: CD = sqrt(AD*DB). Yes.\n\nThus answer: 9√2 cm.\n\nBut maybe they want numeric approximate: 12.7279 cm. But likely exact.\n\nThus answer: 9√2 cm.\n\nLet's produce explanation.",
+  "input_tokens": 119,
+  "output_tokens": 516,
+  "total_tokens": 635,
+  "reasoning_tokens": 256,
+  "latency_seconds": 0.829,
+  "timestamp": "2026-09-13T16:53:47.819057+00:00",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "retries": 0,
+  "error": null,
+  "prompt_text": "The altitude to the hypotenuse of a right triangle divides the hypotenuse into two segments with lengths in the ratio 1 : 2. The length of the altitude is 6 cm. How long is the hypotenuse?"
+}

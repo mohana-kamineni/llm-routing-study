@@ -1,0 +1,14 @@
+{
+  "prompt_id": "30e946edb164450b83fd63f689965538",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies Sonic the Hedgehog as a fictional character and the flagship mascot of SEGA. It accurately states his debut in the 1991 game *Sonic the Hedgehog* and correctly describes his key traits (blue hedgehog, supersonic speed), antagonist (Dr. Robotnik/Eggman), and cultural significance. All specific details provided, including game titles, media appearances, and character abilities, are factually accurate without any contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 630,
+  "completion_tokens": 103,
+  "total_tokens": 733,
+  "timestamp": "2026-09-22T17:03:10.070932+00:00"
+}

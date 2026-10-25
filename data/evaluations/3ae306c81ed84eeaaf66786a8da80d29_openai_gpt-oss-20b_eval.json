@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3ae306c81ed84eeaaf66786a8da80d29",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly defines End-Stage Renal Disease (ESRD) as the final stage of chronic kidney disease, characterized by a Glomerular Filtration Rate (GFR) of less than 15 mL/min/1.73 m² or the need for renal replacement therapy. It accurately states that serum creatinine levels in ESRD are typically elevated, generally ranging from 4 to 6 mg/dL (or higher) in pre-dialysis patients, while noting that these values can vary based on muscle mass, fluid status, and dialysis modality. The information provided is scientifically accurate and contains no false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1233,
+  "completion_tokens": 141,
+  "total_tokens": 1374,
+  "timestamp": "2026-09-19T17:16:16.388497+00:00"
+}

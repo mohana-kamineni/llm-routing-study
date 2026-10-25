@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c021267e18234adaa9fb6ed473335dd2",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "I have 20 red strawberry in my bag, I bought 10 more at the market in an opaque sachet. When arrived home, half of them were black. \nHow many red strawberry I have?",
+  "response_text": "You end up with **15 red strawberries**.\n\n**Reasoning**\n\n1. You started with 20 red strawberries.  \n2. You bought 10 more (color unknown) → total strawberries = 20 + 10 = 30.  \n3. When you got home, half of the 30 strawberries were black → black strawberries = ½ × 30 = 15.  \n4. The remaining half must be red → red strawberries = 30 − 15 = 15.\n\nSo after the black ones appear, you have 15 red strawberries left.",
+  "finish_reason": "stop",
+  "prompt_tokens": 113,
+  "completion_tokens": 317,
+  "total_tokens": 430,
+  "latency_ms": 8319,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:04:56.847435+00:00"
+}

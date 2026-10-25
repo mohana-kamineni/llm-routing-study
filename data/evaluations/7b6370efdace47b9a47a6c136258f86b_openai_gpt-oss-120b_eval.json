@@ -1,0 +1,14 @@
+{
+  "prompt_id": "7b6370efdace47b9a47a6c136258f86b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains significant factual errors regarding the subject's identity and career. Ursula Bellugi (1931–2022) was a prominent cognitive neuroscientist and linguist, but she was a Professor at the **Salk Institute for Biological Studies** in La Jolla, California, not the University of California, San Diego (UCSD). While she collaborated with UCSD researchers, her primary affiliation was the Salk Institute. Additionally, the \"Selected Publications\" section lists fabricated or incorrect citations (e.g., the 1979 and 1995 entries do not correspond to real, verifiable publications with those specific titles and co-authors in the manner presented). Providing incorrect institutional affiliation and fabricated bibliographic data constitutes a failure to provide a factually accurate answer.",
+  "finish_reason": "stop",
+  "prompt_tokens": 789,
+  "completion_tokens": 173,
+  "total_tokens": 962,
+  "timestamp": "2026-09-22T23:01:28.975789+00:00"
+}

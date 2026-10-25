@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1d924adca0d541ec923be48b23154b0d",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides an accurate, single-paragraph summary that covers all essential factual aspects of the source text. It correctly identifies the definition and date of Brexit, the UK's status as the only sovereign state to leave, the historical context of membership since 1973, the political triggers (UKIP, Cameron's promise), the specific referendum results (51.9% vote, regional breakdown), the political consequences (Cameron's resignation, May's succession, Johnson's completion of negotiations), and the legal implications (Withdrawal Act 2018, end of EU law primacy). No critical information was omitted, and the facts presented are consistent with the source.",
+  "finish_reason": "stop",
+  "prompt_tokens": 802,
+  "completion_tokens": 144,
+  "total_tokens": 946,
+  "timestamp": "2026-09-28T07:44:44.798514+00:00"
+}

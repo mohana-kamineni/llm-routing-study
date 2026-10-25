@@ -1,0 +1,20 @@
+{
+  "prompt_id": "3f303651b0cc44a9977ce6d415551791",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "who is the incumbent president of usa",
+  "response_text": "I’m sorry, but I don’t have that information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 465,
+  "total_tokens": 543,
+  "latency_ms": 975,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:33:38.727805+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8a9a2d99610f4cd49af7dc04374ededb",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains significant factual errors. First, it incorrectly states that Don Lemon was born in New York City; he was actually born in New Orleans, Louisiana. Second, it claims he left CNN in 2023, which is false; he was fired by CNN in 2022. Additionally, the description of his departure as a \"high-profile dispute over a segment that was deemed 'unprofessional'\" is a mischaracterization of the events, which involved a broader conflict regarding his on-air conduct and the network's decision to terminate his contract.",
+  "finish_reason": "stop",
+  "prompt_tokens": 329,
+  "completion_tokens": 124,
+  "total_tokens": 453,
+  "timestamp": "2026-09-19T17:24:52.152125+00:00"
+}

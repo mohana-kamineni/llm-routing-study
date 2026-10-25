@@ -1,0 +1,21 @@
+{
+  "prompt_id": "a49f6f6403384648bb98b1ea76c6f46e",
+  "category": "factual_qa",
+  "prompt_text": "When did first Star Trek episode air?",
+  "model": "openai/gpt-oss-20b",
+  "provider": "groq",
+  "model_returned": "openai/gpt-oss-20b",
+  "raw_response": "The first episode of the original *Star Trek* series that actually aired on television was **“The Man Trap.”**  \nIt premiered on **September 8, 1966** (in the United States on NBC).  \n\n(For reference, the original pilot episode, *“The Cage,”* was filmed in 1964 and later shown as a TV movie in 1978, but it was not part of the regular series lineup.)",
+  "response_text": "The first episode of the original *Star Trek* series that actually aired on television was **“The Man Trap.”**  \nIt premiered on **September 8, 1966** (in the United States on NBC).  \n\n(For reference, the original pilot episode, *“The Cage,”* was filmed in 1964 and later shown as a TV movie in 1978, but it was not part of the regular series lineup.)",
+  "reasoning_text": "The user asks: \"When did first Star Trek episode air?\" They want the date of the first episode of Star Trek. The original series first episode \"The Cage\" was a pilot that aired as a TV movie in 1964? Actually \"The Cage\" was a pilot that aired as a TV movie in 1964, but the first episode of the series that aired on TV was \"The Man Trap\" on September 8, 1966. The pilot \"The Cage\" was later released as \"The Cage\" in 1978. So the answer: The first episode of the original Star Trek series, \"The Man Trap,\" aired on September 8, 1966. If they want the pilot, it's 1964. But likely they want the first episode of the series. So answer: September 8, 1966. Provide context.",
+  "input_tokens": 79,
+  "output_tokens": 279,
+  "total_tokens": 358,
+  "reasoning_tokens": 178,
+  "latency_seconds": 0.533,
+  "timestamp": "2026-09-13T11:39:17.395056+00:00",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "retries": 0,
+  "error": null
+}

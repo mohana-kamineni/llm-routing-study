@@ -1,0 +1,14 @@
+{
+  "prompt_id": "29e5414b27084895bff26b5cbf553933",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly provides several words starting with \"A\" and accurately calculates the sum of 7 and 23 as 30. There are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 221,
+  "completion_tokens": 41,
+  "total_tokens": 262,
+  "timestamp": "2026-09-22T17:06:13.456081+00:00"
+}

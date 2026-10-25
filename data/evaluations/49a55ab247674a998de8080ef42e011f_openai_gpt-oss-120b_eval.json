@@ -1,0 +1,14 @@
+{
+  "prompt_id": "49a55ab247674a998de8080ef42e011f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to summarize the content of the provided articles. The source text contains specific factual information regarding real estate transactions in the senior living sector (e.g., the sale of a memory care community in Clinton, Utah, and the acquisition of Spring Gardens communities by 1031 Crowdfunding). The model's response incorrectly claims that \"No specific question was provided\" and provides an empty source list, thereby omitting all critical information required by the evaluation criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 596,
+  "completion_tokens": 100,
+  "total_tokens": 696,
+  "timestamp": "2026-09-24T12:33:03.205727+00:00"
+}

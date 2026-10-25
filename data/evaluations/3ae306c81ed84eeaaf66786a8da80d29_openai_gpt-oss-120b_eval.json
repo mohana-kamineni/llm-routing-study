@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3ae306c81ed84eeaaf66786a8da80d29",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly defines End-Stage Renal Disease (ESRD) as Stage 5 Chronic Kidney Disease with an eGFR < 15 mL/min/1.73 m², requiring renal replacement therapy. It accurately states that serum creatinine levels in ESRD are markedly elevated, typically ranging from 5–10 mg/dL (or higher) in pre-dialysis settings, while correctly noting that these values vary based on muscle mass, hydration, and dialysis status. The information provided is scientifically accurate and contains no false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1642,
+  "completion_tokens": 125,
+  "total_tokens": 1767,
+  "timestamp": "2026-09-23T12:15:17.000812+00:00"
+}

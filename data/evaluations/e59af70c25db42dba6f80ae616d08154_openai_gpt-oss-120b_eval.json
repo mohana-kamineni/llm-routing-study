@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e59af70c25db42dba6f80ae616d08154",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully extracts the essential keywords and proper nouns from the source text, covering all four required key aspects:\n1. It includes \"spectral sequence\" and \"blazars\" (Aspect 1).\n2. It includes \"GLAST\" and \"upcoming GLAST launch\" (Aspect 2).\n3. It includes \"sensitivity,\" \"average gamma-ray properties,\" and \"classes of objects\" (Aspect 3).\n4. It includes \"accretion power,\" \"jet power,\" and \"ratio between accretion power and jet power\" (Aspect 4).\n\nThe list is accurate, comprehensive regarding the specific constraints (keywords and proper nouns), and captures the core factual content of the summary.",
+  "finish_reason": "stop",
+  "prompt_tokens": 443,
+  "completion_tokens": 156,
+  "total_tokens": 599,
+  "timestamp": "2026-09-22T23:01:16.286229+00:00"
+}

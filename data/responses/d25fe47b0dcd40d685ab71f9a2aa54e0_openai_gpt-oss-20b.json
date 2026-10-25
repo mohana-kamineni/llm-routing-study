@@ -1,0 +1,20 @@
+{
+  "prompt_id": "d25fe47b0dcd40d685ab71f9a2aa54e0",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "describe me 11/22/63",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 79,
+  "completion_tokens": 4096,
+  "total_tokens": 4175,
+  "latency_ms": 4948,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:54:22.048308+00:00"
+}

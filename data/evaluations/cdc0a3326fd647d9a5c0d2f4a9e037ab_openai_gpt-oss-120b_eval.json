@@ -1,0 +1,14 @@
+{
+  "prompt_id": "cdc0a3326fd647d9a5c0d2f4a9e037ab",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the answer as a fire (or smoke) alarm. The reasoning provided for each line of the riddle is logical and accurate: the \"scream\" corresponds to the loud alarm sound, the unpleasantness is a known characteristic of such alarms, the consequence of missing it (fire/death) is indeed worse than the annoyance, and the \"working as hard as you do\" metaphor fits the 24/7 nature of the device. There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 412,
+  "completion_tokens": 107,
+  "total_tokens": 519,
+  "timestamp": "2026-09-24T12:27:40.391216+00:00"
+}

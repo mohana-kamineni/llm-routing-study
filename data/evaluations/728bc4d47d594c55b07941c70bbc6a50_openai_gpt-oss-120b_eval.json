@@ -1,0 +1,14 @@
+{
+  "prompt_id": "728bc4d47d594c55b07941c70bbc6a50",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response is an initial interaction prompt, not a summary of the source material. It fails to cover any of the required key aspects: it does not summarize the general information requirements (names, ages, contact details), the per-child details (routines, meals, allergies), the procedural constraints (asking one question at a time), the final summary format (notecard), or the conclusion regarding the \"Everplan.\" The evaluation criteria explicitly require the summary to cover all these aspects, which this response does not.",
+  "finish_reason": "stop",
+  "prompt_tokens": 756,
+  "completion_tokens": 110,
+  "total_tokens": 866,
+  "timestamp": "2026-09-28T07:40:29.433893+00:00"
+}

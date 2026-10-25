@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e1ad5d369f7e448c80c58b60ede268e9",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "My name is Alexis, I've got three sisters, each one of them has 1 brother. How many brothers do I have ?",
+  "response_text": "You have **one brother**.\n\n**Why?**  \n- You (Alexis) have three sisters.  \n- Each of those sisters has exactly one brother.  \n- That one brother is you.  \n\nSo the only brother that exists in the family is you yourself. Therefore, you have one brother.",
+  "finish_reason": "stop",
+  "prompt_tokens": 97,
+  "completion_tokens": 710,
+  "total_tokens": 807,
+  "latency_ms": 9451,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:29:33.136638+00:00"
+}

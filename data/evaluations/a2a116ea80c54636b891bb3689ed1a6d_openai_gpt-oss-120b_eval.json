@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a2a116ea80c54636b891bb3689ed1a6d",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the source text by covering all five required key aspects:\n1. It correctly identifies that banking stress and tighter credit may reduce the need for further rate hikes (Takeaway 1).\n2. It explicitly mentions the benchmark rate target range of 5%-5.25% (Takeaway 2).\n3. It characterizes the policy as \"restrictive\" and notes that future decisions are data-dependent (Takeaways 2 and 3).\n4. It states that inflation remains too high and the Fed is steadfast in pursuing price stability to avoid social/economic costs (Takeaway 2).\n5. It notes that financial stability tools calmed the sector but that tighter credit will weigh on growth and inflation (Takeaway 1).\n\nThe summary is accurate, concise, and captures the essential factual content of the article.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1081,
+  "completion_tokens": 182,
+  "total_tokens": 1263,
+  "timestamp": "2026-09-28T07:55:52.677850+00:00"
+}

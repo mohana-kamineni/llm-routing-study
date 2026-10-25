@@ -1,0 +1,14 @@
+{
+  "prompt_id": "49888eb3c6074b33885f03c1e3e56656",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the content by accurately capturing all key factual aspects from the source text. It correctly identifies the group (\"Angry Patriots Club\"), its approximate size (25 members), founding timeline (two months ago), and key members (Girkin, Gubarev, Yevych, Grubnik, Kalashnikov). It faithfully reproduces the group's self-description as a mix of ideologies (national-bolsheviks, communists, etc.) united by the goal to \"win the war.\" Furthermore, it accurately conveys the specific quotes and strategic posture described in the source, including Gubarev's statement about being ready to \"politicise our potential\" if the situation worsens and the criticism of the Russian army's performance. While the response adds significant external context and analysis (such as legal risks and operational capacity assessments) that are not present in the source text, it does not omit or contradict the essential information contained in the source passage, thereby meeting the criteria for covering the required key aspects.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1268,
+  "completion_tokens": 216,
+  "total_tokens": 1484,
+  "timestamp": "2026-09-24T12:35:16.797790+00:00"
+}

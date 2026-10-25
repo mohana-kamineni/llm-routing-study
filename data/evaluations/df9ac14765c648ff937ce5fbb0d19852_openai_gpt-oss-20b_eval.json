@@ -1,0 +1,14 @@
+{
+  "prompt_id": "df9ac14765c648ff937ce5fbb0d19852",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the source text in exactly three sentences, adhering to the length constraint. It correctly identifies the study's objective (evaluating the impact of decriminalization in Oregon and Washington on overdose rates), the methodology (ecological study using synthetic controls from 48 states and DC), and the data sources (NVSS data from 2018-2022). It also correctly notes the specific policy events (Measure 110 and State v. Blake) and the analysis period. The response appropriately acknowledges that the specific results were cut off in the source text, ensuring accuracy without hallucinating data.",
+  "finish_reason": "stop",
+  "prompt_tokens": 662,
+  "completion_tokens": 135,
+  "total_tokens": 797,
+  "timestamp": "2026-09-19T17:35:53.352804+00:00"
+}

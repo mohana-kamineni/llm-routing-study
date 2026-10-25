@@ -1,0 +1,14 @@
+{
+  "prompt_id": "dcec3c5d5dd643fdbd0b0d71dfe119aa",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly calculates the product of 15 and 12 as 180. There are no reasoning errors, and the final answer is accurate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 170,
+  "completion_tokens": 40,
+  "total_tokens": 210,
+  "timestamp": "2026-09-22T16:57:37.866991+00:00"
+}

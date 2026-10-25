@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c2351c8d80a248edb0b461184b409ccc",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies that the provided text does not contain the specific number of moons Jupiter has. The reasoning is accurate: the text states Jupiter has the \"most known moons\" and provides specific counts for Saturn (82/83), but it never explicitly states the count for Jupiter. Therefore, the text cannot answer the question \"how many moons does Jupiter have\" by itself.",
+  "finish_reason": "stop",
+  "prompt_tokens": 604,
+  "completion_tokens": 84,
+  "total_tokens": 688,
+  "timestamp": "2026-09-24T21:06:48.665931+00:00"
+}

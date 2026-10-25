@@ -1,0 +1,37 @@
+{
+  "manifest_version": "1.0.0",
+  "created_at": "2026-09-13T20:00:46Z",
+  "status": "FROZEN_IMMUTABLE",
+  "target_file": "data/prompts.json",
+  "sha256": "a9214823cb8fdc0586f5fb2fb88ac29eeebbdf7d7b70da318be495eae8b8ce03",
+  "file_size_bytes": 455582,
+  "total_prompts": 500,
+  "unique_question_ids": 500,
+  "source_dataset": "lmsys/chatbot_arena_conversations (split: train)",
+  "sampling_seed": 42,
+  "filtering": {
+    "language_field": "language",
+    "language_value_used": "English",
+    "documentation_note": "Resolved minor documentation shorthand: the methodology text referenced en shorthand, but the actual dataset field contains English. Filtered strictly on language == English.",
+    "single_turn": "turn == 1 (exactly 1 user message)",
+    "moderation": "openai_moderation.flagged == False and toxic_chat_tag.toxicity <= 0.5",
+    "code_exclusion": "All programming syntax and code generation prompts filtered out"
+  },
+  "category_breakdown": {
+    "factual_qa": 125,
+    "summarization": 125,
+    "reasoning_math": 125,
+    "creative": 125
+  },
+  "summarization_subsets": {
+    "independent_reference_prompts": 50,
+    "assisted_reference_prompts": 75
+  },
+  "router_scores_precomputed": true,
+  "router_score_formula": "S(x) = 0.40 * f_cat + 0.35 * f_len + 0.25 * f_reason",
+  "candidate_models": {
+    "small": "openai/gpt-oss-20b via Groq",
+    "large": "openai/gpt-oss-120b via Groq"
+  },
+  "evaluator_model": "qwen/qwen3.8-27b via Groq"
+}

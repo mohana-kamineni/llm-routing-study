@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b40e4726d8f84fe1aa5f81ff232b3af0",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies that a leap year has 366 days and correctly calculates the total consumption by multiplying the daily rate (14 jars) by the number of days (366). The arithmetic is accurate ($14 \\times 366 = 5,124$), and the final answer matches the correct solution. There are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 258,
+  "completion_tokens": 87,
+  "total_tokens": 345,
+  "timestamp": "2026-09-19T17:25:34.762544+00:00"
+}

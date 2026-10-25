@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b2bb0ea04f6744529b29d76eca7c69cc",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies that flipping an object changes its orientation but not its position. Since the stone was in the hand before the flip, it remains in the hand after the flip. The explanation is logically sound and factually accurate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 211,
+  "completion_tokens": 53,
+  "total_tokens": 264,
+  "timestamp": "2026-09-19T17:11:58.729662+00:00"
+}

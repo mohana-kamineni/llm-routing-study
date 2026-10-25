@@ -1,0 +1,20 @@
+{
+  "prompt_id": "1df93ededac7450db904df531b27d985",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "John have 10 apples. He gives 5 to Mary who eat 2 for lunch. John buys two more apples. How many apples do they have?",
+  "response_text": "John starts with 10 apples.  \n- He gives 5 to Mary → John has \\(10-5 = 5\\) apples.  \n- Mary eats 2 → Mary has \\(5-2 = 3\\) apples left.  \n- John buys 2 more → John has \\(5+2 = 7\\) apples.\n\nSo together they have  \n\\(7\\) (John) \\(+\\) \\(3\\) (Mary) \\(=\\boxed{10}\\) apples.",
+  "finish_reason": "stop",
+  "prompt_tokens": 103,
+  "completion_tokens": 257,
+  "total_tokens": 360,
+  "latency_ms": 25740,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:03:20.282647+00:00"
+}

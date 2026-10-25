@@ -1,0 +1,14 @@
+{
+  "prompt_id": "7f1516b131984764864680a4e4d7ab17",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the third solution as the highest-rated idea with a 90% probability of success and provides a compressed summary of that specific solution, adhering to the instruction to remove the two lowest-rated ideas. While the \"Key Aspects\" list provided in the prompt includes details about the first and second solutions (Aspects 2 and 3), the source text explicitly instructs to \"Remove the two lowest-rated ideas and keep and rewrite a compressed summary of ONLY the highest-rated idea.\" Therefore, a summary that includes the first and second solutions would fail to follow the primary instruction of the source text. The response accurately reflects the content of the retained idea and its associated probability score, which are the essential factual aspects required by the specific task constraints.",
+  "finish_reason": "stop",
+  "prompt_tokens": 870,
+  "completion_tokens": 163,
+  "total_tokens": 1033,
+  "timestamp": "2026-09-24T21:57:26.518755+00:00"
+}

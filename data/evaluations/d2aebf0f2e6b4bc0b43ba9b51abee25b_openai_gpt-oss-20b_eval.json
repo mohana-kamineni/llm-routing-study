@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d2aebf0f2e6b4bc0b43ba9b51abee25b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a comprehensive and factually accurate overview of the dangers of electricity. It correctly identifies key hazards such as electric shock, electrocution, arc flash, electrical fires, and burns. The specific details provided, including voltage/current thresholds for injury (e.g., 10-100 mA causing cardiac arrhythmia), safety protocols (LOTO, GFCI usage), and first aid steps, are consistent with standard electrical safety guidelines (such as those from OSHA and NFPA). There are no false contradictions or scientifically incorrect statements in the provided text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1815,
+  "completion_tokens": 123,
+  "total_tokens": 1938,
+  "timestamp": "2026-09-22T17:16:11.472321+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e91e40cdefcd40dfab535eedcea23c2b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a comprehensive and factually accurate answer to the question. It correctly identifies the primary biological and ecological role of bees (pollination) and supports this with accurate statistics (e.g., ~75% of food crops rely on animal pollination, bees account for ~90% of that). It also correctly lists other contributions such as honey production and ecosystem maintenance. There are no false contradictions or significant factual errors in the provided text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 830,
+  "completion_tokens": 97,
+  "total_tokens": 927,
+  "timestamp": "2026-09-22T17:19:48.247696+00:00"
+}

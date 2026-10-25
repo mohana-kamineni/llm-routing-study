@@ -1,0 +1,14 @@
+{
+  "prompt_id": "7a363227835c47a2a89b89dc909f14a2",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to cover any of the required key aspects. It incorrectly states that \"No question was asked,\" whereas the source text provides specific details about real estate transactions in Utah (the sale of a memory care community in Clinton and the acquisition of Spring Gardens communities by 1031 Crowdfunding). The response omits all critical factual information regarding the brokers, sellers, buyers, unit counts, dates, and square footage required by the evaluation criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 790,
+  "completion_tokens": 98,
+  "total_tokens": 888,
+  "timestamp": "2026-09-22T16:50:13.392447+00:00"
+}

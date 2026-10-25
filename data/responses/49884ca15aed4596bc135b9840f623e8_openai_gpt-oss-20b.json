@@ -1,0 +1,20 @@
+{
+  "prompt_id": "49884ca15aed4596bc135b9840f623e8",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the SNOMED international code for Spleen?",
+  "response_text": "**SNOMED CT International code for “Spleen”**\n\n| Concept | SNOMED CT ID | Fully specified name | Preferred term |\n|---------|--------------|----------------------|----------------|\n| Spleen (body structure) | **271442009** | Spleen (body structure) | Spleen |\n\n- **271442009** is the current, widely‑used SNOMED CT concept identifier for the anatomical structure known as the spleen.  \n- It is classified under the “body structure” hierarchy and is the preferred term in the SNOMED CT terminology.  \n\n**How to use it**\n\n- In electronic health records (EHRs), clinical decision support, or data exchange, you can reference the spleen by this numeric ID.  \n- When mapping to other coding systems (e.g., ICD‑10, LOINC), use the SNOMED CT ID as the source concept.\n\n**Version note**\n\nSNOMED CT is updated quarterly. The ID **271442009** remains stable across releases, but always verify against the latest release you are using (e.g., the 2024‑06 release). If you need the fully specified name or additional relationships, you can query the SNOMED International browser or the local SNOMED CT repository.",
+  "finish_reason": "stop",
+  "prompt_tokens": 84,
+  "completion_tokens": 2052,
+  "total_tokens": 2136,
+  "latency_ms": 2526,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:31:41.439270+00:00"
+}

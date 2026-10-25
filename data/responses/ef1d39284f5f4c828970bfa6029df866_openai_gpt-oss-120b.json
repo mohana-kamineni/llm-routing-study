@@ -1,0 +1,20 @@
+{
+  "prompt_id": "ef1d39284f5f4c828970bfa6029df866",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about Counter Strike Global Offensive which jokes about how buggy the game can be. (Hit registration -> hitreg, terrible steam market economy and etc) Also make sure that every line Rhymes!",
+  "response_text": "In CS:GO we queue up, hoping for a clean‑cut play,  \nBut hitreg’s a myth—your bullet’s a ghost, just a phantom spray‑play,  \nThe server lags like a snail on a Sunday, turning clutch moments to dismay‑play,  \nYour AK‑47 “sprays” like confetti, yet the enemy’s head never gets a fray‑play.  \n\nThe Steam market’s a circus, where skins cost more than a payday,  \nYou’ll trade a simple AK for a dragon‑etched case, then watch its value decay‑play,  \nBots wander like tourists, forgetting the map, they just stand and sway‑play,  \nAnd every “buy‑back” you attempt feels like tossing coins into a wishing‑well’s gray‑play.  \n\nWhen you finally plant the bomb, the timer freezes—time’s on a holiday,  \nThe defuse kit vanishes like a magician’s trick, leaving you in disarray‑play,  \nEven the HUD flickers, as if the graphics driver took a coffee break‑play,  \nYet we keep pressing “ready,” because the thrill of the glitch is our favorite‑play.  \n\nSo raise a toast to the bugs, the lag, the market’s wild ballet,  \nIn this chaotic, pixelated arena, we all just love to mis‑play.",
+  "finish_reason": "stop",
+  "prompt_tokens": 112,
+  "completion_tokens": 476,
+  "total_tokens": 588,
+  "latency_ms": 6350,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:43:10.792664+00:00"
+}

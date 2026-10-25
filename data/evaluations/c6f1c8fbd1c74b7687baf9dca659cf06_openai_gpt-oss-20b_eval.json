@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c6f1c8fbd1c74b7687baf9dca659cf06",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies that the number of lemons is zero. The reasoning is sound: the problem only provides information about apples and bananas, and there is no mention of lemons being acquired or possessed. Therefore, the count of lemons remains at the default zero. There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 195,
+  "completion_tokens": 68,
+  "total_tokens": 263,
+  "timestamp": "2026-09-22T17:05:33.095976+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1ccdb20248cd4a148478f1e4389ec173",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides an accurate and comprehensive summary of the provided text. It successfully captures all key thematic elements: the post-pandemic reunion, the emphasis on bipartisan unity, the specific context of Russia's invasion of Ukraine (including the timeline and Putin's miscalculation), the praise for Ukrainian resistance, the call for a symbolic show of support, the historical context of NATO, and the description of the U.S. diplomatic and coalition-building efforts. The summary is factually consistent with the source material and does not omit critical information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1056,
+  "completion_tokens": 114,
+  "total_tokens": 1170,
+  "timestamp": "2026-09-28T07:51:51.182421+00:00"
+}

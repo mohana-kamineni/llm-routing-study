@@ -1,0 +1,14 @@
+{
+  "prompt_id": "f61c25b33b844068b5118f367ab1935b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies Balinese Hinduism as the predominant religion in Bali, which is factually accurate. It also correctly identifies Balinese as the primary local language and notes the use of Bahasa Indonesia for official and inter-regional communication. There are no false contradictions or factual errors in the provided answer.",
+  "finish_reason": "stop",
+  "prompt_tokens": 227,
+  "completion_tokens": 67,
+  "total_tokens": 294,
+  "timestamp": "2026-09-19T17:28:21.260454+00:00"
+}

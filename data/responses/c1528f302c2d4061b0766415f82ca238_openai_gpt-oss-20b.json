@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c1528f302c2d4061b0766415f82ca238",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a linux shell script to calculate each prime number.",
+  "response_text": "Below is a **stand‑alone Bash script** that prints every prime number up to a user‑supplied limit (or up to 100 000 if no limit is given).  \nIt uses a simple trial‑division test – fast enough for numbers up to a few million on a typical laptop, but not meant for cryptographic‑size primes.\n\n```bash\n#!/usr/bin/env bash\n# ------------------------------------------------------------------\n# prime-list.sh\n#\n# Prints all prime numbers from 2 up to <limit>.\n#\n# Usage:\n#   ./prime-list.sh [limit]\n#\n#   limit   (optional)  The maximum number to test for primality.\n#             If omitted, the script defaults to 100000.\n#\n# Example:\n#   ./prime-list.sh 50\n#   2 3 5 7 11 13 17 19 23 29 31 37 41 43 47\n#\n# ------------------------------------------------------------------\n\n# ---------- Configuration ----------\nDEFAULT_LIMIT=100000   # Change this if you want a different default\n\n# ---------- Helper Functions ----------\n# is_prime <number>\n# Returns 0 (true) if <number> is prime, 1 (false) otherwise.\nis_prime() {\n    local n=$1\n\n    # 0, 1 and negative numbers are not prime\n    if (( n < 2 )); then\n        return 1\n    fi\n\n    # 2 and 3 are prime\n    if (( n == 2 || n == 3 )); then\n        return 0\n    fi\n\n    # Even numbers > 2 are not prime\n    if (( n % 2 == 0 )); then\n        return 1\n    fi\n\n    # Test odd divisors up to sqrt(n)\n    local i=3\n    local limit=$(( (n + 1) / 2 ))   # sqrt approximation\n    while (( i * i <= n )); do\n        if (( n % i == 0 )); then\n            return 1\n        fi\n        i=$(( i + 2 ))\n    done\n\n    return 0\n}\n\n# ---------- Main ----------\n# Parse limit argument\nlimit=${1:-$DEFAULT_LIMIT}\n\n# Validate that limit is a positive integer\nif ! [[ $limit =~ ^[0-9]+$ ]]; then\n    echo \"Error: limit must be a non‑negative integer.\" >&2\n    exit 1\nfi\n\n# Print primes\nfirst=1   # flag to avoid leading space\nfor (( num=2; num<=limit; num++ )); do\n    if is_prime \"$num\"; then\n        if (( first )); then\n            printf \"%d\" \"$num\"\n            first=0\n        else\n            printf \" %d\" \"$num\"\n        fi\n    fi\ndone\nprintf \"\\n\"\n```\n\n### How it works\n\n1. **Argument handling** – The script accepts an optional numeric argument.  \n   If omitted, it defaults to `100000`.  \n   It checks that the argument is a non‑negative integer.\n\n2. **Prime test (`is_prime`)** –  \n   * Handles small numbers (`<2`, `2`, `3`).  \n   * Eliminates even numbers quickly.  \n   * Checks odd divisors up to `sqrt(n)` (implemented as `i * i <= n`).  \n   * Returns `0` (success) if the number is prime, `1` otherwise.\n\n3. **Loop** – Iterates from `2` to the limit, prints each prime separated by a single space.\n\n### Running the script\n\n```bash\nchmod +x prime-list.sh          # Make it executable\n./prime-list.sh 50              # Prints primes ≤ 50\n./prime-list.sh                # Prints primes ≤ 100000 (default)\n```\n\n### Performance notes\n\n* The algorithm is **O(n √n)** in the worst case.  \n  For `limit = 10⁶` it runs in a few seconds on a modern CPU.  \n* For very large limits (e.g., > 10⁸) consider using a more efficient algorithm (Sieve of Eratosthenes, segmented sieve, or a dedicated tool like `primesieve`).\n\nFeel free to tweak the default limit or replace the primality test with a faster one if you need to handle larger ranges. Happy scripting!",
+  "finish_reason": "stop",
+  "prompt_tokens": 82,
+  "completion_tokens": 1159,
+  "total_tokens": 1241,
+  "latency_ms": 1458,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:12:54.800286+00:00"
+}

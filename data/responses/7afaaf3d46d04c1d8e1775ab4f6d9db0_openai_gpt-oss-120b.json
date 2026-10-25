@@ -1,0 +1,20 @@
+{
+  "prompt_id": "7afaaf3d46d04c1d8e1775ab4f6d9db0",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about San Francisco in the style of Edgar Allen Poe and follow up with an explanation of how the poem matches the requested style.",
+  "response_text": "**Fog‑bound Lament of the Golden Gate**  \n\n*Upon a night where moonless clouds o’ercast the bay,  \nI wander, lone, through streets where shadows sway;  \nThe cable‑cars, like mournful phantoms, sigh,  \nTheir iron clatter echoing a distant cry.*  \n\n*The fog, that sable veil, rolls in—* **nevermore**—*  \nA shroud that smothers every lantern’s lore;  \nIt curls ’round towers, drapes the pier’s cold stone,  \nAnd whispers secrets of the drowned unknown.*  \n\n*Beneath the bridge, the waters churn in grief,  \nA restless tide that steals the heart’s belief;  \nThe gulls, like mournful omens, pierce the gloom,  \nTheir cries a dirge that haunts the fog‑filled room.*  \n\n*The city’s lights, a flicker, pale and wan,  \nLike dying stars that tremble ’fore the dawn;  \nEach window holds a story, dark and deep,  \nOf love betrayed, of promises that weep.*  \n\n*O San Francisco!—your hills, a tomb of sighs,  \nYour streets a labyrinth where hope yet dies;  \nYet in this gloom, a pulse of life persists—*  \n*The beating heart of night that never quits.*  \n\n*Thus I, a wandering soul, in darkness bound,  \nRecall the city’s sighs, its mournful sound;  \nAnd as the fog recedes—* **nevermore**—*  \nI leave its haunted echo, evermore.*  \n\n---\n\n### How the Poem Mirrors Edgar Allan Poe’s Style  \n\n| Poe‑like Element | How It Appears in the Poem |\n|------------------|----------------------------|\n| **Gothic, melancholic atmosphere** | The poem is set in a fog‑shrouded night, with “shadows,” “phantoms,” “dirge,” and “tomb of sighs,” evoking the bleak, haunted mood typical of Poe. |\n| **Repetition of a refrain** | The word **“nevermore”**—the iconic refrain from *The Raven*—is repeated twice, creating a haunting echo that ties the piece to Poe’s most famous poem. |\n| **Rhyme and meter** | The verses follow a regular **ABAB** rhyme scheme and a roughly iambic tetrameter, reminiscent of Poe’s musical, metrical precision. |\n| **Alliteration and internal rhyme** | Phrases such as “*cable‑cars, like mournful phantoms*,” “*fog, that sable veil*,” and “*lantern’s lore*” employ alliteration; internal rhymes appear in lines like “*The gulls, like mournful omens, pierce the gloom*.” |\n| **Dark, macabre imagery** | Images of “*the waters churn in grief*,” “*drowned unknown*,” and “*dying stars*” echo Poe’s fascination with death, decay, and the supernatural. |\n| **Psychological introspection** | The speaker is a “*wandering soul*” reflecting on loss and the city’s “*haunted echo*,” mirroring Poe’s frequent focus on the narrator’s inner torment. |\n| **Use of a symbolic setting** | San Francisco’s fog, bridges, and cable‑cars become symbols of mystery and melancholy, just as Poe turned settings (the house, the night, the sea) into extensions of the poem’s emotional core. |\n| **Elevated diction** | Words such as “*lament,*” “*sable,*” “*dirge,*” and “*haunted*” give the poem a formal, almost archaic tone, aligning with Poe’s 19th‑century poetic voice. |\n\nBy weaving these hallmarks—gothic ambience, a haunting refrain, strict rhyme, alliteration, and a brooding narrator—into a portrait of San Francisco, the poem captures the essence of Edgar Allan Poe’s literary style while celebrating the city’s mist‑laden mystique.",
+  "finish_reason": "stop",
+  "prompt_tokens": 99,
+  "completion_tokens": 993,
+  "total_tokens": 1092,
+  "latency_ms": 2404,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:37:46.725175+00:00"
+}

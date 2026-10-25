@@ -1,0 +1,20 @@
+{
+  "prompt_id": "ab1c6c1caebf4268b61ce131a4e7db2b",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Please summarize this passage of text, be sure to maintain important information but optimize for clarity & ease of reading: The Sputnik 1 spacecraft was the first artificial satellite successfully placed in orbit around the Earth and was launched from Baikonur Cosmodrome at Tyuratam (370 km southwest of the small town of Baikonur) in Kazakhstan, then part of the former Soviet Union. The Russian word \"Sputnik\" means \"companion\" (\"satellite\" in the astronomical sense).\n\nIn 1885 Konstantin Tsiolkovsky first described in his book, Dreams of Earth and Sky, how such a satellite could be launched into a low altitude orbit. It was the first in a series of four satellites as part of the Sputnik program of the former Soviet Union and was planned as a contribution to the International Geophysical Year (1957-1958). Three of these satellites (Sputnik 1, 2, and 3) reached Earth orbit.\n\nThe Sputnik 1 satellite was a 58.0 cm-diameter aluminum sphere that carried four whip-like antennas that were 2.4-2.9 m long. The antennas looked like long \"whiskers\" pointing to one side. The spacecraft obtained data pertaining to the density of the upper layers of the atmosphere and the propagation of radio signals in the ionosphere. The instruments and electric power sources were housed in a sealed capsule and included transmitters operated at 20.005 and 40.002 MHz (about 15 and 7.5 m in wavelength), the emissions taking place in alternating groups of 0.3 s in duration. The downlink telemetry included data on temperatures inside and on the",
+  "response_text": "**Sputnik 1 – First Artificial Earth Satellite**\n\n- **Launch**: 4 Oct 1957 from Baikonur Cosmodrome (Tyuratam, 370 km SW of Baikonur, Kazakhstan – then USSR).  \n- **Name**: “Sputnik” is Russian for “companion” (i.e., satellite).  \n- **Historical context**: Inspired by Konstantin Tsiolkovsky’s 1885 idea of a low‑orbit satellite; part of the Soviet Sputnik program, which supported the International Geophysical Year (1957‑58).  \n- **Program outcome**: Four satellites were planned; Sputnik 1, 2, and 3 successfully reached orbit.  \n- **Design**: 58 cm aluminum sphere with four 2.4–2.9 m whip antennas.  \n- **Mission objectives**: Measure upper‑atmosphere density and study ionospheric radio propagation.  \n- **Instrumentation**: Sealed capsule housing transmitters at 20.005 MHz and 40.002 MHz, each pulse lasting 0.3 s in alternating groups. Downlink telemetry recorded internal and external temperatures.",
+  "finish_reason": "stop",
+  "prompt_tokens": 409,
+  "completion_tokens": 497,
+  "total_tokens": 906,
+  "latency_ms": 4940,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:44:49.918239+00:00"
+}

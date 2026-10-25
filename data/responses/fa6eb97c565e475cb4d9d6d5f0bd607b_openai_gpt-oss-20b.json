@@ -1,0 +1,20 @@
+{
+  "prompt_id": "fa6eb97c565e475cb4d9d6d5f0bd607b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is frodo beggins?",
+  "response_text": "**Frodo Baggins** (often misspelled as “Frodo Beggins”) is a fictional character created by J.R.R. Tolkien. He is a hobbit of the Shire and the central protagonist of *The Lord of the Rings*.\n\n| Aspect | Details |\n|--------|---------|\n| **Full name** | Frodo Baggins |\n| **Race** | Hobbit (specifically a member of the “Baggins” family) |\n| **Birth** | 22 March Third Age 2980 (in Tolkien’s chronology) |\n| **Residence** | Bag End, Hobbiton, the Shire |\n| **Key role** | Ring‑bearer: entrusted with the One Ring by his uncle Bilbo and tasked with destroying it in the fires of Mount Gondor. |\n| **Traits** | Courageous, humble, compassionate, and surprisingly resilient despite his small stature. |\n| **Major companions** | Samwise Gamgee (his best friend), Gandalf the Grey, Aragorn, Legolas, Gimli, and others of the Fellowship of the Ring. |\n| **Significant events** | • Receives the One Ring from Bilbo at the “Riddle‑Game” party. <br>• Travels with the Fellowship across Middle‑Earth. <br>• Faces the temptation of the Ring, especially in the Mines of Moria and at the Black Gate. <br>• Ultimately carries the Ring to Mount Gondor and, with the help of Gollum, destroys it. |\n| **Aftermath** | Returns to the Shire, but the trauma of his journey leads him to eventually leave Middle‑Earth for the Undying Lands with the Elves. |\n\n**Why he matters**  \nFrodo’s journey is the emotional core of Tolkien’s epic. His willingness to bear the burden of the Ring, despite its corrupting power, exemplifies themes of sacrifice, friendship, and the struggle between good and evil. He is often cited as one of the most iconic characters in fantasy literature.",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 545,
+  "total_tokens": 624,
+  "latency_ms": 9047,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:37:33.113763+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "3440e38bebf84974860238a932207dc8",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is (1 + 1) / 2",
+  "response_text": "\\[\n\\frac{1+1}{2} = \\frac{2}{2} = 1\n\\]",
+  "finish_reason": "stop",
+  "prompt_tokens": 82,
+  "completion_tokens": 87,
+  "total_tokens": 169,
+  "latency_ms": 244,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:20:09.334713+00:00"
+}

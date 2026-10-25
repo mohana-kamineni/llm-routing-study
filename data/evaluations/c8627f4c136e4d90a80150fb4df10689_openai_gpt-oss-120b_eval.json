@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c8627f4c136e4d90a80150fb4df10689",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the quantities of each item (1 ball, 1 cube, 5 eggs, 2 top hats, 23 pennies) and performs the correct addition (1 + 1 + 5 + 2 + 23 = 32). The final answer is correct, and there are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 235,
+  "completion_tokens": 80,
+  "total_tokens": 315,
+  "timestamp": "2026-09-24T14:46:42.378720+00:00"
+}

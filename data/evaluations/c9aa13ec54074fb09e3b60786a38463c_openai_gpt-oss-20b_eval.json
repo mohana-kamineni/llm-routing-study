@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c9aa13ec54074fb09e3b60786a38463c",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies King Charles III as the current monarch of the United Kingdom. It also provides accurate supporting details regarding his accession date (8 September 2022) and the reason for his ascension (the death of Queen Elizabeth II). There are no factual errors or contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 194,
+  "completion_tokens": 65,
+  "total_tokens": 259,
+  "timestamp": "2026-09-22T17:16:49.889919+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d3ff8705a7704f3a974caf85f2f57068",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the story for a 12-year-old audience and covers all five required key aspects:\n1. It correctly identifies the hen's decision to bake a corn cake and the labor involved (harvesting, threshing, grinding).\n2. It includes the refusal of the cat, dog, and pig. While the specific reasons are slightly paraphrased (e.g., the cat's refusal is rendered as \"I didn't hear you\" rather than \"You woke me up,\" and the dog's as \"I didn't hear you either\" rather than \"I like ready dish\"), the core fact that they all refused to help is clearly conveyed, and the general sentiment of their laziness is preserved.\n3. It states that the hen completed the entire process alone.\n4. It describes the animals becoming eager to eat the cake once it was ready.\n5. It concludes with the hen denying them the cake and sharing it only with her chicks.\n\nThe summary is accurate, coherent, and captures the essential narrative arc and moral of the source text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1121,
+  "completion_tokens": 227,
+  "total_tokens": 1348,
+  "timestamp": "2026-09-28T07:38:21.846470+00:00"
+}

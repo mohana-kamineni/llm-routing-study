@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a7fdafb501164394bf72d59ed7eaceaa",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response provides a factually accurate and logically sound framework for gaining national media attention. It correctly identifies the core components of newsworthiness (timeliness, impact, human interest, uniqueness) and outlines standard, effective public relations strategies such as drafting press releases, targeting specific journalists, leveraging social media, and timing releases appropriately. There are no false contradictions or factual errors in the advice provided; the steps described align with established industry practices for media relations.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1866,
+  "completion_tokens": 100,
+  "total_tokens": 1966,
+  "timestamp": "2026-09-23T07:47:11.854855+00:00"
+}

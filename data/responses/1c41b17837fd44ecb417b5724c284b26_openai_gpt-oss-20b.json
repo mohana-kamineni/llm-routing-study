@@ -1,0 +1,20 @@
+{
+  "prompt_id": "1c41b17837fd44ecb417b5724c284b26",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about perfectionism.",
+  "response_text": "**The Mirror’s Edge**\n\nIn the quiet of a workshop,  \na hand hovers over marble,  \neach touch a promise of flawlessness—  \nthe stone sighs, “I am not yet whole.”\n\nPerfectionism is a mirror  \nthat reflects only the edges,  \nthe light that never quite reaches the center,  \nand the shadows that grow longer with every glance.\n\nIt is a staircase that spirals upward,  \neach step a new standard,  \nthe handrail a whisper: “more, better, sooner.”  \nThe climb never ends; the summit is a mirage.\n\nIt sings in the silence of a writer’s desk,  \nthe ink that refuses to settle,  \nthe sentence that must be polished until it gleams,  \nyet the glow is a glare that blinds the eye.\n\nIn its pursuit, we become both sculptor and stone,  \nshaping ourselves with the same chisel that cuts us,  \nand in the mirror’s reflection, we see a ghost of a dream—  \na perfect shape that never quite fits.\n\nYet, in the cracks, there is a story,  \na texture that tells of effort, of heart, of hope.  \nPerfection, perhaps, is not the absence of flaw,  \nbut the courage to keep chiseling, even when the stone is worn.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 454,
+  "total_tokens": 532,
+  "latency_ms": 738,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:12:15.194226+00:00"
+}

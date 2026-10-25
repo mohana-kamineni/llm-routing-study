@@ -1,0 +1,20 @@
+{
+  "prompt_id": "76fcbf62cfeb4d7abd463130dde0cf25",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the future of AI",
+  "response_text": "**The future of AI is a tapestry of promise, challenge, and responsibility.**  \nBelow is a snapshot of the most influential trends, opportunities, and risks that are shaping the next decade (and beyond).\n\n| Domain | What’s on the Horizon | Why It Matters | Key Risks / Ethical Questions |\n|--------|----------------------|----------------|------------------------------|\n| **General‑purpose intelligence** | *Continued scaling of foundation models* (e.g., GPT‑4‑style, multimodal, and domain‑specific variants) | More fluent, context‑aware, and cross‑modal interactions; easier to fine‑tune for niche tasks | Over‑reliance on black‑box systems; hallucinations; misuse for disinformation |\n| **Explainability & Trust** | *Self‑explanatory architectures* (e.g., attention‑based visualizations, causal‑reasoning modules) | Helps users understand decisions, essential for regulated sectors | Trade‑off between transparency and performance; “explainability fatigue” |\n| **Alignment & Safety** | *Formal verification, reward‑shaping, and human‑in‑the‑loop frameworks* | Reduces harmful behavior, ensures alignment with human values | Difficulty in specifying complex norms; potential for adversarial manipulation |\n| **Healthcare** | *AI‑driven diagnostics, drug discovery, personalized medicine, and tele‑health assistants* | Faster, cheaper, and more accurate care; potential to reduce global health disparities | Data privacy, algorithmic bias, regulatory hurdles |\n| **Education** | *Adaptive learning platforms, AI tutors, and skill‑gap analytics* | Democratizes high‑quality instruction; supports lifelong learning | Equity gaps, data security, over‑automation of human interaction |\n| **Creative Industries** | *Co‑creative tools for art, music, writing, and design* | Lowers entry barriers, fuels new art forms | Copyright disputes, authenticity concerns, cultural appropriation |\n| **Autonomous Systems** | *Self‑driving cars, drones, robots, and smart factories* | Increased efficiency, safety, and productivity | Liability, job displacement, security of autonomous agents |\n| **Climate & Environment** | *AI for climate modeling, precision agriculture, and resource optimization* | Enables data‑driven mitigation and adaptation strategies | Misuse for surveillance, data misinterpretation, unequal access |\n| **Governance & Policy** | *AI for policy simulation, risk assessment, and public‑service optimization* | Evidence‑based decision making, improved public trust | Algorithmic bias in public services, lack of transparency |\n| **Ethics & Governance** | *International AI treaties, AI ethics boards, and public‑participatory design* | Shared norms, accountability, and global cooperation | Enforcement gaps,",
+  "finish_reason": "length",
+  "prompt_tokens": 77,
+  "completion_tokens": 4096,
+  "total_tokens": 4173,
+  "latency_ms": 4658,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:34:39.309205+00:00"
+}

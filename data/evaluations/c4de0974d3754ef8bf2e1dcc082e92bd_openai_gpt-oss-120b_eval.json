@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c4de0974d3754ef8bf2e1dcc082e92bd",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the three segments of the hike (0.2 mile, 0.4 mile, and 0.1 mile) and sums them to arrive at the correct total of 0.7 miles. There are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 297,
+  "completion_tokens": 58,
+  "total_tokens": 355,
+  "timestamp": "2026-09-28T07:44:06.370540+00:00"
+}

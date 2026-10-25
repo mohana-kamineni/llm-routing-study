@@ -1,0 +1,20 @@
+{
+  "prompt_id": "fabaefca92e342b497fd64955850f757",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "How many tails 4 cats have",
+  "response_text": "Four cats have four tails—one tail per cat.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 141,
+  "total_tokens": 219,
+  "latency_ms": 508,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:50:55.989674+00:00"
+}

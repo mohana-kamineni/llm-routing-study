@@ -1,0 +1,14 @@
+{
+  "prompt_id": "7b6370efdace47b9a47a6c136258f86b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains significant factual errors regarding Ursula Bellugi's identity, career, and affiliations.\n1. **Institutional Affiliation**: Ursula Bellugi is a Professor of Neuroscience at the **Salk Institute for Biological Studies** in La Jolla, California. The response incorrectly states she is a Professor at **Columbia University**.\n2. **Research Focus**: Bellugi is world-renowned for her work on **American Sign Language (ASL)**, specifically studying the neurobiology of sign language, the \"sign language aphasia\" (analogous to Broca's aphasia in spoken language), and the development of language in deaf children. The response incorrectly focuses her work on spoken language aphasia in hearing patients and general brain lateralization, ignoring her primary contribution to sign language neuroscience.\n3. **Publications**: The response claims she co-authored a textbook titled *\"Language and the Brain\"* with Michael Gazzaniga. While Gazzaniga is a prominent neuroscientist, Bellugi is not a co-author of a standard textbook by that title with him; her major works are research papers and books related to sign language (e.g., *The Language of Deaf Children*).\n4. **Awards**: While she has received many honors, the specific claim of the APA Distinguished Scientific Award for an Early Career Contribution in 1985 is likely inaccurate or conflated with other awards; her most notable recognition includes being a MacArthur Fellow (1986) and receiving the National Medal of Science (2019).\n\nBecause the response misidentifies her primary employer and mischaracterizes her most famous scientific contributions (sign language vs. spoken language), it fails the factual accuracy criterion.",
+  "finish_reason": "stop",
+  "prompt_tokens": 609,
+  "completion_tokens": 361,
+  "total_tokens": 970,
+  "timestamp": "2026-09-19T17:05:43.331443+00:00"
+}

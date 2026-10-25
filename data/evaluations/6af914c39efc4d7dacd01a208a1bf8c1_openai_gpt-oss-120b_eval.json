@@ -1,0 +1,14 @@
+{
+  "prompt_id": "6af914c39efc4d7dacd01a208a1bf8c1",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the steps to solve the linear equation. It accurately subtracts 5 from both sides to get $24x = 48$ and then divides by 24 to find $x = 2$. The final answer is correct, and there are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 280,
+  "completion_tokens": 67,
+  "total_tokens": 347,
+  "timestamp": "2026-09-23T17:51:50.854782+00:00"
+}

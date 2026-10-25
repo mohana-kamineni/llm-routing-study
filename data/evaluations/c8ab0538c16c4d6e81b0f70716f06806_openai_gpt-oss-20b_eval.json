@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c8ab0538c16c4d6e81b0f70716f06806",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response is a roleplay greeting, not a summary of the source text. It fails to cover the essential factual aspects of the game rules, such as the negotiation mechanics, the curse system, battle simulation details, inventory management, and the specific conditions for restarting the game. The evaluation criteria explicitly require the summary to cover all required key aspects extracted from the source passage, which this response completely omits.",
+  "finish_reason": "stop",
+  "prompt_tokens": 417,
+  "completion_tokens": 88,
+  "total_tokens": 505,
+  "timestamp": "2026-09-19T17:24:54.639590+00:00"
+}

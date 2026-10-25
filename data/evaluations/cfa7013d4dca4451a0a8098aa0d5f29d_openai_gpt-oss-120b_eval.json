@@ -1,0 +1,14 @@
+{
+  "prompt_id": "cfa7013d4dca4451a0a8098aa0d5f29d",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the algebraic operation required to isolate $x$ (subtracting 27 from both sides) and performs the arithmetic correctly ($56 - 27 = 29$). The final answer is correct and the reasoning contains no errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 205,
+  "completion_tokens": 61,
+  "total_tokens": 266,
+  "timestamp": "2026-09-23T20:40:43.482634+00:00"
+}

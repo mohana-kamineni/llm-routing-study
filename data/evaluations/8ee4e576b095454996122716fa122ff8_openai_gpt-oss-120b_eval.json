@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8ee4e576b095454996122716fa122ff8",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the sequence as perfect squares and accurately calculates the next term as 36 ($6^2$). There are no factual errors or contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 218,
+  "completion_tokens": 40,
+  "total_tokens": 258,
+  "timestamp": "2026-09-24T03:50:17.540593+00:00"
+}

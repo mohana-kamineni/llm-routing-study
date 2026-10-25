@@ -1,0 +1,20 @@
+{
+  "prompt_id": "17fb552b5c98435fb06bf91c1c0507f9",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a limerick about a tiny black cat named Kitten who is a Persian with a smooshed in face and makes weird wheezing noises and struggles to eat",
+  "response_text": "A tiny black Persian named Kitten,  \nWith a face all smooshed‑in, quite smitten,  \nShe wheezes a tune,  \nWhile she nibbles a spoon,  \nAnd still dreams of feasts she’ll soon be gettin’.",
+  "finish_reason": "stop",
+  "prompt_tokens": 105,
+  "completion_tokens": 118,
+  "total_tokens": 223,
+  "latency_ms": 562,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:37:39.143619+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "d95f4bd983e849b29a4f0b594680f409",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about King Arthur",
+  "response_text": "**King of the Mist‑Bound Isle**\n\nIn mist‑clad valleys where the rivers sigh,  \nA boy of humble birth was drawn to stone—  \nExcalibur, the blade that sang the sky,  \nAwoke beneath the hand of destiny’s own.\n\nFrom Avalon’s soft, eternal glow,  \nHe rose, a king whose heart was forged in fire,  \nWith round‑table kin, the brave and low,  \nA fellowship of honor, hope, and tire.\n\nSir Lancelot, the lion‑hearted knight,  \nSir Gawain, steadfast as the ancient oak,  \nSir Percival, seeker of the holy light,  \nAll gathered ’round the banner that they spoke.\n\nThe Grail they chased through shadowed wood,  \nThrough trials that tested soul and steel,  \nAnd in each quest the kingdom understood—  \nTrue power lies in love, not in the seal.\n\nWhen winter’s breath grew cold upon the throne,  \nAnd treachery’s dark whisper filled the hall,  \nArthur’s sword sang bright, a crystal tone—  \nA promise that the realm would never fall.\n\nNow legends whisper through the misty glen,  \nOf a king who wore no crown of gold,  \nBut bore a heart that beats in every man—  \nThe timeless echo of a story told.",
+  "finish_reason": "stop",
+  "prompt_tokens": 77,
+  "completion_tokens": 314,
+  "total_tokens": 391,
+  "latency_ms": 883,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T23:18:05.501810+00:00"
+}

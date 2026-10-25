@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c1317d1fef884a6cab276bc8add820d4",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the Earth's dimensions (radius, diameter, circumference, surface area, volume) with accurate standard values. It provides multiple valid methods for calculating these values, including geometric estimation using chord length and central angle, and orbital mechanics using Kepler's Third Law.\n\nThe mathematical derivations and examples provided are correct:\n1.  **Geometric Method:** The formula $r = \\frac{D}{2\\sin(\\theta/2)}$ is correct for relating chord length $D$ and central angle $\\theta$ to radius $r$. The example calculation ($1000 / (2 \\sin(0.0785)) \\approx 6371$) is mathematically sound.\n2.  **Orbital Method:** The application of Kepler's Third Law $R = \\sqrt[3]{\\frac{GMT^2}{4\\pi^2}}$ is correct. The example calculation for a satellite with $T=5400$ s and $h=400$ km yields an orbital radius of $\\approx 6771$ km, which subtracts to the correct Earth radius of $\\approx 6371$ km.\n3.  **Constants:** The values for mass, density, and other derived quantities are accurate.\n\nThere are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2184,
+  "completion_tokens": 286,
+  "total_tokens": 2470,
+  "timestamp": "2026-09-19T17:36:48.035442+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "84a830c3b2834966a0a5aae29384088a",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a poem about donald trump",
+  "response_text": "**The Tower of Tweets**\n\nIn a city that never sleeps, a tower rose,  \nGlass and steel, a gleaming throne,  \nWhere a man with a golden crown of hair  \nWove his own brand of bold, brash tone.\n\nHe spoke in bursts of thunderous sound,  \nA voice that rattled the very air,  \nPromising deals, a wall, a plan—  \nA promise that some could not bear.\n\nThe crowds gathered, some cheered, some sighed,  \nA nation split as a river runs,  \nHe painted futures in bright, bold strokes,  \nWhile critics whispered of the undone.\n\nHe danced on the stage of the world’s eye,  \nA spectacle of power and flair,  \nYet beneath the glittering façade,  \nQuestions lingered, thin as air.\n\nIn the end, the tower still stands—  \nA monument to ambition’s flame,  \nA chapter in the story of a nation,  \nWritten in the language of fame.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 276,
+  "total_tokens": 354,
+  "latency_ms": 684,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:23:00.164754+00:00"
+}

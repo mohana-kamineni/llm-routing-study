@@ -1,0 +1,20 @@
+{
+  "prompt_id": "cce7a2ef6b1740029e24651f4a1d3246",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about Counter Strike Global Offensive which jokes about how buggy the game can be. (Hit registration -> hitreg, terrible steam market economy and etc) Also make sure that every line Rhymes!",
+  "response_text": "In CS:GO we queue up, hoping for a clean‑cut play,  \nBut hitreg’s a myth—your bullet’s a ghost, still you claim the win’s a “lucky” play,  \nThe server spikes like a bad Wi‑Fi, lagging you into a pixelated ballet‑play,  \nYour AK‑47 sprays, yet the enemy’s armor stays untouched—what a “hit‑or‑miss” play,  \n\nThe Steam market’s a circus, prices swing like a roller‑coaster sway‑play,  \nYou buy a skin for a fortune, only to watch it drop faster than a stray‑play,  \nBots wander like tourists, forgetting the map, turning every round into a stray‑play,  \nEven the grenades seem shy, refusing to explode—just a timid, fizz‑only play,  \n\nYour teammates “spray‑and‑pray,” but the crosshair’s a liar, a mischievous display‑play,  \nThe scoreboard flips, “MVP” crowned on a player who never fired a single ray‑play,  \nYet we keep pressing “Ready,” because the bugs are part of the charm we’ll forever replay—  \nSo raise a toast to CS:GO, the glorious, glitch‑filled, forever‑laughing, endless play.",
+  "finish_reason": "stop",
+  "prompt_tokens": 112,
+  "completion_tokens": 465,
+  "total_tokens": 577,
+  "latency_ms": 4263,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:43:36.672799+00:00"
+}

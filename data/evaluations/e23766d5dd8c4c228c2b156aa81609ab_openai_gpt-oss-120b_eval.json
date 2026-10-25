@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e23766d5dd8c4c228c2b156aa81609ab",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains significant factual errors regarding the plot and characters of the show *Beef*. Specifically:\n1. **Character Identity**: The female protagonist is named **Amy Lau**, not \"Megan Lee.\"\n2. **Company Name**: The company is called **Koyohaus** (which is correct in the prompt and response), but the response incorrectly identifies the male protagonist as **Danny Cho**. The male protagonist is **Danny Cho** (this part is actually correct in the response, wait, let me double check the show details).\n   - *Correction*: The male lead is **Danny Cho** (played by Steven Yeun). The female lead is **Amy Lau** (played by Ali Wong).\n   - The response names the female lead \"Megan Lee\". This is a false fact.\n3. **Plot Details**: The response invents specific plot points that do not exist in the show, such as a \"viral TikTok challenge that mirrors their feud\" and a \"plant-delivery van turned into a 'weaponized' greenhouse.\" While the show involves escalating pranks (like the fake death, the car crash, the fake pregnancy, etc.), the specific examples given are hallucinations.\n4. **Company Description**: Koyohaus is a plant-based lifestyle brand, which is correct. However, the character name error is a major factual contradiction.\n\nBecause the response provides incorrect character names and fabricated plot details, it fails the criterion of providing the correct factual answer without false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1232,
+  "completion_tokens": 318,
+  "total_tokens": 1550,
+  "timestamp": "2026-09-28T07:55:49.910758+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "30e946edb164450b83fd63f689965538",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response provides a comprehensive and factually accurate description of Sonic the Hedgehog. It correctly identifies him as Sega's mascot, a blue anthropomorphic hedgehog, and the protagonist of the video game franchise. Key details such as his first appearance (1991 on Sega Genesis), creators (Naoto Ohshima, Hirokazu Yasuhara, Yuji Naka), signature abilities (speed, spin-dash), and main antagonist (Dr. Eggman) are all correct. The timeline of the franchise's evolution and cultural impact is also accurate. There are no false contradictions or significant factual errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1407,
+  "completion_tokens": 132,
+  "total_tokens": 1539,
+  "timestamp": "2026-09-24T21:48:00.428394+00:00"
+}

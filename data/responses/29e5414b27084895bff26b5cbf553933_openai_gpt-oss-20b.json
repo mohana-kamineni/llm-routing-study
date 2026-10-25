@@ -1,0 +1,20 @@
+{
+  "prompt_id": "29e5414b27084895bff26b5cbf553933",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Give me some word that start with \"A\" and then calculate 7+23",
+  "response_text": "Here are a few words that start with **“A”**:\n\n- **Apple**\n- **Ant**\n- **Astronaut**\n- **Acrobat**\n- **Aurora**\n\nNow, the calculation:\n\n\\(7 + 23 = 30\\)",
+  "finish_reason": "stop",
+  "prompt_tokens": 88,
+  "completion_tokens": 134,
+  "total_tokens": 222,
+  "latency_ms": 262,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:00:57.222416+00:00"
+}

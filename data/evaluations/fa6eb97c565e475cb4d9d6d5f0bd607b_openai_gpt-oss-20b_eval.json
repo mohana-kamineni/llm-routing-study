@@ -1,0 +1,14 @@
+{
+  "prompt_id": "fa6eb97c565e475cb4d9d6d5f0bd607b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains significant factual errors regarding the plot of *The Lord of the Rings*. Specifically, it states that Frodo is \"tasked with destroying it in the fires of Mount Gondor\" and that he \"carries the Ring to Mount Gondor.\" In the actual story, Frodo is tasked with destroying the Ring in the fires of **Mount Doom** (Orodruin) in Mordor. Mount Gondor is the location of the city of Minas Tirith, where the Ring is not destroyed. Additionally, the response claims Frodo faces the temptation of the Ring \"at the Black Gate,\" which is incorrect; the Fellowship does not travel to the Black Gate, and Frodo's final struggle with the Ring occurs at the Cracks of Doom.",
+  "finish_reason": "stop",
+  "prompt_tokens": 600,
+  "completion_tokens": 165,
+  "total_tokens": 765,
+  "timestamp": "2026-09-22T18:17:37.262648+00:00"
+}

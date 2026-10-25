@@ -1,0 +1,14 @@
+{
+  "prompt_id": "9964e4766fb44fb88593a7d09153d6b4",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the source text by covering all four required key aspects:\n1. It correctly identifies the two distinct personas (Confident Business Kendall and Artsy Hip-Hop Kendall) and their core traits.\n2. It captures the intent of using these personas to channel different aspects of the user's personality (ambition vs. creativity/independence).\n3. It accurately describes the plan to interact with people in Japan to observe reactions and spark conversations.\n4. It includes the intention to share stories, encounters, and self-discoveries/lessons resulting from the experience.\n\nThe summary is concise, accurate, and omits no critical information from the source.",
+  "finish_reason": "stop",
+  "prompt_tokens": 737,
+  "completion_tokens": 143,
+  "total_tokens": 880,
+  "timestamp": "2026-09-19T17:33:03.643409+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "40cdffd5c60147b381245b7c6dd9a617",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What problem does docker solve?",
+  "response_text": "**Docker solves the “environment‑drift” problem** – the difficulty of getting an application that runs on a developer’s laptop to run the same way on a test server, a staging environment, and in production.\n\n### The core problems Docker addresses\n\n| Problem | Traditional pain point | Docker’s solution |\n|---------|------------------------|-------------------|\n| **Dependency hell** | Different services need different versions of libraries, runtimes, or OS packages. | A container bundles the exact OS, libraries, and binaries the app needs, so the host system is untouched. |\n| **“It works on my machine”** | Code that runs locally may fail on another machine because of subtle environment differences. | Containers provide a consistent, isolated runtime that behaves the same everywhere. |\n| **Slow, heavyweight VMs** | Virtual machines emulate a full OS, taking minutes to boot and consuming a lot of RAM/CPU. | Docker containers share the host kernel, start in milliseconds, and use far less memory. |\n| **Complex deployment** | Packaging an app with all its dependencies, configuring networking, storage, and scaling manually. | Docker images are immutable, versioned, and can be pulled and run with a single command. |\n| **Scaling & micro‑services** | Running many services on a single host can lead to port conflicts, resource contention, and hard‑to‑debug bugs. | Each service runs in its own container, isolated from others, and can be replicated or scaled independently. |\n| **CI/CD pipelines** | Tests must run in a clean environment each time, but setting up that environment is slow and error‑prone. | Docker images can be built once and reused for testing, staging, and production, ensuring reproducible builds. |\n| **Rollback & versioning** | Rolling back to a previous deployment often requires manual cleanup or re‑installing dependencies. | Images are immutable and tagged; you can instantly switch to a previous image. |\n| **Resource efficiency** | Running many VMs on a single host wastes CPU, memory, and storage. | Containers share the host kernel, so you can run dozens or hundreds of containers on the same hardware. |\n\n### How it works in practice\n\n1. **Dockerfile** – a declarative recipe that describes the OS, libraries, and application code.\n2. **Build** – Docker builds an image from that recipe; the image is a snapshot of the filesystem.\n3. **Run** – `docker run` starts a container from the image, giving it its own isolated filesystem, network stack, and process namespace.\n4. **Publish** – Push the image to a registry (Docker Hub, GitHub Packages, etc.) so anyone can pull it.\n5. **Deploy** – Orchestrators like Docker Compose, Kubernetes, or Docker Swarm can pull the image and run it at scale.\n\n### Bottom line\n\nDocker turns the messy, environment‑dependent problem of “getting the same thing to run everywhere” into a simple, repeatable workflow: **write once, build once, run anywhere**. It gives developers and ops teams a lightweight, consistent, and efficient way to package, ship, and run applications.",
+  "finish_reason": "stop",
+  "prompt_tokens": 77,
+  "completion_tokens": 2138,
+  "total_tokens": 2215,
+  "latency_ms": 26529,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:11:37.150931+00:00"
+}

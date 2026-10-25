@@ -1,0 +1,21 @@
+{
+  "prompt_id": "a49f6f6403384648bb98b1ea76c6f46e",
+  "category": "factual_qa",
+  "prompt_text": "When did first Star Trek episode air?",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b-20260604:free",
+  "provider": "openrouter",
+  "model_returned": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw_response": "The first episode of *Star Trek: The Original Series* to air on television was **\"The Man Trap.\"** It premiered on **September 8, 1966**, on NBC.\n\n**A few important nuances:**\n*   **First Pilot (\"The Cage\"):** Filmed in early 1964 (starring Jeffrey Hunter as Captain Pike), it was rejected by NBC and never aired in its entirety during the original run. It was first broadcast in full on October 4, 1988.\n*   **Second Pilot (\"Where No Man Has Gone Before\"):** Filmed in 1965 (starring William Shatner as Kirk), this sold the series to NBC. It aired as the **third episode** on September 22, 1966.\n*   **Production Order:** \"The Man Trap\" was the sixth episode produced (production code 1x06), but the network chose to air it first because it was a strong \"monster of the week\" story suitable for a premiere.",
+  "response_text": "The first episode of *Star Trek: The Original Series* to air on television was **\"The Man Trap.\"** It premiered on **September 8, 1966**, on NBC.\n\n**A few important nuances:**\n*   **First Pilot (\"The Cage\"):** Filmed in early 1964 (starring Jeffrey Hunter as Captain Pike), it was rejected by NBC and never aired in its entirety during the original run. It was first broadcast in full on October 4, 1988.\n*   **Second Pilot (\"Where No Man Has Gone Before\"):** Filmed in 1965 (starring William Shatner as Kirk), this sold the series to NBC. It aired as the **third episode** on September 22, 1966.\n*   **Production Order:** \"The Man Trap\" was the sixth episode produced (production code 1x06), but the network chose to air it first because it was a strong \"monster of the week\" story suitable for a premiere.",
+  "reasoning_text": "The user is asking for the air date of the first Star Trek episode.\nI need to clarify if they mean the very first pilot (\"The Cage\"), the second pilot (\"Where No Man Has Gone Before\"), or the first episode aired in regular broadcast order (\"The Man Trap\").\nStandard convention usually cites the NBC broadcast premiere date.",
+  "input_tokens": 24,
+  "output_tokens": 284,
+  "total_tokens": 308,
+  "reasoning_tokens": 82,
+  "latency_seconds": 60.543,
+  "timestamp": "2026-09-13T11:54:01.193328+00:00",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "retries": 0,
+  "error": null
+}

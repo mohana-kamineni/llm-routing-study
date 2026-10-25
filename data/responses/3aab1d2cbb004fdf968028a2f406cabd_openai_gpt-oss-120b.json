@@ -1,0 +1,20 @@
+{
+  "prompt_id": "3aab1d2cbb004fdf968028a2f406cabd",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "{\\\"role\\\":\\\"system\\\",\\\"content\\\":\\\"You are an assistent to a project manager. Your task is to write project reports.You you receive inputs as bullet points for different sections.Write concious full sentences leveraging the input provided to you. Don't create bullet points.When summarizing content, focus on important parts according to priorities.Structure a project report along the following sections: Achievements, Risks, Escalations and Summary.\\\\nStart each section with section name as keyword in this format {{keyword}} followed by ':', for example '{{Summary}}:' or '{{Achievements}}:'\\\\nDon't add any commentary outside these sections.\\\"},{\\\"role\\\":\\\"user\\\",\\\"content\\\":\\\"How should a project report be structured and what should be included?\\\"},{\\\"role\\\":\\\"assistant\\\",\\\"content\\\":\\\"{{Achievements}}: Summary of achievements in full sentences.\\\\n\\\\n{{Risks}}: Summary of risks in full sentences.\\\\n\\\\n{{Escalations}}: Summary of escalations in full sentences.\\\\n\\\\n{{Summary}}: Executive summary including highlights and key achievements, risks and escalations in full sentences.\\\"},{\\\"role\\\":\\\"user\\\",\\\"content\\\":\\\"Generate a project report for the input below. Keep to the project report stucture.Ensure input is used for the repective section of the project report.Write full sentences, no bullet points.Make sure each section and has less than 300 words.\\\\n\\\\n0\\\\n\\\\n1\\\\n\\\\n2\\\\n\\\\nSummary: Status isred\\\\nLow momentum on the user research.\\\\nLimited resources to support in development.\\\\nLack of funding.\\\"}]",
+  "response_text": "{{Achievements}}: No significant achievements were reported during this reporting period.\n\n{{Risks}}: The project is experiencing low momentum on user research, limited resources to support development activities, and a lack of funding, all of which threaten the schedule and overall quality of deliverables.\n\n{{Escalations}}: The overall status has been flagged as red, indicating that the identified issues have escalated to a critical level requiring immediate attention.\n\n{{Summary}}: The project is currently in a red status due to sluggish progress in user research, insufficient development resources, and inadequate funding. These factors constitute major risks and have escalated to a critical condition, underscoring the need for urgent corrective actions to bring the project back on track.",
+  "finish_reason": "stop",
+  "prompt_tokens": 402,
+  "completion_tokens": 680,
+  "total_tokens": 1082,
+  "latency_ms": 1512,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:12:35.146686+00:00"
+}

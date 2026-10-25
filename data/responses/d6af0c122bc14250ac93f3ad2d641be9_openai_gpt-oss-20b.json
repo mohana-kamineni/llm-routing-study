@@ -1,0 +1,20 @@
+{
+  "prompt_id": "d6af0c122bc14250ac93f3ad2d641be9",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the first significative digit of 2^(2^(2^2))?",
+  "response_text": "The expression evaluates to \\(2^{16}=65536\\).  \nThe most significant (first) digit of 65536 is **6**.",
+  "finish_reason": "stop",
+  "prompt_tokens": 89,
+  "completion_tokens": 187,
+  "total_tokens": 276,
+  "latency_ms": 2615,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:55:07.920618+00:00"
+}

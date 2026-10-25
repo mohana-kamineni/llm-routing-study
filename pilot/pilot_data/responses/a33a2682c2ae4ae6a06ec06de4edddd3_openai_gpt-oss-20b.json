@@ -1,0 +1,21 @@
+{
+  "prompt_id": "a33a2682c2ae4ae6a06ec06de4edddd3",
+  "category": "reasoning_math",
+  "prompt_text": "3,14 + 9855 + 0,000001 = ?",
+  "model": "openai/gpt-oss-20b",
+  "provider": "groq",
+  "model_returned": "openai/gpt-oss-20b",
+  "raw_response": "\\(3,14 + 9855 + 0,000001 = 9858,140001\\)\n\n(Using the comma as the decimal separator.)",
+  "response_text": "\\(3,14 + 9855 + 0,000001 = 9858,140001\\)\n\n(Using the comma as the decimal separator.)",
+  "reasoning_text": "The user writes \"3,14 + 9855 + 0,000001 = ?\" They use comma as decimal separator. So 3.14 + 9855 + 0.000001 = 9858.140001? Wait compute: 3.14 + 9855 = 9858.14. Add 0.000001 gives 9858.140001. So answer: 9858.140001. Provide explanation.",
+  "input_tokens": 86,
+  "output_tokens": 136,
+  "total_tokens": 222,
+  "reasoning_tokens": 95,
+  "latency_seconds": 0.437,
+  "timestamp": "2026-09-13T11:40:05.066928+00:00",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "retries": 0,
+  "error": null
+}

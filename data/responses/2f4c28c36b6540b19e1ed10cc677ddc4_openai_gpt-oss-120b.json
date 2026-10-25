@@ -1,0 +1,20 @@
+{
+  "prompt_id": "2f4c28c36b6540b19e1ed10cc677ddc4",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "where is nutanix located?",
+  "response_text": "Nutanix is headquartered in **San Jose, California, USA**.  \n\nIn addition to its main headquarters, Nutanix operates a number of regional offices and data‑center locations around the world, including sites in:\n\n- **North America:** Boston, MA; Austin, TX; Seattle, WA; and others  \n- **Europe:** London (UK), Dublin (Ireland), Munich (Germany), Paris (France)  \n- **Asia‑Pacific:** Singapore, Tokyo (Japan), Sydney (Australia), Bangalore (India)  \n\nThese satellite offices support sales, engineering, support, and partner operations globally, but the corporate headquarters remains in San Jose, California.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 195,
+  "total_tokens": 273,
+  "latency_ms": 732,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:20:47.206502+00:00"
+}

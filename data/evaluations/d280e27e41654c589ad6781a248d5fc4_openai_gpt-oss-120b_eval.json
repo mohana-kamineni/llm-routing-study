@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d280e27e41654c589ad6781a248d5fc4",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies Project Euler Problem 1 as finding the sum of all natural numbers below 1000 that are multiples of 3 or 5. It provides two valid solution methods: a brute-force iteration and an optimized mathematical approach using the arithmetic series sum formula and the Principle of Inclusion-Exclusion. The code snippets are syntactically correct and logically sound. The final calculated answer, 233,168, is the correct solution to the problem. There are no reasoning errors in the explanation or the mathematical derivation.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1087,
+  "completion_tokens": 119,
+  "total_tokens": 1206,
+  "timestamp": "2026-09-24T12:36:41.934261+00:00"
+}

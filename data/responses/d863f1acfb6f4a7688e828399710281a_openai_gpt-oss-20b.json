@@ -1,0 +1,20 @@
+{
+  "prompt_id": "d863f1acfb6f4a7688e828399710281a",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is Moira from Overwatch",
+  "response_text": "**Moira** (real name Dr. Moira O'Deorain) is a support‑class hero in Blizzard’s *Overwatch* and *Overwatch 2*.  \n\n| Category | Details |\n|----------|---------|\n| **Background** | A brilliant biologist from Ireland, Moira left the United Nations’ research program after a controversial experiment that caused a catastrophic accident. She now works for the clandestine organization **The Institute**, which seeks to harness biological research for “progress.” |\n| **Personality** | Calm, confident, and somewhat detached, Moira is driven by a belief that “progress requires sacrifice.” She often speaks in a measured, almost clinical tone, and rarely shows emotion. |\n| **Role in the Game** | **Support / Damage‑Support hybrid** – she heals allies while also dealing damage to enemies. Her kit is built around a “biotic” system that can both heal and harm. |\n| **Key Abilities** | 1. **Biotic Grasp** – a melee biotic beam that heals allies or damages enemies. <br>2. **Biotic Orb** – a projectile that can be detonated to heal allies or damage enemies. <br>3. **Fade** – a short‑range teleport that also heals allies in the area. <br>4. **Coalescence** – a powerful ultimate that creates a large healing/damage field, dealing damage to enemies and healing allies. |\n| **Voice Actor** | **Megan Hollingsworth** (English) – known for her work on *The Walking Dead* and *The Last of Us*. |\n| **Notable Lore Connections** | • Formerly worked with **Zenyatta** and **Genji** during the *Overwatch* project. <br>• Her research on “biotic energy” is a central plot point in the *Overwatch* lore, especially in the *Overwatch 2* story arcs involving the Institute. |\n| **In‑Game Strategy** | • Best used in the middle lane to keep teammates alive while applying pressure. <br>• Pair well with tank heroes that can absorb damage while Moira heals. <br>• Her ultimate is effective in team fights, especially when combined with area‑control heroes. |\n\n**Quick Takeaway**  \nMoira is a “dark‑side” support: she heals, she hurts, and she’s driven by a philosophy that the ends justify the means. Her unique blend of healing and damage makes her a versatile pick in both casual and competitive play.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 1118,
+  "total_tokens": 1196,
+  "latency_ms": 1586,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:19:26.516651+00:00"
+}

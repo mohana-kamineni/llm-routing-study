@@ -1,0 +1,14 @@
+{
+  "prompt_id": "f62b50a096124da2b31cd78275c875e5",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies Mauna Kea as the tallest mountain when measured from its base (on the ocean floor) to its summit, which is the standard interpretation of \"ignoring sea level\" in this context. It accurately provides the approximate height (~10,210 m) and correctly contrasts this with Mount Everest, which is the highest point above sea level. The facts presented are scientifically accurate and do not contain false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 656,
+  "completion_tokens": 95,
+  "total_tokens": 751,
+  "timestamp": "2026-09-19T17:08:51.940583+00:00"
+}

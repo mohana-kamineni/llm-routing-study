@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8a9a2d99610f4cd49af7dc04374ededb",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains multiple significant factual errors. First, it incorrectly states that Don Lemon is \"Openly gay\" and \"married to Tim Malone\"; Don Lemon is married to his wife, Anna Lemon. Second, it claims he signed a deal with \"TalkTV,\" a channel owned by \"Gale Kaufman\"; this is factually incorrect. Don Lemon launched his own independent digital media platform, \"Don Lemon Live,\" and has not signed with a channel owned by Gale Kaufman (who is not a known owner of a major U.S. news channel). These are false contradictions regarding his personal life and professional career.",
+  "finish_reason": "stop",
+  "prompt_tokens": 776,
+  "completion_tokens": 134,
+  "total_tokens": 910,
+  "timestamp": "2026-09-23T12:25:57.597592+00:00"
+}

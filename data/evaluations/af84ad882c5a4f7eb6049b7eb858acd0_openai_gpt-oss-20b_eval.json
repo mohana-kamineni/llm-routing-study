@@ -1,0 +1,14 @@
+{
+  "prompt_id": "af84ad882c5a4f7eb6049b7eb858acd0",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies that the number of apples eaten yesterday is irrelevant to the count of apples held today, as the problem explicitly states the current possession is 4 apples. The reasoning is logically sound and the final answer is correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 215,
+  "completion_tokens": 53,
+  "total_tokens": 268,
+  "timestamp": "2026-09-19T17:24:57.032037+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "prompt_id": "dc4a37f5afc840a9a27055c9d275b0c5",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "candidate_degeneracy_audit",
+  "terminal_type": "CANDIDATE_DEGENERATE",
+  "terminal_description": "Candidate generated introductory text followed by repetitive sequence ';\\;\\;\\' repeating for over 6,000 characters until 4,096-token completion limit.",
+  "verdict": "FAIL",
+  "raw_output": null,
+  "finish_reason": null,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "total_tokens": 0,
+  "timestamp": "2026-09-22T16:47:08.501371+00:00"
+}

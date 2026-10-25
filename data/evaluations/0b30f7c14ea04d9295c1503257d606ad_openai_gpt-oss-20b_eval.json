@@ -1,0 +1,14 @@
+{
+  "prompt_id": "0b30f7c14ea04d9295c1503257d606ad",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies that the snippets discuss earthquakes, not volcanic eruptions. Therefore, the statement regarding an \"eruption\" is not supported by the provided text. The reasoning is sound and the final conclusion is correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 437,
+  "completion_tokens": 54,
+  "total_tokens": 491,
+  "timestamp": "2026-09-22T17:10:57.641231+00:00"
+}

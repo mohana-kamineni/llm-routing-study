@@ -1,0 +1,20 @@
+{
+  "prompt_id": "4fac7b5d3064425590adb0a4f06175ca",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the next number in the sequence 1, 4, 9, 16, 25, __?",
+  "response_text": "The numbers are perfect squares:\n\n- \\(1 = 1^2\\)\n- \\(4 = 2^2\\)\n- \\(9 = 3^2\\)\n- \\(16 = 4^2\\)\n- \\(25 = 5^2\\)\n\nSo the next term is \\(6^2 = 36\\).\n\n**Answer: 36**",
+  "finish_reason": "stop",
+  "prompt_tokens": 96,
+  "completion_tokens": 162,
+  "total_tokens": 258,
+  "latency_ms": 1479,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:27:04.650904+00:00"
+}

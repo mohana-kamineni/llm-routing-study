@@ -1,0 +1,14 @@
+{
+  "prompt_id": "afa69f88459c43d2b93a02a06337801f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides an accurate and comprehensive summary of the source text. It correctly identifies the central argument regarding the \"corporealization\" of necropower, where the black maternal body's biological systems (endocrine, cellular, etc.) function as active agencies in antiblack violence, rather than just passive victims. The summary accurately contrasts this view with Achille Mbembe's spatialized framework, noting the shift from geographic \"cells\" (barracks, police stations) to somatic/social \"cells\" that create nomadic, internal frontiers. Finally, it correctly captures the implication for racial health disparities research: the insufficiency of socioeconomic mobility as a solution to reproductive health inequities due to the pervasive, bodily nature of this violence. All key factual aspects and logical connections from the source are preserved without significant omission or distortion.",
+  "finish_reason": "stop",
+  "prompt_tokens": 965,
+  "completion_tokens": 174,
+  "total_tokens": 1139,
+  "timestamp": "2026-09-28T07:48:09.928611+00:00"
+}

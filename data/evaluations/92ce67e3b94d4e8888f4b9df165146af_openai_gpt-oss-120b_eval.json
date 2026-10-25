@@ -1,0 +1,14 @@
+{
+  "prompt_id": "92ce67e3b94d4e8888f4b9df165146af",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails because it hallucinates significant content that is not present in the provided source text. The source text is truncated and only covers the introduction, the discussion on GIEE, and the beginning of the social media discussion. It does not contain the \"Pros and Cons\" details, the specific arguments from Michael Thompson or David Peterson, the final decision (hybrid approach), or the \"Next Steps\" with specific dates (May 31, June 15, etc.). By including these fabricated details as if they were part of the summary of the provided text, the response is inaccurate and does not faithfully summarize the source material.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1468,
+  "completion_tokens": 137,
+  "total_tokens": 1605,
+  "timestamp": "2026-09-24T03:51:30.152102+00:00"
+}

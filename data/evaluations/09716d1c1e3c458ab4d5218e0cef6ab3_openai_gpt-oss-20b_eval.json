@@ -1,0 +1,14 @@
+{
+  "prompt_id": "09716d1c1e3c458ab4d5218e0cef6ab3",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the NCVS as the National Crime Victimization Survey and accurately clarifies that it is not part of the U.S. Census Bureau but is instead conducted by the Bureau of Justice Statistics (BJS) under the Department of Justice. It provides factually accurate details regarding the survey's purpose, methodology, and scope, and correctly distinguishes it from the Census. There are no false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 713,
+  "completion_tokens": 90,
+  "total_tokens": 803,
+  "timestamp": "2026-09-19T17:40:04.048759+00:00"
+}

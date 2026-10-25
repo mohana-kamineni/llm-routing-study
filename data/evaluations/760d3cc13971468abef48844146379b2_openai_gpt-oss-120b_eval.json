@@ -1,0 +1,14 @@
+{
+  "prompt_id": "760d3cc13971468abef48844146379b2",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly calculates that 25 multiplied by 25 equals 625. There are no reasoning errors, and the final answer is accurate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 170,
+  "completion_tokens": 39,
+  "total_tokens": 209,
+  "timestamp": "2026-09-24T15:32:53.624433+00:00"
+}

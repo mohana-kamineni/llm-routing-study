@@ -1,0 +1,20 @@
+{
+  "prompt_id": "26d32e7d8fa747a1bc97eaed74449040",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "who invented the assembly line",
+  "response_text": "The modern, high‑speed assembly line that revolutionized mass production is most commonly credited to **Henry Ford**. In 1913 Ford introduced a moving‑belt system for the Model T, breaking the car into a series of simple, repeatable tasks that could be performed by workers in a fixed sequence. This dramatically cut production time and cost, and set the standard for industrial manufacturing worldwide.\n\n**Earlier roots**\n\n- **Eli Whitney** (1798) used a form of assembly in his gun factory, breaking the production of muskets into separate, specialized steps.\n- **Thomas Edison** and others in the late 19th century experimented with similar concepts in factories for electrical equipment.\n\nBut it was Ford’s 1913 implementation that made the assembly line a defining feature of the 20th‑century industrial age.",
+  "finish_reason": "stop",
+  "prompt_tokens": 76,
+  "completion_tokens": 276,
+  "total_tokens": 352,
+  "latency_ms": 6481,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:31:27.104536+00:00"
+}

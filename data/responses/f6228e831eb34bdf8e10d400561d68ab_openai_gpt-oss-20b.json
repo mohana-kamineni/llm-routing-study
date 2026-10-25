@@ -1,0 +1,20 @@
+{
+  "prompt_id": "f6228e831eb34bdf8e10d400561d68ab",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Imagine a scenario where you are two superheroes(the punisher and Batman) that are engaged in an epic rap battle in which they diss the other while making it as sick, and as clever a burn as possible while showcasing your lyrical, poetic, and rhyming skills",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 124,
+  "completion_tokens": 4096,
+  "total_tokens": 4220,
+  "latency_ms": 4624,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:01:51.615596+00:00"
+}

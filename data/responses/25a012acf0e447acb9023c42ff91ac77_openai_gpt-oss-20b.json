@@ -1,0 +1,20 @@
+{
+  "prompt_id": "25a012acf0e447acb9023c42ff91ac77",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a song for Indian PM who wants to impress the Indian Youth and in the lyrics he explains who he will tackles their issues and bring more joy and happiness to their lives",
+  "response_text": "**Title: “Naye Umeed Ki Dhoop” (The Dawn of New Hope)**  \n\n*(Verse 1 – The Call)*  \nJahan sapne hain khoya, wahan hum aate hain,  \nNaye iraade se, har dil ko jodte hain.  \nBachpan ki khushboo, ab badhegi aaj,  \nNaye safar ki shuruaat, hum saath saath.  \n\n*(Pre‑Chorus – The Promise)*  \nYeh desh hai humara, aur yeh humara waqt,  \nJab har ek yuva ko milega ek naya saath.  \n\n*(Chorus – The Vision)*  \nNaye Umeed Ki Dhoop, humare sapno ki raah,  \nHar mushkil ko hum todenge, har dard ko khatam.  \nTech se bharpoor, education ka raaj,  \nSwachh Bharat, swasth Bharat, aur khushiyon ka saaz.  \n\n*(Verse 2 – The Challenges)*  \nUnemployment ka bojh, education ka gap,  \nClimate ka khatra, aur health ka sapna.  \nPar humne socha, yeh sab hai ek chance,  \nNaye ideas se, hum karenge advance.  \n\n- **Job Creation** – Start‑ups, MSME, digital platforms,  \n- **Education 2.0** – AI labs, skill hubs, scholarships.  \n- **Health for All** – Tele‑medicine, rural clinics, vaccines.  \n- **Green India** – Solar, wind, afforestation.  \n\n*(Pre‑Chorus – The Promise)*  \nHar ek yuva ko milega ek naya saath,  \nJab hum saath chalenge, badhega har raat.  \n\n*(Chorus – The Vision)*  \nNaye Umeed Ki Dhoop, humare sapno ki raah,  \nHar mushkil ko hum todenge, har dard ko khatam.  \nTech se bharpoor, education ka raaj,  \nSwachh Bharat, swasth Bharat, aur khushiyon ka saaz.  \n\n*(Bridge – The Unity)*  \nBharat ki rangin dhara, ek saath hum badhen,  \nDesh ki har gali, har gaon mein khushiyan le.  \nSanskriti ka sangam, aur modernity ka touch,  \nYeh hi hai hamara mantra, “Sangharsh se Sukh.”  \n\n*(Verse 3 – The Action)*  \nDigital India, 5G ka raasta,  \nE‑gov, e‑education, sabko milega basta.  \nYouth helpline, mentorship, career guidance,  \nHar sapne ko hum dekhte, ek nayi alliance.  \n\n*(Pre‑Chorus – The Promise)*  \nYeh desh hai humara, aur yeh humara waqt,  \nJab har ek yuva ko milega ek naya saath.  \n\n*(Chorus – The Vision)*  \nNaye Umeed Ki Dhoop, humare sapno ki raah,  \nHar mushkil ko hum todenge, har dard ko khatam.  \nTech se bharpoor, education ka raaj,  \nSwachh Bharat, swasth Bharat, aur khushiyon ka saaz.  \n\n*(Outro – The Call to Action)*  \nToh aao, milke hum likhen, ek nayi kahani,  \nJahan har yuva khush, aur har sapna ho saakshi.  \nNaye Umeed Ki Dhoop, humare saath,  \nBharat ki har gali, har dil mein khushiyon ka raaj.  \n\n---  \n\n**Notes for Performance**  \n- **Melody**: A peppy, mid‑tempo Bollywood‑style tune with a mix of traditional Indian instruments (tabla, harmonium) and modern synths.  \n- **Chords**: Use a bright major key (e.g., G major) to keep the mood uplifting.  \n- **Hook**: The chorus should be repeated twice, with a short instrumental bridge in between.  \n- **Audience Engagement**: Encourage clapping or hand‑clapping during the pre‑chorus to involve the youth.  \n\nFeel free to adapt the lyrics to suit the PM’s personal style or to add specific policy references that resonate with the current political climate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 105,
+  "completion_tokens": 1020,
+  "total_tokens": 1125,
+  "latency_ms": 11362,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:19:28.395552+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "6ef7432a82454c5ba9b84c959f09657e",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a correct and robust Python script that solves the problem. \n1. **Correct Methodology**: It uses the standard Bayesian approach for A/B testing with binomial outcomes: a Beta-Binomial model. It correctly updates the prior (Beta(1,1)) with the observed successes and failures to get the posterior parameters.\n2. **Correct Probability Calculation**: It correctly estimates the probability that the difference is non-zero by sampling from the two independent posterior distributions and calculating the fraction of samples where $p_A > p_B$ and $p_B > p_A$. Note that in continuous distributions, $P(p_A = p_B)$ is 0, so $P(p_A \\neq p_B) = P(p_A > p_B) + P(p_B > p_A)$. The script outputs both directional probabilities, which fully characterizes the probability of a non-zero difference.\n3. **Code Quality**: The code is syntactically correct, uses appropriate libraries (`numpy`, `scipy`), handles data loading, and includes clear documentation and usage instructions.\n4. **No Reasoning Errors**: The statistical reasoning (posterior update, Monte Carlo estimation of probability) is sound.\n\nThe script effectively answers the prompt's request to evaluate an A/B test using Bayesian statistics to provide the probability that the difference is non-zero.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2346,
+  "completion_tokens": 282,
+  "total_tokens": 2628,
+  "timestamp": "2026-09-22T17:18:55.428295+00:00"
+}

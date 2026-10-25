@@ -1,0 +1,20 @@
+{
+  "prompt_id": "2d6c4c29cc7f45ffbd545e756dcac007",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a poem with a a b c b c",
+  "response_text": "**Evening’s Whisper**\n\nThe sun slips low, a golden sigh, **(a)**  \nThe hills exhale a soft reply. **(a)**  \n\nA lone owl lifts its feathered wing, **(b)**  \nWhile shadows drape the river’s skin, **(c)**  \n\nIt calls a note that night will bring, **(b)**  \nAnd moonlight paints the water thin. **(c)**",
+  "finish_reason": "stop",
+  "prompt_tokens": 81,
+  "completion_tokens": 201,
+  "total_tokens": 282,
+  "latency_ms": 6733,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:44:00.515362+00:00"
+}

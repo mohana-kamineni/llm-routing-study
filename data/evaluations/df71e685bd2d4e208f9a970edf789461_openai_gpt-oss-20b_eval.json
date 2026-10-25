@@ -1,0 +1,14 @@
+{
+  "prompt_id": "df71e685bd2d4e208f9a970edf789461",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately and concisely summarizes the source text, covering all five required key aspects:\n1. It correctly states that TPE's contract will not be renewed or extended.\n2. It details the transition to an \"operator of last resort\" basis starting 28 May, noting that services, tickets, and timetables will remain unchanged.\n3. It identifies the cause as months of disruption, cancellations, and declining passenger confidence.\n4. It notes the temporary nature of the decision and the intention to return the service to the private sector.\n5. It mentions the public welcome from Greater Manchester Mayor Andy Burnham and West Yorkshire Mayor Tracy Brabin, citing their advocacy for passengers and the economic impact.\n\nThe summary is factually accurate, omits no critical information, and adheres to the evaluation criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 806,
+  "completion_tokens": 178,
+  "total_tokens": 984,
+  "timestamp": "2026-09-22T16:54:38.239503+00:00"
+}

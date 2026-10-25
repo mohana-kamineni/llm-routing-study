@@ -1,0 +1,20 @@
+{
+  "prompt_id": "3f0f845db83a4f9886a46cdefe2e3608",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "what is the result of 1.1111 times 3.3333?",
+  "response_text": "The exact product is:\n\n\\[\n1.1111 \\times 3.3333 = \\frac{11111}{10000}\\times\\frac{33333}{10000}\n= \\frac{11111\\times33333}{10^8}\n= \\frac{370\\,363\\,263}{100\\,000\\,000}\n= 3.70363263\n\\]\n\nSo the result is **3.70363263** (rounded to 4 decimal places, 3.7036).",
+  "finish_reason": "stop",
+  "prompt_tokens": 88,
+  "completion_tokens": 626,
+  "total_tokens": 714,
+  "latency_ms": 1051,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:24:46.733098+00:00"
+}

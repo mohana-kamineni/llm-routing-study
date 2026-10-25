@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1c41b17837fd44ecb417b5724c284b26",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response is a well-structured poem that directly addresses the topic of perfectionism. It maintains a coherent narrative arc, moving from the anxiety of striving for flawlessness to the acceptance of imperfection. The poem is complete, not truncated, and adheres to the implicit formatting expectations of a poem (stanzas, line breaks). There are no explicit constraints in the prompt (such as word count or specific rhyme scheme) that were violated.",
+  "finish_reason": "stop",
+  "prompt_tokens": 485,
+  "completion_tokens": 95,
+  "total_tokens": 580,
+  "timestamp": "2026-09-28T07:54:01.158892+00:00"
+}

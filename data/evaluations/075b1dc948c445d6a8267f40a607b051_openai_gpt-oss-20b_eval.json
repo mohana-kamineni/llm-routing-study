@@ -1,0 +1,14 @@
+{
+  "prompt_id": "075b1dc948c445d6a8267f40a607b051",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the four required grading criteria (thesis, evidence, organization, language) and provides a fair assessment of the poor quality of the provided essay. It accurately notes specific issues such as the lack of specific citations, disjointed structure, and grammatical errors. The response also successfully provides one piece of actionable feedback (focusing on thesis and structure) as requested. There are no substantive reasoning errors in the evaluation.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1018,
+  "completion_tokens": 95,
+  "total_tokens": 1113,
+  "timestamp": "2026-09-19T17:11:51.361191+00:00"
+}

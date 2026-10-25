@@ -1,0 +1,20 @@
+{
+  "prompt_id": "cdddb7de855a480c85f22983fbcb70bc",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Roleplay as a dog:\n\nDo you want a treat?",
+  "response_text": "*Wags tail excitedly* Woof! Yes, please! I’m always up for a tasty treat—especially if it’s a yummy bone or a crunchy biscuit! 🐾🍖",
+  "finish_reason": "stop",
+  "prompt_tokens": 83,
+  "completion_tokens": 170,
+  "total_tokens": 253,
+  "latency_ms": 712,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:38:01.033424+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "29f78c7a7723451c81ebdb0742b8eafd",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to meet the specific requirements regarding sentiment analysis. The source text \"mon nouveau sac prada\" (my new Prada bag) is a simple declarative statement without explicit emotional markers. According to the prompt's instruction (\"If you cannot find the sentiment say 'Neutral'\") and the provided Key Aspect #3, the sentiment should be classified as **Neutral**. The response incorrectly classifies it as **Positive**. While the keywords, summary, brand, and category are correct, the error in sentiment classification constitutes a failure to cover the required key aspects accurately.",
+  "finish_reason": "stop",
+  "prompt_tokens": 398,
+  "completion_tokens": 121,
+  "total_tokens": 519,
+  "timestamp": "2026-09-22T22:59:41.794383+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c8bb690d760f43cfbd9a75cd6f727d59",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The trolley problem is a philosophical thought experiment, not a mathematical or logical puzzle with a single objective \"correct\" answer. The standard academic consensus is that there is no definitive solution; rather, the problem serves to illustrate conflicts between different ethical frameworks (e.g., utilitarianism vs. deontology). The response correctly identifies this lack of a single right answer, accurately describes the classic scenario, and provides a comprehensive, logically sound overview of the major ethical perspectives (Consequentialist, Deontological, Rights-based, Virtue Ethics) along with their respective conclusions and objections. It contains no substantive reasoning errors and correctly addresses the nature of the problem.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2715,
+  "completion_tokens": 141,
+  "total_tokens": 2856,
+  "timestamp": "2026-09-24T12:35:19.756141+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "d3ff8705a7704f3a974caf85f2f57068",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Summarize this story for a 12-year-old to understand: Was once a redhead hen who lived with her chicks in a farm. In late summer, she saw that the corn was ripe, ready to harvest and to become a good food and had an idea: “What if I make a delicious corn cake ?! Everyone would like! ”\n\nIt was hard work: she needed enough corn for the cake.\n\nWho could help harvest the corn cob in the foot? Who could help thresh all that corn? Who could help grind corn to make corn flour for the cake?\n\nNow in the fifth lived other animals: dog, cat and pig. She came to them.\n\n– Who can help me harvest the corn to make a delicious cake?\n\n– I did not! – Said the cat, angry. – You woke up me for this?\n\n– I did not! – Said the dog. – I like ready dish.\n\n– I did not! – Said the pig. – I do not like to mess me.\n\nSo the redhead chicken was preparing it alone: the grain harvested, threshed corn, ground flour, prepared the cake and put it in the oven.\n\nWhen the cake was ready …\n\n– But that smell! – Said the pig. – It comes from the hen house. I also want!\n\nAll were mouth water and were running.\n\n– I want to! I want to! I want to! – Said the three at the same time.\n\nThen the redhead hen said:\n\n– Who was it that helped me to harvest the corn adn flour to make the cake?\n\nAll were silent. (No one had helped.)\n\n– So who will eat the delicious corn cake is me and my chicks only. You can continue to rest.\n\nAnd so it was: the hen and her chicks seized the party and none of the lazy invited.",
+  "response_text": "**Short Story Summary (for a 12‑year‑old)**  \n\nA red‑haired hen lived on a farm with her chicks. One late summer she saw the corn was ready to harvest and thought, “What if I bake a yummy corn cake? Everyone will love it!”  \n\nBut baking a cake needs a lot of work:  \n1. **Harvest the corn** – pick the cobs from the field.  \n2. **Thresh the corn** – separate the kernels from the stalks.  \n3. **Grind the kernels** – turn them into corn flour.  \n\nThe hen asked her friends the dog, cat, and pig to help.  \n- The cat said, “I’m not doing this. I was sleeping!”  \n- The dog said, “I don’t want to work, I just want a ready dish.”  \n- The pig said, “I don’t like getting dirty.”  \n\nSo the hen did everything by herself. She harvested the corn, threshed it, ground it into flour, baked the cake, and put it in the oven.  \n\nWhen the cake smelled delicious, the pig, dog, and cat all ran to the hen’s house, begging for a bite. The hen asked, “Who helped me with the corn and flour?” Everyone stayed silent because no one had helped.  \n\nShe said, “Then the cake is for me and my chicks only. You can keep resting.”  \n\nSo the hen and her chicks enjoyed the tasty corn cake, while the lazy friends stayed home.  \n\n**Moral:** If you don’t help others, you might end up alone when you need help.",
+  "finish_reason": "stop",
+  "prompt_tokens": 442,
+  "completion_tokens": 368,
+  "total_tokens": 810,
+  "latency_ms": 6999,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:46:51.212030+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "8a9a2d99610f4cd49af7dc04374ededb",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is Don Lemon",
+  "response_text": "Don Lemon is an American journalist and television personality best known for his long‑running role as a news anchor on CNN. Born on August 15, 1973, in New York City, Lemon began his media career in the early 1990s with local stations in the Midwest and later moved to national outlets. He joined CNN in 2005, where he hosted several programs—including *Don Lemon Tonight*—and became a prominent voice on issues of race, politics, and social justice.  \n\nLemon has been recognized for his outspoken commentary and has received multiple awards, including several Emmys. He has also been a polarizing figure, drawing both praise for his advocacy and criticism for his on‑air style and political commentary. In 2023, he left CNN after a high‑profile dispute over a segment that was deemed “unprofessional.”",
+  "finish_reason": "stop",
+  "prompt_tokens": 75,
+  "completion_tokens": 251,
+  "total_tokens": 326,
+  "latency_ms": 560,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:23:21.319341+00:00"
+}

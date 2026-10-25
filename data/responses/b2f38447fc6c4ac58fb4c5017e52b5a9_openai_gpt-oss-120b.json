@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b2f38447fc6c4ac58fb4c5017e52b5a9",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "summarize this email \"In May we’ll recognise the Mental Health Foundation’s awareness week (15-21 May), aimed at encouraging more conversation around mental health and well-being. Even if you’re not personally in need of mental health support, I’m sure many of us will know at least one person who has experience of poor mental health. \nAt Amazon, I don’t recall ever getting to the end of a day, or week, and thinking “I’ve done everything on my To Do list”. Therefore, we need to form healthy habits to help us prioritise the most important things on that list, and to be able to switch off (literally) from work. I do this by taking regular walks with our dog, Nula, making time to get outside during the working day, and spending time with my family.\nI am encouraged by how much more we’re talking about mental health in society as a whole, with sports stars and celebrities in particular helping to raise awareness of this critical topic. But I know there can be stigma around mental health, whether driven by fear, or misunderstanding. And all too often there is silence, when we should be having conversations. \nLast year we ran a workplace well-being survey in the UK with Mind, and we know that some Amazonians are nervous about confronting the issue, especially at work. We need to, and will do better.\"",
+  "response_text": "**Summary**\n\n- **Mental Health Awareness Week (May 15‑21)** will be recognized, aiming to spark more conversation about mental health and well‑being.\n- Even if you don’t need support yourself, many of us know someone affected by mental‑health challenges.\n- At Amazon, it’s rare to finish a day feeling “all tasks done,” so we must build healthy habits that let us prioritize key work and truly disconnect.\n  - The author’s personal strategies: regular walks with their dog, getting outside during the day, and spending time with family.\n- Society is talking more about mental health, helped by athletes and celebrities, but stigma and silence still persist.\n- A 2023 UK workplace well‑being survey with Mind showed some Amazonians feel uneasy addressing mental‑health issues at work.\n- The company acknowledges this gap and commits to improving how mental‑health topics are handled internally.",
+  "finish_reason": "stop",
+  "prompt_tokens": 351,
+  "completion_tokens": 203,
+  "total_tokens": 554,
+  "latency_ms": 789,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:31:28.408767+00:00"
+}

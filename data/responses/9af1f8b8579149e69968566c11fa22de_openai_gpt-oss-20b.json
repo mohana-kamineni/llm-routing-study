@@ -1,0 +1,20 @@
+{
+  "prompt_id": "9af1f8b8579149e69968566c11fa22de",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the airspeed velocity of an unladen swallow?",
+  "response_text": "Ah, the classic Monty‑Python conundrum!  \n**“What do you mean? An African or European swallow?”**  \n\nIf you’re after the *real* physics, a European swallow (the *Hirundo rustica*) cruises at roughly **20–25 mph (≈ 32–40 km/h)** when unladen. But in the spirit of the film, the answer is always a question!",
+  "finish_reason": "stop",
+  "prompt_tokens": 83,
+  "completion_tokens": 252,
+  "total_tokens": 335,
+  "latency_ms": 588,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:21:00.526240+00:00"
+}

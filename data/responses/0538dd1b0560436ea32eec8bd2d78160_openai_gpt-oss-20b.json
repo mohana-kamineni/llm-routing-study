@@ -1,0 +1,20 @@
+{
+  "prompt_id": "0538dd1b0560436ea32eec8bd2d78160",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "I want you to act as a scientific English-Chinese translator, I will provide you with some paragraphs in one language and your task is to accurately and academically translate the paragraphs only into the other language. Do not repeat the original provided paragraphs after translation. You should use artificial intelligence tools, such as natural language processing, and rhetorical knowledge and experience about effective writing techniques to reply.",
+  "response_text": "Sure! Please provide the paragraph(s) you’d like translated, and I’ll deliver an accurate, academically‑oriented translation for you.",
+  "finish_reason": "stop",
+  "prompt_tokens": 146,
+  "completion_tokens": 132,
+  "total_tokens": 278,
+  "latency_ms": 9605,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:19:10.565079+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b972ae6eef7b4d4191dc079659133442",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a letter of apology to a spouse for extremely disappointing sex.",
+  "response_text": "**Dear [Spouse’s Name],**\n\nI’ve been thinking a lot about our recent night together, and I wanted to take a moment to write you a heartfelt apology. I know that the experience fell far short of what we both hoped for, and I’m truly sorry for the disappointment and frustration it caused you.\n\nFirst and foremost, I want you to know that your feelings matter to me. When intimacy doesn’t go the way we expect, it can feel like a let‑down—not just physically, but emotionally as well. I regret that I wasn’t able to meet your needs and that I left you feeling unsatisfied and perhaps even unappreciated.\n\nI take responsibility for my part in this. Whether it was my lack of focus, my nervousness, or simply not being attuned to what you wanted in that moment, I recognize that I could have done better. I’m sorry for any hurt or disappointment that resulted from my shortcomings.\n\nOur connection means the world to me, and I want our intimate moments to be a source of joy, closeness, and mutual fulfillment. To that end, I’d like to:\n\n1. **Listen More Carefully** – I want to understand what you enjoy, what feels good, and what you’d like to explore together. Your desires are important, and I’m committed to hearing them without judgment.\n\n2. **Communicate Openly** – Let’s talk about what worked, what didn’t, and what we can try next time. I believe honest, gentle conversation will help us both feel more comfortable and confident.\n\n3. **Take Our Time** – Rushing can lead to missed opportunities for pleasure. I’ll make an effort to slow down, focus on the moment, and prioritize your satisfaction as much as my own.\n\n4. **Learn Together** – If you’re open to it, we could read a book, watch a tasteful educational video, or even attend a workshop on intimacy. Exploring new ideas together can be both fun and enriching.\n\n5. **Check In Regularly** – After we’re intimate, I’ll ask how you felt and what could be improved. Your feedback will guide me in becoming a better partner in the bedroom.\n\nPlease know that my love for you extends far beyond any single encounter, and I’m committed to making our intimate life a source of happiness for both of us. I value the trust and vulnerability we share, and I want to honor that by putting in the effort needed to improve.\n\nThank you for your patience, your understanding, and for being the wonderful partner you are. I’m hopeful that, with open communication and a shared willingness to grow, we’ll turn this disappointment into an opportunity for deeper connection.\n\nWith all my love and sincere remorse,\n\n**[Your Name]**",
+  "finish_reason": "stop",
+  "prompt_tokens": 84,
+  "completion_tokens": 643,
+  "total_tokens": 727,
+  "latency_ms": 2799,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:43:24.120261+00:00"
+}

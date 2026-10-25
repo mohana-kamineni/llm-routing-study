@@ -1,0 +1,14 @@
+{
+  "prompt_id": "40424d8ec02645b59465fe7f4e5014bc",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully provides summaries at the requested word counts (5, 25, and 125 words) and accurately captures the essential factual aspects of the source text. The 125-word summary, in particular, comprehensively covers the key points: the immune system's constant role in killing rogue cells, the definition of cancer as uncontrolled multiplication, the diversity of cancer types, and the evolutionary context of cooperation versus individual cell survival. The shorter summaries are concise and accurate representations of the core message. There are no significant omissions of critical information or factual inaccuracies.",
+  "finish_reason": "stop",
+  "prompt_tokens": 698,
+  "completion_tokens": 125,
+  "total_tokens": 823,
+  "timestamp": "2026-09-19T17:40:06.616147+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "28fb8c07b5a04a7f8765749e9083a76c",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Create a story using 5 personagens, I villian and 3 heroes. You must include the physical chracteristics",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 95,
+  "completion_tokens": 4096,
+  "total_tokens": 4191,
+  "latency_ms": 4405,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:59:03.232225+00:00"
+}

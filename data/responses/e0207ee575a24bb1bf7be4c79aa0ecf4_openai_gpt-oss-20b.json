@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e0207ee575a24bb1bf7be4c79aa0ecf4",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Story Prompt: In this world gender swap technology is common place, quick, painless, and used recreationally via genderswap pills. I am a shy and timid college age man. Today is national genderswap day, a day where everyone is required to switch genders for the day. (Write a story based off of the writing prompt. Be descriptive, use creative writing techniques, and use a good hook. Write from a first person story from my POV. Remember national genderswap day happens once every year, so I've done this many times before.)",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 180,
+  "completion_tokens": 4096,
+  "total_tokens": 4276,
+  "latency_ms": 4771,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:49:58.981441+00:00"
+}

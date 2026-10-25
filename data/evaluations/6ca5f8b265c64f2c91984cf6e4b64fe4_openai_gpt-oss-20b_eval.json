@@ -1,0 +1,14 @@
+{
+  "prompt_id": "6ca5f8b265c64f2c91984cf6e4b64fe4",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response is merely the opening line of the interaction, asking the first question (\"How many children...\"). It does not summarize the content of the source text. It fails to cover any of the required key aspects, such as the specific data points to be collected (contact info, routines, allergies), the procedural constraints (asking one question at a time), or the final steps (summary in notecard format and saving to Everplan).",
+  "finish_reason": "stop",
+  "prompt_tokens": 772,
+  "completion_tokens": 95,
+  "total_tokens": 867,
+  "timestamp": "2026-09-22T17:08:51.262401+00:00"
+}

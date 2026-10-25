@@ -1,0 +1,20 @@
+{
+  "prompt_id": "61c75d537c9749008c8dcaecb66cb157",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "You are an experienced teaching teacher.\nThe current course is ‘The Concept of Rational Numbers’, and the next lesson is ‘The Four Operations of Rational Numbers’.\nPlease generate a new course summary for student ‘Zhang San’ based on the knowledge points of this course and the content of the next lesson as a teacher.\nRequirements:\n    1. No more than 100 words\n    2. Include the key knowledge points of the current course and the content of the next lesson\n    3. Use a gentle and encouraging tone\n    4. Appropriate use of emoji expressions.\nKnowledge points of this course:\n    - The concept of rational numbers\n    - Understanding rational numbers\n    - Properties of rational numbers.",
+  "response_text": "Hi Zhang San! 🌟 This week you’ve mastered the concept of rational numbers, learned how to recognize them, and explored their key properties. Next, we’ll dive into the four operations—addition, subtraction, multiplication, and division—so you can confidently work with any rational number. Keep up the great effort; each step builds your math confidence! 🚀",
+  "finish_reason": "stop",
+  "prompt_tokens": 216,
+  "completion_tokens": 458,
+  "total_tokens": 674,
+  "latency_ms": 1242,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:59:04.619148+00:00"
+}

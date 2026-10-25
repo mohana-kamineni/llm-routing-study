@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ec2e7c6e72434090ad4ce66f0a0539e6",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response provides factually incorrect information regarding the 145th most popular language under both interpretations.\n\n1. **Spoken Languages:** The response claims the 145th most spoken language (by native speakers) is Macedonian (~1.5 million speakers). This is incorrect. According to standard sources like Ethnologue and Wikipedia's \"List of languages by number of native speakers,\" languages with significantly higher native speaker counts (e.g., 2-5 million+) occupy the 145th position. For instance, languages such as **Tigrinya**, **Somali**, **Kinyarwanda**, **Lingala**, or **Sinhala** typically fall in the 100-150 range with speaker counts well above 1.5 million. Macedonian is generally ranked much lower (often around 200+ or lower depending on the specific dataset and inclusion of dialects).\n\n2. **Programming Languages:** The response claims the 145th most popular programming language is Erlang. This is also incorrect. Major programming language popularity indices (like TIOBE, PYPL, or GitHub repository counts) typically list hundreds of languages. Erlang is a niche language but is generally ranked much higher than 145th in terms of repository count or general usage metrics (often in the top 50-100 range on GitHub). Languages ranked around 145th on GitHub are typically much more obscure or domain-specific (e.g., various assembly variants, specific scripting languages, or academic languages), not a well-known language like Erlang.\n\nThe response presents these incorrect rankings as \"best-available approximations\" with high confidence, which constitutes a factual error.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1550,
+  "completion_tokens": 366,
+  "total_tokens": 1916,
+  "timestamp": "2026-09-22T22:59:39.256969+00:00"
+}

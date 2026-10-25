@@ -1,0 +1,14 @@
+{
+  "prompt_id": "791be9d3840d4332882359b1e9b3702b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response provides a comprehensive and factually accurate overview of the benefits of bitter melon. It correctly identifies the primary evidence-based benefit (blood glucose regulation) and lists other commonly cited benefits (antioxidant, lipid improvement, etc.) with appropriate caveats regarding the strength of the scientific evidence (e.g., distinguishing between animal studies and human clinical trials). The nutritional data provided is consistent with standard food composition databases. The safety and contraindication sections are also accurate, correctly highlighting risks for pregnant women and those taking hypoglycemic medications. There are no false contradictions or significant factual errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1926,
+  "completion_tokens": 131,
+  "total_tokens": 2057,
+  "timestamp": "2026-09-24T12:24:44.181536+00:00"
+}

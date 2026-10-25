@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c9662ac0312941fcae61a6ca0e2136ad",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe summary fails to accurately represent the source text regarding the \"Recent Operational Detail.\" Specifically, Key Aspect 3 states that the decline in spend was **not** due to down-selling but rather strategic optimization, and Key Aspect 4 explains that the cost reduction resulted from tuning the index **away** from a high-write-throughput setup.\n\nThe evaluated summary incorrectly states: \"In February, CircleUp experienced a **spike** in spend due to a 'high-write-throughput' index configuration.\" This contradicts the source text, which indicates the high-write-throughput configuration was used *earlier* in the year, and the recent action (tuning) was taken to address the high costs associated with that previous setup, leading to the observed decline in spend. The summary misinterprets the timeline and the cause of the spend change, failing to capture the essential fact that the spend *declined* due to optimization, not that it spiked due to the optimization.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1402,
+  "completion_tokens": 202,
+  "total_tokens": 1604,
+  "timestamp": "2026-09-22T18:45:14.136569+00:00"
+}

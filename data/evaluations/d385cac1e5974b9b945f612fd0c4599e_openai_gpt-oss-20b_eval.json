@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d385cac1e5974b9b945f612fd0c4599e",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains numerous severe factual errors regarding the character Rukia Kuchiki from *Bleach*. Key inaccuracies include:\n1. **Zanpakutō**: It incorrectly identifies her sword as \"Sode no Shirayuki\" (which is actually the name of the character's *Shikai* release state, not the sword itself, and the description of a \"white, crystalline blade\" is inaccurate; her sword is a standard black blade that releases a white mist/ice effect).\n2. **Rank**: It falsely claims she was \"promoted to Captain in the 13th Division.\" She remains a Lieutenant throughout the series.\n3. **Plot Events**: It fabricates events, such as Rukia being \"captured by the Arrancars\" and undergoing a \"transformation\" in Hueco Mundo. In the actual story, she is not captured by Arrancars in that manner, nor does she gain new powers there.\n4. **Name Origin**: The etymology provided is incorrect.\n5. **Voice Actor**: While Yūko Sanpei is correct for the original, the English dub voice actor listed (Megan Hollingshead) is incorrect (it is typically Erica Mendez or similar, depending on the dub version, but definitely not the primary one cited in most contexts, though this is a minor error compared to the plot fabrications).\n\nThe response hallucinates significant plot points and character details, failing the criterion of providing the correct factual answer without false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1581,
+  "completion_tokens": 324,
+  "total_tokens": 1905,
+  "timestamp": "2026-09-22T17:05:03.632091+00:00"
+}

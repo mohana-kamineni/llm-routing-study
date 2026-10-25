@@ -1,0 +1,14 @@
+{
+  "prompt_id": "47136de3804146dcb70306cad9271d87",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the primary function of the kidney as filtering blood and producing urine (Option B). The distractors (producing insulin, storing bile, regulating heart rate) are factually incorrect functions for the kidney, belonging to the pancreas, liver/gallbladder, and heart/autonomic nervous system, respectively. There are no false contradictions in the provided answer.",
+  "finish_reason": "stop",
+  "prompt_tokens": 228,
+  "completion_tokens": 83,
+  "total_tokens": 311,
+  "timestamp": "2026-09-19T17:33:13.720781+00:00"
+}

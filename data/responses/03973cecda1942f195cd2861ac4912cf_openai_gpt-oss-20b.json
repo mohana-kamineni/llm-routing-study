@@ -1,0 +1,20 @@
+{
+  "prompt_id": "03973cecda1942f195cd2861ac4912cf",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Imagine you gave this arena to nurses and told them to ask nurse-related things. Which model are they likely to prefer?",
+  "response_text": "If you hand an AI “arena” to a group of nurses and ask them to pick the model that best serves their day‑to‑day, clinical‑support questions, the overwhelming consensus is that they’ll gravitate toward **GPT‑4 (or its Turbo variant)**.\n\n### Why GPT‑4?\n\n| Feature | GPT‑4 | GPT‑3.5 | Med‑PaLM / BioGPT |\n|---------|-------|---------|-------------------|\n| **Medical knowledge depth** | Highest – trained on a broader corpus that includes up‑to‑date clinical literature | Good, but less comprehensive | Very specialized, but still limited to the data it was trained on |\n| **Safety & hallucination mitigation** | Stronger guardrails, better handling of ambiguous or risky medical queries | More prone to hallucinations | Depends on the specific fine‑tuning; often less robust in safety |\n| **Context window** | 8 k–32 k tokens (depending on variant) – enough for multi‑step reasoning | 4 k tokens – can truncate longer clinical notes | Usually 4 k–8 k, but not as flexible |\n| **Speed & cost** | GPT‑4 Turbo is fast and cheaper while retaining most of GPT‑4’s quality | Slower and more expensive per token | Varies; often slower due to specialized architecture |\n| **User experience** | Consistent, reliable, and easy to integrate into existing workflows | Less reliable for nuanced medical queries | Requires specialized prompts and may not feel “natural” |\n\n### What nurses actually want\n\n1. **Accuracy** – A nurse needs trustworthy information for patient care. GPT‑4’s higher factual accuracy and better reasoning make it the go‑to.\n2. **Safety** – The model’s built‑in safety filters reduce the risk of giving harmful advice. Nurses are cautious about hallucinations.\n3. **Ease of use** – GPT‑4’s conversational style and ability to handle longer context (e.g., a full patient note) fit naturally into clinical documentation workflows.\n4. **Speed & cost** – GPT‑4 Turbo offers the same quality at a lower cost and faster response time, which is critical in a busy clinical setting.\n\n### Bottom line\n\nWhile specialized medical models (Med‑PaLM, BioGPT, etc.) are promising, they are still emerging and often lack the broad safety and usability that nurses rely on. In practice, most nurses would choose **GPT‑4 (or GPT‑4 Turbo)** for nurse‑related questions because it balances medical knowledge, safety, and practical workflow integration.",
+  "finish_reason": "stop",
+  "prompt_tokens": 95,
+  "completion_tokens": 896,
+  "total_tokens": 991,
+  "latency_ms": 1051,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:59:45.886185+00:00"
+}

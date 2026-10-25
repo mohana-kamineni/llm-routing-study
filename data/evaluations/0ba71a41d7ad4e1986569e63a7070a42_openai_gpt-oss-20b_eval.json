@@ -1,0 +1,14 @@
+{
+  "prompt_id": "0ba71a41d7ad4e1986569e63a7070a42",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains significant factual errors regarding the \"nearest\" ski resort. The actual nearest ski resort to Berkeley is **Mount Tamalpais** (specifically the Mount Tamalpais Ski Area, though it is currently closed, it is the geographically closest facility) or, among currently operating major resorts, **Mount Shasta** (approx. 100-110 miles) or **Sugar Bowl** (approx. 110-120 miles). The response lists Sierra-at-Tahoe, Bear Valley, Heavenly, and Northstar as the nearest, all of which are approximately 140-150 miles away. By omitting closer options like Sugar Bowl (which is significantly closer than the Tahoe resorts) and Mount Shasta, the response fails to correctly identify the nearest resort. Additionally, the driving directions provided are confusing and partially incorrect (e.g., suggesting I-680 S to I-80 E, which is a convoluted and inefficient route compared to taking I-80 E directly or CA-12).",
+  "finish_reason": "stop",
+  "prompt_tokens": 732,
+  "completion_tokens": 230,
+  "total_tokens": 962,
+  "timestamp": "2026-09-19T17:07:01.881252+00:00"
+}

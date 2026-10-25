@@ -1,0 +1,20 @@
+{
+  "prompt_id": "56903547bb004808b23834cda0d6a6bb",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the highest mountain in Japan?",
+  "response_text": "The highest mountain in Japan is **Mount Fuji** (富士山, Fujisan). It stands at an elevation of **3,776 meters (12,389 feet)** above sea level and is an iconic symbol of the country.",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 89,
+  "total_tokens": 168,
+  "latency_ms": 430,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:20:57.726406+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "197759910f8d4b56b4100e2f9fc00492",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write some Python code to calculate if 2023 is a prime",
+  "response_text": "Here’s a short, self‑contained Python snippet that checks whether the number 2023 is prime (and prints the result). It uses a simple trial‑division algorithm that’s more than fast enough for a single 4‑digit number.\n\n```python\ndef is_prime(n: int) -> bool:\n    \"\"\"Return True if n is a prime number, False otherwise.\"\"\"\n    if n <= 1:\n        return False\n    if n <= 3:               # 2 and 3 are prime\n        return True\n    if n % 2 == 0 or n % 3 == 0:\n        return False\n\n    # Check possible factors of the form 6k ± 1 up to sqrt(n)\n    i = 5\n    while i * i <= n:\n        if n % i == 0 or n % (i + 2) == 0:\n            return False\n        i += 6\n    return True\n\n\n# Test the function with the specific number 2023\nnumber = 2023\nif is_prime(number):\n    print(f\"{number} is a prime number.\")\nelse:\n    print(f\"{number} is NOT a prime number.\")\n```\n\n### What the code does\n1. **Handle trivial cases** – numbers ≤ 1 are not prime; 2 and 3 are prime.\n2. **Eliminate even numbers and multiples of 3** early for speed.\n3. **Trial division** – only test divisors up to √n, and only those of the form `6k ± 1` (all primes > 3 fit this pattern).  \n4. **Print the result** – for `2023` the output will be:\n\n```\n2023 is NOT a prime number.\n```\n\n(Indeed, 2023 = 7 × 17 × 17, so it’s composite.)",
+  "finish_reason": "stop",
+  "prompt_tokens": 84,
+  "completion_tokens": 457,
+  "total_tokens": 541,
+  "latency_ms": 1244,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:01:49.528292+00:00"
+}

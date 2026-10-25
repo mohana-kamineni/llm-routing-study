@@ -1,0 +1,20 @@
+{
+  "prompt_id": "12afec6fbae94b9b9b0d4cd6bdbb2dcf",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a song about birds",
+  "response_text": "**Title: “Wings on the Wind”**\n\n*(Verse 1)*  \nMorning breaks on a silver sky,  \nA choir of feathers, a lullaby.  \nThey paint the horizon with a sigh,  \nLittle hearts that dare to fly.  \n\n*(Pre‑Chorus)*  \nFrom the tallest oak to the river bend,  \nThey whisper stories that never end.  \nEvery wingbeat, a promise, a trend,  \nIn the hush of dawn, they’re the world’s best friend.  \n\n*(Chorus)*  \nOh, sing with the sparrows, dance with the dove,  \nLet the wind carry your dreams above.  \nIn the hush of the forest, in the city’s glow,  \nBirds remind us how to let our spirits grow.  \n\n*(Verse 2)*  \nA robin’s red chest, a hawk’s keen eye,  \nThey glide through clouds where secrets lie.  \nTheir songs are maps to the open sky,  \nA compass for the heart that’s shy.  \n\n*(Pre‑Chorus)*  \nWhen the storm rolls in, they’re the calm,  \nA living hymn that breaks the dam.  \nThey teach us how to rise, to stand, to slam,  \nThe world’s a stage, and we’re the jam.  \n\n*(Chorus)*  \nOh, sing with the sparrows, dance with the dove,  \nLet the wind carry your dreams above.  \nIn the hush of the forest, in the city’s glow,  \nBirds remind us how to let our spirits grow.  \n\n*(Bridge)*  \nWhen the night falls, they’re the lanterns bright,  \nGuiding lost souls through the velvet night.  \nTheir wings are stories, their feathers light,  \nA promise that hope takes flight.  \n\n*(Breakdown)*  \n(Soft, melodic)  \n“Fly, little one, beyond the trees,  \nBeyond the doubts, beyond the seas.”  \n\n*(Final Chorus)*  \nSo let’s sing with the sparrows, dance with the dove,  \nLet the wind carry our dreams above.  \nIn the hush of the forest, in the city’s glow,  \nBirds remind us how to let our spirits grow.  \n\n*(Outro)*  \nWhen the day ends, the sky turns gold,  \nAnd the birds, they whisper, “Be bold.”  \nWe’ll keep their song in our hearts, untold,  \nUntil the next sunrise, when the story unfolds.",
+  "finish_reason": "stop",
+  "prompt_tokens": 76,
+  "completion_tokens": 574,
+  "total_tokens": 650,
+  "latency_ms": 1141,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:50:27.899628+00:00"
+}

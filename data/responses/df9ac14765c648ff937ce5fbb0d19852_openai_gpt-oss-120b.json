@@ -1,0 +1,20 @@
+{
+  "prompt_id": "df9ac14765c648ff937ce5fbb0d19852",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Summarize the following in three sentences: Importance: Two states modified laws to remove or dramatically reduce criminal penalties for drug possession. Considering the ongoing overdose crisis in the U.S., research is needed to determine whether these changes impacted fatal drug overdose rates.\n\nObjective: To evaluate whether decriminalization of drug possession in Oregon and Washington was associated with short-term changes in fatal drug overdose rates.\n\nDesign: This ecological study used a synthetic control method approach to examine the association between changes in drug possession laws and fatal drug overdose rates in Oregon and Washington in the post-policy period (February 2021 – March 2022 in Oregon and March 2021 – March 2022 in Washington).\n\nSetting: We created a counterfactual comparison group (synthetic controls) for Oregon and Washington using 48 states and the District of Columbia that did not implement similar policies during the study period (2018-2022).\n\nParticipants: For 2018 through 2020, we used final multiple cause of death data from the National Vital Statistics System (NVSS). For 2021 and 2022, we used provisional NVSS data. Drug overdose deaths were identified using ICD–10 underlying cause-of-death codes X40–X44, X60–X64, X85, and Y10–Y14.\n\nExposures: In Oregon, Measure 110 went into effect on February 1, 2021. In Washington, the Washington Supreme Court decision in State v. Blake occurred on February 25, 2021.\n\nMain Outcome: Monthly fatal drug overdose rates.\n\nResults: Following the im",
+  "response_text": "The study investigated whether Oregon’s Measure 110 and Washington’s Supreme Court decision to decriminalize drug possession altered monthly fatal overdose rates, using a synthetic‑control design that compared each state to a weighted composite of 48 other states that kept their existing laws. Researchers analyzed National Vital Statistics System death records from 2018‑2020 (final data) and provisional data for 2021‑2022, identifying overdoses with ICD‑10 codes X40–X44, X60–X64, X85, and Y10–Y14, and constructed counterfactual trends for the post‑policy periods (Feb 2021–Mar 2022 in Oregon; Mar 2021–Mar 2022 in Washington). The analysis aimed to detect short‑term changes in overdose mortality after the legal reforms, though the specific results are not provided in the excerpt.",
+  "finish_reason": "stop",
+  "prompt_tokens": 394,
+  "completion_tokens": 443,
+  "total_tokens": 837,
+  "latency_ms": 1180,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:29:47.043510+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c10505c898084955ad8da533824d00ad",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "My name is Alexis, I've got three sisters, each one of them has 1 brother. How many brothers do I have ?",
+  "response_text": "The key is to look at what “each one of them has 1 brother” means.\n\n- You (Alexis) have three sisters.  \n- Each of those sisters has exactly **one** brother.  \n\nIf there were any other brothers besides you, then each sister would have **more than one** brother (you plus the other brother(s)). Since each sister has only one brother, that brother must be the same person for all three sisters – and that person is you.\n\nTherefore, you are the only brother in the family.  \n\n**So you have 0 brothers.** (You are the brother.)",
+  "finish_reason": "stop",
+  "prompt_tokens": 97,
+  "completion_tokens": 318,
+  "total_tokens": 415,
+  "latency_ms": 784,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:07:50.242743+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e23766d5dd8c4c228c2b156aa81609ab",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains significant factual errors regarding the characters and plot of the show \"Beef.\" Specifically, it incorrectly identifies the male protagonist as a \"truck driver\" named \"Hank\" (the character is Danny, a contractor/renovator, played by Steven Yeun). It also incorrectly identifies the female protagonist as \"Liza\" (the character is Amy, played by Ali Wong). Furthermore, the response describes the company as a \"plant-based food company,\" whereas Koyohaus is a plant-based home goods/lifestyle brand. These are false contradictions to the actual facts of the show.",
+  "finish_reason": "stop",
+  "prompt_tokens": 974,
+  "completion_tokens": 131,
+  "total_tokens": 1105,
+  "timestamp": "2026-09-22T22:58:24.913730+00:00"
+}

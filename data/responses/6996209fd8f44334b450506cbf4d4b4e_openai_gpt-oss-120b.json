@@ -1,0 +1,20 @@
+{
+  "prompt_id": "6996209fd8f44334b450506cbf4d4b4e",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "summarize this \"Quantum computing is a new type of computing that uses the principles of quantum physics to process information. In classical computers, information is stored and processed using bits, which can represent either a 0 or a 1. However, in quantum computers, information is stored and processed using quantum bits, or qubits.\n\nWhat makes qubits special is that they can exist in multiple states at the same time. While a classical bit can be either 0 or 1, a qubit can be both 0 and 1 simultaneously. This is known as superposition. It's like having a coin that can be heads and tails at the same time.\n\nAnother important property of qubits is entanglement. When qubits are entangled, the state of one qubit becomes connected to the state of another qubit, no matter how far apart they are. This means that changing the state of one qubit will instantly affect the state of the other qubit, even if they are separated by vast distances.\n\nThese unique properties of qubits enable quantum computers to perform certain types of calculations much faster than classical computers. Quantum computers can solve complex problems that would take classical computers a very long time or be practically impossible. They have the potential to revolutionize fields like cryptography, optimization, drug discovery, and material science.\n\nHowever, quantum computing is still in its early stages, and building practical, error-free quantum computers is a significant challenge. Scientists and engineers are actively working on developing and improving quantum hardware and algorithms to harness the power of quantum computing.\"",
+  "response_text": "**Summary**\n\nQuantum computing leverages quantum physics to process information with *qubits* instead of classical bits. Unlike bits that are either 0 or 1, qubits can exist in *superposition*, meaning they represent both 0 and 1 simultaneously. Qubits can also become *entangled*, linking their states instantaneously regardless of distance. These properties let quantum computers solve certain problems far faster than classical machines, promising breakthroughs in cryptography, optimization, drug discovery, and materials science. However, the technology is still nascent; building reliable, error‑free quantum hardware and algorithms remains a major challenge.",
+  "finish_reason": "stop",
+  "prompt_tokens": 385,
+  "completion_tokens": 148,
+  "total_tokens": 533,
+  "latency_ms": 524,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:57:19.840467+00:00"
+}

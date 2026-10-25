@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d95f4bd983e849b29a4f0b594680f409",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully addresses the prompt by writing a poem specifically about King Arthur. It demonstrates strong coherence and narrative structure, moving logically from the origin of the sword and the king's rise, through the assembly of the Round Table and the Lady of the Lake, to the thematic core of justice and love, and finally to the enduring legacy of the legend. The poem is complete, not truncated, and contains no violations of explicit constraints, as the prompt did not specify word limits, character counts, or specific formatting requirements beyond the topic. The imagery is consistent with Arthurian mythology, and the rhyme scheme and meter are generally well-executed.",
+  "finish_reason": "stop",
+  "prompt_tokens": 511,
+  "completion_tokens": 134,
+  "total_tokens": 645,
+  "timestamp": "2026-09-19T17:25:39.611138+00:00"
+}

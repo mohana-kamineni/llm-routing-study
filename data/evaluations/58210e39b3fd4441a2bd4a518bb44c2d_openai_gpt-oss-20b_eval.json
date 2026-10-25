@@ -1,0 +1,13 @@
+{
+  "prompt_id": "58210e39b3fd4441a2bd4a518bb44c2d",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "The response provides a comprehensive and factually accurate comparison between OpenCL and CUDA.\n\n**Fact-Checking:**\n1.  **Origin & Ownership**: Correctly identifies OpenCL as an open standard by the Khronos Group and CUDA as a proprietary technology by NVIDIA.\n2.  **Hardware Support**: Correctly states OpenCL supports various vendors (AMD, Intel, NVIDIA, ARM, etc.) and device types (CPU, GPU, FPGA), while CUDA is limited to NVIDIA GPUs.\n3.  **Language & Syntax**:\n    *   Correctly identifies OpenCL C as a subset of C99 and CUDA C/C++ as an extension of C/C++.\n    *   Correctly contrasts kernel launch syntax (`clEnqueueNDRangeKernel` vs `<<<grid, block>>>`).\n    *   Correctly lists memory qualifiers for both (e.g., `__global`/`global`, `__local`/`shared`).\n4.  **Ecosystem**: Accurately notes that CUDA has a richer, more mature ecosystem for deep learning (cuDNN, TensorRT) and general GPU computing (cuBLAS, Thrust), whereas OpenCL has fewer high-level libraries but offers portability.\n5.  **Performance**: The statement that CUDA is often faster on NVIDIA hardware due to vendor-specific optimizations is a widely accepted technical fact.\n6.  **Code Snippets**: The provided code snippets are syntactically correct and representative of how kernels are launched in each framework.\n\nThere are no false contradictions or factual errors in the response. It accurately answers the question by detailing the differences in portability, performance, programming model, and ecosystem.\n\nVERDICT: PASS",
+  "prompt_tokens": 1872,
+  "completion_tokens": 351,
+  "total_tokens": 2223,
+  "timestamp": "2026-09-18T22:59:25.111445+00:00"
+}

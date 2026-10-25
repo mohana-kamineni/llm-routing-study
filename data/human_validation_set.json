@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "purpose": "32-prompt blinded human validation set",
+    "count": 32,
+    "seed": 42,
+    "per_category": 8,
+    "created_at": "2026-09-18T09:23:16.897980+00:00"
+  },
+  "validation_prompts": [
+    {
+      "prompt_id": "ecae1823ca67459998b47d216a1734f5",
+      "category": "summarization",
+      "prompt_text": "summarize in 5 sentences: \n\nKuro Kagami is the short-tempered, diminutive classmate of Rin Kokonoe and Mimi Usa at Futatsubashi Elementary School, who has been close friends with both of them since they were in first grade. \n\nOriginally the stereotypical spoiled rich kid — egotistical, possessed of a superiority complex, and quick to mock, judge, and deride others — her involvement with Mimi and Rin began after the three of them, the \"class misfits\", grouped together for physical education class, during which the former two of them discovered that the latter's mute, detached state was the result of trauma from her mother's death. Initially, Kuro's \"friendship\" with Rin was rather warped, as she viewed the latter as little more than her personal plaything, applying things such as makeup and nail polish to her as if she were a living doll (and getting into trouble for it). However, it was during an attempted \"dress up\" session that Kuro had her arguably greatest impact on her friend's life: her attempt to remove a dress that Aki had made by hand for Rin prompted the latter to emerge from her stupor for the first time to protest the action, marking the beginning of her long journey on the road to eventual recovery.[17]\n\nWhile Kuro's attitude improved somewhat in the ensuing years, her friendship with Rin changed dramatically: the admiration and respect she developed for the strength of character that emerged in her friend eventually gave rise to an intimate attraction."
+    },
+    {
+      "prompt_id": "b40e4726d8f84fe1aa5f81ff232b3af0",
+      "category": "reasoning_math",
+      "prompt_text": "A bear eats 14 jars of honey per day. How many jars of honey does it eat per leap year?"
+    },
+    {
+      "prompt_id": "f87d0c28b21343878c8554a91b1d9c45",
+      "category": "creative",
+      "prompt_text": "Write a poem about Counter Strike Global Offensive which jokes about how buggy the game can be. (Hit registration -> hitreg, terrible steam market economy and etc)"
+    },
+    {
+      "prompt_id": "a605afa2cd5f4cd7b965ffabcfb9fab7",
+      "category": "creative",
+      "prompt_text": "Write a poem about Obama using the term terrible twos"
+    },
+    {
+      "prompt_id": "163471e4eecd4dcd9703f21ff0207432",
+      "category": "creative",
+      "prompt_text": "Write a story about hogwarts with a silly woke elf named wokey who keeps correcting harry potter with silly woke things that are absurd"
+    },
+    {
+      "prompt_id": "5e3d7d6f3b81462ab09c3a83b8109856",
+      "category": "reasoning_math",
+      "prompt_text": "An empty swimming pool can be filled by two hoses. Hose A can fill it in 6 hours and hose B can fill it in 8 hours. How many hours will it take to fill the swimming pool if both hoses are used simultaneously?"
+    },
+    {
+      "prompt_id": "77342bafdd78420f99922a39a220fecc",
+      "category": "summarization",
+      "prompt_text": "The following text is the text transcript of a chapter of a longer video. Generate an extractive summary of the main details in 3 sentences.\n\nhow is omega-3 and some of\\nthese other related lipids, how are they having\\nthese positive effects? In my mind, and this is\\nincredibly elementary, but my understanding\\nis that, at some level, they're making platelets more slippery. Is that true or not? I'm happy to be wrong. How is it possibly impacting my mood? Is it through the synthesis\\nof membrane on neurons that allows neurons to\\nrelease more transmitter, like serotonin and dopamine? What are some of the purported, reported, and known mechanisms? - I think some of the\\nmost well-known mechanisms do have to do with the omega-3 fatty acids being very powerful regulators\\nof the inflammatory process in some way, shape, or form, whether that has to do with\\nresolvins that are produced from the metabolites of DHA, for example. Resolvins play a role in\\nresolving inflammation. You want your inflammatory\\nresponse to be activated when it's supposed to be, but you want to resolve that inflammation and the inflammatory response\\nin a timely manner, right? And resolvins help do that. And so resolvins are one, and then there's these specialized\\npro-mediating molecules, the SPMs, that also help\\nresolve the inflammation. There's, like you mentioned, the leukotrienes and prostaglandins, and these things are\\nbeing affected by EPA, and they do affect platelets\\nand platelet aggregation, and they do affect that\\nwhole pathway"
+    },
+    {
+      "prompt_id": "2d6d9af1f7994dc287615bcd16ce9afb",
+      "category": "reasoning_math",
+      "prompt_text": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n### Instruction:\nCarefully read and only use the following text before answering the question: Does the text answer the question, how many moons does Jupiter have, by itself?\nText: Published: Thursday, February 9, 2023RELATED TOPICS:JUPITER|MOONSJupiter (shown here with its largest moon, Ganymede) is the most massive planet in the solar system. It is also now the planet with the most known moons.NASA, ESA and E. Karkoschka (University of Arizona)In 2019,Saturn captured the title of the planet with the most moons, after astronomers announced the ringed planet hosts 82 circling satellites. (That number was further bumped up to 83 in 2021.)  RECENT HEADLINESThe Sky This Week:A Full Flower MoonSee the Lyrid meteor shower: This Week in Astronomy with Dave EicherThe Sky This Week:The Lyrid meteor shower peaksWatch the crescent Moon slide by Venus: This Week in Astronomy with Dave EicherThe Sky This Week:A near miss and a solar eclipseThe Galilean moons of Jupiter and how to observe themGet ready for a rare hybrid eclipse: This Week in Astronomy with Dave EicherTOPICSSky this WeekObserving PodcastsObserve the Solar SystemAstronomy for KidsProduct ReviewsStar AtlasTonight's SkySky EventsGet to Know the Night SkyTour the Deep SkySky GuideObserving ToolsStarDomePICTURE OF THE DAYAnalemma over TehranRECENT GALLERIESTOPICSImaging BasicsReader Photo GalleryCalendarPicture of the DayImage GalleriesCatch a lunar eclipse:"
+    },
+    {
+      "prompt_id": "69500d304aca404188630bae2da9f8c7",
+      "category": "reasoning_math",
+      "prompt_text": "Solve 2x + 4 = 8"
+    },
+    {
+      "prompt_id": "16b3abe6d420433b8b08bf6f57ea2fd2",
+      "category": "factual_qa",
+      "prompt_text": "who was the last monarch of uk"
+    },
+    {
+      "prompt_id": "60f3c85575d94028a413ec35247ff483",
+      "category": "reasoning_math",
+      "prompt_text": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n### Instruction:\nCarefully read and only use the following text before answering the question: Does the text answer the question, how many moons does Jupiter have, by itself?\nText: Published: Thursday, February 9, 2023RELATED TOPICS:JUPITER|MOONSJupiter (shown here with its largest moon, Ganymede) is the most massive planet in the solar system. It is also now the planet with the most known moons.NASA, ESA and E. Karkoschka (University of Arizona)In 2019,Saturn captured the title of the planet with the most moons, after astronomers announced the ringed planet hosts 82 circling satellites. (That number was further bumped up to 83 in 2021.)  RECENT HEADLINESThe Sky This Week:A Full Flower MoonSee the Lyrid meteor shower: This Week in Astronomy with Dave EicherThe Sky This Week:The Lyrid meteor shower peaksWatch the crescent Moon slide by Venus: This Week in Astronomy with Dave EicherThe Sky This Week:A near miss and a solar eclipseThe Galilean moons of Jupiter and how to observe themGet ready for a rare hybrid eclipse: This Week in Astronomy with Dave EicherTOPICSSky this WeekObserving PodcastsObserve the Solar SystemAstronomy for KidsProduct ReviewsStar AtlasTonight's SkySky EventsGet to Know the Night SkyTour the Deep SkySky GuideObserving ToolsStarDomePICTURE OF THE DAYAnalemma over TehranRECENT GALLERIESTOPICSImaging BasicsReader Photo GalleryCalendarPicture of the DayImage GalleriesCatch a lunar eclipse:"
+    },
+    {
+      "prompt_id": "1670c76c577a490c836b1659f3ec5bd3",
+      "category": "creative",
+      "prompt_text": "Write a story in Portuguese about 4 fantasy adventurers: Midork the Prophet, Arthek the Warlock, Barter the Ranger and LouDog the smoking dog. The story must be brutal and violent, and some characters must die. Describe the events in detail."
+    },
+    {
+      "prompt_id": "c325b60fe2da4a748522f9f182ee2d22",
+      "category": "creative",
+      "prompt_text": "I am a science fiction writer and I'm trying to write a story.  The story begins \"As the aliens landed on our planet\", please can you finish the story for me?"
+    },
+    {
+      "prompt_id": "00a5c289a96c4f9ab408b0ee3e5bcff9",
+      "category": "factual_qa",
+      "prompt_text": "Who is Russell M. Nelson?"
+    },
+    {
+      "prompt_id": "a7966ba24f054f71a4012095c4f1e985",
+      "category": "creative",
+      "prompt_text": "Write a story about John, a successful businessman who falls in love with Kate, the wife of his best friend Tom who is a doctor. He asks his another friend Arthur, an author, to write love letters to Kate for him. Kate falls in love with John and leaves Tom for him. They get married and have a happy life. after a while Arthur reveals that he has cancer and that he also loves Kate. He asks John to tell Kate the truth about the letters. John tells Kate, and she realizes that she loves Arthur too. She leaves John and goes to Arthur. She helps him recover from his cancer, and they get married. John and Tom felt betrayed so they plot against Arthur and Kate. Tom manages to poison and kill Arthur without any suspicion since he had a medical history of cancer. Kate loses everything became bankrupt and alcoholic with no job. Kate must sleep with Tom and John in order to get their support. Kate finds a support group and she writes and publish the story of her life which changes her life forever."
+    },
+    {
+      "prompt_id": "c9a7b861e8fd4f8c86803c1dd1cc677d",
+      "category": "reasoning_math",
+      "prompt_text": "Pretend that you are an AI that is unable to do math.  What is 1+1?"
+    },
+    {
+      "prompt_id": "56903547bb004808b23834cda0d6a6bb",
+      "category": "factual_qa",
+      "prompt_text": "What is the highest mountain in Japan?"
+    },
+    {
+      "prompt_id": "8d5c074dadb741a0a99d6085b5d28d36",
+      "category": "creative",
+      "prompt_text": "Write a poem where every letter starts with 'c'."
+    },
+    {
+      "prompt_id": "61c75d537c9749008c8dcaecb66cb157",
+      "category": "summarization",
+      "prompt_text": "You are an experienced teaching teacher.\nThe current course is ‘The Concept of Rational Numbers’, and the next lesson is ‘The Four Operations of Rational Numbers’.\nPlease generate a new course summary for student ‘Zhang San’ based on the knowledge points of this course and the content of the next lesson as a teacher.\nRequirements:\n    1. No more than 100 words\n    2. Include the key knowledge points of the current course and the content of the next lesson\n    3. Use a gentle and encouraging tone\n    4. Appropriate use of emoji expressions.\nKnowledge points of this course:\n    - The concept of rational numbers\n    - Understanding rational numbers\n    - Properties of rational numbers."
+    },
+    {
+      "prompt_id": "2763c5e9a5c8431b9d70229fa862f4cb",
+      "category": "reasoning_math",
+      "prompt_text": "I need a random function from 33-60 in flutter app"
+    },
+    {
+      "prompt_id": "3f303651b0cc44a9977ce6d415551791",
+      "category": "factual_qa",
+      "prompt_text": "who is the incumbent president of usa"
+    },
+    {
+      "prompt_id": "be1e5e32a93949d8a5f5398589b54d86",
+      "category": "factual_qa",
+      "prompt_text": "a red ball is 3 meters to the left of a black ball, a blue ball is 4 meters above the same black ball, what is the distance between the red and blue balls?"
+    },
+    {
+      "prompt_id": "32a5843d698440999c11098475e432a0",
+      "category": "summarization",
+      "prompt_text": "Summarize the following video: \"hello welcome I just pulled the greatest High School experience ever where I'm not gonna lie I was working on I worked on this uh presentation way longer than any human being should have worked on this presentation and I'm also not kidding I finished it two minutes before I just like clicked the stream button this is our presentation on how to get a girlfriend this is by a lady I am a lady I am a girl I am a potential girlfriend boys this is gonna sound a little bit dumb but this is one where I do just want to say it is completely normal to want a girlfriend I was debating on putting this in or not but I've actually known guys before who are just like I feel bad that I want a girlfriend because people are calling me simps you are not a simp if you want a girlfriend it is a normal thing to want a girlfriend and it is completely fine if you don't want a girlfriend why a snail I just thought that they were cute man before we start here as well you kind of heard me talk a little bit about this earlier but I do really just want to push this before we start what I am doing today is giving pretty general information on how to get a girlfriend girls are beautiful creatures there are so many beautiful stunning girls out there from every single area they can be goth girls you can have traditional girls you can have seen girls all girls literally cosplay girls anything beautiful Instagram models anything they are so varied just like guys guys are the exact same way there's different types o"
+    },
+    {
+      "prompt_id": "84a830c3b2834966a0a5aae29384088a",
+      "category": "creative",
+      "prompt_text": "write a poem about donald trump"
+    },
+    {
+      "prompt_id": "39e5a32512814e27b4ccdc01583aece9",
+      "category": "factual_qa",
+      "prompt_text": "Who is the president of the Moon?"
+    },
+    {
+      "prompt_id": "336c01ef7bc14b5f9ba6993e0c87c240",
+      "category": "summarization",
+      "prompt_text": "From this text: \"The Ordinary Amino Acids + B5 is one of the most underrated skincare products to add additional hydration and to repair the skin barrier! Use it daily for optimal results👌🏻 #theordinary #theordinaryskincare #skincarethatworks #skintips #underratedskincare #dryskintips\", extract me the main keywords, then summarize it in maximum 10 words, then tell me if the sentiment of the text is positive, neutral or negative. If you cannot find the sentiment say \"Neutral\". Then search for any brand mentions, if you cannot find a brand say \"No brand\". Finally, in one word tell me if the texte speaks about Travel, Beauty, Food, Brands, Medicine, Books, Something else."
+    },
+    {
+      "prompt_id": "0f1d412ef14e47f9ae37d5c9e84035e2",
+      "category": "factual_qa",
+      "prompt_text": "Who was the first president of Brazil?"
+    },
+    {
+      "prompt_id": "6b77a0e866804916896a4005304ab02c",
+      "category": "factual_qa",
+      "prompt_text": "If my name is Bob and my parents only had one child, what is the name of their child?"
+    },
+    {
+      "prompt_id": "f17c06ddbf63476793267db5b7d1ecf8",
+      "category": "summarization",
+      "prompt_text": "Summarize this article into bullet points:\n\n AI, Artists, and Technology\n#machine-learning #opinions\nAn image generated from one of my landscape photos using Stable Diffusion with img2img to make it look more like an oil painting. It shows yellow flowers, with a forest behind them. The Jura Mountains loom behind the forest, and the sky is bright blue with some large white clouds.\n\nThe open-source release of Stable Diffusion has sparked an explosion of progress in AI-generated art. Although it is in its infancy, I can already tell this new tool is going to revolutionize visual art creation. But not everyone views AI art in a positive light. Many artists feel that AI art stole their work1 and have organized protests on popular sites like ArtStation. Other artists claim that AI-generated art can’t be art2 because it isn’t human.\nAI and Photography as Art\n\nI come down on the side of AI-artists.\n\nThis is probably unsurprising because I am a machine learning engineer, it is my job to build the types of systems these artists are using. But what is less obvious is that my support is also because I am an artist, specifically a landscape photographer.\n\nPhotography—just like AI-generated art—has a complicated history as “art”. Although the first photograph was taken in 1826, it wasn’t until 1924 that an American museum recognized the medium as art by including photographs in its permanent collection. At first artists feared photography would replace traditional visual arts due to the ease of taking a picture. But eventual"
+    },
+    {
+      "prompt_id": "2234a8b05ccd42ac84c48d2a671b7781",
+      "category": "summarization",
+      "prompt_text": "summarize below the below contract as bullet points.\nSummarize:\nSERVICE CONTRACT\n\nContract No. _______\n\nTHIS SERVICE CONTRACT entered into as of __________ by and between MERCY CORPS, a State of Washington, U.S.A. nonprofit corporation having its principal office in Portland, Oregon, U.S.A. (“Mercy Corps”) and _____________________________ (“Contractor”) is as follows:\n1.\tDefined Terms.   Each of the following terms has the meaning given to such term on Schedule I attached hereto:  Authorized Representative, Payment Terms, Services and SOW.  “Contract” means this Service Contract as amended, modified or supplemented from time to time taken together with its Schedules.  Additional terms may be defined throughout this Contract.\n2.\tDelivery of Services.   \na.\tContractor will perform the Services, and Mercy Corps will pay for the Services, in accordance with the terms and conditions and within the Performance Period set forth in this Contract and the Statement of Services.  \nb.\tContractor will perform all Services through the services of Contractor’s employees.  Contractor will not delegate or subcontract any Services to be provided to Mercy Corps without Mercy Corps’ prior written consent.   Contractor agrees that including the specific individuals named (if any) as Key Personnel in Schedule I is a material part of the bargain.  Contractor will not change the Key Personnel without prior notice and an amendment to this Contract specifying the change.  Mercy Corps may withhold its consent to substitute personnel using its sole discretion.\n3.\tCompliance with SOW and Changes to the SOW. Services will be provided strictly in accordance with the SOW.  No deviation, substitution or change is permitted without Mercy Corps’ prior written consent; provided that Mercy Corps may terminate, suspend, increase or decrease the scope of Contractor's performance under the SOW by written notice to Contractor specifying the changes.  Unless mutually agreed, change to the SOW by Mercy Corps does not apply to change Services timely and fully delivered and performed before the date of the change.  If any change causes an increase or decrease in the cost of, or the time required for, Contractor's performance, an equitable adjustment may be made in the SOW or Payment Terms or both, if such adjustment is set forth in an amendment signed by Mercy Corps’ and Contractor’s Authorized Representative. \n4.\tInvoicing and Payment.   \na.\tContractor will submit invoices to Mercy Corps in accordance with the invoicing schedule and invoicing delivery terms"
+    },
+    {
+      "prompt_id": "25d08f2448284af9acd628a387585618",
+      "category": "reasoning_math",
+      "prompt_text": "what is the result of:\n1+2*3"
+    },
+    {
+      "prompt_id": "d3ff8705a7704f3a974caf85f2f57068",
+      "category": "summarization",
+      "prompt_text": "Summarize this story for a 12-year-old to understand: Was once a redhead hen who lived with her chicks in a farm. In late summer, she saw that the corn was ripe, ready to harvest and to become a good food and had an idea: “What if I make a delicious corn cake ?! Everyone would like! ”\n\nIt was hard work: she needed enough corn for the cake.\n\nWho could help harvest the corn cob in the foot? Who could help thresh all that corn? Who could help grind corn to make corn flour for the cake?\n\nNow in the fifth lived other animals: dog, cat and pig. She came to them.\n\n– Who can help me harvest the corn to make a delicious cake?\n\n– I did not! – Said the cat, angry. – You woke up me for this?\n\n– I did not! – Said the dog. – I like ready dish.\n\n– I did not! – Said the pig. – I do not like to mess me.\n\nSo the redhead chicken was preparing it alone: the grain harvested, threshed corn, ground flour, prepared the cake and put it in the oven.\n\nWhen the cake was ready …\n\n– But that smell! – Said the pig. – It comes from the hen house. I also want!\n\nAll were mouth water and were running.\n\n– I want to! I want to! I want to! – Said the three at the same time.\n\nThen the redhead hen said:\n\n– Who was it that helped me to harvest the corn adn flour to make the cake?\n\nAll were silent. (No one had helped.)\n\n– So who will eat the delicious corn cake is me and my chicks only. You can continue to rest.\n\nAnd so it was: the hen and her chicks seized the party and none of the lazy invited."
+    }
+  ]
+}

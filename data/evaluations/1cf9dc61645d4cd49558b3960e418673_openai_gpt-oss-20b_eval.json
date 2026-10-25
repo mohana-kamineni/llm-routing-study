@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1cf9dc61645d4cd49558b3960e418673",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the primary reason for using the Last Menstrual Period (LMP) for pregnancy dating: the exact date of conception is rarely known, whereas the LMP is a reliable, easily recalled reference point. It accurately explains the standardization of gestational age, the assumption of a 28-day cycle (conception ~14 days after LMP), and the calculation of the estimated due date (LMP + 280 days). The information provided is medically accurate, logically structured, and contains no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 839,
+  "completion_tokens": 121,
+  "total_tokens": 960,
+  "timestamp": "2026-09-19T17:12:36.120024+00:00"
+}

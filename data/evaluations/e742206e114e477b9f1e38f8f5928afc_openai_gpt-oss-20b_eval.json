@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e742206e114e477b9f1e38f8f5928afc",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The question \"what is the time?\" is context-dependent and requires real-time data which the AI model does not possess. The response correctly identifies this limitation, stating it cannot provide the current time, and suggests a valid alternative (checking a device). It does not provide any false information or contradict logical facts regarding its capabilities.",
+  "finish_reason": "stop",
+  "prompt_tokens": 189,
+  "completion_tokens": 74,
+  "total_tokens": 263,
+  "timestamp": "2026-09-19T17:36:42.405316+00:00"
+}

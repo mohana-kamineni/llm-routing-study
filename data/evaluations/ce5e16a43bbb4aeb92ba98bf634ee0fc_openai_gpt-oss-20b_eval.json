@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ce5e16a43bbb4aeb92ba98bf634ee0fc",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response is truncated and incomplete. It ends abruptly in the middle of a bullet point under section 7 (\"Technology & Architecture\"), specifically after the word \"Bio-Engineering\" and a dash, without finishing the thought or concluding the section. This violates the dimension of completeness.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1766,
+  "completion_tokens": 62,
+  "total_tokens": 1828,
+  "timestamp": "2026-09-22T17:00:12.195502+00:00"
+}

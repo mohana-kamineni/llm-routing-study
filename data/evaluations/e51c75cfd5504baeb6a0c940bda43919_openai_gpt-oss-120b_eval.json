@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e51c75cfd5504baeb6a0c940bda43919",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response successfully covers all five required key aspects:\n1.  **ADHD/Perfectionism Accommodation:** The schedule includes frequent micro-breaks, extended time slots for tasks (e.g., 75 minutes for homework), and affirmations like \"progress > perfection,\" effectively addressing the user's needs without explicitly naming the conditions.\n2.  **Structure:** The response is clearly divided into the three required sections: a greeting/affirmation section, a schedule table, and a final summary of core priorities.\n3.  **Table Format:** The table strictly adheres to the two-column constraint (Time and Task/Breakdown) and provides detailed step-by-step breakdowns for complex tasks (e.g., breaking down school blocks and homework into smaller steps), which helps prevent paralysis.\n4.  **Markdown Formatting:** The response utilizes bolding, italics, headers, and emojis to enhance readability and usability as requested.\n5.  **Target Audience:** The generated schedule is specifically tailored for a preteen, including age-appropriate activities like school, homework, chores, creative play, and a reasonable bedtime.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2116,
+  "completion_tokens": 241,
+  "total_tokens": 2357,
+  "timestamp": "2026-09-24T17:03:04.431948+00:00"
+}

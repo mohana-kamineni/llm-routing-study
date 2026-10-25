@@ -1,0 +1,20 @@
+{
+  "prompt_id": "55e370e784c54945b0b997b08fc10ca6",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about Counter Strike Global Offensive which jokes about how buggy the game can be. (Hit registration -> hitreg, terrible steam market economy and etc) Also make sure that every line Rhymes!",
+  "response_text": "In every match I feel the **hitreg** bug,  \nThe bullets fly, yet I miss the **suck**—a **bug**.  \nThe market’s worth a joke, a **suck**—a **bug**,  \nPrices drop like my morale, oh what a **bug**.  \n\nThe server lags, the frames all **suck**—a **bug**,  \nI aim for the head, but the hitreg **suck**—a **bug**.  \nThe economy’s broken, the trade **suck**—a **bug**,  \nSteam’s wallet shrinks while I still **suck**—a **bug**.  \n\nThe grenade’s timing is a **suck**—a **bug**,  \nThe recoil’s wild, my aim goes **suck**—a **bug**.  \nI laugh at the glitches, the **suck**—a **bug**,  \nCS:GO’s charm is that it’s always a **bug**.",
+  "finish_reason": "stop",
+  "prompt_tokens": 112,
+  "completion_tokens": 430,
+  "total_tokens": 542,
+  "latency_ms": 686,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:00:54.753856+00:00"
+}

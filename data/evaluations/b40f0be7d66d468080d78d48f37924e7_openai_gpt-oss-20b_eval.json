@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b40f0be7d66d468080d78d48f37924e7",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response is truncated and incomplete. The story ends abruptly mid-sentence with the phrase \"And so, Jeff,\" failing to provide a proper conclusion or ending to the narrative. While the content is relevant and coherent up to that point, the truncation constitutes a failure in the \"Completeness\" dimension.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1940,
+  "completion_tokens": 68,
+  "total_tokens": 2008,
+  "timestamp": "2026-09-22T17:18:24.220058+00:00"
+}

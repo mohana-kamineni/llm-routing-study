@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ca2fd0d95f884ddf92913543749e992a",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response is a role-play dialogue line, not a summary of the source text. It fails to cover the majority of the required key aspects, including Tommie's age, job status, specific physical states (hunger, tiredness), emotional states (anxiety, nostalgia), the specific date/time context, and the memory of his dog, Bruno. It only partially addresses the interest in design.",
+  "finish_reason": "stop",
+  "prompt_tokens": 561,
+  "completion_tokens": 87,
+  "total_tokens": 648,
+  "timestamp": "2026-09-19T17:15:20.318264+00:00"
+}

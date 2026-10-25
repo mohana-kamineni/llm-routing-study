@@ -1,0 +1,20 @@
+{
+  "prompt_id": "49a55ab247674a998de8080ef42e011f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "You are provided the below articles in JSON format.  Please summarize the question asked of you using one or more articles, responding in a JSON object with an answer field and a sources array if you used more than one article to compile your sources.  Please use the \"date\" field to appropriately determine, if relevant, whether the question is asking for the newest or oldest answer.  Also use the \"date\" field in your answer if appropriate.  THe sources array should only contain the ids of the articles you found relevant.\n\n[{\"id\": \"49705448431\", \"date\": \"January 09, 2023\", \"text\": \"Vince Viverito, Jason Punzel and Brad Goodsell of Senior Living Investment Brokerage sold a stand-alone memory care community in Clinton, Utah (Ogden\\u2013Clearfield area). Built in 2016, the community has 66 beds in 45 units. A national owner/operator seeking to sell non-core assets was the seller. The buyer was a family office located in the [...] \\nThe post appeared first on The SeniorCare Investor .\"}, {\"id\": \"49849036645\", \"date\": \"January 26, 2023\", \"text\": \"1031 Crowdfunding announced the acquisition of its first seniors housing communities in the state of Utah. The two assets combine for a total of 178 units of assisted living and memory care. Built in 2011 and 2016 respectively by the same developer, Spring Gardens St. George and Spring Gardens Lindon total 156,473 square feet [...] \\nThe post appeared first on The SeniorCare Investor .\"}, {\"id\": \"49849036656\", \"date\": \"January 26, 2023\", \"text\": \"Stellar Senior Living announ",
+  "response_text": "{\"answer\":\"No question was asked.\",\"sources\":[]}",
+  "finish_reason": "stop",
+  "prompt_tokens": 435,
+  "completion_tokens": 411,
+  "total_tokens": 846,
+  "latency_ms": 642,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:43:57.214090+00:00"
+}

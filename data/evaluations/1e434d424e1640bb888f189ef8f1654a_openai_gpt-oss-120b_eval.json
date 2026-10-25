@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1e434d424e1640bb888f189ef8f1654a",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the square root of 42 as approximately 6.480740698. This value is mathematically accurate (since $6.480740698^2 \\approx 42$), and the response contains no false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 194,
+  "completion_tokens": 71,
+  "total_tokens": 265,
+  "timestamp": "2026-09-23T07:39:51.980541+00:00"
+}

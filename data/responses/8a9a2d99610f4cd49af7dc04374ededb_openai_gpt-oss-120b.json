@@ -1,0 +1,20 @@
+{
+  "prompt_id": "8a9a2d99610f4cd49af7dc04374ededb",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is Don Lemon",
+  "response_text": "Don Lemon is an American journalist, television news anchor, and author. He is best known for his long tenure at CNN, where he served as a prime‑time anchor and host of the nightly program **“Don Lemon Tonight”** (later renamed **“CNN Tonight”**) from 2014 until his departure in 2023.  \n\n### Quick Facts\n| Item | Details |\n|------|---------|\n| **Full Name** | Donald Trent Lemon |\n| **Born** | March 1, 1966, in Baton Rouge, Louisiana, USA |\n| **Education** | B.A. in Journalism, Southern University (1988) |\n| **Career Highlights** | • Reporter and anchor at local stations (e.g., WNYW in New York, WTVF in Nashville)  <br>• Joined CNN in 2006 as a correspondent; later became a prime‑time anchor  <br>• Hosted “Don Lemon Tonight” (2014‑2022) and “CNN Tonight” (2022‑2023)  <br>• Won multiple Emmy Awards and a Peabody Award for his reporting |\n| **Books** | *“Transparent”* (2011) – a memoir about his life and career; *“The Big Lie”* (2023) – a political commentary book |\n| **Personal** | Openly gay; married to Tim Malone (married in 2019). He is an advocate for LGBTQ+ rights and has spoken publicly about his experiences with racism and homophobia. |\n| **Post‑CNN** | After leaving CNN in April 2023, Lemon signed a multi‑year deal with **TalkTV**, a new U.S. news channel owned by former Fox News executive **Gale Kaufman**, where he hosts a weekly interview program. He also appears as a commentator on various cable and streaming platforms and continues to write op‑eds and produce documentaries. |\n\n### Why He’s Prominent\n- **Breaking News Coverage:** Lemon reported on major events such as Hurricane Katrina, the 2010 Haiti earthquake, the 2015 Charleston church shooting, and the 2020 Black Lives Matter protests.\n- **Cultural Impact:** As one of the few Black, openly gay anchors in prime‑time cable news, he has been a visible figure for representation in media.\n- **Controversies & Criticism:** Over the years, Lemon has faced criticism from both the political left and right—some accuse him of partisan commentary, while others have taken issue with his on‑air demeanor or statements. He has publicly addressed many of these critiques, emphasizing his commitment to “telling the truth as I see it.”\n\nIn short, Don Lemon is a high‑profile journalist and media personality known for his work at CNN, his advocacy for LGBTQ+ and racial justice issues, and his continued presence in the American news landscape after his departure from CNN.",
+  "finish_reason": "stop",
+  "prompt_tokens": 75,
+  "completion_tokens": 651,
+  "total_tokens": 726,
+  "latency_ms": 1691,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:23:25.217767+00:00"
+}

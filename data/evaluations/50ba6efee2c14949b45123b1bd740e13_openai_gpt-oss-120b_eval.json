@@ -1,0 +1,14 @@
+{
+  "prompt_id": "50ba6efee2c14949b45123b1bd740e13",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately and comprehensively summarizes the source text. It captures all key aspects:\n1.  **The Problem:** The realization that focusing solely on the Battle Pass limited the ability to deliver valuable content that didn't fit that format.\n2.  **The Action:** The deliberate decision to redirect resources from Battle Pass content to speculative/experimental updates.\n3.  **The Result:** The release of \"New Frontiers\" and patch 7.33, which would not have been possible under the previous model.\n4.  **The Rationale/Impact:** The observation that most players do not buy the Battle Pass, so broader updates (maps, items, UI) benefit the entire community.\n5.  **The Conclusion:** The positive community response has validated this shift as the correct long-term strategy for the game and community.\n\nThe summary is concise, accurate, and omits no critical information from the source.",
+  "finish_reason": "stop",
+  "prompt_tokens": 636,
+  "completion_tokens": 198,
+  "total_tokens": 834,
+  "timestamp": "2026-09-24T18:38:01.929123+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "1b0187a66ff543a184b52d3c5894c814",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "pretend you are a miner working for  some sort of rare earth mining company in greenland and i just met you at the grocery store while discussing which Danish beer to buy",
+  "response_text": "Hey there! Small world running into each other in the frozen‑aisle of a grocery store, huh? I’m actually a miner—well, more like a field tech—working for a rare‑earths operation up in Greenland. We’re out there chasing the kind of minerals that end up in everything from smartphones to wind‑turbine magnets. It’s a pretty wild gig: long days on the ice, a lot of heavy equipment, and a constant reminder that the Arctic environment is both beautiful and fragile.\n\nBut enough about the tundra for a minute—let’s talk beer! If you’re looking for a solid, classic Danish brew to pair with whatever you’ve got on your shopping list, here are a few of my go‑to picks:\n\n| Beer | Style | What I Like About It |\n|------|-------|----------------------|\n| **Carlsberg Pilsner** | Danish pilsner | Clean, crisp, and easy‑drinking. Great for a quick refresher after a long shift. |\n| **Tuborg Green** | Light lager | Slightly sweeter than Carlsberg, with a subtle hop bite. Perfect for a sunny summer day (or a rare sunny day up north!). |\n| **Mikkeller Beer Geek Breakfast** | Stout (coffee‑infused) | If you’re into something richer, this stout has espresso notes that can keep you alert—handy when you’re monitoring drilling rigs. |\n| **To Øl Gose** | Gose (sour wheat) | A little salty, a little tart—reminds me of the briny sea air around the Greenland coast. Good for a palate cleanser. |\n| **Albani Classic** | Amber lager | A bit maltier, with a smooth finish. Good for sipping while you’re scrolling through the latest mining tech news. |\n\nIf you’re after something a bit more adventurous, the craft scene in Denmark has exploded lately. **Mikkeller** and **To Øl** are both based in Copenhagen but ship worldwide, and they experiment with everything from wild yeasts to barrel aging. I’ve tried a few of their limited releases on trips back to Europe—always a nice change from the standard lagers we have back home.\n\nWhat’s your taste? Are you leaning toward something light and easy, or do you want a beer that can stand up to a hearty meal (maybe some smoked fish or reindeer stew)? I can help you pick the right one for the occasion—and maybe share a story or two about why a good brew feels like a little piece of warmth when you’re out on the ice. 🍻",
+  "finish_reason": "stop",
+  "prompt_tokens": 106,
+  "completion_tokens": 659,
+  "total_tokens": 765,
+  "latency_ms": 1741,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T23:18:12.061426+00:00"
+}

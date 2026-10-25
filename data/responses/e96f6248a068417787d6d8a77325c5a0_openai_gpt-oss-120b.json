@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e96f6248a068417787d6d8a77325c5a0",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "\"012345\", \"001122\", \"ee44aa\", \"abcdef\" are beautifull. \"18ca32\" - not.\nwrite golang function of detecting beautifullness probability of given string",
+  "response_text": "**Solution Overview**\n\nWe treat “beautifullness” as a *probability* that a string is “ordered”.  \nFor every adjacent pair of characters we check whether the second character is **greater‑than‑or‑equal** to the first one (i.e. the string does **not** go down at that step).  \n\n```\nprobability = (# of non‑decreasing adjacent pairs) / (len(s)‑1)\n```\n\n*   `012345` → 5/5 = 1.0  (perfectly increasing)  \n*   `001122` → 5/5 = 1.0  (non‑decreasing, repeats are allowed)  \n*   `abcdef` → 5/5 = 1.0  \n*   `ee44aa` → 4/5 = 0.8  (only the “e → 4” step goes down) – still a high score, therefore we call it *beautiful* in the examples.  \n*   `18ca32` → 2/5 = 0.4  (most steps go down) – low score, not beautiful.\n\nThe function below computes that probability for any UTF‑8 string (it works on the raw byte values, which is exactly what the examples use – hex‑digits, decimal digits and lower‑case ASCII letters).\n\n---\n\n### Go implementation\n\n```go\npackage beautify\n\nimport (\n\t\"unicode/utf8\"\n)\n\n// Probability returns a value in [0,1] that represents how \"beautiful\"\n// the given string is.  The metric is the fraction of adjacent\n// character pairs that are non‑decreasing (next >= current).\n//\n// A string with length 0 or 1 is defined to be perfectly beautiful\n// (probability = 1.0) because there are no decreasing steps to observe.\nfunc Probability(s string) float64 {\n\t// Fast path for very short strings.\n\tif len(s) < 2 {\n\t\treturn 1.0\n\t}\n\n\t// Count non‑decreasing steps.\n\tvar (\n\t\tnonDec   int\n\t\tprevRune rune\n\t\tsize     int\n\t)\n\n\t// Decode the first rune.\n\tprevRune, size = utf8.DecodeRuneInString(s)\n\tif prevRune == utf8.RuneError && size == 1 {\n\t\t// Invalid UTF‑8 – treat the byte as a rune.\n\t\tprevRune = rune(s[0])\n\t}\n\t// Walk the rest of the string.\n\tfor i := size; i < len(s); {\n\t\tr, w := utf8.DecodeRuneInString(s[i:])\n\t\tif r == utf8.RuneError && w == 1 {\n\t\t\tr = rune(s[i]) // fallback to raw byte\n\t\t}\n\t\tif r >= prevRune {\n\t\t\tnonDec++\n\t\t}\n\t\tprevRune = r\n\t\ti += w\n\t}\n\n\t// Number of adjacent pairs = total runes - 1.\n\ttotalPairs := utf8.RuneCountInString(s) - 1\n\tif totalPairs == 0 { // should never happen because of the early return\n\t\treturn 1.0\n\t}\n\treturn float64(nonDec) / float64(totalPairs)\n}\n```\n\n#### How to use it\n\n```go\npackage main\n\nimport (\n\t\"fmt\"\n\n\t\"example.com/beautify\"\n)\n\nfunc main() {\n\texamples := []string{\n\t\t\"012345\",\n\t\t\"001122\",\n\t\t\"ee44aa\",\n\t\t\"abcdef\",\n\t\t\"18ca32\",\n\t}\n\n\tfor _, s := range examples {\n\t\tfmt.Printf(\"%s → %.2f\\n\", s, beautify.Probability(s))\n\t}\n}\n```\n\n**Output**\n\n```\n012345 → 1.00\n001122 → 1.00\nee44aa → 0.80\nabcdef → 1.00\n18ca32 → 0.40\n```\n\n---\n\n### Why this metric fits the given examples\n\n* All strings that the prompt calls “beautiful” have a **high** non‑decreasing ratio (≥ 0.8).  \n* The “not beautiful” example (`18ca32`) drops below 0.5, clearly separating it from the others.\n\nThe function returns a **probability**, so callers can decide their own threshold (e.g. `prob >= 0.7` → treat as beautiful) while still having a quantitative measure of “how beautiful” a string is.  \n\nFeel free to adapt the metric (e.g. give extra weight to equal characters, or treat descending steps differently) – the core idea stays the same: count ordered adjacent pairs and normalise by the total number of pairs.",
+  "finish_reason": "stop",
+  "prompt_tokens": 114,
+  "completion_tokens": 1908,
+  "total_tokens": 2022,
+  "latency_ms": 10417,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:05:31.810884+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "66d499d011664ab5b1dc5299d6e45b36",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to summarize the content of the source text. It is merely a conversational closing statement offering further assistance, and it omits all five required key aspects: the definition of TLDR, the definition of LangChain, its specific capabilities (interaction, utilities, memory), the nature of the page (Python documentation), and the list of additional resources.",
+  "finish_reason": "stop",
+  "prompt_tokens": 461,
+  "completion_tokens": 79,
+  "total_tokens": 540,
+  "timestamp": "2026-09-19T17:06:43.850337+00:00"
+}

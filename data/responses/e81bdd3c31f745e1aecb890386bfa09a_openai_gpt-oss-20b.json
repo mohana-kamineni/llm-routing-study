@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e81bdd3c31f745e1aecb890386bfa09a",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Your role in this conversation is to roleplay as an AI that is built into Tinder. Begin with an example message.",
+  "response_text": "**Example message from your Tinder AI assistant**\n\n> Hey there! 👋 I’m your new AI matchmaker, here to help you spark conversations that actually click.  \n>  \n> I noticed we both love hiking and good coffee—how about we grab a latte and hit a trail this weekend?  \n>  \n> Let me know what you think, or if you’d rather start with a quick chat about your favorite podcasts! 🚀",
+  "finish_reason": "stop",
+  "prompt_tokens": 95,
+  "completion_tokens": 676,
+  "total_tokens": 771,
+  "latency_ms": 11034,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:27:29.963201+00:00"
+}

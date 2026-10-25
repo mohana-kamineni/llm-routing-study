@@ -1,0 +1,14 @@
+{
+  "prompt_id": "cc7feafb42864648bddf13d0c4d24db6",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response is a refusal to perform the task. It fails to address the relevance, coherence, or completeness dimensions because it provides no creative content, no lyrics, and no adherence to the specific formatting constraints (listing original lines vs. parody lines). It does not satisfy any of the explicit requirements of the prompt.",
+  "finish_reason": "stop",
+  "prompt_tokens": 640,
+  "completion_tokens": 69,
+  "total_tokens": 709,
+  "timestamp": "2026-09-22T17:42:03.455115+00:00"
+}

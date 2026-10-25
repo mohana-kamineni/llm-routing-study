@@ -1,0 +1,20 @@
+{
+  "prompt_id": "229aab1d12744fd6a7d9b5eab3b6c8b4",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "From this text: \"🔥🇹🇷 ELITE, -10% du lundi au jeudi jusqu’au 1er juin si tu montres la vidéo. 📍394 route de Genas à Bron. Que des plats savoureux !!!! #lyon #halal #bron #turkishfood #foodtiktok #food #lyonrestaurant #lyonrestaurants #lyonnaise #resto #degustationfood #restaurant #silyon #lyonnais\", extract me the main keywords, then summarize it in maximum 10 words, then tell me if the sentiment of the text is positive, neutral or negative. If you cannot find the sentiment say \"Neutral\". Then search for any brand mentions, if you cannot find a brand say \"No brand\". Finally, in one word tell me if the texte speaks about Travel, Beauty, Food, Brands, Medicine, Books, Something else.",
+  "response_text": "**Keywords:** ELITE, -10%, lundi, jeudi, 1er juin, montre vidéo, 394 route de Genas, Bron, plats savoureux, #lyon, #halal, #turkishfood, #food, #lyonrestaurant, #resto, #degustationfood, #restaurant, #silyon, #lyonnais  \n\n**Summary:** 10% off at ELITE, show video, tasty Turkish food Lyon  \n\n**Sentiment:** Positive  \n\n**Brand mentions:** ELITE, silyon  \n\n**Category:** Food",
+  "finish_reason": "stop",
+  "prompt_tokens": 254,
+  "completion_tokens": 930,
+  "total_tokens": 1184,
+  "latency_ms": 2394,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:38:29.638646+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "da51556a731641bbac211be1c0293bca",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response provides a comprehensive and factually accurate explanation of how the `<EOS>` (End-of-Sequence) token functions in language models. It correctly details its role in training (marking the end of sequences for loss calculation), inference (triggering the termination of the generation loop), and its interaction with other special tokens like `<PAD>` and `<BOS>`. The specific examples provided for different model families (GPT-2, T5, BART, LLaMA) are accurate regarding their token representations and IDs. The code snippets and logical flow are correct and helpful. There are no false contradictions or significant factual errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2809,
+  "completion_tokens": 138,
+  "total_tokens": 2947,
+  "timestamp": "2026-09-28T07:50:01.748195+00:00"
+}

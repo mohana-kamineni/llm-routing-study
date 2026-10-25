@@ -1,0 +1,14 @@
+{
+  "prompt_id": "02fc0f1088664e20938240a045f9f0cf",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately and comprehensively covers all four required key aspects.\n1. It correctly states that the immune system constantly eliminates developing cancer cells before they become noticeable (Aspect 1).\n2. It defines cancer as the uncontrolled proliferation of corrupted cells arising from any cell type, leading to a wide variety of cancers (Aspect 2).\n3. It explains that cancer cells abandon the collective well-being to prioritize their own survival (Aspect 3).\n4. It frames this as a conflict between ancient competitive evolutionary drives and newer cooperative structures (Aspect 4).\n\nThe summary is factually accurate relative to the provided transcript and omits no critical information from the specified key aspects.",
+  "finish_reason": "stop",
+  "prompt_tokens": 817,
+  "completion_tokens": 146,
+  "total_tokens": 963,
+  "timestamp": "2026-09-22T16:52:55.624923+00:00"
+}

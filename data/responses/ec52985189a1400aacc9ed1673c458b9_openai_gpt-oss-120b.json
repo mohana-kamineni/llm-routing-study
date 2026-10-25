@@ -1,0 +1,20 @@
+{
+  "prompt_id": "ec52985189a1400aacc9ed1673c458b9",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem arguing that apples are better than oranges. Be sure to include a pun about comparing apples to apples",
+  "response_text": "**An Ode to the Apple, Over the Orange**\n\nIn the orchard’s quiet hush, where sunlight drips,  \nA ruby globe hangs low, the apple’s gentle grip.  \nIts skin is smooth as whispered rhyme, its flesh a crisp‑sweet sigh,  \nWhile orange suns, though bright, just bleed their bitter‑tangy cry.\n\n*Why choose the orange, when the apple’s core*  \n*holds truth in every bite?*  \n*It’s not an “apple‑to‑apple” test—*  \n*it’s a “core‑to‑core” contest, you see, my dear!*\n\nThe apple rolls from hand to hand, a perfect, portable sphere,  \nNo peeling‑pain, no sticky mess, just bite and disappear.  \nIts scent—subtle, autumnal—calls forth the harvest hymn,  \nWhile citrus bursts like fireworks, then fades on a fleeting whim.\n\nWhen health is weighed on scales of lore, the apple takes the lead:  \nFiber, pectin, vitamins—its virtues inter‑seed.  \nThe orange, though it boasts a zest, can bruise the tender tooth,  \nAnd its acid‑kiss can scorch the throat, a fleeting, sour truth.\n\nIn pies and sauces, sauces, crumbles, the apple reigns supreme,  \nA caramel‑kissed, warm‑spiced dream that dances in a dream.  \nThe orange, stuck in marmalade, can’t match that buttery glow—  \nIt’s stuck in a jam of pulp, while apples freely flow.\n\nSo let the market stall proclaim, “Both fruit are fine!”  \nBut when the palate asks for depth, the apple draws the line.  \nFor in the garden of debate, the verdict’s crisp and clear—  \nWhen you compare apples to apples, you’ll see why they’re dear.\n\n**Thus, bite the ruby, taste the truth, let orange take a rest;**  \n**The apple’s crown is earned, for it’s simply the best.**",
+  "finish_reason": "stop",
+  "prompt_tokens": 93,
+  "completion_tokens": 502,
+  "total_tokens": 595,
+  "latency_ms": 1303,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:37:58.113819+00:00"
+}

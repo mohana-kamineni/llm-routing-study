@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c15a5a8fb9d249a1995d4be443d27856",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the method for grouping by a field inside a JSON column in SQLite: using `json_extract` (or the `->>` operator in newer versions) to extract the value and then applying `GROUP BY`. The provided SQL syntax is correct, the example data is consistent with the problem description, and the additional advice regarding generated columns and indexing is technically sound and helpful. There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2730,
+  "completion_tokens": 94,
+  "total_tokens": 2824,
+  "timestamp": "2026-09-28T07:41:45.221078+00:00"
+}

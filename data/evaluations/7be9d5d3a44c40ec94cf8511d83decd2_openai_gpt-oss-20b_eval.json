@@ -1,0 +1,14 @@
+{
+  "prompt_id": "7be9d5d3a44c40ec94cf8511d83decd2",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly solves the linear equation $2x - 3 = -7$. It accurately adds 3 to both sides to obtain $2x = -4$, then divides by 2 to find $x = -2$. The final answer is correct, and the reasoning steps are mathematically sound with no errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 334,
+  "completion_tokens": 73,
+  "total_tokens": 407,
+  "timestamp": "2026-09-19T17:38:31.770903+00:00"
+}

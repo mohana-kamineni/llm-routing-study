@@ -1,0 +1,14 @@
+{
+  "prompt_id": "84f14d38f68745d1bf089fb5d8bdfb49",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately covers all four required key aspects:\n1. It correctly describes ALiBi as a method that biases query-key attention scores with a distance-proportional penalty instead of using explicit positional embeddings.\n2. It states that the 1.3 billion parameter model trained on length 1024 sequences extrapolates to length 2048.\n3. It notes that the model matches the perplexity of a sinusoidal embedding model trained on length 2048 inputs while being 11% faster and using 11% less memory.\n4. It mentions that ALiBi's bias towards recency leads to outperforming strong position methods on the WikiText-103 benchmark.\n\nThe summary is factually accurate and omits no critical information from the source text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 783,
+  "completion_tokens": 175,
+  "total_tokens": 958,
+  "timestamp": "2026-09-23T12:18:14.020571+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "f4c2ea916d4943b58a06178d87c29a68",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe summary fails to cover Key Aspect 2, which states that Carlson left Fox News on Monday without providing an explanation. The response mentions he \"abruptly left\" but omits the specific detail that he provided no explanation for his exit, which is a distinct factual element in the source text. Additionally, while it mentions \"xenophobic commentary,\" it omits the specific mention of \"racist rhetoric\" and the detail that he was one of the network's \"biggest stars\" (though \"top host\" is a reasonable paraphrase, the omission of the \"no explanation\" detail is the primary failure).",
+  "finish_reason": "stop",
+  "prompt_tokens": 461,
+  "completion_tokens": 131,
+  "total_tokens": 592,
+  "timestamp": "2026-09-22T23:00:50.340792+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "87d7eb3f1cd94262b93218a8b4412537",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to adequately summarize the source text because it omits critical thematic elements required by the evaluation criteria. Specifically:\n1.  **Omission of Defeat/Collapse (Aspect 3):** The summary does not mention the lyrics' acknowledgment of weakness, the feeling of being \"overrun,\" or the belief that \"everything will crumble\" under the lion's blows. It focuses on the tension between conformity and rebellion but misses the specific emotional weight of impending defeat described in the source.\n2.  **Inaccurate Interpretation of the Conclusion (Aspect 5):** The summary states that the lyrics warn those who cling to the herd will be dispersed, but it fails to capture the structural emphasis of the song's conclusion. The source text ends by repeating the imperative to \"kneel and wait\" and \"join the herd,\" emphasizing the dominance or cyclical nature of the call for passivity. The summary treats the two sides (herd vs. lion/rebel) as a balanced tension rather than noting that the call for submission is the recurring, concluding refrain.\n3.  **Vague Handling of Resistance (Aspect 4):** While the summary mentions \"bow to none\" and \"cause a stir,\" it generalizes the specific imagery of \"thieves\" and \"riding\" into a generic \"catalyst for change,\" missing the specific adversarial framing present in the lyrics.\n\nBecause the summary misses the theme of inevitable collapse/defeat and mischaracterizes the structural emphasis of the concluding refrain, it does not cover all required key aspects.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1111,
+  "completion_tokens": 326,
+  "total_tokens": 1437,
+  "timestamp": "2026-09-19T17:23:03.895995+00:00"
+}

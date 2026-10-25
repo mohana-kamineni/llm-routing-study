@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8b2905c7718d4de3bb7e8a10a44213f6",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately and comprehensively covers all five required key aspects:\n1. It correctly explains that rising interest rates increase liquidity risk because the deposit franchise dominates bank value, creating run incentives for uninsured depositors.\n2. It details the optimal risk management policy of treating the \"deposit beta\" as higher than it is, leading to shortened asset duration.\n3. It clearly articulates the dilemma where shortening duration exposes the bank to insolvency if rates fall, preventing simultaneous hedging of interest rate and liquidity risks.\n4. It notes that low-beta uninsured accounts pose stability risks that are amplified by other exposures like credit risk and increase with interest rates.\n5. It identifies the proposed solution as an optimal capital requirement that rises with interest rates.\n\nThe summary is factually accurate, well-structured, and omits no critical information from the source text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1244,
+  "completion_tokens": 182,
+  "total_tokens": 1426,
+  "timestamp": "2026-09-24T19:27:40.977654+00:00"
+}

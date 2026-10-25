@@ -1,0 +1,21 @@
+{
+  "prompt_id": "4b8fb1e9e3b84857b70a7c0b9bc2b759",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "provider": "groq",
+  "model_returned": "openai/gpt-oss-120b",
+  "raw_response": "The capital of India is **New Delhi**.",
+  "response_text": "The capital of India is **New Delhi**.",
+  "reasoning_text": "The user asks a simple factual question: \"What is the capital of India?\" The answer is New Delhi. Provide answer.",
+  "input_tokens": 78,
+  "output_tokens": 46,
+  "total_tokens": 124,
+  "reasoning_tokens": 26,
+  "latency_seconds": 0.427,
+  "timestamp": "2026-09-13T16:54:20.132597+00:00",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "retries": 0,
+  "error": null,
+  "prompt_text": "What is the capital of India?"
+}

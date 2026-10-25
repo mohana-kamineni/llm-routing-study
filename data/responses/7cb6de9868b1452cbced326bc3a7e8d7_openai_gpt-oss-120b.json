@@ -1,0 +1,20 @@
+{
+  "prompt_id": "7cb6de9868b1452cbced326bc3a7e8d7",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the -er form of the word 'variable'?",
+  "response_text": "The adjective **variable** does not take a regular “‑er” ending to form its comparative.  \nInstead, English uses **more** with adjectives that are three syllables or longer (or that end in ‑able, ‑ible, etc.).  \n\nSo the comparative form is:\n\n**more variable**\n\n(There is no standard “variabler” in modern English.)",
+  "finish_reason": "stop",
+  "prompt_tokens": 83,
+  "completion_tokens": 177,
+  "total_tokens": 260,
+  "latency_ms": 868,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:33:24.452408+00:00"
+}

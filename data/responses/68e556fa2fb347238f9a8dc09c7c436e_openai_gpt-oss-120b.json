@@ -1,0 +1,20 @@
+{
+  "prompt_id": "68e556fa2fb347238f9a8dc09c7c436e",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "summarize this in brief \"Techline/LB: Pre-screened unsuccessful, no answer {{ORGANIZATION}} (NAM JUST  RINGS)  sent email (N) sent SMS Messages (N) set followup for next business day\n Techline/(JM): Pre-screen unsuccessful, no answer LMOM (N, RANG FOR 1:30) sent email (Y) sent SMS Messages (N) set follow up for next business day.\n Thechline (IL) {{NAME}} called in, dishwasher not draining, made sure nothing stuck in pump, pump is running, drain hose seems to be clear, drained into bucket not draining, Gave part numbers a00126401 drain pump, 807117001 drain hose.\n 1.20.22// OEM CM Shemarro// AOM TOOL/{{SJ_NUMBER}}// Major Appliance - SS Task - Backlog//COD/Bonnye Best/ Accepted/Frigidaire Dishwasher/ appointment 1.20.22//checking chat for update - parts ordered // 1.14.22 807117001 (25) HOSE,DRAIN Delivered 1.18.22 | 1.14.22 A00126401 DISHWASHER DRAIN PUMP Delivered 1.18.22 / shipped to the FSL //called cm to confirm scheduled appointment no answer kept ringing  nfan set follow up for 1.24.22\n Replaced drain pump and hose. Ran system to ensure it drains. Running properly LE\n {{NAME}} customer calling in to check status \\r\\nverified name, confirmed address & email\\r\\nsent follow-up to {{NAME}}\"",
+  "response_text": "**Brief Summary**\n\n- **Techline Calls**\n  - LB & JM: Pre‑screen unsuccessful, no answer.  \n    - LB: No email or SMS sent; follow‑up scheduled for next business day.  \n    - JM: Email sent; no SMS; follow‑up scheduled for next business day.\n\n- **Dishwasher Issue (IL)**\n  - Customer reported dishwasher not draining.  \n  - Checked pump (running) and drain hose (clear); drained water into bucket.  \n  - Provided part numbers:  \n    - Drain pump – **A00126401**  \n    - Drain hose – **807117001**\n\n- **Parts & Service Timeline**\n  - 1/14/22: Parts ordered (pump & hose).  \n  - 1/18/22: Parts delivered to FSL.  \n  - 1/20/22: Appointment scheduled (no answer, follow‑up set for 1/24/22).  \n  - Service performed: Replaced drain pump and hose, ran cycle – dishwasher now drains correctly.\n\n- **Customer Follow‑up**\n  - Customer called to check status.  \n  - Identity, address, and email verified.  \n  - Follow‑up email sent confirming resolution.",
+  "finish_reason": "stop",
+  "prompt_tokens": 413,
+  "completion_tokens": 344,
+  "total_tokens": 757,
+  "latency_ms": 1077,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:11:43.649351+00:00"
+}

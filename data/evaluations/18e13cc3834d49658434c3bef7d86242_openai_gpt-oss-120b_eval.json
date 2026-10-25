@@ -1,0 +1,14 @@
+{
+  "prompt_id": "18e13cc3834d49658434c3bef7d86242",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to cover several critical aspects required by the evaluation criteria. Specifically, it omits:\n1. The specific total outstanding amount due ($9,865.68) and the location (Los Angeles, CA).\n2. The specific glossary terms defined in the document (e.g., \"Guarantor name,\" \"Visit number\").\n3. The crucial information regarding the patient's application for Medi-Cal or County Medical Services (CMS) and the instructions to notify Sharp HealthCare upon receiving proof of eligibility.\n4. Specific payment details such as the mailing address (P.O. Box 939040, San Diego, CA) and the instruction to include credit card information if paying by mail.\n5. The clarification that the statement represents hospital charges only.\n\nWhile the response correctly identifies the document as a medical billing statement from Sharp Coronado Hospital and mentions general payment options, it lacks the specific factual details required by the key aspects.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1034,
+  "completion_tokens": 207,
+  "total_tokens": 1241,
+  "timestamp": "2026-09-28T07:50:43.529527+00:00"
+}

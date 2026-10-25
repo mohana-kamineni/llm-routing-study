@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e1a49ae2826f4d17a754ccee398c8931",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a song about expressing yourself and being proud of your weirdness.",
+  "response_text": "**Title: “Weird Is My Superpower”**\n\n*(Verse 1)*  \nI’ve got a pocket full of mismatched socks,  \nA playlist that’s a mash‑up of all the knocks.  \nI paint my dreams in neon, paint them bright,  \nAnd I’ll keep on dancing in the middle of the night.  \n\n*(Pre‑Chorus)*  \nWhen the world says “fit in,” I’ll just laugh,  \nI’ll spin my own story, let the colors clash.  \nEvery quirk is a spark that lights the dark,  \nI’m the spark that turns the ordinary into art.  \n\n*(Chorus)*  \nWeird is my superpower, I’ll shout it loud and proud,  \nI’ll wear my oddities like a crown, I’ll never be a crowd.  \nI’ll sing my truth in every line, let the rhythm be my guide,  \nBecause the world needs a little more of the weird inside.  \n\n*(Verse 2)*  \nI’ve got a secret garden in my mind’s backyard,  \nWhere the moon is made of cheese and the stars are scarred.  \nI’ll write my own alphabet, letters that don’t rhyme,  \nAnd I’ll keep on humming until the day is mine.  \n\n*(Pre‑Chorus)*  \nWhen the world says “normal,” I’ll just grin,  \nI’ll paint my own horizon, let the colors spin.  \nEvery oddity is a note that sings the truth,  \nI’m the melody that breaks the old, worn‑out groove.  \n\n*(Chorus)*  \nWeird is my superpower, I’ll shout it loud and proud,  \nI’ll wear my oddities like a crown, I’ll never be a crowd.  \nI’ll sing my truth in every line, let the rhythm be my guide,  \nBecause the world needs a little more of the weird inside.  \n\n*(Bridge)*  \nSo let’s raise a toast to the ones who’re off‑beat,  \nTo the dreamers who refuse to stay on repeat.  \nWe’ll build a bridge of laughter, a wall of song,  \nAnd we’ll keep on marching where we belong.  \n\n*(Breakdown – Spoken Word)*  \n“Your weirdness is a compass, pointing to the stars.  \nIt’s the secret sauce that makes you who you are.  \nSo keep your quirks, keep your scars, keep your wild heart.  \nThe world will dance to the beat of your art.”  \n\n*(Chorus – with extra harmony)*  \nWeird is my superpower, I’ll shout it loud and proud,  \nI’ll wear my oddities like a crown, I’ll never be a crowd.  \nI’ll sing my truth in every line, let the rhythm be my guide,  \nBecause the world needs a little more of the weird inside.  \n\n*(Outro)*  \nSo let the world keep asking, “What’s your secret?”  \nI’ll answer with a grin, “It’s my weirdness, it’s my spirit.”  \nAnd I’ll keep on shining, keep on being me,  \nBecause the only thing that matters is how I set myself free.  \n\n---  \n\nFeel free to tweak the arrangement, add a guitar riff, or drop a funky beat—just keep that weirdness alive!",
+  "finish_reason": "stop",
+  "prompt_tokens": 85,
+  "completion_tokens": 760,
+  "total_tokens": 845,
+  "latency_ms": 933,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:50:33.539315+00:00"
+}

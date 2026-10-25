@@ -1,0 +1,20 @@
+{
+  "prompt_id": "00a5c289a96c4f9ab408b0ee3e5bcff9",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is Russell M. Nelson?",
+  "response_text": "Russell M. Nelson is the current president of **The Church of Jesus Christ of Latter‑day Saints (LDS Church)**, the world’s fourth‑largest Christian denomination.  \n\n### Quick facts  \n| Item | Details |\n|------|---------|\n| **Full name** | Russell Marion Nelson |\n| **Born** | September 9 1924, Salt Lake City, Utah, USA |\n| **Profession before church leadership** | Cardiothoracic surgeon (renowned for pioneering work in open‑heart surgery, especially heart‑valve replacements) |\n| **Education** | B.S. in physics (University of Utah, 1945); M.D. (University of Utah School of Medicine, 1947) |\n| **Church service** | • Called as a **general authority** (member of the First Quorum of the Seventy) in 1984<br>• Served as **President of the Quorum of the Twelve Apostles** (2015‑2018)<br>• Became **President of the Church** on January 14 2018, succeeding Thomas S. Monson |\n| **Key initiatives as President** | • Emphasis on “home-centered, church‑supported” gospel learning<br>• Accelerated construction of new temples worldwide (over 50 announced in his first few years)<br>• Expanded use of technology for member outreach (e.g., livestreamed General Conference, online resources)<br>• Revisions to church policies on priesthood eligibility, temple recommend standards, and other doctrinal clarifications |\n| **Publications** | • *The Power of Spiritual Momentum* (2020)<br>• *The Correct Name of the Church* (2022)<br>• Numerous talks and essays compiled in official church manuals and on the church’s website |\n| **Personal life** | Married to Dantzel “Dantzie” (née Jensen) Nelson (married 1945; she passed away in 2022). They have five children. |\n\n### Why he’s notable\n- **Medical pioneer:** Before full‑time church service, Nelson performed thousands of heart surgeries and helped develop techniques still used today.\n- **Spiritual leader:** As the 17th president of the LDS Church, he is considered a prophet, seer, and revelator by church members, guiding doctrinal, administrative, and humanitarian directions for a global membership of roughly 17 million people.\n- **Cultural impact:** His speeches and writings influence not only church members but also broader discussions on faith, family, health, and service.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 596,
+  "total_tokens": 674,
+  "latency_ms": 1340,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:23:18.553114+00:00"
+}

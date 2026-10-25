@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1d924adca0d541ec923be48b23154b0d",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides an accurate, single-paragraph summary that covers all essential factual aspects of the source text. It correctly identifies the date and nature of Brexit, the legal implications regarding EU law primacy and the Withdrawal Act, the political context leading to the referendum (UKIP, Cameron's promise), the specific date and result of the 2016 vote (51.9% Leave), the regional voting patterns, and the subsequent political timeline involving Cameron's resignation, Theresa May's leadership, and the completion of negotiations under Boris Johnson. No critical information was omitted, and no factual errors were introduced.",
+  "finish_reason": "stop",
+  "prompt_tokens": 818,
+  "completion_tokens": 130,
+  "total_tokens": 948,
+  "timestamp": "2026-09-22T17:12:45.834518+00:00"
+}

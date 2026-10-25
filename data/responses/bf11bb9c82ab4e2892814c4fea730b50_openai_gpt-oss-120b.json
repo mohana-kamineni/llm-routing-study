@@ -1,0 +1,20 @@
+{
+  "prompt_id": "bf11bb9c82ab4e2892814c4fea730b50",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Can you summarize the following text for me?\nText: \nProcessor design is a subfield of computer engineering and electronics engineering (fabrication) that deals with creating a processor, a key component of computer hardware.\n\nThe design process involves choosing an instruction set and a certain execution paradigm (e.g. VLIW or RISC) and results in a microarchitecture, which might be described in e.g. VHDL or Verilog. For microprocessor design, this description is then manufactured employing some of the various semiconductor device fabrication processes, resulting in a die which is bonded onto a chip carrier. This chip carrier is then soldered onto, or inserted into a socket on, a printed circuit board (PCB).\n\nThe mode of operation of any processor is the execution of lists of instructions. Instructions typically include those to compute or manipulate data values using registers, change or retrieve values in read/write memory, perform relational tests between data values and to control program flow.\n\nProcessor designs are often tested and validated on one or several FPGAs before sending the design of the processor to a foundry for semiconductor fabrication.[1]\nWhat would a fitting title of 3 words be?",
+  "response_text": "**Three‑Word Title:**  \n**Processor Design Overview**\n\n**Summary:**  \nProcessor design, a branch of computer and electronics engineering, involves selecting an instruction set and execution paradigm (e.g., VLIW, RISC) to create a microarchitecture described in hardware description languages like VHDL or Verilog. This design is first validated on FPGAs, then fabricated through semiconductor processes into a die that is mounted on a chip carrier and attached to a PCB. The processor executes instruction lists that manipulate registers, access memory, perform comparisons, and control program flow.",
+  "finish_reason": "stop",
+  "prompt_tokens": 305,
+  "completion_tokens": 196,
+  "total_tokens": 501,
+  "latency_ms": 760,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:16:51.331702+00:00"
+}

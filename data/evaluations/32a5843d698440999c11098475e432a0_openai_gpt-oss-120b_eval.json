@@ -1,0 +1,14 @@
+{
+  "prompt_id": "32a5843d698440999c11098475e432a0",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe summary fails to cover Key Aspect 5. The source text explicitly states, \"it is completely fine if you don't want a girlfriend,\" which is a distinct point regarding the acceptability of not desiring a relationship. The provided summary only addresses the normalization of *wanting* a girlfriend and the rejection of the \"simp\" label, omitting the speaker's validation of those who do not want a girlfriend.",
+  "finish_reason": "stop",
+  "prompt_tokens": 838,
+  "completion_tokens": 91,
+  "total_tokens": 929,
+  "timestamp": "2026-09-24T20:46:33.104008+00:00"
+}

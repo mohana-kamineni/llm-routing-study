@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d8a88e1d5f914b60b2a2605bd01c964e",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains a significant factual error in the \"Early-career (EYES) session\" section. The source text states to \"address all people as MF\" (likely meaning Martin F. or a specific title/role), whereas the summary incorrectly interprets this as \"Refer to all participants as 'MF' throughout.\" This misrepresents the instruction regarding how to address the audience. Additionally, the summary omits the specific detail that the introduction of everyone should happen \"in the beginning,\" though this is a minor omission compared to the misinterpretation of the addressing instruction.",
+  "finish_reason": "stop",
+  "prompt_tokens": 659,
+  "completion_tokens": 126,
+  "total_tokens": 785,
+  "timestamp": "2026-09-23T07:47:14.511320+00:00"
+}

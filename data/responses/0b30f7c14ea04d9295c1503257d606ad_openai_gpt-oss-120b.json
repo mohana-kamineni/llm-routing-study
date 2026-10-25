@@ -1,0 +1,20 @@
+{
+  "prompt_id": "0b30f7c14ea04d9295c1503257d606ad",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "You are an AI assistant that helps people find information. \tYour task is to verify if the statement \"Several sources mention a chance of another large eruption\" is supported by a specific quote from the following set of snippets.\n---\nSNIPPETS\n[1] 14 percent chance of megaquake hitting Seattle, experts say\nSEATTLE - There's a 14 percent chance of a magnitude 9 Cascadia earthquake hitting Seattle in the next 50 years, the U.S. Geological Survey estimates. \"Unfortunately, we are unable to...\n\n[2] Earthquake experts lay out latest outlook for Seattle's 'Really Big One’\n“We say that there's approximately a 14% chance of another approximately magnitude-9 earthquake occurring in the next 50 years,” said a geophysicist at the University of Washington...\n---\nIs the statement \"Several sources mention a chance of another large eruption\" directly implied or stated by the snippets?",
+  "response_text": "**No.** The two snippets discuss the probability of a future large **earthquake** (a “mega‑quake” or magnitude‑9 event) in the Seattle area. Neither snippet mentions a volcanic eruption, nor does any quoted text refer to a “large eruption.” Therefore, the statement “Several sources mention a chance of another large eruption” is not directly implied or stated by the provided excerpts.",
+  "finish_reason": "stop",
+  "prompt_tokens": 258,
+  "completion_tokens": 156,
+  "total_tokens": 414,
+  "latency_ms": 647,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:14:28.863458+00:00"
+}

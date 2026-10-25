@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c61afe92a1054213b0a2e5bca1aeca8b",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "We have 10 elephants, 2 were killed by hunters but we were able to get 5 more. How many do we have now?",
+  "response_text": "You’d have **13 elephants** now (10 − 2 + 5 = 13).",
+  "finish_reason": "stop",
+  "prompt_tokens": 100,
+  "completion_tokens": 80,
+  "total_tokens": 180,
+  "latency_ms": 1588,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:04:33.488110+00:00"
+}

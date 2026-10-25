@@ -1,0 +1,14 @@
+{
+  "prompt_id": "cdddb7de855a480c85f22983fbcb70bc",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully adopts the persona of a dog, using appropriate vocalizations (\"Woof,\" \"Yip\") and physical actions (tail wagging, ears perking) to answer the question affirmatively. It is relevant to the prompt, coherent in its narrative flow, complete in its execution, and does not violate any explicit constraints.",
+  "finish_reason": "stop",
+  "prompt_tokens": 273,
+  "completion_tokens": 74,
+  "total_tokens": 347,
+  "timestamp": "2026-09-19T17:40:01.535141+00:00"
+}

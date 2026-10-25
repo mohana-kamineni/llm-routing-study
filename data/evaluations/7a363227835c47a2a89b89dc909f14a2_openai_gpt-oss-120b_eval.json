@@ -1,0 +1,14 @@
+{
+  "prompt_id": "7a363227835c47a2a89b89dc909f14a2",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to cover Key Aspect 1. It omits the specific individuals (Vince Viverito, Jason Punzel, and Brad Goodsell) and the brokerage firm (Senior Living Investment Brokerage) who facilitated the sale of the Clinton, Utah memory care community. While the response correctly identifies the buyer, seller, and property details, the omission of the facilitating brokers is a critical factual gap relative to the source text and the required key aspects.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1007,
+  "completion_tokens": 99,
+  "total_tokens": 1106,
+  "timestamp": "2026-09-24T12:28:06.926408+00:00"
+}

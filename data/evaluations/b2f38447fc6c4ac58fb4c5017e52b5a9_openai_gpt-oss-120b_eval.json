@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b2f38447fc6c4ac58fb4c5017e52b5a9",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately covers all four required key aspects:\n1. It correctly identifies the recognition of Mental Health Awareness Week (May 15–21) and its purpose.\n2. It includes the author's emphasis on healthy habits for prioritization and disconnection, specifically mentioning the personal examples of walking the dog and spending time with family.\n3. It notes the role of public figures in raising awareness while highlighting the persistence of stigma and silence.\n4. It mentions the UK workplace well-being survey with Mind and the resulting finding that some employees are nervous about addressing mental health at work.\n\nThe summary is factually accurate, concise, and omits no critical information from the source text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 771,
+  "completion_tokens": 149,
+  "total_tokens": 920,
+  "timestamp": "2026-09-24T03:50:20.255401+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "ce25fef315d54af7acfa143b668ccd91",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "You are an intent generator. Output only intent name or intent names separated by new line. Intent are represented as IntentName(SlotValue). Do not print slot name. \n\nVolume intent is for setting the volume. Volume intent has slot volume_value. \nPlay intent is for playing song. Play intent has slot song_name. \nShowCamera is for showing camera related to any place. It takes slot as place_name.\n\nWhat is the intent of \"play tera mera at volume 5\"",
+  "response_text": "Play(tera mera)\nVolume(5)",
+  "finish_reason": "stop",
+  "prompt_tokens": 169,
+  "completion_tokens": 139,
+  "total_tokens": 308,
+  "latency_ms": 21552,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:30:20.235925+00:00"
+}

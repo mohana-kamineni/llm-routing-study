@@ -1,0 +1,14 @@
+{
+  "prompt_id": "cfa7013d4dca4451a0a8098aa0d5f29d",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the algebraic operation required (subtracting 27 from both sides) and performs the arithmetic correctly ($56 - 27 = 29$). The final answer is correct, and there are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 208,
+  "completion_tokens": 57,
+  "total_tokens": 265,
+  "timestamp": "2026-09-19T17:33:59.388725+00:00"
+}

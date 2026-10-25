@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1ae0ab0a56f8425c9e7934c79ce0a5c8",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to cover the majority of the required key aspects. While it touches upon the conversion of handwriting to typed text (part of Aspect 1 and 4), it completely omits critical information regarding file format compatibility (PDF, PPTX, images), specific productivity features (copy/paste, web links), and performance/visual elements (shapes, decorations, side panel). The summary is too narrow and misses essential factual details from the source material.",
+  "finish_reason": "stop",
+  "prompt_tokens": 506,
+  "completion_tokens": 99,
+  "total_tokens": 605,
+  "timestamp": "2026-09-23T07:44:13.574598+00:00"
+}

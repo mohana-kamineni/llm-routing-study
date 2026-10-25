@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3b8355f4360240648f964b1e1a1b0554",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully executes all specific instructions provided in the source prompt. It accurately extracts the main keywords, provides a summary that is exactly 9 words (within the 10-word limit) and captures the core offer (10% off Turkish halal food in Bron), correctly identifies the sentiment as positive, identifies \"ELITE\" as the brand, and categorizes the text as \"Food\". While the summary does not explicitly mention the condition of showing a video or the specific dates (Key Aspect 2), it is constrained by the strict 10-word limit, making it impossible to include every detail. The summary covers the essential factual aspects (who, what, where, discount) required for a concise summary of this promotional text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 601,
+  "completion_tokens": 155,
+  "total_tokens": 756,
+  "timestamp": "2026-09-23T07:42:53.191125+00:00"
+}

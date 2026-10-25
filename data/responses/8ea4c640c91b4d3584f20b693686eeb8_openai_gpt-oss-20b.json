@@ -1,0 +1,20 @@
+{
+  "prompt_id": "8ea4c640c91b4d3584f20b693686eeb8",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "The altitude to the hypotenuse of a right triangle divides the hypotenuse into two segments with lengths in the ratio 1 : 2. The length of the altitude is 6 cm. How long is the hypotenuse?",
+  "response_text": "Let the right triangle be \\(ABC\\) with \\(\\angle C = 90^\\circ\\).  \nDrop the altitude from \\(C\\) to the hypotenuse \\(AB\\) and let it meet \\(AB\\) at \\(D\\).\n\nDenote  \n\\[\nAD = x,\\qquad DB = 2x \\quad(\\text{ratio }1:2).\n\\]\n\nHence the hypotenuse is  \n\\[\nAB = AD + DB = x + 2x = 3x.\n\\]\n\n---\n\n### Using the altitude property\n\nFor a right triangle, the altitude to the hypotenuse satisfies  \n\n\\[\nCD^2 = AD \\cdot DB.\n\\]\n\nGiven that the altitude \\(CD = 6\\) cm, we have  \n\n\\[\n6^2 = x \\cdot 2x \\;\\Longrightarrow\\; 36 = 2x^2 \\;\\Longrightarrow\\; x^2 = 18.\n\\]\n\nThus  \n\n\\[\nx = \\sqrt{18} = 3\\sqrt{2}\\ \\text{cm}.\n\\]\n\n---\n\n### Length of the hypotenuse\n\n\\[\nAB = 3x = 3(3\\sqrt{2}) = 9\\sqrt{2}\\ \\text{cm}.\n\\]\n\n\\[\n\\boxed{9\\sqrt{2}\\ \\text{cm}}\n\\]\n\n(Approximately \\(12.73\\) cm.)",
+  "finish_reason": "stop",
+  "prompt_tokens": 119,
+  "completion_tokens": 561,
+  "total_tokens": 680,
+  "latency_ms": 755,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:50:53.277696+00:00"
+}

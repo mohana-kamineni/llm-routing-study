@@ -1,0 +1,20 @@
+{
+  "prompt_id": "ec52985189a1400aacc9ed1673c458b9",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem arguing that apples are better than oranges. Be sure to include a pun about comparing apples to apples",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 93,
+  "completion_tokens": 4096,
+  "total_tokens": 4189,
+  "latency_ms": 29725,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:34:07.953434+00:00"
+}

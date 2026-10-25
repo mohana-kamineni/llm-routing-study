@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1e6c7b188f0049e0af9bc0e15436889a",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a comprehensive and factually accurate comparison between the French Fourth and Fifth Republics. It correctly identifies the shift from a parliamentary system with a weak president to a semi-presidential system with a strong, directly elected president. Key factual points are accurate, including:\n1.  **Executive Power:** Correctly notes the Fourth Republic's reliance on parliamentary confidence for the Prime Minister and the Fifth Republic's presidential powers (dissolution of the Assembly, Article 16 emergency powers).\n2.  **Elections:** Accurately distinguishes between the indirect election of the President in the Fourth Republic and the direct universal suffrage in the Fifth Republic.\n3.  **Stability:** Correctly cites the high turnover of governments in the Fourth Republic (approx. 20 in 12 years) as a primary cause of its collapse.\n4.  **Legislative Structure:** Correctly identifies the bicameral nature of both, while noting the dominance of the National Assembly in the Fourth Republic and the specific term lengths in the Fifth.\n5.  **Historical Context:** Accurately links the creation of the Fifth Republic to the crisis of the Algerian War and the 1958 constitutional reform.\n\nThere are no significant factual errors or contradictions in the provided text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1530,
+  "completion_tokens": 274,
+  "total_tokens": 1804,
+  "timestamp": "2026-09-19T17:34:58.449364+00:00"
+}

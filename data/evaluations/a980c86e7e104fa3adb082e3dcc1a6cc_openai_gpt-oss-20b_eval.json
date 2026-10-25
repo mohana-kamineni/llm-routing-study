@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a980c86e7e104fa3adb082e3dcc1a6cc",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a factually accurate and comprehensive comparison between Java and TypeScript. It correctly identifies Java as a statically typed, compiled language running on the JVM with a nominal type system, and TypeScript as a statically typed superset of JavaScript that transpiles to JavaScript with a structural type system. The distinctions regarding runtime environments (JVM vs. JS engines), concurrency models (multi-threaded vs. single-threaded event loop), and typical use cases are all logically and historically correct. There are no false contradictions or factual errors in the provided text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1015,
+  "completion_tokens": 116,
+  "total_tokens": 1131,
+  "timestamp": "2026-09-22T17:04:20.719487+00:00"
+}

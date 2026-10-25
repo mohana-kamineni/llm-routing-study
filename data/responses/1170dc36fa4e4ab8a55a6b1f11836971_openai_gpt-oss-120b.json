@@ -1,0 +1,20 @@
+{
+  "prompt_id": "1170dc36fa4e4ab8a55a6b1f11836971",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about marshmallows as it written by dr Seuss",
+  "response_text": "**Marshmallow Munch‑Munch‑Moo!**  \n\nIn a town where the clouds are all cotton‑candy white,  \nLived a squishy‑soft squad that would bounce in the night.  \nThey’re puffy‑puff pillows, they’re fluffy‑fluff friends—  \nThe marvelous, marvelous marshmallow bends!  \n\nThey tumble‑tumble from jars on the top of the shelf,  \nWith a “boing‑boing‑boom!” they bounce all by themselves.  \nThey giggle in sugar, they wiggle in steam,  \nThey’re the fluffiest fluff you’ve ever seen in a dream.  \n\nWhen the sun starts to sizzle and the kettle goes “hiss!”  \nThe marshmallows march out for a toasty‑kiss.  \nThey hop on a stick, they spin on a spoon,  \nThey melt into rivers that sing a sweet tune.  \n\n“Come one, come all!” they shout with a grin,  \n“Let’s swirl in hot cocoa, let’s dance on a tin!”  \nThey twirl in the chocolate, they dip in the cream,  \nThey turn every sip into a sugary dream.  \n\nIf you’re feeling sad, or a little bit blue,  \nJust plop a marshmallow on top of your shoe—  \nIt’ll bounce you right up with a giggle‑glee grin,  \nAnd you’ll float on a cloud of sweet marsh‑mallow spin!  \n\nSo here’s to the fluff, the squish, and the cheer,  \nThe marshmallow marvels that we hold dear.  \nIn a world full of wobble, of wobble‑and‑whoosh,  \nThey’re the soft‑silly heroes of “Munch‑Munch‑Moo!”  \n\n— A Seussian splash of sugary rhyme,  \nFor every marshmallow lover, every time!",
+  "finish_reason": "stop",
+  "prompt_tokens": 85,
+  "completion_tokens": 459,
+  "total_tokens": 544,
+  "latency_ms": 1010,
+  "retries": 1,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:44:28.583123+00:00"
+}

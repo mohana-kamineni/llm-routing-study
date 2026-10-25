@@ -1,0 +1,14 @@
+{
+  "prompt_id": "55e0a6c6b5014d3d99d340cb3db08d69",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to accurately apply the transformation rules provided in the source text, specifically regarding the handling of city names and product names.\n\n1.  **City Name Handling (Rule 4):** The instruction states to replace city names with a reference to the country's status (e.g., \"Seoul will be South Korea's capital city\"). The source example A shows \"Delhi India\" becoming \"the world's 14th largest economy,\" effectively removing the specific city reference in favor of the country's economic rank. The response includes \"capital city,\" which is factually incorrect for Delhi (New Delhi is the capital, but the prompt's example logic suggests replacing the location with the country's economic descriptor). More importantly, the response creates a redundant and awkward phrase: \"in the world's 14th largest economy's capital city.\" The source example A explicitly transforms \"Delhi India\" into just \"the world's 14th largest economy.\"\n2.  **Product Name Handling (Rule 5):** The instruction requires replacing product names with a short summary of *what it is* (max 5 words). The example shows \"Iphone\" becoming \"phone\" (implied by \"large phone factory\" in Example A, though the text says \"handheld touchscreen phone\" in the rule description, Example A uses \"phone\"). The response uses \"handheld touchscreen phone,\" which is 4 words and fits the rule, but the combination with the city error makes the overall summary inaccurate relative to the provided examples.\n3.  **Comparison to Example A:** The source text provides Example A: \"Apple opens a huge Iphone factory in Delhi India\" becomes \"Phone giant openes large phone factory in the world's 14th largest economy.\" The response to be evaluated is \"Phone giant opens a huge handheld touchscreen phone factory in the world's 14th largest economy's capital city.\" This deviates significantly from the provided correct example, particularly by adding \"capital city\" which was not in the example output and is not a direct application of the rule as demonstrated.\n\nTherefore, the response does not adequately summarize the content by failing to follow the specific transformation logic demonstrated in the examples.",
+  "finish_reason": "stop",
+  "prompt_tokens": 629,
+  "completion_tokens": 457,
+  "total_tokens": 1086,
+  "timestamp": "2026-09-19T17:25:47.971928+00:00"
+}

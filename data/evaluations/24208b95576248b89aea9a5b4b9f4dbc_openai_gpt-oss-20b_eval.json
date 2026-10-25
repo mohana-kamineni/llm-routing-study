@@ -1,0 +1,13 @@
+{
+  "prompt_id": "24208b95576248b89aea9a5b4b9f4dbc",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "The response successfully addresses all components of the prompt:\n1.  **Keywords:** Extracted \"sac\", \"nouveau\", \"Prada\" (correct).\n2.  **Summary:** \"New Prada bag\" is 3 words, which is under the 10-word limit, and accurately summarizes the text.\n3.  **Sentiment:** Identified as \"Positive\". While \"mon nouveau sac prada\" (my new Prada bag) could be argued as neutral (a statement of fact), it is generally associated with positive sentiment in consumer contexts (excitement/acquisition). The prompt allows for \"Neutral\" if sentiment cannot be found, but finding a positive connotation is a reasonable interpretation.\n4.  **Brand Mention:** Identified \"Prada\" (correct).\n5.  **Category:** Identified as \"Brands\" (correct, as it is a brand mention).\n\nThe response covers all required key aspects extracted from the source passage accurately and concisely.\n\nVERDICT: PASS",
+  "prompt_tokens": 261,
+  "completion_tokens": 212,
+  "total_tokens": 473,
+  "timestamp": "2026-09-19T10:43:56.443285+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "aaf4c48815e54f91b24c727807f6810e",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately extracts the main keywords, provides a summary that is exactly 10 words long and captures the core message (product name, function, and frequency), correctly identifies the positive sentiment, identifies the brand \"The Ordinary,\" and correctly categorizes the text as \"Beauty.\" All constraints and requirements from the source prompt are met.",
+  "finish_reason": "stop",
+  "prompt_tokens": 376,
+  "completion_tokens": 74,
+  "total_tokens": 450,
+  "timestamp": "2026-09-19T17:10:22.146029+00:00"
+}

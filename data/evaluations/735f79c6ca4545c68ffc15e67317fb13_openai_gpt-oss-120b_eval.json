@@ -1,0 +1,14 @@
+{
+  "prompt_id": "735f79c6ca4545c68ffc15e67317fb13",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the source text in three distinct bullet points as requested. It covers the definition and aesthetic characteristics (Point 1), the usage contexts regarding digital screens versus print media (Point 2), and the etymology and historical terminology (Point 3). All key factual aspects from the source are included without significant omission or inaccuracy.",
+  "finish_reason": "stop",
+  "prompt_tokens": 535,
+  "completion_tokens": 76,
+  "total_tokens": 611,
+  "timestamp": "2026-09-23T14:37:41.212054+00:00"
+}

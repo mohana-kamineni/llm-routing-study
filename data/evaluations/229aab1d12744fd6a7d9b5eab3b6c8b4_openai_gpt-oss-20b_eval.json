@@ -1,0 +1,14 @@
+{
+  "prompt_id": "229aab1d12744fd6a7d9b5eab3b6c8b4",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to meet the specific constraints and accuracy requirements of the prompt. \n1. **Summary Constraint Violation**: The prompt explicitly requested a summary in a **maximum of 10 words**. The provided summary (\"10% off at ELITE, show video, tasty Turkish food Lyon\") contains 11 words.\n2. **Brand Identification Error**: The response identifies \"silyon\" as a brand mention. \"silyon\" is a hashtag (#silyon) referring to the city of Lyon (likely a typo for \"si lyon\" or just \"lyon\"), not a brand. The only actual brand mentioned is \"ELITE\".\n3. **Keyword Extraction**: While the keywords are extracted, the inclusion of the summary constraint violation and the brand error makes the overall response inadequate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 617,
+  "completion_tokens": 172,
+  "total_tokens": 789,
+  "timestamp": "2026-09-19T17:11:19.641077+00:00"
+}

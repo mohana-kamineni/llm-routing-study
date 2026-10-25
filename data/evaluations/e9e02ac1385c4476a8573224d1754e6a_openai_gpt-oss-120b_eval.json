@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e9e02ac1385c4476a8573224d1754e6a",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully summarizes the source text into a tweet format while covering all five required key aspects:\n1. **End-to-end MLOps**: Explicitly mentioned in the second bullet point.\n2. **Model Garden**: Explicitly mentioned in the first bullet point, including access to APIs, foundation, and open-source models.\n3. **Data Integration**: The second bullet point mentions \"native BigQuery/Dataproc integration.\" While it omits \"Spark\" and the specific detail about SQL/Workbench export, it captures the core aspect of native integration with the primary data infrastructure mentioned in the criteria.\n4. **Low-code/No-code**: The second bullet point mentions \"low-code/no-code UI,\" and the first bullet point mentions tuning in \"Generative AI Studio,\" covering the essential tools and capabilities.\n5. **Flexible/Managed Infrastructure**: The third bullet point covers \"Flexible, cost-effective inference & managed deployment,\" which aligns with the criteria for optimizing price-performance and reducing operational burden.\n\nThe summary is accurate, concise, and fits the requested format (tweet) without omitting critical information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 877,
+  "completion_tokens": 235,
+  "total_tokens": 1112,
+  "timestamp": "2026-09-28T07:47:28.938680+00:00"
+}

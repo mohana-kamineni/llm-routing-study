@@ -1,0 +1,14 @@
+{
+  "prompt_id": "dbb2dbfba9694a5db825d06d0031909b",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains several substantive reasoning errors in the data normalization:\n1.  **Item 5 (Hiking sandals vibram teva):** The response lists \"Vibram\" as the Make and \"Teva\" as the Model. In reality, \"Teva\" is the brand (Make) and \"Vibram\" refers to the sole technology or a specific line, not the model name in this context. More importantly, the input \"Hiking sandals vibram teva\" likely refers to a Teva brand sandal with Vibram soles, or potentially a confusion between brands. However, treating \"Vibram\" as the manufacturer is incorrect; Vibram is a component supplier, not the primary apparel brand for \"Teva\" sandals.\n2.  **Item 12 (Gson fashion by Semir coat...):** The response lists \"Semir\" as the Make and \"Gson fashion\" as the Model. The input says \"Gson fashion by Semir\". Usually, \"by [Brand]\" indicates the manufacturer. However, \"Gson\" is likely a typo for \"Gson\" or a specific line. More critically, the response puts \"Gson fashion\" in the Model column. While debatable, the bigger error is in Item 13.\n3.  **Item 13 (H&m black medium coat... o/n 201472 p/n 1005884):** The response lists \"201472\" as the Model and \"1005884\" as the UPC. The input explicitly labels \"o/n\" (Order Number) and \"p/n\" (Part Number). Neither is explicitly a UPC. Assigning the Part Number to the UPC column is a factual error in data mapping. Furthermore, \"201472\" is likely a style/order number, which fits Model, but the UPC assignment is incorrect.\n4.  **Item 10 (Express jacket... color code 1056):** The response lists \"1056\" as the UPC. The input says \"color code 1056\". A color code is not a UPC. This is a clear substantive error.\n5.  **Item 2 (Boots vibram sport shop...):** The response lists \"Vibram\" as the Make. Vibram is a sole manufacturer. The brand is likely \"Sport Shop\" or the specific boot brand (e.g., if it's a Vibram FiveFingers, the make is Vibram, but \"sport shop\" suggests a retailer). However, the most glaring errors are the misidentification of Color Codes and Part Numbers as UPCs.\n\nThe most definitive failure is mapping \"color code 1056\" to the UPC column and \"p/n 1005884\" to the UPC column. These are distinct data types.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1155,
+  "completion_tokens": 615,
+  "total_tokens": 1770,
+  "timestamp": "2026-09-19T17:40:10.197056+00:00"
+}

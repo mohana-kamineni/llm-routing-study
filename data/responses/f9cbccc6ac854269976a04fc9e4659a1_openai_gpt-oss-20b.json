@@ -1,0 +1,20 @@
+{
+  "prompt_id": "f9cbccc6ac854269976a04fc9e4659a1",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "when did India's capital shift to Mumbai?",
+  "response_text": "**Short answer:**  \nIndia’s capital has never been Mumbai (formerly Bombay).  \n\n**What actually happened**\n\n| Period | Capital of India (British India) | Notes |\n|--------|----------------------------------|-------|\n| 1858 – 1911 | Calcutta (now Kolkata) | The capital of British India after the East India Company was dissolved. |\n| 1911 – present | New Delhi (in the city of Delhi) | The capital was moved to Delhi by the British, and New Delhi was officially inaugurated as the capital in 1931. |\n\n- **Mumbai** was the capital of the *Bombay Presidency*, one of the major provinces of British India, but it was never the national capital.\n- After India gained independence in 1947, the capital remained New Delhi.\n\nSo, there was no “shift to Mumbai.” If you’re thinking of a major administrative change involving Mumbai, it was the relocation of the Bombay Presidency’s capital to Mumbai in the 19th century, but that was a provincial, not a national, shift.",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 366,
+  "total_tokens": 445,
+  "latency_ms": 2827,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:32:00.299882+00:00"
+}

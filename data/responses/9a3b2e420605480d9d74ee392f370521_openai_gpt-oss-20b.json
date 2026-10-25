@@ -1,0 +1,20 @@
+{
+  "prompt_id": "9a3b2e420605480d9d74ee392f370521",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Give me a transition table for each agent and all actions that solves for the following problem:\nJohn have 10 apples. He gives 5 to Mary who eat 2 for lunch. John buys two more apples. How many apples do they have?",
+  "response_text": "Below is a **transition table** that shows, for each agent (John and Mary), every action that occurs in the story, the state of the agent *before* the action, the state *after* the action, and a short description of what happened.  \nThe table is split into two parts – one for **John** and one for **Mary** – and then a combined “Total” row that gives the final answer to the question “How many apples do they have?”\n\n| # | Agent | Action | Pre‑state (apples) | Post‑state (apples) | Description |\n|---|-------|--------|--------------------|---------------------|-------------|\n| 1 | **John** | **Start** | 10 | 10 | John begins with 10 apples. |\n| 2 | **John** | **Give 5 to Mary** | 10 | 5 | John gives 5 apples to Mary. |\n| 3 | **John** | **Buy 2 apples** | 5 | 7 | John buys 2 more apples. |\n| 4 | **Mary** | **Start** | 0 | 0 | Mary starts with no apples. |\n| 5 | **Mary** | **Receive 5 from John** | 0 | 5 | Mary receives the 5 apples John gave her. |\n| 6 | **Mary** | **Eat 2 for lunch** | 5 | 3 | Mary eats 2 apples. |\n\n---\n\n### Combined Result\n\n| Agent | Final apples |\n|-------|--------------|\n| John | 7 |\n| Mary | 3 |\n| **Total** | **10** |\n\nSo, after all the actions, **John has 7 apples, Mary has 3 apples, and together they have 10 apples**.",
+  "finish_reason": "stop",
+  "prompt_tokens": 121,
+  "completion_tokens": 697,
+  "total_tokens": 818,
+  "latency_ms": 25941,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:03:55.601694+00:00"
+}

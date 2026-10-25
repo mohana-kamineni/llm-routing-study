@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b880af732df44bffb350a08bc66c56ce",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies Atrial Septal Defect (ASD) as the correct answer. The reasoning provided is medically accurate: it correctly links the fixed split S2, right ventricular heave, midsystolic flow murmur at the left upper sternal border, and diastolic rumble at the tricuspid area to the pathophysiology of an ASD (left-to-right shunt causing right-sided volume overload). The explanations for why the other options (Coarctation, PDA, Tetralogy of Fallot) are incorrect are also accurate and distinguish the key clinical features (e.g., continuous murmur for PDA, single S2/cyanosis for ToF). There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 971,
+  "completion_tokens": 160,
+  "total_tokens": 1131,
+  "timestamp": "2026-09-28T07:40:00.609816+00:00"
+}

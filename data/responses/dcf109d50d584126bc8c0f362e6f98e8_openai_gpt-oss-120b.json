@@ -1,0 +1,20 @@
+{
+  "prompt_id": "dcf109d50d584126bc8c0f362e6f98e8",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the most popular EXO planet?",
+  "response_text": "I’m not sure I understand the reference—could you clarify what you mean by “EXO planet”? Are you asking about a particular exoplanet (a planet outside our solar system), something related to the K‑pop group EXO, a fictional world named EXO, or something else? Let me know, and I’ll be happy to help!",
+  "finish_reason": "stop",
+  "prompt_tokens": 80,
+  "completion_tokens": 191,
+  "total_tokens": 271,
+  "latency_ms": 556,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:36:09.627245+00:00"
+}

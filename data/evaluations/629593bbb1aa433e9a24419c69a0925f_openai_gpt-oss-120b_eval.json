@@ -1,0 +1,14 @@
+{
+  "prompt_id": "629593bbb1aa433e9a24419c69a0925f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the source text into three distinct key takeaways that cover all essential factual aspects. \n1. It correctly identifies the link between banking sector stress (specifically mentioning Silicon Valley Bank) and the potential for lower interest rates, noting the uncertainty involved.\n2. It accurately captures Powell's stance that inflation is still too high, the current policy is \"restrictive\" (citing the 5%-5.25% rate), and future decisions will be data-dependent.\n3. It correctly notes the economic consequences of tighter credit conditions (weighing on growth, hiring, and inflation) and the lag effect of rate hikes. \nThe summary is factually consistent with the source and omits no critical information required for a high-level understanding of the article.",
+  "finish_reason": "stop",
+  "prompt_tokens": 927,
+  "completion_tokens": 164,
+  "total_tokens": 1091,
+  "timestamp": "2026-09-28T07:55:16.838612+00:00"
+}

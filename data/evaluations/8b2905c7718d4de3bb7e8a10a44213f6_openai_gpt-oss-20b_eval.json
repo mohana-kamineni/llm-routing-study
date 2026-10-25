@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8b2905c7718d4de3bb7e8a10a44213f6",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately and comprehensively summarizes the source text, covering all five required key aspects:\n1. It correctly explains the mechanism where rising rates increase liquidity risk by creating run incentives as the deposit franchise dominates bank value (Point 1).\n2. It details the optimal risk management policy involving a higher \"deposit beta\" assumption leading to shorter asset duration (Point 2).\n3. It identifies the resulting dilemma where shortening duration exposes the bank to insolvency if rates fall, preventing simultaneous hedging of both risks (Point 3).\n4. It notes that low-beta uninsured deposits pose stability risks that increase with rates and are amplified by other exposures like credit risk (Point 4).\n5. It concludes with the policy recommendation of an optimal capital requirement that rises with interest rates (Point 5).\n\nThe summary is well-structured, factually accurate, and omits no critical information from the abstract.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1043,
+  "completion_tokens": 194,
+  "total_tokens": 1237,
+  "timestamp": "2026-09-22T17:00:18.133860+00:00"
+}

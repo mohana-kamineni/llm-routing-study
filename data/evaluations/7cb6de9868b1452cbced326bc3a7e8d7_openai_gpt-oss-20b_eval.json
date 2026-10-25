@@ -1,0 +1,14 @@
+{
+  "prompt_id": "7cb6de9868b1452cbced326bc3a7e8d7",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies that there is no standard \"-er\" form of the word \"variable\" in English. It accurately explains that \"variable\" is a multi-syllable adjective ending in \"-able,\" which typically forms its comparative using \"more\" (i.e., \"more variable\") rather than the suffix \"-er.\" The response provides correct linguistic reasoning and examples, avoiding any false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 499,
+  "completion_tokens": 86,
+  "total_tokens": 585,
+  "timestamp": "2026-09-22T16:59:51.187633+00:00"
+}

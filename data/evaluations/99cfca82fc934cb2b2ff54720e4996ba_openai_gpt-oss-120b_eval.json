@@ -1,0 +1,14 @@
+{
+  "prompt_id": "99cfca82fc934cb2b2ff54720e4996ba",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response provides a factually accurate and comprehensive overview of Donald Trump's identity, career, and political history. It correctly identifies him as the 45th President of the United States, a businessman, and a television personality. The specific details provided, including his birth date, education, business ventures, TV show hosting, key legislative actions (Tax Cuts and Jobs Act), judicial appointments, and impeachment history, are all historically correct. There are no false contradictions or factual errors in the text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 798,
+  "completion_tokens": 110,
+  "total_tokens": 908,
+  "timestamp": "2026-09-24T15:00:18.299020+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c4238171c0184503ba6030c57e1341b5",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "KAD PENGENALAN\\n'\n'MALAYSIA\\n'\n'IDENTITY CARD\\n'\n'71225-10-2339'\n'WARGANEGARA\\nISLAM LELAKI'\n'MOHD NAZ\"I BIN\\n'\n'TAKUAN\\n'\n'NO 6B JALAN KIAI ABD MOID\\n'\n'KG SG TENGI KANAN DARAT\\n'\n'45500 TANJONG KARANG\\n'\n'SELANGOR'\nabove are text lines recognized by OCR from a ID card, where '\\n' represent new line symbol. Please extract all the fields including name, ID, gender, citizenship, religion, address.",
+  "response_text": "**Extracted fields**\n\n| Field        | Value |\n|--------------|--------------------------------------------------------------|\n| **Country**  | Malaysia |\n| **ID Number**| 71225‑10‑2339 |\n| **Citizenship** | WARGANEGARA (Citizen) |\n| **Religion** | Islam |\n| **Gender**   | Lelaki (Male) |\n| **Name**     | MOHD NAZI BIN TAKUAN *(cleaned from “MOHD NAZ\\\"I BIN TAKUAN”)* |\n| **Address**  | No 6B, Jalan Kiai Abd Moid, Kg Sg Tengi Kanan Darat, 45500 Tanjong Karang, Selangor |\n\n**Structured JSON**\n\n```json\n{\n  \"country\": \"Malaysia\",\n  \"id_number\": \"71225-10-2339\",\n  \"citizenship\": \"WARGANEGARA\",\n  \"religion\": \"Islam\",\n  \"gender\": \"Male\",\n  \"name\": \"Mohd Nazi Bin Takuan\",\n  \"address\": {\n    \"line1\": \"No 6B, Jalan Kiai Abd Moid\",\n    \"line2\": \"Kg Sg Tengi Kanan Darat\",\n    \"postcode\": \"45500\",\n    \"city\": \"Tanjong Karang\",\n    \"state\": \"Selangor\"\n  }\n}\n```",
+  "finish_reason": "stop",
+  "prompt_tokens": 213,
+  "completion_tokens": 618,
+  "total_tokens": 831,
+  "latency_ms": 9821,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:02:10.143810+00:00"
+}

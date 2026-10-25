@@ -1,0 +1,14 @@
+{
+  "prompt_id": "96a98ad068484b479467057ec703d2e2",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response is factually incorrect. António Costa resigned as Prime Minister of Portugal in August 2024. The current Prime Minister is Luís Montenegro, who took office in September 2024. Therefore, stating that António Costa is the current Prime Minister is a false contradiction of the current factual reality.",
+  "finish_reason": "stop",
+  "prompt_tokens": 208,
+  "completion_tokens": 74,
+  "total_tokens": 282,
+  "timestamp": "2026-09-22T16:57:30.804030+00:00"
+}

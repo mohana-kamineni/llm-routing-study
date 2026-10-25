@@ -1,0 +1,20 @@
+{
+  "prompt_id": "25d08f2448284af9acd628a387585618",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "what is the result of:\n1+2*3",
+  "response_text": "7",
+  "finish_reason": "stop",
+  "prompt_tokens": 82,
+  "completion_tokens": 77,
+  "total_tokens": 159,
+  "latency_ms": 24471,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:22:48.125368+00:00"
+}

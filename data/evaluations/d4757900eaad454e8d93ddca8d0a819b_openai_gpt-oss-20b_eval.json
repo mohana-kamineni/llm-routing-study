@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d4757900eaad454e8d93ddca8d0a819b",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response fails to adequately summarize the source text because it completely omits the most critical factual update provided by the user: that they have **not yet been to Japan** and therefore have no stories to share. Instead of acknowledging this constraint and focusing on the planning phase as requested, the response assumes the user is ready to execute the plan immediately, offering detailed advice on filming, equipment, and content creation that is premature given the user's stated situation. A proper summary would have explicitly noted the pre-trip status and focused on refining the character personas and interaction strategies for the future trip, rather than jumping into production logistics.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1929,
+  "completion_tokens": 134,
+  "total_tokens": 2063,
+  "timestamp": "2026-09-19T17:37:47.131833+00:00"
+}

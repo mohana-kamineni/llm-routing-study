@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e4c6cbaafe734155bae312aafa646e5f",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Welcome to Kennections, a weekly quiz created by Jeopardy! champion/co-host Ken Jennings. Here's how to play: All five answers to the questions below have something in common. Can you figure it out? (Note: We've given you a hint by showing you how many letters are contained within the answer, but this quiz is not interactive.)\n\n1.  What substance, easiest to find in the underground Nether, is the longest burning fuel source in the game Minecraft?   \n\n— — — —\n2.  After pepperoni, what’s America’s most liked pizza topping, with a 56% approval rating?\n\n— — — — — — —\n3.  Which of the noble gases was named in 1889 by its discoverer’s young son, from the Greek word for “new”?\n\n— — — —\n4.  What does the “T” stand for in the U.S. Navy’s PT boats, for the weapon they were designed to fire? \n\n— — — — — — —\n5.  What invention of ancient Egypt was originally made with crushed eggshells, not the sodium fluoride that’s the active ingredient today? \n\n— — — — — — — — — —\nANSWERS ----->",
+  "response_text": "**Answers**\n\n| # | Clue | Answer (letter count) |\n|---|------|------------------------|\n| 1 | Longest‑burning fuel source found in the Nether (Minecraft) | **LAVA** (4) |\n| 2 | America’s second‑most‑liked pizza topping (56 % approval) | **SAUSAGE** (7) |\n| 3 | Noble gas named in 1889 by the discoverer’s son, from Greek “new” | **NEON** (4) |\n| 4 | The “T” in the U.S. Navy’s PT boats – the weapon they were built to fire | **TORPEDO** (7) |\n| 5 | Ancient Egyptian invention originally made with crushed eggshells (today it contains sodium fluoride) | **TOOTHPASTE** (9) |\n\n**What they have in common**\n\nEach answer can be followed by the word **“tube.”**  \n\n- **Lava tube** – a natural conduit formed by flowing lava.  \n- **Sausage tube** – the tube (or casing) used to stuff and shape sausages.  \n- **Neon tube** – the glass tube that contains neon gas for lighting.  \n- **Torpedo tube** – the launch tube on a warship or submarine that fires torpedoes.  \n- **Toothpaste tube** – the squeezable container that holds toothpaste.  \n\nSo the common thread is **“… tube.”**",
+  "finish_reason": "stop",
+  "prompt_tokens": 318,
+  "completion_tokens": 3418,
+  "total_tokens": 3736,
+  "latency_ms": 27522,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:11:50.774085+00:00"
+}

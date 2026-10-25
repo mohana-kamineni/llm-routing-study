@@ -1,0 +1,20 @@
+{
+  "prompt_id": "df71e685bd2d4e208f9a970edf789461",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Summarise the following article:\n\n\"\n\nTPE’s contract will not be renewed or extended at the end of the month, meaning the company will work on an “operator of last resort” basis from 28 May.\n\nTransport secretary Mark Harper made the announcement this morning.\n\nThe Department for Transport said that the decision follows “months of significant disruption and regular cancellations across Transpennine Express’s network, which has resulted in a considerable decline in confidence for passengers who rely on the trains to get to work, visit family and friends and go about their daily lives”.\n\nUnder Operator of Last Resort, services will run as normal with no changes to tickets, timetables or planned services with the Department committed to ensuring a seamless transition for passengers.\n\nThe DfT stressed that the decision is temporary and it is the government’s full intention that the service’s operation will return to the private sector.\n\nGreater Manchester Mayor Andy Burnham welcomed the news. In a social media post this morning, he said: “As Mayors, we have spoken up consistently for long-suffering rail passengers in the North. I am glad the government has listened.\n\n“We will now work with them to restore trust in train services and build a railway people can rely on.”\n\nMayor of West Yorkshire Tracy Brabin also took to Twitter. She said: “It’s absolutely right that this is the end of the line for Transpennine Express. We’ve urged government to act for almost a year, as delays and cancellations damaged our economy and",
+  "response_text": "**Summary**\n\nTransport Secretary Mark Harper announced that Transpennine Express (TPE) will not have its contract renewed or extended after the month ends. From 28 May the Department for Transport (DfT) will run the services as an “operator of last resort”, keeping current tickets, timetables and planned services unchanged while ensuring a smooth transition for passengers. The decision follows months of frequent disruptions and cancellations that eroded passenger confidence. The DfT stresses the move is temporary, with the aim of returning the line to private operation. Greater Manchester Mayor Andy Burnham and West Yorkshire Mayor Tracy Brabin welcomed the change, citing long‑standing passenger frustration and economic impact.",
+  "finish_reason": "stop",
+  "prompt_tokens": 372,
+  "completion_tokens": 203,
+  "total_tokens": 575,
+  "latency_ms": 4502,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:44:56.625746+00:00"
+}

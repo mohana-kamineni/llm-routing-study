@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a2a116ea80c54636b891bb3689ed1a6d",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe summary fails to cover Key Aspect 2, which requires mentioning that the Federal Reserve has raised its benchmark borrowing rate from near zero to a target range of 5%-5.25% since March 2022. While the summary correctly addresses the other four aspects (banking stress reducing rate hike needs, focus on high inflation, data-dependent policy, and credit tightening weighing on growth), the omission of the specific current interest rate levels and the magnitude of the increase from near zero constitutes a failure to cover all required key aspects.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1030,
+  "completion_tokens": 116,
+  "total_tokens": 1146,
+  "timestamp": "2026-09-22T22:58:27.499821+00:00"
+}

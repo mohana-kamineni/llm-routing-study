@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c4de0974d3754ef8bf2e1dcc082e92bd",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Irwin 's family went on a camping trip in the mountains . On the first day , they hiked from their car to the campsite . First , they hiked 0.2 mile from the car to a stream , and 0.4 mile from the stream to a meadow . Then they hiked 0.1 mile from the meadow to the campsite . How many miles did Irwin 's family hike in all ?",
+  "response_text": "They hiked a total of  \n\n\\[\n0.2 \\text{ mi} + 0.4 \\text{ mi} + 0.1 \\text{ mi} = 0.7 \\text{ miles}.\n\\]",
+  "finish_reason": "stop",
+  "prompt_tokens": 159,
+  "completion_tokens": 98,
+  "total_tokens": 257,
+  "latency_ms": 24413,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:06:07.314720+00:00"
+}

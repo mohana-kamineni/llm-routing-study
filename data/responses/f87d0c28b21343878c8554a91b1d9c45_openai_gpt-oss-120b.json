@@ -1,0 +1,20 @@
+{
+  "prompt_id": "f87d0c28b21343878c8554a91b1d9c45",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about Counter Strike Global Offensive which jokes about how buggy the game can be. (Hit registration -> hitreg, terrible steam market economy and etc)",
+  "response_text": "**A Ballad of the Bug‑Bound Bombsite**  \n\nIn Dust II the sun is low, the A‑site’s lit with glow,  \nBut when you pull the trigger, the bullet’s on a show.  \nIt flies through pixel‑dust, it’s meant to hit the chest—  \n*Hitreg* says “nah,” it lands on a distant vest.  \n\nThe flashbang’s bright as sunrise, the smoke is thick and grand,  \nYet the server’s lag‑dance makes you think you’re in a band.  \nYour teammate shouts “eco‑round!”—you hear the clatter,  \nBut the buy‑menu’s a mystery, the prices never matter.  \n\nThe Steam market’s a circus, a carnival of trade,  \nWhere a “StatTrak” skin can cost a yacht, then fade.  \nYou list a simple AK for ten, the bots all start to grin—  \n“Buy now!” they chant, while the price climbs to a spin.  \n\nA knife drop in the lobby, a “rare” that’s truly rare—  \nIt’s actually a glitch, a phantom, floating in the air.  \nYou try to sell it, the UI hiccups, the cursor’s stuck,  \nAnd suddenly you own a “ghost” that’s worth a million bucks.  \n\nThe bots march in perfect sync, the humans—well, they’re wild,  \nOne’s crouching on a ladder, the other’s “spraying” a child.  \nYour aim is true, the crosshair’s tight, the ping is low and sweet,  \nBut the server says “nope,” and you die in a single beat.  \n\nSo raise a toast to CS:GO, the game that never sleeps,  \nWhere bugs are part of strategy, and lag is just a leap.  \nWe’ll keep on planting bombs, we’ll keep on buying skins,  \nBecause a world of glorious glitches is where the fun begins.  ",
+  "finish_reason": "stop",
+  "prompt_tokens": 103,
+  "completion_tokens": 464,
+  "total_tokens": 567,
+  "latency_ms": 11524,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:42:56.995509+00:00"
+}

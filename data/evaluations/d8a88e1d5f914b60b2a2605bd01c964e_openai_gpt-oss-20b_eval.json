@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d8a88e1d5f914b60b2a2605bd01c964e",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately captures all essential factual aspects of the source text. It correctly lists the meeting dates, details the specific responsibilities of Dirk (drafting the email with three specific points) and Martin (discussion points regarding slides and introductions), covers the EnvEndo section including the involvement of specific individuals and the leadership question, and includes the Early Career/EYES project introduction. The final note regarding addressing people as \"MF\" is also included. The summary is concise, well-structured, and does not omit any critical information from the source.",
+  "finish_reason": "stop",
+  "prompt_tokens": 673,
+  "completion_tokens": 115,
+  "total_tokens": 788,
+  "timestamp": "2026-09-19T17:15:56.410070+00:00"
+}

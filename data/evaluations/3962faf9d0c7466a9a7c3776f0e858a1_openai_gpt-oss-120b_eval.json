@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3962faf9d0c7466a9a7c3776f0e858a1",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately captures the essential factual aspects of the review: the recipient's enjoyment, the toy's physical attributes (soft, cute, friendly face), the early arrival, and the specific complaint regarding size relative to price. It also adheres to the 30-word limit.",
+  "finish_reason": "stop",
+  "prompt_tokens": 307,
+  "completion_tokens": 63,
+  "total_tokens": 370,
+  "timestamp": "2026-09-23T00:06:19.300083+00:00"
+}

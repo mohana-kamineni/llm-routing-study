@@ -1,0 +1,20 @@
+{
+  "prompt_id": "30e946edb164450b83fd63f689965538",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "who is Sonic the hedgehog ?",
+  "response_text": "**Sonic the Hedgehog** is a fictional character and the flagship mascot of the Japanese video‑game company SEGA. He first appeared in the 1991 arcade game *Sonic the Hedgehog* and quickly became the face of SEGA’s console rivalry with Nintendo’s Mario.\n\n- **Appearance & Traits**  \n  - Blue, anthropomorphic hedgehog with spiky hair.  \n  - Known for his supersonic speed, which he uses to battle the evil Dr. Robotnik (Dr. Eggman).  \n  - Often portrayed as carefree, rebellious, and a bit of a “cool kid” who loves freedom and adventure.\n\n- **Core Abilities**  \n  - **Speed**: The hallmark of the series; Sonic can run at “supersonic” speeds.  \n  - **Spin Dash**: A rolling attack that can break obstacles and defeat enemies.  \n  - **Chaos Emeralds**: Seven mystical gems that grant powers like invincibility, time‑stop, or the ability to transform into Super Sonic.\n\n- **Franchise Highlights**  \n  - **Games**: Over 30 titles across platforms, from classic 2D side‑scrollers (*Sonic the Hedgehog*, *Sonic CD*) to 3D adventures (*Sonic Adventure*, *Sonic Generations*) and modern platformers (*Sonic Mania*, *Sonic Forces*).  \n  - **Television**: Multiple animated series, most notably the 1993 *Sonic the Hedgehog* (SatAM) and the 2010 *Sonic X* anime.  \n  - **Movies**: A 2020 live‑action/CGI film and a 2022 animated feature, both expanding Sonic’s reach to new audiences.  \n  - **Merchandise & Media**: Toys, comics, music, and a wide range of licensed products.\n\n- **Cultural Impact**  \n  - Sonic’s speed and rebellious attitude made him a pop‑culture icon of the 1990s.  \n  - He helped SEGA establish a distinct brand identity and remains a beloved character in gaming history.\n\nIn short, Sonic the Hedgehog is a fast‑moving, blue, hedgehog‑hero who has entertained gamers and fans worldwide for over three decades.",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 606,
+  "total_tokens": 685,
+  "latency_ms": 824,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:34:27.327935+00:00"
+}

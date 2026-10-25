@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ef6105f0d5e4439893c706ca1089ee55",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the standard methods for solving for acceleration in engineering contexts (Newton's Second Law, Kinematics, Work-Energy, and Rotational dynamics). The formulas provided are mathematically correct, and the worked examples (linear force, kinematic displacement, rotational torque, and the linear actuator design) are calculated accurately with no substantive reasoning errors. The inclusion of practical tips and unit consistency checks further validates the correctness and utility of the answer.",
+  "finish_reason": "stop",
+  "prompt_tokens": 3348,
+  "completion_tokens": 98,
+  "total_tokens": 3446,
+  "timestamp": "2026-09-24T12:26:50.047181+00:00"
+}

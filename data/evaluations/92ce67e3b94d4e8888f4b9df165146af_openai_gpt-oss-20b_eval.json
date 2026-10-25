@@ -1,0 +1,14 @@
+{
+  "prompt_id": "92ce67e3b94d4e8888f4b9df165146af",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the provided source text and covers all four required key aspects:\n1. It correctly identifies the meeting date (May 15, 2023) and the core decision regarding the decanter centrifuge launch (GIEE vs. social media).\n2. It accurately states the GIEE dates (July 10-15, 2023) and location (Houston, TX).\n3. It lists all five participants with their correct titles.\n4. It captures the primary objective of attending GIEE as showcasing the product to industry professionals and potential customers through face-to-face interactions.\n\nAlthough the source text is truncated, the response accurately reflects the available information and appropriately notes the truncation regarding the final decision, rather than hallucinating a conclusion.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1171,
+  "completion_tokens": 172,
+  "total_tokens": 1343,
+  "timestamp": "2026-09-19T17:37:36.511117+00:00"
+}

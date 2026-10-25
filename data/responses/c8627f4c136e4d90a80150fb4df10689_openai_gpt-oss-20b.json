@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c8627f4c136e4d90a80150fb4df10689",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "I have a ball, a cube, 5 eggs, 2 top hats and 23 pennies. How many total items do i have?",
+  "response_text": "You have:\n\n- 1 ball  \n- 1 cube  \n- 5 eggs  \n- 2 top hats  \n- 23 pennies  \n\nAdding them together:  \n\n\\(1 + 1 + 5 + 2 + 23 = 32\\)\n\nSo you have **32 items in total**.",
+  "finish_reason": "stop",
+  "prompt_tokens": 100,
+  "completion_tokens": 118,
+  "total_tokens": 218,
+  "latency_ms": 9302,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:55:20.959914+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3af57ae6b73847d99150cd9b276ee41a",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRATIONALE: The response is truncated and incomplete. It ends abruptly in the middle of a table in Section 8 (\"Quick 'Cheat Sheet'\"), specifically cutting off after the row for \"Query router\". This violates the dimension of Completeness, as the response does not fully execute the task or provide a finished conclusion.",
+  "finish_reason": "stop",
+  "prompt_tokens": 4395,
+  "completion_tokens": 72,
+  "total_tokens": 4467,
+  "timestamp": "2026-09-22T23:00:44.173975+00:00"
+}

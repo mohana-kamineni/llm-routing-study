@@ -1,0 +1,14 @@
+{
+  "prompt_id": "5b42913fc01940a9b00c7d04b5b668ea",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to adequately summarize the source text because it introduces a significant amount of hallucinated information that is not present in the source material. While the response correctly identifies the core subject (Safra's H2-PACK retrofit for hydrogen coaches), it fabricates specific details in the \"Problem Analysis,\" \"Performance & Value,\" and \"Implementation Activities\" sections.\n\nSpecifically:\n1.  **Problem Analysis**: The source text does not mention \"regulatory pressure,\" \"urban air quality,\" \"retrofit cost,\" or \"technology obsolescence.\" It only describes the technical conversion of a diesel engine to hydrogen.\n2.  **Performance & Value**: The source does not claim the solution is \"cost-effective\" or \"lower CAPEX vs new bus,\" nor does it mention \"quick-refuel\" capabilities or \"regional branding.\"\n3.  **Implementation Activities**: The source text describes the *features* of the kit (e.g., tanks, partition, motor) but does not detail the *activities* of \"engine removal,\" \"electrical-system wiring,\" \"vehicle-testing,\" \"certification process,\" \"operator training,\" or \"fleet-management software update.\"\n\nA summary must be grounded in the provided text. By inventing problems, benefits, and processes not mentioned in the source, the response violates the accuracy requirement.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1718,
+  "completion_tokens": 282,
+  "total_tokens": 2000,
+  "timestamp": "2026-09-28T07:50:13.127846+00:00"
+}

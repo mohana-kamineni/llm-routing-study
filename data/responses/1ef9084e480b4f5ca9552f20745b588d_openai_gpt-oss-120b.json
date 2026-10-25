@@ -1,0 +1,20 @@
+{
+  "prompt_id": "1ef9084e480b4f5ca9552f20745b588d",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Problem: Tina buys 3 12-packs of soda for a party. Including Tina, 6 people are at the party. Half of the people at the party have 3 sodas each, 2\nof the people have 4, and 1 person has 5. How many sodas are left over when the party is over?",
+  "response_text": "Tina bought  \n\n\\[\n3 \\times 12 = 36 \\text{ sodas}.\n\\]\n\nAt the party there are 6 people.  \n- Half of them ( \\( \\frac{6}{2}=3\\) people) drink 3 sodas each: \\(3 \\times 3 = 9\\).  \n- 2 people drink 4 sodas each: \\(2 \\times 4 = 8\\).  \n- 1 person drinks 5 sodas: \\(1 \\times 5 = 5\\).\n\nTotal sodas consumed:\n\n\\[\n9 + 8 + 5 = 22.\n\\]\n\nSodas left over:\n\n\\[\n36 - 22 = 14.\n\\]\n\n\\[\n\\boxed{14}\n\\]",
+  "finish_reason": "stop",
+  "prompt_tokens": 143,
+  "completion_tokens": 359,
+  "total_tokens": 502,
+  "latency_ms": 1115,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:08:33.306765+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8d400ab7c7324f8a90a5184c94309f9a",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains a factual error regarding the attribution of a quote. It attributes the statement \"The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate\" to Albert Camus. This quote is not found in Camus's works (such as *The Myth of Sisyphus* or *The Stranger*) and is widely considered a misattribution or a fabrication often circulated on the internet. While the rest of the response provides a reasonable overview of philosophical perspectives, the inclusion of a false factual claim (a fake quote attributed to a specific historical figure) violates the criterion of providing the correct factual answer without false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1012,
+  "completion_tokens": 146,
+  "total_tokens": 1158,
+  "timestamp": "2026-09-22T17:15:37.471841+00:00"
+}

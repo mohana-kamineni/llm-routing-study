@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c61afe92a1054213b0a2e5bca1aeca8b",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "We have 10 elephants, 2 were killed by hunters but we were able to get 5 more. How many do we have now?",
+  "response_text": "**Answer: 10**\n\n**Why?**  \nIt’s a classic “trick” riddle. The wording “how many do we have now?” is meant to make you do the arithmetic (10 – 2 + 5 = 13).  \nBut the trick is that the “elephants” are not counted by the number of elephants you *have* in the sense of a tally; you still have the original 10 elephants. The two that were killed are gone, but the five you “got” are not additional elephants—they’re just the same 10 that you already had. So the number of elephants you possess remains **10**.",
+  "finish_reason": "stop",
+  "prompt_tokens": 100,
+  "completion_tokens": 3567,
+  "total_tokens": 3667,
+  "latency_ms": 4272,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:57:02.839421+00:00"
+}

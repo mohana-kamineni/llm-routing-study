@@ -1,0 +1,20 @@
+{
+  "prompt_id": "599303acf6e8461fb5df30a5afb01809",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a poem about a frog on a log who sings a beautiful song",
+  "response_text": "On a moss‑clad log beneath the moon’s soft glow,  \nA single frog sits, a green‑eyed, lilting soul.  \nHis croak begins like a hush of summer rain,  \nA melody that drifts through the night’s refrain.\n\nHe lifts his tiny throat, the world holds its breath,  \nEach note a ripple on a quiet pond’s depth.  \nThe stars above twinkle, as if to applaud,  \nWhile fireflies dance to the rhythm he’s drawn.\n\nHis song is a story of rivers and reeds,  \nOf sunrise that paints the sky in golden reeds.  \nIt sings of the wind that whispers through the trees,  \nAnd of the quiet moments that bring us to ease.\n\nThe log beneath him, a stage of ancient wood,  \nCatches the echoes, the hush of the good.  \nThe frog’s voice, a silver thread in the night,  \nWeaves a tapestry of pure, unbroken light.\n\nWhen the final note fades into the dark,  \nThe log sighs, the forest hushes, the world embarks  \nOn a dream of green, of water, of song—  \nA frog on a log, where hearts belong.",
+  "finish_reason": "stop",
+  "prompt_tokens": 85,
+  "completion_tokens": 320,
+  "total_tokens": 405,
+  "latency_ms": 5708,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:02:38.464958+00:00"
+}

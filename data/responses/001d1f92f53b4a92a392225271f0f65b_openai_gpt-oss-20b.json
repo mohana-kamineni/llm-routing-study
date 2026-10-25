@@ -1,0 +1,20 @@
+{
+  "prompt_id": "001d1f92f53b4a92a392225271f0f65b",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a story that combines the event of coronating a monarch with the story of Humpty dumpty",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 91,
+  "completion_tokens": 4096,
+  "total_tokens": 4187,
+  "latency_ms": 17586,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:11:08.415352+00:00"
+}

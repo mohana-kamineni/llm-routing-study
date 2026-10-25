@@ -1,0 +1,14 @@
+{
+  "prompt_id": "eafade6cc3164045ba3c7f08c8ab0a80",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to satisfy the core requirement of the prompt, which was to write a story. Instead, the model refused the request and offered a summary, resulting in a complete lack of narrative content. Consequently, it fails on Relevance (it does not address the topic as requested), Coherence (there is no narrative structure to evaluate), and Completeness (the task was not executed).",
+  "finish_reason": "stop",
+  "prompt_tokens": 261,
+  "completion_tokens": 85,
+  "total_tokens": 346,
+  "timestamp": "2026-09-28T07:44:10.003333+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "9169dac428964e81825d4cb9214f5b12",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "select 5 topics to describe the chat conversation with the date times they start and end according to the chat and the sentiment of the conversation for each topic. the start and end times should not overlap.  output only a table with the topic summary, participants, start time, end time, sentiment.\nchat:\n2022-08-30 10:44:30 Max: @**Samantha Whitmore** to loop you in, we just spoke about this on our all-hands call and the consensus was that we should have a follow-up call to the one we had yesterday with anyone on the Monadical side who might have input into what the overarching goals should be\n2022-08-30 10:46:22 Max: would you be interested/available to do a follow-up call on this today @**Samantha Whitmore** ?\n2022-08-30 11:28:12 Samantha Whitmore: just saw this -- yes I'm available! any time except 2PM ET\n2022-08-30 11:49:07 Max: how about <time:2022-08-30T16:00:00-04:00> @stream ?\n2022-08-30 11:49:45 Samantha Whitmore: sounds good to me\n2022-08-30 13:58:31 Samantha Whitmore: ok to invite another of my collaborators as well?\n2022-08-30 14:04:20 JDC: @**Max**\n2022-08-30 14:06:37 Chantale Streeting: I would also think that @**Ana**'s input could be really valuable in this meeting, but saw in our \"day off\" topic that she is limiting screentime today. Just wanted to point this out in case tomorrow might make more sense/a time where she is available?\n2022-08-30 14:12:31 Ana: since many people are available for this meeting, maybe some notes could help me to get the context of the discussion @**Chantale Streeting",
+  "response_text": "| Topic Summary | Participants | Start Time | End Time | Sentiment |\n|---------------|--------------|------------|----------|-----------|\n| Initiating follow‑up call discussion after all‑hands consensus | Max, Samantha | 2022‑08‑30 10:44:30 | 2022‑08‑30 10:46:22 | Neutral |\n| Samantha’s availability confirmation and scheduling of the call | Max, Samantha | 2022‑08‑30 11:28:12 | 2022‑08‑30 11:49:45 | Positive |\n| Request to invite an additional collaborator | Max, Samantha | 2022‑08‑30 13:58:31 | 2022‑08‑30 14:04:20 | Neutral |\n| Discussion of participant availability (Ana) and context needs | Chantale, Max, Ana | 2022‑08‑30 14:04:20 | 2022‑08‑30 14:12:31 | Neutral |\n| Ana’s request for meeting notes to gain context | Ana, Max | 2022‑08‑30 14:12:31 | 2022‑08‑30 14:12:31 | Neutral |",
+  "finish_reason": "stop",
+  "prompt_tokens": 499,
+  "completion_tokens": 1233,
+  "total_tokens": 1732,
+  "latency_ms": 5816,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:44:28.040691+00:00"
+}

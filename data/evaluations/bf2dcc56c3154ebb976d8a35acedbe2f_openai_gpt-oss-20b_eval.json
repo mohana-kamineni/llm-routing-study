@@ -1,0 +1,14 @@
+{
+  "prompt_id": "bf2dcc56c3154ebb976d8a35acedbe2f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to summarize the content of the provided articles. Instead of extracting the key facts regarding the sale of the memory care community in Clinton, Utah, and the acquisition by 1031 Crowdfunding, the response claims that \"The user did not ask a question.\" This is incorrect; the prompt explicitly instructs the model to \"summarize the question asked of you\" (which implies summarizing the provided context/articles) and provides specific articles to use. The response omits all five required key aspects listed in the evaluation criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 793,
+  "completion_tokens": 117,
+  "total_tokens": 910,
+  "timestamp": "2026-09-22T16:50:37.151166+00:00"
+}

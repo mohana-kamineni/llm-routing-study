@@ -1,0 +1,20 @@
+{
+  "prompt_id": "735f79c6ca4545c68ffc15e67317fb13",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Give a three dot point summary of the following: In typography and lettering, a sans-serif, sans serif, gothic, or simply sans letterform is one that does not have extending features called \"serifs\" at the end of strokes.[1] Sans-serif typefaces tend to have less stroke width variation than serif typefaces. They are often used to convey simplicity and modernity or minimalism.\n\nSans-serif typefaces have become the most prevalent for display of text on computer screens. On lower-resolution digital displays, fine details like serifs may disappear or appear too large. The term comes from the French word sans, meaning \"without\" and \"serif\" of uncertain origin, possibly from the Dutch word schreef meaning \"line\" or pen-stroke.[2] In printed media, they are more commonly used for display use and less for body text.\n\nBefore the term \"sans-serif\" became common in English typography, a number of other terms had been used. One of these outmoded terms for sans-serif was gothic, which is still used in East Asian typography and sometimes seen in typeface names like News Gothic, Highway Gothic, Franklin Gothic or Trade Gothic.\n\nSans-serif typefaces are sometimes, especially in older documents, used as a device for emphasis, due to their typically blacker type color.",
+  "response_text": "- Sans‑serif typefaces lack the small projecting “serifs” at stroke ends, have more uniform stroke widths, and are associated with simplicity, modernity, and minimalism.  \n- They dominate screen text because low‑resolution displays can’t render fine serifs well, while in print they’re favored for headings and occasional emphasis rather than long body copy.  \n- Historically called “gothic” (still seen in names like News Gothic), the term “sans‑serif” derives from French “sans” (without) and a debated origin for “serif.”",
+  "finish_reason": "stop",
+  "prompt_tokens": 334,
+  "completion_tokens": 151,
+  "total_tokens": 485,
+  "latency_ms": 447,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:20:36.632568+00:00"
+}

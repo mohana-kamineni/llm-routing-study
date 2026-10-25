@@ -1,0 +1,20 @@
+{
+  "prompt_id": "a605afa2cd5f4cd7b965ffabcfb9fab7",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about Obama using the term terrible twos",
+  "response_text": "**The Terrible Twos of a President**\n\nIn the quiet hush of a Washington dawn,  \nHe stepped onto the stage, a young man’s promise—  \nA voice that could calm the storm, a heart that could mend,  \nYet the world, like a child, had its own terrible twos.\n\nThe first of those twos, a nation split,  \nTwo voices, two visions, two futures in doubt.  \nHe listened, he listened, and with gentle grace,  \nHe wove a new thread through the frayed fabric of hope.\n\nThe second, a crisis that rattled the earth,  \nA hurricane of doubt, a pandemic’s cruel test.  \nHe stood, a steady hand in the swirling chaos,  \nSaid, “We’ll weather this together,” and the people believed.\n\nThe terrible twos are not just a child’s tantrum,  \nThey’re the moments when the world feels unsteady,  \nWhen the future is a question, the past a weight,  \nAnd the present is a bridge that must be crossed.\n\nObama, with his calm, his steady stride,  \nTurned those twos into a chance to grow.  \nHe taught us that even in the darkest hours,  \nWe can find a way to let the light in.\n\nSo here’s to the terrible twos, the trials we face,  \nTo the leaders who stand, who hold the line,  \nAnd to the hope that, like a sunrise,  \nTurns every storm into a new day.",
+  "finish_reason": "stop",
+  "prompt_tokens": 82,
+  "completion_tokens": 438,
+  "total_tokens": 520,
+  "latency_ms": 568,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:50:40.584571+00:00"
+}

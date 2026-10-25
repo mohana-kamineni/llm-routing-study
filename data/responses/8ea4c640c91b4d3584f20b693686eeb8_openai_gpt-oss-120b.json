@@ -1,0 +1,20 @@
+{
+  "prompt_id": "8ea4c640c91b4d3584f20b693686eeb8",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "The altitude to the hypotenuse of a right triangle divides the hypotenuse into two segments with lengths in the ratio 1 : 2. The length of the altitude is 6 cm. How long is the hypotenuse?",
+  "response_text": "Let the right triangle be \\( \\triangle ABC\\) with right angle at \\(C\\) and hypotenuse \\(AB\\).\nDrop the altitude from \\(C\\) to the hypotenuse; let it meet \\(AB\\) at \\(D\\).\n\n\\[\nAD : DB = 1 : 2 \\quad\\Longrightarrow\\quad AD = x,\\; DB = 2x\n\\]\n\nHence the whole hypotenuse is  \n\n\\[\nAB = AD + DB = x + 2x = 3x .\n\\]\n\n---\n\n### Altitude–hypotenuse segment relation  \n\nIn a right triangle the altitude to the hypotenuse satisfies  \n\n\\[\nCD^{2}=AD\\cdot DB .\n\\]\n\n(Proof: the two smaller triangles \\( \\triangle ACD\\) and \\( \\triangle BCD\\) are similar to the original triangle, giving the proportion \\( \\frac{CD}{AD} = \\frac{DB}{CD}\\).)\n\nGiven the altitude length \\(CD = 6\\) cm, we have  \n\n\\[\n6^{2}=AD\\cdot DB = x\\,(2x)=2x^{2}.\n\\]\n\nThus  \n\n\\[\n36 = 2x^{2}\\quad\\Longrightarrow\\quad x^{2}=18\\quad\\Longrightarrow\\quad x = \\sqrt{18}=3\\sqrt{2}\\ \\text{cm}.\n\\]\n\n---\n\n### Length of the hypotenuse  \n\n\\[\nAB = 3x = 3\\bigl(3\\sqrt{2}\\bigr)=9\\sqrt{2}\\ \\text{cm}.\n\\]\n\n\\[\n\\boxed{\\,AB = 9\\sqrt{2}\\ \\text{cm}\\,}\\approx 12.73\\text{ cm}.\n\\]",
+  "finish_reason": "stop",
+  "prompt_tokens": 119,
+  "completion_tokens": 679,
+  "total_tokens": 798,
+  "latency_ms": 1590,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:01:23.137967+00:00"
+}

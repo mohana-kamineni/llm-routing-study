@@ -1,0 +1,14 @@
+{
+  "prompt_id": "bbabc208f6f94445b888a870653bc87c",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a factually accurate and logically sound comparison between New York City and Chennai, tailored to the specific persona (28M from Chennai) and the defined scope (infrastructure, social interaction, and knowledge-to-livelihood pathways).\n\nKey factual points verified:\n1.  **Infrastructure:** The description of NYC's verticality, grid system, and 24-hour subway service is accurate. The contrast with Chennai's horizontal spread and reliance on two-wheelers/auto-rickshaws is factually correct.\n2.  **Social Interaction:** The characterization of NYC's direct, fast-paced communication style and the prevalence of tipping (15-20%) is accurate. The contrast with Chennai's more relational networking and lack of tipping culture is also correct.\n3.  **Knowledge & Livelihood:** The response correctly identifies NYC's robust ecosystem of micro-credentialing (bootcamps), gig economy platforms, and public knowledge resources (NYPL, NYC Open Data). The comparison to India's traditional longer academic cycles and emerging gig market is logically sound and factually supported.\n4.  **Specific Details:** References to specific entities like the MTA, NYPL, CUNY, Techstars, and the High Line are accurate. The mention of \"OMNY\" for contactless payment is current and correct.\n\nThere are no false contradictions or significant factual errors in the response. It successfully answers the prompt by detailing the changes a person would notice in the specified categories.",
+  "finish_reason": "stop",
+  "prompt_tokens": 4171,
+  "completion_tokens": 311,
+  "total_tokens": 4482,
+  "timestamp": "2026-09-24T03:58:53.846837+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "a87d4fefe3284c6592d1288a80f818ca",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the most interesting fact you know?",
+  "response_text": "One of the most mind‑blowing facts comes from the world of physics: **a single teaspoon of neutron‑star material would weigh about a billion tons on Earth**.\n\nA neutron star is the ultra‑dense core left behind after a massive star explodes as a supernova. In its core, protons and electrons have been crushed together so tightly that they form neutrons, creating a sphere only about 20 km (12 mi) across but packing more mass than the Sun. Because the matter is packed at roughly nuclear density—about 10¹⁸ kg per cubic meter—just a teaspoon (≈5 mL) of that stuff would have a mass of ~10⁹ kg, which is the weight of a mountain‑sized chunk of rock. If you could somehow place that teaspoon on Earth, the gravitational pull would instantly crush the planet’s crust beneath it! \n\nIt’s a vivid reminder of how extreme the universe can be—tiny volumes can hold unimaginable amounts of mass.",
+  "finish_reason": "stop",
+  "prompt_tokens": 80,
+  "completion_tokens": 273,
+  "total_tokens": 353,
+  "latency_ms": 867,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:37:43.217046+00:00"
+}

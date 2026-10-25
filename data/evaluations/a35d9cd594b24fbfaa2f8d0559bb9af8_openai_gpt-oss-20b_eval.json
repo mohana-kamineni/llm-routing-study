@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a35d9cd594b24fbfaa2f8d0559bb9af8",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the conversation in two sentences, covering all key aspects: the context of the real-time transcription test, the visitor's (Rana's) description of his past weekend (festival, Belt Line), the agent's observation of the transcription lag, the visitor's lack of specific plans for the upcoming weekend, and the conclusion of the call. The summary is factually consistent with the source text and meets the length constraint.",
+  "finish_reason": "stop",
+  "prompt_tokens": 505,
+  "completion_tokens": 94,
+  "total_tokens": 599,
+  "timestamp": "2026-09-19T17:36:44.966596+00:00"
+}

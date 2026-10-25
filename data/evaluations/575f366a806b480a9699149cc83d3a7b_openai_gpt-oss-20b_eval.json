@@ -1,0 +1,14 @@
+{
+  "prompt_id": "575f366a806b480a9699149cc83d3a7b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies Bern as the capital of Switzerland. It accurately notes that Bern serves as the seat of the federal government and is often referred to as the \"federal city,\" which aligns with the constitutional status of Switzerland (which technically has no official capital but designates Bern as the seat of government). There are no factual errors or contradictions in the provided text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 210,
+  "completion_tokens": 81,
+  "total_tokens": 291,
+  "timestamp": "2026-09-22T17:18:37.387375+00:00"
+}

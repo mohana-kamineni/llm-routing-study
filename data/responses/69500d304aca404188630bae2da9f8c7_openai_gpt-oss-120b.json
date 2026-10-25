@@ -1,0 +1,20 @@
+{
+  "prompt_id": "69500d304aca404188630bae2da9f8c7",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Solve 2x + 4 = 8",
+  "response_text": "To solve the linear equation  \n\n\\[\n2x + 4 = 8,\n\\]\n\nfollow these steps:\n\n1. **Isolate the term with \\(x\\)**  \n   Subtract 4 from both sides:\n\n   \\[\n   2x + 4 - 4 = 8 - 4 \\quad\\Longrightarrow\\quad 2x = 4.\n   \\]\n\n2. **Solve for \\(x\\)**  \n   Divide both sides by 2:\n\n   \\[\n   \\frac{2x}{2} = \\frac{4}{2} \\quad\\Longrightarrow\\quad x = 2.\n   \\]\n\n**Answer:** \\(x = 2\\).",
+  "finish_reason": "stop",
+  "prompt_tokens": 81,
+  "completion_tokens": 190,
+  "total_tokens": 271,
+  "latency_ms": 1585,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:02:23.752533+00:00"
+}

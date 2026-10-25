@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b880af732df44bffb350a08bc66c56ce",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "A 4-year-old girl presents to the pediatrician\\u2019s office for a physical examination prior to starting preschool. She was born at 39 weeks gestation via spontaneous vaginal delivery. She is up to date on all vaccines and is meeting all developmental milestones. Past medical history is noncontributory. She takes no medications but does take a chewable vitamin daily. She lives with her parents and older brother in a house. Today, her blood pressure is 110/65 mm Hg, heart rate is 90/min, respiratory rate is 22/min, and temperature of 37.0\\u00b0C (98.6\\u00b0F). On physical exam, she appears well developed and pleasant. She sits listening to the conversation and follows directions. Palpation of the heart reveals a mild parasternal heave. Auscultation reveals a normal S1 but the S2 is split and remains split during inhalation and exhalation. Additionally, there is a medium pitched midsystolic murmur that is loudest between ribs 2 and 3 on the left side and a very soft diastolic rumble. Which of the following congenital defects is the most likely cause of these findings?  option a: Atrial septal defect; option b: Coarctation of the aorta; option c: Patent ductus arteriosus; option d: Tetralogy of Fallot",
+  "response_text": "**Answer: Atrial septal defect (ASD)**  \n\n**Why this fits the exam findings**\n\n| Finding | What it suggests | How it fits ASD |\n|---------|------------------|-----------------|\n| **Fixed split S₂** (does not vary with inspiration) | Classic for ASD – the right‑sided valve closes later because of the volume overload, so the split is “fixed.” | ✔ |\n| **Parasternal heave** | Indicates right‑ventricular hypertrophy from chronic volume overload. | ✔ |\n| **Midsystolic ejection murmur at left upper sternal border (ribs 2‑3)** | Increased flow across the pulmonary valve produces a systolic ejection murmur in that area. | ✔ |\n| **Soft diastolic rumble** | Often heard over the tricuspid valve in ASD due to increased diastolic flow. | ✔ |\n\nOther options:\n\n- **Coarctation of the aorta** – would show upper‑extremity hypertension, weak femoral pulses, and a continuous murmur from collaterals, not a fixed split S₂.  \n- **Patent ductus arteriosus** – produces a continuous “machinery” murmur, not a midsystolic murmur.  \n- **Tetralogy of Fallot** – has a harsh systolic ejection murmur but no fixed split S₂ and no diastolic rumble.\n\nThus, the constellation of a fixed split S₂, right‑ventricular heave, midsystolic ejection murmur at the left upper sternal border, and a soft diastolic rumble is most characteristic of an **atrial septal defect**.",
+  "finish_reason": "stop",
+  "prompt_tokens": 361,
+  "completion_tokens": 1029,
+  "total_tokens": 1390,
+  "latency_ms": 5448,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:02:30.552430+00:00"
+}

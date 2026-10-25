@@ -1,0 +1,21 @@
+{
+  "prompt_id": "8ea4c640c91b4d3584f20b693686eeb8",
+  "category": "reasoning_math",
+  "prompt_text": "The altitude to the hypotenuse of a right triangle divides the hypotenuse into two segments with lengths in the ratio 1 : 2. The length of the altitude is 6 cm. How long is the hypotenuse?",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b-20260604:free",
+  "provider": "openrouter",
+  "model_returned": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw_response": "The altitude to the hypotenuse of a right triangle is the geometric mean of the two segments it creates on the hypotenuse. Let the segments be \\(x\\) and \\(2x\\) (ratio 1:2). The altitude \\(h = 6\\) cm satisfies:\n\n\\[\nh^2 = x \\cdot 2x \\implies 36 = 2x^2 \\implies x^2 = 18 \\implies x = 3\\sqrt{2} \\text{ cm}.\n\\]\n\nThe hypotenuse is the sum of the segments:\n\n\\[\n\\text{Hypotenuse} = x + 2x = 3x = 3 \\cdot 3\\sqrt{2} = 9\\sqrt{2} \\text{ cm}.\n\\]\n\n\\boxed{9\\sqrt{2} \\text{ cm}}",
+  "response_text": "The altitude to the hypotenuse of a right triangle is the geometric mean of the two segments it creates on the hypotenuse. Let the segments be \\(x\\) and \\(2x\\) (ratio 1:2). The altitude \\(h = 6\\) cm satisfies:\n\n\\[\nh^2 = x \\cdot 2x \\implies 36 = 2x^2 \\implies x^2 = 18 \\implies x = 3\\sqrt{2} \\text{ cm}.\n\\]\n\nThe hypotenuse is the sum of the segments:\n\n\\[\n\\text{Hypotenuse} = x + 2x = 3x = 3 \\cdot 3\\sqrt{2} = 9\\sqrt{2} \\text{ cm}.\n\\]\n\n\\boxed{9\\sqrt{2} \\text{ cm}}",
+  "reasoning_text": "We are given a right triangle. The altitude to the hypotenuse divides the hypotenuse into two segments with lengths in the ratio 1:2. The altitude length is 6 cm. We need to find the length of the hypotenuse.\n\nLet the right triangle be ABC, right angle at C. The hypotenuse is AB. The altitude from C to AB meets AB at D. So CD = 6 cm. AD and DB are the segments of the hypotenuse. Given AD : DB = 1 : 2. Let AD = x, DB = 2x. Then hypotenuse AB = 3x.\n\nIn a right triangle, the altitude to the hypotenuse is the geometric mean of the segments of the hypotenuse. That is, CD^2 = AD * DB.\n\nSo 6^2 = x * 2x => 36 = 2x^2 => x^2 = 18 => x = sqrt(18) = 3√2 (positive length).\n\nThen hypotenuse AB = 3x = 3 * 3√2 = 9√2 cm.\n\nBut wait, is that the only interpretation? The ratio 1:2 could be either way, but it doesn't matter because product is symmetric. So hypotenuse = 9√2 cm.\n\nLet's double-check: AD = 3√2, DB = 6√2, product = 18*2? Actually 3√2 * 6√2 = 18 * 2 = 36, sqrt = 6. Yes.\n\nThus the hypotenuse is 9√2 cm.\n\nWe can also compute the legs if needed, but not required.\n\nAnswer: 9√2 cm.",
+  "input_tokens": 64,
+  "output_tokens": 553,
+  "total_tokens": 617,
+  "reasoning_tokens": 283,
+  "latency_seconds": 105.35,
+  "timestamp": "2026-09-13T13:49:49.844799+00:00",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "retries": 0,
+  "error": null
+}

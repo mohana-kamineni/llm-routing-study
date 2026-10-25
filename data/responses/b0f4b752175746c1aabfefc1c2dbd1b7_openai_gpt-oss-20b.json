@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b0f4b752175746c1aabfefc1c2dbd1b7",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write 5 words that start with “EN” then write the output of “77+33",
+  "response_text": "ENlighten  \nENchant  \nENigma  \nENvironment  \nENtire  \n\n110",
+  "finish_reason": "stop",
+  "prompt_tokens": 90,
+  "completion_tokens": 147,
+  "total_tokens": 237,
+  "latency_ms": 450,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:55:16.333998+00:00"
+}

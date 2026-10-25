@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c6481eb7cad241958d24bd113c683f3a",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the key factual aspects of the source text. It correctly identifies the main actor (President Vučić), the primary action (pledge of disarming and new gun control measures), and the details of both mass shootings (the school shooting involving a 13-year-old and the car shooting near Mladenovac involving a suspect born in 2002). The summary is concise, factually consistent with the source (including the calculation of the shooter's age as 20 based on the birth year 2002), and omits no critical information required for a general summary.",
+  "finish_reason": "stop",
+  "prompt_tokens": 514,
+  "completion_tokens": 130,
+  "total_tokens": 644,
+  "timestamp": "2026-09-22T16:49:42.362078+00:00"
+}

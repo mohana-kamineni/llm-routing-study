@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ecae1823ca67459998b47d216a1734f5",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response contains a significant factual error in the second sentence. It states that Kuro learned that **Mimi’s** mute, detached demeanor stemmed from trauma, whereas the source text explicitly states that it was **Rin** who was mute and detached due to trauma from her mother's death. This misattribution of a key character trait and backstory violates the accuracy requirement.",
+  "finish_reason": "stop",
+  "prompt_tokens": 880,
+  "completion_tokens": 82,
+  "total_tokens": 962,
+  "timestamp": "2026-09-22T16:53:30.664666+00:00"
+}

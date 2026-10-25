@@ -1,0 +1,14 @@
+{
+  "prompt_id": "197759910f8d4b56b4100e2f9fc00492",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides correct Python code using the 6k±1 optimization for trial division. The logic is sound: it handles edge cases, eliminates multiples of 2 and 3, and checks divisors up to the square root of the number. The final conclusion that 2023 is not prime is correct, as $2023 = 7 \\times 17^2$. The code would correctly output `False`. There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 593,
+  "completion_tokens": 104,
+  "total_tokens": 697,
+  "timestamp": "2026-09-19T17:07:19.485098+00:00"
+}

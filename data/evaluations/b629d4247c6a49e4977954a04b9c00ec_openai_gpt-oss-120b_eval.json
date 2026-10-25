@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b629d4247c6a49e4977954a04b9c00ec",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies that the number of oranges is irrelevant to the count of apples. It accurately calculates the remaining apples by subtracting the 2 eaten from the initial 20 (20 - 2 = 18). The final answer is correct and the reasoning contains no errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 192,
+  "completion_tokens": 66,
+  "total_tokens": 258,
+  "timestamp": "2026-09-24T12:34:47.148110+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "077e47fba4234cc499e8f725b37f1206",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to cover the required key aspects because it is a direct conversational reply to a specific user query (\"Do you have Colombian pizza?\") rather than a summary of the source text's instructions and data. Specifically:\n1. It does not summarize the menu items or prices (Key Aspect 4).\n2. It does not outline the operational rules regarding order confirmation tables or clarifying questions (Key Aspects 2 and 3).\n3. It does not address the identity constraints or language rules as part of a summary (Key Aspects 1 and 5).\n\nThe prompt explicitly asks to \"create a final answer\" based on the extracted parts, but the evaluation criteria demand a summary covering the *key aspects* of the source passage (which includes the system instructions and the full menu). The provided response only addresses the immediate user question and omits the vast majority of the source material's content and instructions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 715,
+  "completion_tokens": 196,
+  "total_tokens": 911,
+  "timestamp": "2026-09-19T17:28:43.682442+00:00"
+}

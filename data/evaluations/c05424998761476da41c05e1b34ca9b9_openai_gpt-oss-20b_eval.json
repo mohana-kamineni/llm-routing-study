@@ -1,0 +1,12 @@
+{
+  "prompt_id": "c05424998761476da41c05e1b34ca9b9",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "auto_terminal_failure",
+  "terminal_type": "empty_text_generation",
+  "terminal_description": "Observed empty-response generation condition: status=success, finish_reason=length, completion_tokens=4096, response_text empty. No usable candidate content for evaluation.",
+  "verdict": "FAIL",
+  "raw_output": null,
+  "timestamp": "2026-09-18T09:23:19.553608+00:00"
+}

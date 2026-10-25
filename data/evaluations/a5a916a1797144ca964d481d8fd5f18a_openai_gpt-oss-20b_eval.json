@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a5a916a1797144ca964d481d8fd5f18a",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale:\n1.  **Incomplete Code**: The provided Go code snippet is cut off in the middle of the `BeautyScore` function (ending at `if sorted {`). It does not provide a complete, compilable, or executable solution.\n2.  **Missing Logic**: The code defines several heuristic checks (ascending, descending, sorted, palindrome, pairs, repeats) but never completes the scoring logic or the final logistic transformation mentioned in the text.\n3.  **Undefined Helper**: The code calls a helper function `equalSlices` which is not defined in the provided snippet, making it non-functional even if the rest of the code were present.\n4.  **Ambiguous Problem Interpretation**: While the problem is open-ended (\"detecting beautifullness probability\"), a valid response must provide a working implementation. The provided response fails to do so due to the truncation and missing definitions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1446,
+  "completion_tokens": 194,
+  "total_tokens": 1640,
+  "timestamp": "2026-09-19T17:28:31.201886+00:00"
+}

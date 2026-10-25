@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e1ab84cfeca345018dd8833944932036",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a comprehensive and accurate summary of the source reviews. It correctly calculates the average rating (4.6/5) and identifies the key themes:\n1.  **Positive Aspects:** It accurately captures the enthusiasm of the children, the realistic design, the interactive \"brewing\" experience, the reusability/refills, and the praise for customer service and delivery.\n2.  **Negative Aspects:** It correctly identifies the specific complaints regarding the smoke/odor, the initial malfunction, the charging requirement, the price, and the short-lived novelty for some users.\n3.  **Accuracy:** The summary does not introduce hallucinated information and faithfully represents the sentiment and specific details found in the JSON data. The use of tables effectively organizes the information, making it easy to digest while covering all essential factual aspects.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1287,
+  "completion_tokens": 177,
+  "total_tokens": 1464,
+  "timestamp": "2026-09-22T18:26:38.551395+00:00"
+}

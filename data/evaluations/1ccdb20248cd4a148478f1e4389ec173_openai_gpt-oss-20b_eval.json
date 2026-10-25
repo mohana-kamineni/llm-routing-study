@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1ccdb20248cd4a148478f1e4389ec173",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides an accurate and comprehensive summary of the provided source text. It correctly identifies the key themes: the post-pandemic reunion of the nation, the specific context of Russia's invasion of Ukraine (including the praise for Ukrainian resistance and the call for unity), the role of NATO and diplomatic coalition-building, and the overarching message of resolve against tyranny. The summary captures the essential factual aspects and the tone of the speech without introducing inaccuracies or omitting critical information present in the excerpt.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1033,
+  "completion_tokens": 105,
+  "total_tokens": 1138,
+  "timestamp": "2026-09-22T17:19:40.038410+00:00"
+}

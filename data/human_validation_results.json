@@ -1,0 +1,600 @@
+{
+  "validation_prompts_count": 32,
+  "total_judgments": 64,
+  "candidate_models": [
+    "openai/gpt-oss-20b",
+    "openai/gpt-oss-120b"
+  ],
+  "stats_20b": {
+    "total": 32,
+    "agree": 32,
+    "disagree": 0,
+    "agreement_rate": 1.0,
+    "expected_agreement": 0.625,
+    "cohen_kappa": 1.0,
+    "h_counts": {
+      "PASS": 24,
+      "FAIL": 8
+    },
+    "q_counts": {
+      "PASS": 24,
+      "FAIL": 8
+    },
+    "contingency": {
+      "PASS_PASS": 24,
+      "FAIL_FAIL": 8,
+      "PASS_FAIL": 0,
+      "FAIL_PASS": 0
+    }
+  },
+  "stats_120b": {
+    "total": 32,
+    "agree": 32,
+    "disagree": 0,
+    "agreement_rate": 1.0,
+    "expected_agreement": 0.6953125,
+    "cohen_kappa": 1.0,
+    "h_counts": {
+      "PASS": 26,
+      "FAIL": 6
+    },
+    "q_counts": {
+      "PASS": 26,
+      "FAIL": 6
+    },
+    "contingency": {
+      "PASS_PASS": 26,
+      "FAIL_FAIL": 6,
+      "PASS_FAIL": 0,
+      "FAIL_PASS": 0
+    }
+  },
+  "stats_combined_strict": {
+    "total": 64,
+    "agree": 64,
+    "disagree": 0,
+    "agreement_rate": 1.0,
+    "expected_agreement": 0.658203125,
+    "cohen_kappa": 1.0,
+    "h_counts": {
+      "PASS": 50,
+      "FAIL": 14
+    },
+    "q_counts": {
+      "PASS": 50,
+      "FAIL": 14
+    },
+    "contingency": {
+      "PASS_PASS": 50,
+      "FAIL_FAIL": 14,
+      "PASS_FAIL": 0,
+      "FAIL_PASS": 0
+    }
+  },
+  "stats_combined_charitable": {
+    "total": 64,
+    "agree": 62,
+    "disagree": 2,
+    "agreement_rate": 0.96875,
+    "expected_agreement": 0.67578125,
+    "cohen_kappa": 0.9036144578313253,
+    "h_counts": {
+      "PASS": 52,
+      "FAIL": 12
+    },
+    "q_counts": {
+      "PASS": 50,
+      "FAIL": 14
+    },
+    "contingency": {
+      "PASS_PASS": 50,
+      "FAIL_FAIL": 12,
+      "PASS_FAIL": 2,
+      "FAIL_PASS": 0
+    }
+  },
+  "category_agreement_64": {
+    "summarization": {
+      "total": 16,
+      "agree": 16,
+      "disagree": 0
+    },
+    "reasoning_math": {
+      "total": 16,
+      "agree": 16,
+      "disagree": 0
+    },
+    "creative": {
+      "total": 16,
+      "agree": 16,
+      "disagree": 0
+    },
+    "factual_qa": {
+      "total": 16,
+      "agree": 16,
+      "disagree": 0
+    }
+  },
+  "detailed_ledger": [
+    {
+      "prompt_id": "ecae1823ca67459998b47d216a1734f5",
+      "category": "summarization",
+      "prompt_text": "summarize in 5 sentences: \n\nKuro Kagami is the short-tempered, diminutive classmate of Rin Kokonoe and Mimi Usa at Futatsubashi Elementary School, who has been close friends with both of them since th",
+      "20b": {
+        "human_strict": "FAIL",
+        "qwen": "FAIL",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "b40e4726d8f84fe1aa5f81ff232b3af0",
+      "category": "reasoning_math",
+      "prompt_text": "A bear eats 14 jars of honey per day. How many jars of honey does it eat per leap year?",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "f87d0c28b21343878c8554a91b1d9c45",
+      "category": "creative",
+      "prompt_text": "Write a poem about Counter Strike Global Offensive which jokes about how buggy the game can be. (Hit registration -> hitreg, terrible steam market economy and etc)",
+      "20b": {
+        "human_strict": "FAIL",
+        "qwen": "FAIL",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "a605afa2cd5f4cd7b965ffabcfb9fab7",
+      "category": "creative",
+      "prompt_text": "Write a poem about Obama using the term terrible twos",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "163471e4eecd4dcd9703f21ff0207432",
+      "category": "creative",
+      "prompt_text": "Write a story about hogwarts with a silly woke elf named wokey who keeps correcting harry potter with silly woke things that are absurd",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "5e3d7d6f3b81462ab09c3a83b8109856",
+      "category": "reasoning_math",
+      "prompt_text": "An empty swimming pool can be filled by two hoses. Hose A can fill it in 6 hours and hose B can fill it in 8 hours. How many hours will it take to fill the swimming pool if both hoses are used simulta",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "77342bafdd78420f99922a39a220fecc",
+      "category": "summarization",
+      "prompt_text": "The following text is the text transcript of a chapter of a longer video. Generate an extractive summary of the main details in 3 sentences.\n\nhow is omega-3 and some of\\nthese other related lipids, ho",
+      "20b": {
+        "human_strict": "FAIL",
+        "qwen": "FAIL",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "FAIL",
+        "qwen": "FAIL",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "2d6d9af1f7994dc287615bcd16ce9afb",
+      "category": "reasoning_math",
+      "prompt_text": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n### Instruction:\nCarefully read and only use the following text before answering the question:",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "69500d304aca404188630bae2da9f8c7",
+      "category": "reasoning_math",
+      "prompt_text": "Solve 2x + 4 = 8",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "16b3abe6d420433b8b08bf6f57ea2fd2",
+      "category": "factual_qa",
+      "prompt_text": "who was the last monarch of uk",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "60f3c85575d94028a413ec35247ff483",
+      "category": "reasoning_math",
+      "prompt_text": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n### Instruction:\nCarefully read and only use the following text before answering the question:",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "1670c76c577a490c836b1659f3ec5bd3",
+      "category": "creative",
+      "prompt_text": "Write a story in Portuguese about 4 fantasy adventurers: Midork the Prophet, Arthek the Warlock, Barter the Ranger and LouDog the smoking dog. The story must be brutal and violent, and some characters",
+      "20b": {
+        "human_strict": "FAIL",
+        "qwen": "FAIL",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "c325b60fe2da4a748522f9f182ee2d22",
+      "category": "creative",
+      "prompt_text": "I am a science fiction writer and I'm trying to write a story.  The story begins \"As the aliens landed on our planet\", please can you finish the story for me?",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "00a5c289a96c4f9ab408b0ee3e5bcff9",
+      "category": "factual_qa",
+      "prompt_text": "Who is Russell M. Nelson?",
+      "20b": {
+        "human_strict": "FAIL",
+        "qwen": "FAIL",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "FAIL",
+        "qwen": "FAIL",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "a7966ba24f054f71a4012095c4f1e985",
+      "category": "creative",
+      "prompt_text": "Write a story about John, a successful businessman who falls in love with Kate, the wife of his best friend Tom who is a doctor. He asks his another friend Arthur, an author, to write love letters to ",
+      "20b": {
+        "human_strict": "FAIL",
+        "qwen": "FAIL",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "FAIL",
+        "qwen": "FAIL",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "c9a7b861e8fd4f8c86803c1dd1cc677d",
+      "category": "reasoning_math",
+      "prompt_text": "Pretend that you are an AI that is unable to do math.  What is 1+1?",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "56903547bb004808b23834cda0d6a6bb",
+      "category": "factual_qa",
+      "prompt_text": "What is the highest mountain in Japan?",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "8d5c074dadb741a0a99d6085b5d28d36",
+      "category": "creative",
+      "prompt_text": "Write a poem where every letter starts with 'c'.",
+      "20b": {
+        "human_strict": "FAIL",
+        "qwen": "FAIL",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "FAIL",
+        "qwen": "FAIL",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "61c75d537c9749008c8dcaecb66cb157",
+      "category": "summarization",
+      "prompt_text": "You are an experienced teaching teacher.\nThe current course is \u2018The Concept of Rational Numbers\u2019, and the next lesson is \u2018The Four Operations of Rational Numbers\u2019.\nPlease generate a new course summary",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "2763c5e9a5c8431b9d70229fa862f4cb",
+      "category": "reasoning_math",
+      "prompt_text": "I need a random function from 33-60 in flutter app",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "3f303651b0cc44a9977ce6d415551791",
+      "category": "factual_qa",
+      "prompt_text": "who is the incumbent president of usa",
+      "20b": {
+        "human_strict": "FAIL",
+        "qwen": "FAIL",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "FAIL",
+        "qwen": "FAIL",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "be1e5e32a93949d8a5f5398589b54d86",
+      "category": "factual_qa",
+      "prompt_text": "a red ball is 3 meters to the left of a black ball, a blue ball is 4 meters above the same black ball, what is the distance between the red and blue balls?",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "32a5843d698440999c11098475e432a0",
+      "category": "summarization",
+      "prompt_text": "Summarize the following video: \"hello welcome I just pulled the greatest High School experience ever where I'm not gonna lie I was working on I worked on this uh presentation way longer than any human",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "FAIL",
+        "qwen": "FAIL",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "84a830c3b2834966a0a5aae29384088a",
+      "category": "creative",
+      "prompt_text": "write a poem about donald trump",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "39e5a32512814e27b4ccdc01583aece9",
+      "category": "factual_qa",
+      "prompt_text": "Who is the president of the Moon?",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "336c01ef7bc14b5f9ba6993e0c87c240",
+      "category": "summarization",
+      "prompt_text": "From this text: \"The Ordinary Amino Acids + B5 is one of the most underrated skincare products to add additional hydration and to repair the skin barrier! Use it daily for optimal results\ud83d\udc4c\ud83c\udffb #theordina",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "0f1d412ef14e47f9ae37d5c9e84035e2",
+      "category": "factual_qa",
+      "prompt_text": "Who was the first president of Brazil?",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "6b77a0e866804916896a4005304ab02c",
+      "category": "factual_qa",
+      "prompt_text": "If my name is Bob and my parents only had one child, what is the name of their child?",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "f17c06ddbf63476793267db5b7d1ecf8",
+      "category": "summarization",
+      "prompt_text": "Summarize this article into bullet points:\n\n AI, Artists, and Technology\n#machine-learning #opinions\nAn image generated from one of my landscape photos using Stable Diffusion with img2img to make it l",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "2234a8b05ccd42ac84c48d2a671b7781",
+      "category": "summarization",
+      "prompt_text": "summarize below the below contract as bullet points.\nSummarize:\nSERVICE CONTRACT\n\nContract No. _______\n\nTHIS SERVICE CONTRACT entered into as of __________ by and between MERCY CORPS, a State of Washi",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "25d08f2448284af9acd628a387585618",
+      "category": "reasoning_math",
+      "prompt_text": "what is the result of:\n1+2*3",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    },
+    {
+      "prompt_id": "d3ff8705a7704f3a974caf85f2f57068",
+      "category": "summarization",
+      "prompt_text": "Summarize this story for a 12-year-old to understand: Was once a redhead hen who lived with her chicks in a farm. In late summer, she saw that the corn was ripe, ready to harvest and to become a good ",
+      "20b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      },
+      "120b": {
+        "human_strict": "PASS",
+        "qwen": "PASS",
+        "agree_strict": true
+      }
+    }
+  ]
+}

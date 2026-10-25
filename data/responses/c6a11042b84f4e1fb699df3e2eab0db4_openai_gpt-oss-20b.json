@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c6a11042b84f4e1fb699df3e2eab0db4",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Explain to me like I'm five, what is a black hole, what is Hawkins radiation (or emission, I don't know what is the correct one)",
+  "response_text": "**What is a black hole?**  \nImagine a super‑strong vacuum cleaner that is so powerful it can suck in anything that comes too close – even light.  \n- A black hole is made when a very big star runs out of fuel and collapses into a tiny, super‑dense spot.  \n- It has a “border” called the **event horizon**. Once something crosses that border, it can’t get back out.  \n- Because it pulls so hard, we can’t see it directly; we only know it’s there because it drags other stars and gas around it.\n\n**What is Hawking radiation?**  \n- In the 1970s, a scientist named **Stephen Hawking** used a clever idea from quantum physics to show that black holes aren’t completely “black.”  \n- Tiny pairs of particles pop into existence just outside the event horizon.  \n- One of the pair falls in, and the other escapes. The escaping one looks like a faint glow or a little puff of light coming from the black hole.  \n- This glow is called **Hawking radiation**.  \n- It’s extremely weak, so we can’t see it from far away, but it means a black hole can slowly lose a tiny bit of mass over a very, very long time.\n\nSo, a black hole is a super‑strong gravity well that traps everything, and Hawking radiation is a tiny, almost invisible leak of light that lets the black hole slowly “breathe” out over billions of years.",
+  "finish_reason": "stop",
+  "prompt_tokens": 101,
+  "completion_tokens": 1241,
+  "total_tokens": 1342,
+  "latency_ms": 4583,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:31:51.275994+00:00"
+}

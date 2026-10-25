@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e55e8fb501bf417c840c15a8c0ec5f03",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a poem about quantum physics but make it for a 5 year old",
+  "response_text": "**Tiny Tiny Dancing Particles**\n\nIn a world that’s super‑small,  \nLittle atoms dance and crawl.  \nThey can be here, or there, or both—  \nLike a magic coin that flips and goes.\n\nThey’re so tiny you can’t see,  \nBut they’re full of mystery.  \nThey jump from one spot to another,  \nLike a hop‑scotch game for a super‑bigger brother.\n\nWhen you look, they decide,  \nWhat they’ll do, what they’ll hide.  \nSo if you’re curious, just smile,  \nAnd let the tiny dancers stay awhile.",
+  "finish_reason": "stop",
+  "prompt_tokens": 86,
+  "completion_tokens": 234,
+  "total_tokens": 320,
+  "latency_ms": 5694,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:27:44.404697+00:00"
+}

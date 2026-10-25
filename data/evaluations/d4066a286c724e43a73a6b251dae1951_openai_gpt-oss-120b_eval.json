@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d4066a286c724e43a73a6b251dae1951",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the standard capacity of a 3.5\" high-density floppy disk (1.44 MB, specifically 1,474,560 bytes) and uses a reasonable estimate for the size of a Windows 10 ISO (approx. 5 GB). The calculation (5,368,709,120 bytes / 1,474,560 bytes ≈ 3,642.5) is mathematically correct, and the final answer of 3,643 floppies (rounding up) is accurate based on the premises. The reasoning is sound, step-by-step, and contains no substantive errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 867,
+  "completion_tokens": 156,
+  "total_tokens": 1023,
+  "timestamp": "2026-09-23T19:02:18.942532+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d25fe47b0dcd40d685ab71f9a2aa54e0",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies \"11/22/63\" as Stephen King's 2011 novel and provides an accurate, detailed description of its plot, characters, themes, and reception. It also correctly contextualizes the title with the historical event of the JFK assassination on November 22, 1963. There are no substantive factual errors or reasoning flaws in the provided information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1608,
+  "completion_tokens": 90,
+  "total_tokens": 1698,
+  "timestamp": "2026-09-24T13:41:06.926630+00:00"
+}

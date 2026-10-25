@@ -1,0 +1,14 @@
+{
+  "prompt_id": "49888eb3c6074b33885f03c1e3e56656",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately captures all essential factual aspects of the source text. It correctly identifies the organization (\"Angry Patriots Club\"), its approximate size (25 members), its founding timeline (just under two months ago), and its key members (Girkin, Gubarev, Yevych, Grubnik, Kalashnikov). It also accurately reflects the ideological diversity of the group, their stated goal (\"to win the war\"), Gubarev's description of the club as a \"collection point\" ready to politicize if the situation worsens, and Girkin's recent shift from solo livestreaming to signaling readiness to act due to the Russian army's perceived failures. The summary is concise, accurate, and omits no critical information from the provided source.",
+  "finish_reason": "stop",
+  "prompt_tokens": 707,
+  "completion_tokens": 163,
+  "total_tokens": 870,
+  "timestamp": "2026-09-22T16:51:45.381955+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "1c41b17837fd44ecb417b5724c284b26",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about perfectionism.",
+  "response_text": "**Perfection’s Whisper**\n\nIn the quiet of a morning desk,  \na ruler lies, a ruler’s breath—  \nthe line it draws is straight, exact,  \nyet trembles at the edge of “enough.”\n\nEach letter, inked in careful rows,  \na soldier marching to a drum  \nthat beats a tempo only you can hear—  \nthe metronome of “must be better.”\n\nThe mirror shows a face half‑finished,  \na portrait brushed in shades of doubt,  \nwhere every flaw is magnified,  \nand every triumph feels a draft.\n\nYou chase the ghost of flawless form,  \na phantom stitched from habit’s thread,  \nand in the chase you lose the scent  \nof simple joy that lingers there.\n\nBut perfection is a fragile glass,  \nreflecting back what we project—  \na thousand shards of hope and fear,  \neach one a story you have told.\n\nSo let the lines be slightly bent,  \nthe ink run where it wants to flow,  \nthe music pause, the breath be held—  \nand find the beauty in the “almost.”\n\nFor in the cracks the light slips through,  \nand in the mess, a quiet grace—  \nthe perfect art of being human,  \nimperfect, and entirely enough.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 289,
+  "total_tokens": 367,
+  "latency_ms": 985,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:46:49.672290+00:00"
+}

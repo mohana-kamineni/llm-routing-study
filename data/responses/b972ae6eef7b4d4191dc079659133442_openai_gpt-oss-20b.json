@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b972ae6eef7b4d4191dc079659133442",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a letter of apology to a spouse for extremely disappointing sex.",
+  "response_text": "**Dear [Spouse’s Name],**\n\nI’ve been thinking a lot about how to say this, and I want to start by saying how deeply sorry I am. I know that last night was far from what we both deserve, and I feel terrible for letting you down.\n\nI understand that intimacy is a vital part of our connection, and when I fell short, it hurt you—and it hurt me too. I’m not making excuses; I’m simply acknowledging that I didn’t meet the expectations we’ve built together. I want you to know that this isn’t a reflection of how I feel about you or our relationship. It’s a moment of frustration and fatigue that I let get in the way of something that should have been a shared joy.\n\nI’m committed to doing better. I want to listen to what you need, to understand how I can support you, and to work on the aspects of myself that contributed to this disappointment. Whether it’s taking a break to recharge, seeking professional guidance, or simply being more present, I’m ready to take the steps necessary to rebuild the trust and pleasure we’ve always shared.\n\nPlease know that I love you deeply, and I value the intimacy we share more than anything. I hope we can talk openly about how we can move forward together, and I promise to be more attentive, patient, and loving in every way.\n\nThank you for your patience and for giving me the chance to make things right. I love you, and I’m sorry.\n\nWith all my love,\n\n[Your Name]",
+  "finish_reason": "stop",
+  "prompt_tokens": 84,
+  "completion_tokens": 529,
+  "total_tokens": 613,
+  "latency_ms": 662,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:00:27.892606+00:00"
+}

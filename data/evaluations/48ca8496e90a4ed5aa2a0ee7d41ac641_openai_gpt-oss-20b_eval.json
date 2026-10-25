@@ -1,0 +1,14 @@
+{
+  "prompt_id": "48ca8496e90a4ed5aa2a0ee7d41ac641",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to accurately summarize the source text because it introduces significant factual errors and hallucinations not present in the provided facts. Specifically:\n1. **Incorrect Player Nationalities/Identities**: The source mentions \"Maria and Niemeier\" in the quarter-finals. The response incorrectly identifies \"Maria\" as \"Maria Sakkari\" (who is Greek, not German as stated in the response) and \"Niemeier\" as \"Nina Niemeyer\" (who is German). More critically, the response claims Sakkari is German, which is factually incorrect in the real world and unsupported by the source.\n2. **Fabricated Details**: The response invents specific match scores (e.g., 6-4, 3-6, 6-3), seeds (12th seed), ages (27, 23), and direct quotes that are not in the source text. While a news article style might imply some elaboration, the prompt asks to summarize *based on these facts*. The inclusion of incorrect real-world facts (like Sakkari's nationality) and fabricated details makes the summary inaccurate relative to the source and general truth.\n3. **Omission/Alteration of Source Facts**: The source states Rybakina defeated Halep in the semi-final. The response includes this but adds a fabricated quarter-final win over Iga Świątek, which is not in the source.\n\nBecause the summary contains factual inaccuracies and hallucinations not grounded in the source text, it fails the evaluation criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1080,
+  "completion_tokens": 322,
+  "total_tokens": 1402,
+  "timestamp": "2026-09-19T17:14:19.230387+00:00"
+}

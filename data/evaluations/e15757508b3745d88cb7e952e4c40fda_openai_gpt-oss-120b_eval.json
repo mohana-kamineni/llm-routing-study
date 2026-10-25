@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e15757508b3745d88cb7e952e4c40fda",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies that the United States was not founded by a single individual but by a group of leaders known as the Founding Fathers. It accurately lists key figures such as Thomas Jefferson, James Madison, and George Washington, along with their specific contributions (e.g., Declaration of Independence, Constitution, First Presidency). The historical timeline and descriptions provided are factually accurate and contain no false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 637,
+  "completion_tokens": 86,
+  "total_tokens": 723,
+  "timestamp": "2026-09-24T12:37:42.536117+00:00"
+}

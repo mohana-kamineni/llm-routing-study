@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1e434d424e1640bb888f189ef8f1654a",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the square root of 42. It provides the exact radical form ($\\sqrt{42}$) and an accurate numerical approximation ($\\approx 6.4807406984$). The final summary (\"about 6.48\") is also consistent with the calculated value. There are no factual errors or contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 226,
+  "completion_tokens": 83,
+  "total_tokens": 309,
+  "timestamp": "2026-09-19T17:09:02.612677+00:00"
+}

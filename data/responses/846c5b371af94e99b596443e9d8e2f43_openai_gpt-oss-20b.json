@@ -1,0 +1,20 @@
+{
+  "prompt_id": "846c5b371af94e99b596443e9d8e2f43",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Invent 3 short but difficult to solve python puzzles",
+  "response_text": "Below are **three very short but tricky Python puzzles**.  \nEach puzzle is a small snippet that looks innocent at first glance but hides a subtle bug or a non‑obvious behaviour.  \nYour task is to determine the *exact output* (or the value that the code ultimately produces).  \nNo solutions are given – the point is to force you to think about Python’s semantics in depth.\n\n---\n\n## Puzzle 1 – “Mutable default + recursion”\n\n```python\ndef f(n, cache=[]):\n    if n in cache:\n        return cache[n]\n    if n < 2:\n        cache.append(n)\n        return n\n    cache.append(f(n-1, cache) + f(n-2, cache))\n    return cache[-1]\n\nprint(f(5))\n```\n\n**Question:**  \nWhat is printed when this program runs?\n\n**Hint:**  \nThink about how the default argument `cache=[]` behaves across recursive calls and how the list is mutated.\n\n---\n\n## Puzzle 2 – “Generator with a changing variable”\n\n```python\ndef gen():\n    x = 0\n    while x < 3:\n        yield x\n        x += 1\n        x += 1\n\nprint(list(gen()))\n```\n\n**Question:**  \nWhat list is produced by `list(gen())`?\n\n**Hint:**  \nRemember that the `yield` statement pauses the function; the code after `yield` runs only when the generator is resumed.\n\n---\n\n## Puzzle 3 – “Lambda in a loop”\n\n```python\nfuncs = []\nfor i in range(3):\n    funcs.append(lambda: i)\n\nprint([f() for f in funcs])\n```\n\n**Question:**  \nWhat list is printed by the list‑comprehension?\n\n**Hint:**  \nConsider when the lambda’s body is evaluated relative to the loop variable `i`.\n\n---\n\n### Bonus: “Sorting with a side‑effect”\n\n```python\ndata = [5, 2, 9, 1]\ndef key(x):\n    data.append(x)\n    return x\n\nsorted_data = sorted(data, key=key)\nprint(sorted_data)\n```\n\n**Question:**  \nWhat is the final value of `sorted_data`?\n\n**Hint:**  \n`sorted` creates a copy of the list before sorting, but the `key` function mutates the original list.\n\n---\n\nEnjoy the challenge! Feel free to share your answers or ask for a walk‑through of any puzzle.",
+  "finish_reason": "stop",
+  "prompt_tokens": 81,
+  "completion_tokens": 862,
+  "total_tokens": 943,
+  "latency_ms": 1004,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:11:58.492620+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ffea599a700f411280aad786066ee6bd",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly interprets the problem statement. It accurately tracks the initial counts (Sam: 8, Sally: 4). It correctly applies the first action (Sam takes 2 from Sally), resulting in Sam having 10 and Sally having 2. It then correctly applies the second action (Sally gives an additional 2 to Sam), resulting in Sam having 12 and Sally having 0. The final answer matches the correct mathematical solution, and the reasoning steps are logically sound with no errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 326,
+  "completion_tokens": 114,
+  "total_tokens": 440,
+  "timestamp": "2026-09-28T07:47:41.770333+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "f9cbccc6ac854269976a04fc9e4659a1",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies that the premise of the question is factually incorrect. India's national capital has never been Mumbai (Bombay); it was Calcutta (Kolkata) until 1911/1931, when it shifted to New Delhi, where it remains today. The response accurately refutes the false premise, provides the correct historical timeline of the capital's location, and explains Mumbai's actual historical role as the capital of the Bombay Presidency rather than the nation. Therefore, it answers the factual inquiry by correcting the misconception without introducing false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 544,
+  "completion_tokens": 122,
+  "total_tokens": 666,
+  "timestamp": "2026-09-24T13:24:06.739716+00:00"
+}

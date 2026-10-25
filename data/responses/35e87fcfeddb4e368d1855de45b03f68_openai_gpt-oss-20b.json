@@ -1,0 +1,20 @@
+{
+  "prompt_id": "35e87fcfeddb4e368d1855de45b03f68",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "If I have 3 blue balls and 2 white balls shuffled inside a box, what is the probability I take one blue ball from inside the box ?",
+  "response_text": "You have a total of  \n\n\\[\n3\\text{ blue} + 2\\text{ white} = 5\\text{ balls}\n\\]\n\nWhen you draw one ball at random (without replacement), each ball is equally likely to be chosen.  \nThe probability that the ball you pick is blue is simply the number of blue balls divided by the total number of balls:\n\n\\[\nP(\\text{blue}) = \\frac{\\text{# blue balls}}{\\text{total # of balls}}\n               = \\frac{3}{5}\n               = 0.60\n\\]\n\nSo there is a **60 %** chance (or \\(3/5\\)) that the ball you take out is blue.",
+  "finish_reason": "stop",
+  "prompt_tokens": 102,
+  "completion_tokens": 270,
+  "total_tokens": 372,
+  "latency_ms": 5599,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:01:44.786839+00:00"
+}

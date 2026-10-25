@@ -1,0 +1,14 @@
+{
+  "prompt_id": "7340066ff5054672a4af5631e89e3a8f",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response successfully fulfills the prompt's requirements for a textbook chapter introduction targeted at 16-year-olds. It engages the reader with relatable real-world examples (sneakers, banking, social media) and accurately highlights the relevance of percentages. The mathematical examples provided are correct:\n1. 30% off $120: $120 * 0.30 = $36 discount; $120 - $36 = $84. (Correct)\n2. 2.5% interest on $1,000: $1,000 * 0.025 = $25; $1,000 + $25 = $1,025. (Correct)\n3. 300% viral: Interpreted as 3 times the original count (300/100 = 3). (Correct)\n\nThe tone is appropriate for the age group, and the structure effectively introduces the topic, outlines learning objectives, and motivates the student. There are no substantive reasoning or mathematical errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 922,
+  "completion_tokens": 239,
+  "total_tokens": 1161,
+  "timestamp": "2026-09-28T07:48:19.919797+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "a5d68090f3dc4d83b6dc4685e60105c0",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a limerick about applesauce.  Please replace every instance of the letter \"c\" with the letter \"b\" in your response.",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 101,
+  "completion_tokens": 4096,
+  "total_tokens": 4197,
+  "latency_ms": 17756,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:56:00.401840+00:00"
+}

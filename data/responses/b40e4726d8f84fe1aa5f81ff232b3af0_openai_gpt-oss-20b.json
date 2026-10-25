@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b40e4726d8f84fe1aa5f81ff232b3af0",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "A bear eats 14 jars of honey per day. How many jars of honey does it eat per leap year?",
+  "response_text": "A leap year has **366 days**.  \nThe bear eats **14 jars of honey each day**.\n\n\\[\n\\text{Jars per leap year} = 14 \\text{ jars/day} \\times 366 \\text{ days} = 5\\,124 \\text{ jars}\n\\]\n\nSo the bear consumes **5,124 jars of honey** in a leap year.",
+  "finish_reason": "stop",
+  "prompt_tokens": 94,
+  "completion_tokens": 168,
+  "total_tokens": 262,
+  "latency_ms": 630,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:23:03.004169+00:00"
+}

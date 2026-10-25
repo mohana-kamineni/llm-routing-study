@@ -1,0 +1,14 @@
+{
+  "prompt_id": "84fa843318c04856a7e562a9fa6b01ba",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies Lauren Faust as the original creator of *My Little Pony: Friendship is Magic*. Although the response contains a severe generation error (repeating \"The Simpsons-style\" hundreds of times), the core factual answer provided in the first sentence is accurate and does not contain any false contradictions regarding the creator's identity.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2270,
+  "completion_tokens": 74,
+  "total_tokens": 2344,
+  "timestamp": "2026-09-19T17:41:00.704713+00:00"
+}

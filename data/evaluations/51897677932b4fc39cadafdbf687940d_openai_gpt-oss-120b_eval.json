@@ -1,0 +1,14 @@
+{
+  "prompt_id": "51897677932b4fc39cadafdbf687940d",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately covers all five required key aspects:\n1. It correctly states she was married 10 times, with nine between 1999 and 2002, in the specified locations, and notes she was married to eight men simultaneously.\n2. It mentions the prosecutors' allegation that the marriages were part of an immigration scam/fraud scheme.\n3. It details the two criminal counts of \"offering a false instrument for filing\" related to the false statement on the 2010 marriage license.\n4. It confirms she pleaded not guilty in the Bronx State Supreme Court.\n5. It includes the separate arrest and charges for theft of service and criminal trespass for sneaking into the subway.\n\nThe summary is factually accurate and omits no critical information from the source text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 861,
+  "completion_tokens": 175,
+  "total_tokens": 1036,
+  "timestamp": "2026-09-24T14:43:21.842201+00:00"
+}

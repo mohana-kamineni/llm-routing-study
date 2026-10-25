@@ -1,0 +1,14 @@
+{
+  "prompt_id": "84f14d38f68745d1bf089fb5d8bdfb49",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately covers all four required key aspects:\n1. It correctly identifies ALiBi and explains its mechanism (biasing attention scores with a distance-proportional penalty instead of adding positional embeddings).\n2. It specifies the model size (1.3 B parameters) and the extrapolation capability (from 1,024 to 2,048 tokens).\n3. It includes the performance metrics: same perplexity as the sinusoidal baseline, 11% faster training, and 11% less memory usage.\n4. It mentions the recency bias and the superior performance on the WikiText-103 benchmark compared to other strong methods.\n\nThe summary is factually accurate and omits no critical information from the source text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 741,
+  "completion_tokens": 165,
+  "total_tokens": 906,
+  "timestamp": "2026-09-19T17:20:53.669445+00:00"
+}

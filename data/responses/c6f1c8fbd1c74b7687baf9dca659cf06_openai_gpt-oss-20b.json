@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c6f1c8fbd1c74b7687baf9dca659cf06",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "if you have 2 apples and then someone give you 2 bananas, how many lemons do you have?",
+  "response_text": "You have **zero lemons**.  \nThe question only mentions apples and bananas, so unless someone gives you lemons, you don’t have any.",
+  "finish_reason": "stop",
+  "prompt_tokens": 93,
+  "completion_tokens": 101,
+  "total_tokens": 194,
+  "latency_ms": 336,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:00:51.862219+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "f2be7acec71b4bcda9278443d411e7ab",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the overall literacy rate from the \"Literacy\" row and \"Total\" column in the provided table, which is 78.14%. The answer is accurate and contains no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 355,
+  "completion_tokens": 51,
+  "total_tokens": 406,
+  "timestamp": "2026-09-28T07:54:21.847795+00:00"
+}

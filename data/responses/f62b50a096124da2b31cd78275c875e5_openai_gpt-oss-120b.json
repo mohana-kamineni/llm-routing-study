@@ -1,0 +1,20 @@
+{
+  "prompt_id": "f62b50a096124da2b31cd78275c875e5",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the highest mountain ignoring sealevel",
+  "response_text": "The mountain that is **tallest when you ignore sea‑level elevation and measure from its base to its summit** is **Mauna Kea** on the island of Hawai‘i.\n\n| Metric | Value |\n|--------|-------|\n| **Summit elevation above sea level** | 4 205 m (13 803 ft) |\n| **Base (ocean floor) depth** | ≈ 5 995 m (≈ 19 650 ft) below sea level |\n| **Total height from base to summit** | **≈ 10 200 m** (≈ 33 500 ft) |\n| **Location** | Island of Hawai‘i, United States |\n| **Type** | Shield volcano (extinct) |\n\n### Why Mauna Kea beats Mount Everest in this measure\n- **Mount Everest** is the highest point **above sea level** at 8 848 m (29 029 ft), but its base is already high up on the Tibetan Plateau, so its total “from‑ground‑up” height is only about 9 000 m.\n- **Mauna Kea** rises from the deep Pacific Ocean floor. When you add the ~6 km of oceanic crust beneath it to its 4.2 km of land elevation, the total vertical extent exceeds 10 km, making it the tallest mountain on Earth when measured from base to peak.\n\n### Quick facts\n- **If you were standing on the summit of Mauna Kea, you would be farther from the center of the Earth than anyone else on the planet** (the equatorial bulge makes the summit of Chimborazo in Ecuador the point farthest from Earth’s center, but that’s a different “farthest‑from‑center” metric).\n- Mauna Kea is a **shield volcano** built by fluid basaltic lava flows that spread out in gentle slopes, which is why its base spreads over a huge area and its overall height is so great.\n- The mountain is **currently dormant** (last eruption ≈ 4 million years ago) and hosts some of the world’s most advanced astronomical observatories because its summit is above much of the Earth’s atmospheric water vapor.\n\nSo, ignoring sea level and looking at sheer vertical rise from base to tip, **Mauna Kea** holds the title of the highest mountain on Earth.",
+  "finish_reason": "stop",
+  "prompt_tokens": 80,
+  "completion_tokens": 675,
+  "total_tokens": 755,
+  "latency_ms": 1507,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:20:13.540437+00:00"
+}

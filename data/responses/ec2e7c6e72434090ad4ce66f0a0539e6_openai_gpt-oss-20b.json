@@ -1,0 +1,20 @@
+{
+  "prompt_id": "ec2e7c6e72434090ad4ce66f0a0539e6",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "what is the 145th most popular language",
+  "response_text": "It depends on what you’re looking for.  \n- **Natural languages**: The 145th most spoken language in the world (according to recent estimates of native speakers) is **Sranan Tongo** (spoken in Suriname).  \n- **Programming languages**: In the 2024 TIOBE Index, the 145th most popular language is **Bash** (though rankings can vary by source).\n\nLet me know which one you had in mind, or if you’re looking at a different ranking!",
+  "finish_reason": "stop",
+  "prompt_tokens": 80,
+  "completion_tokens": 413,
+  "total_tokens": 493,
+  "latency_ms": 723,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:18:44.828386+00:00"
+}

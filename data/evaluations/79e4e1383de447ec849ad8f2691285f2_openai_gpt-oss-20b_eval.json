@@ -1,0 +1,14 @@
+{
+  "prompt_id": "79e4e1383de447ec849ad8f2691285f2",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to meet the specific constraint for the summary. The prompt explicitly requested a summary in a **maximum of 10 words**. The provided summary (\"10% off at ELITE, show video, tasty Turkish food Lyon\") contains **11 words**. Additionally, while the sentiment and category are correct, the strict adherence to the word count limit is a critical part of the instruction that was violated.",
+  "finish_reason": "stop",
+  "prompt_tokens": 463,
+  "completion_tokens": 90,
+  "total_tokens": 553,
+  "timestamp": "2026-09-19T17:11:48.800522+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8b3d28928e144698bb428f1b3d657016",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe summary fails to cover several required key aspects. Specifically, it omits that the toy was purchased as a birthday gift (Key Aspect 1), that the daughter takes it everywhere (Key Aspect 2), and that the reviewer got to play with it before giving it to her (Key Aspect 5). While it captures the product description and the size/price complaint, the omission of the gift context and the reviewer's personal interaction with the item makes it an inadequate summary according to the provided criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 419,
+  "completion_tokens": 108,
+  "total_tokens": 527,
+  "timestamp": "2026-09-23T00:19:19.603626+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "83afd6025bcb4b60b57a460216935414",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a factually accurate and comprehensive explanation of how a Remote Radio Unit (RRU) works. It correctly identifies the RRU's role in the split architecture of modern cellular base stations (separating the Baseband Unit/BBU from the RF front-end). The technical details regarding signal flow (digital-to-analog conversion, up/down-conversion, amplification), key components (PA, LNA, DAC/ADC, LO), and the benefits (reduced cable loss, improved link budget) are all scientifically and logically correct. There are no false contradictions or factual errors in the provided text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1884,
+  "completion_tokens": 131,
+  "total_tokens": 2015,
+  "timestamp": "2026-09-22T17:06:47.167173+00:00"
+}

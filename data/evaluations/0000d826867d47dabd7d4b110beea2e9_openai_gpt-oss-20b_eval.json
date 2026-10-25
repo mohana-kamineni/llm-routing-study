@@ -1,0 +1,14 @@
+{
+  "prompt_id": "0000d826867d47dabd7d4b110beea2e9",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response fully satisfies the prompt's requirements. It explains the concept of \"Cognitive Bias\" in a way accessible to a novice, utilizing analogies (detective, GPS) and the Feynman technique as explicitly requested. The tone is accommodating, engaging, polite, and friendly. Crucially, it includes a brief summary at the end (Section 6 and the final Takeaway), adhering to the specific formatting constraint. The content is accurate, covering the definition, causes (heuristics), examples, implications, and mitigation strategies.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1351,
+  "completion_tokens": 119,
+  "total_tokens": 1470,
+  "timestamp": "2026-09-19T17:05:57.667979+00:00"
+}

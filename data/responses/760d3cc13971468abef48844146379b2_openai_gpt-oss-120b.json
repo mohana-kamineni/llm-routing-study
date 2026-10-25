@@ -1,0 +1,20 @@
+{
+  "prompt_id": "760d3cc13971468abef48844146379b2",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is 25 * 25?",
+  "response_text": "25 × 25 = 625.",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 39,
+  "total_tokens": 118,
+  "latency_ms": 3531,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:12:30.369846+00:00"
+}

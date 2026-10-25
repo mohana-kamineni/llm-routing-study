@@ -1,0 +1,14 @@
+{
+  "prompt_id": "dab126648afc4ff1a53396f2e830a90d",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the clinical scenario as an expanding intracranial hematoma (likely epidural given the temporal impact and lucid interval) causing uncal herniation (indicated by the dilated, fixed pupil and declining GCS). It correctly concludes that emergent surgical evacuation (craniotomy) is the most appropriate next step to relieve mass effect and prevent death. The reasoning is sound, and the final answer matches the correct medical management.",
+  "finish_reason": "stop",
+  "prompt_tokens": 549,
+  "completion_tokens": 101,
+  "total_tokens": 650,
+  "timestamp": "2026-09-22T17:08:55.863602+00:00"
+}

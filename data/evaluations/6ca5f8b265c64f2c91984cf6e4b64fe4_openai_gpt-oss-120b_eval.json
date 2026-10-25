@@ -1,0 +1,14 @@
+{
+  "prompt_id": "6ca5f8b265c64f2c91984cf6e4b64fe4",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response is merely the opening line of the interaction, asking the first question (\"How many children...\"). It does not summarize the content of the source text. The evaluation criteria explicitly require the summary to cover all key aspects, including the collection of general household info, specific child details (routine, meals, allergies), the interaction process (one question at a time), the final summary format (notecard), and the saving to \"Everplan.\" The provided response omits all of these required elements.",
+  "finish_reason": "stop",
+  "prompt_tokens": 764,
+  "completion_tokens": 108,
+  "total_tokens": 872,
+  "timestamp": "2026-09-28T07:40:08.759046+00:00"
+}

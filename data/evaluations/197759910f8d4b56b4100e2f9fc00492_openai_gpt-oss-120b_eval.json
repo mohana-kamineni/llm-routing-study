@@ -1,0 +1,14 @@
+{
+  "prompt_id": "197759910f8d4b56b4100e2f9fc00492",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides correct Python code using an efficient trial division algorithm (checking divisors of the form $6k \\pm 1$). The logic is sound: it correctly handles edge cases, eliminates multiples of 2 and 3, and checks up to $\\sqrt{n}$. The final conclusion that 2023 is not prime is correct, and the provided factorization ($2023 = 7 \\times 17^2$) is accurate. There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 588,
+  "completion_tokens": 111,
+  "total_tokens": 699,
+  "timestamp": "2026-09-23T00:11:41.883777+00:00"
+}

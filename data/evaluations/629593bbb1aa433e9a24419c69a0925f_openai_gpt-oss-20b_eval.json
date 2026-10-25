@@ -1,0 +1,14 @@
+{
+  "prompt_id": "629593bbb1aa433e9a24419c69a0925f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the source text into three distinct key takeaways that cover the essential factual aspects. \n1. It correctly identifies the link between banking sector stress and the potential for lower interest rates.\n2. It accurately reflects Powell's stance that inflation remains too high and that future policy decisions will be data-dependent rather than preset.\n3. It properly notes the economic consequences of the banking turmoil (tighter credit, weighed growth/hiring) and the lag effect of previous rate hikes. \nThe summary is concise, accurate, and omits no critical information from the provided passage.",
+  "finish_reason": "stop",
+  "prompt_tokens": 848,
+  "completion_tokens": 125,
+  "total_tokens": 973,
+  "timestamp": "2026-09-22T22:58:19.723567+00:00"
+}

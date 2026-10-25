@@ -1,0 +1,14 @@
+{
+  "prompt_id": "66e2a922eb4d44bcac3532042ff7439e",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to satisfy the explicit constraint of the prompt, which requested a **limerick**. A limerick is a specific poetic form consisting of five lines with an AABBA rhyme scheme and a distinct anapestic meter (typically three beats in lines 1, 2, and 5, and two beats in lines 3 and 4). The provided response is a five-line poem, but it does not adhere to the AABBA rhyme scheme (the rhymes are flight/light, Queenstown/down, bright/bright, which is inconsistent and does not follow the standard pattern where lines 1, 2, and 5 rhyme, and lines 3 and 4 rhyme). Furthermore, the meter is irregular and does not match the bouncy rhythm characteristic of limericks. Therefore, it is not a limerick.",
+  "finish_reason": "stop",
+  "prompt_tokens": 270,
+  "completion_tokens": 180,
+  "total_tokens": 450,
+  "timestamp": "2026-09-23T07:40:39.497327+00:00"
+}

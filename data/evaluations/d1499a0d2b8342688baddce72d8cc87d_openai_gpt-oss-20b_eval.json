@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d1499a0d2b8342688baddce72d8cc87d",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately and concisely summarizes the source text, covering all five required key aspects:\n1. It correctly identifies the study's aim to develop a machine learning model for predicting water drinkability using specific physical and chemical parameters (pH, turbidity, TDS, conductivity).\n2. It lists all four evaluated binary classification algorithms (logistic regression, random forests, XGBoost, and SVM).\n3. It accurately reports that the SVM algorithm achieved the highest accuracy of 82.3%.\n4. It correctly identifies pH, total dissolved solids, and hardness as the most significant parameters.\n5. It mentions the model's scalability for online deployment to assist individuals in assessing local water quality and supporting public health decisions.\n\nThe summary is factually accurate, stays within the word limit, and omits no critical information from the source abstract.",
+  "finish_reason": "stop",
+  "prompt_tokens": 752,
+  "completion_tokens": 183,
+  "total_tokens": 935,
+  "timestamp": "2026-09-19T17:35:01.200163+00:00"
+}

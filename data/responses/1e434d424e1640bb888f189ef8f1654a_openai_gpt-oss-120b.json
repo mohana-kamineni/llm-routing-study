@@ -1,0 +1,20 @@
+{
+  "prompt_id": "1e434d424e1640bb888f189ef8f1654a",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the square root of forty two?",
+  "response_text": "The square root of 42 is:\n\n\\[\n\\sqrt{42} \\approx 6.480740698\\,\n\\]\n\n(rounded to nine decimal places).",
+  "finish_reason": "stop",
+  "prompt_tokens": 80,
+  "completion_tokens": 105,
+  "total_tokens": 185,
+  "latency_ms": 315,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:20:19.621691+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b0ec1c3a7f084913be1d77d6659cc259",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly applies the Tsiolkovsky rocket equation to solve for the final mass. \n1. **Formula Application**: It correctly rearranges $\\Delta v = I_{sp} g_0 \\ln(m_0/m_f)$ to solve for $m_f$.\n2. **Calculation Accuracy**: \n   - Exhaust velocity $v_e = 360 \\times 9.80665 \\approx 3530.394$ m/s.\n   - Exponent $\\Delta v / v_e = 9100 / 3530.394 \\approx 2.5776$.\n   - Mass ratio $e^{2.5776} \\approx 13.16$.\n   - Final mass $m_f = 1000 / 13.16 \\approx 75.99$ t.\n   The calculated value of ~76 t is correct.\n3. **Reasoning**: The steps are logical and clearly shown. Although the final paragraph contains a minor semantic inconsistency (referring to the final mass as \"dry mass\" while listing \"fuel\" as a component of it, which is physically contradictory since fuel is expended), this does not constitute a substantive reasoning error in the mathematical solution process or the final numerical conclusion. The core task of calculating the final mass using the rocket equation is performed correctly.",
+  "finish_reason": "stop",
+  "prompt_tokens": 962,
+  "completion_tokens": 308,
+  "total_tokens": 1270,
+  "timestamp": "2026-09-22T17:14:44.431543+00:00"
+}

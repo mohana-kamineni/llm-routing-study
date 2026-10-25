@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e48f443570964b9bb3ea2665adb41385",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response is truncated and incomplete. It ends abruptly in the middle of a sentence (\"her voice barely\"), failing to provide a conclusion or fully execute the task of writing a complete story. While the beginning is relevant and coherent, the lack of completeness results in a failure.",
+  "finish_reason": "stop",
+  "prompt_tokens": 548,
+  "completion_tokens": 61,
+  "total_tokens": 609,
+  "timestamp": "2026-09-19T17:35:39.548791+00:00"
+}

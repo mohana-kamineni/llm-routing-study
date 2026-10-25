@@ -1,0 +1,20 @@
+{
+  "prompt_id": "7cb6de9868b1452cbced326bc3a7e8d7",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the -er form of the word 'variable'?",
+  "response_text": "**Short answer:**  \nThere is no standard “‑er” form of *variable* in English. The comparative is expressed with *more*:\n\n> *variable* → *more variable*\n\n---\n\n### Why there isn’t an “‑er” form\n\n| Word | Adjective | Comparative | Superlative |\n|------|-----------|-------------|-------------|\n| variable | variable | more variable | most variable |\n\nEnglish adjectives that end in **‑able** (e.g., *capable, reliable, flexible*) are usually not made comparative with **‑er**. Instead, we use the adverbial *more* (and *most* for the superlative). This is because the suffix **‑er** is reserved for adjectives that are typically short and simple (e.g., *big → bigger*, *fast → faster*).  \n\n**Variable** is a longer adjective, so it follows the *more* pattern.\n\n---\n\n### What you might see in other contexts\n\n- **Variabler** – This is *not* an English word; it looks like a Scandinavian form (e.g., Swedish *variabel* → *variabler* for plural).  \n- **Variability** – The noun form that describes the quality of being variable.  \n- **Variably** – The adverb form (e.g., “The results varied variably across trials”).\n\n---\n\n### Bottom line\n\nIf you need to compare two things in terms of how much they change, say:\n\n> “The temperature in the desert is **more variable** than in the city.”\n\nThere is no single‑word comparative ending in **‑er** for *variable*.",
+  "finish_reason": "stop",
+  "prompt_tokens": 83,
+  "completion_tokens": 511,
+  "total_tokens": 594,
+  "latency_ms": 1821,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:33:21.380569+00:00"
+}

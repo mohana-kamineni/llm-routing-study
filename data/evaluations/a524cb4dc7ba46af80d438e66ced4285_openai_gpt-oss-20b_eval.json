@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a524cb4dc7ba46af80d438e66ced4285",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a factually accurate and comprehensive explanation of the temperature parameter in large language models. It correctly defines the mathematical operation (dividing logits by temperature before applying softmax), accurately describes the effects of different temperature values (low temperature leads to deterministic/sharp distributions, high temperature leads to random/flat distributions), and correctly contextualizes its use alongside other decoding strategies like top-k and top-p. There are no factual errors or contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1309,
+  "completion_tokens": 94,
+  "total_tokens": 1403,
+  "timestamp": "2026-09-19T17:29:12.457511+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "91f500bf323242feb681f097d81be3df",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "write a poem about microservices where each letter starts with an M",
+  "response_text": "**Microservices in Motion**\n\nM**odular** minds map the maze of code,  \nM**icro** units marching, each a node.  \nM**essage** streams glide through the cloud’s vast sea,  \nM**iddleware** whispers, “Keep it free.”  \n\nM**etrics** pulse, a heartbeat of the fleet,  \nM**onitor** the rhythm, never missing a beat.  \nM**aintenance** is gentle, not a heavy hand,  \nM**igration** smooth, as grains of sand.  \n\nM**onolith** memories fade, replaced by grace,  \nM**aturity** blooms in this distributed space.  \nM**ethodology** guides the dance of services,  \nM**agic** in the code, where freedom surfaces.",
+  "finish_reason": "stop",
+  "prompt_tokens": 84,
+  "completion_tokens": 354,
+  "total_tokens": 438,
+  "latency_ms": 20695,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:09:44.592729+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1efb020ee8ca45bdbcfe540b122864e9",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the meaning of the lyrics by identifying the central metaphor of the \"herd\" (sheep) versus the \"lion\" (a powerful, disruptive force). It correctly interprets the duality of the song: the pressure to conform (\"kneel and wait\") and the call to defiance (\"bow to none,\" \"cause a stir\"). The summary accurately captures the themes of conformity, the fragility of the masses, and the power of individual or singular force to disrupt the status quo. The subsequent landscape description is detailed and directly reflects the summarized themes, fulfilling the prompt's requirements.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1168,
+  "completion_tokens": 129,
+  "total_tokens": 1297,
+  "timestamp": "2026-09-23T14:03:33.696879+00:00"
+}

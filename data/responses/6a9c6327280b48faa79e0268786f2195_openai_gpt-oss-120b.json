@@ -1,0 +1,20 @@
+{
+  "prompt_id": "6a9c6327280b48faa79e0268786f2195",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a letter of apology to my neighbor for vomiting on his children.",
+  "response_text": "[Your Name]  \n[Your Address]  \n[City, State ZIP Code]  \n[Date]\n\nDear [Neighbor’s Name],\n\nI am writing to offer my deepest and most sincere apologies for the incident that occurred on [date of incident] when I unintentionally vomited on your children. I am profoundly embarrassed and ashamed of what happened, and I want you to know how truly sorry I am for the distress and inconvenience I caused your family.\n\nFirst and foremost, I am relieved that none of the children were hurt or became ill, but I understand that the experience was upsetting and completely unacceptable. There is no excuse for my lack of control, and I take full responsibility for my actions.\n\nPlease know that I am taking immediate steps to ensure this never happens again. I have consulted a medical professional to address the underlying health issue that led to my sudden illness, and I am following their recommendations closely. Additionally, I am reviewing my own habits and environment to better manage any future health concerns before they become a problem.\n\nI would like to make amends in any way that is helpful to you and your family. If there is anything specific I can do—whether it’s covering cleaning costs, providing a meal, or assisting with any other needs—please let me know. I am committed to doing whatever is necessary to restore your trust and to demonstrate that I respect and value our neighborly relationship.\n\nAgain, I am truly sorry for the embarrassment, inconvenience, and any discomfort my actions caused. I hope you can find it in your heart to forgive me, and I promise to be more mindful and responsible moving forward.\n\nThank you for taking the time to read this letter. I appreciate your understanding and patience, and I look forward to rebuilding a positive and respectful relationship with you and your family.\n\nSincerely,\n\n[Your Signature]  \n[Your Printed Name]  \n[Phone Number]  \n[Email Address]",
+  "finish_reason": "stop",
+  "prompt_tokens": 85,
+  "completion_tokens": 465,
+  "total_tokens": 550,
+  "latency_ms": 1252,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:43:19.112732+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3f383d8b707a4bc9973a5f2c7537ff0b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the temporal relation as \"vague.\" The sentence structure \"People have predicted... and the US has tried...\" uses the present perfect tense for both events, indicating that they have occurred at unspecified times in the past, often repeatedly. There is no explicit linguistic marker (such as \"before,\" \"after,\" or specific dates) that establishes a strict chronological order between the two specific instances or the general habits described. Therefore, stating that the relationship is not explicitly defined and is thus \"vague\" is factually and logically accurate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 275,
+  "completion_tokens": 117,
+  "total_tokens": 392,
+  "timestamp": "2026-09-24T16:45:30.060353+00:00"
+}

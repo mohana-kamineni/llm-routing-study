@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e51c75cfd5504baeb6a0c940bda43919",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response successfully covers all five key aspects required by the source text:\n1.  **ADHD/Perfectionism Accommodation:** The schedule includes frequent, short breaks (e.g., \"Brain Break,\" \"Quick Refresh\") and breaks complex tasks into small, manageable steps (e.g., breaking music practice into warm-up, section focus, and cool-down), which aligns with the instruction to prevent paralysis and encourage healthy rests.\n2.  **Structure:** The response is clearly divided into the three required sections: a greeting/affirmation section, a schedule table, and a final summary of key projects.\n3.  **Table Format:** The table strictly adheres to the two-column constraint (Time Range and Task/Breakdown) and includes detailed step-by-step breakdowns for tasks.\n4.  **Markdown Formatting:** The response effectively uses bolding, headers, emojis, and bullet points to enhance readability and usability.\n5.  **Target Audience:** The generated schedule is appropriate for a preteen, featuring school subjects (Math, Science, English), age-appropriate activities (soccer, music practice, comic reading), and a realistic bedtime.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2610,
+  "completion_tokens": 249,
+  "total_tokens": 2859,
+  "timestamp": "2026-09-22T16:58:02.091032+00:00"
+}

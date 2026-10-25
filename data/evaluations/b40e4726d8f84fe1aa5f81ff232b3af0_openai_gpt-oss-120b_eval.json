@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b40e4726d8f84fe1aa5f81ff232b3af0",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies that a leap year has 366 days and performs the correct multiplication ($14 \\times 366 = 5,124$). The final answer is accurate, and there are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 237,
+  "completion_tokens": 60,
+  "total_tokens": 297,
+  "timestamp": "2026-09-23T12:26:30.188708+00:00"
+}

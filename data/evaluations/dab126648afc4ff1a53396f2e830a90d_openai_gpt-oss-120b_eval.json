@@ -1,0 +1,14 @@
+{
+  "prompt_id": "dab126648afc4ff1a53396f2e830a90d",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the clinical presentation as an epidural hematoma (lucid interval, temporal trauma, uncal herniation signs) and correctly selects \"Perform craniotomy\" as the most appropriate next step in management. The reasoning provided is medically accurate, correctly explaining why surgical evacuation is the definitive treatment and why the other options (hypotonic saline, dexamethasone, MRI) are inappropriate or contraindicated in this acute setting. There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 754,
+  "completion_tokens": 109,
+  "total_tokens": 863,
+  "timestamp": "2026-09-28T07:40:11.829230+00:00"
+}

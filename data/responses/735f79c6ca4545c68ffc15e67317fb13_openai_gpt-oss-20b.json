@@ -1,0 +1,20 @@
+{
+  "prompt_id": "735f79c6ca4545c68ffc15e67317fb13",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Give a three dot point summary of the following: In typography and lettering, a sans-serif, sans serif, gothic, or simply sans letterform is one that does not have extending features called \"serifs\" at the end of strokes.[1] Sans-serif typefaces tend to have less stroke width variation than serif typefaces. They are often used to convey simplicity and modernity or minimalism.\n\nSans-serif typefaces have become the most prevalent for display of text on computer screens. On lower-resolution digital displays, fine details like serifs may disappear or appear too large. The term comes from the French word sans, meaning \"without\" and \"serif\" of uncertain origin, possibly from the Dutch word schreef meaning \"line\" or pen-stroke.[2] In printed media, they are more commonly used for display use and less for body text.\n\nBefore the term \"sans-serif\" became common in English typography, a number of other terms had been used. One of these outmoded terms for sans-serif was gothic, which is still used in East Asian typography and sometimes seen in typeface names like News Gothic, Highway Gothic, Franklin Gothic or Trade Gothic.\n\nSans-serif typefaces are sometimes, especially in older documents, used as a device for emphasis, due to their typically blacker type color.",
+  "response_text": "- **Definition & Characteristics**: Sans‑serif (or sans) typefaces lack the small “serif” strokes at the ends of letters, usually feature less stroke‑width variation, and convey simplicity, modernity, or minimalism.  \n- **Usage & Visibility**: They dominate on computer screens (especially low‑resolution displays where serifs blur or appear oversized) and are favored for display text rather than body text in print.  \n- **Historical & Terminology Notes**: The term derives from French *sans* (“without”) and an uncertain *serif* origin; earlier names like “gothic” (still used in East Asian typography and in typeface names such as *News Gothic*) were common, and sans‑serifs are sometimes used for emphasis due to their darker appearance.",
+  "finish_reason": "stop",
+  "prompt_tokens": 334,
+  "completion_tokens": 199,
+  "total_tokens": 533,
+  "latency_ms": 480,
+  "retries": 3,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:20:33.977942+00:00"
+}

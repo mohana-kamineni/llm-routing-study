@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e1ad5d369f7e448c80c58b60ede268e9",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "My name is Alexis, I've got three sisters, each one of them has 1 brother. How many brothers do I have ?",
+  "response_text": "You have **no brothers**.\n\n**Why?**\n\n- You (Alexis) have three sisters.  \n- Each of those sisters says she has “one brother.”  \n- The only brother they could be referring to is you, Alexis.  \n\nSince you’re the one brother they each count, there are no other male siblings in the family. Therefore, the number of brothers you have (aside from yourself) is **zero**.",
+  "finish_reason": "stop",
+  "prompt_tokens": 97,
+  "completion_tokens": 210,
+  "total_tokens": 307,
+  "latency_ms": 494,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:07:47.254014+00:00"
+}

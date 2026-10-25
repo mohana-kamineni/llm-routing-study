@@ -1,0 +1,20 @@
+{
+  "prompt_id": "575f366a806b480a9699149cc83d3a7b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "what is the capitol of Switzerland?",
+  "response_text": "The capital of Switzerland is **Bern**. (It’s often mistakenly called “Berne,” which is the French spelling.)",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 64,
+  "total_tokens": 143,
+  "latency_ms": 457,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:39:40.466379+00:00"
+}

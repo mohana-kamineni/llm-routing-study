@@ -1,0 +1,14 @@
+{
+  "prompt_id": "55e0a6c6b5014d3d99d340cb3db08d69",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to accurately apply the transformation rules provided in the source text, specifically regarding the handling of the city name and the product name.\n\n1.  **City Name Error (Aspect 4):** The source text explicitly states that city names should be replaced with a reference to the country's city status (e.g., \"Seoul will be South Korea's capital city\"). The response incorrectly identifies Delhi as \"India's capital city.\" While Delhi is the capital, the instruction implies a specific format or reference style. More critically, looking at the provided Example A in the source text: \"Apple opens a huge Iphone factory in Delhi India\" becomes \"Phone giant openes large phone factory in the world's 14th largest economy.\" The example completely removes the city reference and relies solely on the country's GDP rank. The response deviates from the established pattern in the example by including \"India's capital city,\" which is not present in the provided correct example for this exact headline.\n2.  **Product Name Error (Aspect 5):** The source text instructs to replace product names with a \"short 5 word maximum summary.\" The example shows \"Iphone\" becoming just \"phone\" (1 word) in the final output (\"large phone factory\"). The response uses \"handheld touchscreen phone\" (3 words). While this fits the 5-word limit, it contradicts the specific example provided in the prompt for this exact headline, which simplified \"Iphone\" to \"phone\". The prompt asks to apply the instructions to the headline, and the example *is* the application of those instructions to this specific headline. The response should match the example's logic.\n3.  **Deviation from Example:** The most significant failure is that the source text provides the exact transformation for the target headline as Example A: \"Phone giant openes large phone factory in the world's 14th largest economy.\" The response generates a different sentence (\"Phone giant opens large handheld touchscreen phone factory in India's capital city, the world's 14th largest economy\") that includes extra information (\"India's capital city\") and a more verbose product description than the example. Since the prompt asks to apply the instructions to the headline, and the example *is* the correct application, the response is incorrect for not matching the established correct output.\n\nTherefore, the response does not adequately summarize the content because it fails to follow the specific transformation demonstrated in the example for the exact same input.",
+  "finish_reason": "stop",
+  "prompt_tokens": 630,
+  "completion_tokens": 510,
+  "total_tokens": 1140,
+  "timestamp": "2026-09-23T12:27:11.618555+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "d7b01dc51c384374b0c3b857e3821605",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about making pizza.",
+  "response_text": "**The Art of Pizza**\n\nIn a quiet kitchen, dough begins to rise,  \nSoft and warm, a quiet promise in the air.  \nFlour dusts the countertop like snow on a sunrise,  \nWhile yeast whispers, “Soon, I’ll be everywhere.”\n\nA splash of red—tomato, basil, garlic’s kiss,  \nA swirl of sauce, a fragrant, tangy tide.  \nMozzarella melts, a white, creamy bliss,  \nEach slice a canvas, waiting to be spied.\n\nPepperoni curls like tiny, fiery moons,  \nOlives scatter like midnight’s speckled stars.  \nThe oven’s glow, a furnace of sweet tunes,  \nBakes the edges to a golden, crisp memoir.\n\nWhen the timer dings, the aroma fills the room,  \nA scent of home, of laughter, of shared delight.  \nWe slice, we taste, we share the fragrant bloom—  \nPizza, a simple joy that feels just right.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 322,
+  "total_tokens": 400,
+  "latency_ms": 25813,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:18:50.655412+00:00"
+}

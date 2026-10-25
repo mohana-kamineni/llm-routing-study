@@ -1,0 +1,14 @@
+{
+  "prompt_id": "304fdfc0fb7140b3a1cb29d2093dfbba",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the language as Finnish and accurately decodes the reversed text \".aunis natsakar äniM\" into \"minä rakastan sinua,\" which translates to \"I love you.\" The factual claims regarding the language, the reversal mechanism, and the translation are all correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 220,
+  "completion_tokens": 71,
+  "total_tokens": 291,
+  "timestamp": "2026-09-19T17:07:33.617741+00:00"
+}

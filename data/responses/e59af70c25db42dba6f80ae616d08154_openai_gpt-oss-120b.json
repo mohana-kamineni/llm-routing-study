@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e59af70c25db42dba6f80ae616d08154",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Please look at the following text summary of an accademic article and make a comma seperated list of the keywords.  Please include any Proper Nouns.  Note that the data may include UTF-8 special characters.      \n\nHere is the text:\n\n\"  The present status and understanding of the \"\"spectral sequence\"\" of blazars is\ndiscussed in the perspective of the upcoming GLAST launch. The vast improvement\nin sensitivity will allow to i) determine more objectively the \"\"average\"\"\ngamma-ray properties of classes objects ii) probe more deeply the ratio between\naccretion power and jet power in different systems.\n\"",
+  "response_text": "spectral sequence, blazars, GLAST, upcoming GLAST launch, gamma‑ray properties, average gamma‑ray properties, accretion power, jet power, sensitivity, classes of objects, ratio between accretion power and jet power.",
+  "finish_reason": "stop",
+  "prompt_tokens": 199,
+  "completion_tokens": 167,
+  "total_tokens": 366,
+  "latency_ms": 1006,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:46:10.210643+00:00"
+}

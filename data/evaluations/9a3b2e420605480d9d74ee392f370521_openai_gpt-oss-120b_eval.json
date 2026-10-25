@@ -1,0 +1,14 @@
+{
+  "prompt_id": "9a3b2e420605480d9d74ee392f370521",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly models the problem using a transition table. It accurately tracks the state of each agent (John and Mary) through each action:\n1. Initial state: John has 10, Mary has 0.\n2. John gives 5 to Mary: John has 5, Mary has 5.\n3. Mary eats 2: John has 5, Mary has 3.\n4. John buys 2: John has 7, Mary has 3.\n\nThe final calculation sums the remaining apples: $7 + 3 = 10$. This is the correct answer to the question \"How many apples do they have?\" (referring to the apples currently in their possession). The reasoning is sound, and there are no substantive errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 644,
+  "completion_tokens": 166,
+  "total_tokens": 810,
+  "timestamp": "2026-09-28T07:41:12.600175+00:00"
+}

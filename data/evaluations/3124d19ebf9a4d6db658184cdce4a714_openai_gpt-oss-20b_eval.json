@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3124d19ebf9a4d6db658184cdce4a714",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the source text by covering all five required key aspects:\n1. It correctly identifies the withdrawal date (31 January 2020) and the UK's status as the only sovereign country to leave. While it omits the specific time (23:00 GMT) and the start date of membership (1973), these are minor details relative to the core fact of the withdrawal.\n2. It accurately reports the referendum date (23 June 2016), the 51.9% vote share, and the regional breakdown (England/Wales leaving, Scotland/Northern Ireland remaining).\n3. It correctly attributes the promise of the referendum to David Cameron, citing the 2015 election, UKIP, and Conservative Eurosceptics as drivers.\n4. It details the political consequences: Cameron's resignation, Theresa May's appointment, and the completion of negotiations under Boris Johnson.\n5. It accurately describes the legal changes, noting the end of EU law primacy and the retention of EU law as domestic law via the 2018 Act.\n\nThe summary is accurate, concise, and captures all essential factual elements without omitting critical information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1093,
+  "completion_tokens": 258,
+  "total_tokens": 1351,
+  "timestamp": "2026-09-22T17:12:18.211111+00:00"
+}

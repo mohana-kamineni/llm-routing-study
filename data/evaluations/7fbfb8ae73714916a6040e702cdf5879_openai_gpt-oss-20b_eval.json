@@ -1,0 +1,14 @@
+{
+  "prompt_id": "7fbfb8ae73714916a6040e702cdf5879",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response contains numerous severe factual errors and hallucinations. \n1. **Identity Confusion**: The response conflates George Albert Smith (the 4th President of the LDS Church) with other individuals. George Albert Smith was a lawyer and politician, not a physicist. He did not earn a Ph.D. in Physics from the University of Chicago, nor was he a professor there.\n2. **False Dates and Titles**: He was not President of the LDS Church from 1945; he served from 1941 until his death in 1951. The response incorrectly states he died in 1944 and was \"posthumously honored\" as president in 1945, which is historically impossible and incorrect.\n3. **Fabricated Details**: The response invents siblings (George F. Smith and John A. Smith were not his siblings in the way described; his father was George Smith, but the specific sibling details are wrong), a book titled *The Doctrine of the Atonement* (he wrote *Gospel Doctrine*), and induction into the Utah Sports Hall of Fame.\n4. **Incorrect Death Date**: George Albert Smith died on November 1, 1951, not January 12, 1944.\n\nThe response is fundamentally inaccurate regarding the subject's profession, dates, and major life events.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1296,
+  "completion_tokens": 292,
+  "total_tokens": 1588,
+  "timestamp": "2026-09-19T17:23:31.174713+00:00"
+}

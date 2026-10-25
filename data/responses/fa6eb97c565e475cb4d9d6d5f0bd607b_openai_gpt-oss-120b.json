@@ -1,0 +1,20 @@
+{
+  "prompt_id": "fa6eb97c565e475cb4d9d6d5f0bd607b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is frodo beggins?",
+  "response_text": "Frodo Baggins is a fictional character created by J.R.R. Tolkien. He is a hobbit from the Shire who serves as the main protagonist of **_The Lord of the Rings_** trilogy. \n\n- **Full name:** Frodo Baggins (often called “Frodo” or “Mr. Baggins”)\n- **Race:** Hobbit (a small, human‑like race known for their love of peace, good food, and simple living)\n- **Family:** Son of Drogo Baggins and Primula Brandybuck; nephew and adopted heir of Bilbo Baggins.\n- **Key role:** In the story, Frodo inherits the One Ring from his uncle Bilbo. He is tasked with the perilous quest to travel from the Shire to the fiery chasm of Mount Doom in Mordor, where the Ring can be destroyed, thereby preventing the Dark Lord Sauron from regaining his full power.\n- **Companions:** He is accompanied by the Fellowship of the Ring—Aragorn, Gandalf, Legolas, Gimli, Boromir, Samwise Gamgee (his closest friend and companion), Merry Brandybuck, and Pippin Took.\n- **Character traits:** Courageous, compassionate, humble, and deeply loyal, yet also burdened by the Ring’s corrupting influence.\n- **Outcome:** After a long and arduous journey, Frodo succeeds in reaching Mount Doom, but the Ring ultimately slips from his grasp and is destroyed when Gollum falls into the fire with it. Frodo returns to the Shire, but the trauma of his quest leaves him unable to fully settle back into ordinary life. He eventually departs Middle‑earth for the Undying Lands, sailing west with the Elves, Gandalf, and other Ring‑bearers.\n\nFrodo’s story is central to Tolkien’s exploration of themes such as the struggle between good and evil, the burden of responsibility, and the resilience of ordinary individuals in the face of overwhelming darkness.",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 487,
+  "total_tokens": 566,
+  "latency_ms": 1142,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:41:04.196330+00:00"
+}

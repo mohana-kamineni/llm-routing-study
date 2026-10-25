@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b0bc07be819144c2852dbddb832cf286",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies Montpellier as a city in southern France, specifically in the Occitanie region and Hérault department. The provided geographic details, including its proximity to the Mediterranean Sea, nearby cities (Nîmes, Toulouse, Marseille), and coordinates, are factually accurate. There are no false contradictions in the text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 410,
+  "completion_tokens": 73,
+  "total_tokens": 483,
+  "timestamp": "2026-09-24T14:39:30.099387+00:00"
+}

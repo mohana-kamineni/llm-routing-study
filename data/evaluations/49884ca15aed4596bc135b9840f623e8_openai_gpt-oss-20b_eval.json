@@ -1,0 +1,14 @@
+{
+  "prompt_id": "49884ca15aed4596bc135b9840f623e8",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the SNOMED CT International code for the anatomical structure \"Spleen\" as 271442009. This is the standard, stable concept identifier for the spleen in the SNOMED CT terminology. The additional context regarding its classification as a body structure and the stability of the ID across releases is factually accurate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 445,
+  "completion_tokens": 86,
+  "total_tokens": 531,
+  "timestamp": "2026-09-22T16:54:05.390811+00:00"
+}

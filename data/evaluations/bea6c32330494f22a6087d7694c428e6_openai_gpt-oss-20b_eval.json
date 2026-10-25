@@ -1,0 +1,14 @@
+{
+  "prompt_id": "bea6c32330494f22a6087d7694c428e6",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a factually accurate and comprehensive summary of Jacques Cousteau's life and achievements. It correctly identifies his roles as a marine explorer, oceanographer, filmmaker, and environmentalist. Key historical facts are accurate, including his birth and death years (1910–1997), his co-invention of the Aqua-Lung in 1943, his famous documentaries (*The Silent World*, *The Undersea World of Jacques Cousteau*), and his environmental advocacy. There are no false contradictions or significant factual errors in the provided text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 492,
+  "completion_tokens": 123,
+  "total_tokens": 615,
+  "timestamp": "2026-09-22T17:08:09.070671+00:00"
+}

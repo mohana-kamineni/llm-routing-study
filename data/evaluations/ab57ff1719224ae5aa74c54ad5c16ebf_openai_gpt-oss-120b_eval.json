@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ab57ff1719224ae5aa74c54ad5c16ebf",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains significant factual errors regarding the tax reporting options for grantor trusts. Specifically:\n1.  **Incorrect Form 1041 Instructions:** The response claims that for a grantor trust filing Form 1041 (Path B), the trust should \"issue a Schedule K-1\" to the grantor. This is factually incorrect. Under IRC § 671, a grantor trust is treated as the grantor for income tax purposes. The grantor reports the trust's income directly on their own Form 1040. Form 1041 for a grantor trust is an informational return (often filed for state purposes or record-keeping) and does **not** generate a Schedule K-1 for the grantor. Schedule K-1s are used for non-grantor trusts (distributing to beneficiaries) or pass-through entities (partnerships/S-corps).\n2.  **Incorrect Statutory Citations:** The response cites \"§ 679\" as the election for a \"Qualified Subchapter S Trust (QSST).\" This is incorrect. QSSTs are governed by IRC § 1361(d). Section 679 deals with the treatment of income from a trust where the grantor has a power to revoke or substitute assets (making it a grantor trust), not the QSST election.\n3.  **Confusion of Concepts:** The response conflates the mechanics of grantor trusts with non-grantor trusts or pass-through entities, leading to misleading advice about how income flows (e.g., suggesting K-1s are issued by the trust to the grantor).\n\nBecause the response provides false information about the fundamental mechanics of grantor trust reporting (specifically the use of Schedule K-1s and the relevant code sections), it fails the factual accuracy criterion.",
+  "finish_reason": "stop",
+  "prompt_tokens": 4042,
+  "completion_tokens": 390,
+  "total_tokens": 4432,
+  "timestamp": "2026-09-23T21:18:46.200274+00:00"
+}

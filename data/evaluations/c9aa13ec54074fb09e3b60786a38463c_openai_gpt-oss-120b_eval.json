@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c9aa13ec54074fb09e3b60786a38463c",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies King Charles III as the current monarch of the United Kingdom. It accurately states that he succeeded Queen Elizabeth II upon her death in September 2022. There are no factual errors or contradictions in the provided text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 199,
+  "completion_tokens": 55,
+  "total_tokens": 254,
+  "timestamp": "2026-09-28T07:48:52.021746+00:00"
+}

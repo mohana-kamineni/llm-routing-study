@@ -1,0 +1,14 @@
+{
+  "prompt_id": "13e2535a09ae4d7d8eaf5b48bace5246",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately and comprehensively summarizes the source text, covering all five required key aspects:\n1.  **Game Structure**: It correctly identifies the turn-based nature, the two-player competition for crystals, and the randomly generated hexagonal map.\n2.  **Control Mechanism**: It clearly explains that ants are not moved directly but are steered by beacons with strengths that determine proportional distribution.\n3.  **Movement & Beacon Lifecycle**: It specifies that ants move one cell per turn along the shortest path and that beacons are removed between turns.\n4.  **Harvesting Requirement**: It accurately describes the need for an uninterrupted chain of cells containing the player's ants connecting the resource to the base.\n5.  **Scoring Logic**: It correctly defines the harvest amount as the \"weakest link\" (minimum number of ants in the chain).\n\nThe summary is factually consistent with the provided text, well-structured, and omits no critical information required by the evaluation criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1757,
+  "completion_tokens": 212,
+  "total_tokens": 1969,
+  "timestamp": "2026-09-28T07:56:42.848675+00:00"
+}

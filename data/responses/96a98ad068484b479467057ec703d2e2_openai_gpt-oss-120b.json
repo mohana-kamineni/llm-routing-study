@@ -1,0 +1,20 @@
+{
+  "prompt_id": "96a98ad068484b479467057ec703d2e2",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is the Portuguese prime minister?",
+  "response_text": "As of September 2026, the Prime Minister of Portugal is **António Costa**. He has led the country since November 2015, heading the Socialist Party (PS) and heading successive coalition governments after the 2019 and 2022 legislative elections. The next scheduled parliamentary election is expected later in 2026, so Costa remains in office pending the outcome of that vote.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 315,
+  "total_tokens": 393,
+  "latency_ms": 983,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:32:37.055135+00:00"
+}

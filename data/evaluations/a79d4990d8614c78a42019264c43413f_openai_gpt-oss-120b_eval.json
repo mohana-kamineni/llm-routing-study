@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a79d4990d8614c78a42019264c43413f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately captures all five required key aspects from the source text. It correctly identifies the start of the *Disco Elysium* playthrough after long anticipation, mentions the game's awards and popularity, credits \"Inspector Clark Jodie Briggs\" for the decision, notes the choice between *Disco Elysium* and *The World Ends with You*, and highlights the specific appeal of the game's narrative-heavy nature and art style. The summary is concise, accurate, and omits no critical information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 855,
+  "completion_tokens": 110,
+  "total_tokens": 965,
+  "timestamp": "2026-09-24T23:12:53.468198+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "ab1c6c1caebf4268b61ce131a4e7db2b",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Please summarize this passage of text, be sure to maintain important information but optimize for clarity & ease of reading: The Sputnik 1 spacecraft was the first artificial satellite successfully placed in orbit around the Earth and was launched from Baikonur Cosmodrome at Tyuratam (370 km southwest of the small town of Baikonur) in Kazakhstan, then part of the former Soviet Union. The Russian word \"Sputnik\" means \"companion\" (\"satellite\" in the astronomical sense).\n\nIn 1885 Konstantin Tsiolkovsky first described in his book, Dreams of Earth and Sky, how such a satellite could be launched into a low altitude orbit. It was the first in a series of four satellites as part of the Sputnik program of the former Soviet Union and was planned as a contribution to the International Geophysical Year (1957-1958). Three of these satellites (Sputnik 1, 2, and 3) reached Earth orbit.\n\nThe Sputnik 1 satellite was a 58.0 cm-diameter aluminum sphere that carried four whip-like antennas that were 2.4-2.9 m long. The antennas looked like long \"whiskers\" pointing to one side. The spacecraft obtained data pertaining to the density of the upper layers of the atmosphere and the propagation of radio signals in the ionosphere. The instruments and electric power sources were housed in a sealed capsule and included transmitters operated at 20.005 and 40.002 MHz (about 15 and 7.5 m in wavelength), the emissions taking place in alternating groups of 0.3 s in duration. The downlink telemetry included data on temperatures inside and on the",
+  "response_text": "**Summary**\n\nSputnik 1 was the world’s first artificial satellite, launched on 4 October 1957 from the Baikonur Cosmodrome in Kazakhstan (then the Soviet Union). “Sputnik” means “companion” in Russian. The idea of placing a satellite in low‑Earth orbit was first outlined in 1885 by Konstantin Tsiolkovsky in *Dreams of Earth and Sky*.\n\nSputnik 1 was the first of a planned four‑satellite “Sputnik” series for the International Geophysical Year (1957‑58); three of the series (Sputnik 1, 2, 3) actually reached orbit. The spacecraft was a 58 cm‑diameter aluminum sphere equipped with four 2.4–2.9 m whip antennas that resembled whiskers. Inside a sealed capsule it carried transmitters operating at 20.005 MHz and 40.002 MHz (≈15 m and 7.5 m wavelengths) that emitted in 0.3‑second bursts. The satellite’s primary scientific goals were to measure the density of the upper atmosphere and to study radio‑signal propagation in the ionosphere; telemetry also reported internal and external temperatures.",
+  "finish_reason": "stop",
+  "prompt_tokens": 409,
+  "completion_tokens": 346,
+  "total_tokens": 755,
+  "latency_ms": 1174,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:50:22.999191+00:00"
+}

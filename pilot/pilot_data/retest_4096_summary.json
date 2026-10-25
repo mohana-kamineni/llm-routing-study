@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "title": "Project 2 — Targeted 10-Prompt Model-Selection Re-Test Summary (max_tokens=4096)",
+    "timestamp": "2026-09-13T13:52:56.707578+00:00",
+    "parameters": {
+      "temperature": 0.0,
+      "max_tokens": 4096,
+      "pacing_delay_groq": 2.5,
+      "pacing_delay_openrouter": 2.5
+    },
+    "prompts_tested": 10,
+    "prompts_breakdown": {
+      "token_exhaustion_prompts": 7,
+      "representative_control_prompts": 3
+    }
+  },
+  "comparison": {
+    "58210e39b3fd4441a2bd4a518bb44c2d": {
+      "label": "OpenCL vs CUDA Technical Comparison",
+      "category": "factual_qa",
+      "prompt_text": "What is the difference between OpenCL and CUDA?",
+      "gpt_oss_20b": {
+        "run1_1024": {
+          "visible_chars": 0,
+          "output_tokens": 1024,
+          "reasoning_tokens": 1022,
+          "latency": 2.12,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 7143,
+          "output_tokens": 3164,
+          "reasoning_tokens": 1146,
+          "latency": 4.511,
+          "error": null
+        }
+      },
+      "nemotron_3_ultra": {
+        "run1_1024": {
+          "visible_chars": 3268,
+          "output_tokens": 1024,
+          "reasoning_tokens": 59,
+          "latency": 80.093,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 6618,
+          "output_tokens": 1951,
+          "reasoning_tokens": 59,
+          "latency": 179.873,
+          "error": null
+        }
+      }
+    },
+    "c284f2bf6c7243b5aad2b5539fec9866": {
+      "label": "Who is Ursula Bellugi (Biographical)",
+      "category": "factual_qa",
+      "prompt_text": "who is Ursula Bellugi",
+      "gpt_oss_20b": {
+        "run1_1024": {
+          "visible_chars": 0,
+          "output_tokens": 1024,
+          "reasoning_tokens": 1022,
+          "latency": 1.378,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 0,
+          "output_tokens": 4096,
+          "reasoning_tokens": 4094,
+          "latency": 4.756,
+          "error": null
+        }
+      },
+      "nemotron_3_ultra": {
+        "run1_1024": {
+          "visible_chars": 4099,
+          "output_tokens": 914,
+          "reasoning_tokens": 40,
+          "latency": 95.34,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 3777,
+          "output_tokens": 848,
+          "reasoning_tokens": 57,
+          "latency": 119.352,
+          "error": null
+        }
+      }
+    },
+    "119b348113a84b44a1fed88ac181fdc2": {
+      "label": "Finnish President 2024 Speech Synopsis",
+      "category": "summarization",
+      "prompt_text": "Summarize the Finnish president's new year's speech of 2024.",
+      "gpt_oss_20b": {
+        "run1_1024": {
+          "visible_chars": 0,
+          "output_tokens": 1024,
+          "reasoning_tokens": 1022,
+          "latency": 1.382,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 2473,
+          "output_tokens": 1130,
+          "reasoning_tokens": 658,
+          "latency": 1.651,
+          "error": null
+        }
+      },
+      "nemotron_3_ultra": {
+        "run1_1024": {
+          "visible_chars": 3659,
+          "output_tokens": 946,
+          "reasoning_tokens": 90,
+          "latency": 72.348,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 4127,
+          "output_tokens": 1032,
+          "reasoning_tokens": 102,
+          "latency": 169.941,
+          "error": null
+        }
+      }
+    },
+    "61320a80c6e149559d74b4de88b6233a": {
+      "label": "Shipping Label OCR Multi-Field Extraction",
+      "category": "reasoning_math",
+      "prompt_text": "the following is text scanned and OCR'd from a shipping label. Each OCR contains some errors. There are multiple OCR sections of the same image with errors in different places. Look at the different frames to correct errors. Use majority volting logic to decide on which is the correct spelling of any word and output only one result based on your voting logic.\nOutput the following attributes in correct json format:\n{\n\"date\":\"\",\n\"from_company_name\":\"\",\n\"from_person_name\":\"\",\n\"from_address\":\"\",\n\"to_company_name\":\"\",\n\"to_person_name\":\"\",\n\"to_address\":\"\",\n\"carrier_name\":\"\",\n\"tracking_number\":\"\",\n\"waybill_number\":\"\",\n\"weight\":\"\",\n\"weight_units\":\"\",\n\"carrier_service\":\"\"\n}\n\nFrame 1:\n--\nEXPRESS 12:00\n\n2023-03-26 MYDHL 1.0 30-0821\n\nom: nnicks uk ltd Torty Shona\n\n7 start road manor park\n\nWAT 155 Runcam United Kingdom\n\nTi: Houston radar llc\n\nandre forsyth 702 Julie Rivers Drive\n\n77478 Sugar Land Texas L United States of America\n\nA999 US-IAH-HOU\n\nC-DTP-PLT\n\nRef:\n\nTDY DHL\n\nOrigin:\n\nLPL\n\nContact andrew forsyth\n\nT\n\nDay\n\nX12\n\nPiece\n\nPoelShot Weight\n\n1/1\n\n0.5 kg\n\nContents elrout boare\n\nWAYBILL 18 4525 3340\n\nTDX\n\nBLT3\n\n1845253740\n\n(2LJUS77478-50002001\n\nEDD:3/31/2\n\nDUE\n--\nFrame 2:\n--\nEXPRESS 12:00\n\n2023-03-26 MYDHL 1.0 30-0821\n\nom: Renniks uk ltd Torty Shona\n\n7 start road manor park\n\nWAT 155 Runcam United Kingdom\n\nTe: Houston radar llc\n\nandrew forsth 702 Julie Rivers Drive\n\n77478 Sugar Land Texas L United States of America\n\nA999 US-IAH-HOU\n\nC-DTP-PLT\n\nRef:\n\nTDY DHL\n\nOrigin:\n\nLPL\n\nContact andrew forsyth\n\nT\n\nDay\n\nX12\n\nPiece\n\nPoelSho",
+      "gpt_oss_20b": {
+        "run1_1024": {
+          "visible_chars": 0,
+          "output_tokens": 1024,
+          "reasoning_tokens": 1022,
+          "latency": 7.738,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 472,
+          "output_tokens": 1478,
+          "reasoning_tokens": 1318,
+          "latency": 1.834,
+          "error": null
+        }
+      },
+      "nemotron_3_ultra": {
+        "run1_1024": {
+          "visible_chars": 2643,
+          "output_tokens": 1024,
+          "reasoning_tokens": 671,
+          "latency": 110.526,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 532,
+          "output_tokens": 1244,
+          "reasoning_tokens": 701,
+          "latency": 121.234,
+          "error": null
+        }
+      }
+    },
+    "b0c343364ffb458083fed7b573bfce0f": {
+      "label": "Song Composition via Music Theory Principles",
+      "category": "creative",
+      "prompt_text": "Write a song using music theory principles and rich instrument captions, without relying on drums, electric guitars, or bass. The song is a eurobeat song. Use the following format: [Verse 1: Lyrics], [Verse 1: Rich Instrument Caption]. Keep in mind the principles of music theory as you craft your song.\n\nExample of rich captions\nThe main soundtrack of an arcade game. It is fast-paced and retro, with a catchy guitar riff. The music is repetitive and easy to remember, but with unexpected sounds, like cymbal crashes or drum rolls.\t\nA rising synth is playing an arpeggio with a lot of reverb. It is backed by pads, sub bass line and soft drums. This song is full of synth sounds creating a soothing and adventurous atmosphere. It may be playing at a festival during two songs for a buildup.",
+      "gpt_oss_20b": {
+        "run1_1024": {
+          "visible_chars": 0,
+          "output_tokens": 1024,
+          "reasoning_tokens": 1022,
+          "latency": 7.431,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 2217,
+          "output_tokens": 4096,
+          "reasoning_tokens": 3475,
+          "latency": 34.869,
+          "error": null
+        }
+      },
+      "nemotron_3_ultra": {
+        "run1_1024": {
+          "visible_chars": 3050,
+          "output_tokens": 1024,
+          "reasoning_tokens": 232,
+          "latency": 67.463,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 7287,
+          "output_tokens": 2752,
+          "reasoning_tokens": 582,
+          "latency": 221.548,
+          "error": null
+        }
+      }
+    },
+    "4e6446c00a2447d0ad09c58ce942e2c5": {
+      "label": "Golden Age Comic Story (Lois Lane)",
+      "category": "creative",
+      "prompt_text": "Write this story in the style of a Golden Age comic: Lois Lane is exposed to a strange new perfume that causes her body to swell up to enormous proportions, until she's as round as a giant ball of flesh, and it's up to Superman to save her from herself!",
+      "gpt_oss_20b": {
+        "run1_1024": {
+          "visible_chars": 0,
+          "output_tokens": 1024,
+          "reasoning_tokens": 1022,
+          "latency": 2.409,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 0,
+          "output_tokens": 4096,
+          "reasoning_tokens": 4094,
+          "latency": 30.064,
+          "error": null
+        }
+      },
+      "nemotron_3_ultra": {
+        "run1_1024": {
+          "visible_chars": 2982,
+          "output_tokens": 1024,
+          "reasoning_tokens": 132,
+          "latency": 86.267,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 8815,
+          "output_tokens": 2811,
+          "reasoning_tokens": 183,
+          "latency": 827.031,
+          "error": null
+        }
+      }
+    },
+    "859c561d217746fb865dc5328152abb5": {
+      "label": "All-Water World Speculative Plant Life",
+      "category": "creative",
+      "prompt_text": "Imagine the world was made entirely of water.  What would plant life look like?",
+      "gpt_oss_20b": {
+        "run1_1024": {
+          "visible_chars": 0,
+          "output_tokens": 1024,
+          "reasoning_tokens": 1022,
+          "latency": 6.51,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 0,
+          "output_tokens": 4096,
+          "reasoning_tokens": 4094,
+          "latency": 28.782,
+          "error": null
+        }
+      },
+      "nemotron_3_ultra": {
+        "run1_1024": {
+          "visible_chars": 3577,
+          "output_tokens": 1024,
+          "reasoning_tokens": 113,
+          "latency": 59.22,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 8084,
+          "output_tokens": 2255,
+          "reasoning_tokens": 156,
+          "latency": 187.386,
+          "error": null
+        }
+      }
+    },
+    "cf1d55f8ef2042df96b9c7ce6b966dfe": {
+      "label": "Patent Claims Summarized in One Paragraph",
+      "category": "summarization",
+      "prompt_text": "Summarize in one paragraph the invention described by the following patent claims:\n\n1. A computer-implemented method for performing semi-supervised contrastive learning of visual representations, the method comprising:\nobtaining a training image in a set of one or more unlabeled training images;\nperforming a plurality of first augmentation operations on the training image to obtain a first augmented image;\nseparate from performing the plurality of first augmentation operations, performing a plurality of second augmentation operations on the training image to obtain a second augmented image;\nrespectively processing, with a base encoder neural network, the first augmented image and the second augmented image to respectively generate a first intermediate representation for the first augmented image and a second intermediate representation for the second augmented image;\nrespectively processing, with a projection head neural network comprising a plurality of layers, the first intermediate representation and the second intermediate representation to respectively generate a first projected representation for the first augmented image and a second projected representation for the second augmented image;\nevaluating a loss function that evaluates a difference between the first projected representation and the second projected representation;\nmodifying one or more values of one or more parameters of one or both of the base encoder neural network and the projection head neural network based at least in part on the loss fu",
+      "gpt_oss_20b": {
+        "run1_1024": {
+          "visible_chars": 787,
+          "output_tokens": 299,
+          "reasoning_tokens": 159,
+          "latency": 0.576,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 793,
+          "output_tokens": 304,
+          "reasoning_tokens": 163,
+          "latency": 25.804,
+          "error": null
+        }
+      },
+      "nemotron_3_ultra": {
+        "run1_1024": {
+          "visible_chars": 780,
+          "output_tokens": 254,
+          "reasoning_tokens": 182,
+          "latency": 61.177,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 851,
+          "output_tokens": 278,
+          "reasoning_tokens": 196,
+          "latency": 107.076,
+          "error": null
+        }
+      }
+    },
+    "8ea4c640c91b4d3584f20b693686eeb8": {
+      "label": "Right Triangle Altitude Hypotenuse Ratio",
+      "category": "reasoning_math",
+      "prompt_text": "The altitude to the hypotenuse of a right triangle divides the hypotenuse into two segments with lengths in the ratio 1 : 2. The length of the altitude is 6 cm. How long is the hypotenuse?",
+      "gpt_oss_20b": {
+        "run1_1024": {
+          "visible_chars": 598,
+          "output_tokens": 516,
+          "reasoning_tokens": 256,
+          "latency": 0.878,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 598,
+          "output_tokens": 516,
+          "reasoning_tokens": 256,
+          "latency": 0.981,
+          "error": null
+        }
+      },
+      "nemotron_3_ultra": {
+        "run1_1024": {
+          "visible_chars": 486,
+          "output_tokens": 599,
+          "reasoning_tokens": 312,
+          "latency": 69.889,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 462,
+          "output_tokens": 553,
+          "reasoning_tokens": 283,
+          "latency": 105.35,
+          "error": null
+        }
+      }
+    },
+    "b8bac339a7d54685b4f79f5886cccf0c": {
+      "label": "Superhero Origin Screenwriter Profile",
+      "category": "creative",
+      "prompt_text": "You are a world-class screenwriter and comic book creator. Your specialty is creating rich, colorful characters with varied and fascinating backgrounds and personalities. When you create a character, you use this template:\nName: ___\nBackground: ___\nPersonality: ___\nCurrent Circumstances: ___\nCommon Greeting: ___\nCatchphrase: ___\nFavorite outfit: ___\n\nCould you please create a female character using this template?",
+      "gpt_oss_20b": {
+        "run1_1024": {
+          "visible_chars": 2323,
+          "output_tokens": 811,
+          "reasoning_tokens": 299,
+          "latency": 5.074,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 2338,
+          "output_tokens": 812,
+          "reasoning_tokens": 299,
+          "latency": 3.333,
+          "error": null
+        }
+      },
+      "nemotron_3_ultra": {
+        "run1_1024": {
+          "visible_chars": 4158,
+          "output_tokens": 942,
+          "reasoning_tokens": 68,
+          "latency": 127.678,
+          "error": null
+        },
+        "run2_4096": {
+          "visible_chars": 0,
+          "output_tokens": 0,
+          "reasoning_tokens": 0,
+          "latency": 1.872,
+          "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1789344000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3JGmfkyV3Dr4IyIu5aUeOVCC9LZ'}"
+        }
+      }
+    }
+  }
+}

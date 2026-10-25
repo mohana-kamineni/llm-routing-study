@@ -1,0 +1,14 @@
+{
+  "prompt_id": "2d6c4c29cc7f45ffbd545e756dcac007",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\n**Rationale:**\nThe response fails to strictly comply with the explicit constraint regarding the rhyme scheme. The prompt requires an **a b c b c** pattern. The provided poem follows an **a a b c b c** pattern (lines 1 and 2 rhyme: \"sigh\"/\"reply\"). Because the first two lines rhyme with each other, the structure is not the requested a b c b c.",
+  "finish_reason": "stop",
+  "prompt_tokens": 307,
+  "completion_tokens": 92,
+  "total_tokens": 399,
+  "timestamp": "2026-09-28T07:39:49.658327+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b231ab1be91f4a2d995704d7f4a35fc7",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about oranges",
+  "response_text": "**The Orchard’s Sun**\n\nIn the hush of a late‑summer dawn,  \nthe orchard wakes with citrus sighs—  \na rustle of leaves, a citrus song,  \nthe scent of sunshine in the skies.\n\nEach orange hangs like a golden coin,  \na sun‑kissed orb of sweet repose.  \nTheir skins, a rough, textured skin,  \na promise of zest in every close.\n\nThe peel, a paper of amber light,  \nunfolds to reveal a citrus heart,  \na burst of citrus, pure delight,  \na taste that tears the world apart.\n\nThey whisper in the wind’s soft breath,  \n“Drink me, child, and taste the day.”  \nIn every slice, a story kept,  \na burst of summer’s bright bouquet.",
+  "finish_reason": "stop",
+  "prompt_tokens": 76,
+  "completion_tokens": 230,
+  "total_tokens": 306,
+  "latency_ms": 15604,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:35:48.442065+00:00"
+}

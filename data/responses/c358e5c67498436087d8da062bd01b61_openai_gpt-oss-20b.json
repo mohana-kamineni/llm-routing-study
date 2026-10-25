@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c358e5c67498436087d8da062bd01b61",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the meaning of name Viacheslav?",
+  "response_text": "**Viacheslav (Вячеслав / Вячеслав)**  \nA classic Slavic name that has been used in Russia, Ukraine, Belarus, and other Slavic‑speaking countries for centuries.\n\n| Language | Spelling | Pronunciation | Literal meaning |\n|----------|----------|---------------|-----------------|\n| Russian | Вячеслав | /vyˈaʂːɫav/ | “greater glory” |\n| Ukrainian | В’ячеслав | /ʋʲaˈt͡sɛslav/ | “greater glory” |\n| Belarusian | Вячеслав | /ʋʲaˈt͡sɛslav/ | “greater glory” |\n\n### Etymology\n\n- **Viach / Vya** – from the Old Slavic *větъ* or *větъ* meaning “greater, more”.\n- **Slav** – from *slava* meaning “glory, fame, renown”.\n\nThus, **Viacheslav** literally translates to **“greater glory”** or **“more glorious”**. It conveys a sense of triumph, honor, and a wish for the bearer to achieve great renown.\n\n### Historical and Cultural Context\n\n- **Old Slavic Roots**: The name appears in medieval chronicles and church records as early as the 10th–12th centuries.\n- **Royal and Noble Usage**: Several princes and nobles in Kievan Rus’ and later Russian principalities bore the name, reinforcing its prestige.\n- **Modern Popularity**: While not as common today as it was in the 19th and early 20th centuries, it remains a respected, traditional name in Slavic families.\n\n### Notable People Named Viacheslav\n\n| Field | Example |\n|-------|---------|\n| **Politics** | **Viacheslav Chornovil** – Ukrainian politician and opposition leader (1934–2007). |\n| **Sports** | **Viacheslav Fetisov** – Soviet/Russian ice‑hockey legend, Hall of Fame defenseman. |\n| **Arts** | **Viacheslav Kravchenko** – Ukrainian composer and conductor. |\n| **Science** | **Viacheslav Zaitsev** – Russian physicist known for work in particle physics. |\n\n### Variants and Related Names\n\n- **Vijay** (Sanskrit) – “victory” (similar concept in a different language family).  \n- **Vladislav** – “rule of glory” (shares the *-slav* suffix).  \n- **Yaroslav** – “fierce glory”.  \n- **Vasily** – “kingly” (another Slavic name with regal connotations).\n\n### How It’s Used Today\n\n- **Given Name**: Often chosen by parents who value traditional Slavic heritage and wish to bestow a name that carries a sense of honor and aspiration.\n- **Nicknames**: Common diminutives include **Viachka** (Вячка) or **Slava** (Слава).\n- **Cultural Significance**: In Slavic folklore and literature, names ending in *-slav* are frequently associated with heroic or noble characters.\n\n---\n\n**In short:**  \n**Viacheslav** means *“greater glory”* or *“more glorious”*, reflecting a wish for the bearer to achieve renown and honor. It is a name steeped in Slavic tradition, historically linked to nobility and still respected in contemporary Slavic societies.",
+  "finish_reason": "stop",
+  "prompt_tokens": 81,
+  "completion_tokens": 838,
+  "total_tokens": 919,
+  "latency_ms": 26563,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:35:39.349599+00:00"
+}

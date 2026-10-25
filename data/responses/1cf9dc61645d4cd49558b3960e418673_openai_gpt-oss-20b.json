@@ -1,0 +1,20 @@
+{
+  "prompt_id": "1cf9dc61645d4cd49558b3960e418673",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Why do we calculate the length of a pregnancy from the first day of a women's last period?",
+  "response_text": "**Short answer:**  \nBecause the exact moment of conception is almost never known, but the first day of a woman’s last menstrual period (LMP) is a date that most people can remember reliably. Using that date gives a consistent, standardized way to count weeks of pregnancy (gestational age) and to estimate a due date.\n\n---\n\n## Why the LMP is used\n\n| Reason | What it means for pregnancy dating |\n|--------|-------------------------------------|\n| **Conception is hard to pinpoint** | Ovulation and fertilization usually happen about 2 weeks after the start of the last period. The exact day of fertilization is rarely recorded. |\n| **The LMP is a reliable reference point** | Women can usually recall the first day of their last period with reasonable accuracy, even if they don’t know the exact day they ovulated. |\n| **Standardization** | Counting from a fixed, known date allows clinicians worldwide to use the same system (gestational age in weeks). |\n| **Historical precedent** | The method has been in use for centuries and is embedded in obstetric practice, guidelines, and legal definitions (e.g., “full-term” pregnancy). |\n| **Practicality** | It’s easier to ask a patient for a date than to try to determine the exact day of conception. |\n| **Clinical relevance** | Many obstetric milestones (e.g., first‑trimester screening, ultrasound windows, fetal growth charts) are based on gestational age measured from the LMP. |\n\n---\n\n## How it works\n\n1. **Day 1 of pregnancy** = first day of the last menstrual period.  \n2. **Conception** is assumed to occur about 14 days later (in a typical 28‑day cycle).  \n3. **Gestational age** is counted from day 1, so a fetus that is 8 weeks old is actually about 6 weeks post‑conception.  \n4. **Estimated due date (EDD)** is usually calculated as LMP + 280 days (40 weeks).  \n5. **Ultrasound dating** in the first trimester can refine the estimate, but the LMP remains the reference point.\n\n---\n\n## Alternatives and when they’re used\n\n| Alternative | When it’s used | Why |\n|-------------|----------------|-----|\n| **Ultrasound dating** | First‑trimester scans (≤ 13 weeks) | Provides a more accurate measurement of fetal size, especially if the LMP is uncertain. |\n| **Menstrual cycle length adjustment** | Women with irregular cycles | Adjusts the 280‑day calculation to account for longer or shorter cycles. |\n| **Biochemical markers** | Early pregnancy confirmation | Helps confirm viability but doesn’t replace LMP for dating. |\n\n---\n\n## Bottom line\n\nWe calculate pregnancy length from the first day of the last period because it gives us a **consistent, easily recalled starting point** that approximates the time of conception and allows clinicians to track fetal development, schedule care, and communicate about gestational age in a standardized way.",
+  "finish_reason": "stop",
+  "prompt_tokens": 90,
+  "completion_tokens": 2083,
+  "total_tokens": 2173,
+  "latency_ms": 3840,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:55:31.697387+00:00"
+}

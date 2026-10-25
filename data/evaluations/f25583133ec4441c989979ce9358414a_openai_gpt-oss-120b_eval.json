@@ -1,0 +1,14 @@
+{
+  "prompt_id": "f25583133ec4441c989979ce9358414a",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to address any of the evaluation dimensions. It is a standard refusal message that does not provide the requested creative story, lacks narrative structure, is incomplete regarding the task, and does not comply with the explicit instruction to write a story where the Oracle provides detailed instructions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 298,
+  "completion_tokens": 62,
+  "total_tokens": 360,
+  "timestamp": "2026-09-28T07:54:58.297775+00:00"
+}

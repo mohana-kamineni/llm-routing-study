@@ -1,0 +1,20 @@
+{
+  "prompt_id": "16a01e2bb3d2421188506e19b812b4de",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "generate a story on a boy whom every girl wants, continue the story",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 85,
+  "completion_tokens": 4096,
+  "total_tokens": 4181,
+  "latency_ms": 5103,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:57:30.823570+00:00"
+}

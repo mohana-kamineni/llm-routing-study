@@ -1,0 +1,14 @@
+{
+  "prompt_id": "735f79c6ca4545c68ffc15e67317fb13",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the source text into three distinct bullet points as requested. It covers all essential factual aspects:\n1.  **Definition & Characteristics**: Correctly identifies the lack of serifs, less stroke width variation, and the aesthetic associations (simplicity, modernity, minimalism).\n2.  **Usage & Visibility**: Accurately notes their prevalence on computer screens (especially low-resolution), the reason (serifs disappearing or appearing too large), and their preference for display text over body text in print.\n3.  **Historical & Terminology**: Correctly explains the etymology (French *sans*, uncertain *serif* origin), mentions the older term \"gothic\" (including its use in East Asian typography and specific typeface names), and notes the use of sans-serifs for emphasis due to their darker appearance.\n\nThe summary is concise, accurate, and omits no critical information from the source passage.",
+  "finish_reason": "stop",
+  "prompt_tokens": 578,
+  "completion_tokens": 198,
+  "total_tokens": 776,
+  "timestamp": "2026-09-19T17:28:26.172880+00:00"
+}

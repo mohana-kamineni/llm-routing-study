@@ -1,0 +1,14 @@
+{
+  "prompt_id": "876f9f380d434b3d948846434b7e6865",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response contains factual errors regarding the property types and the square footage range.\n1. **Property Types:** The source data lists 7 properties as \"Residential\" and 2 as \"Condo\". The response incorrectly states there are \"8 single-family residences and 2 condominiums,\" which totals 10 properties (contradicting the stated total of 9) and misclassifies the count of residential homes.\n2. **Square Footage:** The source data shows a maximum square footage of 1,177 sq ft (2561 19th Ave). The response incorrectly states the range is 796–1,167 sq ft, omitting the largest property.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1130,
+  "completion_tokens": 156,
+  "total_tokens": 1286,
+  "timestamp": "2026-09-19T17:16:19.240288+00:00"
+}

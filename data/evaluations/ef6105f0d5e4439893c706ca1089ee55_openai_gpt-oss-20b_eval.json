@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ef6105f0d5e4439893c706ca1089ee55",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response provides a comprehensive and accurate guide on how to solve for acceleration in engineering contexts. It correctly identifies the governing laws (Newton's Second Law for linear and rotational motion, kinematic equations, energy methods) and outlines a logical step-by-step process (define problem, write equations, apply constraints, solve, verify). The two worked examples (linear motion on an incline and rotational motion of a flywheel) are mathematically correct, with proper application of formulas and unit consistency. There are no substantive reasoning errors or incorrect conclusions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2444,
+  "completion_tokens": 118,
+  "total_tokens": 2562,
+  "timestamp": "2026-09-19T17:42:09.257732+00:00"
+}

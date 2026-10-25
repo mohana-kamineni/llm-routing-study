@@ -1,0 +1,14 @@
+{
+  "prompt_id": "48ca8496e90a4ed5aa2a0ee7d41ac641",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to accurately summarize the source text because it introduces significant factual errors and hallucinations that contradict the provided facts. Specifically:\n1. **Incorrect Player Nationalities/Identities**: The source lists \"Maria\" and \"Niemeier\" as the players in a quarter-final match. The response incorrectly identifies \"Maria\" as Maria Sakkari (who is Greek, not German as implied by the context of the other player, and Sakkari did not play Niemeier in the 2024 Wimbledon quarterfinals) and \"Niemeier\" as Emma Raducanu (referred to as \"Emma Niemeier\" and incorrectly labeled as the 2023 US Open champion, which was actually Gauff).\n2. **Fabricated Details**: The response invents specific scorelines, quotes, and narrative details (e.g., Halep's shoulder injury, Jabeur's specific quote) that are not present in the source text.\n3. **Misattribution**: The source states Rybakina defeated Jabeur in the final. While the response gets this right, it muddles the earlier rounds by assigning the \"Maria vs Niemeier\" match to Sakkari vs Raducanu, which is factually incorrect regarding the actual 2024 tournament and misrepresents the source's generic names.\n\nBecause the summary contains fabricated facts and misidentifies players based on the source's limited information, it is not an adequate or accurate summary.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1062,
+  "completion_tokens": 315,
+  "total_tokens": 1377,
+  "timestamp": "2026-09-23T07:45:13.237355+00:00"
+}

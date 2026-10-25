@@ -1,0 +1,1230 @@
+{
+  "metadata": {
+    "title": "Phase 4 Statistical Analysis & Routing Evaluation",
+    "study_prompts": 500,
+    "categories": [
+      "factual_qa",
+      "reasoning_math",
+      "summarization",
+      "creative"
+    ],
+    "prompts_per_category": 125,
+    "bootstrap_iterations": 1000,
+    "bootstrap_seed": 42
+  },
+  "study_wide": {
+    "label": "Study-Wide (N=500)",
+    "n": 500,
+    "n_20b_pass": 330,
+    "p_20b": 0.66,
+    "ci_20b": [
+      0.6173990695060175,
+      0.700161141546286
+    ],
+    "n_120b_pass": 379,
+    "p_120b": 0.758,
+    "ci_120b": [
+      0.7185836488729677,
+      0.7934821914488713
+    ],
+    "delta_pass_rate": 0.09799999999999998,
+    "cells": {
+      "Cell_A_PASS_PASS": 306,
+      "Cell_B_FAIL_PASS": 73,
+      "Cell_C_PASS_FAIL": 24,
+      "Cell_D_FAIL_FAIL": 97
+    },
+    "mcnemar": {
+      "discordant_total": 97,
+      "b_120b_superior": 73,
+      "c_20b_inversion": 24,
+      "chi2_stat": 23.75257731958763,
+      "p_value_exact": 6.404732398670512e-07,
+      "odds_ratio": 3.0416666666666665
+    },
+    "fisher": {
+      "p_value": 0.0008168876878879229,
+      "odds_ratio": 0.6197423560453205
+    }
+  },
+  "category_analyses": {
+    "factual_qa": {
+      "label": "factual_qa",
+      "n": 125,
+      "n_20b_pass": 88,
+      "p_20b": 0.704,
+      "ci_20b": [
+        0.6188604280962418,
+        0.776974891270761
+      ],
+      "n_120b_pass": 97,
+      "p_120b": 0.776,
+      "ci_120b": [
+        0.6953116645758503,
+        0.8402302380971536
+      ],
+      "delta_pass_rate": 0.07200000000000006,
+      "cells": {
+        "Cell_A_PASS_PASS": 86,
+        "Cell_B_FAIL_PASS": 11,
+        "Cell_C_PASS_FAIL": 2,
+        "Cell_D_FAIL_FAIL": 26
+      },
+      "mcnemar": {
+        "discordant_total": 13,
+        "b_120b_superior": 11,
+        "c_20b_inversion": 2,
+        "chi2_stat": 4.923076923076923,
+        "p_value_exact": 0.0224609375,
+        "odds_ratio": 5.5,
+        "fdr_q_value": 0.044921875
+      },
+      "fisher": {
+        "p_value": 0.24860154810607527,
+        "odds_ratio": 0.6865422123154082
+      }
+    },
+    "reasoning_math": {
+      "label": "reasoning_math",
+      "n": 125,
+      "n_20b_pass": 97,
+      "p_20b": 0.776,
+      "ci_20b": [
+        0.6953116645758503,
+        0.8402302380971536
+      ],
+      "n_120b_pass": 106,
+      "p_120b": 0.848,
+      "ci_120b": [
+        0.7747693201833344,
+        0.9004791657956704
+      ],
+      "delta_pass_rate": 0.07199999999999995,
+      "cells": {
+        "Cell_A_PASS_PASS": 91,
+        "Cell_B_FAIL_PASS": 15,
+        "Cell_C_PASS_FAIL": 6,
+        "Cell_D_FAIL_FAIL": 13
+      },
+      "mcnemar": {
+        "discordant_total": 21,
+        "b_120b_superior": 15,
+        "c_20b_inversion": 6,
+        "chi2_stat": 3.0476190476190474,
+        "p_value_exact": 0.0783538818359375,
+        "odds_ratio": 2.5,
+        "fdr_q_value": 0.10447184244791667
+      },
+      "fisher": {
+        "p_value": 0.19498604984740284,
+        "odds_ratio": 0.6209568733153639
+      }
+    },
+    "summarization": {
+      "label": "summarization",
+      "n": 125,
+      "n_20b_pass": 83,
+      "p_20b": 0.664,
+      "ci_20b": [
+        0.5774044433006151,
+        0.7408161075630538
+      ],
+      "n_120b_pass": 87,
+      "p_120b": 0.696,
+      "ci_120b": [
+        0.6105156751661402,
+        0.7697966905001957
+      ],
+      "delta_pass_rate": 0.03199999999999992,
+      "cells": {
+        "Cell_A_PASS_PASS": 74,
+        "Cell_B_FAIL_PASS": 13,
+        "Cell_C_PASS_FAIL": 9,
+        "Cell_D_FAIL_FAIL": 29
+      },
+      "mcnemar": {
+        "discordant_total": 22,
+        "b_120b_superior": 13,
+        "c_20b_inversion": 9,
+        "chi2_stat": 0.4090909090909091,
+        "p_value_exact": 0.5234670639038086,
+        "odds_ratio": 1.4444444444444444,
+        "fdr_q_value": 0.5234670639038086
+      },
+      "fisher": {
+        "p_value": 0.6843331924468916,
+        "odds_ratio": 0.8631636562671046
+      }
+    },
+    "creative": {
+      "label": "creative",
+      "n": 125,
+      "n_20b_pass": 62,
+      "p_20b": 0.496,
+      "ci_20b": [
+        0.4097862690163362,
+        0.5824522541333303
+      ],
+      "n_120b_pass": 89,
+      "p_120b": 0.712,
+      "ci_120b": [
+        0.6272331124968417,
+        0.7841251605708278
+      ],
+      "delta_pass_rate": 0.21599999999999997,
+      "cells": {
+        "Cell_A_PASS_PASS": 55,
+        "Cell_B_FAIL_PASS": 34,
+        "Cell_C_PASS_FAIL": 7,
+        "Cell_D_FAIL_FAIL": 29
+      },
+      "mcnemar": {
+        "discordant_total": 41,
+        "b_120b_superior": 34,
+        "c_20b_inversion": 7,
+        "chi2_stat": 16.48780487804878,
+        "p_value_exact": 2.532080361561384e-05,
+        "odds_ratio": 4.857142857142857,
+        "fdr_q_value": 0.00010128321446245536
+      },
+      "fisher": {
+        "p_value": 0.0007348872329964567,
+        "odds_ratio": 0.39807383627608345
+      }
+    }
+  },
+  "baselines": {
+    "Always_120B": {
+      "pass_count": 379,
+      "pass_rate": 0.758,
+      "pass_ci": [
+        0.7185836488729677,
+        0.7934821914488713
+      ],
+      "cost": 0.2670111,
+      "cost_savings_pct": 0.0,
+      "quality_retention_pct": 100.0
+    },
+    "Always_20B": {
+      "pass_count": 330,
+      "pass_rate": 0.66,
+      "pass_ci": [
+        0.6173990695060175,
+        0.700161141546286
+      ],
+      "cost": 0.18505934999999998,
+      "cost_savings_pct": 30.692263355343663,
+      "quality_retention_pct": 87.07124010554091
+    },
+    "Random_50_50": {
+      "pass_count_expected": 354.5,
+      "pass_rate_expected": 0.709,
+      "ci_algorithmic_randomization_95": {
+        "estimand": "Algorithmic randomization uncertainty across coin flips conditional on fixed 500 prompts",
+        "formula": "K = A + Binomial(B + C, 0.5)",
+        "concordant_passes_A": 306,
+        "discordant_pairs_B_plus_C": 97,
+        "se": 0.009848857801796104,
+        "pass_count_ci": [
+          345,
+          364
+        ],
+        "pass_rate_ci": [
+          0.69,
+          0.728
+        ]
+      },
+      "ci_prompt_bootstrap_95": {
+        "estimand": "Superpopulation prompt-sampling uncertainty across evaluation prompt distribution",
+        "method": "non_parametric_prompt_bootstrap_1000",
+        "resampling_unit": "prompt_preserving_paired_outcomes",
+        "pass_rate_ci": [
+          0.6759999999999999,
+          0.7460249999999999
+        ]
+      },
+      "cost": 0.226035225,
+      "cost_savings_pct": 15.346131677671826,
+      "quality_retention_pct": 93.53562005277044
+    },
+    "Oracle": {
+      "label": "Oracle (Hindsight Upper Bound, Non-Deployable)",
+      "description": "Hindsight-only theoretical ceiling assuming perfect knowledge of both models' outcomes on each prompt; not an operational router.",
+      "pass_count": 403,
+      "pass_rate": 0.806,
+      "pass_ci": [
+        0.7690603702807669,
+        0.8382735333567632
+      ],
+      "cost": 0.17843535000000016,
+      "cost_savings_pct": 33.17305909754308,
+      "quality_retention_pct": 106.33245382585753
+    }
+  },
+  "threshold_sweep": [
+    {
+      "theta": 0.0,
+      "routed_to_20b": 0,
+      "routed_to_120b": 500,
+      "pct_to_20b": 0.0,
+      "routed_pass": 379,
+      "pass_rate": 0.758,
+      "pass_rate_ci": [
+        0.7185836488729677,
+        0.7934821914488713
+      ],
+      "total_cost": 0.26701109999999995,
+      "resolvable_task_pass_rate": 0.9404466501240695,
+      "oracle_cost_target_agreement": 0.18114143920595532,
+      "routing_accuracy_resolvable": 0.18114143920595532,
+      "routing_accuracy_all": 0.146,
+      "category_pass_rates": {
+        "factual_qa": 0.776,
+        "summarization": 0.696,
+        "reasoning_math": 0.848,
+        "creative": 0.712
+      },
+      "cost_savings_pct": 2.078982904877656e-14,
+      "quality_retention_pct": 100.0
+    },
+    {
+      "theta": 0.05,
+      "routed_to_20b": 0,
+      "routed_to_120b": 500,
+      "pct_to_20b": 0.0,
+      "routed_pass": 379,
+      "pass_rate": 0.758,
+      "pass_rate_ci": [
+        0.7185836488729677,
+        0.7934821914488713
+      ],
+      "total_cost": 0.26701109999999995,
+      "resolvable_task_pass_rate": 0.9404466501240695,
+      "oracle_cost_target_agreement": 0.18114143920595532,
+      "routing_accuracy_resolvable": 0.18114143920595532,
+      "routing_accuracy_all": 0.146,
+      "category_pass_rates": {
+        "factual_qa": 0.776,
+        "summarization": 0.696,
+        "reasoning_math": 0.848,
+        "creative": 0.712
+      },
+      "cost_savings_pct": 2.078982904877656e-14,
+      "quality_retention_pct": 100.0
+    },
+    {
+      "theta": 0.1,
+      "routed_to_20b": 0,
+      "routed_to_120b": 500,
+      "pct_to_20b": 0.0,
+      "routed_pass": 379,
+      "pass_rate": 0.758,
+      "pass_rate_ci": [
+        0.7185836488729677,
+        0.7934821914488713
+      ],
+      "total_cost": 0.26701109999999995,
+      "resolvable_task_pass_rate": 0.9404466501240695,
+      "oracle_cost_target_agreement": 0.18114143920595532,
+      "routing_accuracy_resolvable": 0.18114143920595532,
+      "routing_accuracy_all": 0.146,
+      "category_pass_rates": {
+        "factual_qa": 0.776,
+        "summarization": 0.696,
+        "reasoning_math": 0.848,
+        "creative": 0.712
+      },
+      "cost_savings_pct": 2.078982904877656e-14,
+      "quality_retention_pct": 100.0
+    },
+    {
+      "theta": 0.15,
+      "routed_to_20b": 0,
+      "routed_to_120b": 500,
+      "pct_to_20b": 0.0,
+      "routed_pass": 379,
+      "pass_rate": 0.758,
+      "pass_rate_ci": [
+        0.7185836488729677,
+        0.7934821914488713
+      ],
+      "total_cost": 0.26701109999999995,
+      "resolvable_task_pass_rate": 0.9404466501240695,
+      "oracle_cost_target_agreement": 0.18114143920595532,
+      "routing_accuracy_resolvable": 0.18114143920595532,
+      "routing_accuracy_all": 0.146,
+      "category_pass_rates": {
+        "factual_qa": 0.776,
+        "summarization": 0.696,
+        "reasoning_math": 0.848,
+        "creative": 0.712
+      },
+      "cost_savings_pct": 2.078982904877656e-14,
+      "quality_retention_pct": 100.0
+    },
+    {
+      "theta": 0.2,
+      "routed_to_20b": 18,
+      "routed_to_120b": 482,
+      "pct_to_20b": 0.036,
+      "routed_pass": 375,
+      "pass_rate": 0.75,
+      "pass_rate_ci": [
+        0.7102363265170449,
+        0.785951503252179
+      ],
+      "total_cost": 0.26583247499999996,
+      "resolvable_task_pass_rate": 0.9305210918114144,
+      "oracle_cost_target_agreement": 0.20099255583126552,
+      "routing_accuracy_resolvable": 0.20099255583126552,
+      "routing_accuracy_all": 0.162,
+      "category_pass_rates": {
+        "factual_qa": 0.776,
+        "summarization": 0.696,
+        "reasoning_math": 0.848,
+        "creative": 0.68
+      },
+      "cost_savings_pct": 0.44141423334087765,
+      "quality_retention_pct": 98.94459102902374
+    },
+    {
+      "theta": 0.25,
+      "routed_to_20b": 54,
+      "routed_to_120b": 446,
+      "pct_to_20b": 0.108,
+      "routed_pass": 368,
+      "pass_rate": 0.736,
+      "pass_rate_ci": [
+        0.6956691427151992,
+        0.7727321685869482
+      ],
+      "total_cost": 0.2649027,
+      "resolvable_task_pass_rate": 0.913151364764268,
+      "oracle_cost_target_agreement": 0.23325062034739455,
+      "routing_accuracy_resolvable": 0.23325062034739455,
+      "routing_accuracy_all": 0.202,
+      "category_pass_rates": {
+        "factual_qa": 0.768,
+        "summarization": 0.696,
+        "reasoning_math": 0.848,
+        "creative": 0.632
+      },
+      "cost_savings_pct": 0.7896300940298026,
+      "quality_retention_pct": 97.0976253298153
+    },
+    {
+      "theta": 0.3,
+      "routed_to_20b": 171,
+      "routed_to_120b": 329,
+      "pct_to_20b": 0.342,
+      "routed_pass": 351,
+      "pass_rate": 0.702,
+      "pass_rate_ci": [
+        0.6604929783319653,
+        0.7404267881215676
+      ],
+      "total_cost": 0.24619177500000022,
+      "resolvable_task_pass_rate": 0.8709677419354839,
+      "oracle_cost_target_agreement": 0.3573200992555831,
+      "routing_accuracy_resolvable": 0.3573200992555831,
+      "routing_accuracy_all": 0.356,
+      "category_pass_rates": {
+        "factual_qa": 0.736,
+        "summarization": 0.696,
+        "reasoning_math": 0.848,
+        "creative": 0.528
+      },
+      "cost_savings_pct": 7.797175847745572,
+      "quality_retention_pct": 92.61213720316623
+    },
+    {
+      "theta": 0.35,
+      "routed_to_20b": 212,
+      "routed_to_120b": 288,
+      "pct_to_20b": 0.424,
+      "routed_pass": 345,
+      "pass_rate": 0.69,
+      "pass_rate_ci": [
+        0.6481416618981787,
+        0.7289610887264314
+      ],
+      "total_cost": 0.23452275000000022,
+      "resolvable_task_pass_rate": 0.8560794044665012,
+      "oracle_cost_target_agreement": 0.3920595533498759,
+      "routing_accuracy_resolvable": 0.3920595533498759,
+      "routing_accuracy_all": 0.402,
+      "category_pass_rates": {
+        "factual_qa": 0.712,
+        "summarization": 0.696,
+        "reasoning_math": 0.848,
+        "creative": 0.504
+      },
+      "cost_savings_pct": 12.167415511939307,
+      "quality_retention_pct": 91.02902374670184
+    },
+    {
+      "theta": 0.4,
+      "routed_to_20b": 237,
+      "routed_to_120b": 263,
+      "pct_to_20b": 0.474,
+      "routed_pass": 346,
+      "pass_rate": 0.692,
+      "pass_rate_ci": [
+        0.6501980013173226,
+        0.7308742519454412
+      ],
+      "total_cost": 0.23301457500000017,
+      "resolvable_task_pass_rate": 0.858560794044665,
+      "oracle_cost_target_agreement": 0.4392059553349876,
+      "routing_accuracy_resolvable": 0.4392059553349876,
+      "routing_accuracy_all": 0.452,
+      "category_pass_rates": {
+        "factual_qa": 0.712,
+        "summarization": 0.696,
+        "reasoning_math": 0.848,
+        "creative": 0.512
+      },
+      "cost_savings_pct": 12.732251580552207,
+      "quality_retention_pct": 91.2928759894459
+    },
+    {
+      "theta": 0.45,
+      "routed_to_20b": 245,
+      "routed_to_120b": 255,
+      "pct_to_20b": 0.49,
+      "routed_pass": 342,
+      "pass_rate": 0.684,
+      "pass_rate_ci": [
+        0.641977870830057,
+        0.7232163718800919
+      ],
+      "total_cost": 0.23124375000000014,
+      "resolvable_task_pass_rate": 0.8486352357320099,
+      "oracle_cost_target_agreement": 0.4317617866004963,
+      "routing_accuracy_resolvable": 0.4317617866004963,
+      "routing_accuracy_all": 0.452,
+      "category_pass_rates": {
+        "factual_qa": 0.704,
+        "summarization": 0.696,
+        "reasoning_math": 0.84,
+        "creative": 0.496
+      },
+      "cost_savings_pct": 13.395454346279937,
+      "quality_retention_pct": 90.23746701846966
+    },
+    {
+      "theta": 0.5,
+      "routed_to_20b": 280,
+      "routed_to_120b": 220,
+      "pct_to_20b": 0.56,
+      "routed_pass": 343,
+      "pass_rate": 0.686,
+      "pass_rate_ci": [
+        0.6440316011844003,
+        0.7251321441639024
+      ],
+      "total_cost": 0.2263954500000001,
+      "resolvable_task_pass_rate": 0.8511166253101737,
+      "oracle_cost_target_agreement": 0.49627791563275436,
+      "routing_accuracy_resolvable": 0.49627791563275436,
+      "routing_accuracy_all": 0.514,
+      "category_pass_rates": {
+        "factual_qa": 0.704,
+        "summarization": 0.704,
+        "reasoning_math": 0.84,
+        "creative": 0.496
+      },
+      "cost_savings_pct": 15.211221555957746,
+      "quality_retention_pct": 90.50131926121374
+    },
+    {
+      "theta": 0.55,
+      "routed_to_20b": 320,
+      "routed_to_120b": 180,
+      "pct_to_20b": 0.64,
+      "routed_pass": 338,
+      "pass_rate": 0.676,
+      "pass_rate_ci": [
+        0.6337715143893493,
+        0.7155447177681844
+      ],
+      "total_cost": 0.2217834000000001,
+      "resolvable_task_pass_rate": 0.8387096774193549,
+      "oracle_cost_target_agreement": 0.5632754342431762,
+      "routing_accuracy_resolvable": 0.5632754342431762,
+      "routing_accuracy_all": 0.574,
+      "category_pass_rates": {
+        "factual_qa": 0.704,
+        "summarization": 0.688,
+        "reasoning_math": 0.816,
+        "creative": 0.496
+      },
+      "cost_savings_pct": 16.938509297928025,
+      "quality_retention_pct": 89.18205804749341
+    },
+    {
+      "theta": 0.6,
+      "routed_to_20b": 374,
+      "routed_to_120b": 126,
+      "pct_to_20b": 0.748,
+      "routed_pass": 337,
+      "pass_rate": 0.674,
+      "pass_rate_ci": [
+        0.6317220455546272,
+        0.7136246839647526
+      ],
+      "total_cost": 0.21178957500000015,
+      "resolvable_task_pass_rate": 0.8362282878411911,
+      "oracle_cost_target_agreement": 0.6327543424317618,
+      "routing_accuracy_resolvable": 0.6327543424317618,
+      "routing_accuracy_all": 0.654,
+      "category_pass_rates": {
+        "factual_qa": 0.704,
+        "summarization": 0.688,
+        "reasoning_math": 0.808,
+        "creative": 0.496
+      },
+      "cost_savings_pct": 20.681359314275642,
+      "quality_retention_pct": 88.91820580474935
+    },
+    {
+      "theta": 0.65,
+      "routed_to_20b": 428,
+      "routed_to_120b": 72,
+      "pct_to_20b": 0.856,
+      "routed_pass": 333,
+      "pass_rate": 0.666,
+      "pass_rate_ci": [
+        0.6235325314226418,
+        0.705936187544123
+      ],
+      "total_cost": 0.1983748500000001,
+      "resolvable_task_pass_rate": 0.826302729528536,
+      "oracle_cost_target_agreement": 0.7047146401985112,
+      "routing_accuracy_resolvable": 0.7047146401985112,
+      "routing_accuracy_all": 0.738,
+      "category_pass_rates": {
+        "factual_qa": 0.704,
+        "summarization": 0.664,
+        "reasoning_math": 0.8,
+        "creative": 0.496
+      },
+      "cost_savings_pct": 25.705392023028217,
+      "quality_retention_pct": 87.86279683377309
+    },
+    {
+      "theta": 0.7,
+      "routed_to_20b": 478,
+      "routed_to_120b": 22,
+      "pct_to_20b": 0.956,
+      "routed_pass": 330,
+      "pass_rate": 0.66,
+      "pass_rate_ci": [
+        0.6173990695060175,
+        0.700161141546286
+      ],
+      "total_cost": 0.19077322500000013,
+      "resolvable_task_pass_rate": 0.8188585607940446,
+      "oracle_cost_target_agreement": 0.7791563275434243,
+      "routing_accuracy_resolvable": 0.7791563275434243,
+      "routing_accuracy_all": 0.814,
+      "category_pass_rates": {
+        "factual_qa": 0.704,
+        "summarization": 0.656,
+        "reasoning_math": 0.784,
+        "creative": 0.496
+      },
+      "cost_savings_pct": 28.55232422921739,
+      "quality_retention_pct": 87.07124010554091
+    },
+    {
+      "theta": 0.75,
+      "routed_to_20b": 499,
+      "routed_to_120b": 1,
+      "pct_to_20b": 0.998,
+      "routed_pass": 330,
+      "pass_rate": 0.66,
+      "pass_rate_ci": [
+        0.6173990695060175,
+        0.700161141546286
+      ],
+      "total_cost": 0.18560610000000005,
+      "resolvable_task_pass_rate": 0.8188585607940446,
+      "oracle_cost_target_agreement": 0.8188585607940446,
+      "routing_accuracy_resolvable": 0.8188585607940446,
+      "routing_accuracy_all": 0.852,
+      "category_pass_rates": {
+        "factual_qa": 0.704,
+        "summarization": 0.664,
+        "reasoning_math": 0.776,
+        "creative": 0.496
+      },
+      "cost_savings_pct": 30.487496587220512,
+      "quality_retention_pct": 87.07124010554091
+    },
+    {
+      "theta": 0.8,
+      "routed_to_20b": 500,
+      "routed_to_120b": 0,
+      "pct_to_20b": 1.0,
+      "routed_pass": 330,
+      "pass_rate": 0.66,
+      "pass_rate_ci": [
+        0.6173990695060175,
+        0.700161141546286
+      ],
+      "total_cost": 0.18505935000000007,
+      "resolvable_task_pass_rate": 0.8188585607940446,
+      "oracle_cost_target_agreement": 0.8188585607940446,
+      "routing_accuracy_resolvable": 0.8188585607940446,
+      "routing_accuracy_all": 0.854,
+      "category_pass_rates": {
+        "factual_qa": 0.704,
+        "summarization": 0.664,
+        "reasoning_math": 0.776,
+        "creative": 0.496
+      },
+      "cost_savings_pct": 30.69226335534363,
+      "quality_retention_pct": 87.07124010554091
+    },
+    {
+      "theta": 0.85,
+      "routed_to_20b": 500,
+      "routed_to_120b": 0,
+      "pct_to_20b": 1.0,
+      "routed_pass": 330,
+      "pass_rate": 0.66,
+      "pass_rate_ci": [
+        0.6173990695060175,
+        0.700161141546286
+      ],
+      "total_cost": 0.18505935000000007,
+      "resolvable_task_pass_rate": 0.8188585607940446,
+      "oracle_cost_target_agreement": 0.8188585607940446,
+      "routing_accuracy_resolvable": 0.8188585607940446,
+      "routing_accuracy_all": 0.854,
+      "category_pass_rates": {
+        "factual_qa": 0.704,
+        "summarization": 0.664,
+        "reasoning_math": 0.776,
+        "creative": 0.496
+      },
+      "cost_savings_pct": 30.69226335534363,
+      "quality_retention_pct": 87.07124010554091
+    },
+    {
+      "theta": 0.9,
+      "routed_to_20b": 500,
+      "routed_to_120b": 0,
+      "pct_to_20b": 1.0,
+      "routed_pass": 330,
+      "pass_rate": 0.66,
+      "pass_rate_ci": [
+        0.6173990695060175,
+        0.700161141546286
+      ],
+      "total_cost": 0.18505935000000007,
+      "resolvable_task_pass_rate": 0.8188585607940446,
+      "oracle_cost_target_agreement": 0.8188585607940446,
+      "routing_accuracy_resolvable": 0.8188585607940446,
+      "routing_accuracy_all": 0.854,
+      "category_pass_rates": {
+        "factual_qa": 0.704,
+        "summarization": 0.664,
+        "reasoning_math": 0.776,
+        "creative": 0.496
+      },
+      "cost_savings_pct": 30.69226335534363,
+      "quality_retention_pct": 87.07124010554091
+    },
+    {
+      "theta": 0.95,
+      "routed_to_20b": 500,
+      "routed_to_120b": 0,
+      "pct_to_20b": 1.0,
+      "routed_pass": 330,
+      "pass_rate": 0.66,
+      "pass_rate_ci": [
+        0.6173990695060175,
+        0.700161141546286
+      ],
+      "total_cost": 0.18505935000000007,
+      "resolvable_task_pass_rate": 0.8188585607940446,
+      "oracle_cost_target_agreement": 0.8188585607940446,
+      "routing_accuracy_resolvable": 0.8188585607940446,
+      "routing_accuracy_all": 0.854,
+      "category_pass_rates": {
+        "factual_qa": 0.704,
+        "summarization": 0.664,
+        "reasoning_math": 0.776,
+        "creative": 0.496
+      },
+      "cost_savings_pct": 30.69226335534363,
+      "quality_retention_pct": 87.07124010554091
+    },
+    {
+      "theta": 1.0,
+      "routed_to_20b": 500,
+      "routed_to_120b": 0,
+      "pct_to_20b": 1.0,
+      "routed_pass": 330,
+      "pass_rate": 0.66,
+      "pass_rate_ci": [
+        0.6173990695060175,
+        0.700161141546286
+      ],
+      "total_cost": 0.18505935000000007,
+      "resolvable_task_pass_rate": 0.8188585607940446,
+      "oracle_cost_target_agreement": 0.8188585607940446,
+      "routing_accuracy_resolvable": 0.8188585607940446,
+      "routing_accuracy_all": 0.854,
+      "category_pass_rates": {
+        "factual_qa": 0.704,
+        "summarization": 0.664,
+        "reasoning_math": 0.776,
+        "creative": 0.496
+      },
+      "cost_savings_pct": 30.69226335534363,
+      "quality_retention_pct": 87.07124010554091
+    }
+  ],
+  "bootstrap_pareto": {
+    "0.0": {
+      "pass_rate_mean": 0.7591760000000002,
+      "pass_rate_ci_95": [
+        0.722,
+        0.798
+      ],
+      "cost_mean": 0.26678913,
+      "cost_ci_95": [
+        0.2428382775000001,
+        0.29019949499999975
+      ],
+      "savings_mean": -1.0887172346045271e-14,
+      "savings_ci_95": [
+        -1.2849742226772407e-13,
+        1.1506299774337382e-13
+      ]
+    },
+    "0.05": {
+      "pass_rate_mean": 0.7591760000000002,
+      "pass_rate_ci_95": [
+        0.722,
+        0.798
+      ],
+      "cost_mean": 0.26678913,
+      "cost_ci_95": [
+        0.2428382775000001,
+        0.29019949499999975
+      ],
+      "savings_mean": -1.0887172346045271e-14,
+      "savings_ci_95": [
+        -1.2849742226772407e-13,
+        1.1506299774337382e-13
+      ]
+    },
+    "0.1": {
+      "pass_rate_mean": 0.7591760000000002,
+      "pass_rate_ci_95": [
+        0.722,
+        0.798
+      ],
+      "cost_mean": 0.26678913,
+      "cost_ci_95": [
+        0.2428382775000001,
+        0.29019949499999975
+      ],
+      "savings_mean": -1.0887172346045271e-14,
+      "savings_ci_95": [
+        -1.2849742226772407e-13,
+        1.1506299774337382e-13
+      ]
+    },
+    "0.15": {
+      "pass_rate_mean": 0.7591760000000002,
+      "pass_rate_ci_95": [
+        0.722,
+        0.798
+      ],
+      "cost_mean": 0.26678913,
+      "cost_ci_95": [
+        0.2428382775000001,
+        0.29019949499999975
+      ],
+      "savings_mean": -1.0887172346045271e-14,
+      "savings_ci_95": [
+        -1.2849742226772407e-13,
+        1.1506299774337382e-13
+      ]
+    },
+    "0.2": {
+      "pass_rate_mean": 0.751148,
+      "pass_rate_ci_95": [
+        0.714,
+        0.79005
+      ],
+      "cost_mean": 0.265616432625,
+      "cost_ci_95": [
+        0.2414490112499999,
+        0.2896267837499997
+      ],
+      "savings_mean": 0.4406208285548017,
+      "savings_ci_95": [
+        -0.02578592554627475,
+        0.9767567544377252
+      ]
+    },
+    "0.25": {
+      "pass_rate_mean": 0.7374959999999999,
+      "pass_rate_ci_95": [
+        0.698,
+        0.778
+      ],
+      "cost_mean": 0.264693632175,
+      "cost_ci_95": [
+        0.2403611587500002,
+        0.2884852406250002
+      ],
+      "savings_mean": 0.7856959314789214,
+      "savings_ci_95": [
+        -0.8083232360596395,
+        2.3273968921993293
+      ]
+    },
+    "0.3": {
+      "pass_rate_mean": 0.70294,
+      "pass_rate_ci_95": [
+        0.662,
+        0.742
+      ],
+      "cost_mean": 0.2460913542750001,
+      "cost_ci_95": [
+        0.2234303362499999,
+        0.26872060874999987
+      ],
+      "savings_mean": 7.738254398500749,
+      "savings_ci_95": [
+        3.2359322162252115,
+        12.280091165418664
+      ]
+    },
+    "0.35": {
+      "pass_rate_mean": 0.691326,
+      "pass_rate_ci_95": [
+        0.65,
+        0.732
+      ],
+      "cost_mean": 0.23440900905000014,
+      "cost_ci_95": [
+        0.21280650562499995,
+        0.2550215568750003
+      ],
+      "savings_mean": 12.105113273224669,
+      "savings_ci_95": [
+        6.938437730234396,
+        16.99491421755368
+      ]
+    },
+    "0.4": {
+      "pass_rate_mean": 0.693268,
+      "pass_rate_ci_95": [
+        0.65395,
+        0.734
+      ],
+      "cost_mean": 0.23289236280000014,
+      "cost_ci_95": [
+        0.210252815625,
+        0.2538279825000003
+      ],
+      "savings_mean": 12.669510854115753,
+      "savings_ci_95": [
+        7.197526660205463,
+        17.906341733426608
+      ]
+    },
+    "0.45": {
+      "pass_rate_mean": 0.685472,
+      "pass_rate_ci_95": [
+        0.644,
+        0.726
+      ],
+      "cost_mean": 0.23124283770000012,
+      "cost_ci_95": [
+        0.21007643437500004,
+        0.2511616012500001
+      ],
+      "savings_mean": 13.282951835809351,
+      "savings_ci_95": [
+        7.456768806769958,
+        18.89738881237753
+      ]
+    },
+    "0.5": {
+      "pass_rate_mean": 0.6874020000000001,
+      "pass_rate_ci_95": [
+        0.646,
+        0.728
+      ],
+      "cost_mean": 0.22644121177500015,
+      "cost_ci_95": [
+        0.20600681062500012,
+        0.2461543856250002
+      ],
+      "savings_mean": 15.08097725971517,
+      "savings_ci_95": [
+        9.353780876666516,
+        20.595370291100416
+      ]
+    },
+    "0.55": {
+      "pass_rate_mean": 0.677326,
+      "pass_rate_ci_95": [
+        0.63795,
+        0.718
+      ],
+      "cost_mean": 0.22182009502500014,
+      "cost_ci_95": [
+        0.20090145187500008,
+        0.24204418125000018
+      ],
+      "savings_mean": 16.813707696370574,
+      "savings_ci_95": [
+        11.262646975232606,
+        22.23154618888013
+      ]
+    },
+    "0.6": {
+      "pass_rate_mean": 0.67522,
+      "pass_rate_ci_95": [
+        0.634,
+        0.71805
+      ],
+      "cost_mean": 0.21178682587500014,
+      "cost_ci_95": [
+        0.19346457,
+        0.23137993687500014
+      ],
+      "savings_mean": 20.56752263222191,
+      "savings_ci_95": [
+        14.45506586529981,
+        26.136162367433787
+      ]
+    },
+    "0.65": {
+      "pass_rate_mean": 0.6672760000000001,
+      "pass_rate_ci_95": [
+        0.626,
+        0.71
+      ],
+      "cost_mean": 0.19840977682500013,
+      "cost_ci_95": [
+        0.18144114000000014,
+        0.21741301125000012
+      ],
+      "savings_mean": 25.581011423028094,
+      "savings_ci_95": [
+        19.57850987559411,
+        30.6630339037639
+      ]
+    },
+    "0.7": {
+      "pass_rate_mean": 0.661244,
+      "pass_rate_ci_95": [
+        0.62,
+        0.70205
+      ],
+      "cost_mean": 0.19079012985000013,
+      "cost_ci_95": [
+        0.17395768500000022,
+        0.20865981000000025
+      ],
+      "savings_mean": 28.438396397608617,
+      "savings_ci_95": [
+        22.581385376744553,
+        33.53330326261018
+      ]
+    },
+    "0.75": {
+      "pass_rate_mean": 0.6612560000000001,
+      "pass_rate_ci_95": [
+        0.62,
+        0.704
+      ],
+      "cost_mean": 0.18557175555000008,
+      "cost_ci_95": [
+        0.1702715118750002,
+        0.20179425937500028
+      ],
+      "savings_mean": 30.389669142765978,
+      "savings_ci_95": [
+        24.82124335282131,
+        35.54142678209652
+      ]
+    },
+    "0.8": {
+      "pass_rate_mean": 0.6612560000000001,
+      "pass_rate_ci_95": [
+        0.62,
+        0.704
+      ],
+      "cost_mean": 0.18502336530000008,
+      "cost_ci_95": [
+        0.16972157812500022,
+        0.20134023187500036
+      ],
+      "savings_mean": 30.594875839304198,
+      "savings_ci_95": [
+        24.96112714271736,
+        35.66949549475698
+      ]
+    },
+    "0.85": {
+      "pass_rate_mean": 0.6612560000000001,
+      "pass_rate_ci_95": [
+        0.62,
+        0.704
+      ],
+      "cost_mean": 0.18502336530000008,
+      "cost_ci_95": [
+        0.16972157812500022,
+        0.20134023187500036
+      ],
+      "savings_mean": 30.594875839304198,
+      "savings_ci_95": [
+        24.96112714271736,
+        35.66949549475698
+      ]
+    },
+    "0.9": {
+      "pass_rate_mean": 0.6612560000000001,
+      "pass_rate_ci_95": [
+        0.62,
+        0.704
+      ],
+      "cost_mean": 0.18502336530000008,
+      "cost_ci_95": [
+        0.16972157812500022,
+        0.20134023187500036
+      ],
+      "savings_mean": 30.594875839304198,
+      "savings_ci_95": [
+        24.96112714271736,
+        35.66949549475698
+      ]
+    },
+    "0.95": {
+      "pass_rate_mean": 0.6612560000000001,
+      "pass_rate_ci_95": [
+        0.62,
+        0.704
+      ],
+      "cost_mean": 0.18502336530000008,
+      "cost_ci_95": [
+        0.16972157812500022,
+        0.20134023187500036
+      ],
+      "savings_mean": 30.594875839304198,
+      "savings_ci_95": [
+        24.96112714271736,
+        35.66949549475698
+      ]
+    },
+    "1.0": {
+      "pass_rate_mean": 0.6612560000000001,
+      "pass_rate_ci_95": [
+        0.62,
+        0.704
+      ],
+      "cost_mean": 0.18502336530000008,
+      "cost_ci_95": [
+        0.16972157812500022,
+        0.20134023187500036
+      ],
+      "savings_mean": 30.594875839304198,
+      "savings_ci_95": [
+        24.96112714271736,
+        35.66949549475698
+      ]
+    }
+  },
+  "summarization_split_sensitivity": {
+    "independent_50": {
+      "label": "Summarization (Independent, n=50)",
+      "n": 50,
+      "n_20b_pass": 42,
+      "p_20b": 0.84,
+      "ci_20b": [
+        0.7148578393696501,
+        0.916625793219666
+      ],
+      "n_120b_pass": 41,
+      "p_120b": 0.82,
+      "ci_120b": [
+        0.6920394632569922,
+        0.9022980732976582
+      ],
+      "delta_pass_rate": -0.020000000000000018,
+      "cells": {
+        "Cell_A_PASS_PASS": 37,
+        "Cell_B_FAIL_PASS": 4,
+        "Cell_C_PASS_FAIL": 5,
+        "Cell_D_FAIL_FAIL": 4
+      },
+      "mcnemar": {
+        "discordant_total": 9,
+        "b_120b_superior": 4,
+        "c_20b_inversion": 5,
+        "chi2_stat": 0.0,
+        "p_value_exact": 1.0,
+        "odds_ratio": 0.8
+      },
+      "fisher": {
+        "p_value": 1.0,
+        "odds_ratio": 1.1524390243902438
+      }
+    },
+    "assisted_75": {
+      "label": "Summarization (Assisted, n=75)",
+      "n": 75,
+      "n_20b_pass": 41,
+      "p_20b": 0.5466666666666666,
+      "ci_20b": [
+        0.4344837385429268,
+        0.6543020361586779
+      ],
+      "n_120b_pass": 46,
+      "p_120b": 0.6133333333333333,
+      "ci_120b": [
+        0.5001747668382223,
+        0.715447828865675
+      ],
+      "delta_pass_rate": 0.06666666666666665,
+      "cells": {
+        "Cell_A_PASS_PASS": 37,
+        "Cell_B_FAIL_PASS": 9,
+        "Cell_C_PASS_FAIL": 4,
+        "Cell_D_FAIL_FAIL": 25
+      },
+      "mcnemar": {
+        "discordant_total": 13,
+        "b_120b_superior": 9,
+        "c_20b_inversion": 4,
+        "chi2_stat": 1.2307692307692308,
+        "p_value_exact": 0.266845703125,
+        "odds_ratio": 2.25
+      },
+      "fisher": {
+        "p_value": 0.5083086601900646,
+        "odds_ratio": 0.760230179028133
+      }
+    },
+    "fisher_20b_indep_vs_assisted": {
+      "p_value": 0.0008974568868975832,
+      "odds_ratio": 4.353658536585366
+    },
+    "fisher_120b_indep_vs_assisted": {
+      "p_value": 0.01717749467158357,
+      "odds_ratio": 2.8719806763285023
+    }
+  }
+}

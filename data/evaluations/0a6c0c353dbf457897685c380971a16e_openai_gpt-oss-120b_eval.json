@@ -1,0 +1,14 @@
+{
+  "prompt_id": "0a6c0c353dbf457897685c380971a16e",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully covers all four required key aspects across the three requested summary lengths.\n1. **Immune System Action**: The 5-word and 25-word summaries explicitly state that the immune system eliminates/destroys cancer cells. The 125-word summary elaborates on this constant surveillance.\n2. **Definition and Variety**: The 125-word summary correctly defines cancer as uncontrolled division of corrupted cells and notes that it can arise from any cell type, resulting in hundreds of distinct types.\n3. **Breakdown of Cooperation**: The 25-word summary mentions cancer cells abandoning the collective. The 125-word summary details this as a breakdown of cooperation where rogue cells prioritize their own replication over the collective good.\n4. **Evolutionary Context**: The 25-word summary references evolution shaping cooperation. The 125-word summary explicitly frames the conflict between ancient single-celled survival drives and the newer requirement for cooperative specialization in multicellular life.\n\nThe summaries are accurate, concise, and adhere to the word count constraints while retaining the essential factual information from the source text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 853,
+  "completion_tokens": 236,
+  "total_tokens": 1089,
+  "timestamp": "2026-09-24T03:59:03.772941+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "eafade6cc3164045ba3c7f08c8ab0a80",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale:\nThe response successfully addresses all four evaluation dimensions. \n1. **Relevance**: The story features the required characters, She-Hulk and a female cop named Anya, and centers on a fight between them.\n2. **Coherence**: The narrative flows logically from the setup (rainy alley, confrontation) through the physical altercation to the resolution. The pacing is consistent, and the character motivations are clear.\n3. **Completeness**: The story has a clear beginning, middle, and end. It is not truncated and fully executes the prompt's request for a story about a fight.\n4. **Constraints**: There were no specific negative constraints or word limits in the prompt. The response adheres to the implicit constraints of the scenario (e.g., keeping the characters in the fight context). While the resolution (Anya having a prototype device to control gamma energy) is a somewhat convenient plot device, it does not violate any explicit constraints and serves to conclude the narrative coherently.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1877,
+  "completion_tokens": 212,
+  "total_tokens": 2089,
+  "timestamp": "2026-09-22T17:11:58.380309+00:00"
+}

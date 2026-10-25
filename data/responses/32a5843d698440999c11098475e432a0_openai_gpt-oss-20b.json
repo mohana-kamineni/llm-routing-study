@@ -1,0 +1,20 @@
+{
+  "prompt_id": "32a5843d698440999c11098475e432a0",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Summarize the following video: \"hello welcome I just pulled the greatest High School experience ever where I'm not gonna lie I was working on I worked on this uh presentation way longer than any human being should have worked on this presentation and I'm also not kidding I finished it two minutes before I just like clicked the stream button this is our presentation on how to get a girlfriend this is by a lady I am a lady I am a girl I am a potential girlfriend boys this is gonna sound a little bit dumb but this is one where I do just want to say it is completely normal to want a girlfriend I was debating on putting this in or not but I've actually known guys before who are just like I feel bad that I want a girlfriend because people are calling me simps you are not a simp if you want a girlfriend it is a normal thing to want a girlfriend and it is completely fine if you don't want a girlfriend why a snail I just thought that they were cute man before we start here as well you kind of heard me talk a little bit about this earlier but I do really just want to push this before we start what I am doing today is giving pretty general information on how to get a girlfriend girls are beautiful creatures there are so many beautiful stunning girls out there from every single area they can be goth girls you can have traditional girls you can have seen girls all girls literally cosplay girls anything beautiful Instagram models anything they are so varied just like guys guys are the exact same way there's different types o",
+  "response_text": "**Video Summary**\n\nThe speaker, a young woman, launches a presentation titled “How to Get a Girlfriend.” She opens by admitting she spent an unusually long time preparing the talk and finished it just before going live. Her main points are:\n\n1. **Normal Desire** – She stresses that wanting a girlfriend is perfectly normal and not a sign of being a “simp.” She encourages viewers to embrace their feelings without shame.\n2. **Self‑Acceptance** – She reminds the audience that it’s okay to want a relationship or to not want one; both are valid.\n3. **Diversity of Women** – She highlights that girls come in many forms—goth, traditional, cosplay, Instagram models, etc.—and that each type is beautiful in its own way.\n4. **General Advice** – While the transcript cuts off, she promises to give broad, practical tips on how to meet and connect with potential partners.\n\nOverall, the video is a light‑hearted, supportive guide aimed at helping young people navigate the social and emotional aspects of dating.",
+  "finish_reason": "stop",
+  "prompt_tokens": 371,
+  "completion_tokens": 291,
+  "total_tokens": 662,
+  "latency_ms": 866,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:45:58.766766+00:00"
+}

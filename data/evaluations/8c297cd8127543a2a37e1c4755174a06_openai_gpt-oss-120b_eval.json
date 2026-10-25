@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8c297cd8127543a2a37e1c4755174a06",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the key events and subjects present in the source captions. It correctly identifies the main subject (a small/white dog), the setting (hallway, living room, in front of doors and mirrors), the presence of a woman, and specific objects like the dog bed and teddy bear. While the summary adds some interpretive language (e.g., \"energetic,\" \"meditative portrait\") to make the paragraph \"interesting\" as requested, it remains truthful to the visual facts provided in the captions without introducing false information or omitting critical elements.",
+  "finish_reason": "stop",
+  "prompt_tokens": 599,
+  "completion_tokens": 121,
+  "total_tokens": 720,
+  "timestamp": "2026-09-23T17:54:59.704825+00:00"
+}

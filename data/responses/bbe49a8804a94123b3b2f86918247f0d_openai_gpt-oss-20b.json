@@ -1,0 +1,20 @@
+{
+  "prompt_id": "bbe49a8804a94123b3b2f86918247f0d",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the capital of California?",
+  "response_text": "The capital of California is **Sacramento**.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 41,
+  "total_tokens": 119,
+  "latency_ms": 22676,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:24:35.558795+00:00"
+}

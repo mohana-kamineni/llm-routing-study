@@ -1,0 +1,14 @@
+{
+  "prompt_id": "cda4f8d5a1ba4232bb2fad3e94378dae",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a factually accurate and comprehensive answer to the question. It correctly identifies the top sources of security flaws in websites by referencing the **OWASP Top 10 (2021)**, which is the industry-standard framework for identifying the most critical web application security risks. The specific categories listed (Injection, Broken Authentication, Sensitive Data Exposure, XXE/Deserialization, Broken Access Control, Security Misconfiguration, Vulnerable Components, Insufficient Logging, XSS, and SSRF) align perfectly with the current OWASP Top 10 list. The explanations, examples, and mitigation strategies provided for each category are technically correct and consistent with established security best practices. There are no factual errors or contradictions in the response.",
+  "finish_reason": "stop",
+  "prompt_tokens": 3155,
+  "completion_tokens": 154,
+  "total_tokens": 3309,
+  "timestamp": "2026-09-28T07:41:55.009326+00:00"
+}

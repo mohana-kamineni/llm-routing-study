@@ -1,0 +1,20 @@
+{
+  "prompt_id": "18e13cc3834d49658434c3bef7d86242",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "I am going to give you the query and context. I want you to answer the query based on the context.\nQUERY: What is the document about?\nCONTEXT: this name and address. 6\nSummary of Patient Services: Summary of services provided to the patient. 10\nInsurance payments:  The amount paid by your insurance company. 15\nPatient payments:  The amount you have already paid for the services listed. 16Type of service: The classification of care provided to the patient (i.e. outpatient, \ninpatient, emergency).12\nAdjustments:  Changes made to the amount you owe after applying payments \nfrom your insurance company.14Billed/total charges: The amount billed to your y.\nGuarantor name:  The person or party financially responsible for services \nprovided to the patient.1\nVisit number: The unique identifier assigned to each new encounter with  \nyour provider.3\nPatient name: The person treated at the clinic or who had lab work completed. 9Total due: The outstanding amount due on your account after insurance has \nprocessed the claim. If you feel the amount is inaccurate, please contact your \nhealth insurance company. If you can’t pay this balance in full, visit sharp.com/\nbip Coronado Hospital \nFile #748424 \nLos Angeles, CA 90074-8424If paying by mail, include credit card information on \nreverse side, or make check payable and remit to:Total due: $9,865.68\nPay online and go paperless  at sharp.com/billing\n00001\nCUT AND RETURN THE TOP PORTION\nP.O. BOX 939040\nSAN DIEGO, CA 92193-9040 Understanding your bill\nThis statement represents hospital charges only.\nGuarantor name:  The person or party financially responsible for services \nprovided to the patient.1\nVisit number: The uniqueThis statement is for your visit to Sharp Coronado Hospital .\n \nWe’re here to help \nWe appreciate the opportunity to care for you. Our \nrecords show you applied for Medi-Cal or County \nMedical Services (CMS). It is critical you complete and \nsubmit your application, keep all appointments and \nsend in all information that Medi-Cal or CMS requests.\nNotify Sharp HealthCare as soon as you receive your \nproof of eligibility. The total amount due for services \nrendered is your financial responsibility.\nPay online amount is inaccurate, please contact your \nhealth insurance company. If you can’t pay this balance in full, visit sharp.com/\nbilling  to learn about eligibility for a payment plan.5\nInsurance information:  If listed, this is your primary insurance we have on file. 7Payment due: The date on which payment of your balance is due. 4\nIf paying by mail, make payment payab",
+  "response_text": "The document is a hospital billing statement from Sharp Coronado Hospital. It lists the patient’s visit details, the services rendered, the amounts billed, insurance payments, patient payments, adjustments, and the remaining balance due, along with instructions for payment and contact information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 648,
+  "completion_tokens": 130,
+  "total_tokens": 778,
+  "latency_ms": 27764,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:49:43.019064+00:00"
+}

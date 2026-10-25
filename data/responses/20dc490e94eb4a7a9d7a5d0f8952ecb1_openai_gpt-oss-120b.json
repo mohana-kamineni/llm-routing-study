@@ -1,0 +1,20 @@
+{
+  "prompt_id": "20dc490e94eb4a7a9d7a5d0f8952ecb1",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "what are the daily caloric needs of a lightly active, 50kg female that is 32 years old and 156cm tall?",
+  "response_text": "**Estimated daily calorie needs (maintenance)**  \n\n| Parameter | Value |\n|-----------|-------|\n| Sex | Female |\n| Age | 32 years |\n| Weight | 50 kg |\n| Height | 156 cm |\n| Activity level | Lightly active (light exercise 1‑3 days/week) |\n\n### 1. Calculate Basal Metabolic Rate (BMR)  \nThe **Mifflin‑St Jeor** equation is the most widely used for modern adults.\n\n\\[\n\\text{BMR}_{\\text{women}} = (10 \\times \\text{weight}_{\\text{kg}}) + (6.25 \\times \\text{height}_{\\text{cm}}) - (5 \\times \\text{age}) - 161\n\\]\n\nPlugging in the numbers:\n\n\\[\n\\begin{aligned}\n\\text{BMR} &= (10 \\times 50) + (6.25 \\times 156) - (5 \\times 32) - 161 \\\\\n           &= 500 + 975 - 160 - 161 \\\\\n           &= 1,154 \\text{ kcal/day}\n\\end{aligned}\n\\]\n\n### 2. Adjust for Activity Level  \n“Lightly active” corresponds to an activity factor of **1.375** (light exercise/sports 1‑3 days per week).\n\n\\[\n\\text{Total Energy Expenditure (TEE)} = \\text{BMR} \\times \\text{Activity Factor}\n\\]\n\n\\[\n\\text{TEE} = 1,154 \\times 1.375 \\approx 1,586 \\text{ kcal/day}\n\\]\n\n### 3. Practical Recommendation  \n\n- **Maintenance:** ~1,600 kcal per day  \n- **Weight loss (≈ 0.5 kg/week):** subtract ~500 kcal → ~1,100 kcal/day (but not lower than ~1,200 kcal without medical supervision)  \n- **Weight gain (muscle/healthy mass):** add ~250‑500 kcal → 1,850‑2,100 kcal/day  \n\n### 4. Things to Keep in Mind  \n\n| Factor | Why It Matters |\n|--------|----------------|\n| **Body composition** | Muscle burns more calories than fat; a higher lean‑mass percentage can raise actual needs. |\n| **Daily non‑exercise activity** | Standing, walking, fidgeting can push the “lightly active” factor higher for some people. |\n| **Hormonal fluctuations** | Menstrual cycle phases can cause modest (~5‑10 %) variations in energy expenditure. |\n| **Accuracy of numbers** | BMR equations give an estimate (±10 %). If precise needs are critical (e.g., for athletic training or medical conditions), consider indirect calorimetry or a trial‑and‑error approach with weight tracking. |\n\n### Quick Reference Formula\n\n\\[\n\\boxed{\\text{Daily kcal} \\approx \\big[10 \\times \\text{kg} + 6.25 \\times \\text{cm} - 5 \\times \\text{age} - 161\\big] \\times 1.375}\n\\]\n\nFor the profile you gave (50 kg, 156 cm, 32 y, lightly active) this works out to **≈ 1,600 kcal/day** for weight maintenance. Adjust up or down based on your specific goals and how your body responds.",
+  "finish_reason": "stop",
+  "prompt_tokens": 99,
+  "completion_tokens": 956,
+  "total_tokens": 1055,
+  "latency_ms": 2302,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:36:31.027549+00:00"
+}

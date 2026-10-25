@@ -1,0 +1,20 @@
+{
+  "prompt_id": "fe3fd5ec6c924824ad86d716a9b3fb45",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "(3064) RACISM! | Disco Elysium Out of Context - YouTube\nhttps://www.youtube.com/watch?v=QUcfAeB79Io\n\nSummary next text: \"\n(00:01) [Music] there's only one way to do this digital cup style four extra contents you know when i picked hopeful cup i didn't quite think that the fullest implication of hobokop would in fact like i didn't expect to be tested [Laughter] oh you thought i thought i would just be able to say i'm a hobo cop without actually being a humble crowd you gotta live it you gotta be it you gotta breathe i just wanna come back no i just wanted to be a poser you know i just wanted to put your little toe in the hobo cup pool yeah just and just be\n(00:44) like haha imma push you in that pool hobo cop and then like when the garbage shows up you're like um i'm good tell me how the waters are huh there must be something all you see is a broken mug with a racist depiction of the yellow man frolicking in saffron wow an antique take the mug well here let's just do this it's just a racist mug it's quite a lot to read into here actually look at all that content i love that it calls it content it's like you know you know you [ __ ] you get it you know but even in a single\n(01:25) player context where you're not playing and no one else is watching what you're doing it's still content yeah oh boy here we go all right let's go all right the game wants to know more about you what's up with that the mug didn't belong in the trash it was just a funny mug can anyone laugh anymore [Laughter] it's just a joke why are you",
+  "response_text": "**Summary**\n\nThe clip is a humorous, meta‑commentary on a scene from *Disco Elysium* where the player’s character encounters a racist mug depicting a “yellow man” in saffron. The narrator jokes about the “hobo cop” trope—suggesting that simply calling oneself a “hobo cop” isn’t enough; you have to live it. He then points out that even in a single‑player game, the content (the mug and the game’s reaction to it) still matters. The game asks the player what they think about the mug, and the narrator muses on how the game treats this as “content” and how it’s a reminder that racism can be embedded in seemingly trivial objects. The overall tone is playful, but it highlights the game’s willingness to confront uncomfortable topics.",
+  "finish_reason": "stop",
+  "prompt_tokens": 430,
+  "completion_tokens": 366,
+  "total_tokens": 796,
+  "latency_ms": 788,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:46:42.008379+00:00"
+}

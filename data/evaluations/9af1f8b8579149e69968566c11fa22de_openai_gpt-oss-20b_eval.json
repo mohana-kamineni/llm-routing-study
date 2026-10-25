@@ -1,0 +1,14 @@
+{
+  "prompt_id": "9af1f8b8579149e69968566c11fa22de",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the question as a reference to the Monty Python sketch and provides a factually accurate estimate for the airspeed of a European swallow (20–25 mph). While the \"true\" answer in the context of the movie is a counter-question, the prompt asks for the factual answer, and the response provides the scientifically accepted range for the specific species mentioned, without any false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 248,
+  "completion_tokens": 89,
+  "total_tokens": 337,
+  "timestamp": "2026-09-19T17:12:41.210206+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c8131d6ff392413fa837108691773fb6",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly models the problem using a 2D coordinate system, accurately assigns coordinates to the red and blue balls relative to the black ball, and applies the Pythagorean theorem to calculate the Euclidean distance. The calculation $\\sqrt{3^2 + 4^2} = 5$ is mathematically correct, and the final answer of 5 meters is factually accurate based on the provided premises.",
+  "finish_reason": "stop",
+  "prompt_tokens": 384,
+  "completion_tokens": 92,
+  "total_tokens": 476,
+  "timestamp": "2026-09-24T20:56:59.721604+00:00"
+}

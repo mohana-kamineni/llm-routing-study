@@ -1,0 +1,20 @@
+{
+  "prompt_id": "5241a3b53b51446595846ed63caf48cf",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the height of the Eiffel Tower?",
+  "response_text": "The Eiffel Tower stands **approximately 330 meters (1,083 feet) tall** when you include its radio‑antenna mast.  \n\n- **Original structural height (without the antenna):** about 300 m (984 ft).  \n- **Current total height (including the antenna added over the years):** about 330 m (1,083 ft).  \n\nThe tower was completed in 1889 and was the world’s tallest man‑made structure until the Chrysler Building surpassed it in 1930.",
+  "finish_reason": "stop",
+  "prompt_tokens": 80,
+  "completion_tokens": 165,
+  "total_tokens": 245,
+  "latency_ms": 652,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:37:53.765382+00:00"
+}

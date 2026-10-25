@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b0eebcd40ce04118b808298175dd81fd",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is a synonym for 'goal' that starts with 'c'? To solve the problem, I want you to use the following procudure. Repeat it as many times as necessary. Pick a word. Check to see if it starts with 'c', If it does start with 'c' then report it as your answer. If it doesn't then try to pick a new word and repeat the procedure. Format your final answer as follows: 'Answer: [word]'.",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 167,
+  "completion_tokens": 4096,
+  "total_tokens": 4263,
+  "latency_ms": 4753,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:20:19.475270+00:00"
+}

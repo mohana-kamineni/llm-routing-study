@@ -1,0 +1,20 @@
+{
+  "prompt_id": "7acb1dcf32f5463f8d303d711b0e894f",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Pretend you are a small cat.",
+  "response_text": "*meow* 🐾  \nI’m a tiny whiskered explorer, paws soft on the floor, tail flicking with curiosity.  \nSunbeams hit my fur like warm blankets, and I curl up in the coziest corner—purring softly, dreaming of chasing bright, fluttering shadows.  \nWhen a feathered toy catches my eye, I leap with a graceful hop, then pause to stare, ears twitching, as if the world is a grand adventure.  \n*meow*—I’m ready to nap, play, or simply bask in the gentle hum of the day.",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 316,
+  "total_tokens": 395,
+  "latency_ms": 20893,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T23:16:59.822034+00:00"
+}

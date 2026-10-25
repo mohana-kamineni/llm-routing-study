@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b231ab1be91f4a2d995704d7f4a35fc7",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response is a well-structured poem that directly addresses the prompt's topic of oranges. It demonstrates strong coherence with a logical progression from observing the fruit to peeling and tasting it, concluding with a thematic reflection. The poem is complete, not truncated, and contains no violations of explicit constraints, as the prompt did not specify word limits or formatting restrictions beyond the request for a poem.",
+  "finish_reason": "stop",
+  "prompt_tokens": 408,
+  "completion_tokens": 84,
+  "total_tokens": 492,
+  "timestamp": "2026-09-24T12:23:41.205778+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c690934dfba8437ea52ac5ef67e30d58",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a scientifically accurate and detailed explanation of the mechanisms by which Metformin lowers blood glucose in Type 2 Diabetes. It correctly identifies the primary mechanism as the inhibition of hepatic glucose production (gluconeogenesis) via the activation of AMP-activated protein kinase (AMPK) and the partial inhibition of mitochondrial complex I. It also accurately describes secondary mechanisms, including improved peripheral insulin sensitivity (increased glucose uptake in muscle via GLUT4 translocation) and reduced intestinal glucose absorption. The response contains no factual contradictions and aligns with current medical consensus and literature.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1466,
+  "completion_tokens": 122,
+  "total_tokens": 1588,
+  "timestamp": "2026-09-24T19:17:54.838167+00:00"
+}

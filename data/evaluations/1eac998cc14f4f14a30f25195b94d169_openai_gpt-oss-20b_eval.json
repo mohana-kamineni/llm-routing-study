@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1eac998cc14f4f14a30f25195b94d169",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies 1885 as the founding year of Stanford University, which aligns with the date the university was chartered and established by Leland and Jane Stanford. The additional detail regarding the opening of the campus in 1891 is also factually accurate. There are no false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 192,
+  "completion_tokens": 74,
+  "total_tokens": 266,
+  "timestamp": "2026-09-22T17:14:20.040568+00:00"
+}

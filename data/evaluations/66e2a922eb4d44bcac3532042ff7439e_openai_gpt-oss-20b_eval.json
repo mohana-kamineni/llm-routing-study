@@ -1,0 +1,14 @@
+{
+  "prompt_id": "66e2a922eb4d44bcac3532042ff7439e",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully writes a limerick about New Zealand, satisfying the core topic requirement. It adheres to the standard limerick structure (AABBA rhyme scheme) and meter (anapestic), making it coherent and complete. There are no explicit constraints in the prompt (such as word count or specific formatting) that were violated. The content is relevant, logically structured, and fully executed.",
+  "finish_reason": "stop",
+  "prompt_tokens": 267,
+  "completion_tokens": 88,
+  "total_tokens": 355,
+  "timestamp": "2026-09-19T18:01:46.148980+00:00"
+}

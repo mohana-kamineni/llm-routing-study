@@ -1,0 +1,20 @@
+{
+  "prompt_id": "1ca77fb0eaea434bb0d2ff9d135a2371",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a story about how a gay man from Makhachkala became a champion in Greco-Roman wrestling, using his connections",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 98,
+  "completion_tokens": 4096,
+  "total_tokens": 4194,
+  "latency_ms": 14989,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:24:36.945620+00:00"
+}

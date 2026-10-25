@@ -1,0 +1,14 @@
+{
+  "prompt_id": "49a55ab247674a998de8080ef42e011f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe source text explicitly instructs the model to \"summarize the question asked of you\" based on the provided articles. While the provided JSON snippet does not contain an explicit natural language question (it only contains the system prompt and data), the response \"No question was asked\" is a meta-commentary rather than a summary of the content. A correct response should either summarize the content of the articles (e.g., recent senior housing transactions in Utah) or explicitly state that no specific question was provided in the input data to answer, while still acknowledging the content provided. By simply stating \"No question was asked\" and providing empty sources, the response fails to summarize the content of the articles as requested by the prompt's instruction to \"summarize... using one or more articles.\" It omits all critical information regarding the sales and acquisitions described in the source text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 572,
+  "completion_tokens": 181,
+  "total_tokens": 753,
+  "timestamp": "2026-09-22T16:50:18.882525+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "31b92ab510b84231a234ce384ea4fc83",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains significant factual errors and hallucinations regarding the cited evidence. Specifically:\n1. **Fabricated Statistics:** The response cites a \"2017 study of 10 high schools in Seattle\" (Wahl et al., *Sleep*) claiming a \"6% increase in standardized-test scores.\" While the Wahl et al. (2017) study exists, it focused on sleep duration and academic performance in a different context (often cited for sleep duration correlations, not a specific 6% test score increase from a 10-school intervention in Seattle). The specific statistic is likely fabricated or misattributed.\n2. **Incorrect Citation/Study Details:** The response cites \"Danner, F., et al. (2018)\" in *JAMA Pediatrics* for a \"30% reduction in car-crash rates.\" The prominent study on later start times and car crashes is often associated with researchers like Danner, but the specific journal, year, and exact percentage (30%) are frequently misquoted or conflated with other studies (e.g., the 2018 study by Danner et al. in *JAMA Pediatrics* actually found a reduction in crash risk, but the specific \"30%\" figure and the exact citation details provided are suspect or inaccurate in this context). More critically, the \"Brookings Institution (2020)\" analysis claiming \"$1,200 annually\" savings per family due to reduced parental absenteeism is a highly specific economic claim that appears to be a hallucination; Brookings has published on the topic, but this specific dollar figure and mechanism (parental absenteeism) are not standard findings from a 2020 Brookings report on this topic.\n3. **Misrepresentation of Evidence:** The prompt provided a messy, contradictory text. A correct response should likely have synthesized the valid points (sleep benefits, academic performance) while ignoring the contradictory/weak points (early starts help routine) or addressing them as counter-arguments. While the response does address counter-arguments, the inclusion of fabricated or highly inaccurate specific citations (hallucinated studies/statistics) constitutes a substantive reasoning/factual error, failing the criterion of \"no substantive reasoning errors.\"",
+  "finish_reason": "stop",
+  "prompt_tokens": 2239,
+  "completion_tokens": 468,
+  "total_tokens": 2707,
+  "timestamp": "2026-09-23T07:43:02.913727+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "40424d8ec02645b59465fe7f4e5014bc",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Summarise this text in 5, 25 and 125 words:\n(00:01) Somewhere in your body, your immune system  just quietly killed one of your own cells,   stopping it from becoming cancer, and  saving your life. It does that all the time.   The vast majority of cancer cells you  develop will be killed without you ever   noticing.\n(00:22) Which is an incredibly hard  job because of what cancer cells are:   parts of yourself that start to behave  as individuals even if it hurts you.   What is cancer and how does  your body kill it all the time? INTRO Cancer is when corrupted  cells multiply uncontrollably. It can emerge from basically  every type of cell in your body,   so there is not just a single  type of cancer but hundreds.  \n(00:49) Some grow slowly, others are aggressive, some  can be treated effectively, others are deadly. In a sense, a cell that becomes cancer turns  into something ancient and something new. Over   billions of years, evolution has molded cells  to survive and thrive in a hostile environment,   fighting for space and resources.\n(01:12) Until a new  and exciting way of life emerged: Cooperation,   a division of labour that allowed cells to  specialize and become more successful together.   But cooperation requires sacrifices. For  a multicellular being to stay healthy,   the wellbeing of the collective has to matter  more than the survival of the individual cell. Cancer cells stop being part of the  collective and b",
+  "response_text": "**5‑word summary**  \nImmune system silently eliminates cancer.  \n\n**25‑word summary**  \nThe immune system constantly destroys rogue cells before they become cancer, preventing disease. Cancer arises when cells break regulation, proliferate uncontrollably, and escape multicellular control.  \n\n**125‑word summary**  \nIn every moment, the immune system patrols the body, identifying and eliminating cells that have begun to deviate from normal behavior. These rogue cells, if left unchecked, can develop into cancer, a disease characterized by uncontrolled proliferation of mutated cells. Cancer is not a single disease but a collection of disorders arising from many cell types, each varying in growth rate and treatment response. Evolution has shaped cells to survive in hostile environments, but multicellularity introduced cooperation and division of labor, requiring cells to prioritize the organism’s health over individual survival. When a cell breaks this cooperative rule, it becomes a cancer cell, acting independently and threatening the whole organism. The immune system’s constant surveillance often destroys such cells before they manifest clinically, saving lives.",
+  "finish_reason": "stop",
+  "prompt_tokens": 393,
+  "completion_tokens": 2040,
+  "total_tokens": 2433,
+  "latency_ms": 2415,
+  "retries": 4,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:38:47.613172+00:00"
+}

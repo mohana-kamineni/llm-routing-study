@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3f303651b0cc44a9977ce6d415551791",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response fails to provide the correct factual answer for the current time. The incumbent President of the United States is Donald Trump (who took office in January 2025). By stating that the incumbent was Joe Biden and refusing to confirm the current holder of the office, the response provides outdated information and fails to answer the question with the currently true fact.",
+  "finish_reason": "stop",
+  "prompt_tokens": 239,
+  "completion_tokens": 82,
+  "total_tokens": 321,
+  "timestamp": "2026-09-23T12:28:05.699266+00:00"
+}

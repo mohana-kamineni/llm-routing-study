@@ -1,0 +1,14 @@
+{
+  "prompt_id": "99cfca82fc934cb2b2ff54720e4996ba",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a factually accurate and comprehensive overview of Donald Trump. It correctly identifies his birth date, his role as the 45th U.S. President, his business background, his television career, and his political timeline, including his 2016 victory and his 2024 campaign. There are no false contradictions or factual errors in the provided text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 490,
+  "completion_tokens": 84,
+  "total_tokens": 574,
+  "timestamp": "2026-09-22T16:56:32.601725+00:00"
+}

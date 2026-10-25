@@ -1,0 +1,14 @@
+{
+  "prompt_id": "98b6f46c4b8d408d954d5dfb1c717c91",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response fails to provide the factual answer to the question. \"Dr. Karp\" is a specific reference, most commonly associated with Dr. David Karp (co-founder of Digg) or Dr. David Karp (a prominent psychiatrist/author), or potentially Dr. Karp in specific academic contexts. By refusing to answer and asking for clarification without offering the most likely factual candidates, the response does not satisfy the criterion of stating the true fact. A correct response should identify the most prominent individuals with that name or clarify the ambiguity by listing the top candidates, rather than simply deferring to the user without providing any factual information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 226,
+  "completion_tokens": 138,
+  "total_tokens": 364,
+  "timestamp": "2026-09-22T17:02:33.092057+00:00"
+}

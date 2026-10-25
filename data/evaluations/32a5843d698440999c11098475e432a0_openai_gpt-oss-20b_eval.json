@@ -1,0 +1,14 @@
+{
+  "prompt_id": "32a5843d698440999c11098475e432a0",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the source text and covers all five required key aspects:\n1. It identifies the speaker as a young woman presenting on \"How to Get a Girlfriend\" (covering Aspect 1).\n2. It mentions she finished the presentation just before going live, capturing the tight deadline (covering Aspect 2).\n3. It explicitly states that wanting a girlfriend is normal and that men are not \"simps\" (covering Aspect 3).\n4. It notes the content is general information and lists the specific examples of female diversity provided (goth, traditional, cosplay, etc.) (covering Aspect 4).\n5. It confirms that it is okay not to want a relationship (covering Aspect 5).\n\nThe summary is accurate, concise, and includes all essential factual details from the provided transcript.",
+  "finish_reason": "stop",
+  "prompt_tokens": 823,
+  "completion_tokens": 173,
+  "total_tokens": 996,
+  "timestamp": "2026-09-22T17:01:42.037872+00:00"
+}

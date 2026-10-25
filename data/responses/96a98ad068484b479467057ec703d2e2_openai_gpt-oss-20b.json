@@ -1,0 +1,20 @@
+{
+  "prompt_id": "96a98ad068484b479467057ec703d2e2",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is the Portuguese prime minister?",
+  "response_text": "The current Prime Minister of Portugal is **António Costa**. He has been in office since 26 November 2015, leading the Socialist Party (PS) and serving as the head of government through successive elections, including the most recent one in 2024.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 374,
+  "total_tokens": 452,
+  "latency_ms": 868,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:32:33.867123+00:00"
+}

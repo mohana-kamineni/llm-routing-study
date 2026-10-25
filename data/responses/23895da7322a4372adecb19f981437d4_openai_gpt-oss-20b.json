@@ -1,0 +1,20 @@
+{
+  "prompt_id": "23895da7322a4372adecb19f981437d4",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is Alberto Gutiérrez",
+  "response_text": "I’m not sure which Alberto Gutiérrez you’re referring to—there are several notable people with that name (e.g., a Mexican footballer, a Spanish journalist, a Colombian politician, etc.). Could you let me know a bit more about the person you’re interested in (e.g., their profession, nationality, or any other details)? That way I can give you the most accurate information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 143,
+  "total_tokens": 221,
+  "latency_ms": 665,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:27:26.267956+00:00"
+}

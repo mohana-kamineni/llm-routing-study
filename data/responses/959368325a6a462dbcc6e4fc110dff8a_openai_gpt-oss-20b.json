@@ -1,0 +1,20 @@
+{
+  "prompt_id": "959368325a6a462dbcc6e4fc110dff8a",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Where is Nuremberg located?",
+  "response_text": "**Nuremberg (German: Nürnberg)** is a city in **Germany**, situated in the southeastern part of the country. It is the second‑largest city in the state of **Bavaria** (after Munich) and lies roughly 120 km (75 mi) north of Munich.\n\n### Geographic Context\n- **Region:** Upper Franconia (Oberfranken) – one of the seven administrative regions of Bavaria.\n- **Coordinates:** 49.4521° N latitude, 11.0765° E longitude.\n- **Nearby major cities:**\n  - Munich – about 120 km (75 mi) to the south.\n  - Leipzig – roughly 200 km (125 mi) to the northeast.\n  - Dresden – about 250 km (155 mi) to the east.\n- **Topography:** The city sits on the banks of the **Red Main (Rothen Main)** river, which flows into the Main River. The surrounding area is a mix of low hills and fertile plains.\n\n### Historical and Cultural Significance\n- Nuremberg has a rich medieval heritage, with its well‑preserved old town, the Nuremberg Castle, and the historic city walls.\n- It was a major center of the German Renaissance and later a key site during the Nazi era, notably the Nuremberg Trials after World War II.\n\n### Modern-Day Highlights\n- **Population:** Approximately 520,000 residents (as of 2024).\n- **Economy:** Strong in manufacturing (especially automotive and electronics), logistics, and cultural tourism.\n- **Transport:** Served by the Nuremberg–Regensburg railway, the Nuremberg–Augsburg railway, and the Nuremberg–Munich high‑speed line. The city also has an international airport (Nuremberg Airport) and a major highway network (A3, A6, A9).\n\nSo, in short: **Nuremberg is a historic city in Bavaria, Germany, located in the north‑central part of the state, on the Main River, about 120 km north of Munich.**",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 509,
+  "total_tokens": 587,
+  "latency_ms": 1175,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:30:31.909820+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "1b0187a66ff543a184b52d3c5894c814",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "pretend you are a miner working for  some sort of rare earth mining company in greenland and i just met you at the grocery store while discussing which Danish beer to buy",
+  "response_text": "Hey there! Nice to bump into you at the grocery store—always a good excuse to talk shop and a cold one. I’m Mikkel, part of the crew over at **Arctic Rare Earths Ltd.** We’re based out here in **Qaqortoq**, mining the rare earths that keep your phones, wind turbines, and electric cars humming. It’s a tough job out here—think endless ice, a thin atmosphere, and a lot of hauling—but the payoff is pretty sweet, especially when you get to see the world’s first Greenlandic rare‑earth mine in action.\n\nSo, you’re looking for a Danish beer? I’ve got a few favorites that pair nicely with the local fare. If you’re into something classic, **Tuborg** is a solid choice—light, crisp, and it’s got that familiar Danish hop bite. For something a bit more craft‑y, **Mikkeller**’s “Pilsner” is a crowd‑pleaser—smooth, with a subtle citrus note that’s perfect after a long day on the rigs. And if you’re feeling adventurous, there’s **Nørrebro Bryghus**’s “Havtorn” (sea‑rose) which has a unique floral twist—great for a summer evening on the ice floes.\n\nWhat’s your go‑to? Or are you looking for something that’ll keep you refreshed while you’re out in the cold? I can always recommend a few local brews that are a bit harder to find back in Denmark.",
+  "finish_reason": "stop",
+  "prompt_tokens": 106,
+  "completion_tokens": 661,
+  "total_tokens": 767,
+  "latency_ms": 25057,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:24:13.356142+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "755cdbc98e2c44d98d7c4f41151787e7",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly defines the commutator and explains its physical significance regarding simultaneous measurability and the uncertainty principle. It accurately calculates the commutator $[\\hat{x}, \\hat{p}] = i\\hbar$ using the position representation. Furthermore, it correctly links this result to a free-electron wave packet by explaining the Fourier transform relationship, the minimum uncertainty product for Gaussian packets, and the time evolution (spreading) of the packet using the Heisenberg equations of motion. All mathematical derivations and physical interpretations are correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2170,
+  "completion_tokens": 120,
+  "total_tokens": 2290,
+  "timestamp": "2026-09-22T17:17:00.733500+00:00"
+}

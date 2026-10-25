@@ -1,0 +1,14 @@
+{
+  "prompt_id": "78bb0a9d86e542e68efc093ac46735b3",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to adequately cover Key Aspect 3. While it mentions the mixed reception of Jim's Java skills (6 positive, 3 negative), it completely omits any mention of his C# skills, which the source text explicitly rates as having 2 positive and 3 negative votes. Since the evaluation criteria require the summary to cover all required key aspects, including the specific breakdown of both Java and C# proficiency, the omission of C# constitutes a failure.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1182,
+  "completion_tokens": 101,
+  "total_tokens": 1283,
+  "timestamp": "2026-09-28T07:48:54.839314+00:00"
+}

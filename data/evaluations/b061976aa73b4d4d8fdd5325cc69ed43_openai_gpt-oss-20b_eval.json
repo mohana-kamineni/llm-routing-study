@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b061976aa73b4d4d8fdd5325cc69ed43",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies four distinct, general topics relevant to the bill, adhering to the constraints of 1-2 words per topic and no overlapping words. \"Transportation\" and \"Rail\" capture the subject matter, \"Study\" captures the primary action required by the bill, and \"Oregon\" captures the jurisdiction. While \"Legislature\" or \"Policy\" might be alternative valid topics, the selected topics accurately reflect the essential content of the source text without omitting critical information regarding the bill's purpose.",
+  "finish_reason": "stop",
+  "prompt_tokens": 556,
+  "completion_tokens": 111,
+  "total_tokens": 667,
+  "timestamp": "2026-09-22T17:02:03.824564+00:00"
+}

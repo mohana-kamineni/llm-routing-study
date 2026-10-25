@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8938d945856d47b3b363040652ad3efc",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the average distance between the Earth and the Sun as approximately 149.6 million km (1 AU). It also correctly calculates the number of times this distance fits around the Earth's equator. Using the standard equatorial circumference of approximately 40,075 km, the calculation is $149,600,000 / 40,075 \\approx 3,733$. The final result matches the expected value, and there are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 210,
+  "completion_tokens": 120,
+  "total_tokens": 330,
+  "timestamp": "2026-09-24T12:34:17.604035+00:00"
+}

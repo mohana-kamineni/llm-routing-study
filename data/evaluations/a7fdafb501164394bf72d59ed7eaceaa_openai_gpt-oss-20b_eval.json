@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a7fdafb501164394bf72d59ed7eaceaa",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response provides a factually accurate and logically sound answer to the question. It correctly identifies that there is no single \"magic bullet\" for gaining national media attention, but rather a combination of newsworthiness, targeted outreach, and timing. The specific tactics listed (crafting a strong hook, using PR wires, pitching journalists directly, leveraging social media) are standard, industry-accepted best practices for public relations and media relations. The response does not contain any false contradictions or misinformation regarding how media attention is generated.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1754,
+  "completion_tokens": 113,
+  "total_tokens": 1867,
+  "timestamp": "2026-09-19T17:15:50.709400+00:00"
+}

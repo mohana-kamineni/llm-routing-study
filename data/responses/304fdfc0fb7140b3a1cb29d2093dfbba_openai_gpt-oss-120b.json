@@ -1,0 +1,20 @@
+{
+  "prompt_id": "304fdfc0fb7140b3a1cb29d2093dfbba",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What language is the following text? \".aunis natsakar äniM\" What does it mean?",
+  "response_text": "The string is **Finnish**, but it’s written backwards.\n\nIf you reverse the characters you get:\n\n```\nM i n ä   r a k a s t a n   s i n u a .\n```\n\nwhich reads:\n\n**“Minä rakastan sinua.”**\n\nIn English this means:\n\n**“I love you.”**",
+  "finish_reason": "stop",
+  "prompt_tokens": 93,
+  "completion_tokens": 499,
+  "total_tokens": 592,
+  "latency_ms": 1371,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:19:52.932425+00:00"
+}

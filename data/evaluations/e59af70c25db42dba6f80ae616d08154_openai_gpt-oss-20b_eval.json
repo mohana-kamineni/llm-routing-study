@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e59af70c25db42dba6f80ae616d08154",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully extracts the key concepts and proper nouns from the source text. It includes \"spectral sequence\" and \"blazars\" (covering Aspect 1), \"GLAST\" and \"GLAST launch\" (covering Aspect 2), \"sensitivity,\" \"determine,\" \"average,\" and \"gamma‑ray properties\" (covering Aspect 3), and \"probe,\" \"ratio,\" \"accretion power,\" and \"jet power\" (covering Aspect 4). Although the format is a list of keywords rather than a narrative summary, it adequately captures all the essential factual aspects required by the evaluation criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 442,
+  "completion_tokens": 132,
+  "total_tokens": 574,
+  "timestamp": "2026-09-19T17:05:34.220778+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "23f41a397f8147088e246846bea6bd5e",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Name the top challenges in adult life for people who were in their childhood enmeshed with their narcissistic mother.",
+  "response_text": "**Top Challenges Adults Face After Growing Up Enmeshed with a Narcissistic Mother**\n\n| # | Challenge | Why It Arises | Typical Adult Manifestation |\n|---|-----------|---------------|-----------------------------|\n| 1 | **Identity Confusion / “I‑less” Self** | The mother’s needs and expectations were always front‑and‑center, leaving little room for the child’s own interests or values. | Adults may feel “I don’t know who I am” or constantly seek external validation to feel whole. |\n| 2 | **Boundary Problems** | Enmeshment erases the line between self and other; the child learns that their own limits are irrelevant. | Difficulty saying “no,” over‑sharing, or feeling guilty when setting limits with partners, friends, or coworkers. |\n| 3 | **Low Self‑Esteem & Self‑Worth** | A narcissistic mother often uses praise as a tool, never genuine appreciation, and may devalue the child’s achievements. | Persistent self‑criticism, feeling unworthy of success, or fearing failure. |\n| 4 | **Emotional Dysregulation** | The child’s emotions are constantly invalidated or used to manipulate the mother. | Sudden mood swings, intense anxiety, or feeling “on edge” without clear trigger. |\n| 5 | **Trust & Intimacy Issues** | The mother’s self‑centeredness creates a pattern of unreliable emotional support. | Fear of vulnerability, difficulty trusting partners, or feeling emotionally “empty” in relationships. |\n| 6 | **Codependency / People‑Pleasing** | The child learns that their worth is tied to pleasing the mother. | Over‑accommodating others, neglecting personal needs, or feeling responsible for others’ happiness. |\n| 7 | **Perfectionism & Fear of Criticism** | The mother’s constant scrutiny instills a belief that anything less than perfect is unacceptable. | Over‑planning, procrastination, or chronic self‑imposed pressure that hampers productivity. |\n| 8 | **Guilt & Self‑Blame** | The mother often projects blame onto the child for her own shortcomings. | Feeling guilty for asserting needs, or blaming oneself for external problems. |\n| 9 | **Parenting Challenges (if they become parents)** | The adult may repeat the enmeshed pattern or, conversely, over‑compensate by being overly controlling. | Difficulty letting children develop autonomy, or becoming overly anxious about their child’s success. |\n|10 | **Career & Financial Autonomy** | The mother’s control over finances and life decisions can leave the adult ill‑prepared for independent work. | Struggling to manage finances, fear of making career choices, or feeling “stuck” in a job that isn’t fulfilling. |\n\n---\n\n### Quick Takeaway\nPeople who grew up enmeshed with a narcissistic mother often carry a “self‑less” core, blurred boundaries, and a chronic sense of inadequacy. These core wounds translate into specific adult challenges—identity loss, boundary violations, low self‑esteem, emotional instability, trust issues, codependency, perfectionism, guilt, parenting difficulties, and career/financial autonomy problems. Recognizing these patterns is the first step toward healing, often with the help of therapy, boundary‑setting practices, and self‑compassion work.",
+  "finish_reason": "stop",
+  "prompt_tokens": 94,
+  "completion_tokens": 990,
+  "total_tokens": 1084,
+  "latency_ms": 10564,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:25:43.757094+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "1ae0ab0a56f8425c9e7934c79ce0a5c8",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Generate a sentence-case summary title of 40 chars max with no punctuation nor final stop from \"•\n•\n2\n8\n1. 1\nTyped Text\n>\nd\nselection\nHw and typed.\n\n6\nedit / copy, paste\n↳ scratch 1. 3\nTex t\nFreeform\nPDF\n0\nPDF\n•\nCheckable items\nside panel °\nnavigation\n•\nshapes\nboth\nPerformance\n• copy/paste\nPerfomance.\n\n1\nb\nhandwriting\nto typed text\no\nUnified experience\nProductivity\nDoux 9\nPPTX\nimage\"\nRegular\n•\nzoom +last ° ①\ndecorations.\n\nc\nlinked\nn\no\n7\nweb links , detection + add\nMore symbols.\n\n•\nPen interactions\nO\n5\ntext\n• highlight\nEraser\npixel vs. smart\nissue will\ntext selection\ncolor vs\nhighlight colon.\n\nfeedback in\nregular.\n\n(\nthicken\n\f\n\"",
+  "response_text": "Handwriting to typed text unified",
+  "finish_reason": "stop",
+  "prompt_tokens": 278,
+  "completion_tokens": 423,
+  "total_tokens": 701,
+  "latency_ms": 962,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:04:18.725159+00:00"
+}

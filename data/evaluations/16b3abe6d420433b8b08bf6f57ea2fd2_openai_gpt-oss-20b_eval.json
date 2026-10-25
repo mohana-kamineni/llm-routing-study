@@ -1,0 +1,14 @@
+{
+  "prompt_id": "16b3abe6d420433b8b08bf6f57ea2fd2",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies King Charles III as the current monarch of the United Kingdom. It accurately notes that he ascended to the throne on September 8, 2022, following the death of Queen Elizabeth II. The answer is factually accurate and contains no contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 216,
+  "completion_tokens": 63,
+  "total_tokens": 279,
+  "timestamp": "2026-09-19T17:05:19.880136+00:00"
+}

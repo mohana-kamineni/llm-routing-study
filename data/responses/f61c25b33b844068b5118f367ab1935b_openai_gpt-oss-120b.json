@@ -1,0 +1,20 @@
+{
+  "prompt_id": "f61c25b33b844068b5118f367ab1935b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the main religion and what language do they speak in Bali, Indonensia?",
+  "response_text": "**Main religion:**  \n- The overwhelming majority of people in Bali practice **Balinese Hinduism** (often simply called “Balinese Hindu”). It is a distinct form of Hinduism that blends Indian Hindu traditions with local animist and ancestor‑worship practices. About 85‑90 % of the island’s population identify as Hindu.\n\n**Languages spoken:**  \n- **Balinese** (Bahasa Bali) – the indigenous language used in daily life, cultural rituals, traditional arts, and local media.  \n- **Indonesian** (Bahasa Indonesia) – the national language of Indonesia; it is taught in schools, used in government, business, and by tourists, and most Balinese are fluent in it.  \n\nSo, in Bali you’ll hear Balinese in villages and cultural settings, while Indonesian serves as the lingua‑franca for official matters and communication with visitors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 89,
+  "completion_tokens": 256,
+  "total_tokens": 345,
+  "latency_ms": 799,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:24:43.476246+00:00"
+}

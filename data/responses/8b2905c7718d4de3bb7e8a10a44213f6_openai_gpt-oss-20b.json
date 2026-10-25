@@ -1,0 +1,20 @@
+{
+  "prompt_id": "8b2905c7718d4de3bb7e8a10a44213f6",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "give me the main points of the following abstract:\n\nMotivated by the regional bank crisis of 2023, we model the impact of interest rates on the liquidity risk of banks. Prior work shows that banks hedge the interest rate risk of their assets with their deposit franchise: when interest rates rise, the value of the assets falls but the value of the deposit franchise rises. Yet the deposit franchise is only valuable if depositors remain in the bank. This creates run incentives for uninsured depositors. We show that a run equilibrium is absent at low interest rates but appears when rates rise because the deposit franchise comes to dominate the value of the bank. The liquidity risk of the bank thus increases with interest rates. We provide a formula for the bank’s optimal risk management policy. The bank should act as if its deposit rate is more sensitive to market rates than it really is, i.e., as if its “deposit beta” is higher. This leads the bank to shrink the duration of its assets. Shortening duration has a downside, however: it exposes the bank to insolvency if interest rates fall. The bank thus faces a dilemma: it cannot simultaneously hedge its interest rate risk and liquidity risk exposures. The dilemma disappears only if uninsured deposits do not contribute to the deposit franchise (if they have a deposit beta of one). The recent growth of low-beta uninsured checking and savings accounts thus poses stability risks to banks. The risks increase with interest rates and are amplified by other exposures such as credit risk. We show how they can be addressed with an optimal capital requirement that rises with interest rates.",
+  "response_text": "**Main Points of the Abstract**\n\n1. **Context & Motivation**\n   - The 2023 regional bank crisis highlighted the importance of understanding how interest‑rate movements affect bank liquidity risk.\n\n2. **Core Mechanism**\n   - Banks hedge asset‑side interest‑rate risk using their deposit franchise:  \n     - Rising rates → asset values fall, deposit franchise value rises.  \n     - The deposit franchise is valuable only if depositors stay; otherwise it fuels run incentives for uninsured depositors.\n\n3. **Run Equilibrium Dynamics**\n   - No run equilibrium at low rates.  \n   - As rates rise, the deposit franchise can dominate the bank’s value, creating a run equilibrium and increasing liquidity risk.\n\n4. **Optimal Risk‑Management Policy**\n   - Banks should behave as if their deposit rate is more sensitive to market rates than it actually is (i.e., assume a higher “deposit beta”).  \n   - This leads to a **shortening of asset duration** to hedge interest‑rate risk.\n\n5. **Trade‑off & Dilemma**\n   - Shortening duration reduces interest‑rate risk but exposes the bank to insolvency if rates fall.  \n   - Banks cannot simultaneously hedge both interest‑rate risk and liquidity risk.\n\n6. **Resolution Condition**\n   - The dilemma disappears only if uninsured deposits do **not** contribute to the deposit franchise (i.e., they have a deposit beta of one).\n\n7. **Implications of Low‑Beta Uninsured Deposits**\n   - The rise of low‑beta uninsured checking and savings accounts introduces stability risks.  \n   - These risks grow with higher interest rates and are amplified by other exposures (e.g., credit risk).\n\n8. **Policy Recommendation**\n   - Implement an **optimal capital requirement that rises with interest rates** to mitigate the amplified risks.",
+  "finish_reason": "stop",
+  "prompt_tokens": 388,
+  "completion_tokens": 398,
+  "total_tokens": 786,
+  "latency_ms": 754,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:45:52.930935+00:00"
+}

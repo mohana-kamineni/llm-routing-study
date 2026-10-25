@@ -1,0 +1,14 @@
+{
+  "prompt_id": "cc39830f9c0f48599517aec73498c891",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to summarize the content of the provided articles. Instead of extracting the specific factual details regarding the real estate transactions (such as the sale of the memory care community in Clinton, Utah, and the acquisition by 1031 Crowdfunding), the response merely describes the meta-task (\"The user is asking me to summarize...\"). It omits all five key aspects required by the evaluation criteria, including the names of the brokers, the specific properties, unit counts, square footage, and transaction details.",
+  "finish_reason": "stop",
+  "prompt_tokens": 809,
+  "completion_tokens": 109,
+  "total_tokens": 918,
+  "timestamp": "2026-09-22T16:51:21.087573+00:00"
+}

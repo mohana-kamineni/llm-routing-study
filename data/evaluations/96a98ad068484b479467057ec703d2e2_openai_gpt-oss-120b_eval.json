@@ -1,0 +1,14 @@
+{
+  "prompt_id": "96a98ad068484b479467057ec703d2e2",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains significant factual errors and anachronisms. First, it claims the current date is \"September 2026,\" which is in the future relative to the current real-world timeline (2024). Second, it states that António Costa is the Prime Minister as of that future date, which is factually incorrect; António Costa resigned in March 2024, and Luís Montenegro became the Prime Minister of Portugal in April 2024. Therefore, the response provides false information regarding the current officeholder.",
+  "finish_reason": "stop",
+  "prompt_tokens": 241,
+  "completion_tokens": 121,
+  "total_tokens": 362,
+  "timestamp": "2026-09-24T15:55:34.843682+00:00"
+}

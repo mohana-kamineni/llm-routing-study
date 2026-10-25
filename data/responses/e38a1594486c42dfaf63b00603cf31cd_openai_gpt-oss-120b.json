@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e38a1594486c42dfaf63b00603cf31cd",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "what is 452 * 98?",
+  "response_text": "452 × 98 = 44,296.",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 71,
+  "total_tokens": 150,
+  "latency_ms": 234,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:12:38.374236+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "a980c86e7e104fa3adb082e3dcc1a6cc",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Please tell me what is the difference between Java and Typescript",
+  "response_text": "**Java vs. TypeScript – a quick comparison**\n\n| Feature | Java | TypeScript |\n|---------|------|------------|\n| **Core nature** | Stand‑alone, compiled language that runs on the JVM (or Android runtime). | Superset of JavaScript that compiles (transpiles) to plain JavaScript. |\n| **Compilation** | Ahead‑of‑time (AOT) to JVM bytecode (`.class` → runs on JVM). | Transpiled to JavaScript (`.ts` → `.js`) which is then executed by a browser or Node.js. |\n| **Typing** | Statically typed, *nominal* type system. Types are enforced at compile time and exist at runtime (via reflection). | Statically typed (optional), *structural* type system. Types are erased at compile time; only JavaScript runs. |\n| **Runtime** | JVM (or Android VM) provides garbage collection, JIT, native libraries, etc. | JavaScript engine (V8, SpiderMonkey, etc.) provides GC, event loop, async/await. |\n| **Concurrency model** | Multi‑threaded, `synchronized`, `java.util.concurrent`, etc. | Single‑threaded event loop; concurrency via async/await, Promises, Web Workers, or Node.js workers. |\n| **Memory management** | Automatic GC, but you can influence it with `finalize`, `SoftReference`, etc. | Automatic GC (in the JS engine). No manual memory control. |\n| **Typical use‑cases** | Enterprise back‑ends, Android apps, microservices, high‑performance server‑side code, desktop apps (Swing/JavaFX). | Front‑end web apps (Angular, React, Vue), Node.js back‑ends, serverless functions, tooling that runs in browsers. |\n| **Ecosystem** | Mature libraries (Spring, Hibernate, JavaFX), huge corporate adoption, long‑term support. | Rich ecosystem of JavaScript libraries, npm packages, modern frameworks, tooling (Webpack, Rollup). |\n| **Tooling** | IDEs: IntelliJ IDEA, Eclipse, NetBeans; build tools: Maven, Gradle, Ant. | IDEs: VS Code, WebStorm; build tools: tsc, webpack, parcel, esbuild. |\n| **Learning curve** | Steeper for beginners due to verbose syntax, explicit types, and JVM concepts. | Easier for those familiar with JavaScript; adds optional static typing on top of familiar syntax. |\n| **Performance** | Generally faster for CPU‑bound tasks; JIT optimizations, native code. | Depends on the JavaScript engine; can be slower for heavy CPU work but highly optimized for I/O and UI. |\n| **Deployment** | Deploy a JAR/WAR/ear, run on any JVM. | Deploy the generated JavaScript (or bundle) to a web server or CDN; Node.js apps run as scripts. |\n| **Type system depth** | Strong, checked at compile time; generics, annotations, reflection. | Structural, optional; supports interfaces, enums, generics, type inference, and advanced type features (mapped types, conditional types). |\n| **Runtime type safety** | Full type safety at runtime (via JVM). | Types are erased; runtime safety relies on JavaScript’s dynamic nature. |\n| **Community & Support** | Long‑standing corporate backing (Oracle, OpenJDK), extensive documentation. | Growing community, backed by Microsoft and the open‑source community; rapidly evolving. |\n\n### Bottom line\n\n- **Java** is a *full‑stack* language that compiles to bytecode and runs on the JVM. It’s ideal for performance‑critical, multi‑threaded server‑side or Android applications.\n- **TypeScript** is a *superset* of JavaScript that adds optional static typing and modern language features. It compiles to JavaScript and is primarily used for web front‑ends and Node.js back‑ends.\n\nChoosing between them depends on your target platform, performance needs, and whether you’re building a browser‑centric application (TypeScript) or a JVM‑centric one (Java).",
+  "finish_reason": "stop",
+  "prompt_tokens": 83,
+  "completion_tokens": 3546,
+  "total_tokens": 3629,
+  "latency_ms": 6264,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:34:55.487307+00:00"
+}

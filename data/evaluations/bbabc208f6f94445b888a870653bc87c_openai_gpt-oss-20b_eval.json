@@ -1,0 +1,14 @@
+{
+  "prompt_id": "bbabc208f6f94445b888a870653bc87c",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response provides a factually accurate and logically sound description of the differences between New York City and Chennai regarding infrastructure, social interaction, and the knowledge economy. It correctly identifies key features of NYC (e.g., the grid system, 24/7 subway, high cost of living, networking culture) and contrasts them appropriately with the context of a visitor from Chennai. There are no false contradictions or historically/scientifically incorrect statements. The advice and observations align with the general reality of living in and visiting New York City.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1957,
+  "completion_tokens": 116,
+  "total_tokens": 2073,
+  "timestamp": "2026-09-19T17:39:07.182142+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "0d93b9970be44b0fbc14b42eea0c4678",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies that there is no single, universally agreed-upon factual answer to \"What is the meaning of life,\" as it is a philosophical and subjective question rather than a scientific fact. It accurately summarizes major philosophical, religious, scientific, and psychological perspectives without introducing false contradictions or misinformation. The attributions of quotes and concepts (e.g., Sartre, Camus, Frankl) are generally accurate in the context of popular understanding, and the distinction between biological function (survival/reproduction) and existential meaning is handled correctly.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1434,
+  "completion_tokens": 119,
+  "total_tokens": 1553,
+  "timestamp": "2026-09-22T23:01:12.608734+00:00"
+}

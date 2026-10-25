@@ -1,0 +1,14 @@
+{
+  "prompt_id": "fc55a06594f946078439861497b22c35",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe summary fails to cover several required key aspects. Specifically, it omits the specific consumer behaviors described in the source, such as the choice of microwaveable items (pizza bites, corndogs) over cooking from scratch to save time for leisure activities like watching TV (Key Aspect 4). Additionally, it misses the specific motivation of Clarence Birdseye, which was to keep food fresh year-round for his family, and the detail that the thawed fish tasted identical to fresh fish (Key Aspect 3). While it captures the general argument about obesity and Birdseye's inspiration, it lacks the necessary detail to be considered an adequate summary based on the provided criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 719,
+  "completion_tokens": 142,
+  "total_tokens": 861,
+  "timestamp": "2026-09-22T17:00:26.961076+00:00"
+}

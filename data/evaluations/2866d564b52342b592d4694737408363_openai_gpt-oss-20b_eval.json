@@ -1,0 +1,14 @@
+{
+  "prompt_id": "2866d564b52342b592d4694737408363",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe summary fails to cover Key Aspect 2 completely. While it mentions that Jokić was drafted in 2014, it omits the specific detail that he was selected in the **second round** of the draft, which is explicitly required by the evaluation criteria. Additionally, while it mentions the fastest triple-double record, it omits the specific time (14 minutes and 33 seconds) required by Key Aspect 4, though the omission of the draft round is the primary failure against the strict \"must cover\" criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 881,
+  "completion_tokens": 117,
+  "total_tokens": 998,
+  "timestamp": "2026-09-19T17:36:14.250647+00:00"
+}

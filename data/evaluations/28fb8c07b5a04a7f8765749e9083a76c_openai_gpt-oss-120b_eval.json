@@ -1,0 +1,14 @@
+{
+  "prompt_id": "28fb8c07b5a04a7f8765749e9083a76c",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRATIONALE: The response fails to strictly comply with the explicit character constraints in the prompt. The user requested a story with \"5 personagens, I villian and 3 heroes\" (5 characters: 1 villain and 3 heroes). The response introduces 5 characters but assigns the roles as 1 Villain, 3 Heroes, and 1 Mentor/Neutral character. By including a \"Mentor\" as a distinct role rather than counting them as one of the three heroes (or excluding them to keep the count at 4), the response violates the specific structural constraint of having exactly 3 heroes. Additionally, the prompt contains typos (\"personagens\", \"villian\", \"chracteristics\") suggesting a non-native or informal request, but the core constraint of \"3 heroes\" is a hard limit that was not met.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1934,
+  "completion_tokens": 177,
+  "total_tokens": 2111,
+  "timestamp": "2026-09-24T19:49:33.761696+00:00"
+}

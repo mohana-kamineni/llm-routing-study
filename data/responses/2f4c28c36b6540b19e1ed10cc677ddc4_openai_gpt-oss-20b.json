@@ -1,0 +1,20 @@
+{
+  "prompt_id": "2f4c28c36b6540b19e1ed10cc677ddc4",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "where is nutanix located?",
+  "response_text": "Nutanix’s corporate headquarters is in **San Jose, California, USA**. The company also maintains a global presence with offices in North America, Europe, Asia‑Pacific, and other regions, but its main HQ sits in the heart of Silicon Valley.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 120,
+  "total_tokens": 198,
+  "latency_ms": 353,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:20:44.235061+00:00"
+}

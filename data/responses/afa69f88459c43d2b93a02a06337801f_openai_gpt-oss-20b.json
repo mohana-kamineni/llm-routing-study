@@ -1,0 +1,20 @@
+{
+  "prompt_id": "afa69f88459c43d2b93a02a06337801f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Provide a summary of the following text: \"side in a space exterior to the body. Upon the usurpation of the weaponized object, it becomes an extension of your self-conscious will-a tool that extends the reach and capabilities of a self-possessed body, aiding in the navigation of worlds and manipulation of matter.\nIn the contrasting framework elaborated here, the black(ened) maternal body's endocrine system, organ systems, neuropsychological pathways, and cellular functioning are essential agencies in antiblack necropower, such that the distinction between the body and war's weaponry no longer rests on a solid boundary between human subjectivity and external environment, nor that of subject and object. Here, acts of war are not exclusively directed by intentional human action, and the harnessing of war's weaponry exceeds the subjectivist domain. While I share Mbembe's concern regarding the manner with which colonial racialization produces and is produced by the spatialization of populations into \"cells,\" my emphasis is different. I want to query how social processes-the prison \"cell,\" the political party \"cell,\" and the military \"cell\"-interact with somatic cellular processes, producing alterations to the immediate cellu- lar environment and cellular functioning in a manner that we might also describe as necropolitical. Privileging the colonial modality, Mbembe's spatial reading describes a necropower that compartmentalizes life and death into geographic zones \"epitomized by barracks and police stations,\" but in what I describe necropower's \"boundaries\" and \"internal frontiers\" are not so much spatialized but corporealized and are therefore nomadic, traveling with black(ened) subjects even when they are able to transgress geopolitical-spatialized borders (Mbembe, \"Necropolitics\" 26).\nThis nomadism on the part of antiblack violence, both in its corporealization (traveling with black subjects) and in its ubiquity and opportunism (waiting for a black subject to arrive), has required researchers working in the areas of \"racial health disparities\" to reconsider their baseline suppositions about the relationship between socioeconomic status and health. It has become increasingly difficult to justify continued investment in the belief that the assumption of increased economic mobility can provide the sufficient conditions necessary to rectify disparate reproductive health inequities for black women; rather, trends in the findings cast doubt on the appeal of regulatory authority and policies aimed primarily at black attainme",
+  "response_text": "**Summary**\n\nThe passage argues that weaponized objects can become extensions of a person’s will, blurring the line between body and tool. In this view, the black body’s biological systems—endocrine, organ, neural, and cellular—are integral to a form of “antiblack necropower” that dissolves the traditional boundary between human subjectivity and the external world. Unlike Mbembe’s spatial framing of necropower (e.g., barracks, police stations), this perspective sees necropower as corporeal and nomadic, traveling with black subjects even when they cross geopolitical borders.\n\nThe text then connects this idea to contemporary research on racial health disparities, noting that the pervasive, opportunistic nature of antiblack violence challenges the assumption that improving socioeconomic status alone can eliminate health inequities for black women. It calls into question policies that rely solely on economic mobility or regulatory authority to address reproductive health disparities.",
+  "finish_reason": "stop",
+  "prompt_tokens": 568,
+  "completion_tokens": 298,
+  "total_tokens": 866,
+  "latency_ms": 7119,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:49:02.169583+00:00"
+}

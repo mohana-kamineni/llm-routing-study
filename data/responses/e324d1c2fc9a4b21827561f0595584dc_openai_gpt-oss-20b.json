@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e324d1c2fc9a4b21827561f0595584dc",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Act as a data curator.\nParse the following addresses and provide them in JSON format by filling in the NA.\n\nAddresses:\n- \"845 Sherbrooke St West, Montreal, Quebec H3A 0G4\"\n- \"721 East Court Street Paris, IL 61944\"\n- \"112 Rue du Faubourg Saint-Honoré, 75008 Paris, France\"\n\nDesired JSON format:\n```\n[\n {\n   Address line1: NA,\n   City: NA,\n   State/Province: NA,\n   Postal/zip code: NA,\n   Country: NA\n }\n]\n```",
+  "response_text": "```json\n[\n  {\n    \"Address line1\": \"845 Sherbrooke St West\",\n    \"City\": \"Montreal\",\n    \"State/Province\": \"Quebec\",\n    \"Postal/zip code\": \"H3A 0G4\",\n    \"Country\": \"Canada\"\n  },\n  {\n    \"Address line1\": \"721 East Court Street\",\n    \"City\": \"Paris\",\n    \"State/Province\": \"IL\",\n    \"Postal/zip code\": \"61944\",\n    \"Country\": \"United States\"\n  },\n  {\n    \"Address line1\": \"112 Rue du Faubourg Saint-Honoré\",\n    \"City\": \"Paris\",\n    \"State/Province\": \"NA\",\n    \"Postal/zip code\": \"75008\",\n    \"Country\": \"France\"\n  }\n]\n```",
+  "finish_reason": "stop",
+  "prompt_tokens": 191,
+  "completion_tokens": 1123,
+  "total_tokens": 1314,
+  "latency_ms": 1486,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:32:01.834965+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "prompt_id": "27ab7144144e4101a5da5bc734104af2",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "auto_terminal_failure",
+  "terminal_type": "tool_use_api_rejection",
+  "terminal_description": "Prompt-format-induced API rejection: prompt contains explicit ReAct/Python-REPL instructions and model attempted structured tool call under tools=None configuration, producing deterministic 400 error.",
+  "verdict": "FAIL",
+  "raw_output": null,
+  "timestamp": "2026-09-18T09:23:19.330429+00:00"
+}

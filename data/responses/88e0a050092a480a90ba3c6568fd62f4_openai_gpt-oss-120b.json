@@ -1,0 +1,20 @@
+{
+  "prompt_id": "88e0a050092a480a90ba3c6568fd62f4",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "who is my wife's husband?",
+  "response_text": "Your wife’s husband is you. (Assuming you’re the one married to her.)",
+  "finish_reason": "stop",
+  "prompt_tokens": 77,
+  "completion_tokens": 84,
+  "total_tokens": 161,
+  "latency_ms": 258,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:27:23.397665+00:00"
+}

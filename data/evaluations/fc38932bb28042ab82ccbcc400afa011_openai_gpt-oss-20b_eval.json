@@ -1,0 +1,14 @@
+{
+  "prompt_id": "fc38932bb28042ab82ccbcc400afa011",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly interprets the problem statement. It identifies that the user started with 20 red strawberries. It correctly interprets \"half of them were black\" as referring to the 10 newly bought strawberries (since the original 20 are explicitly stated to be red, and the context implies the condition applies to the new batch). Consequently, it calculates that 5 of the new strawberries are black and 5 are red. Adding the original 20 red strawberries to the 5 new red strawberries results in a total of 25 red strawberries. The reasoning is logically sound and the final answer is correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 280,
+  "completion_tokens": 136,
+  "total_tokens": 416,
+  "timestamp": "2026-09-19T17:23:44.348420+00:00"
+}

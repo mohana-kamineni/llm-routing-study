@@ -1,0 +1,20 @@
+{
+  "prompt_id": "f1d601746b5b423ba3c0e65ccc3e1aa7",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Given a sequence of numbers: 1, 1, 2, 3, 5, 8, 13\nWhat is the next number in the sequence?",
+  "response_text": "The sequence is the Fibonacci numbers: each term is the sum of the two preceding ones.  \nAfter 13 comes \\(13 + 8 = 21\\).  \n\n**Answer: 21**",
+  "finish_reason": "stop",
+  "prompt_tokens": 107,
+  "completion_tokens": 81,
+  "total_tokens": 188,
+  "latency_ms": 10321,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:37:59.362998+00:00"
+}

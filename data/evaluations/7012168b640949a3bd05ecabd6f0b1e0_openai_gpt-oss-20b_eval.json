@@ -1,0 +1,14 @@
+{
+  "prompt_id": "7012168b640949a3bd05ecabd6f0b1e0",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response fully satisfies all evaluation dimensions. It strictly adheres to the persona of a lawyer and the constraint to use \"very complicated legal language,\" employing extensive pseudo-legal terminology, citations to fictional statutes (e.g., \"Culinary Heritage Protection Act of 1978\"), and case law. The structure is coherent and logical, following a standard legal memorandum format (Introduction, Statutory Framework, Common-Law Principles, Case Law, Argument, Conclusion). The response is complete, not truncated, and directly addresses the prompt's request to argue that pineapple does not belong on pizza. There are no explicit constraints (such as word limits) in the prompt that were violated.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1861,
+  "completion_tokens": 144,
+  "total_tokens": 2005,
+  "timestamp": "2026-09-22T16:55:24.080579+00:00"
+}

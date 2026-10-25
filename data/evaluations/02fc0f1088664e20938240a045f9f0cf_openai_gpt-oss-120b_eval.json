@@ -1,0 +1,14 @@
+{
+  "prompt_id": "02fc0f1088664e20938240a045f9f0cf",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately and comprehensively covers all four required key aspects. It correctly identifies the immune system's constant, silent elimination of rogue cells (Aspect 1), defines cancer as uncontrolled multiplication of corrupted cells originating from various tissue types (Aspect 2), explains the breakdown of biological cooperation where cells prioritize self over the collective (Aspect 3), and frames this within the evolutionary context of the shift from competitive individual cells to cooperative multicellular organisms (Aspect 4). The summary is factually consistent with the provided transcript.",
+  "finish_reason": "stop",
+  "prompt_tokens": 846,
+  "completion_tokens": 111,
+  "total_tokens": 957,
+  "timestamp": "2026-09-24T12:37:22.355892+00:00"
+}

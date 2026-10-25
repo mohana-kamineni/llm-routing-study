@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ecae1823ca67459998b47d216a1734f5",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the source text in exactly five sentences, covering all five required key aspects. It correctly identifies Kuro's character and school, the context of their friendship forming during PE, the specific details of the \"doll\" treatment and the pivotal dress incident, and the eventual evolution of their relationship into an intimate attraction. There are no factual errors or omissions of critical information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 871,
+  "completion_tokens": 84,
+  "total_tokens": 955,
+  "timestamp": "2026-09-24T12:37:45.488355+00:00"
+}

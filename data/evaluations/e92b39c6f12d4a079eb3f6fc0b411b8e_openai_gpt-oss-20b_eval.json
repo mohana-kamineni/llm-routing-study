@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e92b39c6f12d4a079eb3f6fc0b411b8e",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response fails the \"Completeness\" dimension because the story is truncated. It ends abruptly in the middle of a sentence (\"I am\"), leaving the narrative unresolved and incomplete. Additionally, there is a minor logical inconsistency in the \"Coherence\" dimension: the opening describes the room as \"windowless,\" but later the character walks to a \"window\" to view the city.",
+  "finish_reason": "stop",
+  "prompt_tokens": 797,
+  "completion_tokens": 86,
+  "total_tokens": 883,
+  "timestamp": "2026-09-22T16:52:11.186975+00:00"
+}

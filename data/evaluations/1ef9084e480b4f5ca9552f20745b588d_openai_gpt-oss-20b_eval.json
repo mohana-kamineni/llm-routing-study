@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1ef9084e480b4f5ca9552f20745b588d",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly calculates the total number of sodas purchased (36) and the total number of sodas consumed (22) based on the distribution described in the problem. It then correctly subtracts the consumed amount from the total to find the remainder (14). The reasoning is sound and the final answer is correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 372,
+  "completion_tokens": 76,
+  "total_tokens": 448,
+  "timestamp": "2026-09-19T17:39:59.059022+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "a0a4f2fed0e749c5929c957c11f0163f",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is 45 + 45?",
+  "response_text": "45 + 45 = 90.",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 50,
+  "total_tokens": 129,
+  "latency_ms": 485,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:01:34.118874+00:00"
+}

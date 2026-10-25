@@ -1,0 +1,14 @@
+{
+  "prompt_id": "211bfd20f5d1452d945abc924ac806f4",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the Landauer limit as the minimum energy dissipated when erasing one bit of information, providing the accurate formula $E_{\\min}=k_{\\mathrm B}T\\ln 2$. It correctly explains the physical basis (linking logical irreversibility to the second law of thermodynamics), cites the correct historical source (Rolf Landauer, 1961), and provides accurate numerical examples. The distinctions made regarding reversible vs. irreversible computing and the clarification of common misconceptions are also factually sound.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1780,
+  "completion_tokens": 120,
+  "total_tokens": 1900,
+  "timestamp": "2026-09-24T17:50:20.511025+00:00"
+}

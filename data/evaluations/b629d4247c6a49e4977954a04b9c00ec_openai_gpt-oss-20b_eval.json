@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b629d4247c6a49e4977954a04b9c00ec",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly calculates the remaining apples (20 - 2 = 18) and correctly identifies that the oranges are irrelevant to the specific question asked. There are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 191,
+  "completion_tokens": 45,
+  "total_tokens": 236,
+  "timestamp": "2026-09-22T16:51:23.462263+00:00"
+}

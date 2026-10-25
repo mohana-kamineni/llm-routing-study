@@ -1,0 +1,14 @@
+{
+  "prompt_id": "959368325a6a462dbcc6e4fc110dff8a",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies Nuremberg as a city in the state of Bavaria, Germany. It accurately specifies its location in the Franconian region (Middle Franconia) and provides correct geographical details, including its position on the River Pegnitz and its relative distances to major cities like Munich, Frankfurt, and Berlin. The coordinates provided are also accurate. There are no factual contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 384,
+  "completion_tokens": 86,
+  "total_tokens": 470,
+  "timestamp": "2026-09-24T12:34:11.611675+00:00"
+}

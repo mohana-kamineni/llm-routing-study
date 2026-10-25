@@ -1,0 +1,20 @@
+{
+  "prompt_id": "1d49e58f3be648be9d7bfb5e0a7d2c99",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Embeddings\nAn embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers. In the context of neural networks, embeddings are low-dimensional, learned continuous vector representations of discrete variables. Neural network embeddings are useful because they can reduce the dimensionality of categorical variables and meaningfully represent categories in the transformed space.\n\nNeural network embeddings have 3 primary purposes:\n\nFinding nearest neighbors in the embedding space. These can be used to make recommendations based on user interests or cluster categories.\nAs input to a machine learning model for a supervised task.\nFor visualization of concepts and relations between categories.\nThis means in terms of the book project, using neural network embeddings, we can take all 37,000 book articles on Wikipedia and represent each one using only 50 numbers in a vector. Moreover, because embeddings are learned, books that are more similar in the context of our learning problem are closer to one another in the embedding space.\n\nNeural network embeddings overcome the two limitations of a common method for representing categorical variables: one-hot encoding.\n\nBuild me a list of 5 main points from the text above.",
+  "response_text": "**Key Takeaways**\n\n1. **Embeddings map discrete categories to continuous vectors** – they transform categorical variables into low‑dimensional, learnable numeric representations.\n\n2. **Primary uses in neural networks** –  \n   - Finding nearest neighbors for recommendation or clustering.  \n   - Serving as input features for supervised learning tasks.  \n   - Enabling visual exploration of relationships between categories.\n\n3. **Dimensionality reduction** – embeddings compress high‑cardinality data (e.g., 37,000 Wikipedia book articles) into a manageable vector size (e.g., 50 dimensions).\n\n4. **Learned similarity** – the training process positions semantically similar items close together in the embedding space, capturing contextual relationships.\n\n5. **Advantages over one‑hot encoding** – embeddings avoid the sparsity and high dimensionality of one‑hot vectors while preserving meaningful structure among categories.",
+  "finish_reason": "stop",
+  "prompt_tokens": 295,
+  "completion_tokens": 234,
+  "total_tokens": 529,
+  "latency_ms": 720,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:40:32.212431+00:00"
+}

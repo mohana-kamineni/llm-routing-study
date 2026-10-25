@@ -1,0 +1,14 @@
+{
+  "prompt_id": "5aac9631c7194dc8baeb7d95870e3f27",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to meet the evaluation criteria because it does not cover the essential factual aspects of the source material. The prompt explicitly requested a list of 4 general topics (1-2 words each), and the response provided exactly that. However, the evaluation criteria require the summary to cover specific factual details such as the specific route (Portland to Ontario), the specific service being restored (Amtrak Pioneer), the deadline for the report (September 15, 2024), and the repeal date (January 2, 2025). The provided response consists only of broad categories (\"Transportation\", \"Rail\", \"Infrastructure\", \"Policy\") and omits all specific factual information required by the key aspects.",
+  "finish_reason": "stop",
+  "prompt_tokens": 675,
+  "completion_tokens": 153,
+  "total_tokens": 828,
+  "timestamp": "2026-09-24T21:27:57.418685+00:00"
+}

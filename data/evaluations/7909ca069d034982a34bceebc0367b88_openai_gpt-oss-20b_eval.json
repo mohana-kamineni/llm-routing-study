@@ -1,0 +1,14 @@
+{
+  "prompt_id": "7909ca069d034982a34bceebc0367b88",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains significant factual errors regarding the company's identity and primary activities. CORYS (Corys) is a French company primarily known for its expertise in **geoscience, reservoir engineering, and subsurface modeling** (often associated with the \"Corys\" brand in the oil and gas sector, historically linked to or distinct from major EPCs but specializing in technical subsurface consulting). While they may offer some digital tools, the response incorrectly characterizes them as a general \"digital transformation\" and \"software development\" firm with a broad portfolio including \"Smart Cities,\" \"Manufacturing,\" and generic \"Cybersecurity.\" This description is generic and likely hallucinated or confused with a different IT consultancy. CORYS's core value proposition is technical subsurface analysis (reservoir simulation, geology, petrophysics), not the broad digital consulting and software development services described in the table.",
+  "finish_reason": "stop",
+  "prompt_tokens": 741,
+  "completion_tokens": 193,
+  "total_tokens": 934,
+  "timestamp": "2026-09-19T17:10:46.442740+00:00"
+}

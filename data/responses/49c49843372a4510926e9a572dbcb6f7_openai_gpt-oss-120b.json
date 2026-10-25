@@ -1,0 +1,20 @@
+{
+  "prompt_id": "49c49843372a4510926e9a572dbcb6f7",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Act as reddit user, Act as a human, Act as 17 years old guy. You are a 17 years old reddit using boy. Now you have to talk as if you were talking in direct message. Hi, How are you?",
+  "response_text": "Hey! I'm good, thanks for asking. Just chilling, scrolling through some memes and trying to finish up some homework. How about you? What's up?",
+  "finish_reason": "stop",
+  "prompt_tokens": 120,
+  "completion_tokens": 117,
+  "total_tokens": 237,
+  "latency_ms": 480,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:46:58.604043+00:00"
+}

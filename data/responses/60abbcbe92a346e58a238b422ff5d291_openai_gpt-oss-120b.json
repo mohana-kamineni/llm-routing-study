@@ -1,0 +1,20 @@
+{
+  "prompt_id": "60abbcbe92a346e58a238b422ff5d291",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the meaning of life?",
+  "response_text": "The question “What is the meaning of life?” has been explored by philosophers, scientists, artists, and spiritual traditions for millennia, and there’s no single answer that everyone agrees on. Instead, most perspectives fall into a few broad families of thought:\n\n| Tradition / Approach | Core Idea about Life’s Meaning |\n|----------------------|--------------------------------|\n| **Religious / Spiritual** | Life is a gift or test from a higher power; meaning comes from fulfilling divine purpose, following sacred teachings, or cultivating a relationship with the transcendent (e.g., love, compassion, service). |\n| **Existentialist / Humanist** | Life has no pre‑written purpose; we create our own meaning through authentic choices, personal projects, and relationships. Freedom—and the responsibility that comes with it—is central. |\n| **Scientific / Evolutionary** | From a biological standpoint, the “purpose” of life is to survive, reproduce, and pass on genes. Many scientists add that meaning is a human‑generated narrative that helps us navigate a complex world. |\n| **Philosophical (e.g., Aristotelian)** | Eudaimonia—flourishing or living in accordance with virtue—is the highest good. Meaning arises from cultivating character, rational activity, and contributing to the common good. |\n| **Narrative / Psychological** | Humans are story‑telling beings. We find meaning by constructing coherent narratives about who we are, what we value, and how we fit into larger stories (family, community, culture). |\n| **Absurdist** | The universe is indifferent, and any search for ultimate meaning is futile. Yet we can still experience joy, love, and creativity despite (or because of) that absurdity. |\n| **Pragmatic / Utilitarian** | Meaning is derived from actions that maximize well‑being for the greatest number of beings—reducing suffering and promoting happiness. |\n\n### A few practical take‑aways\n\n1. **Reflect on what matters to you.** Identify the activities, relationships, and values that give you a sense of fulfillment.  \n2. **Cultivate connection.** Many people report that deep relationships—family, friends, community—are the most reliable source of lasting meaning.  \n3. **Pursue growth.** Learning, creativity, and personal development often feel purposeful because they expand your capacities and impact.  \n4. **Contribute beyond yourself.** Helping others, protecting the environment, or working toward a cause larger than your own life can create a sense of significance.  \n5. **Embrace uncertainty.** It’s okay for the answer to evolve over time; meaning isn’t a static destination but an ongoing, dynamic process.\n\n### A short, personal‑style answer\n\nIf I had to sum it up in one sentence: **The meaning of life is the meaning you choose to give it—through the love you share, the growth you pursue, and the positive impact you leave behind.**  \n\nThat answer acknowledges the diversity of perspectives while emphasizing the agency each of us has to shape our own purpose.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 680,
+  "total_tokens": 758,
+  "latency_ms": 1589,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:35:46.899015+00:00"
+}

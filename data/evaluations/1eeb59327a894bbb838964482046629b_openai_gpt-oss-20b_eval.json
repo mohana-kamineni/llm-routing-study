@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1eeb59327a894bbb838964482046629b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the founding date of the modern Slovak Republic as January 1, 1993. It accurately describes the context of the dissolution of Czechoslovakia and appropriately distinguishes the current state from the historical entity of the same name that existed during World War II. There are no factual errors or contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 228,
+  "completion_tokens": 73,
+  "total_tokens": 301,
+  "timestamp": "2026-09-22T16:51:18.385386+00:00"
+}

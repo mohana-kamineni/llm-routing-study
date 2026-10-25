@@ -1,0 +1,14 @@
+{
+  "prompt_id": "dbb2dbfba9694a5db825d06d0031909b",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response contains several substantive errors in data extraction and normalization:\n1.  **Brand Hallucination/Correction Error**: The input text explicitly says \"bronomagli\". The response claims the original text read \"bronombran\" (which it does not) and then \"corrects\" it to \"Bronomagli\" with a footnote. This is a factual error regarding the source text and an unnecessary, confusing correction.\n2.  **Brand Name Error**: The input text says \"Landway outer wear jacket\". The response lists the brand as \"Landtime\". This is a clear transcription error.\n3.  **Brand Name Error**: The input text says \"Gson fashion by Semir\". The response lists the brand as \"Semir (Gson fashion)\". While Semir is the manufacturer, \"Gson\" appears to be the specific line or brand name in the context of the list (or a typo for a specific brand). More critically, the response misinterprets \"Gson\" as a modifier for Semir rather than potentially the primary brand identifier provided in the list, but the \"Landtime\" error is definitive.\n4.  **Model/UPC Confusion**: For the H&M item, the input lists \"o/n 201472 p/n 1005884\". The response puts \"1005884\" in the Model column and \"o/n 201472\" in Notes. While acceptable, the misidentification of brands is the primary failure.\n\nThe most critical failure is changing \"Landway\" to \"Landtime\" and the incorrect claim about the source text for the Bronomagli item.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1133,
+  "completion_tokens": 357,
+  "total_tokens": 1490,
+  "timestamp": "2026-09-24T12:21:22.748062+00:00"
+}

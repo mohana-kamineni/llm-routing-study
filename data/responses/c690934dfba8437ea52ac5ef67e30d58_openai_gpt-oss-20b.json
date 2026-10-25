@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c690934dfba8437ea52ac5ef67e30d58",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the mechanism by which Metformin slows down diabetes?",
+  "response_text": "**Metformin – the first‑line drug for type 2 diabetes – slows hyperglycaemia mainly by acting on the liver, but it also has peripheral and gut effects.  The key mechanisms are:**\n\n| Target | What metformin does | Result on glucose metabolism |\n|--------|---------------------|------------------------------|\n| **Hepatic mitochondria** | Inhibits complex I of the respiratory chain → ↓ATP, ↑AMP | Activates AMP‑activated protein kinase (AMPK) → ↓ gluconeogenesis (less PEPCK, G6Pase) and ↓ hepatic glucose output |\n| **AMPK pathway** | AMPK phosphorylates and inactivates transcription factors that drive gluconeogenic genes; it also inhibits mTOR signaling | Reduced hepatic glucose production and improved insulin sensitivity |\n| **Intestinal glucose absorption** | Modestly reduces SGLT1 activity and slows transit | ↓ post‑prandial glucose rise |\n| **Peripheral tissues (muscle, adipose)** | AMPK activation ↑ GLUT4 translocation and fatty‑acid oxidation | ↑ insulin‑stimulated glucose uptake, ↓ lipotoxicity |\n| **Gut microbiota & GLP‑1** | Alters microbiome composition → ↑ GLP‑1 secretion | ↑ insulin secretion, ↓ appetite, modest weight loss |\n| **Adiponectin** | ↑ adiponectin levels | ↑ insulin sensitivity, anti‑inflammatory effects |\n\n### How it works in practice\n\n1. **Reduce hepatic glucose output** – The dominant effect.  By dampening gluconeogenesis, fasting glucose falls by ~1–2 mmol/L (18–36 mg/dL) and HbA1c by ~0.5–1 % with monotherapy.\n2. **Improve insulin sensitivity** – Peripheral tissues take up glucose more efficiently, lowering post‑prandial spikes.\n3. **Weight neutrality or modest loss** – Because it does not stimulate insulin secretion, it rarely causes weight gain; the gut effects can produce 1–3 kg weight loss in many patients.\n4. **Cardiovascular benefit** – Large trials (UKPDS, ACCORD‑EMPA‑REG, etc.) show reduced major adverse cardiovascular events, likely due to the combined metabolic and weight effects.\n\n### Clinical pearls\n\n| Issue | Practical tip |\n|-------|---------------|\n| **Dose** | Start 500 mg BID, titrate to 1 500–2 000 mg/day as tolerated. |\n| **Renal function** | Avoid if eGFR < 30 mL/min/1.73 m²; monitor for lactic acidosis (rare, < 1 case/100 000). |\n| **Side effects** | GI upset (nausea, diarrhea) – give with meals, consider extended‑release formulation. |\n| **Drug interactions** | Avoid with iodinated contrast, cimetidine, or drugs that raise lactate. |\n| **Pregnancy** | Category B; generally safe but monitor renal function. |\n\n### Bottom line\n\nMetformin slows diabetes by **inhibiting hepatic gluconeogenesis through AMPK activation** while also **enhancing peripheral glucose uptake and modestly reducing intestinal absorption**.  These actions lower fasting and post‑prandial glucose, improve insulin sensitivity, and often lead to weight loss, all of which contribute to better glycaemic control and reduced cardiovascular risk.",
+  "finish_reason": "stop",
+  "prompt_tokens": 83,
+  "completion_tokens": 3526,
+  "total_tokens": 3609,
+  "latency_ms": 4273,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:33:30.930137+00:00"
+}

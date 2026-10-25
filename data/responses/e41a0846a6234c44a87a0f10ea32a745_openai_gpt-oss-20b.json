@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e41a0846a6234c44a87a0f10ea32a745",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "I have 4 apples today. I ate 3 apples yesterday. How many apples do I have today?",
+  "response_text": "You have **4 apples** today.",
+  "finish_reason": "stop",
+  "prompt_tokens": 93,
+  "completion_tokens": 81,
+  "total_tokens": 174,
+  "latency_ms": 7450,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T22:57:01.314554+00:00"
+}

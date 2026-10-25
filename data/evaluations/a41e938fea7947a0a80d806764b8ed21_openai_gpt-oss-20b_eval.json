@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a41e938fea7947a0a80d806764b8ed21",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the number of trips required (1,000,000 / 4,000 = 250 trips) and correctly calculates the total time range by multiplying the number of trips by the minimum and maximum travel times (250 * 7 = 1,750 hours and 250 * 12 = 3,000 hours). The conversion to days is also accurate. The reasoning is sound and the final answer is correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 493,
+  "completion_tokens": 115,
+  "total_tokens": 608,
+  "timestamp": "2026-09-22T17:12:33.359301+00:00"
+}

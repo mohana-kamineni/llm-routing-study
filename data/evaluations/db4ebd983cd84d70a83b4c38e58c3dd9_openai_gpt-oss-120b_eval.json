@@ -1,0 +1,14 @@
+{
+  "prompt_id": "db4ebd983cd84d70a83b4c38e58c3dd9",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately and comprehensively covers all four required key aspects. It correctly identifies the drivers of the night train resurgence (environmental awareness and cultural reframing), details the specific launch of the European Sleeper route (frequency, stops, and historical significance), mentions the expansion of Austria's Nightjet and France's Midnight Trains, and explains the practical benefit of seamless multi-city travel via Eurostar connections. The summary is factually consistent with the source text and omits no critical information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1238,
+  "completion_tokens": 105,
+  "total_tokens": 1343,
+  "timestamp": "2026-09-28T07:52:37.708227+00:00"
+}

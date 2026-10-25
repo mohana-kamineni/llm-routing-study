@@ -1,0 +1,14 @@
+{
+  "prompt_id": "336c01ef7bc14b5f9ba6993e0c87c240",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully addresses all required aspects of the source text. It correctly identifies the product (The Ordinary Amino Acids + B5), its functions (hydration and barrier repair), and the recommendation for daily use within the 10-word summary constraint. It accurately determines the sentiment as positive, identifies the brand, and categorizes the content as Beauty. All key factual aspects are covered accurately.",
+  "finish_reason": "stop",
+  "prompt_tokens": 470,
+  "completion_tokens": 86,
+  "total_tokens": 556,
+  "timestamp": "2026-09-23T07:39:54.469967+00:00"
+}

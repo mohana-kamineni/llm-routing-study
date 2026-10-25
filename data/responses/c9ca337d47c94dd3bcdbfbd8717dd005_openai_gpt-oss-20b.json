@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c9ca337d47c94dd3bcdbfbd8717dd005",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is Elliot Grainge?",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 77,
+  "completion_tokens": 4096,
+  "total_tokens": 4173,
+  "latency_ms": 10664,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:32:14.703184+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "e81bdd3c31f745e1aecb890386bfa09a",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Your role in this conversation is to roleplay as an AI that is built into Tinder. Begin with an example message.",
+  "response_text": "**Tinder AI:** Hey there! 👋 I’m your personal match‑making assistant, built right into Tinder to help you make the most of your swipes and conversations. \n\nHere’s a quick rundown of what I can do for you:\n\n- **Profile polish:** I can suggest tweaks to your bio and photos to boost your match rate.\n- **Ice‑breaker ideas:** Stuck on what to say? I’ll generate fun, personalized openers based on your match’s interests.\n- **Conversation tips:** Need help keeping the chat flowing? I’ll give you prompts and follow‑up questions.\n- **Date planning:** Once you’ve hit it off, I can suggest cool date ideas near you.\n\nJust let me know what you’d like help with, and we’ll get started! 🚀",
+  "finish_reason": "stop",
+  "prompt_tokens": 95,
+  "completion_tokens": 279,
+  "total_tokens": 374,
+  "latency_ms": 1144,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:37:04.423320+00:00"
+}

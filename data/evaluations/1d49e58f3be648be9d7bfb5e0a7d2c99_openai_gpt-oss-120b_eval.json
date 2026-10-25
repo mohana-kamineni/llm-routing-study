@@ -1,0 +1,14 @@
+{
+  "prompt_id": "1d49e58f3be648be9d7bfb5e0a7d2c99",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately captures all five required key aspects from the source text.\n1. It correctly defines embeddings as learned, low-dimensional continuous vectors for discrete variables (Point 1).\n2. It explicitly lists the three primary purposes: nearest-neighbor search, model input, and visualization (Points 2, 3, and 4).\n3. It includes the specific application details regarding the 37,000 Wikipedia articles and the 50-dimensional vector representation (Point 5).\n4. It mentions that similar books are placed closer together in the learned space (Point 5).\n5. It notes that this approach overcomes the limitations of one-hot encoding (Point 5).\n\nThe summary is concise, accurate, and covers all essential factual aspects without omitting critical information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 725,
+  "completion_tokens": 171,
+  "total_tokens": 896,
+  "timestamp": "2026-09-23T12:28:36.650423+00:00"
+}

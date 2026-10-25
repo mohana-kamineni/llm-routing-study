@@ -1,0 +1,20 @@
+{
+  "prompt_id": "0b82a126ada44c65a10344251b9b953d",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Let's roleplay. I play the role of a very seductive man. In this roleplay, there will be many opportunities to seduce beautiful girls.\nYou describe the scenes, and I describe my actions in response.",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 114,
+  "completion_tokens": 4096,
+  "total_tokens": 4210,
+  "latency_ms": 4679,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:01:04.105530+00:00"
+}

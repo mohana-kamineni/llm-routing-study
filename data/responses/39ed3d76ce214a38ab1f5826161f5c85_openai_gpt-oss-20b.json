@@ -1,0 +1,20 @@
+{
+  "prompt_id": "39ed3d76ce214a38ab1f5826161f5c85",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a story about a flying dog. Be sure to give the dog a name and not use specific language from the prompt",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 95,
+  "completion_tokens": 4096,
+  "total_tokens": 4191,
+  "latency_ms": 4653,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:18:22.636255+00:00"
+}

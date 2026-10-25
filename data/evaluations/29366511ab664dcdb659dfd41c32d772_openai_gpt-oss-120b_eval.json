@@ -1,0 +1,14 @@
+{
+  "prompt_id": "29366511ab664dcdb659dfd41c32d772",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately captures all essential factual aspects of the source text. It correctly identifies the speaker's admission of being wrong, the personal update regarding flying and Instagram, the specific promotional details (69% off, extended to end of week), and the core market analysis regarding the shift in investor perception since January 2022 (specifically the correlation between good news and bad market reactions due to inflation fears). It also accurately reflects the speaker's personal trading actions (moving to 100% cash) and the invitation for the audience to reflect on this shift. No critical information was omitted or misrepresented.",
+  "finish_reason": "stop",
+  "prompt_tokens": 753,
+  "completion_tokens": 130,
+  "total_tokens": 883,
+  "timestamp": "2026-09-24T20:30:08.597836+00:00"
+}

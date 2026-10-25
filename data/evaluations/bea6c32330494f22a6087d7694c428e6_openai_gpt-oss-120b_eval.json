@@ -1,0 +1,14 @@
+{
+  "prompt_id": "bea6c32330494f22a6087d7694c428e6",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response provides a comprehensive and factually accurate summary of Jacques Cousteau's life and achievements. It correctly identifies his roles as a naval officer, explorer, filmmaker, and conservationist. Key historical facts are accurate, including the co-invention of the Aqua-Lung with Émile Gagnan, the acquisition of the research vessel *Calypso*, the production of the film *The Silent World* (which won the Palme d'Or and an Academy Award), and his founding of the Cousteau Society. There are no false contradictions or significant factual errors in the provided text.",
+  "finish_reason": "stop",
+  "prompt_tokens": 978,
+  "completion_tokens": 129,
+  "total_tokens": 1107,
+  "timestamp": "2026-09-28T07:39:52.409898+00:00"
+}

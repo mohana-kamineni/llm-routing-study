@@ -1,0 +1,14 @@
+{
+  "prompt_id": "76dbffb20ea64fc6a400122503826a6e",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response fails to satisfy the core narrative constraint of the prompt. The prompt explicitly states that \"Anya ends up beating him easily,\" implying she is taller than Shaquille O'Neal. However, in the story, Anya is measured at 6'5\" while Shaquille is measured at 7'1\", meaning Shaquille is significantly taller. The story concludes with Shaquille acknowledging he is taller (\"I may be taller...\"), which directly contradicts the required outcome where Anya wins the height comparison.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1498,
+  "completion_tokens": 118,
+  "total_tokens": 1616,
+  "timestamp": "2026-09-28T07:40:53.198746+00:00"
+}

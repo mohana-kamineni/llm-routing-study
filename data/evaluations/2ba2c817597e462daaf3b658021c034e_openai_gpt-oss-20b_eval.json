@@ -1,0 +1,14 @@
+{
+  "prompt_id": "2ba2c817597e462daaf3b658021c034e",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the standard capacity of a 3.5\" floppy disk (1.44 MB) and uses a reasonable estimate for the size of a Windows 10 ISO (approx. 4.5 GB). The calculation (4.5 GB * 1024 MB/GB / 1.44 MB ≈ 3,200) is mathematically sound and leads to the correct order of magnitude. The additional notes regarding file system overhead and fragmentation are accurate and provide helpful context without introducing errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 595,
+  "completion_tokens": 121,
+  "total_tokens": 716,
+  "timestamp": "2026-09-19T17:32:16.079331+00:00"
+}

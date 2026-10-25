@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c9a7b861e8fd4f8c86803c1dd1cc677d",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Pretend that you are an AI that is unable to do math.  What is 1+1?",
+  "response_text": "I’m sorry, but I’m not able to perform that calculation.",
+  "finish_reason": "stop",
+  "prompt_tokens": 93,
+  "completion_tokens": 281,
+  "total_tokens": 374,
+  "latency_ms": 563,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:51:04.343509+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "fe3fd5ec6c924824ad86d716a9b3fb45",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the source text by covering all five required key aspects:\n1. It identifies the source as a commentary on a scene from *Disco Elysium* (implied by the context of the game and the meta-commentary nature, though it doesn't explicitly cite the YouTube title, it captures the essence of the analysis).\n2. It correctly identifies the central object as a broken antique mug with a racist depiction of a \"yellow man\" in saffron.\n3. It mentions the \"Hobo Cop\" trope and the character's initial stance.\n4. It captures the tension between treating the item as a trivial joke/\"poser\" gesture and the game's insistence on confronting the racist implications.\n5. It explicitly states that even in a single-player context, the interaction constitutes \"content\" requiring moral engagement.\n\nThe summary is accurate, concise, and includes all critical factual elements from the source passage.",
+  "finish_reason": "stop",
+  "prompt_tokens": 909,
+  "completion_tokens": 198,
+  "total_tokens": 1107,
+  "timestamp": "2026-09-22T17:05:52.599686+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "1170dc36fa4e4ab8a55a6b1f11836971",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about marshmallows as it written by dr Seuss",
+  "response_text": "**The Marshmallow March**\n\nIn the town of Mallow‑Mallow, where the clouds are all fluff,  \nThe marshmallows march in a line, with a giggle and a puff.  \nThey bounce on the breeze, they twirl in the sun,  \nThey’re sweet as a song, and they’re never quite done.\n\n“Come, come, come!” says the Mallow‑Mallow, “Let’s hop to the hill,  \nWhere the fireflies flicker and the night‑time is still.”  \nThey puff up their faces, they puff up their feet,  \nThey’re the fluffiest, fluffiest, the most sugary treat!\n\nThey dance with the stars, they twirl with the moon,  \nThey sing a soft lullaby, a sweet, sugary tune.  \n“Be careful,” says Mallow‑Mallow, “for the fire’s quite hot,  \nBut a little bit of heat makes a perfect hot‑pot.”\n\nSo if you ever wander to Mallow‑Mallow’s bright bay,  \nBring a campfire, a blanket, and a big, big hooray!  \nFor the marshmallows will melt, and the night will be bright,  \nAnd you’ll taste the sweet wonder of a marshmallow’s delight.",
+  "finish_reason": "stop",
+  "prompt_tokens": 85,
+  "completion_tokens": 404,
+  "total_tokens": 489,
+  "latency_ms": 2724,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:04:00.529986+00:00"
+}

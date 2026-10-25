@@ -1,0 +1,14 @@
+{
+  "prompt_id": "075b1dc948c445d6a8267f40a607b051",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the four required grading criteria (thesis, evidence, organization, language) and provides a fair, well-reasoned assessment of the provided essay. The scores assigned (2, 2, 1, 1) are appropriate given the essay's lack of structure, repetitive/vague thesis, lack of specific citations, and numerous grammatical errors. The \"actionable feedback\" is specific, practical, and directly addresses the weaknesses identified in the grading. There are no substantive reasoning errors in the evaluation.",
+  "finish_reason": "stop",
+  "prompt_tokens": 913,
+  "completion_tokens": 115,
+  "total_tokens": 1028,
+  "timestamp": "2026-09-23T07:42:32.978224+00:00"
+}

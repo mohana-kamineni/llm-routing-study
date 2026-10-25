@@ -1,0 +1,20 @@
+{
+  "prompt_id": "99cfca82fc934cb2b2ff54720e4996ba",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is donald trump?",
+  "response_text": "Donald J. Trump (born June 14 1946) is an American businessman, television personality, and politician who served as the 45th President of the United States from January 20 2017 to January 20 2021.  \n\n**Key points about his life and career**\n\n| Period | Role / Activity | Notable Details |\n|--------|----------------|-----------------|\n| **Early life** | Born in Queens, New York City; graduated from the Wharton School of the University of Pennsylvania (1968) | Son of real‑estate developer Fred Trump. |\n| **Business career** | Took over the family real‑estate firm (renamed The Trump Organization) and expanded it into hotels, casinos, golf courses, and branding deals. | Became a well‑known public figure through high‑profile projects and a flamboyant media presence. |\n| **Television** | Host of *The Apprentice* (2004–2015) on NBC | The catchphrase “You’re fired!” became widely associated with him. |\n| **Political rise** | Announced candidacy for president as a Republican in June 2015; won the GOP nomination in July 2016. | Ran on a platform of “America First,” emphasizing immigration restriction, trade renegotiation, and a promise to “drain the swamp” in Washington. |\n| **Presidency (2017‑2021)** | 45th President of the United States | • Signed the Tax Cuts and Jobs Act (2017). <br>• Appointed three Supreme Court justices (Neil Gorsuch, Brett Kavanaugh, Amy Coney Barrett). <br>• Negotiated the US‑MEXICO‑Canada Agreement (USMCA). <br>• Implemented restrictive immigration policies (e.g., travel bans, family separation). <br>• Faced two impeachments: first in 2019 (Ukraine scandal, acquitted) and second in 2021 (incitement of the Jan 6 Capitol riot, acquitted). |\n| **Post‑presidency** | Remains an influential figure in the Republican Party; continues to hold rallies, endorse candidates, and comment on political issues. | Has hinted at running for president again in 2024, though his legal and financial challenges (including investigations into his business practices and handling of classified documents) are ongoing. |\n\n**Public perception**  \n- Supporters view him as a disruptor who challenged the political establishment and championed nationalist economic policies.  \n- Critics accuse him of spreading misinformation, undermining democratic norms, and fostering division.\n\n**Personal life**  \n- Married three times (Ivana Trump, Marla Maples, and current wife Melania Trump).  \n- Has five children: Donald Jr., Ivanka, Eric, Tiffany, and Barron.  \n\nOverall, Donald Trump is a polarizing figure whose impact on American politics, media, and culture continues to be a subject of extensive discussion and analysis.",
+  "finish_reason": "stop",
+  "prompt_tokens": 77,
+  "completion_tokens": 653,
+  "total_tokens": 730,
+  "latency_ms": 1689,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:32:23.218245+00:00"
+}

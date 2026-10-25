@@ -1,0 +1,20 @@
+{
+  "prompt_id": "fc38932bb28042ab82ccbcc400afa011",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "I have 20 red strawberry in my bag, I bought 10 more at the market in an opaque sachet. When arrived home, half of them were black. \nHow many red strawberry I have?",
+  "response_text": "You started with **20** red strawberries.  \nYou bought **10** more, but half of those were black:\n\n- 10 new strawberries ÷ 2 = **5** black strawberries  \n- 10 new strawberries ÷ 2 = **5** red strawberries\n\nSo the total number of red strawberries you now have is:\n\n20 (original) + 5 (new red) = **25 red strawberries**.",
+  "finish_reason": "stop",
+  "prompt_tokens": 113,
+  "completion_tokens": 377,
+  "total_tokens": 490,
+  "latency_ms": 644,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:22:06.364977+00:00"
+}

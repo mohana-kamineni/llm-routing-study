@@ -1,0 +1,14 @@
+{
+  "prompt_id": "bd6c8726c01d4757832782b7511b6e05",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the source text by covering all essential factual aspects, including the species' size, morphology (bell and tentacles), stinging mechanism, sensory systems (eyes and light response), behavior (day/night habits), diet, and predators. The key points are accurately extracted and organized. While the response includes a \"Human Interaction\" section with details (antivenom, vinegar, specific location) not present in the provided source text, it does not omit any critical information from the source, and the core summary remains faithful to the provided passage.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1313,
+  "completion_tokens": 119,
+  "total_tokens": 1432,
+  "timestamp": "2026-09-28T07:41:05.828901+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3ce9c9b7ff21418f98f6017a00409d2f",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully executes all four required steps. The English summary is a single sentence that accurately captures the key events (Jack and Jill tumbling down the hill while fetching water) and the outcome (returning home unharmed with their adventurous spirit intact). The French translation is accurate, the names are correctly listed, and the JSON object is valid with the correct keys and values. All essential factual aspects of the source text are covered.",
+  "finish_reason": "stop",
+  "prompt_tokens": 418,
+  "completion_tokens": 94,
+  "total_tokens": 512,
+  "timestamp": "2026-09-23T07:43:35.989858+00:00"
+}

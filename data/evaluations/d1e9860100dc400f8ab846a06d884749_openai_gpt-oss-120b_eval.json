@@ -1,0 +1,14 @@
+{
+  "prompt_id": "d1e9860100dc400f8ab846a06d884749",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the source text by covering all five required key aspects:\n1. It correctly states the withdrawal date (31 January 2020), time (23:00 GMT), and the UK's status as the only sovereign country to leave after membership since 1973.\n2. It accurately reports the referendum result (51.9% vote to leave) and the regional breakdown (England/Wales excluding London voted to leave; Scotland/Northern Ireland voted to remain).\n3. It identifies the drivers of the referendum (UKIP influence, Conservative Euroscepticism) and the promise made by David Cameron.\n4. It details the political consequences: Cameron's resignation, Theresa May's succession, and the completion of negotiations under Boris Johnson.\n5. It explains the legal changes, noting the removal of EU legal supremacy and the retention of EU law as domestic law via the European Union (Withdrawal) Act 2018.\n\nThe summary is accurate, concise, and includes all critical factual elements from the source material.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1105,
+  "completion_tokens": 227,
+  "total_tokens": 1332,
+  "timestamp": "2026-09-28T07:42:53.101525+00:00"
+}

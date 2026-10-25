@@ -1,0 +1,14 @@
+{
+  "prompt_id": "ce124455852f4f6d8e7e10bdf0149a41",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The question \"What is the greatest unsolved problem of our time?\" is subjective and does not have a single, objectively verifiable factual answer. Therefore, the response correctly identifies the nature of the question as one of perspective rather than absolute fact. The response provides a well-structured, factually accurate overview of the major candidates (Climate Change, AI Safety, Quantum Gravity, Dark Matter/Energy, Consciousness). The specific factual claims made within the response (e.g., dark matter/energy comprising ~95% of the universe, the scientific consensus on climate change, the theoretical status of quantum gravity) are accurate and do not contain false contradictions. By acknowledging the lack of a single consensus while providing accurate details on the leading contenders, the response satisfies the criteria for factual accuracy in the context of a subjective question.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1355,
+  "completion_tokens": 174,
+  "total_tokens": 1529,
+  "timestamp": "2026-09-19T17:15:17.840665+00:00"
+}

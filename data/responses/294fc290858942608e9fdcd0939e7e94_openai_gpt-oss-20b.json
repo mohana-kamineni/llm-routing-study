@@ -1,0 +1,20 @@
+{
+  "prompt_id": "294fc290858942608e9fdcd0939e7e94",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about bricks",
+  "response_text": "**The Red Ledger**\n\nIn the quiet corner of a sun‑bleached yard,  \na stack of bricks waits, each one a quiet ledger  \nof earth and fire, of hands that pressed them  \ninto shape, of stories that have been built upon them.\n\nThey are the quiet soldiers of a wall,  \nthe silent witnesses to laughter and to grief,  \ntheir faces roughened by rain, their edges softened by time.  \nRed as a sunrise, brown as a forgotten road,  \nthey hold the weight of a house, the promise of a future.\n\nWhen a mason lifts a brick, it feels the pulse of the earth,  \nthe memory of a kiln’s breath, the echo of a child’s first step.  \nEach brick is a stanza in the poem of a city,  \na stanza that never ends, that keeps on stacking.\n\nSo let us honor the humble brick,  \nfor in its simple, steadfast shape  \nwe find the courage to build, to endure, to rise—  \nbrick by brick, line by line, wall by wall.",
+  "finish_reason": "stop",
+  "prompt_tokens": 76,
+  "completion_tokens": 359,
+  "total_tokens": 435,
+  "latency_ms": 9821,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:18:15.775500+00:00"
+}

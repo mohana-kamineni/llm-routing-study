@@ -1,0 +1,14 @@
+{
+  "prompt_id": "bf11bb9c82ab4e2892814c4fea730b50",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the source text by covering all five required key aspects:\n1. It correctly identifies processor design as a subfield of computer and electronics engineering focused on creating the core hardware component.\n2. It accurately describes the design process involving the selection of an instruction set and execution paradigm (VLIW/RISC) to define the microarchitecture, described in VHDL or Verilog.\n3. It details the manufacturing process, including semiconductor fabrication into a die, bonding to a chip carrier, and mounting on a PCB.\n4. It explains the mode of operation, noting that processors execute instruction streams for data manipulation, memory access, comparisons, and control flow.\n5. It mentions that designs are validated on FPGAs before mass production/foundry fabrication.\n\nThe summary is accurate, concise, and includes the requested three-word title.",
+  "finish_reason": "stop",
+  "prompt_tokens": 707,
+  "completion_tokens": 181,
+  "total_tokens": 888,
+  "timestamp": "2026-09-19T17:25:05.010604+00:00"
+}

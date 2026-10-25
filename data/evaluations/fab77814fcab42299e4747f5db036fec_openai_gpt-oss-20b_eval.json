@@ -1,0 +1,14 @@
+{
+  "prompt_id": "fab77814fcab42299e4747f5db036fec",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the key factual aspects of the source text. It correctly identifies the main subject (Trainer Saffie Joseph Jr.), the specific incident (suspension following the deaths of Parents Pride and Chasing Artie), the context (149th Kentucky Derby), and the broader scope (four total horse deaths, including Take Charge Briana and Wild On Ice). It also accurately conveys the specific terms of the suspension (barring entry/stall occupancy at CDI tracks) and the organization's response (investigation with regulators, priority on safety). While it omits the specific names of the trainers for the other two deceased horses (Wayne Lukas and Joel Marr) and the direct quotes from the CDI president, these are secondary details; the core narrative and essential facts are preserved and accurate.",
+  "finish_reason": "stop",
+  "prompt_tokens": 645,
+  "completion_tokens": 170,
+  "total_tokens": 815,
+  "timestamp": "2026-09-22T16:50:05.568882+00:00"
+}

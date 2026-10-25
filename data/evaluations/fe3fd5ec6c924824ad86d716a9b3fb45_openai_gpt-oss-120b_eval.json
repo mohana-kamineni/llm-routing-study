@@ -1,0 +1,14 @@
+{
+  "prompt_id": "fe3fd5ec6c924824ad86d716a9b3fb45",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the source text and covers all five required key aspects:\n1.  **Context**: It correctly identifies the source as a transcript from a YouTube video analyzing *Disco Elysium*.\n2.  **Central Object**: It accurately describes the broken antique mug with the racist caricature of a \"yellow man.\"\n3.  **Character/Intent**: It notes the \"Hobo Cop\" role and the initial intent to dismiss the mug as a harmless joke or \"content.\"\n4.  **Tension**: It captures the conflict between the player's desire to treat it as a trivial \"poser\" gesture and the game's insistence on confronting the racist implications.\n5.  **Single-Player Context**: It explicitly mentions that even in a single-player context with no audience, the interaction constitutes \"content\" requiring engagement.\n\nThe summary is accurate, concise, and does not omit critical information from the provided transcript.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1070,
+  "completion_tokens": 199,
+  "total_tokens": 1269,
+  "timestamp": "2026-09-28T07:36:09.361373+00:00"
+}

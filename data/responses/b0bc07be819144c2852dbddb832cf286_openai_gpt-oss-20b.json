@@ -1,0 +1,20 @@
+{
+  "prompt_id": "b0bc07be819144c2852dbddb832cf286",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "where is Montpellier?",
+  "response_text": "Montpellier is a city in southern France, situated on the Mediterranean coast. It lies in the Occitanie region, roughly 200 km (about 125 mi) southeast of Paris and about 30 km (18 mi) inland from the coast, near the towns of Sète and Béziers. The city sits on the banks of the Hérault River and is part of the larger Montpellier Méditerranée Métropole.",
+  "finish_reason": "stop",
+  "prompt_tokens": 75,
+  "completion_tokens": 138,
+  "total_tokens": 213,
+  "latency_ms": 370,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:32:12.978425+00:00"
+}

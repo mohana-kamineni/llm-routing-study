@@ -1,0 +1,20 @@
+{
+  "prompt_id": "a87d4fefe3284c6592d1288a80f818ca",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the most interesting fact you know?",
+  "response_text": "One of the most fascinating facts about our own bodies is the sheer scale of the brain’s connectivity:\n\n**The human brain contains roughly 86 billion neurons, but the number of synaptic connections between them is estimated to be around 100 trillion.**\n\n- **Neurons** are the individual “cells” that process and transmit information.  \n- **Synapses** are the tiny junctions where one neuron communicates with another, using chemical signals (neurotransmitters) or electrical impulses.\n\nThis means that, on average, each neuron forms about 1,000–2,000 synaptic connections. The complexity of these connections underlies everything from basic reflexes to the most advanced aspects of cognition, memory, and creativity. It’s a staggering illustration of how a relatively small organ (about 1.4 kg in weight) can support an incredibly intricate network that powers human thought and experience.",
+  "finish_reason": "stop",
+  "prompt_tokens": 80,
+  "completion_tokens": 601,
+  "total_tokens": 681,
+  "latency_ms": 969,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:37:40.145680+00:00"
+}

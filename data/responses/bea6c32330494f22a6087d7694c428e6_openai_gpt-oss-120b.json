@@ -1,0 +1,20 @@
+{
+  "prompt_id": "bea6c32330494f22a6087d7694c428e6",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is Jacques Cousteau?",
+  "response_text": "Jacques‑Yves Cousteau (1910 – 1997) was a French naval officer, explorer, filmmaker, scientist, and one of the most influential advocates for marine conservation in the 20th century.\n\n### Key points about his life and work\n\n| Year | Milestone |\n|------|-----------|\n| **1910** | Born in Saint‑André‑de‑Cuppes, France. |\n| **1930s** | Joined the French Navy; began experimenting with underwater breathing equipment. |\n| **1943** | Co‑invented the **Aqua‑Lung** (self‑contained underwater breathing apparatus) with engineer Émile Gagnan, making scuba diving practical for civilians and scientists. |\n| **1945** | Purchased the former British minesweeper **_Calypso_**, which he converted into a mobile research laboratory and later a famous “floating laboratory” for his expeditions. |\n| **1948–1960s** | Conducted numerous scientific expeditions, mapping coral reefs, studying marine life, and documenting the ocean’s ecosystems. |\n| **1956** | Produced the groundbreaking documentary **_The Silent World_** (co‑directed with Louis Malle). The film won the Palme d’Or at Cannes and the first Academy Award for Best Documentary Feature. |\n| **1965–1976** | Hosted the television series **_The Undersea World of Jacques Cousteau_**, which aired in more than 120 countries and brought vivid images of the ocean into living rooms worldwide. |\n| **1970s–1990s** | Founded the **Cousteau Society** (1973) to promote marine research, education, and protection. Championed causes such as marine protected areas, sustainable fishing, and pollution control. |\n| **1997** | Died on his 87th birthday in Paris. |\n\n### Why he matters\n\n1. **Pioneer of modern scuba diving** – The Aqua‑Lung opened up the underwater world to scientists, filmmakers, and recreational divers, fundamentally changing how humanity interacts with the sea.\n2. **Science communication** – Cousteau’s books (e.g., *The Silent World*, *The Ocean World*), films, and TV series made marine science accessible and compelling to a global audience, inspiring generations of oceanographers, divers, and environmentalists.\n3. **Conservation advocacy** – He was an early voice warning about overfishing, oil spills, and plastic pollution, and he helped establish marine protected zones such as the **Port-Cros National Park** (France) and the **Bonaire Marine Park** (Caribbean).\n4. **Technological innovation** – Beyond the Aqua‑Lung, his team developed underwater cameras, lighting systems, and submersibles that advanced marine research and documentary filmmaking.\n\n### Legacy\n\n- **Cultural icon**: The image of Cousteau in his trademark beret and orange jacket, standing beside the **_Calypso_**, remains synonymous with ocean exploration.\n- **Institutions**: The Cousteau Society continues to conduct research cruises, educational programs, and advocacy campaigns.\n- **Influence on policy**: His testimony and public pressure contributed to early international agreements on marine protection and helped shape the modern environmental movement.\n- **Inspiration**: Modern oceanographers, marine biologists, and popularizers (e.g., Sylvia Earle, James Cameron, the documentary series *Blue Planet*) cite Cousteau as a foundational influence.\n\nIn short, Jacques Cousteau was a trailblazing explorer who turned the mysterious depths of the oceans into a realm that could be studied, filmed, and ultimately protected—leaving an indelible mark on science, media, and environmental stewardship.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 855,
+  "total_tokens": 933,
+  "latency_ms": 2045,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:36:16.894706+00:00"
+}

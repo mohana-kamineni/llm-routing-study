@@ -1,0 +1,14 @@
+{
+  "prompt_id": "6ba9b6bb44ed48b6b2ad9d3d9471666e",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The question \"What is the ultimate answer of the universe?\" is not a factual question with a single, objectively verifiable scientific or historical answer. It is a philosophical or literary inquiry. The response correctly identifies that there is no single universally accepted answer and provides accurate, well-known perspectives, including the famous literary reference to Douglas Adams' \"42\" and valid scientific/philosophical viewpoints. It does not contain false contradictions or present unverified claims as absolute facts.",
+  "finish_reason": "stop",
+  "prompt_tokens": 884,
+  "completion_tokens": 104,
+  "total_tokens": 988,
+  "timestamp": "2026-09-22T16:51:59.142499+00:00"
+}

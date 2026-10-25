@@ -1,0 +1,20 @@
+{
+  "prompt_id": "d71173ac85054eabbf0d88218c1030b9",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about a guy who falls in love with a girl who is a god of health",
+  "response_text": "**When He Met the Goddess of Health**\n\nIn a city of steel and neon sighs,  \nHe walked the streets where shadows lie,  \nA restless heart, a weary mind—  \nUntil he heard a softer kind.\n\nShe moved like sunrise through the ward,  \nA white‑clad figure, calm and stored  \nWith every pulse, each breath, each beat—  \nA living hymn to life’s repeat.\n\nHer eyes were chlorophyll‑green,  \nA promise that the sick could mend;  \nHer smile, a tonic, pure and bright,  \nA cure that turned the dark to light.\n\nHe watched her stitch the broken ribs,  \nShe whispered herbs to trembling limbs;  \nShe sang to fevers, coaxed them down,  \nAnd turned the sick to laughing towns.\n\nHe fell—not for the flawless skin,  \nBut for the way she healed within—  \nFor every wound she made a story,  \nFor every scar a whispered glory.\n\nHe offered her his clumsy hands,  \nA simple man with trembling plans;  \nHe learned the art of gentle care,  \nAnd found his own heart’s repair.\n\nTogether they would walk the night,  \nThrough hospitals and moonlit streets,  \nHe’d bring her coffee, she’d bring the light—  \nTwo souls entwined where health meets love.\n\nIn quiet rooms where breath is thin,  \nHe whispered, “You are more than cure—  \nYou are the pulse that keeps me whole,  \nThe steady beat I can endure.”\n\nShe laughed, a sound of crystal streams,  \nAnd placed a crown of rosemary on his dreams.  \nFor love, she said, is the truest medicine,  \nA balm that never fades nor ends.\n\nSo now they wander, hand in hand,  \nA mortal man, a goddess grand—  \nHe loves the healer, she loves the love,  \nAnd in each other, health and hope rise above.",
+  "finish_reason": "stop",
+  "prompt_tokens": 90,
+  "completion_tokens": 469,
+  "total_tokens": 559,
+  "latency_ms": 1328,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:46:53.203961+00:00"
+}

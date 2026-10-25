@@ -1,0 +1,21 @@
+{
+  "prompt_id": "81b7c1cb602d4e8b8eed9f10c915f0f8",
+  "category": "factual_qa",
+  "prompt_text": "What does DSL stand for (in the context of programming)?",
+  "model": "openai/gpt-oss-20b",
+  "provider": "groq",
+  "model_returned": "openai/gpt-oss-20b",
+  "raw_response": "In programming, **DSL** stands for **Domain‑Specific Language**.\n\nA DSL is a language (or a set of language constructs) designed to express solutions in a particular problem domain more naturally and concisely than a general‑purpose language. Examples include SQL for database queries, HTML/CSS for web markup, and LaTeX for typesetting.",
+  "response_text": "In programming, **DSL** stands for **Domain‑Specific Language**.\n\nA DSL is a language (or a set of language constructs) designed to express solutions in a particular problem domain more naturally and concisely than a general‑purpose language. Examples include SQL for database queries, HTML/CSS for web markup, and LaTeX for typesetting.",
+  "reasoning_text": "The user asks: \"What does DSL stand for (in the context of programming)?\" They want the meaning of DSL. DSL stands for Domain-Specific Language. So answer: Domain-Specific Language. Provide explanation. Probably mention it's a programming language tailored to a specific domain. Provide examples. So answer accordingly.",
+  "input_tokens": 83,
+  "output_tokens": 145,
+  "total_tokens": 228,
+  "reasoning_tokens": 64,
+  "latency_seconds": 0.464,
+  "timestamp": "2026-09-13T11:39:14.360125+00:00",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "retries": 0,
+  "error": null
+}

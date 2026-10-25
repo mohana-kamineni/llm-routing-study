@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e1ad5d369f7e448c80c58b60ede268e9",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the logical structure of the riddle. Since Alexis is male (implied by the sisters having a brother and Alexis being the only male sibling mentioned or implied by the context of \"how many brothers do I have\"), the \"1 brother\" each sister has is Alexis himself. Therefore, Alexis has 0 brothers. The reasoning is sound and the final answer is correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 257,
+  "completion_tokens": 85,
+  "total_tokens": 342,
+  "timestamp": "2026-09-24T03:50:12.588523+00:00"
+}

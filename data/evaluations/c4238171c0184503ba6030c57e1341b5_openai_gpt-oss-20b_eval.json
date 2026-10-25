@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c4238171c0184503ba6030c57e1341b5",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly extracts all requested fields from the OCR text.\n1. **Name**: Correctly identifies \"MOHD NAZ'I BIN TAKUAN\" by combining the split lines and interpreting the OCR artifact `NAZ\"I` as `NAZ'I` (a common name spelling).\n2. **ID**: Correctly extracts `71225-10-2339`.\n3. **Gender**: Correctly identifies `LELAKI` (Male).\n4. **Citizenship**: Correctly identifies `WARGANEGARA` (Citizen).\n5. **Religion**: Correctly identifies `ISLAM`.\n6. **Address**: Correctly concatenates the address lines (`NO 6B JALAN KIAI ABD MOID KG SG TENGI KANAN DARAT 45500 TANJONG KARANG SELANGOR`).\n\nThe reasoning provided in the notes is accurate, specifically regarding the OCR artifact in the name. There are no substantive errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 544,
+  "completion_tokens": 221,
+  "total_tokens": 765,
+  "timestamp": "2026-09-19T17:09:00.146139+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "fab77814fcab42299e4747f5db036fec",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "summarize this text: Trainer Saffie Joseph Jr has been suspended after two of his horses died in the lead-up to Saturday's 149th Kentucky Derby.\n\nParents Pride and Chasing Artie collapsed and died at the Churchill Downs track, with the cause of death still unknown.\n\nAnother of Joseph Jr's horses, Lord Miles, has been scratched from the race following his suspension.\n\nFour horses have now died in the build-up to America's most celebrated race.\n\nThe suspension prohibits Joseph Jr, or any trainer directly or indirectly employed by him, from entering horses in races or applying for stall occupancy at all Churchill Downs Incorporated (CDI) owned racetracks.\n\n\"Given the unexplained sudden deaths, we have reasonable concerns about the condition of his horses and decided to suspend him indefinitely until details are analysed and understood,\" said Bill Mudd, the CDI president and chief operating officer.\n\n\"The safety of our equine and human athletes and integrity of our sport is our highest priority. We feel these measures are our duty and responsibility.\"\n\nTake Charge Briana and Wild On Ice, trained by Wayne Lukas and Joel Marr respectively, both had to be put down down after suffering leg injuries at the track in Louisville earlier this week.\n\nCDI says it is working with regulators to investigate the circumstances behind the deaths.\n\nAn earlier CDI statement prior to Joseph Jr's suspension described the deaths as \"completely unacceptable\" and that \"these troubling incidents are alarming and must be addressed.\"\n\nPracti",
+  "response_text": "Trainer Saffie Joseph Jr. has been indefinitely suspended after two of his horses—Parents Pride and Chasing Artie—collapsed and died at Churchill Downs while preparing for the 149th Kentucky Derby. The cause of death is still unknown, and another of his horses, Lord Miles, was scratched from the race. This marks the fourth horse fatality in the Derby build‑up. The suspension bars Joseph Jr. and anyone he employs from entering horses or applying for stall occupancy at any Churchill Downs Incorporated (CDI) track. CDI President Bill Mudd said the unexplained deaths raise “reasonable concerns” about the horses’ condition and that safety and sport integrity are top priorities. CDI is working with regulators to investigate, calling the incidents “completely unacceptable” and “alarming.” Earlier this week, two other horses—Take Charge Briana and Wild On Ice, trained by Wayne Lukas and Joel Marr—were also euthanized after leg injuries at the Louisville track.",
+  "finish_reason": "stop",
+  "prompt_tokens": 365,
+  "completion_tokens": 224,
+  "total_tokens": 589,
+  "latency_ms": 1546,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T19:41:37.386960+00:00"
+}

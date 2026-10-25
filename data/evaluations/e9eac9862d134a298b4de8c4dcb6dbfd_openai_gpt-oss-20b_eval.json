@@ -1,0 +1,14 @@
+{
+  "prompt_id": "e9eac9862d134a298b4de8c4dcb6dbfd",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe 125-word summary contains a significant factual inaccuracy and omission. The source text explicitly states that \"The vast majority of cancer cells you develop will be killed,\" implying that some are not killed and can lead to disease. The response claims the immune system eliminates \"the vast majority of potential tumors,\" which is a subtle but critical distinction (cells vs. tumors) and, more importantly, the final sentence (\"Researchers aim to boost immune surveillance for cancer prevention\") is entirely hallucinated; this information is not present in the provided source text. A summary must be derived strictly from the source material.",
+  "finish_reason": "stop",
+  "prompt_tokens": 696,
+  "completion_tokens": 128,
+  "total_tokens": 824,
+  "timestamp": "2026-09-19T17:39:04.363709+00:00"
+}

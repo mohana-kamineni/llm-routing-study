@@ -1,0 +1,14 @@
+{
+  "prompt_id": "f87d0c28b21343878c8554a91b1d9c45",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response successfully addresses all aspects of the prompt. It is a coherent poem that specifically targets the requested topics: hit registration issues (\"Hitreg says 'nah'\"), the Steam market economy (\"Steam market’s a circus,\" \"StatTrak skin can cost a yacht\"), and general game bugs/lag. The narrative structure is logical, moving from gameplay mechanics to economic frustrations and concluding with a thematic summary. The response is complete, not truncated, and adheres to the creative format requested without violating any explicit constraints.",
+  "finish_reason": "stop",
+  "prompt_tokens": 652,
+  "completion_tokens": 110,
+  "total_tokens": 762,
+  "timestamp": "2026-09-24T20:38:05.857260+00:00"
+}

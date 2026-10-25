@@ -1,0 +1,14 @@
+{
+  "prompt_id": "b880af732df44bffb350a08bc66c56ce",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies the Atrial Septal Defect (ASD) as the correct answer. The reasoning provided is medically accurate: it correctly links the fixed split S2, parasternal heave (indicating right ventricular volume overload/hypertrophy), midsystolic ejection murmur (due to increased flow across the pulmonary valve), and soft diastolic rumble (due to increased flow across the tricuspid valve) to the pathophysiology of an ASD. It also correctly rules out the other options based on their distinct clinical presentations (e.g., continuous machinery murmur for PDA, upper extremity hypertension for Coarctation). There are no substantive reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 810,
+  "completion_tokens": 153,
+  "total_tokens": 963,
+  "timestamp": "2026-09-22T17:08:27.028227+00:00"
+}

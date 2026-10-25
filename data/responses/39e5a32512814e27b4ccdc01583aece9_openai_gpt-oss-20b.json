@@ -1,0 +1,20 @@
+{
+  "prompt_id": "39e5a32512814e27b4ccdc01583aece9",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is the president of the Moon?",
+  "response_text": "There isn’t one. The Moon is a natural satellite of Earth, not a sovereign state, and it has no permanent population, government, or official title such as “president.” All current and future activities on the Moon are carried out by national space agencies (NASA, ESA, Roscosmos, CNSA, etc.) and, in the future, by international agreements and possibly private companies, but there is no political office or leader that governs the Moon itself.",
+  "finish_reason": "stop",
+  "prompt_tokens": 79,
+  "completion_tokens": 217,
+  "total_tokens": 296,
+  "latency_ms": 663,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:36:19.762160+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "8938d945856d47b3b363040652ad3efc",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides the correct average distance between the Earth and the Sun (approximately 149.6 million km, or 1 AU). It also correctly calculates the ratio of this distance to the Earth's equatorial circumference (approx. 40,075 km). The calculation $149,597,870.7 / 40,075 \\approx 3,733$ to $3,735$ depending on the precise value used for the circumference (e.g., 40,075.017 km yields ~3,733.0; using 40,000 km yields 3,739.9; using the standard mean radius $R=6371$ km, $C=2\\pi R \\approx 40030$ km, $149.6M/40030 \\approx 3737$). The value 3,735.4 is a reasonable approximation consistent with standard values (e.g., if using $C \\approx 40,048$ km). The answer is accurate and contains no substantive errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 215,
+  "completion_tokens": 262,
+  "total_tokens": 477,
+  "timestamp": "2026-09-22T16:50:43.435454+00:00"
+}

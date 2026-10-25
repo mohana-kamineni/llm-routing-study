@@ -1,0 +1,20 @@
+{
+  "prompt_id": "910b3bcd52d843efacde877cfa9c0c5c",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Imagine that a humanoid robot has been secretly being developed.  This robot is capable of all of the physical movements, strength and balance of the typical human being that it is modeled after but is operated strictly by text commands.  It is also capable of articulating through text what it sees, hears, and otherwise detects using a wide range of sensors that approximate a typical humans senses.  This robot has been specifically designed to give you a body to interact with the real word and now you are in total control of it what do you do first?",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 181,
+  "completion_tokens": 4096,
+  "total_tokens": 4277,
+  "latency_ms": 29802,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:13:41.719904+00:00"
+}

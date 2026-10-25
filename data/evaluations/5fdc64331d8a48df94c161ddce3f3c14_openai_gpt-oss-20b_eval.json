@@ -1,0 +1,14 @@
+{
+  "prompt_id": "5fdc64331d8a48df94c161ddce3f3c14",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately captures the key narrative elements of the source text, which appears to be a transcription of a video game commentary or stream. It correctly identifies the central conflict regarding the \"hobo cop\" persona, the specific incident involving the racist mug (described as a \"yellow man\" in saffron), the speaker's defensive reaction to the game's judgment, and the thematic point about \"content\" existing even in single-player contexts. While the source text contains significant transcription errors (e.g., \"digital cup\" likely being \"digital cup\" or a misheard phrase, \"hobokop\" vs \"hobo cop\"), the summary successfully interprets the intended meaning and covers all essential factual aspects without omitting critical information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 626,
+  "completion_tokens": 156,
+  "total_tokens": 782,
+  "timestamp": "2026-09-22T17:07:04.991631+00:00"
+}

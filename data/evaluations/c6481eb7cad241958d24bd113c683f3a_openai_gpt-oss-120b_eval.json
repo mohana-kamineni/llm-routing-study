@@ -1,0 +1,14 @@
+{
+  "prompt_id": "c6481eb7cad241958d24bd113c683f3a",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response contains a significant factual error regarding the first incident. The source text states that the thirteen-year-old boy \"shot dead eight fellow pupils... as well as a security guard,\" implying the boy was the perpetrator who committed the killings. The response incorrectly states that the \"13-year-old shooter [was] dead,\" which contradicts the source text that does not mention the boy's death. Additionally, the response omits the specific detail that the second shooter was born in 2002 (implying he was likely a minor or young adult, a key detail in the context of the disarming pledge), instead just saying \"2002-born suspect,\" which is less precise but acceptable; however, the error regarding the boy's status is critical.",
+  "finish_reason": "stop",
+  "prompt_tokens": 536,
+  "completion_tokens": 162,
+  "total_tokens": 698,
+  "timestamp": "2026-09-23T12:28:08.449787+00:00"
+}

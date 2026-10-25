@@ -1,0 +1,14 @@
+{
+  "prompt_id": "688386f9776e4aeda7b0ef5fe7fde67d",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nRationale: The response contains significant factual and reasoning errors regarding the tax and salary data for several locations, which undermines the core requirement of providing accurate net income ranges.\n\n1.  **Singapore (Major Error):** The response lists a gross salary of SGD 210k–260k (approx. $155k–$195k USD) but calculates a net salary of SGD 120k–160k (approx. $90k–$120k USD). This implies a tax rate of roughly 40-50%. However, Singapore's top marginal income tax rate is 22%, and for this income level, the effective tax rate is typically around 15-18%. The net salary should be significantly higher (closer to SGD 170k–210k). The response incorrectly applies a high tax burden to a low-tax jurisdiction.\n2.  **Zurich (Major Error):** The response lists a gross salary of CHF 210k–260k and a net salary of CHF 120k–160k, implying a tax rate of 43-54%. In reality, while Swiss taxes are high, the effective tax rate for this income level in Zurich is typically around 30-35% (including social contributions). The net salary is underestimated by a substantial margin (should be closer to CHF 140k–170k).\n3.  **Inconsistent Logic:** The prompt asks for locations with a *higher* net income. While the US and UK entries are plausible, the errors in the Singapore and Zurich entries make the comparison unreliable. For instance, if the net in Singapore is actually higher than stated, it might be a stronger candidate than the US, or vice versa, but the provided numbers are factually wrong.\n4.  **Currency Conversion Errors:** In the Singapore row, the Gross Salary (USD) is listed as $140k–$175k, which corresponds to the *Japan* baseline in the prompt, not the SGD 210k–260k listed in the local currency column (which converts to ~$155k–$195k). This internal inconsistency indicates a lack of careful calculation.\n\nDue to these substantial factual errors in tax rates and resulting net income calculations, the response fails to provide a correct solution.",
+  "finish_reason": "stop",
+  "prompt_tokens": 2003,
+  "completion_tokens": 519,
+  "total_tokens": 2522,
+  "timestamp": "2026-09-19T17:14:23.020319+00:00"
+}

@@ -1,0 +1,6035 @@
+{
+  "title": "Project 2 — LLM Routing Benchmark Public-Safe Manifest",
+  "version": "1.0.0",
+  "license_note": "Governed by LMSYS Chatbot Arena Conversations Terms of Use. Raw conversational texts are omitted to comply with Hugging Face gated access terms and privacy guidelines. To reconstruct full benchmark prompts and responses, obtain authorized access to 'lmsys/chatbot_arena_conversations' and execute the reproduction script.",
+  "source_dataset": "lmsys/chatbot_arena_conversations (split: train)",
+  "sampling_seed": 42,
+  "total_prompts": 500,
+  "prompts_per_category": {
+    "factual_qa": 125,
+    "reasoning_math": 125,
+    "summarization": 125,
+    "creative": 125
+  },
+  "frozen_router_specification": {
+    "formula": "S(x) = 0.40 * f_cat + 0.35 * f_len + 0.25 * f_reason",
+    "category_priors": {
+      "creative": 0.2,
+      "factual_qa": 0.4,
+      "summarization": 0.6,
+      "reasoning_math": 0.8
+    }
+  },
+  "frozen_artifacts_sha256": {
+    "prompts.json": "a9214823cb8fdc0586f5fb2fb88ac29eeebbdf7d7b70da318be495eae8b8ce03",
+    "prompts_manifest.json": "45d927529bab7e09dd18e536c64ea52bd84bd7f415dd506827f9f863c19d90f5",
+    "references.json": "b1531df0fac52057da5b70e2279fc87eb6475236d194234775fae1231b79e9f3"
+  },
+  "candidate_models": {
+    "small": "openai/gpt-oss-20b via Groq",
+    "large": "openai/gpt-oss-120b via Groq"
+  },
+  "evaluator_model": "qwen/qwen3.8-27b via Groq",
+  "prompts": [
+    {
+      "prompt_id": "58210e39b3fd4441a2bd4a518bb44c2d",
+      "question_id": 1,
+      "category": "factual_qa",
+      "word_count": 8,
+      "router_score": 0.2837,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3534,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "ec2e7c6e72434090ad4ce66f0a0539e6",
+      "question_id": 14,
+      "category": "factual_qa",
+      "word_count": 7,
+      "router_score": 0.2771,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "3faa3dd290324ce0bd7379dac9082f19",
+      "question_id": 36,
+      "category": "factual_qa",
+      "word_count": 10,
+      "router_score": 0.295,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3857,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "16b3abe6d420433b8b08bf6f57ea2fd2",
+      "question_id": 45,
+      "category": "factual_qa",
+      "word_count": 7,
+      "router_score": 0.2771,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "0d93b9970be44b0fbc14b42eea0c4678",
+      "question_id": 71,
+      "category": "factual_qa",
+      "word_count": 6,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "7b6370efdace47b9a47a6c136258f86b",
+      "question_id": 80,
+      "category": "factual_qa",
+      "word_count": 4,
+      "router_score": 0.2506,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2589,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "d863f1acfb6f4a7688e828399710281a",
+      "question_id": 109,
+      "category": "factual_qa",
+      "word_count": 5,
+      "router_score": 0.2609,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2882,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "0ba71a41d7ad4e1986569e63a7070a42",
+      "question_id": 173,
+      "category": "factual_qa",
+      "word_count": 8,
+      "router_score": 0.2837,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3534,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "304fdfc0fb7140b3a1cb29d2093dfbba",
+      "question_id": 222,
+      "category": "factual_qa",
+      "word_count": 13,
+      "router_score": 0.3086,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4245,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "d3065b5cc4064ed986a74926a7959083",
+      "question_id": 268,
+      "category": "factual_qa",
+      "word_count": 8,
+      "router_score": 0.2935,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3534,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "f62b50a096124da2b31cd78275c875e5",
+      "question_id": 310,
+      "category": "factual_qa",
+      "word_count": 7,
+      "router_score": 0.2771,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "1e434d424e1640bb888f189ef8f1654a",
+      "question_id": 322,
+      "category": "factual_qa",
+      "word_count": 8,
+      "router_score": 0.2837,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3534,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "5d8007dc12584d469d2b549ce6e50997",
+      "question_id": 332,
+      "category": "factual_qa",
+      "word_count": 6,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "7909ca069d034982a34bceebc0367b88",
+      "question_id": 371,
+      "category": "factual_qa",
+      "word_count": 12,
+      "router_score": 0.3044,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4126,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "6b77a0e866804916896a4005304ab02c",
+      "question_id": 384,
+      "category": "factual_qa",
+      "word_count": 19,
+      "router_score": 0.3495,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4819,
+        "f_reason": 0.0833
+      }
+    },
+    {
+      "prompt_id": "2f4c28c36b6540b19e1ed10cc677ddc4",
+      "question_id": 410,
+      "category": "factual_qa",
+      "word_count": 4,
+      "router_score": 0.2506,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2589,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "b2bb0ea04f6744529b29d76eca7c69cc",
+      "question_id": 437,
+      "category": "factual_qa",
+      "word_count": 16,
+      "router_score": 0.3195,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4557,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "56903547bb004808b23834cda0d6a6bb",
+      "question_id": 449,
+      "category": "factual_qa",
+      "word_count": 7,
+      "router_score": 0.2771,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "9af1f8b8579149e69968566c11fa22de",
+      "question_id": 461,
+      "category": "factual_qa",
+      "word_count": 9,
+      "router_score": 0.2896,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3704,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "ba72b095c92744599255aad6c158ec4c",
+      "question_id": 497,
+      "category": "factual_qa",
+      "word_count": 44,
+      "router_score": 0.3841,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.6123,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "0baa3b572e9a44ad8169eef3caf96132",
+      "question_id": 506,
+      "category": "factual_qa",
+      "word_count": 13,
+      "router_score": 0.3086,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4245,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "ce124455852f4f6d8e7e10bdf0149a41",
+      "question_id": 517,
+      "category": "factual_qa",
+      "word_count": 9,
+      "router_score": 0.2896,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3704,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "a7fdafb501164394bf72d59ed7eaceaa",
+      "question_id": 528,
+      "category": "factual_qa",
+      "word_count": 7,
+      "router_score": 0.2771,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "3ae306c81ed84eeaaf66786a8da80d29",
+      "question_id": 561,
+      "category": "factual_qa",
+      "word_count": 15,
+      "router_score": 0.3161,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.446,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "66450b301c59420fb62a71fd4a1ac8a5",
+      "question_id": 587,
+      "category": "factual_qa",
+      "word_count": 8,
+      "router_score": 0.2837,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3534,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "b54f58e72eca4345baeb6395a47e519c",
+      "question_id": 591,
+      "category": "factual_qa",
+      "word_count": 17,
+      "router_score": 0.3533,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4649,
+        "f_reason": 0.1224
+      }
+    },
+    {
+      "prompt_id": "cca2156e0b184b2988722aefb783531c",
+      "question_id": 594,
+      "category": "factual_qa",
+      "word_count": 17,
+      "router_score": 0.3533,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4649,
+        "f_reason": 0.1224
+      }
+    },
+    {
+      "prompt_id": "61db0d7aa3f348c6a7aface686c333ac",
+      "question_id": 596,
+      "category": "factual_qa",
+      "word_count": 17,
+      "router_score": 0.3533,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4649,
+        "f_reason": 0.1224
+      }
+    },
+    {
+      "prompt_id": "0f1d412ef14e47f9ae37d5c9e84035e2",
+      "question_id": 600,
+      "category": "factual_qa",
+      "word_count": 7,
+      "router_score": 0.2771,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "12da54cc2f424c93b6b3be9bc54c1fd4",
+      "question_id": 608,
+      "category": "factual_qa",
+      "word_count": 8,
+      "router_score": 0.2837,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3534,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "7fbfb8ae73714916a6040e702cdf5879",
+      "question_id": 619,
+      "category": "factual_qa",
+      "word_count": 10,
+      "router_score": 0.3145,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3857,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "00a5c289a96c4f9ab408b0ee3e5bcff9",
+      "question_id": 623,
+      "category": "factual_qa",
+      "word_count": 5,
+      "router_score": 0.2609,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2882,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "8a9a2d99610f4cd49af7dc04374ededb",
+      "question_id": 627,
+      "category": "factual_qa",
+      "word_count": 4,
+      "router_score": 0.2506,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2589,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "4fca087a345a475d91ed83739fbc730a",
+      "question_id": 671,
+      "category": "factual_qa",
+      "word_count": 9,
+      "router_score": 0.2896,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3704,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "d11a73d005444d56950775acdbf181cd",
+      "question_id": 717,
+      "category": "factual_qa",
+      "word_count": 6,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "3f303651b0cc44a9977ce6d415551791",
+      "question_id": 722,
+      "category": "factual_qa",
+      "word_count": 7,
+      "router_score": 0.2771,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "bbe49a8804a94123b3b2f86918247f0d",
+      "question_id": 753,
+      "category": "factual_qa",
+      "word_count": 6,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "f61c25b33b844068b5118f367ab1935b",
+      "question_id": 819,
+      "category": "factual_qa",
+      "word_count": 14,
+      "router_score": 0.3125,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4356,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "3f0f845db83a4f9886a46cdefe2e3608",
+      "question_id": 823,
+      "category": "factual_qa",
+      "word_count": 8,
+      "router_score": 0.3228,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3534,
+        "f_reason": 0.1562
+      }
+    },
+    {
+      "prompt_id": "a524cb4dc7ba46af80d438e66ced4285",
+      "question_id": 832,
+      "category": "factual_qa",
+      "word_count": 10,
+      "router_score": 0.295,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3857,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "f4cef7f4c8244880a2b49c07d9a8c28a",
+      "question_id": 854,
+      "category": "factual_qa",
+      "word_count": 14,
+      "router_score": 0.3125,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4356,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "f50253df938c45629e12b4b0b5d39a9a",
+      "question_id": 888,
+      "category": "factual_qa",
+      "word_count": 7,
+      "router_score": 0.2771,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "23f41a397f8147088e246846bea6bd5e",
+      "question_id": 900,
+      "category": "factual_qa",
+      "word_count": 19,
+      "router_score": 0.3287,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4819,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "8f64d4d2a12d493c9f99594c826e18af",
+      "question_id": 931,
+      "category": "factual_qa",
+      "word_count": 8,
+      "router_score": 0.2837,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3534,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "47136de3804146dcb70306cad9271d87",
+      "question_id": 964,
+      "category": "factual_qa",
+      "word_count": 26,
+      "router_score": 0.3456,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.5302,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "ab57ff1719224ae5aa74c54ad5c16ebf",
+      "question_id": 971,
+      "category": "factual_qa",
+      "word_count": 14,
+      "router_score": 0.3125,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4356,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "1e6c7b188f0049e0af9bc0e15436889a",
+      "question_id": 1018,
+      "category": "factual_qa",
+      "word_count": 14,
+      "router_score": 0.3125,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4356,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "673ad512fdc049789c2a479861710c00",
+      "question_id": 1072,
+      "category": "factual_qa",
+      "word_count": 7,
+      "router_score": 0.2771,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "4fac7b5d3064425590adb0a4f06175ca",
+      "question_id": 1109,
+      "category": "factual_qa",
+      "word_count": 14,
+      "router_score": 0.3613,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4356,
+        "f_reason": 0.1953
+      }
+    },
+    {
+      "prompt_id": "8ee4e576b095454996122716fa122ff8",
+      "question_id": 1111,
+      "category": "factual_qa",
+      "word_count": 14,
+      "router_score": 0.3613,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4356,
+        "f_reason": 0.1953
+      }
+    },
+    {
+      "prompt_id": "e742206e114e477b9f1e38f8f5928afc",
+      "question_id": 1128,
+      "category": "factual_qa",
+      "word_count": 4,
+      "router_score": 0.2506,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2589,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "88e0a050092a480a90ba3c6568fd62f4",
+      "question_id": 1177,
+      "category": "factual_qa",
+      "word_count": 5,
+      "router_score": 0.2609,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2882,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "23895da7322a4372adecb19f981437d4",
+      "question_id": 1203,
+      "category": "factual_qa",
+      "word_count": 4,
+      "router_score": 0.2506,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2589,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "da61e652bbbc46398814dbaff3820399",
+      "question_id": 1276,
+      "category": "factual_qa",
+      "word_count": 10,
+      "router_score": 0.295,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3857,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "c9ca337d47c94dd3bcdbfbd8717dd005",
+      "question_id": 1282,
+      "category": "factual_qa",
+      "word_count": 4,
+      "router_score": 0.2506,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2589,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "c55523411da54896b2f61ee2b75b8cee",
+      "question_id": 1284,
+      "category": "factual_qa",
+      "word_count": 5,
+      "router_score": 0.2609,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2882,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "bbabc208f6f94445b888a870653bc87c",
+      "question_id": 1286,
+      "category": "factual_qa",
+      "word_count": 82,
+      "router_score": 0.4088,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.7108,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "09716d1c1e3c458ab4d5218e0cef6ab3",
+      "question_id": 1293,
+      "category": "factual_qa",
+      "word_count": 11,
+      "router_score": 0.2999,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3997,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "84fa843318c04856a7e562a9fa6b01ba",
+      "question_id": 1331,
+      "category": "factual_qa",
+      "word_count": 12,
+      "router_score": 0.3044,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4126,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "791be9d3840d4332882359b1e9b3702b",
+      "question_id": 1373,
+      "category": "factual_qa",
+      "word_count": 8,
+      "router_score": 0.2837,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3534,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "c358e5c67498436087d8da062bd01b61",
+      "question_id": 1381,
+      "category": "factual_qa",
+      "word_count": 7,
+      "router_score": 0.2771,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "ce25fef315d54af7acfa143b668ccd91",
+      "question_id": 1394,
+      "category": "factual_qa",
+      "word_count": 74,
+      "router_score": 0.4545,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.6945,
+        "f_reason": 0.2057
+      }
+    },
+    {
+      "prompt_id": "6511e90f58414df684331130ae095186",
+      "question_id": 1403,
+      "category": "factual_qa",
+      "word_count": 89,
+      "router_score": 0.4843,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.7238,
+        "f_reason": 0.2839
+      }
+    },
+    {
+      "prompt_id": "959368325a6a462dbcc6e4fc110dff8a",
+      "question_id": 1410,
+      "category": "factual_qa",
+      "word_count": 4,
+      "router_score": 0.2506,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2589,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "1eeb59327a894bbb838964482046629b",
+      "question_id": 1422,
+      "category": "factual_qa",
+      "word_count": 5,
+      "router_score": 0.2609,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2882,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "4e2f667e425544c5b0dbb80efd1292af",
+      "question_id": 1497,
+      "category": "factual_qa",
+      "word_count": 21,
+      "router_score": 0.334,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4972,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "6ba9b6bb44ed48b6b2ad9d3d9471666e",
+      "question_id": 1550,
+      "category": "factual_qa",
+      "word_count": 8,
+      "router_score": 0.2837,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3534,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "594f4e9b9cfc44a2a63b52483e1efcb7",
+      "question_id": 1568,
+      "category": "factual_qa",
+      "word_count": 8,
+      "router_score": 0.2837,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3534,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "26d32e7d8fa747a1bc97eaed74449040",
+      "question_id": 1645,
+      "category": "factual_qa",
+      "word_count": 5,
+      "router_score": 0.2609,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2882,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "e15757508b3745d88cb7e952e4c40fda",
+      "question_id": 1659,
+      "category": "factual_qa",
+      "word_count": 8,
+      "router_score": 0.2837,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3534,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "49884ca15aed4596bc135b9840f623e8",
+      "question_id": 1738,
+      "category": "factual_qa",
+      "word_count": 8,
+      "router_score": 0.2837,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3534,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "c6a11042b84f4e1fb699df3e2eab0db4",
+      "question_id": 1762,
+      "category": "factual_qa",
+      "word_count": 25,
+      "router_score": 0.3434,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.5241,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "f9cbccc6ac854269976a04fc9e4659a1",
+      "question_id": 1765,
+      "category": "factual_qa",
+      "word_count": 7,
+      "router_score": 0.2771,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "a07d585cfa484c8b860d0f112557a0c5",
+      "question_id": 1816,
+      "category": "factual_qa",
+      "word_count": 11,
+      "router_score": 0.2999,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3997,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "b0bc07be819144c2852dbddb832cf286",
+      "question_id": 1823,
+      "category": "factual_qa",
+      "word_count": 3,
+      "router_score": 0.238,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.223,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "99cfca82fc934cb2b2ff54720e4996ba",
+      "question_id": 1854,
+      "category": "factual_qa",
+      "word_count": 4,
+      "router_score": 0.2506,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2589,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "24d0110de02e4c46a8fca3d4b187d553",
+      "question_id": 1886,
+      "category": "factual_qa",
+      "word_count": 6,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "96a98ad068484b479467057ec703d2e2",
+      "question_id": 1925,
+      "category": "factual_qa",
+      "word_count": 6,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "6d3018c9d5054156a7dd4dd8fc9c6ff7",
+      "question_id": 1930,
+      "category": "factual_qa",
+      "word_count": 25,
+      "router_score": 0.3434,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.5241,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "3f383d8b707a4bc9973a5f2c7537ff0b",
+      "question_id": 1981,
+      "category": "factual_qa",
+      "word_count": 33,
+      "router_score": 0.4367,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.5672,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "5887aad3f6094617a8f5040fba2f7962",
+      "question_id": 2009,
+      "category": "factual_qa",
+      "word_count": 57,
+      "router_score": 0.4472,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.6532,
+        "f_reason": 0.2344
+      }
+    },
+    {
+      "prompt_id": "211bfd20f5d1452d945abc924ac806f4",
+      "question_id": 2020,
+      "category": "factual_qa",
+      "word_count": 5,
+      "router_score": 0.2817,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2882,
+        "f_reason": 0.0833
+      }
+    },
+    {
+      "prompt_id": "7cb6de9868b1452cbced326bc3a7e8d7",
+      "question_id": 2027,
+      "category": "factual_qa",
+      "word_count": 9,
+      "router_score": 0.2994,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3704,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "c690934dfba8437ea52ac5ef67e30d58",
+      "question_id": 2037,
+      "category": "factual_qa",
+      "word_count": 10,
+      "router_score": 0.295,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3857,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "cf949f78b4eb4075bd9850155b71a8cb",
+      "question_id": 2049,
+      "category": "factual_qa",
+      "word_count": 34,
+      "router_score": 0.3797,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.5719,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "be1e5e32a93949d8a5f5398589b54d86",
+      "question_id": 2051,
+      "category": "factual_qa",
+      "word_count": 34,
+      "router_score": 0.3797,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.5719,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "e2c5ac1f07864aa1875137f1f49fa296",
+      "question_id": 2053,
+      "category": "factual_qa",
+      "word_count": 34,
+      "router_score": 0.3797,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.5719,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "c8131d6ff392413fa837108691773fb6",
+      "question_id": 2055,
+      "category": "factual_qa",
+      "word_count": 34,
+      "router_score": 0.3797,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.5719,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "98b6f46c4b8d408d954d5dfb1c717c91",
+      "question_id": 2059,
+      "category": "factual_qa",
+      "word_count": 4,
+      "router_score": 0.2506,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2589,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "30e946edb164450b83fd63f689965538",
+      "question_id": 2076,
+      "category": "factual_qa",
+      "word_count": 6,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "76fcbf62cfeb4d7abd463130dde0cf25",
+      "question_id": 2089,
+      "category": "factual_qa",
+      "word_count": 6,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "a980c86e7e104fa3adb082e3dcc1a6cc",
+      "question_id": 2147,
+      "category": "factual_qa",
+      "word_count": 11,
+      "router_score": 0.2999,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3997,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "d385cac1e5974b9b945f612fd0c4599e",
+      "question_id": 2168,
+      "category": "factual_qa",
+      "word_count": 4,
+      "router_score": 0.2506,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2589,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "cad2852472c5420bbebf9438a57a609d",
+      "question_id": 2189,
+      "category": "factual_qa",
+      "word_count": 32,
+      "router_score": 0.3569,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.5624,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "60abbcbe92a346e58a238b422ff5d291",
+      "question_id": 2215,
+      "category": "factual_qa",
+      "word_count": 6,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "83afd6025bcb4b60b57a460216935414",
+      "question_id": 2235,
+      "category": "factual_qa",
+      "word_count": 4,
+      "router_score": 0.2506,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2589,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "dcf109d50d584126bc8c0f362e6f98e8",
+      "question_id": 2260,
+      "category": "factual_qa",
+      "word_count": 7,
+      "router_score": 0.2771,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "bea6c32330494f22a6087d7694c428e6",
+      "question_id": 2293,
+      "category": "factual_qa",
+      "word_count": 4,
+      "router_score": 0.2506,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2589,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "39e5a32512814e27b4ccdc01583aece9",
+      "question_id": 2320,
+      "category": "factual_qa",
+      "word_count": 7,
+      "router_score": 0.2771,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "20dc490e94eb4a7a9d7a5d0f8952ecb1",
+      "question_id": 2372,
+      "category": "factual_qa",
+      "word_count": 20,
+      "router_score": 0.3412,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4897,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "54c26a453bbe477b82976a28e6d169b0",
+      "question_id": 2402,
+      "category": "factual_qa",
+      "word_count": 9,
+      "router_score": 0.2896,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3704,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "9691020a5384449691497a6027a76198",
+      "question_id": 2474,
+      "category": "factual_qa",
+      "word_count": 37,
+      "router_score": 0.3941,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.5851,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "cda4f8d5a1ba4232bb2fad3e94378dae",
+      "question_id": 2492,
+      "category": "factual_qa",
+      "word_count": 10,
+      "router_score": 0.295,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3857,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "7061a4fcedde4d6dbd88d2f38e792759",
+      "question_id": 2498,
+      "category": "factual_qa",
+      "word_count": 18,
+      "router_score": 0.3466,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4736,
+        "f_reason": 0.0833
+      }
+    },
+    {
+      "prompt_id": "bf2c84f04262472dad0dee708203ccc0",
+      "question_id": 2507,
+      "category": "factual_qa",
+      "word_count": 46,
+      "router_score": 0.3963,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.6193,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "a87d4fefe3284c6592d1288a80f818ca",
+      "question_id": 2517,
+      "category": "factual_qa",
+      "word_count": 8,
+      "router_score": 0.2837,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3534,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "c67b8797f6144552a66d6e38d89fd0a0",
+      "question_id": 2526,
+      "category": "factual_qa",
+      "word_count": 6,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "5241a3b53b51446595846ed63caf48cf",
+      "question_id": 2552,
+      "category": "factual_qa",
+      "word_count": 8,
+      "router_score": 0.2837,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3534,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "37243d1ac61d4fd3a87d2c60d5991ccb",
+      "question_id": 2592,
+      "category": "factual_qa",
+      "word_count": 6,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "1eac998cc14f4f14a30f25195b94d169",
+      "question_id": 2604,
+      "category": "factual_qa",
+      "word_count": 5,
+      "router_score": 0.2609,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2882,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "84ebb7ebe30345abb1e4e7a8c4765129",
+      "question_id": 2624,
+      "category": "factual_qa",
+      "word_count": 13,
+      "router_score": 0.3086,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4245,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "8d400ab7c7324f8a90a5184c94309f9a",
+      "question_id": 2669,
+      "category": "factual_qa",
+      "word_count": 6,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "d2aebf0f2e6b4bc0b43ba9b51abee25b",
+      "question_id": 2672,
+      "category": "factual_qa",
+      "word_count": 6,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "c9aa13ec54074fb09e3b60786a38463c",
+      "question_id": 2738,
+      "category": "factual_qa",
+      "word_count": 9,
+      "router_score": 0.2896,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3704,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "a8a5120dec254e478ebf831d96e43276",
+      "question_id": 2786,
+      "category": "factual_qa",
+      "word_count": 21,
+      "router_score": 0.3438,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4972,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "da51556a731641bbac211be1c0293bca",
+      "question_id": 2801,
+      "category": "factual_qa",
+      "word_count": 9,
+      "router_score": 0.3092,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3704,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "575f366a806b480a9699149cc83d3a7b",
+      "question_id": 2870,
+      "category": "factual_qa",
+      "word_count": 6,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "35ae8b192cf14958980660efe3b68eba",
+      "question_id": 2918,
+      "category": "factual_qa",
+      "word_count": 9,
+      "router_score": 0.2896,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3704,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "e91e40cdefcd40dfab535eedcea23c2b",
+      "question_id": 2941,
+      "category": "factual_qa",
+      "word_count": 6,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "57ef862876644af3aed664afdd051312",
+      "question_id": 2972,
+      "category": "factual_qa",
+      "word_count": 7,
+      "router_score": 0.2771,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "fa6eb97c565e475cb4d9d6d5f0bd607b",
+      "question_id": 3016,
+      "category": "factual_qa",
+      "word_count": 4,
+      "router_score": 0.2506,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.2589,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "0f4bc55b24344589b3f74fbe3a778f0f",
+      "question_id": 3023,
+      "category": "factual_qa",
+      "word_count": 20,
+      "router_score": 0.3314,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4897,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "a04b4d0910d849a4bcc756eed5538717",
+      "question_id": 3040,
+      "category": "factual_qa",
+      "word_count": 8,
+      "router_score": 0.2837,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.3534,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "e23766d5dd8c4c228c2b156aa81609ab",
+      "question_id": 3047,
+      "category": "factual_qa",
+      "word_count": 58,
+      "router_score": 0.3896,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.6559,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "f1d601746b5b423ba3c0e65ccc3e1aa7",
+      "question_id": 3067,
+      "category": "factual_qa",
+      "word_count": 20,
+      "router_score": 0.3998,
+      "features": {
+        "f_cat": 0.4,
+        "f_len": 0.4897,
+        "f_reason": 0.2734
+      }
+    },
+    {
+      "prompt_id": "e7d4788ae59141e9b7ff0dd76c64e471",
+      "question_id": 4262,
+      "category": "summarization",
+      "word_count": 73,
+      "router_score": 0.5285,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.6923,
+        "f_reason": 0.1849
+      }
+    },
+    {
+      "prompt_id": "29f78c7a7723451c81ebdb0742b8eafd",
+      "question_id": 23733,
+      "category": "summarization",
+      "word_count": 75,
+      "router_score": 0.4936,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.6966,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "24208b95576248b89aea9a5b4b9f4dbc",
+      "question_id": 23736,
+      "category": "summarization",
+      "word_count": 75,
+      "router_score": 0.4936,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.6966,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "f4c2ea916d4943b58a06178d87c29a68",
+      "question_id": 2685,
+      "category": "summarization",
+      "word_count": 93,
+      "router_score": 0.4958,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.7308,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "e59af70c25db42dba6f80ae616d08154",
+      "question_id": 30166,
+      "category": "summarization",
+      "word_count": 95,
+      "router_score": 0.5263,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.7342,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "0000d826867d47dabd7d4b110beea2e9",
+      "question_id": 10679,
+      "category": "summarization",
+      "word_count": 98,
+      "router_score": 0.4987,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.7392,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "66d499d011664ab5b1dc5299d6e45b36",
+      "question_id": 23194,
+      "category": "summarization",
+      "word_count": 100,
+      "router_score": 0.4998,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.7424,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "3962faf9d0c7466a9a7c3776f0e858a1",
+      "question_id": 3858,
+      "category": "summarization",
+      "word_count": 102,
+      "router_score": 0.5107,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.7455,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "8b3d28928e144698bb428f1b3d657016",
+      "question_id": 20635,
+      "category": "summarization",
+      "word_count": 102,
+      "router_score": 0.5107,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.7455,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "1a39948013e342fe94a7768c659cf0a7",
+      "question_id": 23706,
+      "category": "summarization",
+      "word_count": 107,
+      "router_score": 0.5231,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.7532,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "bff4c9dbdc744f3080c8dc6bb5e0f30c",
+      "question_id": 23711,
+      "category": "summarization",
+      "word_count": 107,
+      "router_score": 0.5231,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.7532,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "336c01ef7bc14b5f9ba6993e0c87c240",
+      "question_id": 23715,
+      "category": "summarization",
+      "word_count": 107,
+      "router_score": 0.5231,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.7532,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "aaf4c48815e54f91b24c727807f6810e",
+      "question_id": 23717,
+      "category": "summarization",
+      "word_count": 107,
+      "router_score": 0.5231,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.7532,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "61c75d537c9749008c8dcaecb66cb157",
+      "question_id": 18939,
+      "category": "summarization",
+      "word_count": 111,
+      "router_score": 0.6046,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.759,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "229aab1d12744fd6a7d9b5eab3b6c8b4",
+      "question_id": 23719,
+      "category": "summarization",
+      "word_count": 111,
+      "router_score": 0.5447,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.759,
+        "f_reason": 0.1562
+      }
+    },
+    {
+      "prompt_id": "79e4e1383de447ec849ad8f2691285f2",
+      "question_id": 23723,
+      "category": "summarization",
+      "word_count": 111,
+      "router_score": 0.5447,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.759,
+        "f_reason": 0.1562
+      }
+    },
+    {
+      "prompt_id": "3b8355f4360240648f964b1e1a1b0554",
+      "question_id": 23728,
+      "category": "summarization",
+      "word_count": 111,
+      "router_score": 0.5447,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.759,
+        "f_reason": 0.1562
+      }
+    },
+    {
+      "prompt_id": "3ce9c9b7ff21418f98f6017a00409d2f",
+      "question_id": 5559,
+      "category": "summarization",
+      "word_count": 119,
+      "router_score": 0.5877,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.7701,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "4121b01b1c194760adcd5989bdce72a5",
+      "question_id": 5564,
+      "category": "summarization",
+      "word_count": 119,
+      "router_score": 0.5877,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.7701,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "1ae0ab0a56f8425c9e7934c79ce0a5c8",
+      "question_id": 10900,
+      "category": "summarization",
+      "word_count": 119,
+      "router_score": 0.5877,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.7701,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "48ca8496e90a4ed5aa2a0ee7d41ac641",
+      "question_id": 25135,
+      "category": "summarization",
+      "word_count": 135,
+      "router_score": 0.5654,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.7902,
+        "f_reason": 0.1953
+      }
+    },
+    {
+      "prompt_id": "ca2fd0d95f884ddf92913543749e992a",
+      "question_id": 16077,
+      "category": "summarization",
+      "word_count": 138,
+      "router_score": 0.5666,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.7938,
+        "f_reason": 0.1953
+      }
+    },
+    {
+      "prompt_id": "d8a88e1d5f914b60b2a2605bd01c964e",
+      "question_id": 4071,
+      "category": "summarization",
+      "word_count": 144,
+      "router_score": 0.5983,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8006,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "876f9f380d434b3d948846434b7e6865",
+      "question_id": 29525,
+      "category": "summarization",
+      "word_count": 165,
+      "router_score": 0.6059,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8223,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "7a522b9303e44c5a9595d8c36bb327e2",
+      "question_id": 19081,
+      "category": "summarization",
+      "word_count": 169,
+      "router_score": 0.6073,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8261,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "b9633958b5d745009ee71b405c185d0f",
+      "question_id": 16785,
+      "category": "summarization",
+      "word_count": 171,
+      "router_score": 0.6079,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.828,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "84f14d38f68745d1bf089fb5d8bdfb49",
+      "question_id": 12435,
+      "category": "summarization",
+      "word_count": 175,
+      "router_score": 0.6665,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8317,
+        "f_reason": 0.5417
+      }
+    },
+    {
+      "prompt_id": "68e556fa2fb347238f9a8dc09c7c436e",
+      "question_id": 2637,
+      "category": "summarization",
+      "word_count": 177,
+      "router_score": 0.6099,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8335,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "3aab1d2cbb004fdf968028a2f406cabd",
+      "question_id": 5049,
+      "category": "summarization",
+      "word_count": 177,
+      "router_score": 0.6099,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8335,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "87d7eb3f1cd94262b93218a8b4412537",
+      "question_id": 28310,
+      "category": "summarization",
+      "word_count": 177,
+      "router_score": 0.5317,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8335,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "1efb020ee8ca45bdbcfe540b122864e9",
+      "question_id": 28314,
+      "category": "summarization",
+      "word_count": 177,
+      "router_score": 0.5317,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8335,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "974317f962824ce69a8548da0cea4eae",
+      "question_id": 5531,
+      "category": "summarization",
+      "word_count": 186,
+      "router_score": 0.554,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8415,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "c8ab0538c16c4d6e81b0f70716f06806",
+      "question_id": 18177,
+      "category": "summarization",
+      "word_count": 187,
+      "router_score": 0.5947,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8423,
+        "f_reason": 0.2396
+      }
+    },
+    {
+      "prompt_id": "bf11bb9c82ab4e2892814c4fea730b50",
+      "question_id": 18019,
+      "category": "summarization",
+      "word_count": 188,
+      "router_score": 0.5644,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8432,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "55e0a6c6b5014d3d99d340cb3db08d69",
+      "question_id": 17907,
+      "category": "summarization",
+      "word_count": 190,
+      "router_score": 0.6347,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8449,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "c6481eb7cad241958d24bd113c683f3a",
+      "question_id": 6149,
+      "category": "summarization",
+      "word_count": 191,
+      "router_score": 0.635,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8457,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "1d49e58f3be648be9d7bfb5e0a7d2c99",
+      "question_id": 18161,
+      "category": "summarization",
+      "word_count": 191,
+      "router_score": 0.6252,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8457,
+        "f_reason": 0.3568
+      }
+    },
+    {
+      "prompt_id": "735f79c6ca4545c68ffc15e67317fb13",
+      "question_id": 16530,
+      "category": "summarization",
+      "word_count": 200,
+      "router_score": 0.6167,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8531,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "077e47fba4234cc499e8f725b37f1206",
+      "question_id": 17314,
+      "category": "summarization",
+      "word_count": 202,
+      "router_score": 0.6381,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8547,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "151795c47e334adf84598e7a7df13257",
+      "question_id": 25792,
+      "category": "summarization",
+      "word_count": 204,
+      "router_score": 0.6152,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8563,
+        "f_reason": 0.3021
+      }
+    },
+    {
+      "prompt_id": "8c297cd8127543a2a37e1c4755174a06",
+      "question_id": 18353,
+      "category": "summarization",
+      "word_count": 206,
+      "router_score": 0.6184,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8578,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "3bfdeeadeae44bb99de70ecdf003f65f",
+      "question_id": 13483,
+      "category": "summarization",
+      "word_count": 208,
+      "router_score": 0.5505,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8594,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "e344fa84e58e4334b38b7cc29436df99",
+      "question_id": 13490,
+      "category": "summarization",
+      "word_count": 208,
+      "router_score": 0.5505,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8594,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "9964e4766fb44fb88593a7d09153d6b4",
+      "question_id": 13492,
+      "category": "summarization",
+      "word_count": 208,
+      "router_score": 0.5505,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8594,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "47d2964fccb64e96a4440e08661d8e06",
+      "question_id": 7429,
+      "category": "summarization",
+      "word_count": 212,
+      "router_score": 0.603,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8624,
+        "f_reason": 0.2448
+      }
+    },
+    {
+      "prompt_id": "ab21da5438a94ab4a93d6ff0b66cf8b8",
+      "question_id": 106,
+      "category": "summarization",
+      "word_count": 220,
+      "router_score": 0.622,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8683,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "d1499a0d2b8342688baddce72d8cc87d",
+      "question_id": 1113,
+      "category": "summarization",
+      "word_count": 223,
+      "router_score": 0.574,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8705,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "df9ac14765c648ff937ce5fbb0d19852",
+      "question_id": 6007,
+      "category": "summarization",
+      "word_count": 227,
+      "router_score": 0.6238,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8734,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "2866d564b52342b592d4694737408363",
+      "question_id": 30400,
+      "category": "summarization",
+      "word_count": 228,
+      "router_score": 0.624,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8741,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "b2f38447fc6c4ac58fb4c5017e52b5a9",
+      "question_id": 1589,
+      "category": "summarization",
+      "word_count": 229,
+      "router_score": 0.6523,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8748,
+        "f_reason": 0.4245
+      }
+    },
+    {
+      "prompt_id": "a35d9cd594b24fbfaa2f8d0559bb9af8",
+      "question_id": 625,
+      "category": "summarization",
+      "word_count": 230,
+      "router_score": 0.5464,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8755,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "92ce67e3b94d4e8888f4b9df165146af",
+      "question_id": 15857,
+      "category": "summarization",
+      "word_count": 230,
+      "router_score": 0.6245,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8755,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "d4757900eaad454e8d93ddca8d0a819b",
+      "question_id": 13509,
+      "category": "summarization",
+      "word_count": 231,
+      "router_score": 0.5564,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8762,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "28e9df70e86d4fd6b539f7d0eabb7ed5",
+      "question_id": 13929,
+      "category": "summarization",
+      "word_count": 231,
+      "router_score": 0.5564,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8762,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "77342bafdd78420f99922a39a220fecc",
+      "question_id": 14306,
+      "category": "summarization",
+      "word_count": 234,
+      "router_score": 0.6255,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8782,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "e9eac9862d134a298b4de8c4dcb6dbfd",
+      "question_id": 13710,
+      "category": "summarization",
+      "word_count": 240,
+      "router_score": 0.6269,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8823,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "0a6c0c353dbf457897685c380971a16e",
+      "question_id": 13712,
+      "category": "summarization",
+      "word_count": 240,
+      "router_score": 0.6269,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8823,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "40424d8ec02645b59465fe7f4e5014bc",
+      "question_id": 13715,
+      "category": "summarization",
+      "word_count": 240,
+      "router_score": 0.6269,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8823,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "69f3397d26644046a01b4ff96a0f5f6c",
+      "question_id": 27454,
+      "category": "summarization",
+      "word_count": 240,
+      "router_score": 0.6478,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8823,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "1f8da42aedf748f1901a4d87c6d36ae8",
+      "question_id": 1213,
+      "category": "summarization",
+      "word_count": 243,
+      "router_score": 0.6276,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8843,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "fab77814fcab42299e4747f5db036fec",
+      "question_id": 6160,
+      "category": "summarization",
+      "word_count": 243,
+      "router_score": 0.5899,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8843,
+        "f_reason": 0.1615
+      }
+    },
+    {
+      "prompt_id": "7a363227835c47a2a89b89dc909f14a2",
+      "question_id": 15820,
+      "category": "summarization",
+      "word_count": 243,
+      "router_score": 0.6485,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8843,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "49a55ab247674a998de8080ef42e011f",
+      "question_id": 15824,
+      "category": "summarization",
+      "word_count": 243,
+      "router_score": 0.6485,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8843,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "bf2dcc56c3154ebb976d8a35acedbe2f",
+      "question_id": 15825,
+      "category": "summarization",
+      "word_count": 243,
+      "router_score": 0.6485,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8843,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "cc39830f9c0f48599517aec73498c891",
+      "question_id": 15829,
+      "category": "summarization",
+      "word_count": 243,
+      "router_score": 0.6485,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8843,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "49888eb3c6074b33885f03c1e3e56656",
+      "question_id": 14403,
+      "category": "summarization",
+      "word_count": 244,
+      "router_score": 0.6279,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8849,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "eddcaf78244341f484c8e0af06da6cdb",
+      "question_id": 13688,
+      "category": "summarization",
+      "word_count": 245,
+      "router_score": 0.6281,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8856,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "9169dac428964e81825d4cb9214f5b12",
+      "question_id": 190,
+      "category": "summarization",
+      "word_count": 246,
+      "router_score": 0.6491,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8862,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "02fc0f1088664e20938240a045f9f0cf",
+      "question_id": 13703,
+      "category": "summarization",
+      "word_count": 246,
+      "router_score": 0.6283,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8862,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "ecae1823ca67459998b47d216a1734f5",
+      "question_id": 14468,
+      "category": "summarization",
+      "word_count": 246,
+      "router_score": 0.5795,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8862,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "ab1c6c1caebf4268b61ce131a4e7db2b",
+      "question_id": 6234,
+      "category": "summarization",
+      "word_count": 249,
+      "router_score": 0.629,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8882,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "df71e685bd2d4e208f9a970edf789461",
+      "question_id": 12932,
+      "category": "summarization",
+      "word_count": 249,
+      "router_score": 0.5704,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8882,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "f57d2a7660354e36a26648399c0379fd",
+      "question_id": 9591,
+      "category": "summarization",
+      "word_count": 252,
+      "router_score": 0.5821,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8901,
+        "f_reason": 0.1224
+      }
+    },
+    {
+      "prompt_id": "750f39b318c944d986212ab749d3d9cd",
+      "question_id": 3715,
+      "category": "summarization",
+      "word_count": 253,
+      "router_score": 0.6299,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8907,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "51897677932b4fc39cadafdbf687940d",
+      "question_id": 8203,
+      "category": "summarization",
+      "word_count": 253,
+      "router_score": 0.6507,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8907,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "f17c06ddbf63476793267db5b7d1ecf8",
+      "question_id": 11667,
+      "category": "summarization",
+      "word_count": 253,
+      "router_score": 0.6299,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8907,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "608dcd3e723e4554a94053e68b95bab8",
+      "question_id": 11672,
+      "category": "summarization",
+      "word_count": 253,
+      "router_score": 0.6299,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8907,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "ff68ee8c5c7a4b1f837b62b350bc8f38",
+      "question_id": 11674,
+      "category": "summarization",
+      "word_count": 253,
+      "router_score": 0.6299,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8907,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "14358bab9fb946bf8193e11777e29135",
+      "question_id": 14465,
+      "category": "summarization",
+      "word_count": 254,
+      "router_score": 0.5813,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8914,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "e51c75cfd5504baeb6a0c940bda43919",
+      "question_id": 1653,
+      "category": "summarization",
+      "word_count": 258,
+      "router_score": 0.6883,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8939,
+        "f_reason": 0.5417
+      }
+    },
+    {
+      "prompt_id": "6996209fd8f44334b450506cbf4d4b4e",
+      "question_id": 26646,
+      "category": "summarization",
+      "word_count": 258,
+      "router_score": 0.6577,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8939,
+        "f_reason": 0.4193
+      }
+    },
+    {
+      "prompt_id": "9a4648666a3b4875bdfa15e8b0106e62",
+      "question_id": 13644,
+      "category": "summarization",
+      "word_count": 266,
+      "router_score": 0.6327,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.8988,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "50ba6efee2c14949b45123b1bd740e13",
+      "question_id": 31501,
+      "category": "summarization",
+      "word_count": 269,
+      "router_score": 0.5943,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9006,
+        "f_reason": 0.1562
+      }
+    },
+    {
+      "prompt_id": "8b2905c7718d4de3bb7e8a10a44213f6",
+      "question_id": 18650,
+      "category": "summarization",
+      "word_count": 279,
+      "router_score": 0.6184,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9064,
+        "f_reason": 0.2448
+      }
+    },
+    {
+      "prompt_id": "fc55a06594f946078439861497b22c35",
+      "question_id": 15271,
+      "category": "summarization",
+      "word_count": 285,
+      "router_score": 0.5682,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9098,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "29366511ab664dcdb659dfd41c32d772",
+      "question_id": 9017,
+      "category": "summarization",
+      "word_count": 293,
+      "router_score": 0.6186,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9143,
+        "f_reason": 0.2344
+      }
+    },
+    {
+      "prompt_id": "32a5843d698440999c11098475e432a0",
+      "question_id": 6902,
+      "category": "summarization",
+      "word_count": 295,
+      "router_score": 0.5604,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9153,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "b061976aa73b4d4d8fdd5325cc69ed43",
+      "question_id": 19621,
+      "category": "summarization",
+      "word_count": 295,
+      "router_score": 0.6593,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9153,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "5aac9631c7194dc8baeb7d95870e3f27",
+      "question_id": 19623,
+      "category": "summarization",
+      "word_count": 295,
+      "router_score": 0.6593,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9153,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "7f1516b131984764864680a4e4d7ab17",
+      "question_id": 27253,
+      "category": "summarization",
+      "word_count": 295,
+      "router_score": 0.6958,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9153,
+        "f_reason": 0.5417
+      }
+    },
+    {
+      "prompt_id": "0836d670e1024cd0ac10f28334c284b5",
+      "question_id": 29414,
+      "category": "summarization",
+      "word_count": 295,
+      "router_score": 0.6385,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9153,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "a79d4990d8614c78a42019264c43413f",
+      "question_id": 13185,
+      "category": "summarization",
+      "word_count": 297,
+      "router_score": 0.661,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9164,
+        "f_reason": 0.401
+      }
+    },
+    {
+      "prompt_id": "87a9e10d4cca4efcba6cee46d98e2bdf",
+      "question_id": 19687,
+      "category": "summarization",
+      "word_count": 297,
+      "router_score": 0.6805,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9164,
+        "f_reason": 0.4792
+      }
+    },
+    {
+      "prompt_id": "fe3fd5ec6c924824ad86d716a9b3fb45",
+      "question_id": 14964,
+      "category": "summarization",
+      "word_count": 303,
+      "router_score": 0.6817,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9196,
+        "f_reason": 0.4792
+      }
+    },
+    {
+      "prompt_id": "d3ff8705a7704f3a974caf85f2f57068",
+      "question_id": 31547,
+      "category": "summarization",
+      "word_count": 310,
+      "router_score": 0.6341,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9233,
+        "f_reason": 0.2839
+      }
+    },
+    {
+      "prompt_id": "5fdc64331d8a48df94c161ddce3f3c14",
+      "question_id": 14966,
+      "category": "summarization",
+      "word_count": 313,
+      "router_score": 0.6054,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9248,
+        "f_reason": 0.1667
+      }
+    },
+    {
+      "prompt_id": "d272c210ccd44a6097a1fdf29cbb9d49",
+      "question_id": 14971,
+      "category": "summarization",
+      "word_count": 313,
+      "router_score": 0.6054,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9248,
+        "f_reason": 0.1667
+      }
+    },
+    {
+      "prompt_id": "25a86cef0ce74758bb275863ceaa43d1",
+      "question_id": 17423,
+      "category": "summarization",
+      "word_count": 317,
+      "router_score": 0.6998,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9269,
+        "f_reason": 0.5417
+      }
+    },
+    {
+      "prompt_id": "6ca5f8b265c64f2c91984cf6e4b64fe4",
+      "question_id": 17425,
+      "category": "summarization",
+      "word_count": 317,
+      "router_score": 0.6998,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9269,
+        "f_reason": 0.5417
+      }
+    },
+    {
+      "prompt_id": "728bc4d47d594c55b07941c70bbc6a50",
+      "question_id": 17434,
+      "category": "summarization",
+      "word_count": 317,
+      "router_score": 0.6998,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9269,
+        "f_reason": 0.5417
+      }
+    },
+    {
+      "prompt_id": "bd6c8726c01d4757832782b7511b6e05",
+      "question_id": 25553,
+      "category": "summarization",
+      "word_count": 327,
+      "router_score": 0.6443,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9319,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "db922ddc727741b68e2997b9f0809c05",
+      "question_id": 30534,
+      "category": "summarization",
+      "word_count": 332,
+      "router_score": 0.666,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9343,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "c3cde35b357b439faf55b5a2a18b8eda",
+      "question_id": 30536,
+      "category": "summarization",
+      "word_count": 332,
+      "router_score": 0.666,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9343,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "d1e9860100dc400f8ab846a06d884749",
+      "question_id": 30538,
+      "category": "summarization",
+      "word_count": 332,
+      "router_score": 0.666,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9343,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "50278e00248b4d78bcc19706fc081717",
+      "question_id": 30540,
+      "category": "summarization",
+      "word_count": 332,
+      "router_score": 0.666,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9343,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "d5529087941144818f95fef0e754304f",
+      "question_id": 30543,
+      "category": "summarization",
+      "word_count": 332,
+      "router_score": 0.666,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9343,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "3124d19ebf9a4d6db658184cdce4a714",
+      "question_id": 30551,
+      "category": "summarization",
+      "word_count": 332,
+      "router_score": 0.666,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9343,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "1d924adca0d541ec923be48b23154b0d",
+      "question_id": 30552,
+      "category": "summarization",
+      "word_count": 332,
+      "router_score": 0.666,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9343,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "b4dd0c94b19849ee86ff0e102abe42f1",
+      "question_id": 30554,
+      "category": "summarization",
+      "word_count": 332,
+      "router_score": 0.666,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9343,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "783dfbe043784d2e891a4c92d6ecef17",
+      "question_id": 26333,
+      "category": "summarization",
+      "word_count": 334,
+      "router_score": 0.6455,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9353,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "3fb9ee274b3a48b696f263191b7e927a",
+      "question_id": 19829,
+      "category": "summarization",
+      "word_count": 352,
+      "router_score": 0.7474,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9437,
+        "f_reason": 0.7083
+      }
+    },
+    {
+      "prompt_id": "e9e02ac1385c4476a8573224d1754e6a",
+      "question_id": 32367,
+      "category": "summarization",
+      "word_count": 353,
+      "router_score": 0.685,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9441,
+        "f_reason": 0.4583
+      }
+    },
+    {
+      "prompt_id": "afa69f88459c43d2b93a02a06337801f",
+      "question_id": 25880,
+      "category": "summarization",
+      "word_count": 364,
+      "router_score": 0.6868,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9491,
+        "f_reason": 0.4583
+      }
+    },
+    {
+      "prompt_id": "78bb0a9d86e542e68efc093ac46735b3",
+      "question_id": 17768,
+      "category": "summarization",
+      "word_count": 378,
+      "router_score": 0.6889,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9551,
+        "f_reason": 0.4583
+      }
+    },
+    {
+      "prompt_id": "2234a8b05ccd42ac84c48d2a671b7781",
+      "question_id": 29951,
+      "category": "summarization",
+      "word_count": 389,
+      "router_score": 0.615,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9597,
+        "f_reason": 0.1562
+      }
+    },
+    {
+      "prompt_id": "5b42913fc01940a9b00c7d04b5b668ea",
+      "question_id": 32111,
+      "category": "summarization",
+      "word_count": 391,
+      "router_score": 0.6543,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9605,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "18e13cc3834d49658434c3bef7d86242",
+      "question_id": 22071,
+      "category": "summarization",
+      "word_count": 401,
+      "router_score": 0.6766,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9646,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "1ccdb20248cd4a148478f1e4389ec173",
+      "question_id": 28869,
+      "category": "summarization",
+      "word_count": 414,
+      "router_score": 0.6491,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9697,
+        "f_reason": 0.2786
+      }
+    },
+    {
+      "prompt_id": "db4ebd983cd84d70a83b4c38e58c3dd9",
+      "question_id": 25155,
+      "category": "summarization",
+      "word_count": 415,
+      "router_score": 0.6577,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9701,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "7a46d2a9e7604bbfa3bb8d3fc0a43b39",
+      "question_id": 25156,
+      "category": "summarization",
+      "word_count": 415,
+      "router_score": 0.6577,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9701,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "e1ab84cfeca345018dd8833944932036",
+      "question_id": 32035,
+      "category": "summarization",
+      "word_count": 424,
+      "router_score": 0.6797,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9735,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "c9662ac0312941fcae61a6ca0e2136ad",
+      "question_id": 28069,
+      "category": "summarization",
+      "word_count": 434,
+      "router_score": 0.6602,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9773,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "629593bbb1aa433e9a24419c69a0925f",
+      "question_id": 20002,
+      "category": "summarization",
+      "word_count": 436,
+      "router_score": 0.6813,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.978,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "a2a116ea80c54636b891bb3689ed1a6d",
+      "question_id": 20005,
+      "category": "summarization",
+      "word_count": 437,
+      "router_score": 0.6814,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9784,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "13e2535a09ae4d7d8eaf5b48bace5246",
+      "question_id": 25784,
+      "category": "summarization",
+      "word_count": 455,
+      "router_score": 0.7045,
+      "features": {
+        "f_cat": 0.6,
+        "f_len": 0.9849,
+        "f_reason": 0.4792
+      }
+    },
+    {
+      "prompt_id": "8ea4c640c91b4d3584f20b693686eeb8",
+      "question_id": 17,
+      "category": "reasoning_math",
+      "word_count": 36,
+      "router_score": 0.5526,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5809,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "fabaefca92e342b497fd64955850f757",
+      "question_id": 159,
+      "category": "reasoning_math",
+      "word_count": 6,
+      "router_score": 0.4758,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.313,
+        "f_reason": 0.1849
+      }
+    },
+    {
+      "prompt_id": "a0a4f2fed0e749c5929c957c11f0163f",
+      "question_id": 211,
+      "category": "reasoning_math",
+      "word_count": 5,
+      "router_score": 0.4502,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.2882,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "5e3d7d6f3b81462ab09c3a83b8109856",
+      "question_id": 255,
+      "category": "reasoning_math",
+      "word_count": 44,
+      "router_score": 0.5903,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.6123,
+        "f_reason": 0.224
+      }
+    },
+    {
+      "prompt_id": "c9a7b861e8fd4f8c86803c1dd1cc677d",
+      "question_id": 392,
+      "category": "reasoning_math",
+      "word_count": 15,
+      "router_score": 0.5054,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.446,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "851f17192d1f48c4b9ae6a510907e44d",
+      "question_id": 407,
+      "category": "reasoning_math",
+      "word_count": 113,
+      "router_score": 0.6856,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.7619,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "27ab7144144e4101a5da5bc734104af2",
+      "question_id": 412,
+      "category": "reasoning_math",
+      "word_count": 113,
+      "router_score": 0.6856,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.7619,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "197759910f8d4b56b4100e2f9fc00492",
+      "question_id": 428,
+      "category": "reasoning_math",
+      "word_count": 11,
+      "router_score": 0.5061,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.3997,
+        "f_reason": 0.1849
+      }
+    },
+    {
+      "prompt_id": "2a84bc80cb9b4991a06e1c8e20bc8e7b",
+      "question_id": 483,
+      "category": "reasoning_math",
+      "word_count": 13,
+      "router_score": 0.5076,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4245,
+        "f_reason": 0.1562
+      }
+    },
+    {
+      "prompt_id": "61320a80c6e149559d74b4de88b6233a",
+      "question_id": 571,
+      "category": "reasoning_math",
+      "word_count": 224,
+      "router_score": 0.7603,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8712,
+        "f_reason": 0.5417
+      }
+    },
+    {
+      "prompt_id": "c4238171c0184503ba6030c57e1341b5",
+      "question_id": 669,
+      "category": "reasoning_math",
+      "word_count": 56,
+      "router_score": 0.6258,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.6504,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "d6af0c122bc14250ac93f3ad2d641be9",
+      "question_id": 751,
+      "category": "reasoning_math",
+      "word_count": 8,
+      "router_score": 0.5121,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.3534,
+        "f_reason": 0.2734
+      }
+    },
+    {
+      "prompt_id": "3bfdba5b385c470691438be7d6917ec1",
+      "question_id": 815,
+      "category": "reasoning_math",
+      "word_count": 245,
+      "router_score": 0.7497,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8856,
+        "f_reason": 0.4792
+      }
+    },
+    {
+      "prompt_id": "69500d304aca404188630bae2da9f8c7",
+      "question_id": 893,
+      "category": "reasoning_math",
+      "word_count": 6,
+      "router_score": 0.5051,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.313,
+        "f_reason": 0.3021
+      }
+    },
+    {
+      "prompt_id": "b0f4b752175746c1aabfefc1c2dbd1b7",
+      "question_id": 907,
+      "category": "reasoning_math",
+      "word_count": 13,
+      "router_score": 0.5076,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4245,
+        "f_reason": 0.1562
+      }
+    },
+    {
+      "prompt_id": "075b1dc948c445d6a8267f40a607b051",
+      "question_id": 973,
+      "category": "reasoning_math",
+      "word_count": 240,
+      "router_score": 0.6789,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8823,
+        "f_reason": 0.2005
+      }
+    },
+    {
+      "prompt_id": "31b92ab510b84231a234ce384ea4fc83",
+      "question_id": 978,
+      "category": "reasoning_math",
+      "word_count": 233,
+      "router_score": 0.6773,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8775,
+        "f_reason": 0.2005
+      }
+    },
+    {
+      "prompt_id": "1cf9dc61645d4cd49558b3960e418673",
+      "question_id": 996,
+      "category": "reasoning_math",
+      "word_count": 18,
+      "router_score": 0.5222,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4736,
+        "f_reason": 0.1458
+      }
+    },
+    {
+      "prompt_id": "97ec5b5740b24a758692253107de2b86",
+      "question_id": 1061,
+      "category": "reasoning_math",
+      "word_count": 148,
+      "router_score": 0.6799,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8049,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "da4ed648ff784df1a6238a9e5a8fe0b4",
+      "question_id": 1224,
+      "category": "reasoning_math",
+      "word_count": 18,
+      "router_score": 0.5418,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4736,
+        "f_reason": 0.224
+      }
+    },
+    {
+      "prompt_id": "688386f9776e4aeda7b0ef5fe7fde67d",
+      "question_id": 1255,
+      "category": "reasoning_math",
+      "word_count": 67,
+      "router_score": 0.5966,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.6787,
+        "f_reason": 0.1562
+      }
+    },
+    {
+      "prompt_id": "b0eae207041646e18155271d8ae37190",
+      "question_id": 1441,
+      "category": "reasoning_math",
+      "word_count": 11,
+      "router_score": 0.4697,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.3997,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "0ac617966f5d48b9b7a4af63e59e847e",
+      "question_id": 1446,
+      "category": "reasoning_math",
+      "word_count": 4,
+      "router_score": 0.5154,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.2589,
+        "f_reason": 0.4193
+      }
+    },
+    {
+      "prompt_id": "a4488e16004b47bf8b589300037b930c",
+      "question_id": 1449,
+      "category": "reasoning_math",
+      "word_count": 4,
+      "router_score": 0.4959,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.2589,
+        "f_reason": 0.3411
+      }
+    },
+    {
+      "prompt_id": "d22d8d3423c841b2be7815572eb2508d",
+      "question_id": 1452,
+      "category": "reasoning_math",
+      "word_count": 4,
+      "router_score": 0.4959,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.2589,
+        "f_reason": 0.3411
+      }
+    },
+    {
+      "prompt_id": "c61afe92a1054213b0a2e5bca1aeca8b",
+      "question_id": 1464,
+      "category": "reasoning_math",
+      "word_count": 23,
+      "router_score": 0.5647,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5112,
+        "f_reason": 0.263
+      }
+    },
+    {
+      "prompt_id": "3440e38bebf84974860238a932207dc8",
+      "question_id": 1493,
+      "category": "reasoning_math",
+      "word_count": 7,
+      "router_score": 0.4859,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.3345,
+        "f_reason": 0.1953
+      }
+    },
+    {
+      "prompt_id": "b0eebcd40ce04118b808298175dd81fd",
+      "question_id": 1545,
+      "category": "reasoning_math",
+      "word_count": 74,
+      "router_score": 0.5995,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.6945,
+        "f_reason": 0.1458
+      }
+    },
+    {
+      "prompt_id": "28e6d2343f7f48ebac30f06041a653e5",
+      "question_id": 1639,
+      "category": "reasoning_math",
+      "word_count": 49,
+      "router_score": 0.606,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.6293,
+        "f_reason": 0.263
+      }
+    },
+    {
+      "prompt_id": "c021267e18234adaa9fb6ed473335dd2",
+      "question_id": 1795,
+      "category": "reasoning_math",
+      "word_count": 33,
+      "router_score": 0.5745,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5672,
+        "f_reason": 0.224
+      }
+    },
+    {
+      "prompt_id": "fc38932bb28042ab82ccbcc400afa011",
+      "question_id": 1800,
+      "category": "reasoning_math",
+      "word_count": 33,
+      "router_score": 0.5745,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5672,
+        "f_reason": 0.224
+      }
+    },
+    {
+      "prompt_id": "25d08f2448284af9acd628a387585618",
+      "question_id": 1902,
+      "category": "reasoning_math",
+      "word_count": 6,
+      "router_score": 0.4784,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.313,
+        "f_reason": 0.1953
+      }
+    },
+    {
+      "prompt_id": "af84ad882c5a4f7eb6049b7eb858acd0",
+      "question_id": 1944,
+      "category": "reasoning_math",
+      "word_count": 18,
+      "router_score": 0.5418,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4736,
+        "f_reason": 0.224
+      }
+    },
+    {
+      "prompt_id": "b40e4726d8f84fe1aa5f81ff232b3af0",
+      "question_id": 1962,
+      "category": "reasoning_math",
+      "word_count": 20,
+      "router_score": 0.5376,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4897,
+        "f_reason": 0.1849
+      }
+    },
+    {
+      "prompt_id": "3697e534bec742aeb4085aabca2d69c2",
+      "question_id": 2091,
+      "category": "reasoning_math",
+      "word_count": 22,
+      "router_score": 0.5857,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5044,
+        "f_reason": 0.3568
+      }
+    },
+    {
+      "prompt_id": "c6c546ed752146879125fe253a17cf60",
+      "question_id": 2100,
+      "category": "reasoning_math",
+      "word_count": 22,
+      "router_score": 0.5857,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5044,
+        "f_reason": 0.3568
+      }
+    },
+    {
+      "prompt_id": "e96f6248a068417787d6d8a77325c5a0",
+      "question_id": 2257,
+      "category": "reasoning_math",
+      "word_count": 19,
+      "router_score": 0.5544,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4819,
+        "f_reason": 0.263
+      }
+    },
+    {
+      "prompt_id": "a5a916a1797144ca964d481d8fd5f18a",
+      "question_id": 2259,
+      "category": "reasoning_math",
+      "word_count": 19,
+      "router_score": 0.5544,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4819,
+        "f_reason": 0.263
+      }
+    },
+    {
+      "prompt_id": "d581cd56a0d94d24ab395feb92f8dd1b",
+      "question_id": 2338,
+      "category": "reasoning_math",
+      "word_count": 4,
+      "router_score": 0.4861,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.2589,
+        "f_reason": 0.3021
+      }
+    },
+    {
+      "prompt_id": "6af914c39efc4d7dacd01a208a1bf8c1",
+      "question_id": 2340,
+      "category": "reasoning_math",
+      "word_count": 4,
+      "router_score": 0.4861,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.2589,
+        "f_reason": 0.3021
+      }
+    },
+    {
+      "prompt_id": "5ee8b9c15b474f3386f126ddb3f6eece",
+      "question_id": 2398,
+      "category": "reasoning_math",
+      "word_count": 197,
+      "router_score": 0.7167,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8507,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "d4066a286c724e43a73a6b251dae1951",
+      "question_id": 2431,
+      "category": "reasoning_math",
+      "word_count": 19,
+      "router_score": 0.5544,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4819,
+        "f_reason": 0.263
+      }
+    },
+    {
+      "prompt_id": "2ba2c817597e462daaf3b658021c034e",
+      "question_id": 2433,
+      "category": "reasoning_math",
+      "word_count": 19,
+      "router_score": 0.5544,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4819,
+        "f_reason": 0.263
+      }
+    },
+    {
+      "prompt_id": "a72eea2623904220a70284ab6beeef74",
+      "question_id": 2435,
+      "category": "reasoning_math",
+      "word_count": 19,
+      "router_score": 0.5544,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4819,
+        "f_reason": 0.263
+      }
+    },
+    {
+      "prompt_id": "cfa7013d4dca4451a0a8098aa0d5f29d",
+      "question_id": 2542,
+      "category": "reasoning_math",
+      "word_count": 4,
+      "router_score": 0.4861,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.2589,
+        "f_reason": 0.3021
+      }
+    },
+    {
+      "prompt_id": "df6ef7ec574040ddb48dd264c56b254d",
+      "question_id": 2576,
+      "category": "reasoning_math",
+      "word_count": 18,
+      "router_score": 0.5418,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4736,
+        "f_reason": 0.224
+      }
+    },
+    {
+      "prompt_id": "c7d6d5c560d24beaa76d1c3a3c94c987",
+      "question_id": 2729,
+      "category": "reasoning_math",
+      "word_count": 35,
+      "router_score": 0.5511,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5764,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "5271957f29ae49819bbe3794e4a7a932",
+      "question_id": 2758,
+      "category": "reasoning_math",
+      "word_count": 6,
+      "router_score": 0.4589,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.313,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "e1ad5d369f7e448c80c58b60ede268e9",
+      "question_id": 2770,
+      "category": "reasoning_math",
+      "word_count": 22,
+      "router_score": 0.5428,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5044,
+        "f_reason": 0.1849
+      }
+    },
+    {
+      "prompt_id": "c10505c898084955ad8da533824d00ad",
+      "question_id": 2773,
+      "category": "reasoning_math",
+      "word_count": 22,
+      "router_score": 0.5428,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5044,
+        "f_reason": 0.1849
+      }
+    },
+    {
+      "prompt_id": "c1317d1fef884a6cab276bc8add820d4",
+      "question_id": 2779,
+      "category": "reasoning_math",
+      "word_count": 11,
+      "router_score": 0.4964,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.3997,
+        "f_reason": 0.1458
+      }
+    },
+    {
+      "prompt_id": "9d19689e34c1437cbd7d5b78e13871a9",
+      "question_id": 2824,
+      "category": "reasoning_math",
+      "word_count": 11,
+      "router_score": 0.5061,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.3997,
+        "f_reason": 0.1849
+      }
+    },
+    {
+      "prompt_id": "5f71f0abdc3f450b9448441a2a61d55b",
+      "question_id": 2908,
+      "category": "reasoning_math",
+      "word_count": 8,
+      "router_score": 0.473,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.3534,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "7be9d5d3a44c40ec94cf8511d83decd2",
+      "question_id": 2995,
+      "category": "reasoning_math",
+      "word_count": 23,
+      "router_score": 0.5478,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5112,
+        "f_reason": 0.1953
+      }
+    },
+    {
+      "prompt_id": "264f386cb546428096af9c764e33e476",
+      "question_id": 3054,
+      "category": "reasoning_math",
+      "word_count": 241,
+      "router_score": 0.6486,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8829,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "157dbb62a066466bbc53dd9c1ba34d6a",
+      "question_id": 3122,
+      "category": "reasoning_math",
+      "word_count": 4,
+      "router_score": 0.4959,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.2589,
+        "f_reason": 0.3411
+      }
+    },
+    {
+      "prompt_id": "1ef9084e480b4f5ca9552f20745b588d",
+      "question_id": 3130,
+      "category": "reasoning_math",
+      "word_count": 51,
+      "router_score": 0.657,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.6356,
+        "f_reason": 0.4583
+      }
+    },
+    {
+      "prompt_id": "dbb2dbfba9694a5db825d06d0031909b",
+      "question_id": 3185,
+      "category": "reasoning_math",
+      "word_count": 136,
+      "router_score": 0.6751,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.7914,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "39aa40e3716240da8dc4b1e504fb4d68",
+      "question_id": 3207,
+      "category": "reasoning_math",
+      "word_count": 18,
+      "router_score": 0.5151,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4736,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "ef6105f0d5e4439893c706ca1089ee55",
+      "question_id": 3284,
+      "category": "reasoning_math",
+      "word_count": 7,
+      "router_score": 0.4735,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.3345,
+        "f_reason": 0.1458
+      }
+    },
+    {
+      "prompt_id": "cdc0a3326fd647d9a5c0d2f4a9e037ab",
+      "question_id": 3300,
+      "category": "reasoning_math",
+      "word_count": 31,
+      "router_score": 0.5516,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5575,
+        "f_reason": 0.1458
+      }
+    },
+    {
+      "prompt_id": "c05424998761476da41c05e1b34ca9b9",
+      "question_id": 3305,
+      "category": "reasoning_math",
+      "word_count": 38,
+      "router_score": 0.5627,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5893,
+        "f_reason": 0.1458
+      }
+    },
+    {
+      "prompt_id": "8905ea3ed64446419d3cdbc1dc444790",
+      "question_id": 3567,
+      "category": "reasoning_math",
+      "word_count": 19,
+      "router_score": 0.5544,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4819,
+        "f_reason": 0.263
+      }
+    },
+    {
+      "prompt_id": "8938d945856d47b3b363040652ad3efc",
+      "question_id": 3650,
+      "category": "reasoning_math",
+      "word_count": 32,
+      "router_score": 0.6106,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5624,
+        "f_reason": 0.375
+      }
+    },
+    {
+      "prompt_id": "b629d4247c6a49e4977954a04b9c00ec",
+      "question_id": 3666,
+      "category": "reasoning_math",
+      "word_count": 22,
+      "router_score": 0.5623,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5044,
+        "f_reason": 0.263
+      }
+    },
+    {
+      "prompt_id": "c8bb690d760f43cfbd9a75cd6f727d59",
+      "question_id": 3691,
+      "category": "reasoning_math",
+      "word_count": 7,
+      "router_score": 0.4735,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.3345,
+        "f_reason": 0.1458
+      }
+    },
+    {
+      "prompt_id": "b3d295242acf403da6d7af46d9cd5579",
+      "question_id": 3809,
+      "category": "reasoning_math",
+      "word_count": 171,
+      "router_score": 0.6879,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.828,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "d280e27e41654c589ad6781a248d5fc4",
+      "question_id": 3822,
+      "category": "reasoning_math",
+      "word_count": 6,
+      "router_score": 0.466,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.313,
+        "f_reason": 0.1458
+      }
+    },
+    {
+      "prompt_id": "170faa68cc6d4517a59a8d190e8f46c2",
+      "question_id": 3890,
+      "category": "reasoning_math",
+      "word_count": 10,
+      "router_score": 0.5403,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.3857,
+        "f_reason": 0.3411
+      }
+    },
+    {
+      "prompt_id": "dc4a37f5afc840a9a27055c9d275b0c5",
+      "question_id": 3951,
+      "category": "reasoning_math",
+      "word_count": 97,
+      "router_score": 0.6927,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.7375,
+        "f_reason": 0.4583
+      }
+    },
+    {
+      "prompt_id": "c4dc3e3004a84c76b37c64acfaf14229",
+      "question_id": 3957,
+      "category": "reasoning_math",
+      "word_count": 186,
+      "router_score": 0.7291,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8415,
+        "f_reason": 0.4583
+      }
+    },
+    {
+      "prompt_id": "e4c6cbaafe734155bae312aafa646e5f",
+      "question_id": 3961,
+      "category": "reasoning_math",
+      "word_count": 186,
+      "router_score": 0.7291,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8415,
+        "f_reason": 0.4583
+      }
+    },
+    {
+      "prompt_id": "d25fe47b0dcd40d685ab71f9a2aa54e0",
+      "question_id": 3971,
+      "category": "reasoning_math",
+      "word_count": 3,
+      "router_score": 0.4469,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.223,
+        "f_reason": 0.1953
+      }
+    },
+    {
+      "prompt_id": "61a3c8d5942245e4b52bc12cd32e8bf8",
+      "question_id": 4028,
+      "category": "reasoning_math",
+      "word_count": 60,
+      "router_score": 0.6172,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.6613,
+        "f_reason": 0.263
+      }
+    },
+    {
+      "prompt_id": "c8627f4c136e4d90a80150fb4df10689",
+      "question_id": 4065,
+      "category": "reasoning_math",
+      "word_count": 21,
+      "router_score": 0.5598,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4972,
+        "f_reason": 0.263
+      }
+    },
+    {
+      "prompt_id": "2763c5e9a5c8431b9d70229fa862f4cb",
+      "question_id": 4206,
+      "category": "reasoning_math",
+      "word_count": 10,
+      "router_score": 0.4843,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.3857,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "760d3cc13971468abef48844146379b2",
+      "question_id": 4317,
+      "category": "reasoning_math",
+      "word_count": 5,
+      "router_score": 0.4502,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.2882,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "dcec3c5d5dd643fdbd0b0d71dfe119aa",
+      "question_id": 4360,
+      "category": "reasoning_math",
+      "word_count": 5,
+      "router_score": 0.4502,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.2882,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "e41a0846a6234c44a87a0f10ea32a745",
+      "question_id": 4448,
+      "category": "reasoning_math",
+      "word_count": 17,
+      "router_score": 0.5387,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4649,
+        "f_reason": 0.224
+      }
+    },
+    {
+      "prompt_id": "e38a1594486c42dfaf63b00603cf31cd",
+      "question_id": 4534,
+      "category": "reasoning_math",
+      "word_count": 5,
+      "router_score": 0.4502,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.2882,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "7834d2121fe14f32bdcdf79f5fd79eb5",
+      "question_id": 4614,
+      "category": "reasoning_math",
+      "word_count": 224,
+      "router_score": 0.7311,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8712,
+        "f_reason": 0.4245
+      }
+    },
+    {
+      "prompt_id": "e39ad23e053e48a5a4958a68a271ab15",
+      "question_id": 4618,
+      "category": "reasoning_math",
+      "word_count": 224,
+      "router_score": 0.7311,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8712,
+        "f_reason": 0.4245
+      }
+    },
+    {
+      "prompt_id": "2d6d9af1f7994dc287615bcd16ce9afb",
+      "question_id": 4624,
+      "category": "reasoning_math",
+      "word_count": 224,
+      "router_score": 0.7311,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8712,
+        "f_reason": 0.4245
+      }
+    },
+    {
+      "prompt_id": "a0f62e7ded484dc3b6af75d05786940d",
+      "question_id": 4631,
+      "category": "reasoning_math",
+      "word_count": 224,
+      "router_score": 0.7311,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8712,
+        "f_reason": 0.4245
+      }
+    },
+    {
+      "prompt_id": "6cff64eae55f4e259aa07e20b4efbf3e",
+      "question_id": 4636,
+      "category": "reasoning_math",
+      "word_count": 224,
+      "router_score": 0.7311,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8712,
+        "f_reason": 0.4245
+      }
+    },
+    {
+      "prompt_id": "e8166cf78a7d43d2963b94478dae86f8",
+      "question_id": 4638,
+      "category": "reasoning_math",
+      "word_count": 224,
+      "router_score": 0.7311,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8712,
+        "f_reason": 0.4245
+      }
+    },
+    {
+      "prompt_id": "2f32853421b04c8d8d1c3ccb7c9ced61",
+      "question_id": 4642,
+      "category": "reasoning_math",
+      "word_count": 224,
+      "router_score": 0.7311,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8712,
+        "f_reason": 0.4245
+      }
+    },
+    {
+      "prompt_id": "c2351c8d80a248edb0b461184b409ccc",
+      "question_id": 4644,
+      "category": "reasoning_math",
+      "word_count": 224,
+      "router_score": 0.7311,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8712,
+        "f_reason": 0.4245
+      }
+    },
+    {
+      "prompt_id": "60f3c85575d94028a413ec35247ff483",
+      "question_id": 4648,
+      "category": "reasoning_math",
+      "word_count": 224,
+      "router_score": 0.7311,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8712,
+        "f_reason": 0.4245
+      }
+    },
+    {
+      "prompt_id": "ab3910cfa520480191139ea9ae88dbf9",
+      "question_id": 4652,
+      "category": "reasoning_math",
+      "word_count": 224,
+      "router_score": 0.7311,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8712,
+        "f_reason": 0.4245
+      }
+    },
+    {
+      "prompt_id": "56ffead097c74f718326a0d75b7aee14",
+      "question_id": 4655,
+      "category": "reasoning_math",
+      "word_count": 224,
+      "router_score": 0.7311,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8712,
+        "f_reason": 0.4245
+      }
+    },
+    {
+      "prompt_id": "2feb41c7d09149b985e18a726a2f6744",
+      "question_id": 4657,
+      "category": "reasoning_math",
+      "word_count": 224,
+      "router_score": 0.7311,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8712,
+        "f_reason": 0.4245
+      }
+    },
+    {
+      "prompt_id": "c6f1c8fbd1c74b7687baf9dca659cf06",
+      "question_id": 4694,
+      "category": "reasoning_math",
+      "word_count": 18,
+      "router_score": 0.5418,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4736,
+        "f_reason": 0.224
+      }
+    },
+    {
+      "prompt_id": "29e5414b27084895bff26b5cbf553933",
+      "question_id": 4722,
+      "category": "reasoning_math",
+      "word_count": 12,
+      "router_score": 0.5302,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4126,
+        "f_reason": 0.263
+      }
+    },
+    {
+      "prompt_id": "8dbe1942e8cb4b9cbab5cb0f4bcf7957",
+      "question_id": 4753,
+      "category": "reasoning_math",
+      "word_count": 95,
+      "router_score": 0.6551,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.7342,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "35e87fcfeddb4e368d1855de45b03f68",
+      "question_id": 4757,
+      "category": "reasoning_math",
+      "word_count": 28,
+      "router_score": 0.5656,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5417,
+        "f_reason": 0.224
+      }
+    },
+    {
+      "prompt_id": "4b969c46d5f04e6aada006cfe26d19e1",
+      "question_id": 4789,
+      "category": "reasoning_math",
+      "word_count": 6,
+      "router_score": 0.5246,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.313,
+        "f_reason": 0.3802
+      }
+    },
+    {
+      "prompt_id": "b880af732df44bffb350a08bc66c56ce",
+      "question_id": 4795,
+      "category": "reasoning_math",
+      "word_count": 194,
+      "router_score": 0.695,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8482,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "dab126648afc4ff1a53396f2e830a90d",
+      "question_id": 4819,
+      "category": "reasoning_math",
+      "word_count": 239,
+      "router_score": 0.7275,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8816,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "1df93ededac7450db904df531b27d985",
+      "question_id": 4925,
+      "category": "reasoning_math",
+      "word_count": 25,
+      "router_score": 0.5692,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5241,
+        "f_reason": 0.263
+      }
+    },
+    {
+      "prompt_id": "9a3b2e420605480d9d74ee392f370521",
+      "question_id": 4928,
+      "category": "reasoning_math",
+      "word_count": 42,
+      "router_score": 0.5975,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.605,
+        "f_reason": 0.263
+      }
+    },
+    {
+      "prompt_id": "c15a5a8fb9d249a1995d4be443d27856",
+      "question_id": 4970,
+      "category": "reasoning_math",
+      "word_count": 18,
+      "router_score": 0.5639,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4736,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "c016e3e772634db5bc4881d69132cba0",
+      "question_id": 4982,
+      "category": "reasoning_math",
+      "word_count": 21,
+      "router_score": 0.6451,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4972,
+        "f_reason": 0.6042
+      }
+    },
+    {
+      "prompt_id": "0b30f7c14ea04d9295c1503257d606ad",
+      "question_id": 5005,
+      "category": "reasoning_math",
+      "word_count": 140,
+      "router_score": 0.6767,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.7961,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "38f9a2a33d554377a653ba70b5b269f0",
+      "question_id": 5021,
+      "category": "reasoning_math",
+      "word_count": 26,
+      "router_score": 0.542,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5302,
+        "f_reason": 0.1458
+      }
+    },
+    {
+      "prompt_id": "c4de0974d3754ef8bf2e1dcc082e92bd",
+      "question_id": 5036,
+      "category": "reasoning_math",
+      "word_count": 72,
+      "router_score": 0.6566,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.6902,
+        "f_reason": 0.3802
+      }
+    },
+    {
+      "prompt_id": "a41e938fea7947a0a80d806764b8ed21",
+      "question_id": 5128,
+      "category": "reasoning_math",
+      "word_count": 37,
+      "router_score": 0.5639,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5851,
+        "f_reason": 0.1562
+      }
+    },
+    {
+      "prompt_id": "fc44949d9e1c420bafa20f03f6d25917",
+      "question_id": 5272,
+      "category": "reasoning_math",
+      "word_count": 3,
+      "router_score": 0.4762,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.223,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "cf1bf8dcffb44a54b572cd6f3a3dfdd3",
+      "question_id": 5278,
+      "category": "reasoning_math",
+      "word_count": 36,
+      "router_score": 0.5988,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5809,
+        "f_reason": 0.3021
+      }
+    },
+    {
+      "prompt_id": "b0ec1c3a7f084913be1d77d6659cc259",
+      "question_id": 5284,
+      "category": "reasoning_math",
+      "word_count": 36,
+      "router_score": 0.5988,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5809,
+        "f_reason": 0.3021
+      }
+    },
+    {
+      "prompt_id": "fa8f520a366e453696213057808413c8",
+      "question_id": 5314,
+      "category": "reasoning_math",
+      "word_count": 8,
+      "router_score": 0.5192,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.3534,
+        "f_reason": 0.3021
+      }
+    },
+    {
+      "prompt_id": "ffea599a700f411280aad786066ee6bd",
+      "question_id": 5395,
+      "category": "reasoning_math",
+      "word_count": 30,
+      "router_score": 0.5889,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5524,
+        "f_reason": 0.3021
+      }
+    },
+    {
+      "prompt_id": "7340066ff5054672a4af5631e89e3a8f",
+      "question_id": 5413,
+      "category": "reasoning_math",
+      "word_count": 38,
+      "router_score": 0.536,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5893,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "755cdbc98e2c44d98d7c4f41151787e7",
+      "question_id": 5444,
+      "category": "reasoning_math",
+      "word_count": 52,
+      "router_score": 0.58,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.6387,
+        "f_reason": 0.1458
+      }
+    },
+    {
+      "prompt_id": "5d18bf47013e4cb5a244e940cbe2436e",
+      "question_id": 5580,
+      "category": "reasoning_math",
+      "word_count": 243,
+      "router_score": 0.7441,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8843,
+        "f_reason": 0.4583
+      }
+    },
+    {
+      "prompt_id": "8e8411bdf016494b859e193c6a83edc8",
+      "question_id": 5597,
+      "category": "reasoning_math",
+      "word_count": 192,
+      "router_score": 0.7309,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.8466,
+        "f_reason": 0.4583
+      }
+    },
+    {
+      "prompt_id": "6ef7432a82454c5ba9b84c959f09657e",
+      "question_id": 5613,
+      "category": "reasoning_math",
+      "word_count": 35,
+      "router_score": 0.568,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.5764,
+        "f_reason": 0.1849
+      }
+    },
+    {
+      "prompt_id": "40cdffd5c60147b381245b7c6dd9a617",
+      "question_id": 5640,
+      "category": "reasoning_math",
+      "word_count": 5,
+      "router_score": 0.4573,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.2882,
+        "f_reason": 0.1458
+      }
+    },
+    {
+      "prompt_id": "846c5b371af94e99b596443e9d8e2f43",
+      "question_id": 5676,
+      "category": "reasoning_math",
+      "word_count": 9,
+      "router_score": 0.4959,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.3704,
+        "f_reason": 0.1849
+      }
+    },
+    {
+      "prompt_id": "a96f6d5c97b5488183420188b72f5d15",
+      "question_id": 5738,
+      "category": "reasoning_math",
+      "word_count": 101,
+      "router_score": 0.6585,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.744,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "f2be7acec71b4bcda9278443d411e7ab",
+      "question_id": 5747,
+      "category": "reasoning_math",
+      "word_count": 101,
+      "router_score": 0.6585,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.744,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "e1f9f6b76a3f43738075e9ae8407eb2c",
+      "question_id": 5750,
+      "category": "reasoning_math",
+      "word_count": 107,
+      "router_score": 0.6617,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.7532,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "2079531f479348fbb3072d65a2251ac5",
+      "question_id": 5755,
+      "category": "reasoning_math",
+      "word_count": 117,
+      "router_score": 0.6876,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.7674,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "c1528f302c2d4061b0766415f82ca238",
+      "question_id": 5799,
+      "category": "reasoning_math",
+      "word_count": 10,
+      "router_score": 0.4915,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.3857,
+        "f_reason": 0.1458
+      }
+    },
+    {
+      "prompt_id": "ade51ea50d124077991db8f7cbaec2d5",
+      "question_id": 5876,
+      "category": "reasoning_math",
+      "word_count": 18,
+      "router_score": 0.5587,
+      "features": {
+        "f_cat": 0.8,
+        "f_len": 0.4736,
+        "f_reason": 0.2917
+      }
+    },
+    {
+      "prompt_id": "5f3ce4c243b24f8b94fb94cc3d191937",
+      "question_id": 24,
+      "category": "creative",
+      "word_count": 5,
+      "router_score": 0.1809,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.2882,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "b0c343364ffb458083fed7b573bfce0f",
+      "question_id": 124,
+      "category": "creative",
+      "word_count": 138,
+      "router_score": 0.3871,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.7938,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "3af57ae6b73847d99150cd9b276ee41a",
+      "question_id": 150,
+      "category": "creative",
+      "word_count": 24,
+      "router_score": 0.2612,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5178,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "59caa41ea2d0442ba027576fbe4092ff",
+      "question_id": 209,
+      "category": "creative",
+      "word_count": 14,
+      "router_score": 0.2325,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4356,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "7acb1dcf32f5463f8d303d711b0e894f",
+      "question_id": 234,
+      "category": "creative",
+      "word_count": 6,
+      "router_score": 0.1896,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "900d3e49905645569396f9c3f458cdc2",
+      "question_id": 251,
+      "category": "creative",
+      "word_count": 46,
+      "router_score": 0.2968,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.6193,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "e935c338c845493bbaca306bab3f2530",
+      "question_id": 510,
+      "category": "creative",
+      "word_count": 27,
+      "router_score": 0.2774,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.536,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "2da00524a7a8403cb5a215cbe2db0380",
+      "question_id": 529,
+      "category": "creative",
+      "word_count": 9,
+      "router_score": 0.2096,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3704,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "b6797042eaa940199ee4eeebf9d24bfc",
+      "question_id": 639,
+      "category": "creative",
+      "word_count": 33,
+      "router_score": 0.2785,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5672,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "e6d45ead33114cca8ee3cfa028517eff",
+      "question_id": 774,
+      "category": "creative",
+      "word_count": 82,
+      "router_score": 0.3705,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.7108,
+        "f_reason": 0.1667
+      }
+    },
+    {
+      "prompt_id": "bac63f701b764fa8a7d7fd58dd767c4b",
+      "question_id": 809,
+      "category": "creative",
+      "word_count": 22,
+      "router_score": 0.2565,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5044,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "66e2a922eb4d44bcac3532042ff7439e",
+      "question_id": 822,
+      "category": "creative",
+      "word_count": 6,
+      "router_score": 0.1896,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "d3a62ba55b0a499aa20be5741336653f",
+      "question_id": 864,
+      "category": "creative",
+      "word_count": 8,
+      "router_score": 0.2037,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3534,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "6a2c3a67335b4988acdb1f57071b83bd",
+      "question_id": 882,
+      "category": "creative",
+      "word_count": 6,
+      "router_score": 0.1896,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "7096dab1fe604cf6b810cd320cea644e",
+      "question_id": 982,
+      "category": "creative",
+      "word_count": 74,
+      "router_score": 0.3986,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.6945,
+        "f_reason": 0.3021
+      }
+    },
+    {
+      "prompt_id": "294fc290858942608e9fdcd0939e7e94",
+      "question_id": 1003,
+      "category": "creative",
+      "word_count": 5,
+      "router_score": 0.1809,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.2882,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "39ed3d76ce214a38ab1f5826161f5c85",
+      "question_id": 1052,
+      "category": "creative",
+      "word_count": 23,
+      "router_score": 0.2589,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5112,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "d7b01dc51c384374b0c3b857e3821605",
+      "question_id": 1168,
+      "category": "creative",
+      "word_count": 6,
+      "router_score": 0.1896,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "a3cfecd42f5d430aa9a360e18ae647e0",
+      "question_id": 1221,
+      "category": "creative",
+      "word_count": 5,
+      "router_score": 0.1809,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.2882,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "d5e34a66299841e9946705103f9979fb",
+      "question_id": 1306,
+      "category": "creative",
+      "word_count": 62,
+      "router_score": 0.3133,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.6665,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "0538dd1b0560436ea32eec8bd2d78160",
+      "question_id": 1469,
+      "category": "creative",
+      "word_count": 67,
+      "router_score": 0.369,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.6787,
+        "f_reason": 0.2057
+      }
+    },
+    {
+      "prompt_id": "f6303b68644349a78c49afa01f9fc99d",
+      "question_id": 1512,
+      "category": "creative",
+      "word_count": 77,
+      "router_score": 0.3253,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.7008,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "25a012acf0e447acb9023c42ff91ac77",
+      "question_id": 1542,
+      "category": "creative",
+      "word_count": 34,
+      "router_score": 0.2802,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5719,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "1ff081dd98cf4796876aac1000178fdd",
+      "question_id": 1631,
+      "category": "creative",
+      "word_count": 46,
+      "router_score": 0.2968,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.6193,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "ccd54b6f9cf540f48e53711d07b3813b",
+      "question_id": 1665,
+      "category": "creative",
+      "word_count": 9,
+      "router_score": 0.2194,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3704,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "0c3292dcc2ef4445b52c634a840dbea2",
+      "question_id": 1822,
+      "category": "creative",
+      "word_count": 7,
+      "router_score": 0.1971,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "64c67be666bf4cdf87b9cd74bb220a50",
+      "question_id": 1827,
+      "category": "creative",
+      "word_count": 7,
+      "router_score": 0.1971,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "8d5c074dadb741a0a99d6085b5d28d36",
+      "question_id": 1885,
+      "category": "creative",
+      "word_count": 9,
+      "router_score": 0.2096,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3704,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "052cb5ad0752428fa3e240e0850683d4",
+      "question_id": 1922,
+      "category": "creative",
+      "word_count": 21,
+      "router_score": 0.254,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4972,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "4506a876418f4ffa89a6e397b2964da5",
+      "question_id": 1964,
+      "category": "creative",
+      "word_count": 18,
+      "router_score": 0.2555,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4736,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "0fd6cd54994c475eb7d1ae1ddb1f1aaf",
+      "question_id": 2056,
+      "category": "creative",
+      "word_count": 109,
+      "router_score": 0.4228,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.7561,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "2fffd35355bd49ffb1bf30954ca60340",
+      "question_id": 2081,
+      "category": "creative",
+      "word_count": 33,
+      "router_score": 0.2994,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5672,
+        "f_reason": 0.0833
+      }
+    },
+    {
+      "prompt_id": "84a830c3b2834966a0a5aae29384088a",
+      "question_id": 2196,
+      "category": "creative",
+      "word_count": 6,
+      "router_score": 0.1896,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "d95f4bd983e849b29a4f0b594680f409",
+      "question_id": 2265,
+      "category": "creative",
+      "word_count": 6,
+      "router_score": 0.1896,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "8c5a86e613b54bb8b19941fe55dd8fef",
+      "question_id": 2284,
+      "category": "creative",
+      "word_count": 11,
+      "router_score": 0.2199,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3997,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "1b0187a66ff543a184b52d3c5894c814",
+      "question_id": 2392,
+      "category": "creative",
+      "word_count": 32,
+      "router_score": 0.2769,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5624,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "1ca77fb0eaea434bb0d2ff9d135a2371",
+      "question_id": 2465,
+      "category": "creative",
+      "word_count": 19,
+      "router_score": 0.2584,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4819,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "18411d65d419456fabdce5a640668664",
+      "question_id": 2665,
+      "category": "creative",
+      "word_count": 171,
+      "router_score": 0.4089,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.828,
+        "f_reason": 0.1562
+      }
+    },
+    {
+      "prompt_id": "2fb73b1ebf004955ad851658ced84de1",
+      "question_id": 2871,
+      "category": "creative",
+      "word_count": 17,
+      "router_score": 0.2623,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4649,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "e5146a08b5974ac69186a8b27afdc500",
+      "question_id": 2956,
+      "category": "creative",
+      "word_count": 65,
+      "router_score": 0.3367,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.6739,
+        "f_reason": 0.0833
+      }
+    },
+    {
+      "prompt_id": "0742ff44888c4d7e96b5471cf4bb8c5b",
+      "question_id": 3030,
+      "category": "creative",
+      "word_count": 79,
+      "router_score": 0.4218,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.7049,
+        "f_reason": 0.3802
+      }
+    },
+    {
+      "prompt_id": "0e0eabb0978848dab12aa3d295f783d2",
+      "question_id": 3066,
+      "category": "creative",
+      "word_count": 6,
+      "router_score": 0.1896,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "e81bdd3c31f745e1aecb890386bfa09a",
+      "question_id": 3216,
+      "category": "creative",
+      "word_count": 21,
+      "router_score": 0.254,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4972,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "e55e8fb501bf417c840c15a8c0ec5f03",
+      "question_id": 3296,
+      "category": "creative",
+      "word_count": 14,
+      "router_score": 0.2422,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4356,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "c97ae795401d48eca657c4d0600bbc8c",
+      "question_id": 3319,
+      "category": "creative",
+      "word_count": 13,
+      "router_score": 0.2286,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4245,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "ef80442c0f314adcb4cedb22e78c7104",
+      "question_id": 3323,
+      "category": "creative",
+      "word_count": 13,
+      "router_score": 0.2286,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4245,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "e48f443570964b9bb3ea2665adb41385",
+      "question_id": 3357,
+      "category": "creative",
+      "word_count": 7,
+      "router_score": 0.1971,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3345,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "017f51f8662a426eac0788e08d4ee744",
+      "question_id": 3384,
+      "category": "creative",
+      "word_count": 10,
+      "router_score": 0.215,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3857,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "c700aa9975824520a8db7e42ada0a2b1",
+      "question_id": 3398,
+      "category": "creative",
+      "word_count": 158,
+      "router_score": 0.3849,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.8154,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "9b2c32f7d4664ddf9eef8d34ba45a553",
+      "question_id": 3441,
+      "category": "creative",
+      "word_count": 9,
+      "router_score": 0.2096,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3704,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "17fb552b5c98435fb06bf91c1c0507f9",
+      "question_id": 3579,
+      "category": "creative",
+      "word_count": 28,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5417,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "8e177dcdadf64d0094c0a4d242ef7533",
+      "question_id": 3618,
+      "category": "creative",
+      "word_count": 14,
+      "router_score": 0.2533,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4356,
+        "f_reason": 0.0833
+      }
+    },
+    {
+      "prompt_id": "7afaaf3d46d04c1d8e1775ab4f6d9db0",
+      "question_id": 3726,
+      "category": "creative",
+      "word_count": 27,
+      "router_score": 0.2676,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.536,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "e324d1c2fc9a4b21827561f0595584dc",
+      "question_id": 3729,
+      "category": "creative",
+      "word_count": 68,
+      "router_score": 0.3965,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.6811,
+        "f_reason": 0.3125
+      }
+    },
+    {
+      "prompt_id": "c8bf6044daa143b0a5fd9b7d76791587",
+      "question_id": 3749,
+      "category": "creative",
+      "word_count": 6,
+      "router_score": 0.1896,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.313,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "ec52985189a1400aacc9ed1673c458b9",
+      "question_id": 3768,
+      "category": "creative",
+      "word_count": 21,
+      "router_score": 0.254,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4972,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "cdddb7de855a480c85f22983fbcb70bc",
+      "question_id": 3787,
+      "category": "creative",
+      "word_count": 9,
+      "router_score": 0.2096,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3704,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "6148fb014115492d8c7da3f3ede4c8c0",
+      "question_id": 3805,
+      "category": "creative",
+      "word_count": 58,
+      "router_score": 0.3096,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.6559,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "b231ab1be91f4a2d995704d7f4a35fc7",
+      "question_id": 3845,
+      "category": "creative",
+      "word_count": 5,
+      "router_score": 0.1809,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.2882,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "05dcdd1354564362a7ff1c08f6a7cd47",
+      "question_id": 3946,
+      "category": "creative",
+      "word_count": 17,
+      "router_score": 0.2427,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4649,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "46056a2a481946c5b891c3f0e1d2b6ee",
+      "question_id": 4009,
+      "category": "creative",
+      "word_count": 87,
+      "router_score": 0.3321,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.7202,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "1449a47d4ac54c919b9b7bf4f86a84af",
+      "question_id": 4020,
+      "category": "creative",
+      "word_count": 89,
+      "router_score": 0.3333,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.7238,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "e0207ee575a24bb1bf7be4c79aa0ecf4",
+      "question_id": 4025,
+      "category": "creative",
+      "word_count": 89,
+      "router_score": 0.3333,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.7238,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "12afec6fbae94b9b9b0d4cd6bdbb2dcf",
+      "question_id": 4374,
+      "category": "creative",
+      "word_count": 5,
+      "router_score": 0.1809,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.2882,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "e1a49ae2826f4d17a754ccee398c8931",
+      "question_id": 4484,
+      "category": "creative",
+      "word_count": 12,
+      "router_score": 0.2244,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4126,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "a605afa2cd5f4cd7b965ffabcfb9fab7",
+      "question_id": 4518,
+      "category": "creative",
+      "word_count": 10,
+      "router_score": 0.215,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3857,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "e92b39c6f12d4a079eb3f6fc0b411b8e",
+      "question_id": 4532,
+      "category": "creative",
+      "word_count": 8,
+      "router_score": 0.2135,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3534,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "83de7b678679466c8013a2709a203bf4",
+      "question_id": 4582,
+      "category": "creative",
+      "word_count": 10,
+      "router_score": 0.215,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3857,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "3f1de58205f349db886396f8700b595d",
+      "question_id": 4733,
+      "category": "creative",
+      "word_count": 20,
+      "router_score": 0.2514,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4897,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "c325b60fe2da4a748522f9f182ee2d22",
+      "question_id": 4896,
+      "category": "creative",
+      "word_count": 31,
+      "router_score": 0.2751,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5575,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "00718a515bc8437c90edf8bed392b367",
+      "question_id": 5002,
+      "category": "creative",
+      "word_count": 21,
+      "router_score": 0.254,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4972,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "85b44bdb93c642d3a3981eef23b96448",
+      "question_id": 5075,
+      "category": "creative",
+      "word_count": 8,
+      "router_score": 0.2037,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3534,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "5fab1bd7f7234caaa13c555c2c4541a2",
+      "question_id": 5208,
+      "category": "creative",
+      "word_count": 270,
+      "router_score": 0.51,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.9012,
+        "f_reason": 0.4583
+      }
+    },
+    {
+      "prompt_id": "7012168b640949a3bd05ecabd6f0b1e0",
+      "question_id": 5243,
+      "category": "creative",
+      "word_count": 18,
+      "router_score": 0.2458,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4736,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "e714da953ec44f4498f9bb9ede9eeb45",
+      "question_id": 5283,
+      "category": "creative",
+      "word_count": 42,
+      "router_score": 0.3113,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.605,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "a5d68090f3dc4d83b6dc4685e60105c0",
+      "question_id": 5323,
+      "category": "creative",
+      "word_count": 20,
+      "router_score": 0.2514,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4897,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "58df1227d36c4799bd8f479f5a48c10f",
+      "question_id": 5456,
+      "category": "creative",
+      "word_count": 10,
+      "router_score": 0.215,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3857,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "d0ab3f45ef0e4e5db72896cf20bf9ddf",
+      "question_id": 5484,
+      "category": "creative",
+      "word_count": 74,
+      "router_score": 0.3328,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.6945,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "a5935dc672904449a032d82a30bf71f8",
+      "question_id": 5617,
+      "category": "creative",
+      "word_count": 17,
+      "router_score": 0.2427,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4649,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "361310698f554f38acf05ae2df7d11fd",
+      "question_id": 5751,
+      "category": "creative",
+      "word_count": 57,
+      "router_score": 0.3503,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.6532,
+        "f_reason": 0.1667
+      }
+    },
+    {
+      "prompt_id": "16a01e2bb3d2421188506e19b812b4de",
+      "question_id": 5892,
+      "category": "creative",
+      "word_count": 13,
+      "router_score": 0.2286,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4245,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "8d5ca4e5d32e415eaf03e43f7e193e81",
+      "question_id": 6091,
+      "category": "creative",
+      "word_count": 51,
+      "router_score": 0.3025,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.6356,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "ce5e16a43bbb4aeb92ba98bf634ee0fc",
+      "question_id": 6110,
+      "category": "creative",
+      "word_count": 28,
+      "router_score": 0.2696,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5417,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "28fb8c07b5a04a7f8765749e9083a76c",
+      "question_id": 6287,
+      "category": "creative",
+      "word_count": 17,
+      "router_score": 0.2831,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4649,
+        "f_reason": 0.1615
+      }
+    },
+    {
+      "prompt_id": "f87d0c28b21343878c8554a91b1d9c45",
+      "question_id": 6378,
+      "category": "creative",
+      "word_count": 27,
+      "router_score": 0.2871,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.536,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "03973cecda1942f195cd2861ac4912cf",
+      "question_id": 6395,
+      "category": "creative",
+      "word_count": 21,
+      "router_score": 0.2638,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4972,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "ef1d39284f5f4c828970bfa6029df866",
+      "question_id": 6402,
+      "category": "creative",
+      "word_count": 34,
+      "router_score": 0.2997,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5719,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "5e0fa49e7eab4270a70752493cc85c48",
+      "question_id": 6478,
+      "category": "creative",
+      "word_count": 5,
+      "router_score": 0.1809,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.2882,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "6a9c6327280b48faa79e0268786f2195",
+      "question_id": 6521,
+      "category": "creative",
+      "word_count": 13,
+      "router_score": 0.2286,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4245,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "b972ae6eef7b4d4191dc079659133442",
+      "question_id": 6528,
+      "category": "creative",
+      "word_count": 12,
+      "router_score": 0.2244,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4126,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "c332bd49568b45c086e387c5a4025de5",
+      "question_id": 6536,
+      "category": "creative",
+      "word_count": 18,
+      "router_score": 0.2458,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4736,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "cce7a2ef6b1740029e24651f4a1d3246",
+      "question_id": 6539,
+      "category": "creative",
+      "word_count": 34,
+      "router_score": 0.2997,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5719,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "55e370e784c54945b0b997b08fc10ca6",
+      "question_id": 6548,
+      "category": "creative",
+      "word_count": 34,
+      "router_score": 0.2997,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5719,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "0b82a126ada44c65a10344251b9b953d",
+      "question_id": 6570,
+      "category": "creative",
+      "word_count": 34,
+      "router_score": 0.2802,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5719,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "460d45902cd548eea791f9f632fd83fe",
+      "question_id": 6586,
+      "category": "creative",
+      "word_count": 45,
+      "router_score": 0.3359,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.6159,
+        "f_reason": 0.1615
+      }
+    },
+    {
+      "prompt_id": "f6228e831eb34bdf8e10d400561d68ab",
+      "question_id": 6632,
+      "category": "creative",
+      "word_count": 45,
+      "router_score": 0.2956,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.6159,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "2d6c4c29cc7f45ffbd545e756dcac007",
+      "question_id": 6743,
+      "category": "creative",
+      "word_count": 10,
+      "router_score": 0.215,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3857,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "599303acf6e8461fb5df30a5afb01809",
+      "question_id": 6804,
+      "category": "creative",
+      "word_count": 14,
+      "router_score": 0.2325,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4356,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "35d02fc52a644b758de7d1c3ecd57ca0",
+      "question_id": 6853,
+      "category": "creative",
+      "word_count": 42,
+      "router_score": 0.2918,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.605,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "76dbffb20ea64fc6a400122503826a6e",
+      "question_id": 6859,
+      "category": "creative",
+      "word_count": 42,
+      "router_score": 0.2918,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.605,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "1170dc36fa4e4ab8a55a6b1f11836971",
+      "question_id": 7054,
+      "category": "creative",
+      "word_count": 11,
+      "router_score": 0.2199,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.3997,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "6da02001e74041d0947982fb4d05db9e",
+      "question_id": 7254,
+      "category": "creative",
+      "word_count": 82,
+      "router_score": 0.3705,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.7108,
+        "f_reason": 0.1667
+      }
+    },
+    {
+      "prompt_id": "a7966ba24f054f71a4012095c4f1e985",
+      "question_id": 7445,
+      "category": "creative",
+      "word_count": 188,
+      "router_score": 0.3959,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.8432,
+        "f_reason": 0.0833
+      }
+    },
+    {
+      "prompt_id": "7a84878a13514cfc90db7e45ad0d56c2",
+      "question_id": 7544,
+      "category": "creative",
+      "word_count": 112,
+      "router_score": 0.3878,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.7604,
+        "f_reason": 0.1667
+      }
+    },
+    {
+      "prompt_id": "2cde03c24b2546c8a11b71c93d340c88",
+      "question_id": 7607,
+      "category": "creative",
+      "word_count": 186,
+      "router_score": 0.4038,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.8415,
+        "f_reason": 0.1172
+      }
+    },
+    {
+      "prompt_id": "eafade6cc3164045ba3c7f08c8ab0a80",
+      "question_id": 7613,
+      "category": "creative",
+      "word_count": 17,
+      "router_score": 0.2427,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4649,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "6e1355391d374f9da7144e4e9e97157d",
+      "question_id": 7619,
+      "category": "creative",
+      "word_count": 17,
+      "router_score": 0.2427,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4649,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "e6db583d4fb84bf1867f5eb6b61be537",
+      "question_id": 7711,
+      "category": "creative",
+      "word_count": 35,
+      "router_score": 0.2818,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5764,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "163471e4eecd4dcd9703f21ff0207432",
+      "question_id": 7817,
+      "category": "creative",
+      "word_count": 24,
+      "router_score": 0.2612,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5178,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "5a5fafbc9faa4ee78cf698c125efef54",
+      "question_id": 7847,
+      "category": "creative",
+      "word_count": 80,
+      "router_score": 0.3469,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.7069,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "f42ee601b4b648a79907c167a434b9cd",
+      "question_id": 7894,
+      "category": "creative",
+      "word_count": 26,
+      "router_score": 0.2656,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5302,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "1670c76c577a490c836b1659f3ec5bd3",
+      "question_id": 7941,
+      "category": "creative",
+      "word_count": 40,
+      "router_score": 0.3197,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5974,
+        "f_reason": 0.1224
+      }
+    },
+    {
+      "prompt_id": "7b858e15e5d94573b4050a4be4945506",
+      "question_id": 7958,
+      "category": "creative",
+      "word_count": 71,
+      "router_score": 0.3305,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.6879,
+        "f_reason": 0.0391
+      }
+    },
+    {
+      "prompt_id": "91f500bf323242feb681f097d81be3df",
+      "question_id": 8107,
+      "category": "creative",
+      "word_count": 12,
+      "router_score": 0.2244,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4126,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "b40f0be7d66d468080d78d48f37924e7",
+      "question_id": 8211,
+      "category": "creative",
+      "word_count": 12,
+      "router_score": 0.2244,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4126,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "8b2071f6578b406db0ab496517cf8704",
+      "question_id": 8236,
+      "category": "creative",
+      "word_count": 227,
+      "router_score": 0.4846,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.8734,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "001d1f92f53b4a92a392225271f0f65b",
+      "question_id": 8244,
+      "category": "creative",
+      "word_count": 17,
+      "router_score": 0.2427,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4649,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "73f5add6e92d4d15bbeef52723391f26",
+      "question_id": 8276,
+      "category": "creative",
+      "word_count": 270,
+      "router_score": 0.4944,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.9012,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "cc7feafb42864648bddf13d0c4d24db6",
+      "question_id": 8288,
+      "category": "creative",
+      "word_count": 286,
+      "router_score": 0.4976,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.9104,
+        "f_reason": 0.3958
+      }
+    },
+    {
+      "prompt_id": "1c41b17837fd44ecb417b5724c284b26",
+      "question_id": 8337,
+      "category": "creative",
+      "word_count": 5,
+      "router_score": 0.1809,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.2882,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "d71173ac85054eabbf0d88218c1030b9",
+      "question_id": 8374,
+      "category": "creative",
+      "word_count": 19,
+      "router_score": 0.2487,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4819,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "f25583133ec4441c989979ce9358414a",
+      "question_id": 8441,
+      "category": "creative",
+      "word_count": 62,
+      "router_score": 0.3133,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.6665,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "49c49843372a4510926e9a572dbcb6f7",
+      "question_id": 8542,
+      "category": "creative",
+      "word_count": 40,
+      "router_score": 0.3086,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.5974,
+        "f_reason": 0.0781
+      }
+    },
+    {
+      "prompt_id": "573a1f02cac74f7d9f8c08a5d912a7c3",
+      "question_id": 8892,
+      "category": "creative",
+      "word_count": 13,
+      "router_score": 0.2286,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.4245,
+        "f_reason": 0.0
+      }
+    },
+    {
+      "prompt_id": "910b3bcd52d843efacde877cfa9c0c5c",
+      "question_id": 9086,
+      "category": "creative",
+      "word_count": 98,
+      "router_score": 0.3387,
+      "features": {
+        "f_cat": 0.2,
+        "f_len": 0.7392,
+        "f_reason": 0.0
+      }
+    }
+  ]
+}

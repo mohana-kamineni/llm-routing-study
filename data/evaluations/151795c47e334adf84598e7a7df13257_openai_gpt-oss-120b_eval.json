@@ -1,0 +1,14 @@
+{
+  "prompt_id": "151795c47e334adf84598e7a7df13257",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response adequately summarizes the content by addressing all five key aspects extracted from the source text:\n1.  **Pipeline Stages:** The response explicitly lists and details all required stages (Exploratory, Design/Scoping, Implementation, Prototyping, Pilot Data Study, CDUT, Protocol Development/Clinical Study, FDA Data Review, Marketing, and Polish) in Section 1.\n2.  **Roles:** It correctly identifies the core roles (CPM, IPM, PI, DS, SE, RA) and assigns them to specific stages, while also noting where additional roles might be TBD or optional, satisfying the requirement to include the identified roles and allow for unknowns.\n3.  **6 Sigma Swim Lanes:** Section 2 provides a text-based representation of a 6 Sigma swim lane flowchart, mapping the roles across the phases as requested.\n4.  **Governance/Decision Making:** Section 3 includes a \"Decision-Authority Matrix\" that specifically addresses who gives final go/no-go approval and who decides on R&D SD ticket prioritization, directly answering the governance questions raised in the notes.\n5.  **Discovery & Design:** Section 5 provides a detailed checklist for Discovery phase documentation (problem history, users, previous work), and the overall structure addresses the planning aspect of the Design phase.\n\nThe response is comprehensive, accurate to the source material's intent, and covers all critical factual aspects.",
+  "finish_reason": "stop",
+  "prompt_tokens": 4668,
+  "completion_tokens": 302,
+  "total_tokens": 4970,
+  "timestamp": "2026-09-23T17:51:48.306326+00:00"
+}

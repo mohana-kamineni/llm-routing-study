@@ -1,0 +1,14 @@
+{
+  "prompt_id": "61a3c8d5942245e4b52bc12cd32e8bf8",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies that fountain pen words are permanent and cannot be erased. It accurately calculates that erasing 2 pencil words does not affect the count of fountain pen words, which remains 3. The reasoning is sound and the final answer is correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 339,
+  "completion_tokens": 58,
+  "total_tokens": 397,
+  "timestamp": "2026-09-24T14:22:01.853404+00:00"
+}

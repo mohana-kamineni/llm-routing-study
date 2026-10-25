@@ -1,0 +1,14 @@
+{
+  "prompt_id": "cda4f8d5a1ba4232bb2fad3e94378dae",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately identifies the top sources of security flaws in websites by aligning with the widely recognized OWASP Top 10 list (the industry standard for web application security risks). It correctly categorizes major vulnerabilities such as Injection, Broken Authentication, Sensitive Data Exposure, XXE, Broken Access Control, Security Misconfiguration, XSS, IDOR, and the use of vulnerable components. The descriptions of why these are problems, their symptoms, and the recommended mitigations are factually correct and consistent with current cybersecurity best practices. There are no false contradictions or factual errors in the provided information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1405,
+  "completion_tokens": 125,
+  "total_tokens": 1530,
+  "timestamp": "2026-09-22T17:10:21.466096+00:00"
+}

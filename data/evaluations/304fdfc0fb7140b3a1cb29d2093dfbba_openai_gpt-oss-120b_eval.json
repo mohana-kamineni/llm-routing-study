@@ -1,0 +1,14 @@
+{
+  "prompt_id": "304fdfc0fb7140b3a1cb29d2093dfbba",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies the language as Finnish and accurately reverses the text to reveal the phrase \"Minä rakastan sinua,\" which correctly translates to \"I love you.\" There are no factual errors or contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 240,
+  "completion_tokens": 51,
+  "total_tokens": 291,
+  "timestamp": "2026-09-23T00:15:36.676134+00:00"
+}

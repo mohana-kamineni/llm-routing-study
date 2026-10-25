@@ -1,0 +1,20 @@
+{
+  "prompt_id": "54c26a453bbe477b82976a28e6d169b0",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "What is the storywise chronologically first star wars movie?",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 83,
+  "completion_tokens": 4096,
+  "total_tokens": 4179,
+  "latency_ms": 29216,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:36:52.558575+00:00"
+}

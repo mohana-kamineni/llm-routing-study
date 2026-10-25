@@ -1,0 +1,14 @@
+{
+  "prompt_id": "575f366a806b480a9699149cc83d3a7b",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies Bern as the capital of Switzerland. While Bern is technically the \"federal city\" (Bundesstadt) rather than a constitutionally designated capital, it is universally recognized and accepted as the de facto capital. The additional note regarding the French spelling \"Berne\" is also factually accurate. Therefore, the response provides the correct factual answer without false contradictions.",
+  "finish_reason": "stop",
+  "prompt_tokens": 172,
+  "completion_tokens": 82,
+  "total_tokens": 254,
+  "timestamp": "2026-09-28T07:50:39.538677+00:00"
+}

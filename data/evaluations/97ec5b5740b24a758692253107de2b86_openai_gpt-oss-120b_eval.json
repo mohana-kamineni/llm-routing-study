@@ -1,0 +1,16 @@
+{
+  "prompt_id": "97ec5b5740b24a758692253107de2b86",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "candidate_degeneracy_audit",
+  "terminal_type": "CANDIDATE_DEGENERATE",
+  "terminal_description": "Candidate generated a repetitive six-line output cycle continuing to the generation limit (4,096 tokens, 578 lines). Resulting 7,800+ token prompt exceeds Groq ITPM limit.",
+  "verdict": "FAIL",
+  "raw_output": null,
+  "finish_reason": "length",
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "total_tokens": 0,
+  "timestamp": "2026-09-22T17:30:00.000000+00:00"
+}

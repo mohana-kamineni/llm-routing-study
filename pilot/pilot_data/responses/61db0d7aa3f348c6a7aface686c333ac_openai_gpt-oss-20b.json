@@ -1,0 +1,21 @@
+{
+  "prompt_id": "61db0d7aa3f348c6a7aface686c333ac",
+  "category": "factual_qa",
+  "prompt_text": "Who was the president of the US in 2009? Keep it short. I want only a name.",
+  "model": "openai/gpt-oss-20b",
+  "provider": "groq",
+  "model_returned": "openai/gpt-oss-20b",
+  "raw_response": "Barack Obama",
+  "response_text": "Barack Obama",
+  "reasoning_text": "The user: \"Who was the president of the US in 2009? Keep it short. I want only a name.\" So answer: \"Barack Obama\". They want only a name. So just \"Barack Obama\". No additional text.",
+  "input_tokens": 93,
+  "output_tokens": 64,
+  "total_tokens": 157,
+  "reasoning_tokens": 52,
+  "latency_seconds": 0.345,
+  "timestamp": "2026-09-13T11:39:23.522331+00:00",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "retries": 0,
+  "error": null
+}

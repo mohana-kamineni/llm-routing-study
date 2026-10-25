@@ -1,0 +1,20 @@
+{
+  "prompt_id": "db922ddc727741b68e2997b9f0809c05",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "You are a helpful chatbot that reads an article and provides key summaries about it in a short paragraph.\n\nBrexit (portmanteau of \"British exit\") was the withdrawal of the United Kingdom (UK) from the European Union (EU) at 23:00 GMT on 31 January 2020. The UK is the only sovereign country to have left the EU. The UK had been a member state of the EU or its predecessor the European Communities (EC), sometimes of both at the same time, since 1 January 1973. Following Brexit, EU law and the Court of Justice of the European Union no longer have primacy over British laws. The European Union (Withdrawal) Act 2018 retains relevant EU law as domestic law, which the UK can now amend or repeal.\nBy the 2010s, the growing popularity of UKIP, as well as pressure from Eurosceptics in the Conservative Party, forced then-Prime Minister David Cameron to promise a referendum on British membership of the EU if his government was re-elected. Following the general election in 2015, which produced a small but unexpected overall majority for the governing Conservative Party, the promised referendum on continued EU membership was held on 23 June 2016. Notable supporters of the Remain campaign included then-Prime Minister David Cameron, future Prime Ministers Theresa May and Liz Truss, and former Prime Ministers John Major, Tony Blair and Gordon Brown; while notable supporters of the Leave campaign included future Prime Ministers Boris Johnson and Rishi Sunak. The electorate voted to leave the EU with a 51.9% share of the vote, with all regions of England and Wales except London voting in favour of Brexit, and Scotland and Northern Ireland voting against. The result led to Cameron's sudden resignation, his replacement by then-Home Secretary Theresa May, and four years of negotiations with the EU on the terms of departure and on future relations, completed under a Boris Johnson government, with government control remaining with the Conservative Party in this period.\n\nProvide a one-paragraph summary about the information above.",
+  "response_text": "Brexit, the United Kingdom’s formal exit from the European Union on 31 January 2020, marked the only sovereign country to leave the EU and ended the primacy of EU law over British law, though the 2018 Withdrawal Act kept EU provisions as domestic law that the UK can now amend or repeal. The decision followed a surge in Euroscepticism—spurred by UKIP and pressure within the Conservative Party—that forced Prime Minister David Cameron to promise a referendum, which was held on 23 June 2016 after the 2015 election gave the Conservatives a narrow majority. The Leave side, backed by future leaders Boris Johnson and Rishi Sunak, won 51.9 % of the vote, with all of England and Wales (except London) voting to leave and Scotland and Northern Ireland voting to remain. Cameron resigned, Theresa May took over, and the UK negotiated its exit and future relationship with the EU over four years, a process completed under Boris Johnson’s government while the Conservative Party stayed in power.",
+  "finish_reason": "stop",
+  "prompt_tokens": 491,
+  "completion_tokens": 400,
+  "total_tokens": 891,
+  "latency_ms": 4699,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:47:28.240162+00:00"
+}

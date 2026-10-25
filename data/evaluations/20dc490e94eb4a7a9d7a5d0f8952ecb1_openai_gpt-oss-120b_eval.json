@@ -1,0 +1,14 @@
+{
+  "prompt_id": "20dc490e94eb4a7a9d7a5d0f8952ecb1",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly applies the Mifflin-St Jeor equation to calculate the Basal Metabolic Rate (BMR) for the specified individual (50 kg, 156 cm, 32 years old, female). The calculation is accurate: $(10 \\times 50) + (6.25 \\times 156) - (5 \\times 32) - 161 = 1,154$ kcal. It then correctly applies the standard activity factor for \"lightly active\" individuals (1.375) to determine Total Daily Energy Expenditure (TDEE), resulting in approximately 1,586 kcal, which is reasonably rounded to ~1,600 kcal. This aligns with standard nutritional science guidelines.",
+  "finish_reason": "stop",
+  "prompt_tokens": 1017,
+  "completion_tokens": 176,
+  "total_tokens": 1193,
+  "timestamp": "2026-09-28T07:40:26.736042+00:00"
+}

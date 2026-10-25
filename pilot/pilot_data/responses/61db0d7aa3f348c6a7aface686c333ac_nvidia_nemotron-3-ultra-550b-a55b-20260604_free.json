@@ -1,0 +1,21 @@
+{
+  "prompt_id": "61db0d7aa3f348c6a7aface686c333ac",
+  "category": "factual_qa",
+  "prompt_text": "Who was the president of the US in 2009? Keep it short. I want only a name.",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b-20260604:free",
+  "provider": "openrouter",
+  "model_returned": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "raw_response": "Barack Obama",
+  "response_text": "Barack Obama",
+  "reasoning_text": "The user wants the name of the US president in 2009.\nBarack Obama was inaugurated on January 20, 2009.\nGeorge W. Bush was president until that date.\nUsually, \"president in [year]\" implies the one who served the majority or the one inaugurated that year.\nBarack Obama is the standard answer.",
+  "input_tokens": 40,
+  "output_tokens": 79,
+  "total_tokens": 119,
+  "reasoning_tokens": 74,
+  "latency_seconds": 53.088,
+  "timestamp": "2026-09-13T11:56:00.077482+00:00",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "retries": 0,
+  "error": null
+}

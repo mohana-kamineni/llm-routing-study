@@ -1,0 +1,14 @@
+{
+  "prompt_id": "68e556fa2fb347238f9a8dc09c7c436e",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes all key aspects of the source text. It correctly distinguishes between the two unsuccessful pre-screening calls (LB and JM) and their respective follow-up actions. It details the technical diagnosis of the dishwasher issue, including the specific part numbers provided. The timeline of events (ordering, delivery, appointment, and repair) is captured accurately, including the specific dates and the outcome of the service (successful repair). Finally, it correctly notes the final customer interaction regarding status verification and follow-up communication. No critical information was omitted, and no factual errors were introduced.",
+  "finish_reason": "stop",
+  "prompt_tokens": 816,
+  "completion_tokens": 122,
+  "total_tokens": 938,
+  "timestamp": "2026-09-23T12:18:45.459938+00:00"
+}

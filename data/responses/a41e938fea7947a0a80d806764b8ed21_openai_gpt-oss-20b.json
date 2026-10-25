@@ -1,0 +1,20 @@
+{
+  "prompt_id": "a41e938fea7947a0a80d806764b8ed21",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "If it takes me 7-12 hours from Germany to Poland and I have a train that can carry up to 4000 people how long would it take me to get to a million people traveled in hours.",
+  "response_text": "**Answer**\n\n- **Number of trips needed**  \n  \\[\n  \\frac{1\\,000\\,000\\text{ people}}{4\\,000\\text{ people per trip}} = 250\\text{ trips}\n  \\]\n\n- **Time per trip**  \n  7 – 12 hours\n\n- **Total travel time**  \n  \\[\n  250 \\times 7 = 1\\,750\\text{ hours (minimum)}\n  \\]\n  \\[\n  250 \\times 12 = 3\\,000\\text{ hours (maximum)}\n  \\]\n\n- **In days**  \n  \\[\n  \\frac{1\\,750}{24} \\approx 73\\text{ days}\n  \\]\n  \\[\n  \\frac{3\\,000}{24} \\approx 125\\text{ days}\n  \\]\n\nSo, to move a million people from Germany to Poland with a 4,000‑person train, you’d need roughly **1,750 to 3,000 hours of travel time**—about **73 to 125 days** (≈ 2½ – 4 months).",
+  "finish_reason": "stop",
+  "prompt_tokens": 114,
+  "completion_tokens": 729,
+  "total_tokens": 843,
+  "latency_ms": 12402,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-17T23:06:26.734417+00:00"
+}

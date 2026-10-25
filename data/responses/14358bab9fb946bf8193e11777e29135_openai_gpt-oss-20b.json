@@ -1,0 +1,20 @@
+{
+  "prompt_id": "14358bab9fb946bf8193e11777e29135",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "summarize in 5 sentences: \n\nKuro Kagami is the short-tempered, diminutive classmate of Rin Kokonoe and Mimi Usa at Futatsubashi Elementary School, who has been close friends with both of them since they were in first grade. \n\nOriginally the stereotypical spoiled rich kid — egotistical, possessed of a superiority complex, and quick to mock, judge, and deride others — her involvement with Mimi and Rin began after the three of them, the \"class misfits\", grouped together for physical education class, during which the former two of them discovered that the latter's mute, detached state was the result of trauma from her mother's death. Initially, Kuro's \"friendship\" with Rin was rather warped, as she viewed the latter as little more than her personal plaything, applying things such as makeup and nail polish to her as if she were a living doll (and getting into trouble for it). However, it was during an attempted \"dress up\" session that Kuro had her arguably greatest impact on her friend's life: her attempt to remove a dress that Aki had made by hand for Rin prompted the latter to emerge from her stupor for the first time to protest the action, marking the beginning of her long journey on the road to eventual recovery.[17]\n\nWhile Kuro's attitude improved somewhat in the ensuing years, her friendship with Rin changed dramatically: the admiration and respect she developed for the strength of character that emerged in her friend eventually gave rise to an intimate attraction. In spite of this, she remains fiercely loyal",
+  "response_text": "Kuro Kagami is a short‑tempered, diminutive student at Futatsubashi Elementary who has been close friends with Rin Kokonoe and Mimi Usa since first grade. Initially a stereotypical spoiled rich kid with a superiority complex, Kuro’s relationship with the trio began when they grouped together for PE and she learned that Mimi’s silence stemmed from trauma. Early on, Kuro treated Rin as a plaything, applying makeup and nail polish to her like a doll, but an incident where she tried to remove a handmade dress for Rin sparked Rin’s first protest and the start of her recovery. Over time Kuro’s attitude softened, and she grew to admire Rin’s newfound strength, developing an intimate attraction toward her. Despite these changes, Kuro remains fiercely loyal to her friends.",
+  "finish_reason": "stop",
+  "prompt_tokens": 389,
+  "completion_tokens": 547,
+  "total_tokens": 936,
+  "latency_ms": 6003,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T20:45:26.627696+00:00"
+}

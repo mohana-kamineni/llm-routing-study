@@ -1,0 +1,20 @@
+{
+  "prompt_id": "3faa3dd290324ce0bd7379dac9082f19",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "what is the current country leading in natural water resource?",
+  "response_text": "**Answer:**  \n**Brazil** is the country that currently leads the world in *total natural (renewable) freshwater resources*.\n\n---\n\n### Why Brazil?\n\n| Rank | Country | Total Renewable Freshwater Resources (m³/yr) | Source |\n|------|---------|---------------------------------------------|--------|\n| 1 | **Brazil** | ~1.5 trillion m³ | World Bank, 2017 “Freshwater resources” |\n| 2 | Canada | ~1.2 trillion m³ | World Bank, 2017 |\n| 3 | Russia | ~1.1 trillion m³ | World Bank, 2017 |\n| 4 | China | ~1.0 trillion m³ | World Bank, 2017 |\n| 5 | United States | ~0.9 trillion m³ | World Bank, 2017 |\n\n- **Definition** – “Renewable freshwater resources” include all surface water (rivers, lakes, reservoirs) and groundwater that can be replenished within a year.\n- **Why it matters** – This metric reflects the *volume* of water that a country can sustainably draw upon each year, regardless of how that water is distributed or used.\n\n---\n\n### Quick Context\n\n- **Geography**: Brazil’s vast Amazon basin, extensive river systems (Amazon, Paraná, São Francisco), and high rainfall contribute to its massive water volume.\n- **Comparison**: While Canada and Russia have larger per‑capita water availability, Brazil’s sheer size and rainfall give it the highest total volume.\n- **Trend**: The ranking has been stable for the past decade; Brazil has consistently topped the list in global freshwater resource tables.\n\n---\n\n### Caveats\n\n- **Data Year**: The figures above are from the World Bank’s 2017 dataset. Newer data (2023–2024) may show slight shifts but Brazil remains at the top.\n- **Other Metrics**: If you’re interested in *water availability per capita* or *water stress*, the leaders differ (e.g., Canada, Russia, and some European countries rank higher on a per‑capita basis).\n\n---\n\n**Bottom line:** If you’re looking for the country with the largest *total* natural freshwater resources, Brazil is the clear leader.",
+  "finish_reason": "stop",
+  "prompt_tokens": 82,
+  "completion_tokens": 769,
+  "total_tokens": 851,
+  "latency_ms": 1175,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:18:53.648845+00:00"
+}

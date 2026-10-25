@@ -1,0 +1,14 @@
+{
+  "prompt_id": "5aac9631c7194dc8baeb7d95870e3f27",
+  "category": "summarization",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe response fails to meet the specific constraints of the prompt and omits critical factual aspects required by the evaluation criteria.\n\n1.  **Constraint Violation (Word Count):** The prompt explicitly requires each topic to be \"1 or 2 words only.\" The response includes \"Passenger Rail\" (2 words, acceptable) but also \"Transportation\" (1 word, acceptable), \"Study\" (1 word, acceptable), and \"Legislation\" (1 word, acceptable). However, the prompt also states: \"If two topics are similar, or contain the same word, only keep one of them.\" While \"Transportation\" and \"Passenger Rail\" are distinct enough, the bigger issue is the content coverage.\n2.  **Missing Key Aspects:** The evaluation criteria require the summary to cover four specific key aspects:\n    *   Aspect 1 (Study of rail restoration): Partially covered by \"Passenger Rail\" and \"Study,\" but the specific nature (restoration) is lost.\n    *   Aspect 2 (Amtrak Pioneer): **Not covered.** The response does not mention the specific service being restored.\n    *   Aspect 3 (Submission to committees by deadline): **Not covered.** The response does not mention the legislative reporting requirement or the deadline.\n    *   Aspect 4 (Temporary nature/Repeal): **Not covered.** The response does not mention the sunset clause or temporary nature of the bill.\n\nThe response provides only generic categories (\"Transportation,\" \"Study,\" \"Legislation\") that fail to capture the essential factual details (Amtrak Pioneer, reporting deadline, repeal date) mandated by the evaluation criteria. Therefore, it does not adequately summarize the content.",
+  "finish_reason": "stop",
+  "prompt_tokens": 679,
+  "completion_tokens": 358,
+  "total_tokens": 1037,
+  "timestamp": "2026-09-22T17:02:40.359364+00:00"
+}

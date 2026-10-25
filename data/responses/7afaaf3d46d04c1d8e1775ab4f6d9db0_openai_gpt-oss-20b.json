@@ -1,0 +1,20 @@
+{
+  "prompt_id": "7afaaf3d46d04c1d8e1775ab4f6d9db0",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about San Francisco in the style of Edgar Allen Poe and follow up with an explanation of how the poem matches the requested style.",
+  "response_text": "",
+  "finish_reason": "length",
+  "prompt_tokens": 99,
+  "completion_tokens": 4096,
+  "total_tokens": 4195,
+  "latency_ms": 4840,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:31:33.353771+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "9d19689e34c1437cbd7d5b78e13871a9",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response correctly identifies that there are no stars within 1 light year of the Sun/Earth. It accurately cites the distance to the nearest star system (Alpha Centauri/Proxima Centauri at ~4.24 light years) and correctly notes that the nearest known brown dwarf is also further than 1 light year away (approx. 2.2 light years). The reasoning is sound, and the final conclusion is factually correct.",
+  "finish_reason": "stop",
+  "prompt_tokens": 324,
+  "completion_tokens": 99,
+  "total_tokens": 423,
+  "timestamp": "2026-09-19T17:37:39.133509+00:00"
+}

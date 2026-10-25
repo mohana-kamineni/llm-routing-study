@@ -1,0 +1,14 @@
+{
+  "prompt_id": "2866d564b52342b592d4694737408363",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately covers all five required key aspects:\n1. It identifies Jokić as a Serbian center for the Denver Nuggets and notes his two MVP awards (2020-21, 2021-22).\n2. It mentions his second-round draft selection in 2014, five All-Star selections, and five All-NBA Team selections.\n3. It states he won NBA Finals MVP in 2023 leading the Nuggets to their first championship.\n4. It includes his top-10 ranking in career triple-doubles and the record for the fastest triple-double (14 min 33 sec).\n5. It mentions his silver medal with Serbia at the 2016 Olympics.\n\nThe summary is factually accurate and concise, omitting only minor details like his nickname and specific playoff rounds (Western Conference Semifinals/Finals) which are not listed as required key aspects.",
+  "finish_reason": "stop",
+  "prompt_tokens": 925,
+  "completion_tokens": 203,
+  "total_tokens": 1128,
+  "timestamp": "2026-09-23T23:23:15.889883+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "prompt_id": "c9aa13ec54074fb09e3b60786a38463c",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Who is the current monarch of the United Kingdom?",
+  "response_text": "The current monarch of the United Kingdom is **King Charles III**. He ascended the throne on 8 September 2022 following the death of his mother, Queen Elizabeth II.",
+  "finish_reason": "stop",
+  "prompt_tokens": 81,
+  "completion_tokens": 95,
+  "total_tokens": 176,
+  "latency_ms": 5325,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:38:47.714747+00:00"
+}

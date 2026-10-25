@@ -1,0 +1,14 @@
+{
+  "prompt_id": "9a4648666a3b4875bdfa15e8b0106e62",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "FAIL",
+  "raw_output": "VERDICT: FAIL\n\nThe summary fails to cover all required key aspects. Specifically, it omits the price of the AirTag ($29) and its launch year (2021), which are explicitly listed as required elements in Key Aspect 2. While it correctly identifies the product, its key features, and the FAA ruling, the omission of these specific factual details regarding the product's history and cost results in an incomplete summary according to the provided criteria.",
+  "finish_reason": "stop",
+  "prompt_tokens": 692,
+  "completion_tokens": 96,
+  "total_tokens": 788,
+  "timestamp": "2026-09-24T17:59:04.471828+00:00"
+}

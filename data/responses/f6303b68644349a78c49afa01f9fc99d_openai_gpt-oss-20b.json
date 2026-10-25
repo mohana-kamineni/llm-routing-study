@@ -1,0 +1,20 @@
+{
+  "prompt_id": "f6303b68644349a78c49afa01f9fc99d",
+  "category": "creative",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "I want you to act as a travel guide. I will write you my location and you will suggest a place to visit near my location. In some cases, I will also give you the type of places I will visit. You will also suggest me places of similar type that are close to my first location. My first suggestion request is \"I am in Tel Aviv, Israel and I want to visit places with nice views.",
+  "response_text": "**Primary recommendation – Tel Aviv’s Old Jaffa (Jaffa Old City)**  \n- **Why it’s great for views:**  \n  - The winding streets of the ancient port open onto the Mediterranean, giving you sweeping sea‑sky panoramas.  \n  - From the Jaffa Clock Tower or the old harbor, you can see the entire Tel Aviv coastline, the Tel Aviv skyline, and the distant Golan Heights on a clear day.  \n  - The sunset over the sea from the Jaffa Old City is a photographer’s dream.  \n\n- **What to do there:**  \n  - Walk along the Jaffa Old City walls and the historic harbor.  \n  - Grab a coffee at one of the seaside cafés on the promenade.  \n  - Visit the Jaffa Flea Market (Shuk HaPishpesh) for a lively atmosphere.  \n  - Take a short walk to the nearby **Jaffa Port** for a different angle of the sea and the city.  \n\n- **Practical info:**  \n  - **Distance from central Tel Aviv:** ~3 km (about a 10‑minute drive or a 25‑minute walk).  \n  - **Best time to visit:** Early morning or late afternoon for the best light and fewer crowds.  \n  - **Getting there:** Metro (Jaffa–Tel Aviv Port station) or a short bus ride.  \n\n---\n\n### Other nearby spots with great views\n\n| Spot | Type | Why it’s a good “nice‑view” option | Approx. distance from Old Jaffa |\n|------|------|------------------------------------|---------------------------------|\n| **Tel Aviv Port (Namal Tel Aviv)** | Seaside promenade | Modern architecture meets the sea; great sunset views and a lively waterfront. | 1 km |\n| **Azrieli Tower (Sky Tower)** | Observation deck | 360° panoramic view of Tel Aviv, the Mediterranean, and the surrounding hills. | 2 km |\n| **Tel Aviv Museum of Art Rooftop Café** | Rooftop café | Elevated view of the city’s skyline and the harbor. | 2 km |\n| **Carmel Market (Shuk HaCarmel)** | Market with rooftop | Rooftop terrace offers a view of the city and the sea, plus a bustling market vibe. | 2 km |\n| **Tel Aviv’s Old City Walls (Jaffa)** | Historical walk | The old walls provide a unique perspective over the sea and the city’s rooftops. | 3 km |\n| **Tel Aviv’s Old Jaffa Clock Tower** | Landmark | A short climb gives a 360° view of the harbor and the city. | 3 km |\n| **Tel Aviv’s Old Jaffa Harbor** | Seaside | The harbor’s open space offers unobstructed sea views and a relaxed atmosphere. | 3 km |\n\n**Tip:** If you’re willing to venture a bit farther, the **Caesarea National Park** (about 70 km north) offers ancient ruins with a dramatic sea view, and the **Golan Heights** (about 120 km north) provides breathtaking vistas of the Sea of Galilee and the surrounding landscape.  \n\nEnjoy your scenic exploration of Tel Aviv!",
+  "finish_reason": "stop",
+  "prompt_tokens": 156,
+  "completion_tokens": 1818,
+  "total_tokens": 1974,
+  "latency_ms": 2053,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-16T22:19:14.825720+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "prompt_id": "14358bab9fb946bf8193e11777e29135",
+  "category": "summarization",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response accurately summarizes the source text in exactly five sentences, covering all five required key aspects. It correctly identifies Kuro's character and background (Aspect 1), the context of their friendship formation and Rin's trauma (Aspect 2), the specific \"doll-like\" behavior and resulting trouble (Aspect 3), the pivotal moment involving the dress and Rin's first protest (Aspect 4), and the evolution of their relationship into intimate attraction and loyalty (Aspect 5). The summary is factually consistent with the source and omits no critical information.",
+  "finish_reason": "stop",
+  "prompt_tokens": 895,
+  "completion_tokens": 118,
+  "total_tokens": 1013,
+  "timestamp": "2026-09-24T16:29:40.873020+00:00"
+}

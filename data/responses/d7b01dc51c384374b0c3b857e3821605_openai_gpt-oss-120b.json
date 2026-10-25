@@ -1,0 +1,20 @@
+{
+  "prompt_id": "d7b01dc51c384374b0c3b857e3821605",
+  "category": "creative",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Write a poem about making pizza.",
+  "response_text": "**Ode to the Pizza‑Maker**\n\nIn a kitchen’s warm, amber glow,  \nA dough‑ball rests, a promise slow—  \nFlour dusts the air like sunrise mist,  \nAnd water, yeast, and salt enlist.\n\nFirst the hands, with gentle press,  \nStretch circles wide, a soft caress—  \nA canvas thin, or thick and bold,  \nAwaiting flavors to unfold.\n\nA ruby river, sauce poured free,  \nTomatoes crushed in sweet decree,  \nGarlic whispers, basil sighs,  \nA fragrant kiss beneath the skies.\n\nMozzarella, moon‑white, drifts and melts,  \nA snowy blanket, soft‑spun felt;  \nPepperoni moons in ruby rows,  \nOr veggies bright—green, orange, rose.\n\nThe oven roars, a fiery beast,  \nIts heat a dance, a fragrant feast;  \nFour‑hundred degrees of amber blaze,  \nTransforms the dough to golden haze.\n\nCrackling crust, a sigh of steam,  \nCheese that stretches, a molten dream;  \nA sprinkle—salt, a dash of thyme—  \nA final note, a perfect rhyme.\n\nSlice by slice, the story’s told,  \nA humble loaf, now brave and bold;  \nFrom flour’s whisper to molten cheese,  \nA pizza’s love, a simple peace.",
+  "finish_reason": "stop",
+  "prompt_tokens": 78,
+  "completion_tokens": 326,
+  "total_tokens": 404,
+  "latency_ms": 3790,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-15T21:20:20.907862+00:00"
+}

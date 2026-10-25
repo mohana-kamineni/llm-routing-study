@@ -1,0 +1,14 @@
+{
+  "prompt_id": "a87d4fefe3284c6592d1288a80f818ca",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nThe response provides a factually accurate statement regarding the number of neurons (approximately 86 billion) and synaptic connections (estimated between 100 and 150 trillion) in the human brain. These figures are consistent with current scientific consensus (e.g., studies by Suzana Herculano-Houzel). The response does not contain any false contradictions and correctly answers the open-ended question with a verifiable scientific fact.",
+  "finish_reason": "stop",
+  "prompt_tokens": 343,
+  "completion_tokens": 94,
+  "total_tokens": 437,
+  "timestamp": "2026-09-22T17:11:42.771758+00:00"
+}

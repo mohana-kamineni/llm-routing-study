@@ -1,0 +1,21 @@
+{
+  "prompt_id": "5f0af0123af84c67ad320b57f102787d",
+  "category": "factual_qa",
+  "prompt_text": "Who was the captain of the second mission that flew to the moon",
+  "model": "openai/gpt-oss-20b",
+  "provider": "groq",
+  "model_returned": "openai/gpt-oss-20b",
+  "raw_response": "The second crewed mission that actually flew to the Moon was **Apollo 10**.  \nIts commander (the “captain” of the flight) was **Thomas P. Stafford**.  \n\n- **Apollo 8** (first crewed lunar‑orbit mission) – Commander Frank Borman.  \n- **Apollo 10** (second crewed lunar‑orbit mission, a “dress‑rehearsal” for Apollo 11) – Commander Thomas P. Stafford, Pilot John W. Young, Lunar Module Pilot Eugene Cernan.",
+  "response_text": "The second crewed mission that actually flew to the Moon was **Apollo 10**.  \nIts commander (the “captain” of the flight) was **Thomas P. Stafford**.  \n\n- **Apollo 8** (first crewed lunar‑orbit mission) – Commander Frank Borman.  \n- **Apollo 10** (second crewed lunar‑orbit mission, a “dress‑rehearsal” for Apollo 11) – Commander Thomas P. Stafford, Pilot John W. Young, Lunar Module Pilot Eugene Cernan.",
+  "reasoning_text": "The user asks: \"Who was the captain of the second mission that flew to the moon\". We need to interpret. The second mission that flew to the moon. Which missions? Could be Apollo missions? The first mission to fly to the moon was Apollo 8 (first crewed lunar orbit). The second mission to fly to the moon would be Apollo 10? Or Apollo 9? Wait, Apollo 9 was a lunar module test in Earth orbit, not to the moon. Apollo 10 was a full lunar module descent but did not land. Apollo 8 was the first crewed mission to orbit the moon. Apollo 10 was the second crewed mission to fly to the moon (though not landing). The captain of Apollo 10 was Thomas P. Stafford? Actually the commander of Apollo 10 was Thomas P. Stafford. The pilot was John W. Young. The lunar module pilot was Eugene Cernan. So the captain (commander) was Thomas P. Stafford.\n\nBut maybe the user refers to the second mission that flew to the moon in general, including unmanned? The first unmanned mission to the moon was Luna 1? Actually Luna 1 was a flyby of the moon but didn't reach. The first successful lunar landing was Luna 9 (unmanned). But the second mission that flew to the moon? That could be Luna 2 (impact). But the question says \"captain\" which implies a crewed mission. So likely Apollo 10.\n\nAlternatively, maybe the user refers to the second mission that flew to the moon in the context of the Soviet Luna program? The second mission that flew to the moon was Luna 2 (impact). But no captain. So it's likely Apollo.\n\nThus answer: Thomas P. Stafford.\n\nWe should provide context: Apollo 10, second crewed mission to the moon, commander Thomas P. Stafford. Provide details. Also mention that the mission was a \"dress rehearsal\" for Apollo 11. Provide some details about the crew.\n\nWe should also note that the second mission to fly to the moon was Apollo 10, commanded by Thomas P. Stafford. Provide a brief explanation.\n\nWe should also mention that the first mission to fly to the moon was Apollo 8, commanded by Frank Borman. The second was Apollo 10, commanded by Thomas P. Stafford. So answer: Thomas P. Stafford.\n\nWe should also mention that the mission was a lunar orbit and descent test. Provide some details.\n\nThus answer: Thomas P. Stafford.",
+  "input_tokens": 84,
+  "output_tokens": 639,
+  "total_tokens": 723,
+  "reasoning_tokens": 513,
+  "latency_seconds": 0.778,
+  "timestamp": "2026-09-13T11:39:20.675304+00:00",
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "retries": 0,
+  "error": null
+}

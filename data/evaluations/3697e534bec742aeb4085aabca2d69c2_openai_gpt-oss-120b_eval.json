@@ -1,0 +1,14 @@
+{
+  "prompt_id": "3697e534bec742aeb4085aabca2d69c2",
+  "category": "reasoning_math",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response correctly identifies 5 sci-fi movies that satisfy all constraints:\n1. **Genre**: All are Sci-Fi.\n2. **Year**: All are between 1970 and 2020 (1972, 1979, 1988, 1995, 2007).\n3. **IMDB Score**: All have scores significantly above 6.8 (8.1, 8.2, 8.0, 8.0, 7.2).\n4. **Origin**: None are from the USA (Soviet Union, Japan, Spain).\n\nThe factual details (titles, years, directors, countries, and approximate ratings) are accurate. There are no reasoning errors.",
+  "finish_reason": "stop",
+  "prompt_tokens": 642,
+  "completion_tokens": 174,
+  "total_tokens": 816,
+  "timestamp": "2026-09-23T12:27:39.575256+00:00"
+}

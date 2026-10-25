@@ -1,0 +1,14 @@
+{
+  "prompt_id": "83afd6025bcb4b60b57a460216935414",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-120b",
+  "model_slug": "openai_gpt-oss-120b",
+  "evaluator": "qwen/qwen3.8-27b",
+  "verdict": "PASS",
+  "raw_output": "VERDICT: PASS\n\nRationale: The response provides a comprehensive and factually accurate explanation of how a Remote Radio Unit (RRU) functions. It correctly identifies the RRU's role in the C-RAN architecture (splitting baseband processing from radio frequency processing), accurately describes the signal flow for both downlink (DAC, up-conversion, amplification) and uplink (LNA, down-conversion, ADC), and correctly lists key technologies such as CPRI/eCPRI fronthaul, Digital Pre-Distortion (DPD), and synchronization methods (GPS/PTP). There are no factual contradictions or significant errors in the technical details provided.",
+  "finish_reason": "stop",
+  "prompt_tokens": 3388,
+  "completion_tokens": 137,
+  "total_tokens": 3525,
+  "timestamp": "2026-09-28T07:38:29.900384+00:00"
+}

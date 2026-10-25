@@ -1,0 +1,20 @@
+{
+  "prompt_id": "bf2c84f04262472dad0dee708203ccc0",
+  "category": "factual_qa",
+  "model": "openai/gpt-oss-20b",
+  "model_slug": "openai_gpt-oss-20b",
+  "temperature": 0.0,
+  "max_tokens": 4096,
+  "tools": null,
+  "prompt_text": "Can you speak Filipino? translate this to Tagalog: Ferdinand \"Bongbong\" Romualdez Marcos Jr., commonly referred to by the initials PBBM or BBM, is a Filipino politician who is the 17th and current president of the Philippines. He previously served as a senator from 2010 to 2016.",
+  "response_text": "Oo, marunong akong magsalita ng Filipino. Narito ang pagsasalin sa Tagalog:\n\n> Si Ferdinand “Bongbong” Romualdez Marcos Jr., na karaniwang tinutukoy sa pamamagitan ng mga inisyal na PBBM o BBM, ay isang politiko sa Pilipinas na ang ika‑17 at kasalukuyang pangulo ng bansa. Siya ay nagsilbi bilang senador mula 2010 hanggang 2016.",
+  "finish_reason": "stop",
+  "prompt_tokens": 140,
+  "completion_tokens": 430,
+  "total_tokens": 570,
+  "latency_ms": 1942,
+  "retries": 0,
+  "status": "success",
+  "error": null,
+  "timestamp": "2026-09-13T18:37:33.760472+00:00"
+}
