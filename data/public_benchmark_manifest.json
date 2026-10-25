@@ -1,7 +1,7 @@
 {
   "title": "Project 2 — LLM Routing Benchmark Public-Safe Manifest",
   "version": "1.0.0",
-  "license_note": "Governed by LMSYS Chatbot Arena Conversations Terms of Use. Raw conversational texts are omitted to comply with Hugging Face gated access terms and privacy guidelines. To reconstruct full benchmark prompts and responses, obtain authorized access to 'lmsys/chatbot_arena_conversations' and execute the reproduction script.",
+  "license_note": "Governed by LMSYS Chatbot Arena Conversations Terms of Use for academic research. This public manifest provides prompt identifiers, category labels, word counts, and router feature scores without raw text for lightweight integration against the upstream lmsys/chatbot_arena_conversations dataset. Full benchmark prompts and candidate outputs are provided in data/prompts.json and data/responses/ for research evaluation and complete reproducibility under LMSYS research terms.",
   "source_dataset": "lmsys/chatbot_arena_conversations (split: train)",
   "sampling_seed": 42,
   "total_prompts": 500,

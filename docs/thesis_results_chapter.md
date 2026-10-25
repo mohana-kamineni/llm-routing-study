@@ -55,7 +55,7 @@ Every terminal failure—including empty-text generations and degeneracies that 
 
 ### 1.4 Evaluator Judge & Blinded Human Validation
 
-The automated evaluator judge, **`qwen/qwen3.8-27b`**, was executed at $T=0.0$ with `max_tokens=1024` using strict verdict-first parsing (`VERDICT: PASS` or `VERDICT: FAIL`). Across all 1,000 evaluations, zero records were unparseable or lost to API timeouts.
+The automated evaluator judge, **`qwen/qwen3.8-27b`**, was executed at $T=0.0$ with `max_tokens=1024` using strict verdict-first parsing (`VERDICT: PASS` or `VERDICT: FAIL`). Across all 1,000 evaluations (comprising 951 evaluated by the Qwen judge and 49 candidate-side terminal failures), zero records were unparseable or lost to evaluator errors, with all terminal failures accounted for deterministically.
 
 > [!NOTE]
 > **Evaluator Token Limit Reconciliation (`max_tokens=1024`)**: While early design and pilot proposals initially explored a 150-token cap for concise verdict generation, the finalized Phase 3 evaluation pipeline froze `max_tokens=1024` to permit complete, untruncated rationale critiques before or after the machine-readable verdict. Verification across the 1,000 finalized evaluation records on disk confirms that 359 evaluations generated between 151 and 1,024 completion tokens (mean completion tokens = 172.8, 90th percentile = 289.1 tokens). A 150-token limit would have truncated over 37% of the evaluator rationales. All 1,000 evaluations completed with zero unparseable or truncated verdict failures under this 1,024-token setting.

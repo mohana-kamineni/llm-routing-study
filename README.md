@@ -3,7 +3,8 @@
 [![Regression Tests](https://img.shields.io/badge/regression%20tests-7%2F7%20passing-brightgreen)](scripts/test_phase4_regression.py)
 [![Evaluations](https://img.shields.io/badge/evaluations-1%2C000%2F1%2C000%20(100%25)-blue)](data/evaluations/)
 [![Human Validation](https://img.shields.io/badge/human%20validation-%CE%BA%20%3D%201.0000%20(strict)-success)](data/human_validation_results.json)
-[![License: Terms](https://img.shields.io/badge/license-LMSYS%20Research%20Terms-lightgrey)](#licensing--terms)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Data: LMSYS Research Terms](https://img.shields.io/badge/data-LMSYS%20Research%20Terms-lightgrey)](#licensing--data-governance)
 
 ## Overview
 
@@ -39,7 +40,7 @@ A complete thesis results and discussion chapter is archived at [`docs/thesis_re
   - `data/prompts.json`: `a9214823cb8fdc0586f5fb2fb88ac29eeebbdf7d7b70da318be495eae8b8ce03`
   - `data/references.json`: `b1531df0fac52057da5b70e2279fc87eb6475236d194234775fae1231b79e9f3`
   - `data/prompts_manifest.json`: `45d927529bab7e09dd18e536c64ea52bd84bd7f415dd506827f9f863c19d90f5`
-- **Candidate Evaluations**: Exactly 1,000 evaluations completed on disk (500 20B + 500 120B) with zero unresolved API errors or unparseable records.
+- **Candidate Evaluations**: Exactly 1,000 evaluations finalized on disk (500 20B + 500 120B), comprising 951 evaluated by the Qwen judge and 49 candidate-side terminal failures (40 auto-FAIL empty/HTTP-400 responses + 9 degenerate outputs handled as candidate FAILs), with zero unresolved evaluator errors.
 
 ---
 
@@ -200,7 +201,12 @@ llm-routing-study/
 
 ---
 
-## Licensing & Terms
+## Licensing & Data Governance
 
-- User prompt data originates from the [LMSYS Chatbot Arena](https://chat.lmsys.org/) conversations dataset. Raw conversation texts are subject to LMSYS terms of use.
-- Reconstruction instructions and anonymized prompt identifiers are provided in `data/public_benchmark_manifest.json` for reproducible research without raw text redistribution.
+### Software & Evaluation Framework
+All original evaluation scripts, statistical analysis routines, figure generation code, and scoring logic in this repository are licensed under the [MIT License](LICENSE).
+
+### Benchmark Prompts & Model Data
+- **Benchmark Prompts**: User prompt texts originate from the [LMSYS Chatbot Arena Conversations dataset](https://chat.lmsys.org/) (`lmsys/chatbot_arena_conversations`, train split) and are governed by LMSYS terms of use for academic research.
+- **Candidate & Evaluator Outputs**: The 1,000 candidate responses and 1,000 evaluation critique records are open-weights model outputs published strictly for academic reproducibility and non-commercial research verification.
+- **Metadata Manifest**: For pipelines preferring pure identifier mapping without text redistribution, [`data/public_benchmark_manifest.json`](data/public_benchmark_manifest.json) provides a metadata-only manifest containing prompt IDs, category labels, word counts, and router feature scores.
