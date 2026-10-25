@@ -5,6 +5,7 @@
 [![Human Validation](https://img.shields.io/badge/human%20validation-%CE%BA%20%3D%201.0000%20(strict)-success)](data/human_validation_results.json)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Data: LMSYS Research Terms](https://img.shields.io/badge/data-LMSYS%20Research%20Terms-lightgrey)](#licensing--data-governance)
+[![Access: Private Academic Repository](https://img.shields.io/badge/access-private%20academic%20repository-important.svg)](https://github.com/mohana-kamineni/llm-routing-study)
 
 ## Overview
 
@@ -207,6 +208,7 @@ llm-routing-study/
 All original evaluation scripts, statistical analysis routines, figure generation code, and scoring logic in this repository are licensed under the [MIT License](LICENSE).
 
 ### Benchmark Prompts & Model Data
+- **Access Governance**: This repository is maintained as a private academic research repository for thesis examination and verification, ensuring complete 1-click reproducibility for examiners without public redistribution of gated dataset prompts.
 - **Benchmark Prompts**: User prompt texts originate from the [LMSYS Chatbot Arena Conversations dataset](https://chat.lmsys.org/) (`lmsys/chatbot_arena_conversations`, train split) and are governed by LMSYS terms of use for academic research.
 - **Candidate & Evaluator Outputs**: The 1,000 candidate responses and 1,000 evaluation critique records are open-weights model outputs published strictly for academic reproducibility and non-commercial research verification.
 - **Metadata Manifest**: For pipelines preferring pure identifier mapping without text redistribution, [`data/public_benchmark_manifest.json`](data/public_benchmark_manifest.json) provides a metadata-only manifest containing prompt IDs, category labels, word counts, and router feature scores.
